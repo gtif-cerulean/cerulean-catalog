@@ -1,0 +1,65 @@
+{
+  "type": "Collection",
+  "id": "harshness",
+  "stac_version": "1.0.0",
+  "description": "This is an example of how the harshness calculation capability can be triggered and visualized within the dashboard.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./harshness/1970/80706981-1bc4-4927-9591-219b0c850be0.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Harshness capability"
+    }
+  ],
+  "themes": [
+    "ice"
+  ],
+  "tags": [
+    "processing",
+    "capability"
+  ],
+  "satellite": [
+    "multiple"
+  ],
+  "sensor": [
+    "multiple"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "harshness",
+  "endpointtype": "Collection-only",
+  "title": "Harshness capability",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          90,
+          180,
+          -90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-12-17T11:07:19.955802Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}
