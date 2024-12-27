@@ -36,6 +36,30 @@
       ]
     },
     {
+      "rel": "child",
+      "href": "./sea_water_potential_temperature/collection.json",
+      "type": "application/json",
+      "title": "Sea water potential temperature",
+      "code": "SWPT",
+      "id": "sea_water_potential_temperature",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "SWPT",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ]
+    },
+    {
       "rel": "self",
       "href": "https://gtif-cerulean.github.io/catalog/cerulean/catalog.json",
       "type": "application/json"
