@@ -12,6 +12,55 @@
     },
     {
       "rel": "child",
+      "href": "./harshness/collection.json",
+      "type": "application/json",
+      "title": "Harshness capability",
+      "code": "harshness",
+      "id": "harshness",
+      "themes": [
+        "ice"
+      ],
+      "subcode": "harshness",
+      "satellite": [
+        "multiple"
+      ],
+      "sensor": [
+        "multiple"
+      ],
+      "tags": [
+        "processing",
+        "capability"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./sea_water_potential_temperature/collection.json",
+      "type": "application/json",
+      "title": "Sea water potential temperature",
+      "code": "SWPT",
+      "id": "sea_water_potential_temperature",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "SWPT",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./Polaris_algorithm_dmi_demo/collection.json",
       "type": "application/json",
       "title": "Polaris Results demo",
@@ -28,6 +77,24 @@
         "DMI"
       ],
       "collection_group": "Polaris sample results"
+    },
+    {
+      "rel": "child",
+      "href": "./airss_results/collection.json",
+      "type": "application/json",
+      "title": "AIRSS Go or No-Go",
+      "code": "airss_go_or_no_go",
+      "id": "airss_results",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "airss_go_or_no_go",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+      ],
+      "agency": [
+        "DMI"
+      ]
     },
     {
       "rel": "self",
