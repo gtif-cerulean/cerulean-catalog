@@ -1,0 +1,32 @@
+Name: airss_results
+Title: AIRSS Go or No-Go
+EodashIdentifier: airss_go_or_no_go
+Description: ''
+Themes:
+  - cryosphere
+Agency:
+  - DMI
+Colorlegend:
+  title: "Is the vessel_type allowed to proceed?"
+  range: ['#d9ef8b', '#a6d96a', '#66bd63', '#1a9850', '#ff8787', '#ff5252', '#ff0000', '#a70000']
+  domain: 
+    - '<= 0 IN < 2'
+    - '<= 2 IN < 5'
+    - '<= 5 IN < 10'
+    - 'IN > 10'
+    - '<= -2 IN < 0'
+    - '<= -5 IN < -2'
+    - '<= -10 IN < -5'
+    - 'IN < -10'
+  scaleType: "categorical"
+  markType: "circle"
+Image: Polartep_SeaIceCharts_demo/thumbnail.png
+Resources:
+  - Name: FlatGeobuf source
+    Style: https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/collections/Polaris_algorithm_dmi_demo/airss.json
+    Bbox: [-50, 59, -39, 65]
+    TimeEntries:
+      - Time: "202408132000"
+        Assets:
+          - Identifier: "202408132000"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/polaris/202408132000_SouthEast_RIC-airss_polaris.fgb
