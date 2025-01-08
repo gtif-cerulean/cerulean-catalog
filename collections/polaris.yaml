@@ -2,7 +2,7 @@ Name: Polaris_algorithm_dmi_demo
 Title: Polaris Results demo
 EodashIdentifier: Polaris_algorithm_dmi_demo
 Description: ''
-CollectionGroup: 'Polaris sample results'
+# CollectionGroup: 'Polaris sample results'
 Themes:
   - cryosphere
 Agency:
