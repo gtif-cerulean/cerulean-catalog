@@ -12,52 +12,22 @@
     },
     {
       "rel": "child",
-      "href": "./harshness/collection.json",
+      "href": "./Polaris_algorithm_dmi_demo/collection.json",
       "type": "application/json",
-      "title": "Harshness capability",
-      "code": "harshness",
-      "id": "harshness",
-      "themes": [
-        "ice"
-      ],
-      "subcode": "harshness",
-      "satellite": [
-        "multiple"
-      ],
-      "sensor": [
-        "multiple"
-      ],
-      "tags": [
-        "processing",
-        "capability"
-      ],
-      "agency": [
-        "ESA"
-      ]
-    },
-    {
-      "rel": "child",
-      "href": "./sea_water_potential_temperature/collection.json",
-      "type": "application/json",
-      "title": "Sea water potential temperature",
-      "code": "SWPT",
-      "id": "sea_water_potential_temperature",
+      "title": "Polaris Results demo",
+      "code": "Polaris_algorithm_dmi_demo",
+      "id": "Polaris_algorithm_dmi_demo",
       "themes": [
         "cryosphere"
       ],
-      "subcode": "SWPT",
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
-      ],
-      "tags": [
-        "model"
+      "subcode": "Polaris_algorithm_dmi_demo",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
       ],
       "agency": [
-        "CMEMS"
-      ]
+        "DMI"
+      ],
+      "collection_group": "Polaris sample results"
     },
     {
       "rel": "self",

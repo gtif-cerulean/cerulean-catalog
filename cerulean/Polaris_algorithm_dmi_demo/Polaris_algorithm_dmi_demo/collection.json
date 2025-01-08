@@ -1,0 +1,101 @@
+{
+  "type": "Collection",
+  "id": "Polaris_algorithm_dmi_demo",
+  "stac_version": "1.0.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./Polaris_algorithm_dmi_demo/2024/2024-08-13T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2024-08-13T00:00:00Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/polaris/202408132000_SouthEast_RIC-airss_polaris.fgb"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/collections/Polaris_algorithm_dmi_demo/style.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "202408132000"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Polaris Results demo"
+    }
+  ],
+  "thumbnail": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
+  "themes": [
+    "cryosphere"
+  ],
+  "agency": [
+    "DMI"
+  ],
+  "subcode": "Polaris_algorithm_dmi_demo",
+  "collection_group": "Polaris sample results",
+  "eox:colorlegend": {
+    "title": "Total concentration colour code standard",
+    "range": [
+      "#367a4a",
+      "#3e9655",
+      "#66bc76",
+      "#fcfb01",
+      "#e36c09",
+      "#bc0106",
+      "#fcfb01"
+    ],
+    "domain": [
+      "RIO > 20: Normal Operation",
+      ">= 10 RIO < 20: Normal Operation",
+      ">= 0 RIO < 10: Normal Operation",
+      ">= -10 RIO < 0: Operation subject to special consideration",
+      ">= -20 RIO < -10: Operation subject to special consideration",
+      "RIO < -20: Operation subject to special consideration",
+      "<= -10 RIO < 0: Elevated operational risk"
+    ],
+    "scaleType": "categorical",
+    "markType": "circle"
+  },
+  "endpointtype": "FlatGeobuf source",
+  "title": "Polaris Results demo",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -50,
+          59,
+          -39,
+          65
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-08-13T00:00:00Z",
+          "2024-08-13T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}
