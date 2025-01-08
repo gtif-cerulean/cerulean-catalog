@@ -42,7 +42,6 @@
     "DMI"
   ],
   "subcode": "Polaris_algorithm_dmi_demo",
-  "collection_group": "Polaris sample results",
   "eox:colorlegend": {
     "title": "Total concentration colour code standard",
     "range": [
