@@ -78,7 +78,7 @@
   ],
   "assets": {
     "202408132000": {
-      "href": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/polaris/202408132000_SouthEast_RIC-airss_polaris.fgb",
+      "href": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/polaris/202408131425_CapeFarewell_RIC-processed.fgb",
       "type": "application/vnd.flatgeobuf",
       "roles": [
         "data"
