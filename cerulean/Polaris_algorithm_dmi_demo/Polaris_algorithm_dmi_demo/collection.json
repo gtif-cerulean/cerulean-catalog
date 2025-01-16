@@ -31,7 +31,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Polaris Results demo"
+      "title": "POLARIS"
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
@@ -43,7 +43,7 @@
   ],
   "subcode": "Polaris_algorithm_dmi_demo",
   "endpointtype": "FlatGeobuf source",
-  "title": "Polaris Results demo",
+  "title": "POLARIS",
   "extent": {
     "spatial": {
       "bbox": [

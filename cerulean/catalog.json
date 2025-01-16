@@ -63,7 +63,7 @@
       "rel": "child",
       "href": "./Polaris_algorithm_dmi_demo/collection.json",
       "type": "application/json",
-      "title": "Polaris Results demo",
+      "title": "POLARIS",
       "code": "Polaris_algorithm_dmi_demo",
       "id": "Polaris_algorithm_dmi_demo",
       "themes": [
