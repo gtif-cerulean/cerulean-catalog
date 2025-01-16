@@ -106,29 +106,6 @@
     "DMI"
   ],
   "subcode": "Polaris_algorithm_dmi_demo",
-  "eox:colorlegend": {
-    "title": "Total concentration colour code standard",
-    "range": [
-      "#367a4a",
-      "#3e9655",
-      "#66bc76",
-      "#fcfb01",
-      "#e36c09",
-      "#bc0106",
-      "#fcfb01"
-    ],
-    "domain": [
-      "RIO > 20: Normal Operation",
-      ">= 10 RIO < 20: Normal Operation",
-      ">= 0 RIO < 10: Normal Operation",
-      ">= -10 RIO < 0: Operation subject to special consideration",
-      ">= -20 RIO < -10: Operation subject to special consideration",
-      "RIO < -20: Operation subject to special consideration",
-      "<= -10 RIO < 0: Elevated operational risk"
-    ],
-    "scaleType": "categorical",
-    "markType": "circle"
-  },
   "title": "Polaris Results demo",
   "extent": {
     "spatial": {
