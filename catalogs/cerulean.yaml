@@ -10,3 +10,4 @@ collections:
   - SWPT_sea_water_potential_temperature
   - polaris
   - airss
+  - VHM0_wave_significant_height

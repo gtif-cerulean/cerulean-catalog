@@ -1,13 +1,13 @@
-Name: sea_water_potential_temperature
-Title: Sea water potential temperature
-EodashIdentifier: SWPT
+Name: wave_significant_height
+Title: Sea surface wave significant wave height
+EodashIdentifier: VHM0
 Description: |
-  Example datasets from CMEMS with statistical access.
-  Sea water potential temperature is a measure of the temperature of the water in the ocean, which is calculated from the temperature of the water and the pressure at which it is found. This is a model output from the Copernicus Marine Environment Monitoring Service (CMEMS).
+  N/A
 Themes:
   - Energy
   - Aquaculture
-CollectionGroup: Sea Water
+  - Shipping
+CollectionGroup: Waves
 Satellite:
   - placeholder
 Sensor:
@@ -17,16 +17,16 @@ Agency:
 Tags:
   - model
 Resources:
-  - EndPoint: https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy-thetao_anfc_0.083deg_P1D-m_202406
+  - EndPoint: https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_WAV_001_027/cmems_mod_glo_wav_anfc_0.083deg_PT3H-i_202411
     Type: WMTSCapabilities
     Name: marinedatastore
-    LayerId: GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy-thetao_anfc_0.083deg_P1D-m_202406/thetao
+    LayerId: GLOBAL_ANALYSISFORECAST_WAV_001_027/cmems_mod_glo_wav_anfc_0.083deg_PT3H-i_202411/VHM0
     Query:
-      Start: "2022-06-01T00:00:00Z"
-      End: "2025-01-05T00:00:00Z"
+      Start: "2024-01-01T00:00:00Z"
+      End: "2025-01-27T00:00:00Z"
     Dimensions:
       elevation: 0
-      style: 'cmap:thermal,range:-3/30'
+      style: 'cmap:amp'
 Provider:
   - Name: E.U. Copernicus Marine Service Information (CMEMS)
     Url: https://data.marine.copernicus.eu/
@@ -36,9 +36,9 @@ Provider:
 Process:
   Name: process_cmems
   JsonForm: https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json
-  VegaDefinition: https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/SWPT.json
+  VegaDefinition: https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/VHM0.json
   EndPoints:
     - Identifier: process_cmems
-      Url: "https://statelix.hub-int.eox.at/cmems?dataset_id=cmems_mod_glo_phy-thetao_anfc_0.083deg_P1D-m&variables=thetao&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}"
+      Url: "https://statelix.hub-int.eox.at/cmems?dataset_id=cmems_mod_glo_wav_anfc_0.083deg_PT3H-i&variables=VHM0&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}"
       Type: application/json
       
