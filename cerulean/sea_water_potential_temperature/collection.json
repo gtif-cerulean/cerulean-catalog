@@ -19,7 +19,8 @@
       "code": "SWPT",
       "id": "sea_water_potential_temperature",
       "themes": [
-        "cryosphere"
+        "Energy",
+        "Aquaculture"
       ],
       "tags": [
         "model"
@@ -33,7 +34,8 @@
       "agency": [
         "CMEMS"
       ],
-      "subcode": "SWPT"
+      "subcode": "SWPT",
+      "collection_group": "Sea Water"
     },
     {
       "rel": "service",
@@ -115,7 +117,8 @@
     }
   ],
   "themes": [
-    "cryosphere"
+    "Energy",
+    "Aquaculture"
   ],
   "tags": [
     "model"
@@ -130,8 +133,9 @@
     "CMEMS"
   ],
   "subcode": "SWPT",
-  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/cmems_jsonform_process.json",
-  "eodash:vegadefinition": "https://santilland.github.io/process_example/definitions/cmems_vega_process.json",
+  "collection_group": "Sea Water",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/SWPT.json",
   "title": "Sea water potential temperature",
   "extent": {
     "spatial": {
@@ -175,7 +179,8 @@
       "SWPT"
     ],
     "themes": [
-      "cryosphere"
+      "Energy",
+      "Aquaculture"
     ],
     "satellite": [
       "placeholder"

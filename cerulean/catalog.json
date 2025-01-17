@@ -43,7 +43,8 @@
       "code": "SWPT",
       "id": "sea_water_potential_temperature",
       "themes": [
-        "cryosphere"
+        "Energy",
+        "Aquaculture"
       ],
       "subcode": "SWPT",
       "satellite": [
@@ -57,7 +58,8 @@
       ],
       "agency": [
         "CMEMS"
-      ]
+      ],
+      "collection_group": "Sea Water"
     },
     {
       "rel": "child",
@@ -94,6 +96,33 @@
       "agency": [
         "DMI"
       ]
+    },
+    {
+      "rel": "child",
+      "href": "./wave_significant_height/collection.json",
+      "type": "application/json",
+      "title": "Sea surface wave significant wave height",
+      "code": "VHM0",
+      "id": "wave_significant_height",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "subcode": "VHM0",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Waves"
     },
     {
       "rel": "self",

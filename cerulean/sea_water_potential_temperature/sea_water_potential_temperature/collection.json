@@ -5726,7 +5726,8 @@
     }
   ],
   "themes": [
-    "cryosphere"
+    "Energy",
+    "Aquaculture"
   ],
   "tags": [
     "model"
@@ -5741,6 +5742,7 @@
     "CMEMS"
   ],
   "subcode": "SWPT",
+  "collection_group": "Sea Water",
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Sea water potential temperature",
   "extent": {
