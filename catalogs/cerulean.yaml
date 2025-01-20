@@ -11,3 +11,15 @@ collections:
   - polaris
   - airss
   - VHM0_wave_significant_height
+  - NPPB_net_primary_production_of_biomass
+  - DO_dissolved_oxygen
+  - DIC_dissolved_inorganic_carbon
+  - PH_ph
+  - TA_total_alkalinity
+  - SCO2_surface_co2
+  - DI_dissolved_iron
+  - NO3_nitrate
+  - PO4_phosphate
+  - SI_dissolved_silicate
+  - PHYC_total_phytoplankton
+  - ZOOC_total_zooplankton
