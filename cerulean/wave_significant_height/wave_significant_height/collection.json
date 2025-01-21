@@ -18844,7 +18844,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Sea surface wave significant wave height"
+      "title": "Spectral significant wave height"
     }
   ],
   "themes": [
@@ -18867,7 +18867,7 @@
   "subcode": "VHM0",
   "collection_group": "Waves",
   "endpointtype": "marinedatastore_WMTSCapabilities",
-  "title": "Sea surface wave significant wave height",
+  "title": "Spectral significant wave height",
   "extent": {
     "spatial": {
       "bbox": [

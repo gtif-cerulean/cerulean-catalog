@@ -49,7 +49,7 @@
         "ESA"
       ],
       "subcode": "SHS1",
-      "collection_group": "Auxiliary data",
+      "collection_group": "Other data",
       "satellite": [
         "Sentinel-1"
       ]
@@ -167,12 +167,12 @@
   "license": "proprietary",
   "summaries": {
     "subcode": [
-      "Polaris_algorithm_dmi_demo",
-      "SHS1"
+      "SHS1",
+      "Polaris_algorithm_dmi_demo"
     ],
     "themes": [
-      "Shipping",
       "Aquaculture",
+      "Shipping",
       "Energy"
     ],
     "satellite": [

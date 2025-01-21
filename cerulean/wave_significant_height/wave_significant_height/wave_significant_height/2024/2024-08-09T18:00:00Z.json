@@ -35,13 +35,13 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Sea surface wave significant wave height"
+      "title": "Spectral significant wave height"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Sea surface wave significant wave height"
+      "title": "Spectral significant wave height"
     }
   ],
   "assets": {},

@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./wave_significant_height/collection.json",
       "type": "application/json",
-      "title": "Sea surface wave significant wave height",
+      "title": "Spectral significant wave height",
       "endpointtype": "marinedatastore_WMTSCapabilities",
       "code": "VHM0",
       "id": "wave_significant_height",
@@ -138,7 +138,7 @@
   "collection_group": "Waves",
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/VHM0.json",
-  "title": "Sea surface wave significant wave height",
+  "title": "Spectral significant wave height",
   "extent": {
     "spatial": {
       "bbox": [

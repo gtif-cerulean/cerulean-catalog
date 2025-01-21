@@ -32,7 +32,7 @@
         "ESA"
       ],
       "subcode": "SHS1",
-      "collection_group": "Auxiliary data",
+      "collection_group": "Other data",
       "satellite": [
         "Sentinel-1"
       ]
@@ -124,7 +124,7 @@
     "ESA"
   ],
   "subcode": "SHS1",
-  "collection_group": "Auxiliary data",
+  "collection_group": "Other data",
   "satellite": [
     "Sentinel-1"
   ],
