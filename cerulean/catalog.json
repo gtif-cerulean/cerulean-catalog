@@ -96,8 +96,8 @@
         "Sentinel-1"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
       ],
       "collection_group": "Capabilities"
     },
@@ -750,6 +750,168 @@
         "CMEMS"
       ],
       "collection_group": "Water Biology"
+    },
+    {
+      "rel": "child",
+      "href": "./air_density/collection.json",
+      "type": "application/json",
+      "title": "Air density",
+      "code": "AD",
+      "id": "air_density",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "subcode": "AD",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Wind"
+    },
+    {
+      "rel": "child",
+      "href": "./eastward_wind/collection.json",
+      "type": "application/json",
+      "title": "Stress-equivalent wind eastward component",
+      "code": "EWW",
+      "id": "eastward_wind",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "subcode": "EWW",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Wind"
+    },
+    {
+      "rel": "child",
+      "href": "./norhtward_wind/collection.json",
+      "type": "application/json",
+      "title": "Stress-equivalent wind northward component",
+      "code": "NWW",
+      "id": "norhtward_wind",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "subcode": "NWW",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Wind"
+    },
+    {
+      "rel": "child",
+      "href": "./wind_stress_eastward/collection.json",
+      "type": "application/json",
+      "title": "Surface wind stress eastward component",
+      "code": "WSE",
+      "id": "wind_stress_eastward",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "subcode": "WSE",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Wind"
+    },
+    {
+      "rel": "child",
+      "href": "./wind_stress_northward/collection.json",
+      "type": "application/json",
+      "title": "Surface wind stress northward component",
+      "code": "WSN",
+      "id": "wind_stress_northward",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "subcode": "WSN",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Wind"
+    },
+    {
+      "rel": "child",
+      "href": "./curl_of_stress_equivalent_wind/collection.json",
+      "type": "application/json",
+      "title": "Curl of stress-equivalent wind",
+      "code": "WCS",
+      "id": "curl_of_stress_equivalent_wind",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "subcode": "WCS",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Wind"
     },
     {
       "rel": "self",
