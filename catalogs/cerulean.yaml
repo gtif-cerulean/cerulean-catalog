@@ -9,6 +9,7 @@ collections:
   - harshness
   - SWPT_sea_water_potential_temperature
   - polaris
+  - POS1_polaris_sentinel1
   - airss
   - VHM0_wave_significant_height
   - NPPB_net_primary_production_of_biomass

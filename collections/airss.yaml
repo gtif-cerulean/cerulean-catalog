@@ -1,6 +1,7 @@
 Name: airss_results
 Title: AIRSS Go or No-Go
 EodashIdentifier: airss_go_or_no_go
+CollectionGroup: Capabilities
 Description: ''
 Themes:
   - cryosphere

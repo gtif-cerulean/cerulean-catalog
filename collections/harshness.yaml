@@ -1,6 +1,7 @@
 Name: harshness
 Title: Harshness capability
 EodashIdentifier: harshness
+CollectionGroup: Capabilities
 Description: This is an example of how the harshness calculation capability can be triggered and visualized within the dashboard.
 Themes:
   - ice
