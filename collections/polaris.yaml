@@ -4,7 +4,7 @@ EodashIdentifier: Polaris_algorithm_dmi_demo
 Description: ''
 # CollectionGroup: 'Polaris sample results'
 Themes:
-  - cryosphere
+  - Shipping
 Agency:
   - DMI
 Image: Polartep_SeaIceCharts_demo/thumbnail.png
