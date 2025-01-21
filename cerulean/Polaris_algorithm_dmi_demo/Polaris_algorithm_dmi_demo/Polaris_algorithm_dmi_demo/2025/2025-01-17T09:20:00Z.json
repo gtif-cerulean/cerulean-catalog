@@ -2,7 +2,7 @@
   "type": "Feature",
   "stac_version": "1.0.0",
   "stac_extensions": [],
-  "id": "2024-08-13T00:00:00Z",
+  "id": "2025-01-17T09:20:00Z",
   "geometry": {
     "type": "FeatureCollection",
     "features": [
@@ -13,24 +13,24 @@
           "coordinates": [
             [
               [
-                -50,
-                59
+                -120,
+                14
               ],
               [
-                -39,
-                59
+                70,
+                14
               ],
               [
-                -39,
-                65
+                70,
+                85
               ],
               [
-                -50,
-                65
+                -120,
+                85
               ],
               [
-                -50,
-                59
+                -120,
+                14
               ]
             ]
           ]
@@ -40,13 +40,13 @@
     ]
   },
   "bbox": [
-    -50,
-    59,
-    -39,
-    65
+    -120,
+    14,
+    70,
+    85
   ],
   "properties": {
-    "datetime": "2024-08-13T00:00:00Z"
+    "datetime": "2025-01-17T09:20:00Z"
   },
   "links": [
     {
@@ -54,7 +54,7 @@
       "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/collections/Polaris_algorithm_dmi_demo/style.json",
       "type": "text/vector-styles",
       "asset:keys": [
-        "202408132000"
+        "20250117T0920"
       ]
     },
     {
@@ -77,8 +77,8 @@
     }
   ],
   "assets": {
-    "202408132000": {
-      "href": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/polaris/202408131425_CapeFarewell_RIC-processed.fgb",
+    "20250117T0920": {
+      "href": "https://obs.eu-nl.otc.t-systems.com/gtif-data-cerulean1/output-polaris/202501170920_CapeFarewell_RIC-processed.fgb",
       "type": "application/vnd.flatgeobuf",
       "roles": [
         "data"
