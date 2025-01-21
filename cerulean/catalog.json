@@ -96,8 +96,8 @@
         "Sentinel-1"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
       ],
       "collection_group": "Capabilities"
     },
@@ -475,6 +475,281 @@
         "ESA"
       ],
       "collection_group": "Auxiliary data"
+    },
+    {
+      "rel": "child",
+      "href": "./chlorophyll_concentration/collection.json",
+      "type": "application/json",
+      "title": "Chlorophyll-a concentration",
+      "code": "CHLA",
+      "id": "chlorophyll_concentration",
+      "themes": [
+        "Aquaculture"
+      ],
+      "subcode": "CHLA",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Biology"
+    },
+    {
+      "rel": "child",
+      "href": "./diatoms_chlorophyll_a/collection.json",
+      "type": "application/json",
+      "title": "Diatoms Chlorophyll a concentration",
+      "code": "DIATO",
+      "id": "diatoms_chlorophyll_a",
+      "themes": [
+        "Aquaculture"
+      ],
+      "subcode": "DIATO",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Biology"
+    },
+    {
+      "rel": "child",
+      "href": "./dinophytes_chlorophyll_a/collection.json",
+      "type": "application/json",
+      "title": "Dinophytes Chlorophyll a - Uncertainty estimation",
+      "code": "DINO_uncertainty",
+      "id": "dinophytes_chlorophyll_a",
+      "themes": [
+        "Aquaculture"
+      ],
+      "subcode": "DINO_uncertainty",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Biology"
+    },
+    {
+      "rel": "child",
+      "href": "./green_algae/collection.json",
+      "type": "application/json",
+      "title": "Green Algae Chlorophyll a concentration",
+      "code": "GREEN",
+      "id": "green_algae",
+      "themes": [
+        "Aquaculture"
+      ],
+      "subcode": "GREEN",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Biology"
+    },
+    {
+      "rel": "child",
+      "href": "./haptophytes_chlorophyll_a/collection.json",
+      "type": "application/json",
+      "title": "Haptophytes Chlorophyll a concentration",
+      "code": "HAPTO",
+      "id": "haptophytes_chlorophyll_a",
+      "themes": [
+        "Aquaculture"
+      ],
+      "subcode": "HAPTO",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Biology"
+    },
+    {
+      "rel": "child",
+      "href": "./microphytoplankton_chlorophyll_a/collection.json",
+      "type": "application/json",
+      "title": "Microphytoplankton Chlorophyll a concentration",
+      "code": "MICRO",
+      "id": "microphytoplankton_chlorophyll_a",
+      "themes": [
+        "Aquaculture"
+      ],
+      "subcode": "MICRO",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Biology"
+    },
+    {
+      "rel": "child",
+      "href": "./nanophytoplankton_hlorophyll_a/collection.json",
+      "type": "application/json",
+      "title": "Nanophytoplankton Chlorophyll a concentration",
+      "code": "NANO",
+      "id": "nanophytoplankton_hlorophyll_a",
+      "themes": [
+        "Aquaculture"
+      ],
+      "subcode": "NANO",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Biology"
+    },
+    {
+      "rel": "child",
+      "href": "./picophytoplankton_chlorophyll_a/collection.json",
+      "type": "application/json",
+      "title": "Picophytoplankton Chlorophyll a concentration",
+      "code": "PICO",
+      "id": "picophytoplankton_chlorophyll_a",
+      "themes": [
+        "Aquaculture"
+      ],
+      "subcode": "PICO",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Biology"
+    },
+    {
+      "rel": "child",
+      "href": "./prochlorophytes_chlorophyll_a/collection.json",
+      "type": "application/json",
+      "title": "Prochlorophytes Chlorophyll a concentration",
+      "code": "PROCHLO",
+      "id": "prochlorophytes_chlorophyll_a",
+      "themes": [
+        "Aquaculture"
+      ],
+      "subcode": "PROCHLO",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Biology"
+    },
+    {
+      "rel": "child",
+      "href": "./prokaryotes_chlorophyll_a/collection.json",
+      "type": "application/json",
+      "title": "Prokaryotes Chlorophyll a concentration",
+      "code": "PROKAR",
+      "id": "prokaryotes_chlorophyll_a",
+      "themes": [
+        "Aquaculture"
+      ],
+      "subcode": "PROKAR",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Biology"
+    },
+    {
+      "rel": "child",
+      "href": "./inorganic_suspended_pm/collection.json",
+      "type": "application/json",
+      "title": "Inorganic suspended particulate matter in sea water",
+      "code": "SPM",
+      "id": "inorganic_suspended_pm",
+      "themes": [
+        "Aquaculture"
+      ],
+      "subcode": "SPM",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Biology"
     },
     {
       "rel": "self",

@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "Sentinel1-EW-HH",
+  "id": "dinophytes_chlorophyll_a",
   "stac_version": "1.0.0",
-  "description": "SENTINEL_1_IW_VV",
+  "description": "N/A\n",
   "links": [
     {
       "rel": "root",
@@ -12,30 +12,36 @@
     },
     {
       "rel": "child",
-      "href": "./Sentinel1-EW-HH/collection.json",
+      "href": "./dinophytes_chlorophyll_a/collection.json",
       "type": "application/json",
-      "title": "Sentinel 1 EW HH",
-      "endpointtype": "Sentinel Hub WMS",
-      "code": "SHS1",
-      "id": "Sentinel1-EW-HH",
+      "title": "Dinophytes Chlorophyll a - Uncertainty estimation",
+      "endpointtype": "marinedatastore_WMTSCapabilities",
+      "code": "DINO_uncertainty",
+      "id": "dinophytes_chlorophyll_a",
       "themes": [
-        "Energy",
-        "Aquaculture",
-        "Shipping"
+        "Aquaculture"
       ],
       "tags": [
-        "Sentinel",
-        "Open data"
+        "model"
+      ],
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
       ],
       "agency": [
-        "European Commission",
-        "ESA"
+        "CMEMS"
       ],
-      "subcode": "SHS1",
-      "collection_group": "Auxiliary data",
-      "satellite": [
-        "Sentinel-1"
-      ]
+      "subcode": "DINO_uncertainty",
+      "collection_group": "Water Biology"
+    },
+    {
+      "rel": "service",
+      "href": "https://statelix.hub-int.eox.at/cmems?dataset_id=cmems_mod_glo_wav_anfc_0.083deg_PT3H-i&variables=VHM0&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}",
+      "type": "application/json",
+      "id": "process_cmems",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -109,48 +115,48 @@
       "title": "Cerulean GTIF project catalog"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
   "themes": [
-    "Energy",
-    "Aquaculture",
-    "Shipping"
+    "Aquaculture"
   ],
   "tags": [
-    "Sentinel",
-    "Open data"
+    "model"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
   ],
   "agency": [
-    "European Commission",
-    "ESA"
+    "CMEMS"
   ],
-  "subcode": "SHS1",
-  "collection_group": "Auxiliary data",
-  "satellite": [
-    "Sentinel-1"
-  ],
-  "title": "Sentinel 1 EW HH",
+  "subcode": "DINO_uncertainty",
+  "collection_group": "Water Biology",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/VHM0.json",
+  "title": "Dinophytes Chlorophyll a - Uncertainty estimation",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180,
-          -85,
-          180,
-          85
+          -179.9791717529297,
+          -89.97917175292969,
+          179.9791717529297,
+          89.97916412353516
         ],
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          -179.9791717529297,
+          -89.97917175292969,
+          179.9791717529297,
+          89.97916412353516
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2022-01-01T00:00:00Z",
-          "2025-01-21T00:00:00Z"
+          "2024-10-01T00:00:00Z",
+          "2024-12-01T00:00:00Z"
         ]
       ]
     }
@@ -158,36 +164,26 @@
   "license": "proprietary",
   "providers": [
     {
-      "name": "Copernicus",
-      "url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
-    },
-    {
-      "name": "Sentinel-Hub"
+      "name": "E.U. Copernicus Marine Service Information (CMEMS)",
+      "description": "The Copernicus Marine Service (or Copernicus Marine Environment Monitoring Service) is the marine component of the Copernicus Programme of the European Union. It provides free, regular and systematic authoritative information on the state of the Blue (physical), White (sea ice) and Green (biogeochemical) ocean,  on a global and regional scale. It is funded by the European Commission (EC) and implemented by Mercator Ocean International. It is designed to serve EU policies and International legal Commitments related to Ocean Governance, to cater for the needs of society at large for global ocean knowledge and to boost the Blue Economy across all maritime sectors by providing free-of-charge state-of-the-art ocean data and information.",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://data.marine.copernicus.eu/"
     }
   ],
   "summaries": {
     "subcode": [
-      "SHS1"
+      "DINO_uncertainty"
     ],
     "themes": [
-      "Shipping",
-      "Energy",
       "Aquaculture"
     ],
     "satellite": [
-      "Sentinel-1"
+      "placeholder"
     ],
-    "thumbnail": [
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+    "sensor": [
+      "placeholder"
     ]
-  },
-  "assets": {
-    "thumbnail": {
-      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
-      "type": "image/png",
-      "roles": [
-        "thumbnail"
-      ]
-    }
   }
 }
