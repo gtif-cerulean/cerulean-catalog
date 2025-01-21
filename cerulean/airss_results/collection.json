@@ -24,7 +24,8 @@
       "agency": [
         "DMI"
       ],
-      "subcode": "airss_go_or_no_go"
+      "subcode": "airss_go_or_no_go",
+      "collection_group": "Capabilities"
     },
     {
       "rel": "xyz",
@@ -106,6 +107,7 @@
     "DMI"
   ],
   "subcode": "airss_go_or_no_go",
+  "collection_group": "Capabilities",
   "eox:colorlegend": {
     "title": "Is the vessel_type allowed to proceed?",
     "range": [

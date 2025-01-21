@@ -12,7 +12,7 @@
     },
     {
       "rel": "item",
-      "href": "./harshness/1970/a7a2004a-6409-4052-b643-7b2d26855c72.json",
+      "href": "./harshness/1970/5e6ee701-d221-4c88-811a-8aaa1d205326.json",
       "type": "application/json"
     },
     {
@@ -39,6 +39,7 @@
     "ESA"
   ],
   "subcode": "harshness",
+  "collection_group": "Capabilities",
   "endpointtype": "Collection-only",
   "title": "Harshness capability",
   "extent": {
@@ -55,7 +56,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-01-21T10:31:11.334888Z",
+          "2025-01-21T10:58:52.734265Z",
           null
         ]
       ]

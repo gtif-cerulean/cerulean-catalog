@@ -24,7 +24,8 @@
       "agency": [
         "DMI"
       ],
-      "subcode": "Polaris_algorithm_dmi_demo"
+      "subcode": "Polaris_algorithm_dmi_demo",
+      "collection_group": "Capabilities"
     },
     {
       "rel": "xyz",
@@ -106,6 +107,7 @@
     "DMI"
   ],
   "subcode": "Polaris_algorithm_dmi_demo",
+  "collection_group": "Capabilities",
   "title": "POLARIS",
   "extent": {
     "spatial": {
