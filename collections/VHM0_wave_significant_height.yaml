@@ -1,5 +1,5 @@
 Name: wave_significant_height
-Title: Sea surface wave significant wave height
+Title: Spectral significant wave height
 EodashIdentifier: VHM0
 Description: |
   N/A
@@ -26,7 +26,7 @@ Resources:
       End: "2025-01-27T00:00:00Z"
     Dimensions:
       elevation: 0
-      style: 'cmap:amp'
+      style: cmap:amp
 Provider:
   - Name: E.U. Copernicus Marine Service Information (CMEMS)
     Url: https://data.marine.copernicus.eu/

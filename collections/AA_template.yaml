@@ -1,13 +1,13 @@
-Name: wave_significant_height
-Title: Sea surface wave significant wave height
-EodashIdentifier: VHM0
+Name: eastward_velocity
+Title: Eastward velocity
+EodashIdentifier: UO
 Description: |
   N/A
 Themes:
   - Aquaculture
   - Energy
   - Shipping
-CollectionGroup: Wind
+CollectionGroup: Sea Ice
 Satellite:
   - placeholder
 Sensor:
@@ -22,7 +22,7 @@ Resources:
     Name: marinedatastore
     LayerId: GLOBAL_ANALYSISFORECAST_WAV_001_027/cmems_mod_glo_wav_anfc_0.083deg_PT3H-i_202411/VHM0
     Query:
-      Start: "2024-09-01T00:00:00Z"
+      Start: "2024-01-01T00:00:00Z"
       End: "2025-01-27T00:00:00Z"
     Dimensions:
       elevation: 0

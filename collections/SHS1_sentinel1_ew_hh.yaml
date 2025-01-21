@@ -2,7 +2,7 @@ Name: Sentinel1-EW-HH
 Title: Sentinel 1 EW HH
 EodashIdentifier: SHS1
 Description: "SENTINEL_1_IW_VV"
-CollectionGroup: Auxiliary data
+CollectionGroup: Other data
 Themes:
   - Energy
   - Aquaculture

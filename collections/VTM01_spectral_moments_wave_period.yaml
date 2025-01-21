@@ -1,13 +1,13 @@
-Name: curl_of_stress_equivalent_wind
-Title: Curl of stress-equivalent wind
-EodashIdentifier: WCS
+Name: spectral_moments_wave_period
+Title: Spectral moments primary swell wave period
+EodashIdentifier: VTM01
 Description: |
   N/A
 Themes:
   - Aquaculture
   - Energy
   - Shipping
-CollectionGroup: Wind
+CollectionGroup: Waves
 Satellite:
   - placeholder
 Sensor:
@@ -17,16 +17,16 @@ Agency:
 Tags:
   - model
 Resources:
-  - EndPoint: https://wmts.marine.copernicus.eu/teroWmts/WIND_GLO_PHY_L4_NRT_012_004/cmems_obs-wind_glo_phy_nrt_l4_0.125deg_PT1H_202207
+  - EndPoint: https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_WAV_001_027/cmems_mod_glo_wav_anfc_0.083deg_PT3H-i_202411
     Type: WMTSCapabilities
     Name: marinedatastore
-    LayerId: WIND_GLO_PHY_L4_NRT_012_004/cmems_obs-wind_glo_phy_nrt_l4_0.125deg_PT1H_202207/wind_curl
+    LayerId: GLOBAL_ANALYSISFORECAST_WAV_001_027/cmems_mod_glo_wav_anfc_0.083deg_PT3H-i_202411/VTM01_SW1
     Query:
-      Start: "2024-12-01T00:00:00Z"
+      Start: "2024-09-01T00:00:00Z"
       End: "2025-01-27T00:00:00Z"
     Dimensions:
       elevation: 0
-      style: cmap:viridis
+      style: cmap:tempo
 Provider:
   - Name: E.U. Copernicus Marine Service Information (CMEMS)
     Url: https://data.marine.copernicus.eu/

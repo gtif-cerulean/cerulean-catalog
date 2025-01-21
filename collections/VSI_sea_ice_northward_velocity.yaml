@@ -1,13 +1,13 @@
-Name: curl_of_stress_equivalent_wind
-Title: Curl of stress-equivalent wind
-EodashIdentifier: WCS
+Name: sea_ice_northward_velocity
+Title: Sea ice norhtward velocity
+EodashIdentifier: VSI
 Description: |
   N/A
 Themes:
   - Aquaculture
   - Energy
   - Shipping
-CollectionGroup: Wind
+CollectionGroup: Sea Ice
 Satellite:
   - placeholder
 Sensor:
@@ -17,16 +17,16 @@ Agency:
 Tags:
   - model
 Resources:
-  - EndPoint: https://wmts.marine.copernicus.eu/teroWmts/WIND_GLO_PHY_L4_NRT_012_004/cmems_obs-wind_glo_phy_nrt_l4_0.125deg_PT1H_202207
+  - EndPoint: https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406
     Type: WMTSCapabilities
     Name: marinedatastore
-    LayerId: WIND_GLO_PHY_L4_NRT_012_004/cmems_obs-wind_glo_phy_nrt_l4_0.125deg_PT1H_202207/wind_curl
+    LayerId: GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406/vsi
     Query:
-      Start: "2024-12-01T00:00:00Z"
+      Start: "2024-01-01T00:00:00Z"
       End: "2025-01-27T00:00:00Z"
     Dimensions:
       elevation: 0
-      style: cmap:viridis
+      style: cmap:delta
 Provider:
   - Name: E.U. Copernicus Marine Service Information (CMEMS)
     Url: https://data.marine.copernicus.eu/

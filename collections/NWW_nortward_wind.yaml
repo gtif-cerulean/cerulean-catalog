@@ -22,7 +22,7 @@ Resources:
     Name: marinedatastore
     LayerId: WIND_GLO_PHY_L4_NRT_012_004/cmems_obs-wind_glo_phy_nrt_l4_0.125deg_PT1H_202207/northward_wind
     Query:
-      Start: "2024-09-01T00:00:00Z"
+      Start: "2024-12-01T00:00:00Z"
       End: "2025-01-27T00:00:00Z"
     Dimensions:
       elevation: 0
