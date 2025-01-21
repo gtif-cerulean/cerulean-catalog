@@ -1,0 +1,102 @@
+{
+  "type": "Collection",
+  "id": "prochlorophytes_chlorophyll_a",
+  "stac_version": "1.0.0",
+  "description": "N/A\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./prochlorophytes_chlorophyll_a/2024/2024-10-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2024-10-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./prochlorophytes_chlorophyll_a/2024/2024-11-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2024-11-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./prochlorophytes_chlorophyll_a/2024/2024-12-01T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2024-12-01T00:00:00Z"
+    },
+    {
+      "rel": "wmts",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-multi-4km_P1M_202411",
+      "type": "image/png",
+      "title": "wmts capabilities",
+      "wmts:layer": "OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-multi-4km_P1M_202411/PROCHLO",
+      "role": [
+        "data"
+      ],
+      "wmts:dimensions": {
+        "elevation": 0,
+        "style": "cmap:amp"
+      }
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Prochlorophytes Chlorophyll a concentration"
+    }
+  ],
+  "themes": [
+    "Aquaculture"
+  ],
+  "tags": [
+    "model"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "CMEMS"
+  ],
+  "subcode": "PROCHLO",
+  "collection_group": "Water Biology",
+  "endpointtype": "marinedatastore_WMTSCapabilities",
+  "title": "Prochlorophytes Chlorophyll a concentration",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -179.9791717529297,
+          -89.97917175292969,
+          179.9791717529297,
+          89.97916412353516
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-10-01T00:00:00Z",
+          "2024-12-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "E.U. Copernicus Marine Service Information (CMEMS)",
+      "description": "The Copernicus Marine Service (or Copernicus Marine Environment Monitoring Service) is the marine component of the Copernicus Programme of the European Union. It provides free, regular and systematic authoritative information on the state of the Blue (physical), White (sea ice) and Green (biogeochemical) ocean,  on a global and regional scale. It is funded by the European Commission (EC) and implemented by Mercator Ocean International. It is designed to serve EU policies and International legal Commitments related to Ocean Governance, to cater for the needs of society at large for global ocean knowledge and to boost the Blue Economy across all maritime sectors by providing free-of-charge state-of-the-art ocean data and information.",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://data.marine.copernicus.eu/"
+    }
+  ]
+}
