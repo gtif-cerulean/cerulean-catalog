@@ -69,7 +69,7 @@
       "code": "Polaris_algorithm_dmi_demo",
       "id": "Polaris_algorithm_dmi_demo",
       "themes": [
-        "cryosphere"
+        "Shipping"
       ],
       "subcode": "Polaris_algorithm_dmi_demo",
       "thumbnail": [
@@ -423,6 +423,35 @@
         "CMEMS"
       ],
       "collection_group": "Water Chemistry"
+    },
+    {
+      "rel": "child",
+      "href": "./Sentinel1-EW-HH/collection.json",
+      "type": "application/json",
+      "title": "Sentinel 1 EW HH",
+      "code": "SHS1",
+      "id": "Sentinel1-EW-HH",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "subcode": "SHS1",
+      "satellite": [
+        "Sentinel-1"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+      ],
+      "tags": [
+        "Sentinel",
+        "Open data"
+      ],
+      "agency": [
+        "European Commission",
+        "ESA"
+      ],
+      "collection_group": "Auxiliary data"
     },
     {
       "rel": "self",

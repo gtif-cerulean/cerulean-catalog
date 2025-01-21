@@ -19,7 +19,7 @@
       "code": "Polaris_algorithm_dmi_demo",
       "id": "Polaris_algorithm_dmi_demo",
       "themes": [
-        "cryosphere"
+        "Shipping"
       ],
       "agency": [
         "DMI"
@@ -100,7 +100,7 @@
   ],
   "thumbnail": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
   "themes": [
-    "cryosphere"
+    "Shipping"
   ],
   "agency": [
     "DMI"
@@ -139,7 +139,7 @@
       "Polaris_algorithm_dmi_demo"
     ],
     "themes": [
-      "cryosphere"
+      "Shipping"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
