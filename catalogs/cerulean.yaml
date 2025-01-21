@@ -25,3 +25,14 @@ collections:
   - PHYC_total_phytoplankton
   - ZOOC_total_zooplankton
   - SHS1_sentinel1_ew_hh
+  - CHLA_chlorophyll_concentration
+  - DIATO_diatoms_chlorophyll_a
+  - DINO_uncertainty_dinophytes_chlorophyll_a
+  - GREEN_green_algae
+  - HAPTO_haptophytes_chlorophyll_a
+  - MICRO_microphytoplankton_chlorophyll_a
+  - NANO_nanophytoplankton_hlorophyll_a
+  - PICO_picophytoplankton_chlorophyll_a
+  - PROCHLO_prochlorophytes_chlorophyll_a
+  - PROKAR_prokaryotes_chlorophyll_a
+  - SPM_inorganic_suspended_pm
