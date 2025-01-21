@@ -61,3 +61,5 @@ collections:
   - SIVELO_sea_ice_speed
   - USI_sea_ice_eastward_velocity
   - VSI_sea_ice_northward_velocity
+  - IBC_iceberg_concentration
+  - shipping_indicator
