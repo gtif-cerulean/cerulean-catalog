@@ -20,13 +20,13 @@ Resources:
     OverwriteBBox: [-180, 90, 180, -90]
 Process:
   Name: harshness
-  JsonForm: https://santilland.github.io/process_example/definitions/harshness_form.json
+  JsonForm: https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/harshness.json
   EndPoints:
     - Identifier: harshnesscollection
       Url: https://harshness-map.gtif.eox.at/processes/execute-create-harshness/execution
       Method: POST
       EndPoint: eoxhub_workspaces
-      Body: https://santilland.github.io/process_example/definitions/harshness_body.json
+      Body: https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/harshness.json
       Type: image/tiff
-      Flatstyle: https://santilland.github.io/process_example/definitions/harshness_style.json
+      Flatstyle: https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/harshness.json
       
