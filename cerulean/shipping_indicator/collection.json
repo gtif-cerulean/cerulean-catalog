@@ -473,22 +473,22 @@
   "license": "proprietary",
   "summaries": {
     "subcode": [
-      "IBC",
-      "SIT",
-      "SST",
-      "USI",
-      "SIVELO",
-      "SHS1",
-      "MSIA",
-      "IST",
       "SICONC",
+      "MSIA",
+      "SST",
+      "SIVELO",
+      "USI",
+      "IST",
+      "IBC",
+      "VSI",
+      "SIT",
       "Polaris_algorithm_dmi_demo",
-      "VSI"
+      "SHS1"
     ],
     "themes": [
-      "Shipping",
       "Aquaculture",
-      "Energy"
+      "Energy",
+      "Shipping"
     ],
     "satellite": [
       "placeholder",
