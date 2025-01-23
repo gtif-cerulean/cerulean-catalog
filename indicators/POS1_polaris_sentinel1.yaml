@@ -1,5 +1,5 @@
 Name: polaris_sentinel1
-Title: POLARIS with Sentinel-1
+Title: POLARIS combined
 EodashIdentifier: POS1
 Description: ''
 CollectionGroup: 'Capabilities'
@@ -8,3 +8,4 @@ Themes:
 Collections:
   - polaris
   - SHS1_sentinel1_ew_hh
+  - SID_sea_ice_detections
