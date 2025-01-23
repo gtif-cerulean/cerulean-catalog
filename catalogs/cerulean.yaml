@@ -63,3 +63,4 @@ collections:
   - VSI_sea_ice_northward_velocity
   - IBC_iceberg_concentration
   - shipping_indicator
+  - SID_sea_ice_detections
