@@ -160,7 +160,7 @@
       "interval": [
         [
           "2024-12-01T00:00:00Z",
-          "2025-01-20T23:00:00Z"
+          "2025-01-21T23:00:00Z"
         ]
       ]
     }
@@ -181,8 +181,8 @@
       "WSE"
     ],
     "themes": [
-      "Aquaculture",
       "Energy",
+      "Aquaculture",
       "Shipping"
     ],
     "satellite": [

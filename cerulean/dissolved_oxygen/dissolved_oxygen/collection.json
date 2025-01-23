@@ -7097,6 +7097,18 @@
       "datetime": "2025-01-24T00:00:00Z"
     },
     {
+      "rel": "item",
+      "href": "./dissolved_oxygen/2025/2025-01-25T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2025-01-25T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./dissolved_oxygen/2025/2025-01-26T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2025-01-26T00:00:00Z"
+    },
+    {
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_BGC_001_028/cmems_mod_glo_bgc-bio_anfc_0.25deg_P1D-m_202311",
       "type": "image/png",
@@ -7151,7 +7163,7 @@
       "interval": [
         [
           "2021-11-01T00:00:00Z",
-          "2025-01-24T00:00:00Z"
+          "2025-01-26T00:00:00Z"
         ]
       ]
     }
