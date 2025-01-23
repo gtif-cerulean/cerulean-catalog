@@ -59,7 +59,7 @@
       "rel": "child",
       "href": "./polaris_sentinel1/collection.json",
       "type": "application/json",
-      "title": "POLARIS with Sentinel-1",
+      "title": "POLARIS combined",
       "code": "POS1",
       "id": "polaris_sentinel1",
       "themes": [
@@ -70,8 +70,8 @@
         "Sentinel-1"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
       ],
       "collection_group": "Capabilities"
     },
@@ -1411,17 +1411,33 @@
       ],
       "subcode": "SHIP1",
       "satellite": [
-        "Sentinel-1",
-        "placeholder"
+        "placeholder",
+        "Sentinel-1"
       ],
       "sensor": [
         "placeholder"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
       ],
       "collection_group": "Capabilities"
+    },
+    {
+      "rel": "child",
+      "href": "./sea_ice_detections/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Detections",
+      "code": "SID",
+      "id": "sea_ice_detections",
+      "themes": [
+        "shipping"
+      ],
+      "subcode": "SID",
+      "agency": [
+        "placeholder"
+      ],
+      "collection_group": "Sea Ice"
     },
     {
       "rel": "self",
