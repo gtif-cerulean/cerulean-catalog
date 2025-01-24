@@ -1,7 +1,7 @@
 {
   "type": "Collection",
   "id": "sea_ice_detections",
-  "stac_version": "1.0.0",
+  "stac_version": "1.1.0",
   "description": "",
   "links": [
     {
@@ -134,7 +134,7 @@
       ]
     }
   },
-  "license": "proprietary",
+  "license": "other",
   "summaries": {
     "subcode": [
       "SID"

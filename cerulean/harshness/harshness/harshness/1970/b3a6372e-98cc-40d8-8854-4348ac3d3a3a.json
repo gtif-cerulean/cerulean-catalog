@@ -1,12 +1,12 @@
 {
   "type": "Feature",
-  "stac_version": "1.0.0",
+  "stac_version": "1.1.0",
   "stac_extensions": [],
-  "id": "88fac507-322d-4ad1-a907-a20d3ea9ae89",
+  "id": "b3a6372e-98cc-40d8-8854-4348ac3d3a3a",
   "geometry": null,
   "properties": {
     "start_datetime": "1970-01-01T00:00:00Z",
-    "end_datetime": "2025-01-23T15:23:01.195264Z",
+    "end_datetime": "2025-01-24T03:42:31.631636Z",
     "datetime": "1970-01-01T00:00:00Z"
   },
   "links": [

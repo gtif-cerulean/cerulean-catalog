@@ -1,7 +1,7 @@
 {
   "type": "Collection",
   "id": "shipping_indicator",
-  "stac_version": "1.0.0",
+  "stac_version": "1.1.0",
   "description": "",
   "links": [
     {
@@ -470,29 +470,29 @@
       ]
     }
   },
-  "license": "proprietary",
+  "license": "other",
   "summaries": {
     "subcode": [
-      "SIT",
-      "IST",
-      "VSI",
       "SHS1",
       "SICONC",
       "IBC",
-      "SST",
-      "USI",
+      "IST",
       "MSIA",
+      "USI",
       "SIVELO",
+      "SST",
+      "VSI",
+      "SIT",
       "Polaris_algorithm_dmi_demo"
     ],
     "themes": [
-      "Shipping",
       "Energy",
+      "Shipping",
       "Aquaculture"
     ],
     "satellite": [
-      "placeholder",
-      "Sentinel-1"
+      "Sentinel-1",
+      "placeholder"
     ],
     "sensor": [
       "placeholder"

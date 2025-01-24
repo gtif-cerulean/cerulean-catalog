@@ -1,7 +1,7 @@
 {
   "type": "Collection",
   "id": "chlorophyll_concentration",
-  "stac_version": "1.0.0",
+  "stac_version": "1.1.0",
   "description": "Mean of the binned pixels\n",
   "links": [
     {
@@ -161,7 +161,7 @@
       ]
     }
   },
-  "license": "proprietary",
+  "license": "other",
   "providers": [
     {
       "name": "E.U. Copernicus Marine Service Information (CMEMS)",

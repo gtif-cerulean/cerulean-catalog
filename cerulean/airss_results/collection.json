@@ -1,7 +1,7 @@
 {
   "type": "Collection",
   "id": "airss_results",
-  "stac_version": "1.0.0",
+  "stac_version": "1.1.0",
   "description": "",
   "links": [
     {
@@ -160,7 +160,7 @@
       ]
     }
   },
-  "license": "proprietary",
+  "license": "other",
   "summaries": {
     "subcode": [
       "airss_go_or_no_go"

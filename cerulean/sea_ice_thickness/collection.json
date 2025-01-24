@@ -1,7 +1,7 @@
 {
   "type": "Collection",
   "id": "sea_ice_thickness",
-  "stac_version": "1.0.0",
+  "stac_version": "1.1.0",
   "description": "N/A\n",
   "links": [
     {
@@ -165,7 +165,7 @@
       ]
     }
   },
-  "license": "proprietary",
+  "license": "other",
   "providers": [
     {
       "name": "E.U. Copernicus Marine Service Information (CMEMS)",
@@ -181,9 +181,9 @@
       "SIT"
     ],
     "themes": [
-      "Aquaculture",
       "Shipping",
-      "Energy"
+      "Energy",
+      "Aquaculture"
     ],
     "satellite": [
       "placeholder"

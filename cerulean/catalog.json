@@ -1,7 +1,7 @@
 {
   "type": "Catalog",
   "id": "cerulean",
-  "stac_version": "1.0.0",
+  "stac_version": "1.1.0",
   "description": "Catalog providing description to available datasets to the Cerulean GTIF project",
   "links": [
     {
@@ -1411,8 +1411,8 @@
       ],
       "subcode": "SHIP1",
       "satellite": [
-        "placeholder",
-        "Sentinel-1"
+        "Sentinel-1",
+        "placeholder"
       ],
       "sensor": [
         "placeholder"

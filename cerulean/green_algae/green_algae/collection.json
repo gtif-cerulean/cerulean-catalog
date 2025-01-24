@@ -1,7 +1,7 @@
 {
   "type": "Collection",
   "id": "green_algae",
-  "stac_version": "1.0.0",
+  "stac_version": "1.1.0",
   "description": "N/A\n",
   "links": [
     {
@@ -13,19 +13,19 @@
     {
       "rel": "item",
       "href": "./green_algae/2024/2024-10-01T00:00:00Z.json",
-      "type": "application/json",
+      "type": "application/geo+json",
       "datetime": "2024-10-01T00:00:00Z"
     },
     {
       "rel": "item",
       "href": "./green_algae/2024/2024-11-01T00:00:00Z.json",
-      "type": "application/json",
+      "type": "application/geo+json",
       "datetime": "2024-11-01T00:00:00Z"
     },
     {
       "rel": "item",
       "href": "./green_algae/2024/2024-12-01T00:00:00Z.json",
-      "type": "application/json",
+      "type": "application/geo+json",
       "datetime": "2024-12-01T00:00:00Z"
     },
     {
@@ -88,7 +88,7 @@
       ]
     }
   },
-  "license": "proprietary",
+  "license": "other",
   "providers": [
     {
       "name": "E.U. Copernicus Marine Service Information (CMEMS)",

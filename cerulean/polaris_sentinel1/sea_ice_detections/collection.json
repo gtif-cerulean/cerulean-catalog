@@ -1,7 +1,7 @@
 {
   "type": "Collection",
   "id": "sea_ice_detections",
-  "stac_version": "1.0.0",
+  "stac_version": "1.1.0",
   "description": "",
   "links": [
     {
@@ -13,7 +13,7 @@
     {
       "rel": "item",
       "href": "./sea_ice_detections/2025/2025-01-01T06:00:00Z.json",
-      "type": "application/json",
+      "type": "application/geo+json",
       "datetime": "2025-01-01T06:00:00Z",
       "assets": [
         "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501010600.tiff"
@@ -22,7 +22,7 @@
     {
       "rel": "item",
       "href": "./sea_ice_detections/2025/2025-01-02T06:00:00Z.json",
-      "type": "application/json",
+      "type": "application/geo+json",
       "datetime": "2025-01-02T06:00:00Z",
       "assets": [
         "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501020600.tiff"
@@ -31,7 +31,7 @@
     {
       "rel": "item",
       "href": "./sea_ice_detections/2025/2025-01-03T06:00:00Z.json",
-      "type": "application/json",
+      "type": "application/geo+json",
       "datetime": "2025-01-03T06:00:00Z",
       "assets": [
         "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501030600.tiff"
@@ -40,7 +40,7 @@
     {
       "rel": "item",
       "href": "./sea_ice_detections/2025/2025-01-04T06:00:00Z.json",
-      "type": "application/json",
+      "type": "application/geo+json",
       "datetime": "2025-01-04T06:00:00Z",
       "assets": [
         "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501040600.tiff"
@@ -49,7 +49,7 @@
     {
       "rel": "item",
       "href": "./sea_ice_detections/2025/2025-01-05T06:00:00Z.json",
-      "type": "application/json",
+      "type": "application/geo+json",
       "datetime": "2025-01-05T06:00:00Z",
       "assets": [
         "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501050600.tiff"
@@ -58,7 +58,7 @@
     {
       "rel": "item",
       "href": "./sea_ice_detections/2025/2025-01-06T06:00:00Z.json",
-      "type": "application/json",
+      "type": "application/geo+json",
       "datetime": "2025-01-06T06:00:00Z",
       "assets": [
         "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501060600.tiff"
@@ -67,7 +67,7 @@
     {
       "rel": "item",
       "href": "./sea_ice_detections/2025/2025-01-07T06:00:00Z.json",
-      "type": "application/json",
+      "type": "application/geo+json",
       "datetime": "2025-01-07T06:00:00Z",
       "assets": [
         "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501070600.tiff"
@@ -76,7 +76,7 @@
     {
       "rel": "item",
       "href": "./sea_ice_detections/2025/2025-01-08T06:00:00Z.json",
-      "type": "application/json",
+      "type": "application/geo+json",
       "datetime": "2025-01-08T06:00:00Z",
       "assets": [
         "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501080600.tiff"
@@ -85,7 +85,7 @@
     {
       "rel": "item",
       "href": "./sea_ice_detections/2025/2025-01-09T06:00:00Z.json",
-      "type": "application/json",
+      "type": "application/geo+json",
       "datetime": "2025-01-09T06:00:00Z",
       "assets": [
         "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501090600.tiff"
@@ -94,7 +94,7 @@
     {
       "rel": "item",
       "href": "./sea_ice_detections/2025/2025-01-10T06:00:00Z.json",
-      "type": "application/json",
+      "type": "application/geo+json",
       "datetime": "2025-01-10T06:00:00Z",
       "assets": [
         "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501100600.tiff"
@@ -103,7 +103,7 @@
     {
       "rel": "item",
       "href": "./sea_ice_detections/2025/2025-01-11T06:00:00Z.json",
-      "type": "application/json",
+      "type": "application/geo+json",
       "datetime": "2025-01-11T06:00:00Z",
       "assets": [
         "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501110600.tiff"
@@ -112,7 +112,7 @@
     {
       "rel": "item",
       "href": "./sea_ice_detections/2025/2025-01-12T06:00:00Z.json",
-      "type": "application/json",
+      "type": "application/geo+json",
       "datetime": "2025-01-12T06:00:00Z",
       "assets": [
         "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501120600.tiff"
@@ -121,7 +121,7 @@
     {
       "rel": "item",
       "href": "./sea_ice_detections/2025/2025-01-13T06:00:00Z.json",
-      "type": "application/json",
+      "type": "application/geo+json",
       "datetime": "2025-01-13T06:00:00Z",
       "assets": [
         "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501130600.tiff"
@@ -130,7 +130,7 @@
     {
       "rel": "item",
       "href": "./sea_ice_detections/2025/2025-01-14T06:00:00Z.json",
-      "type": "application/json",
+      "type": "application/geo+json",
       "datetime": "2025-01-14T06:00:00Z",
       "assets": [
         "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501140600.tiff"
@@ -139,7 +139,7 @@
     {
       "rel": "item",
       "href": "./sea_ice_detections/2025/2025-01-15T06:00:00Z.json",
-      "type": "application/json",
+      "type": "application/geo+json",
       "datetime": "2025-01-15T06:00:00Z",
       "assets": [
         "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501150600.tiff"
@@ -148,7 +148,7 @@
     {
       "rel": "item",
       "href": "./sea_ice_detections/2025/2025-01-16T06:00:00Z.json",
-      "type": "application/json",
+      "type": "application/geo+json",
       "datetime": "2025-01-16T06:00:00Z",
       "assets": [
         "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501160600.tiff"
@@ -157,7 +157,7 @@
     {
       "rel": "item",
       "href": "./sea_ice_detections/2025/2025-01-17T06:00:00Z.json",
-      "type": "application/json",
+      "type": "application/geo+json",
       "datetime": "2025-01-17T06:00:00Z",
       "assets": [
         "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501170600.tiff"
@@ -166,7 +166,7 @@
     {
       "rel": "item",
       "href": "./sea_ice_detections/2025/2025-01-18T06:00:00Z.json",
-      "type": "application/json",
+      "type": "application/geo+json",
       "datetime": "2025-01-18T06:00:00Z",
       "assets": [
         "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501180600.tiff"
@@ -175,7 +175,7 @@
     {
       "rel": "item",
       "href": "./sea_ice_detections/2025/2025-01-19T06:00:00Z.json",
-      "type": "application/json",
+      "type": "application/geo+json",
       "datetime": "2025-01-19T06:00:00Z",
       "assets": [
         "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501190600.tiff"
@@ -184,7 +184,7 @@
     {
       "rel": "item",
       "href": "./sea_ice_detections/2025/2025-01-20T06:00:00Z.json",
-      "type": "application/json",
+      "type": "application/geo+json",
       "datetime": "2025-01-20T06:00:00Z",
       "assets": [
         "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501200600.tiff"
@@ -193,7 +193,7 @@
     {
       "rel": "item",
       "href": "./sea_ice_detections/2025/2025-01-21T06:00:00Z.json",
-      "type": "application/json",
+      "type": "application/geo+json",
       "datetime": "2025-01-21T06:00:00Z",
       "assets": [
         "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501210600.tiff"
@@ -244,5 +244,5 @@
       ]
     }
   },
-  "license": "proprietary"
+  "license": "other"
 }

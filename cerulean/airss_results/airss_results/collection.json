@@ -1,7 +1,7 @@
 {
   "type": "Collection",
   "id": "airss_results",
-  "stac_version": "1.0.0",
+  "stac_version": "1.1.0",
   "description": "",
   "links": [
     {
@@ -13,7 +13,7 @@
     {
       "rel": "item",
       "href": "./airss_results/2024/2024-08-13T00:00:00Z.json",
-      "type": "application/json",
+      "type": "application/geo+json",
       "datetime": "2024-08-13T00:00:00Z",
       "assets": [
         "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/polaris/202408132000_SouthEast_RIC-airss_polaris.fgb"
@@ -90,7 +90,7 @@
       ]
     }
   },
-  "license": "proprietary",
+  "license": "other",
   "assets": {
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",

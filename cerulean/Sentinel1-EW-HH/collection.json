@@ -1,7 +1,7 @@
 {
   "type": "Collection",
   "id": "Sentinel1-EW-HH",
-  "stac_version": "1.0.0",
+  "stac_version": "1.1.0",
   "description": "SENTINEL_1_IW_VV",
   "links": [
     {
@@ -150,12 +150,12 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-01-23T00:00:00Z"
+          "2025-01-24T00:00:00Z"
         ]
       ]
     }
   },
-  "license": "proprietary",
+  "license": "other",
   "providers": [
     {
       "name": "Copernicus",
@@ -170,9 +170,9 @@
       "SHS1"
     ],
     "themes": [
-      "Aquaculture",
       "Shipping",
-      "Energy"
+      "Energy",
+      "Aquaculture"
     ],
     "satellite": [
       "Sentinel-1"

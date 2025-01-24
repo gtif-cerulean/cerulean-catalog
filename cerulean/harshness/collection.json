@@ -1,7 +1,7 @@
 {
   "type": "Collection",
   "id": "harshness",
-  "stac_version": "1.0.0",
+  "stac_version": "1.1.0",
   "description": "This is an example of how the harshness calculation capability can be triggered and visualized within the dashboard.",
   "links": [
     {
@@ -160,12 +160,12 @@
       "interval": [
         [
           "1970-01-01T00:00:00Z",
-          "2025-01-23T15:23:01.195264Z"
+          "2025-01-24T03:42:31.631636Z"
         ]
       ]
     }
   },
-  "license": "proprietary",
+  "license": "other",
   "summaries": {
     "subcode": [
       "harshness"
