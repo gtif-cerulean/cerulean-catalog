@@ -16,6 +16,14 @@ Agency:
   - CMEMS
 Tags:
   - model
+Colorlegend:
+  title: "Iceberg concentration (number of icebergs per 100 km2) [1e-2 km-2]"
+  range: [
+    "rgb(4, 6, 21)",
+    "rgb(69, 123, 185)",
+    "rgb(229, 248, 252)"
+  ]
+  domain: [0, 1]
 Resources:
   - EndPoint: https://wmts.marine.copernicus.eu/teroWmts/SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007/DMI-ARC-SEAICE_BERG_MOSAIC-L4-NRT-OBS
     Type: WMTSCapabilities
@@ -26,7 +34,7 @@ Resources:
       End: "2025-01-27T00:00:00Z"
     Dimensions:
       elevation: 0
-      style: 'cmap:amp'
+      style: 'cmap:ice,range:0/1'  
 Provider:
   - Name: E.U. Copernicus Marine Service Information (CMEMS)
     Url: https://data.marine.copernicus.eu/

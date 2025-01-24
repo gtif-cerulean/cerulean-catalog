@@ -14,6 +14,15 @@ Agency:
   - CMEMS
 Tags:
   - model
+Colorlegend:
+  title: "Total Phytoplankton [mg m-3 day-1]"
+  range: [
+    "rgb(251, 236, 177)",
+    "rgb(236, 119, 90)",
+    "rgb(150, 33, 103)",
+    "rgb(46, 13, 60)"
+  ]
+  domain: [0.01, 3.73]
 Resources:
   - EndPoint: https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_BGC_001_028/cmems_mod_glo_bgc-pft_anfc_0.25deg_P1D-m_202311
     Type: WMTSCapabilities

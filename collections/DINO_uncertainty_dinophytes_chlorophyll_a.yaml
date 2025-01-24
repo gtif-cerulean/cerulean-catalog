@@ -14,6 +14,20 @@ Agency:
   - CMEMS
 Tags:
   - model
+Colorlegend:
+  title: "Dinophytes Chlorophyll a - Uncertainty estimation [%]"
+  range: [
+    "rgba(150, 0, 90, 1)",
+    "rgba(0, 0, 200, 1)",
+    "rgba(0, 25, 255, 1)",
+    "rgba(0, 152, 255, 1)",
+    "rgba(44, 255, 150, 1)",
+    "rgba(151, 255, 0, 1)",
+    "rgba(255, 234, 0, 1)",
+    "rgba(255, 111, 0, 1)",
+    "rgba(255, 0, 0, 1)"
+  ]
+  domain: [0, 200]
 Resources:
   - EndPoint: https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-multi-4km_P1M_202411
     Type: WMTSCapabilities
