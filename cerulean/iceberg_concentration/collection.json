@@ -136,6 +136,18 @@
   ],
   "subcode": "IBC",
   "collection_group": "Icebergs",
+  "eox:colorlegend": {
+    "title": "Iceberg concentration (number of icebergs per 100 km2) [1e-2 km-2]",
+    "range": [
+      "rgb(4, 6, 21)",
+      "rgb(69, 123, 185)",
+      "rgb(229, 248, 252)"
+    ],
+    "domain": [
+      0,
+      1
+    ]
+  },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/ibc.json",
   "title": "Iceberg concentration",
@@ -182,8 +194,8 @@
     ],
     "themes": [
       "Shipping",
-      "Energy",
-      "Aquaculture"
+      "Aquaculture",
+      "Energy"
     ],
     "satellite": [
       "placeholder"

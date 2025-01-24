@@ -101,6 +101,12 @@
       "datetime": "2025-01-22T00:00:00Z"
     },
     {
+      "rel": "item",
+      "href": "./chlorophyll_concentration/2025/2025-01-23T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-23T00:00:00Z"
+    },
+    {
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-gapfree-multi-4km_P1D_202311",
       "type": "image/png",
@@ -138,6 +144,18 @@
   ],
   "subcode": "CHLA",
   "collection_group": "Water Biology",
+  "eox:colorlegend": {
+    "title": "Chlorophyll-a concentration - Mean of the binned pixels [milligram m-3]",
+    "range": [
+      "rgb(213, 250, 207)",
+      "rgb(17, 148, 80)",
+      "rgb(13, 36, 18)"
+    ],
+    "domain": [
+      0.027,
+      1.812
+    ]
+  },
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Chlorophyll-a concentration",
   "extent": {
@@ -155,7 +173,7 @@
       "interval": [
         [
           "2025-01-08T00:00:00Z",
-          "2025-01-22T00:00:00Z"
+          "2025-01-23T00:00:00Z"
         ]
       ]
     }

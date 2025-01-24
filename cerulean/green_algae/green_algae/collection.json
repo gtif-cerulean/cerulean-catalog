@@ -66,6 +66,18 @@
   ],
   "subcode": "GREEN",
   "collection_group": "Water Biology",
+  "eox:colorlegend": {
+    "title": "Green Algae Chlorophyll a concentration - Mean of the binned pixels [milligram m^-3]",
+    "range": [
+      "rgb(213, 250, 207)",
+      "rgb(17, 148, 80)",
+      "rgb(13, 36, 18)"
+    ],
+    "domain": [
+      0.01787,
+      0.669854
+    ]
+  },
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Green Algae Chlorophyll a concentration",
   "extent": {

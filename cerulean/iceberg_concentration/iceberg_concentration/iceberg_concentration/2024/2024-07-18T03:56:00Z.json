@@ -22,7 +22,7 @@
       "wmts:dimensions": {
         "time": "2024-07-18T03:56:00Z",
         "elevation": 0,
-        "style": "cmap:amp"
+        "style": "cmap:ice,range:0/1"
       }
     },
     {

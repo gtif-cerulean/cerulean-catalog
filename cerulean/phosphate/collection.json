@@ -132,6 +132,18 @@
   ],
   "subcode": "PO4",
   "collection_group": "Water Chemistry",
+  "eox:colorlegend": {
+    "title": "Phosphate [mmol m-3]",
+    "range": [
+      "rgb(229, 239, 241)",
+      "rgb(112, 122, 212)",
+      "rgb(59, 15, 40)"
+    ],
+    "domain": [
+      0.0297,
+      3
+    ]
+  },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/po4.json",
   "title": "Phosphate",

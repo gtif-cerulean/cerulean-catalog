@@ -2402,6 +2402,26 @@
   ],
   "subcode": "SSTA",
   "collection_group": "Sea Water",
+  "eox:colorlegend": {
+    "title": "Sea surface temperature anomaly [degrees C]",
+    "range": [
+      "rgba(68, 1, 84, 1)",
+      "rgba(72, 35, 116, 1)",
+      "rgba(64, 67, 135, 1)",
+      "rgba(52, 94, 141, 1)",
+      "rgba(41, 120, 142, 1)",
+      "rgba(32, 144, 140, 1)",
+      "rgba(34, 167, 132, 1)",
+      "rgba(68, 190, 112, 1)",
+      "rgba(121, 209, 81, 1)",
+      "rgba(189, 223, 38, 1)",
+      "rgba(253, 231, 37, 1)"
+    ],
+    "domain": [
+      -1.48,
+      2.95
+    ]
+  },
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Sea surface temperature anomaly",
   "extent": {

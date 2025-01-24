@@ -66,6 +66,24 @@
   ],
   "subcode": "DINO_uncertainty",
   "collection_group": "Water Biology",
+  "eox:colorlegend": {
+    "title": "Dinophytes Chlorophyll a - Uncertainty estimation [%]",
+    "range": [
+      "rgba(150, 0, 90, 1)",
+      "rgba(0, 0, 200, 1)",
+      "rgba(0, 25, 255, 1)",
+      "rgba(0, 152, 255, 1)",
+      "rgba(44, 255, 150, 1)",
+      "rgba(151, 255, 0, 1)",
+      "rgba(255, 234, 0, 1)",
+      "rgba(255, 111, 0, 1)",
+      "rgba(255, 0, 0, 1)"
+    ],
+    "domain": [
+      0,
+      200
+    ]
+  },
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Dinophytes Chlorophyll a - Uncertainty estimation",
   "extent": {

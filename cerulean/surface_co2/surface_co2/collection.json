@@ -7146,6 +7146,19 @@
   ],
   "subcode": "SCO2",
   "collection_group": "Water Chemistry",
+  "eox:colorlegend": {
+    "title": "Surface CO2 [Pa]",
+    "range": [
+      "rgb(251, 236, 177)",
+      "rgb(236, 119, 90)",
+      "rgb(150, 33, 103)",
+      "rgb(46, 13, 60)"
+    ],
+    "domain": [
+      28,
+      50
+    ]
+  },
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Surface CO2",
   "extent": {

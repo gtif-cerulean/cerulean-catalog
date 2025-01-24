@@ -132,6 +132,19 @@
   ],
   "subcode": "NPPB",
   "collection_group": "Water Chemistry",
+  "eox:colorlegend": {
+    "title": "Total Primary Production of Phyto [mg m-3 day-1]",
+    "range": [
+      "rgb(251, 236, 177)",
+      "rgb(236, 119, 90)",
+      "rgb(150, 33, 103)",
+      "rgb(46, 13, 60)"
+    ],
+    "domain": [
+      0,
+      20
+    ]
+  },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/nppv.json",
   "title": "Net primary production of biomass",

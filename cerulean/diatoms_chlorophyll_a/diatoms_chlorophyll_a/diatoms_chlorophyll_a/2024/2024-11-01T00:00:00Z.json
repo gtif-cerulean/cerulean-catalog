@@ -22,7 +22,7 @@
       "wmts:dimensions": {
         "time": "2024-11-01T00:00:00Z",
         "elevation": 0,
-        "style": "rainbow"
+        "style": "cmap:algae"
       }
     },
     {

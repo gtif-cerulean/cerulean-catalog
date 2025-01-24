@@ -136,6 +136,26 @@
   ],
   "subcode": "MSIA",
   "collection_group": "Sea Ice",
+  "eox:colorlegend": {
+    "title": "Mean sea ice age [years]",
+    "range": [
+      "rgba(68, 1, 84, 1)",
+      "rgba(72, 35, 116, 1)",
+      "rgba(64, 67, 135, 1)",
+      "rgba(52, 94, 141, 1)",
+      "rgba(41, 120, 142, 1)",
+      "rgba(32, 144, 140, 1)",
+      "rgba(34, 167, 132, 1)",
+      "rgba(68, 190, 112, 1)",
+      "rgba(121, 209, 81, 1)",
+      "rgba(189, 223, 38, 1)",
+      "rgba(253, 231, 37, 1)"
+    ],
+    "domain": [
+      0,
+      0.52
+    ]
+  },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/siage.json",
   "title": "Mean sea ice age",
@@ -182,8 +202,8 @@
     ],
     "themes": [
       "Shipping",
-      "Energy",
-      "Aquaculture"
+      "Aquaculture",
+      "Energy"
     ],
     "satellite": [
       "placeholder"

@@ -7146,6 +7146,19 @@
   ],
   "subcode": "PHYC",
   "collection_group": "Water Chemistry",
+  "eox:colorlegend": {
+    "title": "Total Phytoplankton [mg m-3 day-1]",
+    "range": [
+      "rgb(251, 236, 177)",
+      "rgb(236, 119, 90)",
+      "rgb(150, 33, 103)",
+      "rgb(46, 13, 60)"
+    ],
+    "domain": [
+      0.01,
+      3.73
+    ]
+  },
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Total Phytoplankton",
   "extent": {

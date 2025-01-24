@@ -7146,6 +7146,19 @@
   ],
   "subcode": "NO3",
   "collection_group": "Water Chemistry",
+  "eox:colorlegend": {
+    "title": "Nitrate [mmol m-3]",
+    "range": [
+      "rgb(251, 236, 177)",
+      "rgb(236, 119, 90)",
+      "rgb(150, 33, 103)",
+      "rgb(46, 13, 60)"
+    ],
+    "domain": [
+      0,
+      41.5
+    ]
+  },
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Nitrate",
   "extent": {

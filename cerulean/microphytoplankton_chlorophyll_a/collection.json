@@ -132,6 +132,18 @@
   ],
   "subcode": "MICRO",
   "collection_group": "Water Biology",
+  "eox:colorlegend": {
+    "title": "Microphytoplankton Chlorophyll a concentration - Mean of the binned pixels [milligram m^-3]",
+    "range": [
+      "rgb(213, 250, 207)",
+      "rgb(17, 148, 80)",
+      "rgb(13, 36, 18)"
+    ],
+    "domain": [
+      0.0052547,
+      0.5565822
+    ]
+  },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/MICRO.json",
   "title": "Microphytoplankton Chlorophyll a concentration",

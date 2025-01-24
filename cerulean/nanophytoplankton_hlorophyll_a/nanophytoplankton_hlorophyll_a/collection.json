@@ -66,6 +66,18 @@
   ],
   "subcode": "NANO",
   "collection_group": "Water Biology",
+  "eox:colorlegend": {
+    "title": "Nanophytoplankton Chlorophyll a concentration - Mean of the binned pixels [milligram m^-3]",
+    "range": [
+      "rgb(213, 250, 207)",
+      "rgb(17, 148, 80)",
+      "rgb(13, 36, 18)"
+    ],
+    "domain": [
+      0.0108044,
+      0.2823557
+    ]
+  },
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Nanophytoplankton Chlorophyll a concentration",
   "extent": {

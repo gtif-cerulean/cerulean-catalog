@@ -7146,6 +7146,18 @@
   ],
   "subcode": "DI",
   "collection_group": "Water Chemistry",
+  "eox:colorlegend": {
+    "title": "Dissolved Iron [mmol m-3] x10e-5",
+    "range": [
+      "rgb(229, 239, 241)",
+      "rgb(112, 122, 212)",
+      "rgb(59, 15, 40)"
+    ],
+    "domain": [
+      11,
+      2020
+    ]
+  },
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Dissolved Iron",
   "extent": {
