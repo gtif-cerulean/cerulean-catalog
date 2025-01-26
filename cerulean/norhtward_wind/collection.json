@@ -174,7 +174,7 @@
       "interval": [
         [
           "2024-12-01T00:00:00Z",
-          "2025-01-23T23:00:00Z"
+          "2025-01-24T23:00:00Z"
         ]
       ]
     }
@@ -195,9 +195,9 @@
       "NWW"
     ],
     "themes": [
+      "Shipping",
       "Aquaculture",
-      "Energy",
-      "Shipping"
+      "Energy"
     ],
     "satellite": [
       "placeholder"
