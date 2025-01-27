@@ -34,7 +34,7 @@ collections:
   - PROCHLO_prochlorophytes_chlorophyll_a
   - PROKAR_prokaryotes_chlorophyll_a
   - SPM_inorganic_suspended_pm
-  # - DEPTHO_sea_floor_depth # not loading
+  - DEPTHO_sea_floor_depth # not loading
   - AD_air_density
   - EWW_eastward_wind
   - NWW_nortward_wind
