@@ -2,16 +2,19 @@ Name: ice_concentration
 Title: Ice concentration
 EodashIdentifier: SICONC
 Description: |
-  N/A
+  The Operational Mercator global ocean analysis and forecast system at 1/12 degree is providing 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time in order to reach a two full year’s time series sliding window.
+  This product includes daily and monthly mean files of temperature, salinity, currents, sea level, mixed layer depth and ice parameters from the top to the bottom over the global ocean. It also includes hourly mean surface fields for sea level height, temperature and currents. The global ocean output files are displayed with a 1/12 degree horizontal resolution with regular longitude/latitude equirectangular projection.
+  50 vertical levels are ranging from 0 to 5500 meters.
+  This product also delivers a special dataset for surface current which also includes wave and tidal drift called SMOC (Surface merged Ocean Current).
 Themes:
   - Aquaculture
   - Energy
   - Shipping
 CollectionGroup: Sea Ice
-Satellite:
-  - placeholder
-Sensor:
-  - placeholder
+DataSource:
+  Spaceborne:
+    Sensor:
+      - Numerical model
 Agency:
   - CMEMS
 Tags:
@@ -27,12 +30,22 @@ Resources:
     Dimensions:
       elevation: 0
       style: cmap:ice
+Citation:
+  DOI: 10.48670/moi-00016
+References:
+  - Name: CMEMS Data Description
+    Url: https://data.marine.copernicus.eu/product/GLOBAL_ANALYSISFORECAST_PHY_001_024/description
 Provider:
+  - Name: Mercator Océan International
+    Url: https://www.mercator-ocean.eu/
+    # Description: Mercator Ocean describes, analyses and forecasts the state of the ocean by developing the "Mercator System" for ocean analysis and forecasting and maintaining it in an operational condition.
+    # Roles: 
+    #   - producer
   - Name: E.U. Copernicus Marine Service Information (CMEMS)
     Url: https://data.marine.copernicus.eu/
-    Description: The Copernicus Marine Service (or Copernicus Marine Environment Monitoring Service) is the marine component of the Copernicus Programme of the European Union. It provides free, regular and systematic authoritative information on the state of the Blue (physical), White (sea ice) and Green (biogeochemical) ocean,  on a global and regional scale. It is funded by the European Commission (EC) and implemented by Mercator Ocean International. It is designed to serve EU policies and International legal Commitments related to Ocean Governance, to cater for the needs of society at large for global ocean knowledge and to boost the Blue Economy across all maritime sectors by providing free-of-charge state-of-the-art ocean data and information.
-    Roles: 
-      - producer
+    # Description: The Copernicus Marine Service (or Copernicus Marine Environment Monitoring Service) is the marine component of the Copernicus Programme of the European Union. It provides free, regular and systematic authoritative information on the state of the Blue (physical), White (sea ice) and Green (biogeochemical) ocean,  on a global and regional scale. It is funded by the European Commission (EC) and implemented by Mercator Ocean International. It is designed to serve EU policies and International legal Commitments related to Ocean Governance, to cater for the needs of society at large for global ocean knowledge and to boost the Blue Economy across all maritime sectors by providing free-of-charge state-of-the-art ocean data and information.
+    # Roles: 
+    #   - host
 Process:
   Name: process_cmems
   JsonForm: https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json
