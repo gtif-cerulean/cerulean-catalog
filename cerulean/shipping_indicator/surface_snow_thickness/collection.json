@@ -2402,6 +2402,18 @@
   ],
   "subcode": "SST",
   "collection_group": "Sea Ice",
+  "eox:colorlegend": {
+    "title": "Surface snow thickness [m]",
+    "range": [
+      "rgb(4, 6, 21)",
+      "rgb(69, 123, 185)",
+      "rgb(229, 248, 252)"
+    ],
+    "domain": [
+      0,
+      0.3
+    ]
+  },
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Surface snow thickness",
   "extent": {

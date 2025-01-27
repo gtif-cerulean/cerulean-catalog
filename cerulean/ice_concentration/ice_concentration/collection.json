@@ -2400,6 +2400,18 @@
   "sensor": [
     "Numerical model"
   ],
+  "eox:colorlegend": {
+    "title": "Ice concentration",
+    "range": [
+      "rgb(4, 6, 21)",
+      "rgb(69, 123, 185)",
+      "rgb(229, 248, 252)"
+    ],
+    "domain": [
+      0,
+      1
+    ]
+  },
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Ice concentration",
   "extent": {

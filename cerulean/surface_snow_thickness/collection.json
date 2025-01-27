@@ -136,6 +136,18 @@
   ],
   "subcode": "SST",
   "collection_group": "Sea Ice",
+  "eox:colorlegend": {
+    "title": "Surface snow thickness [m]",
+    "range": [
+      "rgb(4, 6, 21)",
+      "rgb(69, 123, 185)",
+      "rgb(229, 248, 252)"
+    ],
+    "domain": [
+      0,
+      0.3
+    ]
+  },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/sisnthick.json",
   "title": "Surface snow thickness",
@@ -177,9 +189,9 @@
       "SST"
     ],
     "themes": [
+      "Shipping",
       "Aquaculture",
-      "Energy",
-      "Shipping"
+      "Energy"
     ],
     "satellite": [
       "placeholder"

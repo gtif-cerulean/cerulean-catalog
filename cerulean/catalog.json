@@ -700,6 +700,32 @@
     },
     {
       "rel": "child",
+      "href": "./sea_floor_depth/collection.json",
+      "type": "application/json",
+      "title": "Sea floor depth below geoid",
+      "code": "DEPTHO",
+      "id": "sea_floor_depth",
+      "themes": [
+        "Aquaculture",
+        "Energy"
+      ],
+      "subcode": "DEPTHO",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Bathymetry"
+    },
+    {
+      "rel": "child",
       "href": "./air_density/collection.json",
       "type": "application/json",
       "title": "Air density",
