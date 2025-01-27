@@ -183,10 +183,6 @@
   "providers": [
     {
       "name": "E.U. Copernicus Marine Service Information (CMEMS)",
-      "description": "The Copernicus Marine Service (or Copernicus Marine Environment Monitoring Service) is the marine component of the Copernicus Programme of the European Union. It provides free, regular and systematic authoritative information on the state of the Blue (physical), White (sea ice) and Green (biogeochemical) ocean,  on a global and regional scale. It is funded by the European Commission (EC) and implemented by Mercator Ocean International. It is designed to serve EU policies and International legal Commitments related to Ocean Governance, to cater for the needs of society at large for global ocean knowledge and to boost the Blue Economy across all maritime sectors by providing free-of-charge state-of-the-art ocean data and information.",
-      "roles": [
-        "producer"
-      ],
       "url": "https://data.marine.copernicus.eu/"
     }
   ],

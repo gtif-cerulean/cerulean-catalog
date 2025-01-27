@@ -2402,6 +2402,20 @@
   ],
   "subcode": "SO",
   "collection_group": "Sea Water",
+  "eox:colorlegend": {
+    "title": "Salinity [1e-3]",
+    "range": [
+      "rgb(36, 16, 105)",
+      "rgb(12, 77, 151)",
+      "rgb(55, 142, 132)",
+      "rgb(135, 207, 97)",
+      "rgb(246, 237, 146)"
+    ],
+    "domain": [
+      30,
+      36.8
+    ]
+  },
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Salinity",
   "extent": {
@@ -2428,10 +2442,6 @@
   "providers": [
     {
       "name": "E.U. Copernicus Marine Service Information (CMEMS)",
-      "description": "The Copernicus Marine Service (or Copernicus Marine Environment Monitoring Service) is the marine component of the Copernicus Programme of the European Union. It provides free, regular and systematic authoritative information on the state of the Blue (physical), White (sea ice) and Green (biogeochemical) ocean,  on a global and regional scale. It is funded by the European Commission (EC) and implemented by Mercator Ocean International. It is designed to serve EU policies and International legal Commitments related to Ocean Governance, to cater for the needs of society at large for global ocean knowledge and to boost the Blue Economy across all maritime sectors by providing free-of-charge state-of-the-art ocean data and information.",
-      "roles": [
-        "producer"
-      ],
       "url": "https://data.marine.copernicus.eu/"
     }
   ]

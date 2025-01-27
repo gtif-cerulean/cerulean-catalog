@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "ice_concentration",
   "stac_version": "1.1.0",
-  "description": "N/A\n",
+  "description": "The Operational Mercator global ocean analysis and forecast system at 1/12 degree is providing 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time in order to reach a two full year\u2019s time series sliding window.\nThis product includes daily and monthly mean files of temperature, salinity, currents, sea level, mixed layer depth and ice parameters from the top to the bottom over the global ocean. It also includes hourly mean surface fields for sea level height, temperature and currents. The global ocean output files are displayed with a 1/12 degree horizontal resolution with regular longitude/latitude equirectangular projection.\n50 vertical levels are ranging from 0 to 5500 meters.\nThis product also delivers a special dataset for surface current which also includes wave and tidal drift called SMOC (Surface merged Ocean Current).\n",
   "links": [
     {
       "rel": "root",
@@ -2383,6 +2383,7 @@
       "title": "Shipping indicator"
     }
   ],
+  "sci:doi": "10.48670/moi-00016",
   "themes": [
     "Aquaculture",
     "Energy",
@@ -2391,17 +2392,14 @@
   "tags": [
     "model"
   ],
-  "satellite": [
-    "placeholder"
-  ],
-  "sensor": [
-    "placeholder"
-  ],
   "agency": [
     "CMEMS"
   ],
   "subcode": "SICONC",
   "collection_group": "Sea Ice",
+  "sensor": [
+    "Numerical model"
+  ],
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Ice concentration",
   "extent": {
@@ -2427,12 +2425,22 @@
   "license": "other",
   "providers": [
     {
+      "name": "Mercator Oc\u00e9an International",
+      "url": "https://www.mercator-ocean.eu/"
+    },
+    {
       "name": "E.U. Copernicus Marine Service Information (CMEMS)",
-      "description": "The Copernicus Marine Service (or Copernicus Marine Environment Monitoring Service) is the marine component of the Copernicus Programme of the European Union. It provides free, regular and systematic authoritative information on the state of the Blue (physical), White (sea ice) and Green (biogeochemical) ocean,  on a global and regional scale. It is funded by the European Commission (EC) and implemented by Mercator Ocean International. It is designed to serve EU policies and International legal Commitments related to Ocean Governance, to cater for the needs of society at large for global ocean knowledge and to boost the Blue Economy across all maritime sectors by providing free-of-charge state-of-the-art ocean data and information.",
-      "roles": [
-        "producer"
-      ],
       "url": "https://data.marine.copernicus.eu/"
     }
-  ]
+  ],
+  "assets": {
+    "reference_1": {
+      "href": "https://data.marine.copernicus.eu/product/GLOBAL_ANALYSISFORECAST_PHY_001_024/description",
+      "type": "text/html",
+      "title": "CMEMS Data Description",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
 }

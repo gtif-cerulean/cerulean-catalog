@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./sea_ice_northward_velocity/collection.json",
       "type": "application/json",
-      "title": "Sea ice norhtward velocity",
+      "title": "Sea ice northward velocity",
       "endpointtype": "marinedatastore_WMTSCapabilities",
       "code": "VSI",
       "id": "sea_ice_northward_velocity",
@@ -138,7 +138,7 @@
   "collection_group": "Sea Ice",
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/vsi.json",
-  "title": "Sea ice norhtward velocity",
+  "title": "Sea ice northward velocity",
   "extent": {
     "spatial": {
       "bbox": [
@@ -169,10 +169,6 @@
   "providers": [
     {
       "name": "E.U. Copernicus Marine Service Information (CMEMS)",
-      "description": "The Copernicus Marine Service (or Copernicus Marine Environment Monitoring Service) is the marine component of the Copernicus Programme of the European Union. It provides free, regular and systematic authoritative information on the state of the Blue (physical), White (sea ice) and Green (biogeochemical) ocean,  on a global and regional scale. It is funded by the European Commission (EC) and implemented by Mercator Ocean International. It is designed to serve EU policies and International legal Commitments related to Ocean Governance, to cater for the needs of society at large for global ocean knowledge and to boost the Blue Economy across all maritime sectors by providing free-of-charge state-of-the-art ocean data and information.",
-      "roles": [
-        "producer"
-      ],
       "url": "https://data.marine.copernicus.eu/"
     }
   ],
@@ -182,8 +178,8 @@
     ],
     "themes": [
       "Aquaculture",
-      "Shipping",
-      "Energy"
+      "Energy",
+      "Shipping"
     ],
     "satellite": [
       "placeholder"

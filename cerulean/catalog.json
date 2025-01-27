@@ -70,8 +70,8 @@
         "Sentinel-1"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
       ],
       "collection_group": "Capabilities"
     },
@@ -754,11 +754,11 @@
     },
     {
       "rel": "child",
-      "href": "./norhtward_wind/collection.json",
+      "href": "./northward_wind/collection.json",
       "type": "application/json",
       "title": "Stress-equivalent wind northward component",
       "code": "NWW",
-      "id": "norhtward_wind",
+      "id": "northward_wind",
       "themes": [
         "Aquaculture",
         "Energy",
@@ -1223,11 +1223,8 @@
         "Shipping"
       ],
       "subcode": "SICONC",
-      "satellite": [
-        "placeholder"
-      ],
       "sensor": [
-        "placeholder"
+        "Numerical model"
       ],
       "tags": [
         "model"
@@ -1349,7 +1346,7 @@
       "rel": "child",
       "href": "./sea_ice_northward_velocity/collection.json",
       "type": "application/json",
-      "title": "Sea ice norhtward velocity",
+      "title": "Sea ice northward velocity",
       "code": "VSI",
       "id": "sea_ice_northward_velocity",
       "themes": [
@@ -1415,11 +1412,12 @@
         "placeholder"
       ],
       "sensor": [
+        "Numerical model",
         "placeholder"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
       ],
       "collection_group": "Capabilities"
     },

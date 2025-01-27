@@ -126,17 +126,14 @@
       "tags": [
         "model"
       ],
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
-      ],
       "agency": [
         "CMEMS"
       ],
       "subcode": "SICONC",
-      "collection_group": "Sea Ice"
+      "collection_group": "Sea Ice",
+      "sensor": [
+        "Numerical model"
+      ]
     },
     {
       "rel": "child",
@@ -254,7 +251,7 @@
       "rel": "child",
       "href": "./sea_ice_northward_velocity/collection.json",
       "type": "application/json",
-      "title": "Sea ice norhtward velocity",
+      "title": "Sea ice northward velocity",
       "endpointtype": "marinedatastore_WMTSCapabilities",
       "code": "VSI",
       "id": "sea_ice_northward_velocity",
@@ -473,17 +470,17 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "IBC",
+      "SICONC",
       "USI",
-      "VSI",
-      "MSIA",
-      "SST",
-      "SIT",
+      "IBC",
       "Polaris_algorithm_dmi_demo",
-      "SIVELO",
-      "SHS1",
+      "MSIA",
       "IST",
-      "SICONC"
+      "SST",
+      "SIVELO",
+      "SIT",
+      "SHS1",
+      "VSI"
     ],
     "themes": [
       "Aquaculture",
@@ -495,11 +492,12 @@
       "placeholder"
     ],
     "sensor": [
+      "Numerical model",
       "placeholder"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
     ]
   }
 }

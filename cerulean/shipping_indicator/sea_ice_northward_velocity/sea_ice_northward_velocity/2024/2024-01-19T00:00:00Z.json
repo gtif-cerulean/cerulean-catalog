@@ -35,13 +35,13 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Sea ice norhtward velocity"
+      "title": "Sea ice northward velocity"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Sea ice norhtward velocity"
+      "title": "Sea ice northward velocity"
     }
   ],
   "assets": {},
