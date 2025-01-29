@@ -462,7 +462,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-01-28T00:00:00Z"
+          "2025-01-29T00:00:00Z"
         ]
       ]
     }
@@ -470,26 +470,26 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "IBC",
       "SIVELO",
+      "USI",
       "SST",
+      "SICONC",
       "VSI",
-      "Polaris_algorithm_dmi_demo",
       "MSIA",
       "SHS1",
-      "SICONC",
-      "USI",
       "SIT",
-      "IST"
+      "IST",
+      "IBC",
+      "Polaris_algorithm_dmi_demo"
     ],
     "themes": [
-      "Energy",
+      "Aquaculture",
       "Shipping",
-      "Aquaculture"
+      "Energy"
     ],
     "satellite": [
-      "placeholder",
-      "Sentinel-1"
+      "Sentinel-1",
+      "placeholder"
     ],
     "sensor": [
       "Numerical model",
