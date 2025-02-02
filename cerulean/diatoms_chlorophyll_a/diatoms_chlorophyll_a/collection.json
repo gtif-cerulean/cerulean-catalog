@@ -12,12 +12,6 @@
     },
     {
       "rel": "item",
-      "href": "./diatoms_chlorophyll_a/2024/2024-10-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2024-10-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
       "href": "./diatoms_chlorophyll_a/2024/2024-11-01T00:00:00Z.json",
       "type": "application/geo+json",
       "datetime": "2024-11-01T00:00:00Z"
@@ -27,6 +21,12 @@
       "href": "./diatoms_chlorophyll_a/2024/2024-12-01T00:00:00Z.json",
       "type": "application/geo+json",
       "datetime": "2024-12-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./diatoms_chlorophyll_a/2025/2025-01-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-01T00:00:00Z"
     },
     {
       "rel": "wmts",
@@ -94,8 +94,8 @@
     "temporal": {
       "interval": [
         [
-          "2024-10-01T00:00:00Z",
-          "2024-12-01T00:00:00Z"
+          "2024-11-01T00:00:00Z",
+          "2025-01-01T00:00:00Z"
         ]
       ]
     }
