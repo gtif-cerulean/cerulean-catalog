@@ -12,36 +12,6 @@
     },
     {
       "rel": "item",
-      "href": "./chlorophyll_concentration/2025/2025-01-18T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-01-18T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./chlorophyll_concentration/2025/2025-01-19T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-01-19T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./chlorophyll_concentration/2025/2025-01-20T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-01-20T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./chlorophyll_concentration/2025/2025-01-21T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-01-21T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./chlorophyll_concentration/2025/2025-01-22T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-01-22T00:00:00Z"
-    },
-    {
-      "rel": "item",
       "href": "./chlorophyll_concentration/2025/2025-01-23T00:00:00Z.json",
       "type": "application/geo+json",
       "datetime": "2025-01-23T00:00:00Z"
@@ -130,7 +100,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-01-18T00:00:00Z",
+          "2025-01-23T00:00:00Z",
           "2025-01-26T00:00:00Z"
         ]
       ]
