@@ -462,7 +462,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-02-09T00:00:00Z"
+          "2025-02-10T00:00:00Z"
         ]
       ]
     }
@@ -470,30 +470,30 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "USI",
-      "VSI",
+      "MSIA",
+      "SHS1",
+      "SICONC",
       "IST",
-      "SST",
       "Polaris_algorithm_dmi_demo",
       "SIVELO",
-      "MSIA",
-      "IBC",
+      "VSI",
       "SIT",
-      "SICONC",
-      "SHS1"
+      "IBC",
+      "USI",
+      "SST"
     ],
     "themes": [
-      "Aquaculture",
       "Shipping",
-      "Energy"
+      "Energy",
+      "Aquaculture"
     ],
     "satellite": [
       "placeholder",
       "Sentinel-1"
     ],
     "sensor": [
-      "Numerical model",
-      "placeholder"
+      "placeholder",
+      "Numerical model"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
