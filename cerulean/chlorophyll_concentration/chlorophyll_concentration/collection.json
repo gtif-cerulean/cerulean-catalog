@@ -11,30 +11,6 @@
       "title": "Cerulean GTIF project catalog"
     },
     {
-      "rel": "item",
-      "href": "./chlorophyll_concentration/2025/2025-01-23T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-01-23T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./chlorophyll_concentration/2025/2025-01-24T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-01-24T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./chlorophyll_concentration/2025/2025-01-25T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-01-25T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./chlorophyll_concentration/2025/2025-01-26T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-01-26T00:00:00Z"
-    },
-    {
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-gapfree-multi-4km_P1D_202311",
       "type": "image/png",
@@ -47,6 +23,11 @@
         "elevation": 0,
         "style": "cmap:algae"
       }
+    },
+    {
+      "rel": "item",
+      "href": "./chlorophyll_concentration/1970/c48aec0b-b8a6-43ac-9697-0daa00fcf593.json",
+      "type": "application/geo+json"
     },
     {
       "rel": "parent",
@@ -90,18 +71,18 @@
     "spatial": {
       "bbox": [
         [
-          -179.9791717529297,
-          -89.97917175292969,
-          179.9791717529297,
-          89.97916412353516
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-01-23T00:00:00Z",
-          "2025-01-26T00:00:00Z"
+          "2025-02-13T03:43:42.708589Z",
+          null
         ]
       ]
     }

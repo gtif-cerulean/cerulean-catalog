@@ -12,7 +12,7 @@
     },
     {
       "rel": "item",
-      "href": "./harshness/1970/de6aa643-703c-40d2-925b-d44536409651.json",
+      "href": "./harshness/1970/280b2acb-3469-40f4-b414-8eec842ec2c0.json",
       "type": "application/geo+json"
     },
     {
@@ -56,7 +56,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-02-12T03:43:15.607958Z",
+          "2025-02-13T03:43:34.193843Z",
           null
         ]
       ]
