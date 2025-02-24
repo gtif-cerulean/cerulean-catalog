@@ -2,11 +2,11 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [],
-  "id": "57bceb97-bc69-4c7e-96e4-e395209405f2",
+  "id": "5e7c9c91-7377-4580-a243-3a8bca08f510",
   "geometry": null,
   "properties": {
     "start_datetime": "1970-01-01T00:00:00Z",
-    "end_datetime": "2025-02-23T03:44:35.783644Z",
+    "end_datetime": "2025-02-24T03:47:31.675235Z",
     "datetime": "1970-01-01T00:00:00Z"
   },
   "links": [
@@ -20,15 +20,15 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Harshness capability"
+      "title": "Chlorophyll-a concentration"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Harshness capability"
+      "title": "Chlorophyll-a concentration"
     }
   ],
   "assets": {},
-  "collection": "harshness"
+  "collection": "chlorophyll_concentration"
 }
