@@ -12,12 +12,6 @@
     },
     {
       "rel": "item",
-      "href": "./dinophytes_chlorophyll_a/2024/2024-11-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2024-11-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
       "href": "./dinophytes_chlorophyll_a/2024/2024-12-01T00:00:00Z.json",
       "type": "application/geo+json",
       "datetime": "2024-12-01T00:00:00Z"
@@ -100,7 +94,7 @@
     "temporal": {
       "interval": [
         [
-          "2024-11-01T00:00:00Z",
+          "2024-12-01T00:00:00Z",
           "2025-01-01T00:00:00Z"
         ]
       ]
