@@ -64,3 +64,4 @@ collections:
   - IBC_iceberg_concentration
   - shipping_indicator
   - SID_sea_ice_detections
+  - polarwarp
