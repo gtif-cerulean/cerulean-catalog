@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "harshness",
+  "id": "polarwarp",
   "stac_version": "1.1.0",
-  "description": "This is an example of how the harshness calculation capability can be triggered and visualized within the dashboard.",
+  "description": "This is an example of how the polar warp capability can be triggered and visualized within the dashboard.",
   "links": [
     {
       "rel": "root",
@@ -12,14 +12,14 @@
     },
     {
       "rel": "item",
-      "href": "./harshness/1970/971ddf4c-da99-4028-a055-5f274690f9c8.json",
+      "href": "./polarwarp/1970/b19a1a56-49d7-451b-9eaf-2d650d69dc8c.json",
       "type": "application/geo+json"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Harshness capability"
+      "title": "Polar warp capability"
     }
   ],
   "themes": [
@@ -40,8 +40,12 @@
   ],
   "subcode": "harshness",
   "collection_group": "Capabilities",
+  "eodash:mapProjection": {
+    "name": "EPSG:3413",
+    "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+  },
   "endpointtype": "Collection-only",
-  "title": "Harshness capability",
+  "title": "Polar warp capability",
   "extent": {
     "spatial": {
       "bbox": [
@@ -56,7 +60,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-03-10T14:31:50.178720Z",
+          "2025-03-10T14:33:03.563413Z",
           null
         ]
       ]

@@ -470,26 +470,26 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "Polaris_algorithm_dmi_demo",
-      "SIT",
-      "SIVELO",
-      "SICONC",
-      "VSI",
-      "SST",
-      "IBC",
       "SHS1",
-      "USI",
+      "VSI",
+      "SIVELO",
+      "SST",
+      "IST",
+      "Polaris_algorithm_dmi_demo",
       "MSIA",
-      "IST"
+      "SICONC",
+      "SIT",
+      "IBC",
+      "USI"
     ],
     "themes": [
-      "Energy",
       "Aquaculture",
+      "Energy",
       "Shipping"
     ],
     "satellite": [
-      "Sentinel-1",
-      "placeholder"
+      "placeholder",
+      "Sentinel-1"
     ],
     "sensor": [
       "placeholder",
