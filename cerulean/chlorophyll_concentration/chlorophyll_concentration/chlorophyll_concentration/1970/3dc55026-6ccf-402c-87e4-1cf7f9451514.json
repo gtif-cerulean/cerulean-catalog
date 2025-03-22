@@ -2,11 +2,11 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [],
-  "id": "67f60b1e-d5b7-43f8-b077-e78f412d895a",
+  "id": "3dc55026-6ccf-402c-87e4-1cf7f9451514",
   "geometry": null,
   "properties": {
     "start_datetime": "1970-01-01T00:00:00Z",
-    "end_datetime": "2025-03-21T03:52:13.184442Z",
+    "end_datetime": "2025-03-22T03:50:34.979730Z",
     "datetime": "1970-01-01T00:00:00Z"
   },
   "links": [
@@ -20,15 +20,15 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Polar warp capability"
+      "title": "Chlorophyll-a concentration"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Polar warp capability"
+      "title": "Chlorophyll-a concentration"
     }
   ],
   "assets": {},
-  "collection": "polarwarp"
+  "collection": "chlorophyll_concentration"
 }
