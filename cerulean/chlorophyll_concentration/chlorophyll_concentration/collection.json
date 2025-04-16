@@ -26,7 +26,7 @@
     },
     {
       "rel": "item",
-      "href": "./chlorophyll_concentration/1970/01d9f39d-8527-4b55-87f6-bd17c98a2b6a.json",
+      "href": "./chlorophyll_concentration/1970/b5536cf3-140b-4cac-84aa-41d8d42be41d.json",
       "type": "application/geo+json"
     },
     {
@@ -81,7 +81,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-04-15T03:53:34.500850Z",
+          "2025-04-16T03:53:35.420754Z",
           null
         ]
       ]
