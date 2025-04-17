@@ -1434,8 +1434,8 @@
       ],
       "subcode": "SHIP1",
       "satellite": [
-        "Sentinel-1",
-        "placeholder"
+        "placeholder",
+        "Sentinel-1"
       ],
       "sensor": [
         "placeholder",
