@@ -10,7 +10,6 @@ on:
       - opened
       - reopened
       - synchronize
-      - closed # pr-preview-action will do cleanup here, but build steps can be skipped
 
 # do not allow running multiple of pipelines for this PR in parallel
 concurrency: preview-${{ github.ref }}
@@ -25,8 +24,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - if: github.event.action != 'closed'
-        name: Install dependencies
+      - name: Install dependencies
         run: |
           pip install -U pip
           pip install eodash_catalog==0.1.9
