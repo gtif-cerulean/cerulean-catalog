@@ -2,13 +2,13 @@
   "Name": "dissolved_oxygen",
   "Title": "Dissolved Oxygen",
   "EodashIdentifier": "DO",
-  "Description": "N/A\n",
+  "Description": "The Operational Mercator Ocean biogeochemical global ocean analysis and forecast system at 1/4 degree is providing 10 days of 3D global ocean forecasts updated weekly. The time series is aggregated in time, in order to reach a two full year’s time series sliding window. This product includes daily and monthly mean files of biogeochemical parameters (chlorophyll, nitrate, phosphate, silicate, dissolved oxygen, dissolved iron, primary production, phytoplankton, zooplankton, PH, and surface partial pressure of carbon dioxyde) over the global ocean. The global ocean output files are displayed with a 1/4 degree horizontal resolution with regular longitude/latitude equirectangular projection. 50 vertical levels are ranging from 0 to 5700 meters.\n\n* NEMO version (v3.6_STABLE)\n* Forcings: GLOBAL_ANALYSIS_FORECAST_PHYS_001_024 at daily frequency.\n* Outputs mean fields are interpolated on a standard regular grid in NetCDF format.\n* Initial conditions: World Ocean Atlas 2013 for nitrate, phosphate, silicate and dissolved oxygen, GLODAPv2 for DIC and Alkalinity, and climatological model outputs for Iron and DOC\n* Quality/Accuracy/Calibration information: See the related QuID\n",
   "Themes": [
     "Aquaculture"
   ],
   "CollectionGroup": "Water Chemistry",
   "Satellite": [
-    "placeholder"
+    ""
   ],
   "Sensor": [
     "placeholder"
@@ -22,10 +22,10 @@
   "Colorlegend": {
     "title": "Dissolved Oxygen [mmol m-3]",
     "range": [
-      "rgb(251, 236, 177)",
-      "rgb(236, 119, 90)",
-      "rgb(150, 33, 103)",
-      "rgb(46, 13, 60)"
+      "#000000",
+      "#000000",
+      "#000000",
+      "#000000"
     ],
     "domain": [
       40,
@@ -35,7 +35,7 @@
   "Resources": [
     {
       "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_BGC_001_028/cmems_mod_glo_bgc-bio_anfc_0.25deg_P1D-m_202311",
-      "Type": "WMTSCapabilities",
+      "Type": "byoc",
       "Name": "marinedatastore",
       "LayerId": "GLOBAL_ANALYSISFORECAST_BGC_001_028/cmems_mod_glo_bgc-bio_anfc_0.25deg_P1D-m_202311/o2",
       "Query": {
@@ -45,7 +45,8 @@
       "Dimensions": {
         "elevation": 0,
         "style": "cmap:matter"
-      }
+      },
+      "CollectionId": ""
     }
   ],
   "Provider": [
@@ -65,5 +66,14 @@
         "Type": "application/json"
       }
     ]
-  }
+  },
+  "DataSource": {},
+  "License": "",
+  "Locations": [],
+  "Citation": {
+    "DOI": "https://doi.org/10.48670/moi-00015",
+    "Citation": ""
+  },
+  "Image": "",
+  "Legend": ""
 }
