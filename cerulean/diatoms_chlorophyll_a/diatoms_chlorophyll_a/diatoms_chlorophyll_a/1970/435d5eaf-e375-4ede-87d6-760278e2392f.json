@@ -2,11 +2,11 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [],
-  "id": "8c7486de-33f3-46b8-9790-035ea92e740c",
+  "id": "435d5eaf-e375-4ede-87d6-760278e2392f",
   "geometry": null,
   "properties": {
     "start_datetime": "1970-01-01T00:00:00Z",
-    "end_datetime": "2025-05-02T03:55:42.576004Z",
+    "end_datetime": "2025-05-03T03:53:40.816059Z",
     "datetime": "1970-01-01T00:00:00Z"
   },
   "links": [
@@ -20,15 +20,15 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Prokaryotes Chlorophyll a concentration"
+      "title": "Diatoms Chlorophyll a concentration"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Prokaryotes Chlorophyll a concentration"
+      "title": "Diatoms Chlorophyll a concentration"
     }
   ],
   "assets": {},
-  "collection": "prokaryotes_chlorophyll_a"
+  "collection": "diatoms_chlorophyll_a"
 }
