@@ -470,30 +470,30 @@
   "license": "other",
   "summaries": {
     "subcode": [
+      "MSIA",
+      "SHS1",
+      "SIVELO",
+      "USI",
+      "SST",
+      "SICONC",
       "IBC",
+      "SIT",
       "VSI",
       "IST",
-      "SST",
-      "MSIA",
-      "SIT",
-      "SHS1",
-      "Polaris_algorithm_dmi_demo",
-      "USI",
-      "SIVELO",
-      "SICONC"
+      "Polaris_algorithm_dmi_demo"
     ],
     "themes": [
       "Energy",
-      "Aquaculture",
-      "Shipping"
+      "Shipping",
+      "Aquaculture"
     ],
     "satellite": [
       "Sentinel-1",
       "placeholder"
     ],
     "sensor": [
-      "placeholder",
-      "Numerical model"
+      "Numerical model",
+      "placeholder"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",

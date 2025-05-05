@@ -190,15 +190,15 @@
   "license": "other",
   "summaries": {
     "subcode": [
+      "SHS1",
       "Polaris_algorithm_dmi_demo",
-      "SID",
-      "SHS1"
+      "SID"
     ],
     "themes": [
       "Energy",
-      "Aquaculture",
       "Shipping",
-      "shipping"
+      "shipping",
+      "Aquaculture"
     ],
     "satellite": [
       "Sentinel-1"

@@ -2,11 +2,11 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [],
-  "id": "fa4ee5fc-d13f-4bd5-8f97-62ce3f1f0137",
+  "id": "14c8d44e-0c93-465b-8ab5-5db6177c4892",
   "geometry": null,
   "properties": {
     "start_datetime": "1970-01-01T00:00:00Z",
-    "end_datetime": "2025-05-05T03:57:58.773551Z",
+    "end_datetime": "2025-05-05T07:38:10.674602Z",
     "datetime": "1970-01-01T00:00:00Z"
   },
   "links": [
@@ -20,15 +20,15 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Prokaryotes Chlorophyll a concentration"
+      "title": "Polar warp capability"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Prokaryotes Chlorophyll a concentration"
+      "title": "Polar warp capability"
     }
   ],
   "assets": {},
-  "collection": "prokaryotes_chlorophyll_a"
+  "collection": "polarwarp"
 }
