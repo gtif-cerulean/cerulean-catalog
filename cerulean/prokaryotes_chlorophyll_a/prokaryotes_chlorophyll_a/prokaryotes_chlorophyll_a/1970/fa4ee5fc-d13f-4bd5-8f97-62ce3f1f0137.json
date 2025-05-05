@@ -2,11 +2,11 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [],
-  "id": "201e41d2-7eb8-459d-b43e-5622904457a0",
+  "id": "fa4ee5fc-d13f-4bd5-8f97-62ce3f1f0137",
   "geometry": null,
   "properties": {
     "start_datetime": "1970-01-01T00:00:00Z",
-    "end_datetime": "2025-05-04T03:59:10.811332Z",
+    "end_datetime": "2025-05-05T03:57:58.773551Z",
     "datetime": "1970-01-01T00:00:00Z"
   },
   "links": [
@@ -20,15 +20,15 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Inorganic suspended particulate matter in sea water"
+      "title": "Prokaryotes Chlorophyll a concentration"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Inorganic suspended particulate matter in sea water"
+      "title": "Prokaryotes Chlorophyll a concentration"
     }
   ],
   "assets": {},
-  "collection": "inorganic_suspended_pm"
+  "collection": "prokaryotes_chlorophyll_a"
 }

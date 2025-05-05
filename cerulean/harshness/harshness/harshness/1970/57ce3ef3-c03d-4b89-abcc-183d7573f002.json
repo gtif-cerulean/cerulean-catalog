@@ -2,11 +2,11 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [],
-  "id": "17ce0a93-20b5-48a7-a08d-08ffe1627c05",
+  "id": "57ce3ef3-c03d-4b89-abcc-183d7573f002",
   "geometry": null,
   "properties": {
     "start_datetime": "1970-01-01T00:00:00Z",
-    "end_datetime": "2025-05-04T03:59:09.948690Z",
+    "end_datetime": "2025-05-05T03:57:46.500774Z",
     "datetime": "1970-01-01T00:00:00Z"
   },
   "links": [
@@ -20,15 +20,15 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Prochlorophytes Chlorophyll a concentration"
+      "title": "Harshness capability"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Prochlorophytes Chlorophyll a concentration"
+      "title": "Harshness capability"
     }
   ],
   "assets": {},
-  "collection": "prochlorophytes_chlorophyll_a"
+  "collection": "harshness"
 }
