@@ -26,7 +26,7 @@
     },
     {
       "rel": "item",
-      "href": "./green_algae/1970/337f12e5-1f82-4921-a301-4053d6065d3e.json",
+      "href": "./green_algae/1970/ec78123f-a082-4a51-8fad-86f7b816350d.json",
       "type": "application/geo+json"
     },
     {
@@ -81,7 +81,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-05-05T07:37:16.569780Z",
+          "2025-05-06T03:55:14.477063Z",
           null
         ]
       ]

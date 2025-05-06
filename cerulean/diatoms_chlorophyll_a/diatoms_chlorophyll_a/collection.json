@@ -26,7 +26,7 @@
     },
     {
       "rel": "item",
-      "href": "./diatoms_chlorophyll_a/1970/44c22692-6226-4f81-9558-cd655f658572.json",
+      "href": "./diatoms_chlorophyll_a/1970/4f73efa8-bcc8-4771-a4a7-f921479ff0d3.json",
       "type": "application/geo+json"
     },
     {
@@ -81,7 +81,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-05-05T07:37:15.655613Z",
+          "2025-05-06T03:55:13.803214Z",
           null
         ]
       ]

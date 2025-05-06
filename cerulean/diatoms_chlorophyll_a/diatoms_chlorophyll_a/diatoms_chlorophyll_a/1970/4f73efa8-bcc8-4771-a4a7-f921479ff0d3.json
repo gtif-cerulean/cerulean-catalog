@@ -2,11 +2,11 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [],
-  "id": "65319a73-eb79-42ae-a280-7fb98b1f503b",
+  "id": "4f73efa8-bcc8-4771-a4a7-f921479ff0d3",
   "geometry": null,
   "properties": {
     "start_datetime": "1970-01-01T00:00:00Z",
-    "end_datetime": "2025-05-05T07:37:15.632103Z",
+    "end_datetime": "2025-05-06T03:55:14.382015Z",
     "datetime": "1970-01-01T00:00:00Z"
   },
   "links": [
@@ -20,15 +20,15 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Chlorophyll-a concentration"
+      "title": "Diatoms Chlorophyll a concentration"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Chlorophyll-a concentration"
+      "title": "Diatoms Chlorophyll a concentration"
     }
   ],
   "assets": {},
-  "collection": "chlorophyll_concentration"
+  "collection": "diatoms_chlorophyll_a"
 }

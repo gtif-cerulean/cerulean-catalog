@@ -2,11 +2,11 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [],
-  "id": "337f12e5-1f82-4921-a301-4053d6065d3e",
+  "id": "466e7f88-e69d-4490-8c04-f2e945db0447",
   "geometry": null,
   "properties": {
     "start_datetime": "1970-01-01T00:00:00Z",
-    "end_datetime": "2025-05-05T07:37:16.633503Z",
+    "end_datetime": "2025-05-06T03:55:14.910028Z",
     "datetime": "1970-01-01T00:00:00Z"
   },
   "links": [
@@ -20,15 +20,15 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Green Algae Chlorophyll a concentration"
+      "title": "Picophytoplankton Chlorophyll a concentration"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Green Algae Chlorophyll a concentration"
+      "title": "Picophytoplankton Chlorophyll a concentration"
     }
   ],
   "assets": {},
-  "collection": "green_algae"
+  "collection": "picophytoplankton_chlorophyll_a"
 }

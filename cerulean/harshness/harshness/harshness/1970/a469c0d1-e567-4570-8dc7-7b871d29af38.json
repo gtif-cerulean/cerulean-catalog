@@ -2,11 +2,11 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [],
-  "id": "44c22692-6226-4f81-9558-cd655f658572",
+  "id": "a469c0d1-e567-4570-8dc7-7b871d29af38",
   "geometry": null,
   "properties": {
     "start_datetime": "1970-01-01T00:00:00Z",
-    "end_datetime": "2025-05-05T07:37:16.459241Z",
+    "end_datetime": "2025-05-06T03:55:04.651810Z",
     "datetime": "1970-01-01T00:00:00Z"
   },
   "links": [
@@ -20,15 +20,15 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Diatoms Chlorophyll a concentration"
+      "title": "Harshness capability"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Diatoms Chlorophyll a concentration"
+      "title": "Harshness capability"
     }
   ],
   "assets": {},
-  "collection": "diatoms_chlorophyll_a"
+  "collection": "harshness"
 }
