@@ -26,7 +26,7 @@
     },
     {
       "rel": "item",
-      "href": "./prochlorophytes_chlorophyll_a/1970/d2b9949f-00fd-4b68-a336-dc47a6d2e021.json",
+      "href": "./prochlorophytes_chlorophyll_a/1970/16918dfd-9e26-4cda-9f2e-6e52cc5f9385.json",
       "type": "application/geo+json"
     },
     {
@@ -69,7 +69,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-05-07T08:30:22.016564Z",
+          "2025-05-07T16:41:11.148100Z",
           null
         ]
       ]
