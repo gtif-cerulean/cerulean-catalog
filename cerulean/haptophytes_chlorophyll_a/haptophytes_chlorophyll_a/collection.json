@@ -26,7 +26,7 @@
     },
     {
       "rel": "item",
-      "href": "./haptophytes_chlorophyll_a/1970/08a3bb80-5da0-4185-bcac-13557a051732.json",
+      "href": "./haptophytes_chlorophyll_a/1970/e4a7efae-e773-4c34-b6ab-05eaac0bf5af.json",
       "type": "application/geo+json"
     },
     {
@@ -81,7 +81,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-05-07T03:56:44.708949Z",
+          "2025-05-07T08:30:21.439155Z",
           null
         ]
       ]
