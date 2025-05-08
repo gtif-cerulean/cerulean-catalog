@@ -2,11 +2,11 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [],
-  "id": "e764067e-d728-433f-84e4-8469ecbacdf0",
+  "id": "c8e94594-edeb-4c84-86c9-35b43e4105e0",
   "geometry": null,
   "properties": {
     "start_datetime": "1970-01-01T00:00:00Z",
-    "end_datetime": "2025-05-07T16:41:10.937406Z",
+    "end_datetime": "2025-05-08T03:57:32.503250Z",
     "datetime": "1970-01-01T00:00:00Z"
   },
   "links": [
@@ -20,15 +20,15 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Microphytoplankton Chlorophyll a concentration"
+      "title": "Dinophytes Chlorophyll a - Uncertainty estimation"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Microphytoplankton Chlorophyll a concentration"
+      "title": "Dinophytes Chlorophyll a - Uncertainty estimation"
     }
   ],
   "assets": {},
-  "collection": "microphytoplankton_chlorophyll_a"
+  "collection": "dinophytes_chlorophyll_a"
 }
