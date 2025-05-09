@@ -26,7 +26,7 @@
     },
     {
       "rel": "item",
-      "href": "./nanophytoplankton_hlorophyll_a/1970/cdc66377-29b3-402e-b8dd-dbe38a415058.json",
+      "href": "./nanophytoplankton_hlorophyll_a/1970/4b26d3cb-66a2-4b75-837e-421411b4c557.json",
       "type": "application/geo+json"
     },
     {
@@ -81,7 +81,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-05-08T13:06:08.655573Z",
+          "2025-05-09T03:57:53.404351Z",
           null
         ]
       ]
