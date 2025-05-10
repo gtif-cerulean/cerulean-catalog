@@ -26,7 +26,7 @@
     },
     {
       "rel": "item",
-      "href": "./microphytoplankton_chlorophyll_a/1970/ff928ad3-9cdf-4fe8-8526-ab4ab8d41649.json",
+      "href": "./microphytoplankton_chlorophyll_a/1970/9903db3f-bf7a-4d46-bfbd-c478e21a3cab.json",
       "type": "application/geo+json"
     },
     {
@@ -81,7 +81,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-05-09T03:57:53.309085Z",
+          "2025-05-10T03:54:12.802183Z",
           null
         ]
       ]
