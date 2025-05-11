@@ -2,11 +2,11 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [],
-  "id": "5742fc3a-f192-40e8-be1c-a18073dc1790",
+  "id": "f024abaf-97e3-4ec6-ac04-9e036fd4e130",
   "geometry": null,
   "properties": {
     "start_datetime": "1970-01-01T00:00:00Z",
-    "end_datetime": "2025-05-10T03:54:12.939637Z",
+    "end_datetime": "2025-05-11T03:58:11.086259Z",
     "datetime": "1970-01-01T00:00:00Z"
   },
   "links": [
@@ -20,15 +20,15 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Nanophytoplankton Chlorophyll a concentration"
+      "title": "Green Algae Chlorophyll a concentration"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Nanophytoplankton Chlorophyll a concentration"
+      "title": "Green Algae Chlorophyll a concentration"
     }
   ],
   "assets": {},
-  "collection": "nanophytoplankton_hlorophyll_a"
+  "collection": "green_algae"
 }
