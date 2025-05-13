@@ -2,11 +2,11 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [],
-  "id": "699f1eab-ee36-4452-826b-dd5a9824ed88",
+  "id": "5837cea4-5d5a-452e-9e8e-8bd113b8bc36",
   "geometry": null,
   "properties": {
     "start_datetime": "1970-01-01T00:00:00Z",
-    "end_datetime": "2025-05-13T03:58:04.873712Z",
+    "end_datetime": "2025-05-13T07:41:02.042581Z",
     "datetime": "1970-01-01T00:00:00Z"
   },
   "links": [
@@ -20,15 +20,15 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Dinophytes Chlorophyll a - Uncertainty estimation"
+      "title": "Harshness capability"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Dinophytes Chlorophyll a - Uncertainty estimation"
+      "title": "Harshness capability"
     }
   ],
   "assets": {},
-  "collection": "dinophytes_chlorophyll_a"
+  "collection": "harshness"
 }

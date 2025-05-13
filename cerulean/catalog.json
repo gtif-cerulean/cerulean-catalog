@@ -70,8 +70,8 @@
         "Sentinel-1"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
       ],
       "collection_group": "Capabilities"
     },
@@ -1438,12 +1438,12 @@
         "placeholder"
       ],
       "sensor": [
-        "Numerical model",
-        "placeholder"
+        "placeholder",
+        "Numerical model"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
       ],
       "collection_group": "Capabilities"
     },
@@ -1489,6 +1489,35 @@
         "name": "EPSG:3413",
         "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
       }
+    },
+    {
+      "rel": "child",
+      "href": "./structureicing/collection.json",
+      "type": "application/json",
+      "title": "Icing Predictor Index",
+      "code": "structureicing",
+      "id": "structureicing",
+      "themes": [
+        "ice"
+      ],
+      "subcode": "structureicing",
+      "satellite": [
+        "multiple"
+      ],
+      "sensor": [
+        "multiple"
+      ],
+      "tags": [
+        "processing",
+        "capability"
+      ],
+      "agency": [
+        "GHRSST",
+        "CMEMS",
+        "CDS",
+        "Met Office"
+      ],
+      "collection_group": "Capabilities"
     },
     {
       "rel": "self",

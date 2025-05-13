@@ -470,17 +470,17 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "IST",
-      "SHS1",
-      "SST",
-      "USI",
-      "SIT",
-      "IBC",
-      "Polaris_algorithm_dmi_demo",
-      "MSIA",
       "SIVELO",
       "VSI",
-      "SICONC"
+      "SHS1",
+      "Polaris_algorithm_dmi_demo",
+      "SIT",
+      "SST",
+      "USI",
+      "SICONC",
+      "IST",
+      "IBC",
+      "MSIA"
     ],
     "themes": [
       "Shipping",
@@ -492,12 +492,12 @@
       "placeholder"
     ],
     "sensor": [
-      "Numerical model",
-      "placeholder"
+      "placeholder",
+      "Numerical model"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
     ]
   }
 }
