@@ -64,6 +64,7 @@
     "IBC_iceberg_concentration",
     "shipping_indicator",
     "SID_sea_ice_detections",
-    "polarwarp_indicator"
+    "polarwarp_indicator",
+    "structureicing"
   ]
 }
