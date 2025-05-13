@@ -2,11 +2,11 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [],
-  "id": "278d6473-0bd7-4759-af47-b65adde98380",
+  "id": "0d28c11a-4e3d-49aa-99e2-86ba92a2a9f6",
   "geometry": null,
   "properties": {
     "start_datetime": "1970-01-01T00:00:00Z",
-    "end_datetime": "2025-05-13T07:41:14.109264Z",
+    "end_datetime": "2025-05-13T16:30:08.210262Z",
     "datetime": "1970-01-01T00:00:00Z"
   },
   "links": [
@@ -20,15 +20,15 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Nanophytoplankton Chlorophyll a concentration"
+      "title": "Harshness capability"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Nanophytoplankton Chlorophyll a concentration"
+      "title": "Harshness capability"
     }
   ],
   "assets": {},
-  "collection": "nanophytoplankton_hlorophyll_a"
+  "collection": "harshness"
 }
