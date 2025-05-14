@@ -2,11 +2,11 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [],
-  "id": "84827ed8-717f-4336-8c31-8f2d3725b9d9",
+  "id": "dfe3140e-229e-440f-8673-72b9257bcaf3",
   "geometry": null,
   "properties": {
     "start_datetime": "1970-01-01T00:00:00Z",
-    "end_datetime": "2025-05-13T16:30:20.896055Z",
+    "end_datetime": "2025-05-14T03:57:22.312094Z",
     "datetime": "1970-01-01T00:00:00Z"
   },
   "links": [
@@ -20,15 +20,15 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Microphytoplankton Chlorophyll a concentration"
+      "title": "Prochlorophytes Chlorophyll a concentration"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Microphytoplankton Chlorophyll a concentration"
+      "title": "Prochlorophytes Chlorophyll a concentration"
     }
   ],
   "assets": {},
-  "collection": "microphytoplankton_chlorophyll_a"
+  "collection": "prochlorophytes_chlorophyll_a"
 }
