@@ -47,7 +47,7 @@
       "LayerId": "GLOBAL_ANALYSISFORECAST_BGC_001_028/cmems_mod_glo_bgc-car_anfc_0.25deg_P1D-m_202311/talk",
       "Query": {
         "Start": "2021-01-01T00:00:00Z",
-        "End": "2025-01-27T00:00:00Z"
+        "End": "2030-01-01T00:00:00Z"
       },
       "Dimensions": {
         "elevation": 0,
