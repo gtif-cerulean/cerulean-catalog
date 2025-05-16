@@ -1,0 +1,65 @@
+{
+  "type": "Catalog",
+  "id": "cerulean",
+  "stac_version": "1.1.0",
+  "description": "Catalog providing description to available datasets to the Cerulean GTIF project",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./drift_deformation_drift_sample/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Drift Sample Results",
+      "code": "drift_deformation_drift_sample",
+      "id": "drift_deformation_drift_sample",
+      "themes": [
+        "ice"
+      ],
+      "subcode": "drift_deformation_drift_sample",
+      "satellite": [
+        "multiple"
+      ],
+      "sensor": [
+        "multiple"
+      ],
+      "tags": [
+        "processing",
+        "capability"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Capabilities"
+    },
+    {
+      "rel": "child",
+      "href": "./drift_deformation_indicator_drift_sample/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Drift and Deformation",
+      "code": "drift_deformation_indicator_drift_sample",
+      "id": "drift_deformation_indicator_drift_sample",
+      "themes": [
+        "ice"
+      ],
+      "subcode": "drift_deformation_indicator_drift_sample",
+      "satellite": [
+        "multiple"
+      ],
+      "sensor": [
+        "multiple"
+      ],
+      "collection_group": "Capabilities"
+    },
+    {
+      "rel": "self",
+      "href": "https://gtif-cerulean.github.io/cerulean-catalog/cerulean/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "Cerulean GTIF project catalog"
+}
