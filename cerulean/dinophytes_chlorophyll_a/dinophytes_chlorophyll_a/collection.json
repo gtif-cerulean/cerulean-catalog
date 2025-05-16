@@ -11,6 +11,24 @@
       "title": "Cerulean GTIF project catalog"
     },
     {
+      "rel": "item",
+      "href": "./dinophytes_chlorophyll_a/2025/2025-02-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-02-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./dinophytes_chlorophyll_a/2025/2025-03-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-03-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./dinophytes_chlorophyll_a/2025/2025-04-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-04-01T00:00:00Z"
+    },
+    {
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-multi-4km_P1M_202411",
       "type": "image/png",
@@ -23,11 +41,6 @@
         "elevation": 0,
         "style": "cmap:rainbow"
       }
-    },
-    {
-      "rel": "item",
-      "href": "./dinophytes_chlorophyll_a/1970/622aad69-30d4-4b92-b82b-40587aa06677.json",
-      "type": "application/geo+json"
     },
     {
       "rel": "parent",
@@ -77,18 +90,18 @@
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          -179.9791717529297,
+          -89.97917175292969,
+          179.9791717529297,
+          89.97916412353516
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-05-16T03:58:43.225600Z",
-          null
+          "2025-02-01T00:00:00Z",
+          "2025-04-01T00:00:00Z"
         ]
       ]
     }
