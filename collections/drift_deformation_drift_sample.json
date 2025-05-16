@@ -1,0 +1,30 @@
+{
+  "Name": "drift_deformation_drift_sample",
+  "Title": "Sea Ice Drift Sample Results",
+  "EodashIdentifier": "drift_deformation_drift_sample",
+  "CollectionGroup": "Capabilities",
+  "Description": "Nansat sea ice drift algorithm uses feature tracking and pattern matching. The gridded ice tracking vectors are then used to estimate sea ice deformation (divergence, shear and total deformation).",
+  "Themes": ["ice"],
+  "Tags": ["processing", "capability"],
+  "Satellite": ["multiple"],
+  "Sensor": ["multiple"],
+  "Agency": ["CMEMS"],
+  "Resources": [
+    {
+      "Name": "GeoJSON source",
+      "Style": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/drift_deformation_drift_sample.json",
+      "Bbox": [-84, 75, -79, 77],
+      "TimeEntries": [
+        {
+          "Time": "20240307",
+          "Assets": [
+            {
+              "Identifier": "drift_deformation_drift_sample",
+              "File": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/collections/drift_deformation/drift_deformation_drift_sample.geojson"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
