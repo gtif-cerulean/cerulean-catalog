@@ -48,10 +48,14 @@
       ],
       "subcode": "drift_deformation_indicator_drift_sample",
       "satellite": [
-        "multiple"
+        "multiple",
+        "Sentinel-1"
       ],
       "sensor": [
         "multiple"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
       ],
       "collection_group": "Capabilities"
     },
