@@ -2,11 +2,11 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [],
-  "id": "2613f441-5708-4b01-96ca-16c53eb6d074",
+  "id": "2c33bd01-a55d-44ab-8c5e-19307cc002ba",
   "geometry": null,
   "properties": {
     "start_datetime": "1970-01-01T00:00:00Z",
-    "end_datetime": "2025-05-15T03:56:50.344959Z",
+    "end_datetime": "2025-05-16T03:58:43.779432Z",
     "datetime": "1970-01-01T00:00:00Z"
   },
   "links": [
@@ -20,15 +20,15 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Diatoms Chlorophyll a concentration"
+      "title": "Picophytoplankton Chlorophyll a concentration"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Diatoms Chlorophyll a concentration"
+      "title": "Picophytoplankton Chlorophyll a concentration"
     }
   ],
   "assets": {},
-  "collection": "diatoms_chlorophyll_a"
+  "collection": "picophytoplankton_chlorophyll_a"
 }

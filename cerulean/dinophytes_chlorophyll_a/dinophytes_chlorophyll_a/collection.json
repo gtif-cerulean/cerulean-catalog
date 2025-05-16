@@ -26,7 +26,7 @@
     },
     {
       "rel": "item",
-      "href": "./dinophytes_chlorophyll_a/1970/75b9a988-2745-4873-950f-9fa263d88445.json",
+      "href": "./dinophytes_chlorophyll_a/1970/622aad69-30d4-4b92-b82b-40587aa06677.json",
       "type": "application/geo+json"
     },
     {
@@ -87,7 +87,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-05-15T03:56:50.367390Z",
+          "2025-05-16T03:58:43.225600Z",
           null
         ]
       ]

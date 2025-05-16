@@ -2,11 +2,11 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [],
-  "id": "75b9a988-2745-4873-950f-9fa263d88445",
+  "id": "96eada1a-f11d-4eb6-808b-4e7e75d26369",
   "geometry": null,
   "properties": {
     "start_datetime": "1970-01-01T00:00:00Z",
-    "end_datetime": "2025-05-15T03:56:50.424077Z",
+    "end_datetime": "2025-05-16T03:58:42.373591Z",
     "datetime": "1970-01-01T00:00:00Z"
   },
   "links": [
@@ -20,15 +20,15 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Dinophytes Chlorophyll a - Uncertainty estimation"
+      "title": "Chlorophyll-a concentration"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Dinophytes Chlorophyll a - Uncertainty estimation"
+      "title": "Chlorophyll-a concentration"
     }
   ],
   "assets": {},
-  "collection": "dinophytes_chlorophyll_a"
+  "collection": "chlorophyll_concentration"
 }
