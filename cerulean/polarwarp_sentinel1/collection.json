@@ -188,7 +188,7 @@
       "interval": [
         [
           "1970-01-01T00:00:00Z",
-          "2025-05-17T03:55:08.665612Z"
+          "2025-05-18T04:02:52.065854Z"
         ]
       ]
     }
@@ -196,14 +196,14 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "polarwarp",
-      "SHS1"
+      "SHS1",
+      "polarwarp"
     ],
     "themes": [
-      "ice",
+      "Shipping",
       "Aquaculture",
       "Energy",
-      "Shipping"
+      "ice"
     ],
     "satellite": [
       "Sentinel-1",
