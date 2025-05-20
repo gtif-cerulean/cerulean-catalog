@@ -5,7 +5,7 @@
   "CollectionGroup": "Capabilities",
   "Description": "structureicing/structureicing.md",
   "Themes": [
-    "ice"
+    "Shipping"
   ],
   "Tags": [
     "processing",
@@ -47,6 +47,15 @@
         "Body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/structureicing.json",
         "Type": "image/tiff",
         "Flatstyle": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/structureicing.json"
+      },
+      {
+        "Identifier": "structureicing_copy",
+        "Url": "https://harshness-map.gtif.eox.at/processes/execute-structure-icing-0.5/execution",
+        "Method": "POST",
+        "EndPoint": "eoxhub_workspaces",
+        "Body": "https://api.npoint.io/6689147784f750164f84",
+        "Type": "image/tiff",
+        "Flatstyle": "https://api.npoint.io/4678f54c258286f4b81d"
       }
     ]
   }

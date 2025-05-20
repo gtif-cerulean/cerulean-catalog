@@ -5,7 +5,7 @@
   "CollectionGroup": "Capabilities",
   "Description": "This is an example of how the polar warp capability can be triggered and visualized within the dashboard.",
   "Themes": [
-    "ice"
+    "Shipping"
   ],
   "Tags": [
     "processing",
