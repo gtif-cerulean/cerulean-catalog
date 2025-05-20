@@ -19,7 +19,7 @@
       "code": "drift_deformation_drift_sample",
       "id": "drift_deformation_drift_sample",
       "themes": [
-        "ice"
+        "Shipping"
       ],
       "tags": [
         "processing",
@@ -169,7 +169,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-05-16T00:00:00Z"
+          "2025-05-20T00:00:00Z"
         ]
       ]
     }
@@ -182,13 +182,12 @@
     ],
     "themes": [
       "Shipping",
-      "Aquaculture",
       "Energy",
-      "ice"
+      "Aquaculture"
     ],
     "satellite": [
-      "multiple",
-      "Sentinel-1"
+      "Sentinel-1",
+      "multiple"
     ],
     "sensor": [
       "multiple"

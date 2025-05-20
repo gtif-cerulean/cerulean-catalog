@@ -19,7 +19,7 @@
       "code": "drift_deformation_drift_sample",
       "id": "drift_deformation_drift_sample",
       "themes": [
-        "ice"
+        "Shipping"
       ],
       "tags": [
         "processing",
@@ -110,7 +110,7 @@
     }
   ],
   "themes": [
-    "ice"
+    "Shipping"
   ],
   "tags": [
     "processing",
@@ -160,7 +160,7 @@
       "drift_deformation_drift_sample"
     ],
     "themes": [
-      "ice"
+      "Shipping"
     ],
     "satellite": [
       "multiple"

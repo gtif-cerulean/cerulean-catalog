@@ -18,7 +18,7 @@
       "code": "drift_deformation_drift_sample",
       "id": "drift_deformation_drift_sample",
       "themes": [
-        "ice"
+        "Shipping"
       ],
       "subcode": "drift_deformation_drift_sample",
       "satellite": [
@@ -48,8 +48,8 @@
       ],
       "subcode": "drift_deformation_indicator_drift_sample",
       "satellite": [
-        "multiple",
-        "Sentinel-1"
+        "Sentinel-1",
+        "multiple"
       ],
       "sensor": [
         "multiple"
