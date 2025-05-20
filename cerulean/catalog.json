@@ -18,7 +18,7 @@
       "code": "harshness",
       "id": "harshness",
       "themes": [
-        "ice"
+        "Shipping"
       ],
       "subcode": "harshness",
       "satellite": [
@@ -70,8 +70,8 @@
         "Sentinel-1"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
       ],
       "collection_group": "Capabilities"
     },
@@ -83,7 +83,7 @@
       "code": "airss_go_or_no_go",
       "id": "airss_results",
       "themes": [
-        "cryosphere"
+        "Shipping"
       ],
       "subcode": "airss_go_or_no_go",
       "thumbnail": [
@@ -1434,16 +1434,16 @@
       ],
       "subcode": "SHIP1",
       "satellite": [
-        "placeholder",
-        "Sentinel-1"
+        "Sentinel-1",
+        "placeholder"
       ],
       "sensor": [
-        "placeholder",
-        "Numerical model"
+        "Numerical model",
+        "placeholder"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
       ],
       "collection_group": "Capabilities"
     },
@@ -1455,7 +1455,7 @@
       "code": "SID",
       "id": "sea_ice_detections",
       "themes": [
-        "shipping"
+        "Shipping"
       ],
       "subcode": "SID",
       "agency": [
@@ -1475,8 +1475,8 @@
       ],
       "subcode": "polarwarp_sentinel1",
       "satellite": [
-        "multiple",
-        "Sentinel-1"
+        "Sentinel-1",
+        "multiple"
       ],
       "sensor": [
         "multiple"
@@ -1498,7 +1498,7 @@
       "code": "structureicing",
       "id": "structureicing",
       "themes": [
-        "ice"
+        "Shipping"
       ],
       "subcode": "structureicing",
       "satellite": [

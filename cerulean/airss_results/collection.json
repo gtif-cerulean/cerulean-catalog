@@ -19,7 +19,7 @@
       "code": "airss_go_or_no_go",
       "id": "airss_results",
       "themes": [
-        "cryosphere"
+        "Shipping"
       ],
       "agency": [
         "DMI"
@@ -101,7 +101,7 @@
   ],
   "thumbnail": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
   "themes": [
-    "cryosphere"
+    "Shipping"
   ],
   "agency": [
     "DMI"
@@ -166,7 +166,7 @@
       "airss_go_or_no_go"
     ],
     "themes": [
-      "cryosphere"
+      "Shipping"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"

@@ -19,7 +19,7 @@
       "code": "structureicing",
       "id": "structureicing",
       "themes": [
-        "ice"
+        "Shipping"
       ],
       "tags": [
         "processing",
@@ -49,6 +49,16 @@
       "endpoint": "eoxhub_workspaces",
       "body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/structureicing.json",
       "eox:flatstyle": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/structureicing.json"
+    },
+    {
+      "rel": "service",
+      "href": "https://harshness-map.gtif.eox.at/processes/execute-structure-icing-0.5/execution",
+      "type": "image/tiff",
+      "id": "structureicing_copy",
+      "method": "POST",
+      "endpoint": "eoxhub_workspaces",
+      "body": "https://api.npoint.io/6689147784f750164f84",
+      "eox:flatstyle": "https://api.npoint.io/4678f54c258286f4b81d"
     },
     {
       "rel": "xyz",
@@ -123,7 +133,7 @@
     }
   ],
   "themes": [
-    "ice"
+    "Shipping"
   ],
   "tags": [
     "processing",
@@ -166,7 +176,7 @@
       "interval": [
         [
           "1970-01-01T00:00:00Z",
-          "2025-05-20T03:59:38.711955Z"
+          "2025-05-20T09:29:45.447821Z"
         ]
       ]
     }
@@ -177,7 +187,7 @@
       "structureicing"
     ],
     "themes": [
-      "ice"
+      "Shipping"
     ],
     "satellite": [
       "multiple"
