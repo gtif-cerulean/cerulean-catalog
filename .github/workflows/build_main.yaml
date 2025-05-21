@@ -11,9 +11,9 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-  # run at 3:40 daily
+  # run at 3:40 weekly on sunday and wednesday
   schedule:
-    - cron: '40 3 * * *'
+    - cron: '40 3 * * 0,4'
 jobs:
   deploy:
     runs-on: ubuntu-22.04
@@ -21,25 +21,21 @@ jobs:
       contents: write
       pages: write
       pull-requests: write
+      packages: read
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Install dependencies
-        run: |
-          pip install -U pip
-          pip install eodash_catalog==0.1.9
       - name: Build
         env:
           SH_INSTANCE_ID: ${{ secrets.SH_INSTANCE_ID }}
           SH_CLIENT_ID: ${{ secrets.SH_CLIENT_ID }}
           SH_CLIENT_SECRET: ${{ secrets.SH_CLIENT_SECRET }}
-          SH_INSTANCE_ID_POLARTEP: ${{ secrets.SH_INSTANCE_ID_POLARTEP }}
-          SH_CLIENT_ID_POLARTEP: ${{ secrets.SH_CLIENT_ID_POLARTEP }}
-          SH_CLIENT_SECRET_POLARTEP: ${{ secrets.SH_CLIENT_SECRET_POLARTEP }}
         # actually run the catalog generation
-        run: eodash_catalog
+        run: |
+          docker pull ghcr.io/eodash/eodash_catalog:latest
+          docker run -v "$PWD:/workspace" -w "/workspace" -e SH_INSTANCE_ID="$SH_INSTANCE_ID" -e SH_CLIENT_ID="$SH_CLIENT_ID" -e SH_CLIENT_SECRET="$SH_CLIENT_SECRET" ghcr.io/eodash/eodash_catalog:latest eodash_catalog
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
