@@ -2,11 +2,11 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [],
-  "id": "b1918b45-ba51-4a29-9288-c284abbbc464",
+  "id": "0c35bc9a-f304-4eb6-a54a-1e8cd4c4a005",
   "geometry": null,
   "properties": {
     "start_datetime": "1970-01-01T00:00:00Z",
-    "end_datetime": "2025-05-20T09:29:44.577810Z",
+    "end_datetime": "2025-05-21T03:57:36.387810Z",
     "datetime": "1970-01-01T00:00:00Z"
   },
   "links": [
@@ -20,15 +20,15 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Polar warp capability"
+      "title": "Harshness capability"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Polar warp capability"
+      "title": "Harshness capability"
     }
   ],
   "assets": {},
-  "collection": "polarwarp"
+  "collection": "harshness"
 }

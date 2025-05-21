@@ -471,29 +471,29 @@
   "summaries": {
     "subcode": [
       "SST",
-      "Polaris_algorithm_dmi_demo",
-      "SIT",
       "SHS1",
-      "SICONC",
-      "SIVELO",
       "USI",
+      "SIT",
+      "MSIA",
+      "Polaris_algorithm_dmi_demo",
       "IST",
       "VSI",
+      "SIVELO",
       "IBC",
-      "MSIA"
+      "SICONC"
     ],
     "themes": [
+      "Energy",
       "Aquaculture",
-      "Shipping",
-      "Energy"
+      "Shipping"
     ],
     "satellite": [
-      "Sentinel-1",
-      "placeholder"
+      "placeholder",
+      "Sentinel-1"
     ],
     "sensor": [
-      "Numerical model",
-      "placeholder"
+      "placeholder",
+      "Numerical model"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
