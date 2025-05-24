@@ -1,9 +1,8 @@
 {
-  "Name": "",
-  "Title": "",
-  "EodashIdentifier": "",
-  "Subtitle": "",
-  "Description": "",
+  "Name": "Sea_Ice_Concentration",
+  "Title": "Sea Ice Concentration",
+  "EodashIdentifier": "cmems_balitic_siconc",
+  "Description": "Test",
   "Themes": [],
   "Tags": [],
   "DataSource": {
@@ -26,7 +25,17 @@
   "Image": "",
   "Legend": "",
   "Subcollections": [],
-  "Resources": [],
+  "Resources": [
+    {
+      "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411",
+      "Name": "marinedatastore",
+      "Type": "WMTSCapabilities",
+      "LayerId": "",
+      "Variable": "",
+      "Dimensions": {},
+      "CollectionId": ""
+    }
+  ],
   "Services": [],
   "References": [],
   "Colorlegend": {
@@ -38,7 +47,6 @@
     "scaleType": "continuous",
     "markType": "rect"
   },
-  "CollectionGroup": "",
   "Process": {
     "Name": "",
     "JsonForm": "",
