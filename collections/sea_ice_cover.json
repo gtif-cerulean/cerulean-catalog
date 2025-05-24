@@ -1,7 +1,7 @@
 {
   "Name": "Sea_Ice_Concentration",
   "Title": "Sea Ice Concentration",
-  "EodashIdentifier": "cmems_balitic_siconc",
+  "EodashIdentifier": "cmems_baltic_siconc",
   "Description": "Test",
   "Themes": [],
   "Tags": [],
@@ -32,8 +32,7 @@
       "Type": "WMTSCapabilities",
       "LayerId": "",
       "Variable": "",
-      "Dimensions": {},
-      "CollectionId": ""
+      "Dimensions": {}
     }
   ],
   "Services": [],
