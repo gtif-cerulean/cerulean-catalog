@@ -1,9 +1,8 @@
 {
-  "Name": "",
-  "Title": "",
-  "EodashIdentifier": "",
-  "Subtitle": "",
-  "Description": "",
+  "Name": "testtynatynatyna",
+  "Title": "testtynatynatyna",
+  "EodashIdentifier": "testtynatynatyna",
+  "Description": "fgsgsetgsetg",
   "Themes": [],
   "Tags": [],
   "DataSource": {
@@ -26,7 +25,17 @@
   "Image": "",
   "Legend": "",
   "Subcollections": [],
-  "Resources": [],
+  "Resources": [
+    {
+      "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-olci-300m_P1M_202211",
+      "Name": "marinedatastore",
+      "Type": "WMTSCapabilities",
+      "LayerId": "OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-olci-300m_P1M_202211",
+      "Variable": "",
+      "Dimensions": {},
+      "CollectionId": "hhhhh"
+    }
+  ],
   "Services": [],
   "References": [],
   "Colorlegend": {
@@ -38,7 +47,6 @@
     "scaleType": "continuous",
     "markType": "rect"
   },
-  "CollectionGroup": "",
   "Process": {
     "Name": "",
     "JsonForm": "",
