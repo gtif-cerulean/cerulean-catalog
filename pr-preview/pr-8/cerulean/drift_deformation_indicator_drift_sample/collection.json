@@ -181,9 +181,9 @@
       "drift_deformation_drift_sample"
     ],
     "themes": [
+      "Energy",
       "Shipping",
-      "Aquaculture",
-      "Energy"
+      "Aquaculture"
     ],
     "satellite": [
       "Sentinel-1",
