@@ -169,7 +169,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-05-20T00:00:00Z"
+          "2025-05-26T00:00:00Z"
         ]
       ]
     }
@@ -177,13 +177,13 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "drift_deformation_drift_sample",
-      "SHS1"
+      "SHS1",
+      "drift_deformation_drift_sample"
     ],
     "themes": [
       "Shipping",
-      "Energy",
-      "Aquaculture"
+      "Aquaculture",
+      "Energy"
     ],
     "satellite": [
       "Sentinel-1",
