@@ -2,6 +2,19 @@
   "Name": "test_1",
   "Title": "test_1",
   "EodashIdentifier": "test_1",
-  "Description": "",
-  "Resources": []
+  "Description": "**Sample description!**",
+  "Resources": [],
+  "Themes": [],
+  "Tags": [],
+  "DataSource": {},
+  "Agency": [],
+  "License": "",
+  "Locations": [],
+  "Provider": [],
+  "Citation": {
+    "DOI": "",
+    "Citation": ""
+  },
+  "Image": "",
+  "Legend": ""
 }
