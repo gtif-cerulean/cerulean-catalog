@@ -1,7 +1,33 @@
 {
-  "Name": "automation",
-  "Title": "automation",
-  "EodashIdentifier": "automation",
-  "Description": "",
-  "Resources": []
+  "Name": "cmems_data_chl",
+  "Title": "CMEMS Chlorophyll 16",
+  "EodashIdentifier": "CMEMS_CHL",
+  "Description": "Description of data",
+  "Resources": [
+    {
+      "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-olci-300m_P1M_202211",
+      "Name": "marinedatastore",
+      "Type": "WMTSCapabilities",
+      "LayerId": "OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-olci-300m_P1M_202211/CHL",
+      "Variable": "",
+      "Dimensions": {},
+      "Query": {
+        "Start": "2024-01-01T00:00:00Z"
+      }
+    }
+  ],
+  "Themes": [],
+  "Tags": [],
+  "DataSource": {},
+  "Agency": [],
+  "License": "",
+  "Locations": [],
+  "Provider": [],
+  "Citation": {
+    "DOI": "",
+    "Citation": ""
+  },
+  "Image": "",
+  "Legend": "",
+  "CollectionGroup": "Water Biology"
 }
