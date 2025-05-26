@@ -1,0 +1,239 @@
+{
+  "type": "Collection",
+  "id": "testtynatynatyna",
+  "stac_version": "1.1.0",
+  "description": "fgsgsetgsetg",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./testtynatynatyna/2023/2023-04-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2023-04-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./testtynatynatyna/2023/2023-05-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2023-05-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./testtynatynatyna/2023/2023-06-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2023-06-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./testtynatynatyna/2023/2023-07-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2023-07-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./testtynatynatyna/2023/2023-08-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2023-08-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./testtynatynatyna/2023/2023-09-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2023-09-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./testtynatynatyna/2023/2023-10-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2023-10-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./testtynatynatyna/2023/2023-11-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2023-11-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./testtynatynatyna/2023/2023-12-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2023-12-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./testtynatynatyna/2024/2024-01-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2024-01-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./testtynatynatyna/2024/2024-02-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2024-02-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./testtynatynatyna/2024/2024-03-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2024-03-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./testtynatynatyna/2024/2024-04-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2024-04-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./testtynatynatyna/2024/2024-05-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2024-05-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./testtynatynatyna/2024/2024-06-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2024-06-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./testtynatynatyna/2024/2024-07-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2024-07-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./testtynatynatyna/2024/2024-08-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2024-08-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./testtynatynatyna/2024/2024-09-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2024-09-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./testtynatynatyna/2024/2024-10-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2024-10-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./testtynatynatyna/2024/2024-11-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2024-11-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./testtynatynatyna/2024/2024-12-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2024-12-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./testtynatynatyna/2025/2025-01-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./testtynatynatyna/2025/2025-02-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-02-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./testtynatynatyna/2025/2025-03-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-03-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./testtynatynatyna/2025/2025-04-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-04-01T00:00:00Z"
+    },
+    {
+      "rel": "wmts",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-reflectance_nrt_l4-olci-300m_P1M_202211",
+      "type": "image/png",
+      "title": "wmts capabilities",
+      "wmts:layer": "OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-reflectance_nrt_l4-olci-300m_P1M_202211/RRS400",
+      "role": [
+        "data"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "testtynatynatyna"
+    }
+  ],
+  "sci:doi": "",
+  "sci:citation": "",
+  "thumbnail": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/",
+  "themes": [],
+  "tags": [],
+  "agency": [],
+  "subcode": "testtynatynatyna",
+  "sensor": [],
+  "satellite": [],
+  "insituSources": [],
+  "otherSources": [],
+  "eox:colorlegend": {
+    "title": "",
+    "range": [],
+    "domain": [],
+    "tickFormat": "",
+    "tickValues": [],
+    "scaleType": "continuous",
+    "markType": "rect"
+  },
+  "endpointtype": "marinedatastore_WMTSCapabilities",
+  "title": "testtynatynatyna",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -179.99722290039062,
+          -89.99722290039062,
+          179.9972381591797,
+          89.99722290039062
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-04-01T00:00:00Z",
+          "2025-04-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}
