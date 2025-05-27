@@ -1,9 +1,8 @@
 {
-  "Name": "",
-  "Title": "",
-  "EodashIdentifier": "",
-  "Subtitle": "",
-  "Description": "",
+  "Name": "cmems_data_chl",
+  "Title": "CMEMS Chlorophyll",
+  "EodashIdentifier": "CMEMS_CHL",
+  "Description": "Description",
   "Themes": [],
   "Tags": [],
   "DataSource": {
@@ -26,7 +25,21 @@
   "Image": "",
   "Legend": "",
   "Subcollections": [],
-  "Resources": [],
+  "Resources": [
+    {
+      "EndPoint": "wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-olci-300m_P1M_202211",
+      "Name": "marinedatastore",
+      "Type": "WMTSCapabilities",
+      "LayerId": "OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-olci-300m_P1M_202211",
+      "Variable": "",
+      "Dimensions": {},
+      "Query": {
+        "Start": "2024-01-01T00:00:00Z",
+        "End": "2025-01-27T00:00:00Z"
+      },
+      "CollectionId": ""
+    }
+  ],
   "Services": [],
   "References": [],
   "Colorlegend": {
@@ -38,7 +51,6 @@
     "scaleType": "continuous",
     "markType": "rect"
   },
-  "CollectionGroup": "",
   "Process": {
     "Name": "",
     "JsonForm": "",
