@@ -65,6 +65,7 @@
     "shipping_indicator",
     "SID_sea_ice_detections",
     "polarwarp_indicator",
-    "structureicing"
+    "structureicing",
+    "cmems_baltic_data"
   ]
 }
