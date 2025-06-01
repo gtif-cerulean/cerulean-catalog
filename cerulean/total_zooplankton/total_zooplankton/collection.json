@@ -3305,6 +3305,48 @@
       "datetime": "2025-05-30T00:00:00Z"
     },
     {
+      "rel": "item",
+      "href": "./total_zooplankton/2025/2025-05-31T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-31T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./total_zooplankton/2025/2025-06-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./total_zooplankton/2025/2025-06-02T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-02T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./total_zooplankton/2025/2025-06-03T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-03T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./total_zooplankton/2025/2025-06-04T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-04T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./total_zooplankton/2025/2025-06-05T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-05T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./total_zooplankton/2025/2025-06-06T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-06T00:00:00Z"
+    },
+    {
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_BGC_001_028/cmems_mod_glo_bgc-plankton_anfc_0.25deg_P1D-m_202411",
       "type": "image/png",
@@ -3372,7 +3414,7 @@
       "interval": [
         [
           "2023-11-29T00:00:00Z",
-          "2025-05-30T00:00:00Z"
+          "2025-06-06T00:00:00Z"
         ]
       ]
     }
