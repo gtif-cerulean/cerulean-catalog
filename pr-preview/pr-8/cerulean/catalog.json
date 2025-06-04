@@ -37,29 +37,6 @@
       "collection_group": "Capabilities"
     },
     {
-      "rel": "child",
-      "href": "./drift_deformation_indicator_drift_sample/collection.json",
-      "type": "application/json",
-      "title": "Sea Ice Drift and Deformation",
-      "code": "drift_deformation_indicator_drift_sample",
-      "id": "drift_deformation_indicator_drift_sample",
-      "themes": [
-        "ice"
-      ],
-      "subcode": "drift_deformation_indicator_drift_sample",
-      "satellite": [
-        "Sentinel-1",
-        "multiple"
-      ],
-      "sensor": [
-        "multiple"
-      ],
-      "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
-      ],
-      "collection_group": "Capabilities"
-    },
-    {
       "rel": "self",
       "href": "https://gtif-cerulean.github.io/cerulean-catalog/cerulean/catalog.json",
       "type": "application/json"
