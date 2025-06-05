@@ -66,6 +66,6 @@
     "SID_sea_ice_detections",
     "polarwarp_indicator",
     "structureicing",
-    "drift_deformation_indicator_drift_sample"
+    "drift_deformation_indicator"
   ]
 }

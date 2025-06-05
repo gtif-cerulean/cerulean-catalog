@@ -1,0 +1,31 @@
+{
+  "Name": "drift_deformation_indicator",
+  "Title": "Sea Ice Drift and Deformation",
+  "EodashIdentifier": "drift_deformation_indicator",
+  "Description": "Nansat sea ice drift algorithm uses feature tracking and pattern matching. The gridded ice tracking vectors are then used to estimate sea ice deformation (divergence, shear and total deformation).",
+  "CollectionGroup": "Capabilities",
+  "Themes": [
+    "Shipping",
+    "Aquaculture",
+    "Energy"
+  ],
+  "Collections": ["SHS1_sentinel1_ew_hh"],
+  "Process": {
+    "Name": "drift_deformation",
+    "JsonForm": "https://api.npoint.io/c3cecdb71dce64ea5fa7",
+    "EndPoints": [
+      {
+        "Identifier": "drift_deformation",
+        "Url": "https://harshness-map.gtif.eox.at/processes/execute-deformation/execution",
+        "Method": "POST",
+        "EndPoint": "eoxhub_workspaces",
+        "Body": "https://api.npoint.io/24c7bc3b895eeaf2f34b",
+        "Type": "application/geo+json",
+        "Flatstyle": {
+          "drift_vectors": "https://api.npoint.io/06f27d221044b87faedb",
+          "deformation_tiff": "https://api.npoint.io/06f27d221044b87faedb"
+        }
+      }
+    ]
+  }
+}
