@@ -12,12 +12,6 @@
     },
     {
       "rel": "item",
-      "href": "./haptophytes_chlorophyll_a/2025/2025-02-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-02-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
       "href": "./haptophytes_chlorophyll_a/2025/2025-03-01T00:00:00Z.json",
       "type": "application/geo+json",
       "datetime": "2025-03-01T00:00:00Z"
@@ -27,6 +21,12 @@
       "href": "./haptophytes_chlorophyll_a/2025/2025-04-01T00:00:00Z.json",
       "type": "application/geo+json",
       "datetime": "2025-04-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./haptophytes_chlorophyll_a/2025/2025-05-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-01T00:00:00Z"
     },
     {
       "rel": "wmts",
@@ -94,8 +94,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-02-01T00:00:00Z",
-          "2025-04-01T00:00:00Z"
+          "2025-03-01T00:00:00Z",
+          "2025-05-01T00:00:00Z"
         ]
       ]
     }
