@@ -1,9 +1,9 @@
 {
-  "Name": "",
-  "Title": "",
-  "EodashIdentifier": "",
+  "Name": "cmems_baltic_ice_thickness",
+  "Title": "Baltic Sea Ice Thickness",
+  "EodashIdentifier": "cmems_baltic_ice_thickness",
   "Subtitle": "",
-  "Description": "",
+  "Description": "Baltic Sea Ice Thickness",
   "Themes": [],
   "Tags": [],
   "DataSource": {
@@ -26,7 +26,17 @@
   "Image": "",
   "Legend": "",
   "Subcollections": [],
-  "Resources": [],
+  "Resources": [
+    {
+      "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411",
+      "Name": "marinedatastore",
+      "Type": "WMTSCapabilities",
+      "LayerId": "BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411/sithick",
+      "Variable": "",
+      "Dimensions": {},
+      "CollectionId": ""
+    }
+  ],
   "Services": [],
   "References": [],
   "Colorlegend": {
@@ -38,7 +48,7 @@
     "scaleType": "continuous",
     "markType": "rect"
   },
-  "CollectionGroup": "",
+  "CollectionGroup": "Baltic",
   "Process": {
     "Name": "",
     "JsonForm": "",
