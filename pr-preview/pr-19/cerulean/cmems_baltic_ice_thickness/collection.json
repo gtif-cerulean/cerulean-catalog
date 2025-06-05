@@ -1,18 +1,37 @@
 {
   "type": "Collection",
-  "id": "",
+  "id": "cmems_baltic_ice_thickness",
   "stac_version": "1.1.0",
-  "description": "",
+  "description": "Baltic Sea Ice Thickness",
   "links": [
     {
       "rel": "root",
-      "href": "./catalog.json",
+      "href": "../catalog.json",
       "type": "application/json",
       "title": "Cerulean GTIF project catalog"
     },
     {
+      "rel": "child",
+      "href": "./cmems_baltic_ice_thickness/collection.json",
+      "type": "application/json",
+      "title": "Baltic Sea Ice Thickness",
+      "endpointtype": "marinedatastore_WMTSCapabilities",
+      "subtitle": "",
+      "code": "cmems_baltic_ice_thickness",
+      "id": "cmems_baltic_ice_thickness",
+      "themes": [],
+      "tags": [],
+      "agency": [],
+      "subcode": "cmems_baltic_ice_thickness",
+      "collection_group": "Baltic",
+      "sensor": [],
+      "satellite": [],
+      "insituSources": [],
+      "otherSources": []
+    },
+    {
       "rel": "service",
-      "href": ".//{{feature}}/collection.json",
+      "href": "./cmems_baltic_ice_thickness/{{feature}}/collection.json",
       "type": "application/json; profile=collection",
       "id": "locations",
       "method": "GET",
@@ -85,7 +104,7 @@
     },
     {
       "rel": "parent",
-      "href": "./catalog.json",
+      "href": "../catalog.json",
       "type": "application/json",
       "title": "Cerulean GTIF project catalog"
     }
@@ -98,8 +117,8 @@
   "locations": true,
   "tags": [],
   "agency": [],
-  "subcode": "",
-  "collection_group": "",
+  "subcode": "cmems_baltic_ice_thickness",
+  "collection_group": "Baltic",
   "sensor": [],
   "satellite": [],
   "insituSources": [],
@@ -113,28 +132,42 @@
     "scaleType": "continuous",
     "markType": "rect"
   },
-  "title": "",
+  "title": "Baltic Sea Ice Thickness",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          9.041582107543945,
+          53.008296966552734,
+          30.208656311035156,
+          65.8909912109375
+        ],
+        [
+          9.041582107543945,
+          53.008296966552734,
+          30.208656311035156,
+          65.8909912109375
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-06-05T20:18:48.190199Z",
-          null
+          "2022-12-02T00:00:00Z",
+          "2025-06-10T00:00:00Z"
         ]
       ]
     }
   },
   "license": "proprietary",
+  "summaries": {
+    "subcode": [
+      "cmems_baltic_ice_thickness"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/"
+    ]
+  },
   "assets": {
     "legend": {
       "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/",
