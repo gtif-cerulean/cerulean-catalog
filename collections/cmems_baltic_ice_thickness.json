@@ -11,7 +11,11 @@
   "Tags": [
     "Model"
   ],
-  "DataSource": {},
+  "DataSource": {
+    "Other": [
+      "Numerical Model"
+    ]
+  },
   "Agency": [
     "CMEMS"
   ],
