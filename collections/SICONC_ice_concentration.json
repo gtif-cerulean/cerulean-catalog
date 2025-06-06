@@ -2,7 +2,7 @@
   "Name": "ice_concentration",
   "Title": "Ice concentration",
   "EodashIdentifier": "SICONC",
-  "Description": "The Operational Mercator global ocean analysis and forecast system at 1/12 degree is providing 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time in order to reach a two full year\u2019s time series sliding window.\nThis product includes daily and monthly mean files of temperature, salinity, currents, sea level, mixed layer depth and ice parameters from the top to the bottom over the global ocean. It also includes hourly mean surface fields for sea level height, temperature and currents. The global ocean output files are displayed with a 1/12 degree horizontal resolution with regular longitude/latitude equirectangular projection.\n50 vertical levels are ranging from 0 to 5500 meters.\nThis product also delivers a special dataset for surface current which also includes wave and tidal drift called SMOC (Surface merged Ocean Current).\n",
+  "Description": "The Operational Mercator global ocean analysis and forecast system at 1/12 degree is providing 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time in order to reach a two full year’s time series sliding window.\nThis product includes daily and monthly mean files of temperature, salinity, currents, sea level, mixed layer depth and ice parameters from the top to the bottom over the global ocean. It also includes hourly mean surface fields for sea level height, temperature and currents. The global ocean output files are displayed with a 1/12 degree horizontal resolution with regular longitude/latitude equirectangular projection.\n50 vertical levels are ranging from 0 to 5500 meters.\nThis product also delivers a special dataset for surface current which also includes wave and tidal drift called SMOC (Surface merged Ocean Current).\n",
   "Themes": [
     "Aquaculture",
     "Energy",
@@ -10,11 +10,10 @@
   ],
   "CollectionGroup": "Sea Ice",
   "DataSource": {
-    "Spaceborne": {
-      "Sensor": [
-        "Numerical model"
-      ]
-    }
+    "Spaceborne": {},
+    "Other": [
+      "Numerical Model"
+    ]
   },
   "Agency": [
     "CMEMS"
@@ -25,9 +24,9 @@
   "Colorlegend": {
     "title": "Ice concentration",
     "range": [
-      "rgb(4, 6, 21)",
-      "rgb(69, 123, 185)",
-      "rgb(229, 248, 252)"
+      "#000000",
+      "#000000",
+      "#000000"
     ],
     "domain": [
       0,
@@ -45,27 +44,31 @@
         "End": "2030-01-01T00:00:00Z"
       },
       "Dimensions": {
-        "elevation": 0,
+        "elevation": "0",
         "style": "cmap:ice"
-      }
+      },
+      "Variable": "",
+      "CollectionId": ""
     }
   ],
   "Citation": {
-    "DOI": "10.48670/moi-00016"
+    "DOI": "10.48670/moi-00016",
+    "Citation": ""
   },
   "References": [
     {
       "Name": "CMEMS Data Description",
-      "Url": "https://data.marine.copernicus.eu/product/GLOBAL_ANALYSISFORECAST_PHY_001_024/description"
+      "Url": "https://data.marine.copernicus.eu/product/GLOBAL_ANALYSISFORECAST_PHY_001_024/description",
+      "Title": ""
     }
   ],
   "Provider": [
     {
-      "Name": "Mercator Oc\u00e9an International",
+      "Name": "Mercator Océan International",
       "Url": "https://www.mercator-ocean.eu/"
     },
     {
-      "Name": "E.U. Copernicus Marine Service Information (CMEMS)",
+      "Name": "Copernicus Marine Service (CMEMS)",
       "Url": "https://data.marine.copernicus.eu/"
     }
   ],
@@ -80,5 +83,9 @@
         "Type": "application/json"
       }
     ]
-  }
+  },
+  "License": "",
+  "Locations": [],
+  "Image": "",
+  "Legend": ""
 }
