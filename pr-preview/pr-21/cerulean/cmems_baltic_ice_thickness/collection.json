@@ -30,7 +30,10 @@
         "CMEMS"
       ],
       "subcode": "cmems_baltic_ice_thickness",
-      "collection_group": "Baltic"
+      "collection_group": "Baltic",
+      "otherSources": [
+        "Numerical Model"
+      ]
     },
     {
       "rel": "service",
@@ -129,6 +132,9 @@
   ],
   "subcode": "cmems_baltic_ice_thickness",
   "collection_group": "Baltic",
+  "otherSources": [
+    "Numerical Model"
+  ],
   "title": "Baltic Sea Ice Thickness",
   "extent": {
     "spatial": {

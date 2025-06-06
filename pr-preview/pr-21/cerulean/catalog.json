@@ -32,7 +32,10 @@
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "Baltic"
+      "collection_group": "Baltic",
+      "otherSources": [
+        "Numerical Model"
+      ]
     },
     {
       "rel": "self",

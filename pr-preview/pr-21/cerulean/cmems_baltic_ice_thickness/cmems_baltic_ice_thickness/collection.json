@@ -5581,6 +5581,9 @@
   ],
   "subcode": "cmems_baltic_ice_thickness",
   "collection_group": "Baltic",
+  "otherSources": [
+    "Numerical Model"
+  ],
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Baltic Sea Ice Thickness",
   "extent": {
