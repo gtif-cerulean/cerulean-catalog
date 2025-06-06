@@ -131,8 +131,8 @@
       ],
       "subcode": "SICONC",
       "collection_group": "Sea Ice",
-      "sensor": [
-        "Numerical model"
+      "otherSources": [
+        "Numerical Model"
       ]
     },
     {
@@ -462,7 +462,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-06-14T00:00:00Z"
+          "2025-06-15T00:00:00Z"
         ]
       ]
     }
@@ -470,17 +470,17 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "IST",
+      "Polaris_algorithm_dmi_demo",
       "VSI",
-      "SHS1",
-      "SICONC",
-      "MSIA",
       "SIT",
+      "MSIA",
+      "IBC",
+      "USI",
+      "IST",
+      "SICONC",
       "SST",
       "SIVELO",
-      "USI",
-      "IBC",
-      "Polaris_algorithm_dmi_demo"
+      "SHS1"
     ],
     "themes": [
       "Aquaculture",
@@ -488,16 +488,16 @@
       "Shipping"
     ],
     "satellite": [
-      "placeholder",
-      "Sentinel-1"
+      "Sentinel-1",
+      "placeholder"
     ],
     "sensor": [
-      "placeholder",
-      "Numerical model"
+      "placeholder"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/",
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
     ]
   }
 }

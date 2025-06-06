@@ -3197,6 +3197,12 @@
       "datetime": "2025-06-14T00:00:00Z"
     },
     {
+      "rel": "item",
+      "href": "./ice_concentration/2025/2025-06-15T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-15T00:00:00Z"
+    },
+    {
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406",
       "type": "image/png",
@@ -3206,7 +3212,7 @@
         "data"
       ],
       "wmts:dimensions": {
-        "elevation": 0,
+        "elevation": "0",
         "style": "cmap:ice"
       }
     },
@@ -3218,6 +3224,8 @@
     }
   ],
   "sci:doi": "10.48670/moi-00016",
+  "sci:citation": "",
+  "thumbnail": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/",
   "themes": [
     "Aquaculture",
     "Energy",
@@ -3231,15 +3239,15 @@
   ],
   "subcode": "SICONC",
   "collection_group": "Sea Ice",
-  "sensor": [
-    "Numerical model"
+  "otherSources": [
+    "Numerical Model"
   ],
   "eox:colorlegend": {
     "title": "Ice concentration",
     "range": [
-      "rgb(4, 6, 21)",
-      "rgb(69, 123, 185)",
-      "rgb(229, 248, 252)"
+      "#000000",
+      "#000000",
+      "#000000"
     ],
     "domain": [
       0,
@@ -3263,23 +3271,37 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-06-14T00:00:00Z"
+          "2025-06-15T00:00:00Z"
         ]
       ]
     }
   },
-  "license": "other",
+  "license": "proprietary",
   "providers": [
     {
       "name": "Mercator Océan International",
       "url": "https://www.mercator-ocean.eu/"
     },
     {
-      "name": "E.U. Copernicus Marine Service Information (CMEMS)",
+      "name": "Copernicus Marine Service (CMEMS)",
       "url": "https://data.marine.copernicus.eu/"
     }
   ],
   "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
     "reference_1": {
       "href": "https://data.marine.copernicus.eu/product/GLOBAL_ANALYSISFORECAST_PHY_001_024/description",
       "type": "text/html",

@@ -31,16 +31,17 @@
       ],
       "subcode": "SICONC",
       "collection_group": "Sea Ice",
-      "sensor": [
-        "Numerical model"
+      "otherSources": [
+        "Numerical Model"
       ]
     },
     {
       "rel": "service",
-      "href": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_mod_glo_phy_anfc_0.083deg_P1D-m&variables=siconc&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
-      "type": "application/json",
-      "id": "process_cmems",
-      "method": "GET"
+      "href": "./ice_concentration/{{feature}}/collection.json",
+      "type": "application/json; profile=collection",
+      "id": "locations",
+      "method": "GET",
+      "endpoint": "STAC"
     },
     {
       "rel": "xyz",
@@ -115,11 +116,14 @@
     }
   ],
   "sci:doi": "10.48670/moi-00016",
+  "sci:citation": "",
+  "thumbnail": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/",
   "themes": [
     "Aquaculture",
     "Energy",
     "Shipping"
   ],
+  "locations": true,
   "tags": [
     "model"
   ],
@@ -128,23 +132,21 @@
   ],
   "subcode": "SICONC",
   "collection_group": "Sea Ice",
-  "sensor": [
-    "Numerical model"
+  "otherSources": [
+    "Numerical Model"
   ],
   "eox:colorlegend": {
     "title": "Ice concentration",
     "range": [
-      "rgb(4, 6, 21)",
-      "rgb(69, 123, 185)",
-      "rgb(229, 248, 252)"
+      "#000000",
+      "#000000",
+      "#000000"
     ],
     "domain": [
       0,
       1
     ]
   },
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/siconc.json",
   "title": "Ice concentration",
   "extent": {
     "spatial": {
@@ -167,19 +169,19 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-06-14T00:00:00Z"
+          "2025-06-15T00:00:00Z"
         ]
       ]
     }
   },
-  "license": "other",
+  "license": "proprietary",
   "providers": [
     {
       "name": "Mercator Océan International",
       "url": "https://www.mercator-ocean.eu/"
     },
     {
-      "name": "E.U. Copernicus Marine Service Information (CMEMS)",
+      "name": "Copernicus Marine Service (CMEMS)",
       "url": "https://data.marine.copernicus.eu/"
     }
   ],
@@ -192,11 +194,25 @@
       "Energy",
       "Shipping"
     ],
-    "sensor": [
-      "Numerical model"
+    "thumbnail": [
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/"
     ]
   },
   "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
     "reference_1": {
       "href": "https://data.marine.copernicus.eu/product/GLOBAL_ANALYSISFORECAST_PHY_001_024/description",
       "type": "text/html",
