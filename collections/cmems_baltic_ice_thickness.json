@@ -48,11 +48,5 @@
     }
   ],
   "Services": [],
-  "CollectionGroup": "Baltic",
-  "References": [
-    {
-      "Url": "https://data.marine.copernicus.eu/product/BALTICSEA_ANALYSISFORECAST_PHY_003_006/description",
-      "Title": "CMEMS Data Description"
-    }
-  ]
+  "CollectionGroup": "Baltic"
 }
