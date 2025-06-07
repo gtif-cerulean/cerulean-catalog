@@ -72,11 +72,5 @@
         "Type": "application/json"
       }
     ]
-  },
-  "References": [
-    {
-      "Url": "",
-      "Title": "CMEMS Data Description"
-    }
-  ]
+  }
 }
