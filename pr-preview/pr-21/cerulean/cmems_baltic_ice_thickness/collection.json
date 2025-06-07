@@ -135,6 +135,18 @@
   "otherSources": [
     "Numerical Model"
   ],
+  "eox:colorlegend": {
+    "title": "Sea Ice Thickness [m]",
+    "range": [
+      "#040615",
+      "#457bfc",
+      "#e5f8fc"
+    ],
+    "domain": [
+      0,
+      2
+    ]
+  },
   "title": "Baltic Sea Ice Thickness",
   "extent": {
     "spatial": {
@@ -157,7 +169,7 @@
       "interval": [
         [
           "2022-12-02T00:00:00Z",
-          "2025-06-11T00:00:00Z"
+          "2025-06-12T00:00:00Z"
         ]
       ]
     }
@@ -178,8 +190,8 @@
       "cmems_baltic_ice_thickness"
     ],
     "themes": [
-      "Energy",
-      "Shipping"
+      "Shipping",
+      "Energy"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/"
