@@ -169,7 +169,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-06-15T00:00:00Z"
+          "2025-06-16T00:00:00Z"
         ]
       ]
     }
@@ -190,9 +190,9 @@
       "SICONC"
     ],
     "themes": [
+      "Shipping",
       "Aquaculture",
-      "Energy",
-      "Shipping"
+      "Energy"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/"
