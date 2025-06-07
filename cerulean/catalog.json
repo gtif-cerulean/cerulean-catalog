@@ -1478,8 +1478,8 @@
       ],
       "subcode": "polarwarp_sentinel1",
       "satellite": [
-        "multiple",
-        "Sentinel-1"
+        "Sentinel-1",
+        "multiple"
       ],
       "sensor": [
         "multiple"
@@ -1541,6 +1541,33 @@
       "satellite": [],
       "insituSources": [],
       "otherSources": []
+    },
+    {
+      "rel": "child",
+      "href": "./cmems_baltic_ice_thickness/collection.json",
+      "type": "application/json",
+      "title": "Baltic Sea Ice Thickness",
+      "subtitle": "",
+      "code": "cmems_baltic_ice_thickness",
+      "id": "cmems_baltic_ice_thickness",
+      "themes": [
+        "Shipping",
+        "Energy"
+      ],
+      "subcode": "cmems_baltic_ice_thickness",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/"
+      ],
+      "tags": [
+        "Model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Baltic",
+      "otherSources": [
+        "Numerical Model"
+      ]
     },
     {
       "rel": "self",
