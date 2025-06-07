@@ -48,5 +48,17 @@
     }
   ],
   "Services": [],
-  "CollectionGroup": "Baltic"
+  "CollectionGroup": "Baltic",
+  "Colorlegend": {
+    "title": "Sea Ice Thickness [m]",
+    "range": [
+      "#040615",
+      "#457bfc",
+      "#e5f8fc"
+    ],
+    "domain": [
+      0,
+      2
+    ]
+  }
 }
