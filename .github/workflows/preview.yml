@@ -45,6 +45,9 @@ jobs:
           # Setting skip flag.
           if contains("$COMMIT_MESSAGE", 'create session using empty commit'); then
             echo "should_skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_skip=false" >> "$GITHUB_OUTPUT"
+          fi
       - name: changed-files
         id: changed-files
         uses: tj-actions/changed-files@v45
