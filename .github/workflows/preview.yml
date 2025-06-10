@@ -42,12 +42,9 @@ jobs:
           COMMIT_MESSAGE=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
             "https://api.github.com/repos/${PR_REPO_OWNER}/${PR_REPO_NAME}/commits/${PR_COMMIT_SHA}" \
             | jq -r .commit.message)
-          echo "COMMIT_MESSAGE=$COMMIT_MESSAGE" >> "$GITHUB_ENV"
-      - name: Skip if commit message contains string
-        if: contains(env.COMMIT_MESSAGE, 'create session using empty commit')
-        run: |
-          echo "Commit message contains 'create session using empty commit'. Skipping job."
-          exit 0 # exit workflow and pass
+          # Setting skip flag.
+          if contains("$COMMIT_MESSAGE", 'create session using empty commit'); then
+            echo "should_skip=true" >> "$GITHUB_OUTPUT"
       - name: changed-files
         id: changed-files
         uses: tj-actions/changed-files@v45
@@ -61,7 +58,8 @@ jobs:
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: python .github/update_catalog_last_changes_pr.py
       -
-        if: github.event.action != 'closed' # skip the build if the PR has been closed, just for cleanup
+        if: github.event.action != 'closed' && steps.get_pr_commit_message.outputs.should_skip != 'true'
+        # skip the build if the PR has been closed, just for cleanup
         name: Build all collections
         env:
           SH_INSTANCE_ID: ${{ secrets.SH_INSTANCE_ID }}
@@ -70,12 +68,13 @@ jobs:
         run: |
           docker pull ghcr.io/eodash/eodash_catalog:latest
           docker run -v "$PWD:/workspace" -w "/workspace" -e SH_INSTANCE_ID="$SH_INSTANCE_ID" -e SH_CLIENT_ID="$SH_CLIENT_ID" -e SH_CLIENT_SECRET="$SH_CLIENT_SECRET" ghcr.io/eodash/eodash_catalog:latest eodash_catalog
-      - name: Deploy preview
+      - if: steps.get_pr_commit_message.outputs.should_skip != 'true'
+        name: Deploy preview
         uses: rossjrw/pr-preview-action@v1
         with:
           source-dir: ./build
       -
-        if: github.event.action != 'closed' # skip the build if the PR has been closed, just for cleanup
+        if: github.event.action != 'closed' && steps.get_pr_commit_message.outputs.should_skip != 'true'
         name: Find existing comment
         id: find-comment
         uses: peter-evans/find-comment@v3
@@ -84,7 +83,7 @@ jobs:
           comment-author: github-actions
           body-includes: '🚀 Preview ready!'
       -
-        if: github.event.action != 'closed' # skip the build if the PR has been closed, just  for cleanup
+        if: github.event.action != 'closed' && steps.get_pr_commit_message.outputs.should_skip != 'true'
         name: Create or update preview comment
         uses: peter-evans/create-or-update-comment@v4
         with:
@@ -96,7 +95,7 @@ jobs:
           comment-id: ${{ steps.find-comment.outputs.comment-id }}
           edit-mode: replace
       -
-        if: github.event.action != 'closed' # skip the build if the PR has been closed, just  for cleanup
+        if: github.event.action != 'closed' && steps.get_pr_commit_message.outputs.should_skip != 'true'
         name: Wait for GitHub Pages deployment workflow
         run: |
           echo "Waiting for GitHub Pages deployment to complete..."
