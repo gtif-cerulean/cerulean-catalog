@@ -43,7 +43,7 @@ jobs:
             "https://api.github.com/repos/${PR_REPO_OWNER}/${PR_REPO_NAME}/commits/${PR_COMMIT_SHA}" \
             | jq -r .commit.message)
           # Setting skip flag.
-          if contains("$COMMIT_MESSAGE", 'create session using empty commit'); then
+           if [[ "$COMMIT_MESSAGE" == *"create session using empty commit"* ]]; then
             echo "should_skip=true" >> "$GITHUB_OUTPUT"
           else
             echo "should_skip=false" >> "$GITHUB_OUTPUT"
