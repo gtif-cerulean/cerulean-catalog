@@ -1,7 +1,7 @@
 {
   "type": "Collection",
   "id": "cmems_baltic_ice_thickness",
-  "stac_version": "1.1.0",
+  "stac_version": "1.0.0",
   "description": "This Baltic Sea physical model product provides forecasts for the physical conditions in the Baltic Sea. The Baltic forecast is updated twice daily from a 00Z production proving a 10 days forecast and from a 12Z production providing a 6 days forecast. Several datasets are provided: One with hourly instantaneous values, one with daily mean values and one with monthly mean values, all containing these parameters: sea level variations, ice concentration and thickness at the surface, and temperature, salinity and horizontal and vertical velocities for the 3D field. Additionally a dataset with 15 minutes (instantaneous) surface values are provided for the sea level variation and the surface horizontal currents, as well as detided daily values. The product is produced by a Baltic Sea set up of the NEMOv4.2.1 ocean model. This product is provided at the models native grid with a resolution of 1 nautical mile in the horizontal, and with up to 56 vertical depth levels. The area covers the Baltic Sea including the transition area towards the North Sea (i.e. the Danish Belts, the Kattegat and Skagerrak). The ocean model is forced with Stokes drift data from the Baltic Sea Wave forecast product (BALTICSEA_ANALYSISFORECAST_WAV_003_010). Satellite SST, sea ice concentrations and in-situ T and S profiles are assimilated into the model's analysis field.",
   "links": [
     {
@@ -36,11 +36,10 @@
     },
     {
       "rel": "service",
-      "href": "./cmems_baltic_ice_thickness/{{feature}}/collection.json",
-      "type": "application/json; profile=collection",
-      "id": "locations",
-      "method": "GET",
-      "endpoint": "STAC"
+      "href": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_mod_glo_phy_anfc_0.083deg_P1D-m&variables=sithick&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
+      "type": "application/json",
+      "id": "process_cmems",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -142,6 +141,8 @@
       2
     ]
   },
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/sithick.json",
   "title": "Baltic Sea Ice Thickness",
   "extent": {
     "spatial": {
@@ -169,7 +170,7 @@
       ]
     }
   },
-  "license": "other",
+  "license": "proprietary",
   "providers": [
     {
       "name": "Mercator Océan International",
@@ -185,8 +186,8 @@
       "cmems_baltic_ice_thickness"
     ],
     "themes": [
-      "Energy",
-      "Shipping"
+      "Shipping",
+      "Energy"
     ]
   }
 }

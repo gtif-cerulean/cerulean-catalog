@@ -1,7 +1,7 @@
 {
   "type": "Collection",
   "id": "cmems_balitic_ice_concentration",
-  "stac_version": "1.1.0",
+  "stac_version": "1.0.0",
   "description": "Baltic Sea Ice Concentration",
   "links": [
     {
@@ -23,11 +23,10 @@
     },
     {
       "rel": "service",
-      "href": "./cmems_balitic_ice_concentration/{{feature}}/collection.json",
-      "type": "application/json; profile=collection",
-      "id": "locations",
-      "method": "GET",
-      "endpoint": "STAC"
+      "href": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_mod_bal_phy_anfc_P1D-m&variables=siconc&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
+      "type": "application/json",
+      "id": "process_cmems",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -112,6 +111,8 @@
     "scaleType": "continuous",
     "markType": "rect"
   },
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/siconc.json",
   "title": "Baltic Sea Ice Concentration",
   "extent": {
     "spatial": {
@@ -134,12 +135,12 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-01-26T00:00:00Z"
+          "2025-06-14T00:00:00Z"
         ]
       ]
     }
   },
-  "license": "other",
+  "license": "proprietary",
   "summaries": {
     "subcode": [
       "cmems_baltic_ice_concentration"
