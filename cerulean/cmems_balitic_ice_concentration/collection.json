@@ -1,7 +1,7 @@
 {
   "type": "Collection",
   "id": "cmems_balitic_ice_concentration",
-  "stac_version": "1.0.0",
+  "stac_version": "1.1.0",
   "description": "Baltic Sea Ice Concentration",
   "links": [
     {
@@ -140,7 +140,7 @@
       ]
     }
   },
-  "license": "proprietary",
+  "license": "other",
   "summaries": {
     "subcode": [
       "cmems_baltic_ice_concentration"

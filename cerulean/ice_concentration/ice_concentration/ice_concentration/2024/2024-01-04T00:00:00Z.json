@@ -1,11 +1,14 @@
 {
   "type": "Feature",
-  "stac_version": "1.0.0",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.1.0/schema.json"
+  ],
   "id": "2024-01-04T00:00:00Z",
+  "geometry": null,
   "properties": {
     "datetime": "2024-01-04T00:00:00Z"
   },
-  "geometry": null,
   "links": [
     {
       "rel": "wmts",
@@ -42,14 +45,5 @@
     }
   ],
   "assets": {},
-  "bbox": [
-    -180.0,
-    -80.0,
-    179.91668701171875,
-    90.0
-  ],
-  "stac_extensions": [
-    "https://stac-extensions.github.io/web-map-links/v1.1.0/schema.json"
-  ],
   "collection": "ice_concentration"
 }

@@ -1,11 +1,14 @@
 {
   "type": "Feature",
-  "stac_version": "1.0.0",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.1.0/schema.json"
+  ],
   "id": "2025-01-14T00:00:00Z",
+  "geometry": null,
   "properties": {
     "datetime": "2025-01-14T00:00:00Z"
   },
-  "geometry": null,
   "links": [
     {
       "rel": "wmts",
@@ -40,14 +43,5 @@
     }
   ],
   "assets": {},
-  "bbox": [
-    9.041582107543945,
-    53.008296966552734,
-    30.208656311035156,
-    65.8909912109375
-  ],
-  "stac_extensions": [
-    "https://stac-extensions.github.io/web-map-links/v1.1.0/schema.json"
-  ],
   "collection": "cmems_baltic_ice_thickness"
 }
