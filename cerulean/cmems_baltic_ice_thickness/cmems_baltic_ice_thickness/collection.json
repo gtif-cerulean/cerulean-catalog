@@ -5555,6 +5555,24 @@
       "datetime": "2025-06-12T00:00:00Z"
     },
     {
+      "rel": "item",
+      "href": "./cmems_baltic_ice_thickness/2025/2025-06-13T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-13T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_ice_thickness/2025/2025-06-14T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-14T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_ice_thickness/2025/2025-06-15T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-15T00:00:00Z"
+    },
+    {
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411",
       "type": "image/png",
@@ -5572,9 +5590,6 @@
     }
   ],
   "sci:doi": "https://doi.org/10.48670/moi-00010",
-  "sci:citation": "",
-  "subtitle": "",
-  "thumbnail": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/",
   "themes": [
     "Shipping",
     "Energy"
@@ -5619,12 +5634,12 @@
       "interval": [
         [
           "2022-12-02T00:00:00Z",
-          "2025-06-12T00:00:00Z"
+          "2025-06-15T00:00:00Z"
         ]
       ]
     }
   },
-  "license": "proprietary",
+  "license": "other",
   "providers": [
     {
       "name": "Mercator Océan International",
@@ -5634,21 +5649,5 @@
       "name": "Copernicus Marine Service (CMEMS)",
       "url": "https://data.marine.copernicus.eu/"
     }
-  ],
-  "assets": {
-    "legend": {
-      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/",
-      "type": "image/png",
-      "roles": [
-        "metadata"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/",
-      "type": "image/png",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  }
+  ]
 }

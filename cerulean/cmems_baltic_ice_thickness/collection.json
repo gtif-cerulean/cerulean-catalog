@@ -16,7 +16,6 @@
       "type": "application/json",
       "title": "Baltic Sea Ice Thickness",
       "endpointtype": "marinedatastore_WMTSCapabilities",
-      "subtitle": "",
       "code": "cmems_baltic_ice_thickness",
       "id": "cmems_baltic_ice_thickness",
       "themes": [
@@ -116,14 +115,10 @@
     }
   ],
   "sci:doi": "https://doi.org/10.48670/moi-00010",
-  "sci:citation": "",
-  "subtitle": "",
-  "thumbnail": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/",
   "themes": [
     "Shipping",
     "Energy"
   ],
-  "locations": true,
   "tags": [
     "Model"
   ],
@@ -169,12 +164,12 @@
       "interval": [
         [
           "2022-12-02T00:00:00Z",
-          "2025-06-12T00:00:00Z"
+          "2025-06-15T00:00:00Z"
         ]
       ]
     }
   },
-  "license": "proprietary",
+  "license": "other",
   "providers": [
     {
       "name": "Mercator Océan International",
@@ -192,25 +187,6 @@
     "themes": [
       "Energy",
       "Shipping"
-    ],
-    "thumbnail": [
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/"
     ]
-  },
-  "assets": {
-    "legend": {
-      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/",
-      "type": "image/png",
-      "roles": [
-        "metadata"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/",
-      "type": "image/png",
-      "roles": [
-        "thumbnail"
-      ]
-    }
   }
 }

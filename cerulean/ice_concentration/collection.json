@@ -116,14 +116,11 @@
     }
   ],
   "sci:doi": "10.48670/moi-00016",
-  "sci:citation": "",
-  "thumbnail": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/",
   "themes": [
     "Aquaculture",
     "Energy",
     "Shipping"
   ],
-  "locations": true,
   "tags": [
     "model"
   ],
@@ -169,12 +166,12 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-06-16T00:00:00Z"
+          "2025-06-20T00:00:00Z"
         ]
       ]
     }
   },
-  "license": "proprietary",
+  "license": "other",
   "providers": [
     {
       "name": "Mercator Océan International",
@@ -191,28 +188,11 @@
     ],
     "themes": [
       "Energy",
-      "Shipping",
-      "Aquaculture"
-    ],
-    "thumbnail": [
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/"
+      "Aquaculture",
+      "Shipping"
     ]
   },
   "assets": {
-    "legend": {
-      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/",
-      "type": "image/png",
-      "roles": [
-        "metadata"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/",
-      "type": "image/png",
-      "roles": [
-        "thumbnail"
-      ]
-    },
     "reference_1": {
       "href": "https://data.marine.copernicus.eu/product/GLOBAL_ANALYSISFORECAST_PHY_001_024/description",
       "type": "text/html",

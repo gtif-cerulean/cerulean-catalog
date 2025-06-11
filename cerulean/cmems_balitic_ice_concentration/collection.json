@@ -18,15 +18,8 @@
       "endpointtype": "marinedatastore_WMTSCapabilities",
       "code": "cmems_baltic_ice_concentration",
       "id": "cmems_balitic_ice_concentration",
-      "themes": [],
-      "tags": [],
-      "agency": [],
       "subcode": "cmems_baltic_ice_concentration",
-      "collection_group": "Baltic",
-      "sensor": [],
-      "satellite": [],
-      "insituSources": [],
-      "otherSources": []
+      "collection_group": "Baltic"
     },
     {
       "rel": "service",
@@ -108,19 +101,8 @@
       "title": "Cerulean GTIF project catalog"
     }
   ],
-  "sci:doi": "",
-  "sci:citation": "",
-  "thumbnail": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/",
-  "themes": [],
-  "locations": true,
-  "tags": [],
-  "agency": [],
   "subcode": "cmems_baltic_ice_concentration",
   "collection_group": "Baltic",
-  "sensor": [],
-  "satellite": [],
-  "insituSources": [],
-  "otherSources": [],
   "eox:colorlegend": {
     "title": "",
     "range": [],
@@ -157,29 +139,10 @@
       ]
     }
   },
-  "license": "proprietary",
+  "license": "other",
   "summaries": {
     "subcode": [
       "cmems_baltic_ice_concentration"
-    ],
-    "thumbnail": [
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/"
     ]
-  },
-  "assets": {
-    "legend": {
-      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/",
-      "type": "image/png",
-      "roles": [
-        "metadata"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/",
-      "type": "image/png",
-      "roles": [
-        "thumbnail"
-      ]
-    }
   }
 }
