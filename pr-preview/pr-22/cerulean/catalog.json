@@ -20,6 +20,31 @@
       "subcode": "test1"
     },
     {
+      "rel": "child",
+      "href": "./total_chlorophyll/collection.json",
+      "type": "application/json",
+      "title": "Total Chlorophyll new imporved title",
+      "code": "CHL",
+      "id": "total_chlorophyll",
+      "themes": [
+        "Aquaculture"
+      ],
+      "subcode": "CHL",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Chemistry"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-cerulean.github.io/cerulean-catalog/cerulean/catalog.json",
       "type": "application/json"
