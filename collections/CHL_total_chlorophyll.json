@@ -1,8 +1,8 @@
 {
   "Name": "total_chlorophyll",
-  "Title": "Total Chlorophyll",
+  "Title": "Total Chlorophyll new imporved title",
   "EodashIdentifier": "CHL",
-  "Description": "N/A\n",
+  "Description": "We are improving the description\n",
   "Themes": [
     "Aquaculture"
   ],
@@ -22,9 +22,9 @@
   "Colorlegend": {
     "title": "Total Chlorophyll [mg m-3]",
     "range": [
-      "rgb(213, 250, 207)",
-      "rgb(17, 148, 80)",
-      "rgb(13, 36, 18)"
+      "#000000",
+      "#000000",
+      "#000000"
     ],
     "domain": [
       0.00283,
@@ -34,7 +34,7 @@
   "Resources": [
     {
       "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_BGC_001_028/cmems_mod_glo_bgc-pft_anfc_0.25deg_P1D-m_202311",
-      "Type": "WMTSCapabilities",
+      "Type": "byoc",
       "Name": "marinedatastore",
       "LayerId": "GLOBAL_ANALYSISFORECAST_BGC_001_028/cmems_mod_glo_bgc-pft_anfc_0.25deg_P1D-m_202311/chl",
       "Query": {
@@ -44,7 +44,8 @@
       "Dimensions": {
         "elevation": 0,
         "style": "cmap:algae"
-      }
+      },
+      "CollectionId": ""
     }
   ],
   "Provider": [
@@ -64,5 +65,14 @@
         "Type": "application/json"
       }
     ]
-  }
+  },
+  "DataSource": {},
+  "License": "",
+  "Locations": [],
+  "Citation": {
+    "DOI": "",
+    "Citation": ""
+  },
+  "Image": "",
+  "Legend": ""
 }
