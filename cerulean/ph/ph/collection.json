@@ -7937,6 +7937,48 @@
       "datetime": "2025-06-13T00:00:00Z"
     },
     {
+      "rel": "item",
+      "href": "./ph/2025/2025-06-14T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-14T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ph/2025/2025-06-15T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-15T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ph/2025/2025-06-16T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-16T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ph/2025/2025-06-17T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-17T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ph/2025/2025-06-18T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-18T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ph/2025/2025-06-19T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-19T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ph/2025/2025-06-20T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-20T00:00:00Z"
+    },
+    {
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_BGC_001_028/cmems_mod_glo_bgc-car_anfc_0.25deg_P1D-m_202311",
       "type": "image/png",
@@ -8011,7 +8053,7 @@
       "interval": [
         [
           "2021-11-01T00:00:00Z",
-          "2025-06-13T00:00:00Z"
+          "2025-06-20T00:00:00Z"
         ]
       ]
     }
