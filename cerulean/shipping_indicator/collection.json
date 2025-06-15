@@ -462,7 +462,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-06-20T00:00:00Z"
+          "2025-06-22T00:00:00Z"
         ]
       ]
     }
@@ -470,17 +470,17 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "MSIA",
-      "USI",
-      "SIVELO",
-      "SICONC",
-      "IST",
       "SST",
+      "IBC",
+      "IST",
+      "VSI",
+      "SICONC",
       "Polaris_algorithm_dmi_demo",
       "SIT",
-      "VSI",
-      "SHS1",
-      "IBC"
+      "SIVELO",
+      "USI",
+      "MSIA",
+      "SHS1"
     ],
     "themes": [
       "Energy",
