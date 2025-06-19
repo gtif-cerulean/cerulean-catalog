@@ -188,7 +188,7 @@
       "interval": [
         [
           "1970-01-01T00:00:00Z",
-          "2025-06-15T04:07:53.337131Z"
+          "2025-06-19T04:05:21.314007Z"
         ]
       ]
     }
@@ -201,12 +201,12 @@
     ],
     "themes": [
       "Energy",
-      "Aquaculture",
-      "Shipping"
+      "Shipping",
+      "Aquaculture"
     ],
     "satellite": [
-      "multiple",
-      "Sentinel-1"
+      "Sentinel-1",
+      "multiple"
     ],
     "sensor": [
       "multiple"
