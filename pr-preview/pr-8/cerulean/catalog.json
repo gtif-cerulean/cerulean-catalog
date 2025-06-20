@@ -12,47 +12,19 @@
     },
     {
       "rel": "child",
-      "href": "./drift_deformation_drift_sample/collection.json",
-      "type": "application/json",
-      "title": "Sea Ice Drift Sample Results",
-      "code": "drift_deformation_drift_sample",
-      "id": "drift_deformation_drift_sample",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "drift_deformation_drift_sample",
-      "satellite": [
-        "multiple"
-      ],
-      "sensor": [
-        "multiple"
-      ],
-      "tags": [
-        "processing",
-        "capability"
-      ],
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Capabilities"
-    },
-    {
-      "rel": "child",
-      "href": "./drift_deformation_indicator_drift_sample/collection.json",
+      "href": "./Drift_Deformation/collection.json",
       "type": "application/json",
       "title": "Sea Ice Drift and Deformation",
-      "code": "drift_deformation_indicator_drift_sample",
-      "id": "drift_deformation_indicator_drift_sample",
+      "code": "drift_deformation_indicator",
+      "id": "Drift_Deformation",
       "themes": [
-        "ice"
+        "Shipping",
+        "Aquaculture",
+        "Energy"
       ],
-      "subcode": "drift_deformation_indicator_drift_sample",
+      "subcode": "drift_deformation_indicator",
       "satellite": [
-        "multiple",
         "Sentinel-1"
-      ],
-      "sensor": [
-        "multiple"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
