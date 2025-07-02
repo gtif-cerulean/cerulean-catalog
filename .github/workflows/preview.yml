@@ -54,12 +54,12 @@ jobs:
         # To compare changes between the current commit and the last pushed remote commit set `since_last_remote_commit: true`. e.g
         # with:
         #   since_last_remote_commit: true 
-      -
-        if: github.event.action != 'closed' # skip the build if the PR has been closed, just for cleanup
-        name: List all changed files
-        env:
-          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
-        run: python .github/update_catalog_last_changes_pr.py
+      # -
+      #   if: github.event.action != 'closed' # skip the build if the PR has been closed, just for cleanup
+      #   name: List all changed files
+      #   env:
+      #     ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
+      #   run: python .github/update_catalog_last_changes_pr.py
       -
         if: github.event.action != 'closed' && steps.get_pr_commit_message.outputs.should_skip != 'true'
         # skip the build if the PR has been closed, just for cleanup
@@ -69,8 +69,8 @@ jobs:
           SH_CLIENT_ID: ${{ secrets.SH_CLIENT_ID }}
           SH_CLIENT_SECRET: ${{ secrets.SH_CLIENT_SECRET }}
         run: |
-          docker pull ghcr.io/eodash/eodash_catalog:0.2.1
-          docker run -v "$PWD:/workspace" -w "/workspace" -e SH_INSTANCE_ID="$SH_INSTANCE_ID" -e SH_CLIENT_ID="$SH_CLIENT_ID" -e SH_CLIENT_SECRET="$SH_CLIENT_SECRET" ghcr.io/eodash/eodash_catalog:0.2.1 eodash_catalog
+          docker pull ghcr.io/eodash/eodash_catalog:gp_no_pystac_dev_2
+          docker run -v "$PWD:/workspace" -w "/workspace" -e SH_INSTANCE_ID="$SH_INSTANCE_ID" -e SH_CLIENT_ID="$SH_CLIENT_ID" -e SH_CLIENT_SECRET="$SH_CLIENT_SECRET" ghcr.io/eodash/eodash_catalog:gp_no_pystac_dev_2 eodash_catalog -gp
       - if: steps.get_pr_commit_message.outputs.should_skip != 'true'
         name: Deploy preview
         uses: rossjrw/pr-preview-action@v1
