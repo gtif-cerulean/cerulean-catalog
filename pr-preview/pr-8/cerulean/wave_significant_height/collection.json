@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "Drift_Deformation",
+  "id": "wave_significant_height",
   "stac_version": "1.1.0",
-  "description": "Nansat sea ice drift algorithm uses feature tracking and pattern matching. The gridded ice tracking vectors are then used to estimate sea ice deformation (divergence, shear and total deformation).",
+  "description": "N/A\n",
   "links": [
     {
       "rel": "root",
@@ -12,53 +12,38 @@
     },
     {
       "rel": "child",
-      "href": "./Sentinel1-EW-HH/collection.json",
+      "href": "./wave_significant_height/collection.json",
       "type": "application/json",
-      "title": "Sentinel 1 EW HH",
-      "endpointtype": "Sentinel Hub WMS",
-      "code": "SHS1",
-      "id": "Sentinel1-EW-HH",
+      "title": "Spectral significant wave height",
+      "endpointtype": "marinedatastore_WMTSCapabilities",
+      "code": "VHM0",
+      "id": "wave_significant_height",
       "themes": [
         "Energy",
         "Aquaculture",
         "Shipping"
       ],
       "tags": [
-        "Sentinel",
-        "Open data"
+        "model"
+      ],
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
       ],
       "agency": [
-        "European Commission",
-        "ESA"
+        "CMEMS"
       ],
-      "subcode": "SHS1",
-      "collection_group": "Other data",
-      "satellite": [
-        "Sentinel-1"
-      ]
+      "subcode": "VHM0",
+      "collection_group": "Waves"
     },
     {
       "rel": "service",
-      "href": "https://harshness-map.gtif.eox.at/processes/execute-deformation/execution",
-      "type": "text/plain",
-      "id": "drift_deformation",
-      "method": "POST",
-      "endpoint": "eoxhub_workspaces",
-      "body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/body/drift_deformation.json",
-      "eox:flatstyle": [
-        {
-          "id": "output_feature_tracking",
-          "url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/styles/drift_deformation_ft_style.json"
-        },
-        {
-          "id": "output_deformation",
-          "url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/styles/drift_deformation_deformation_style.json"
-        },
-        {
-          "id": "output_pm",
-          "url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/styles/drift_deformation_pm_style.json"
-        }
-      ]
+      "href": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_mod_glo_wav_anfc_0.083deg_PT3H-i&variables=VHM0&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
+      "type": "application/json",
+      "id": "process_cmems",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -133,38 +118,63 @@
     }
   ],
   "themes": [
-    "Shipping",
+    "Energy",
     "Aquaculture",
-    "Energy"
+    "Shipping"
   ],
-  "subcode": "drift_deformation_indicator",
-  "collection_group": "Capabilities",
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/jsonforms/drift_deformation.json",
-  "title": "Sea Ice Drift and Deformation",
+  "tags": [
+    "model"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "CMEMS"
+  ],
+  "subcode": "VHM0",
+  "collection_group": "Waves",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/VHM0.json",
+  "title": "Spectral significant wave height",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180,
-          -85,
-          180,
-          85
+          -180.0,
+          -80.0,
+          179.91666666666663,
+          90.0
+        ],
+        [
+          -180.0,
+          -80.0,
+          179.91666666666663,
+          90.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2022-01-01T00:00:00Z",
-          "2025-07-03T00:00:00Z"
+          "2024-01-01T00:00:00Z",
+          "2025-07-13T00:00:00Z"
         ]
       ]
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "E.U. Copernicus Marine Service Information (CMEMS)",
+      "url": "https://data.marine.copernicus.eu/"
+    }
+  ],
   "summaries": {
     "subcode": [
-      "SHS1"
+      "VHM0"
     ],
     "themes": [
       "Shipping",
@@ -172,10 +182,10 @@
       "Energy"
     ],
     "satellite": [
-      "Sentinel-1"
+      "placeholder"
     ],
-    "thumbnail": [
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+    "sensor": [
+      "placeholder"
     ]
   }
 }

@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "Drift_Deformation",
+  "id": "cmems_baltic_ice_thickness",
   "stac_version": "1.1.0",
-  "description": "Nansat sea ice drift algorithm uses feature tracking and pattern matching. The gridded ice tracking vectors are then used to estimate sea ice deformation (divergence, shear and total deformation).",
+  "description": "This Baltic Sea physical model product provides forecasts for the physical conditions in the Baltic Sea. The Baltic forecast is updated twice daily from a 00Z production proving a 10 days forecast and from a 12Z production providing a 6 days forecast. Several datasets are provided: One with hourly instantaneous values, one with daily mean values and one with monthly mean values, all containing these parameters: sea level variations, ice concentration and thickness at the surface, and temperature, salinity and horizontal and vertical velocities for the 3D field. Additionally a dataset with 15 minutes (instantaneous) surface values are provided for the sea level variation and the surface horizontal currents, as well as detided daily values. The product is produced by a Baltic Sea set up of the NEMOv4.2.1 ocean model. This product is provided at the models native grid with a resolution of 1 nautical mile in the horizontal, and with up to 56 vertical depth levels. The area covers the Baltic Sea including the transition area towards the North Sea (i.e. the Danish Belts, the Kattegat and Skagerrak). The ocean model is forced with Stokes drift data from the Baltic Sea Wave forecast product (BALTICSEA_ANALYSISFORECAST_WAV_003_010). Satellite SST, sea ice concentrations and in-situ T and S profiles are assimilated into the model's analysis field.",
   "links": [
     {
       "rel": "root",
@@ -12,53 +12,34 @@
     },
     {
       "rel": "child",
-      "href": "./Sentinel1-EW-HH/collection.json",
+      "href": "./cmems_baltic_ice_thickness/collection.json",
       "type": "application/json",
-      "title": "Sentinel 1 EW HH",
-      "endpointtype": "Sentinel Hub WMS",
-      "code": "SHS1",
-      "id": "Sentinel1-EW-HH",
+      "title": "Baltic Sea Ice Thickness",
+      "endpointtype": "marinedatastore_WMTSCapabilities",
+      "code": "cmems_baltic_ice_thickness",
+      "id": "cmems_baltic_ice_thickness",
       "themes": [
-        "Energy",
-        "Aquaculture",
-        "Shipping"
+        "Shipping",
+        "Energy"
       ],
       "tags": [
-        "Sentinel",
-        "Open data"
+        "Model"
       ],
       "agency": [
-        "European Commission",
-        "ESA"
+        "CMEMS"
       ],
-      "subcode": "SHS1",
-      "collection_group": "Other data",
-      "satellite": [
-        "Sentinel-1"
+      "subcode": "cmems_baltic_ice_thickness",
+      "collection_group": "Baltic",
+      "otherSources": [
+        "Numerical Model"
       ]
     },
     {
       "rel": "service",
-      "href": "https://harshness-map.gtif.eox.at/processes/execute-deformation/execution",
-      "type": "text/plain",
-      "id": "drift_deformation",
-      "method": "POST",
-      "endpoint": "eoxhub_workspaces",
-      "body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/body/drift_deformation.json",
-      "eox:flatstyle": [
-        {
-          "id": "output_feature_tracking",
-          "url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/styles/drift_deformation_ft_style.json"
-        },
-        {
-          "id": "output_deformation",
-          "url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/styles/drift_deformation_deformation_style.json"
-        },
-        {
-          "id": "output_pm",
-          "url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/styles/drift_deformation_pm_style.json"
-        }
-      ]
+      "href": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_mod_glo_phy_anfc_0.083deg_P1D-m&variables=sithick&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
+      "type": "application/json",
+      "id": "process_cmems",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -132,50 +113,81 @@
       "title": "Cerulean GTIF project catalog"
     }
   ],
+  "sci:doi": "https://doi.org/10.48670/moi-00010",
   "themes": [
     "Shipping",
-    "Aquaculture",
     "Energy"
   ],
-  "subcode": "drift_deformation_indicator",
-  "collection_group": "Capabilities",
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/jsonforms/drift_deformation.json",
-  "title": "Sea Ice Drift and Deformation",
+  "tags": [
+    "Model"
+  ],
+  "agency": [
+    "CMEMS"
+  ],
+  "subcode": "cmems_baltic_ice_thickness",
+  "collection_group": "Baltic",
+  "otherSources": [
+    "Numerical Model"
+  ],
+  "eox:colorlegend": {
+    "title": "Sea Ice Thickness [m]",
+    "range": [
+      "#040615",
+      "#457bfc",
+      "#e5f8fc"
+    ],
+    "domain": [
+      0,
+      2
+    ]
+  },
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/sithick.json",
+  "title": "Baltic Sea Ice Thickness",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180,
-          -85,
-          180,
-          85
+          9.041582107543945,
+          53.008296966552734,
+          30.208656311035156,
+          65.8909912109375
+        ],
+        [
+          9.041582107543945,
+          53.008296966552734,
+          30.208656311035156,
+          65.8909912109375
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2022-01-01T00:00:00Z",
-          "2025-07-03T00:00:00Z"
+          "2022-12-02T00:00:00Z",
+          "2025-07-07T00:00:00Z"
         ]
       ]
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "Mercator Océan International",
+      "url": "https://www.mercator-ocean.eu/"
+    },
+    {
+      "name": "Copernicus Marine Service (CMEMS)",
+      "url": "https://data.marine.copernicus.eu/"
+    }
+  ],
   "summaries": {
     "subcode": [
-      "SHS1"
+      "cmems_baltic_ice_thickness"
     ],
     "themes": [
       "Shipping",
-      "Aquaculture",
       "Energy"
-    ],
-    "satellite": [
-      "Sentinel-1"
-    ],
-    "thumbnail": [
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
     ]
   }
 }

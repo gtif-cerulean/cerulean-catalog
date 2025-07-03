@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "Drift_Deformation",
+  "id": "harshness",
   "stac_version": "1.1.0",
-  "description": "Nansat sea ice drift algorithm uses feature tracking and pattern matching. The gridded ice tracking vectors are then used to estimate sea ice deformation (divergence, shear and total deformation).",
+  "description": "This is an example of how the harshness calculation capability can be triggered and visualized within the dashboard.",
   "links": [
     {
       "rel": "root",
@@ -12,53 +12,40 @@
     },
     {
       "rel": "child",
-      "href": "./Sentinel1-EW-HH/collection.json",
+      "href": "./harshness/collection.json",
       "type": "application/json",
-      "title": "Sentinel 1 EW HH",
-      "endpointtype": "Sentinel Hub WMS",
-      "code": "SHS1",
-      "id": "Sentinel1-EW-HH",
+      "title": "Harshness capability",
+      "endpointtype": "Collection-only",
+      "code": "harshness",
+      "id": "harshness",
       "themes": [
-        "Energy",
-        "Aquaculture",
         "Shipping"
       ],
       "tags": [
-        "Sentinel",
-        "Open data"
+        "processing",
+        "capability"
+      ],
+      "satellite": [
+        "multiple"
+      ],
+      "sensor": [
+        "multiple"
       ],
       "agency": [
-        "European Commission",
         "ESA"
       ],
-      "subcode": "SHS1",
-      "collection_group": "Other data",
-      "satellite": [
-        "Sentinel-1"
-      ]
+      "subcode": "harshness",
+      "collection_group": "Capabilities"
     },
     {
       "rel": "service",
-      "href": "https://harshness-map.gtif.eox.at/processes/execute-deformation/execution",
-      "type": "text/plain",
-      "id": "drift_deformation",
+      "href": "https://harshness-map.gtif.eox.at/processes/execute-create-harshness/execution",
+      "type": "image/tiff",
+      "id": "harshnesscollection",
       "method": "POST",
       "endpoint": "eoxhub_workspaces",
-      "body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/body/drift_deformation.json",
-      "eox:flatstyle": [
-        {
-          "id": "output_feature_tracking",
-          "url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/styles/drift_deformation_ft_style.json"
-        },
-        {
-          "id": "output_deformation",
-          "url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/styles/drift_deformation_deformation_style.json"
-        },
-        {
-          "id": "output_pm",
-          "url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/styles/drift_deformation_pm_style.json"
-        }
-      ]
+      "body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/harshness.json",
+      "eox:flatstyle": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/harshness.json"
     },
     {
       "rel": "xyz",
@@ -133,30 +120,41 @@
     }
   ],
   "themes": [
-    "Shipping",
-    "Aquaculture",
-    "Energy"
+    "Shipping"
   ],
-  "subcode": "drift_deformation_indicator",
+  "tags": [
+    "processing",
+    "capability"
+  ],
+  "satellite": [
+    "multiple"
+  ],
+  "sensor": [
+    "multiple"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "harshness",
   "collection_group": "Capabilities",
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/jsonforms/drift_deformation.json",
-  "title": "Sea Ice Drift and Deformation",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/harshness.json",
+  "title": "Harshness capability",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180,
-          -85,
-          180,
-          85
+          -179,
+          55,
+          179,
+          89
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2022-01-01T00:00:00Z",
-          "2025-07-03T00:00:00Z"
+          "2025-07-03T11:58:54.969830Z",
+          "2025-07-03T11:58:54.969830Z"
         ]
       ]
     }
@@ -164,18 +162,16 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "SHS1"
+      "harshness"
     ],
     "themes": [
-      "Shipping",
-      "Aquaculture",
-      "Energy"
+      "Shipping"
     ],
     "satellite": [
-      "Sentinel-1"
+      "multiple"
     ],
-    "thumbnail": [
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+    "sensor": [
+      "multiple"
     ]
   }
 }

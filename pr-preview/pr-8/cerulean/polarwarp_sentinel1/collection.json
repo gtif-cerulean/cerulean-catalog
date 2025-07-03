@@ -1,14 +1,45 @@
 {
   "type": "Collection",
-  "id": "Drift_Deformation",
+  "id": "polarwarp_sentinel1",
   "stac_version": "1.1.0",
-  "description": "Nansat sea ice drift algorithm uses feature tracking and pattern matching. The gridded ice tracking vectors are then used to estimate sea ice deformation (divergence, shear and total deformation).",
+  "description": "This is an example of how the polar warp capability can be triggered and visualized within the dashboard.",
   "links": [
     {
       "rel": "root",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./polarwarp/collection.json",
+      "type": "application/json",
+      "title": "Polar warp capability",
+      "endpointtype": "Collection-only",
+      "code": "polarwarp",
+      "id": "polarwarp",
+      "themes": [
+        "Shipping"
+      ],
+      "tags": [
+        "processing",
+        "capability"
+      ],
+      "satellite": [
+        "multiple"
+      ],
+      "sensor": [
+        "multiple"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "polarwarp",
+      "collection_group": "Capabilities",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "child",
@@ -39,26 +70,13 @@
     },
     {
       "rel": "service",
-      "href": "https://harshness-map.gtif.eox.at/processes/execute-deformation/execution",
-      "type": "text/plain",
-      "id": "drift_deformation",
+      "href": "https://harshness-map.gtif.eox.at/processes/execute-polarwarp-gcps/execution",
+      "type": "image/tiff",
+      "id": "polarwarpcollection",
       "method": "POST",
       "endpoint": "eoxhub_workspaces",
-      "body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/body/drift_deformation.json",
-      "eox:flatstyle": [
-        {
-          "id": "output_feature_tracking",
-          "url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/styles/drift_deformation_ft_style.json"
-        },
-        {
-          "id": "output_deformation",
-          "url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/styles/drift_deformation_deformation_style.json"
-        },
-        {
-          "id": "output_pm",
-          "url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/styles/drift_deformation_pm_style.json"
-        }
-      ]
+      "body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/polarwarp.json",
+      "eox:flatstyle": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/polarwarp.json"
     },
     {
       "rel": "xyz",
@@ -133,17 +151,31 @@
     }
   ],
   "themes": [
-    "Shipping",
-    "Aquaculture",
-    "Energy"
+    "Shipping"
   ],
-  "subcode": "drift_deformation_indicator",
+  "subcode": "polarwarp_sentinel1",
   "collection_group": "Capabilities",
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/jsonforms/drift_deformation.json",
-  "title": "Sea Ice Drift and Deformation",
+  "eodash:mapProjection": {
+    "name": "EPSG:3413",
+    "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+  },
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/polarwarp.json",
+  "title": "Polar warp capability",
   "extent": {
     "spatial": {
       "bbox": [
+        [
+          -180,
+          -85,
+          180,
+          89
+        ],
+        [
+          -179,
+          55,
+          179,
+          89
+        ],
         [
           -180,
           -85,
@@ -156,7 +188,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-07-03T00:00:00Z"
+          "2025-07-03T11:59:59.874400Z"
         ]
       ]
     }
@@ -164,7 +196,8 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "SHS1"
+      "SHS1",
+      "polarwarp"
     ],
     "themes": [
       "Shipping",
@@ -172,7 +205,11 @@
       "Energy"
     ],
     "satellite": [
-      "Sentinel-1"
+      "Sentinel-1",
+      "multiple"
+    ],
+    "sensor": [
+      "multiple"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"

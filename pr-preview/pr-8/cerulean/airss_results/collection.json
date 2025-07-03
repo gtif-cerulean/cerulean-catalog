@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "Drift_Deformation",
+  "id": "airss_results",
   "stac_version": "1.1.0",
-  "description": "Nansat sea ice drift algorithm uses feature tracking and pattern matching. The gridded ice tracking vectors are then used to estimate sea ice deformation (divergence, shear and total deformation).",
+  "description": "",
   "links": [
     {
       "rel": "root",
@@ -12,53 +12,20 @@
     },
     {
       "rel": "child",
-      "href": "./Sentinel1-EW-HH/collection.json",
+      "href": "./airss_results/collection.json",
       "type": "application/json",
-      "title": "Sentinel 1 EW HH",
-      "endpointtype": "Sentinel Hub WMS",
-      "code": "SHS1",
-      "id": "Sentinel1-EW-HH",
+      "title": "AIRSS Go or No-Go",
+      "endpointtype": "FlatGeobuf source",
+      "code": "airss_go_or_no_go",
+      "id": "airss_results",
       "themes": [
-        "Energy",
-        "Aquaculture",
         "Shipping"
       ],
-      "tags": [
-        "Sentinel",
-        "Open data"
-      ],
       "agency": [
-        "European Commission",
-        "ESA"
+        "DMI"
       ],
-      "subcode": "SHS1",
-      "collection_group": "Other data",
-      "satellite": [
-        "Sentinel-1"
-      ]
-    },
-    {
-      "rel": "service",
-      "href": "https://harshness-map.gtif.eox.at/processes/execute-deformation/execution",
-      "type": "text/plain",
-      "id": "drift_deformation",
-      "method": "POST",
-      "endpoint": "eoxhub_workspaces",
-      "body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/body/drift_deformation.json",
-      "eox:flatstyle": [
-        {
-          "id": "output_feature_tracking",
-          "url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/styles/drift_deformation_ft_style.json"
-        },
-        {
-          "id": "output_deformation",
-          "url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/styles/drift_deformation_deformation_style.json"
-        },
-        {
-          "id": "output_pm",
-          "url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/styles/drift_deformation_pm_style.json"
-        }
-      ]
+      "subcode": "airss_go_or_no_go",
+      "collection_group": "Capabilities"
     },
     {
       "rel": "xyz",
@@ -132,31 +99,63 @@
       "title": "Cerulean GTIF project catalog"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
   "themes": [
-    "Shipping",
-    "Aquaculture",
-    "Energy"
+    "Shipping"
   ],
-  "subcode": "drift_deformation_indicator",
+  "agency": [
+    "DMI"
+  ],
+  "subcode": "airss_go_or_no_go",
   "collection_group": "Capabilities",
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/jsonforms/drift_deformation.json",
-  "title": "Sea Ice Drift and Deformation",
+  "eox:colorlegend": {
+    "title": "Is the vessel_type allowed to proceed?",
+    "range": [
+      "#d9ef8b",
+      "#a6d96a",
+      "#66bd63",
+      "#1a9850",
+      "#ff8787",
+      "#ff5252",
+      "#ff0000",
+      "#a70000"
+    ],
+    "domain": [
+      "<= 0 IN < 2",
+      "<= 2 IN < 5",
+      "<= 5 IN < 10",
+      "IN > 10",
+      "<= -2 IN < 0",
+      "<= -5 IN < -2",
+      "<= -10 IN < -5",
+      "IN < -10"
+    ],
+    "scaleType": "categorical",
+    "markType": "circle"
+  },
+  "title": "AIRSS Go or No-Go",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180,
-          -85,
-          180,
-          85
+          -50.0,
+          59.0,
+          -39.0,
+          65.0
+        ],
+        [
+          -50.0,
+          59.0,
+          -39.0,
+          65.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2022-01-01T00:00:00Z",
-          "2025-07-03T00:00:00Z"
+          "2024-08-13T00:00:00Z",
+          "2024-08-13T00:00:00Z"
         ]
       ]
     }
@@ -164,18 +163,22 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "SHS1"
+      "airss_go_or_no_go"
     ],
     "themes": [
-      "Shipping",
-      "Aquaculture",
-      "Energy"
-    ],
-    "satellite": [
-      "Sentinel-1"
+      "Shipping"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }

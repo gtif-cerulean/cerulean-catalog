@@ -1,14 +1,31 @@
 {
   "type": "Collection",
-  "id": "Drift_Deformation",
+  "id": "polaris_sentinel1",
   "stac_version": "1.1.0",
-  "description": "Nansat sea ice drift algorithm uses feature tracking and pattern matching. The gridded ice tracking vectors are then used to estimate sea ice deformation (divergence, shear and total deformation).",
+  "description": "",
   "links": [
     {
       "rel": "root",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./Polaris_algorithm_dmi_demo/collection.json",
+      "type": "application/json",
+      "title": "POLARIS",
+      "endpointtype": "FlatGeobuf source",
+      "code": "Polaris_algorithm_dmi_demo",
+      "id": "Polaris_algorithm_dmi_demo",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "DMI"
+      ],
+      "subcode": "Polaris_algorithm_dmi_demo",
+      "collection_group": "Capabilities"
     },
     {
       "rel": "child",
@@ -38,27 +55,21 @@
       ]
     },
     {
-      "rel": "service",
-      "href": "https://harshness-map.gtif.eox.at/processes/execute-deformation/execution",
-      "type": "text/plain",
-      "id": "drift_deformation",
-      "method": "POST",
-      "endpoint": "eoxhub_workspaces",
-      "body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/body/drift_deformation.json",
-      "eox:flatstyle": [
-        {
-          "id": "output_feature_tracking",
-          "url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/styles/drift_deformation_ft_style.json"
-        },
-        {
-          "id": "output_deformation",
-          "url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/styles/drift_deformation_deformation_style.json"
-        },
-        {
-          "id": "output_pm",
-          "url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/styles/drift_deformation_pm_style.json"
-        }
-      ]
+      "rel": "child",
+      "href": "./sea_ice_detections/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Detections",
+      "endpointtype": "COG source",
+      "code": "SID",
+      "id": "sea_ice_detections",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "placeholder"
+      ],
+      "subcode": "SID",
+      "collection_group": "Sea Ice"
     },
     {
       "rel": "xyz",
@@ -133,14 +144,11 @@
     }
   ],
   "themes": [
-    "Shipping",
-    "Aquaculture",
-    "Energy"
+    "Shipping"
   ],
-  "subcode": "drift_deformation_indicator",
+  "subcode": "POS1",
   "collection_group": "Capabilities",
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/jsonforms/drift_deformation.json",
-  "title": "Sea Ice Drift and Deformation",
+  "title": "POLARIS combined",
   "extent": {
     "spatial": {
       "bbox": [
@@ -148,7 +156,19 @@
           -180,
           -85,
           180,
-          85
+          85.0
+        ],
+        [
+          -120.0,
+          14.0,
+          70.0,
+          85.0
+        ],
+        [
+          -120.0,
+          14.0,
+          70.0,
+          85.0
         ]
       ]
     },
@@ -164,7 +184,9 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "SHS1"
+      "SHS1",
+      "Polaris_algorithm_dmi_demo",
+      "SID"
     ],
     "themes": [
       "Shipping",
@@ -175,6 +197,7 @@
       "Sentinel-1"
     ],
     "thumbnail": [
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
       "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
     ]
   }
