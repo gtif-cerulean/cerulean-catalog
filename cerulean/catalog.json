@@ -1552,6 +1552,27 @@
       ]
     },
     {
+      "rel": "child",
+      "href": "./Drift_Deformation/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Drift and Deformation",
+      "code": "drift_deformation_indicator",
+      "id": "Drift_Deformation",
+      "themes": [
+        "Shipping",
+        "Aquaculture",
+        "Energy"
+      ],
+      "subcode": "drift_deformation_indicator",
+      "satellite": [
+        "Sentinel-1"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+      ],
+      "collection_group": "Capabilities"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-cerulean.github.io/cerulean-catalog/cerulean/catalog.json",
       "type": "application/json"
