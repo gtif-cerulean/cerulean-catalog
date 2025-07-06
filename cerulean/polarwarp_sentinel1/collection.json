@@ -182,7 +182,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-07-03T12:00:43.052933Z"
+          "2025-07-06T04:20:42.428043Z"
         ]
       ]
     }
@@ -199,8 +199,8 @@
       "Aquaculture"
     ],
     "satellite": [
-      "multiple",
-      "Sentinel-1"
+      "Sentinel-1",
+      "multiple"
     ],
     "sensor": [
       "multiple"
