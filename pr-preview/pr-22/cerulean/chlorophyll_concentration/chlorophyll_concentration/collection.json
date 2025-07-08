@@ -1,0 +1,108 @@
+{
+  "type": "Collection",
+  "id": "chlorophyll_concentration",
+  "stac_version": "1.1.0",
+  "description": "Mean of the binned pixels\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "items",
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items"
+    },
+    {
+      "rel": "wmts",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-gapfree-multi-4km_P1D_202311",
+      "type": "image/png",
+      "title": "wmts capabilities",
+      "wmts:layer": "OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-gapfree-multi-4km_P1D_202311/CHL",
+      "role": [
+        "data"
+      ],
+      "wmts:dimensions": {
+        "elevation": 0,
+        "style": "cmap:algae"
+      }
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Chlorophyll-a concentration"
+    }
+  ],
+  "themes": [
+    "Aquaculture"
+  ],
+  "tags": [
+    "model"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "CMEMS"
+  ],
+  "subcode": "CHLA",
+  "collection_group": "Water Biology",
+  "eox:colorlegend": {
+    "title": "Chlorophyll-a concentration - Mean of the binned pixels [milligram m-3]",
+    "range": [
+      "rgb(213, 250, 207)",
+      "rgb(17, 148, 80)",
+      "rgb(13, 36, 18)"
+    ],
+    "domain": [
+      0.027,
+      1.812
+    ]
+  },
+  "endpointtype": "marinedatastore_WMTSCapabilities",
+  "title": "Chlorophyll-a concentration",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -179.9791717529297,
+          -89.97917175292969,
+          179.9791717529297,
+          89.97916412353516
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-06-22T00:00:00Z",
+          "2025-07-06T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "E.U. Copernicus Marine Service Information (CMEMS)",
+      "url": "https://data.marine.copernicus.eu/"
+    }
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}
