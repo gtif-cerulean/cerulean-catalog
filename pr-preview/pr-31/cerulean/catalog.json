@@ -70,8 +70,8 @@
         "Sentinel-1"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
       ],
       "collection_group": "Capabilities"
     },
@@ -1434,15 +1434,15 @@
       ],
       "subcode": "SHIP1",
       "satellite": [
-        "placeholder",
-        "Sentinel-1"
+        "Sentinel-1",
+        "placeholder"
       ],
       "sensor": [
         "placeholder"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
       ],
       "collection_group": "Capabilities"
     },
@@ -1550,6 +1550,27 @@
       "otherSources": [
         "Numerical Model"
       ]
+    },
+    {
+      "rel": "child",
+      "href": "./Drift_Deformation/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Drift and Deformation",
+      "code": "drift_deformation_indicator",
+      "id": "Drift_Deformation",
+      "themes": [
+        "Shipping",
+        "Aquaculture",
+        "Energy"
+      ],
+      "subcode": "drift_deformation_indicator",
+      "satellite": [
+        "Sentinel-1"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+      ],
+      "collection_group": "Capabilities"
     },
     {
       "rel": "self",

@@ -134,8 +134,10 @@
   "eox:colorlegend": {
     "title": "Ice concentration",
     "range": [
-      "#000000",
-      "#000000",
+      "#b4cffa",
+      "#006bce",
+      "#1a2653",
+      "#333333",
       "#000000"
     ],
     "domain": [
@@ -188,9 +190,9 @@
       "SICONC"
     ],
     "themes": [
-      "Energy",
       "Aquaculture",
-      "Shipping"
+      "Shipping",
+      "Energy"
     ]
   },
   "assets": {
