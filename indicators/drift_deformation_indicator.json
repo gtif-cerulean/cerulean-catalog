@@ -1,0 +1,37 @@
+{
+  "Name": "Drift_Deformation",
+  "Title": "Sea Ice Drift and Deformation",
+  "EodashIdentifier": "drift_deformation_indicator",
+  "Description": "Nansat sea ice drift algorithm uses feature tracking and pattern matching. The gridded ice tracking vectors are then used to estimate sea ice deformation (divergence, shear and total deformation).",
+  "CollectionGroup": "Capabilities",
+  "Themes": ["Shipping", "Aquaculture", "Energy"],
+  "Collections": ["SHS1_sentinel1_ew_hh"],
+  "Process": {
+    "Name": "drift_deformation",
+    "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/jsonforms/drift_deformation.json",
+    "EndPoints": [
+      {
+        "Identifier": "drift_deformation",
+        "Url": "https://harshness-map.gtif.eox.at/processes/execute-deformation/execution",
+        "Method": "POST",
+        "EndPoint": "eoxhub_workspaces",
+        "Body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/body/drift_deformation.json",
+        "Type": "text/plain",
+        "Flatstyle": [
+          {
+            "Identifier": "output_feature_tracking",
+            "Url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/styles/drift_deformation_ft_style.json"
+          },
+          {
+            "Identifier": "output_deformation",
+            "Url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/styles/drift_deformation_deformation_style.json"
+          },
+          {
+            "Identifier": "output_pm",
+            "Url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/styles/drift_deformation_pm_style.json"
+          }
+        ]
+      }
+    ]
+  }
+}

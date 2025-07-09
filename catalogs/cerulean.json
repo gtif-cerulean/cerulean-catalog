@@ -67,6 +67,8 @@
     "polarwarp_indicator",
     "structureicing",
     "cmems_baltic_data",
-    "cmems_baltic_ice_thickness"
+    "cmems_baltic_ice_thickness",
+    "SID_sea_ice_detections",
+    "drift_deformation_indicator"
   ]
 }

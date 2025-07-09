@@ -3,7 +3,7 @@ Catalog configuration point for GTIF cerulean project
 
 Catalog is available under:
 
-https://gtif-cerulean.github.io/catalog/cerulean/catalog.json
+https://gtif-cerulean.github.io/cerulean-catalog/cerulean/catalog.json
 
 Using STAC browser, e.g.:
 
