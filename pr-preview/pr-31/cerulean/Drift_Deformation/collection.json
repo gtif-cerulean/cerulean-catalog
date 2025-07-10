@@ -44,19 +44,19 @@
       "id": "drift_deformation",
       "method": "POST",
       "endpoint": "eoxhub_workspaces",
-      "body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/body/drift_deformation.json",
+      "body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/drift_deformation.json",
       "eox:flatstyle": [
         {
           "id": "output_feature_tracking",
-          "url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/styles/drift_deformation_ft_style.json"
+          "url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/drift_deformation_ft_style.json"
         },
         {
           "id": "output_deformation",
-          "url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/styles/drift_deformation_deformation_style.json"
+          "url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/drift_deformation_deformation_style.json"
         },
         {
           "id": "output_pm",
-          "url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/styles/drift_deformation_pm_style.json"
+          "url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/drift_deformation_pm_style.json"
         }
       ]
     },
@@ -139,7 +139,7 @@
   ],
   "subcode": "drift_deformation_indicator",
   "collection_group": "Capabilities",
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/drift_deformation/jsonforms/drift_deformation.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/drift_deformation.json",
   "title": "Sea Ice Drift and Deformation",
   "extent": {
     "spatial": {
@@ -156,7 +156,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-07-09T00:00:00Z"
+          "2025-07-10T00:00:00Z"
         ]
       ]
     }
@@ -167,9 +167,9 @@
       "SHS1"
     ],
     "themes": [
-      "Shipping",
       "Aquaculture",
-      "Energy"
+      "Energy",
+      "Shipping"
     ],
     "satellite": [
       "Sentinel-1"
