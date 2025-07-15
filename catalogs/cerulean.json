@@ -24,6 +24,7 @@
     "PHYC_total_phytoplankton",
     "ZOOC_total_zooplankton",
     "SHS1_sentinel1_ew_hh",
+    "SHS1_sentinel1_iw_vv",
     "CHLA_chlorophyll_concentration",
     "DIATO_diatoms_chlorophyll_a",
     "DINO_uncertainty_dinophytes_chlorophyll_a",
