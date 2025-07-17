@@ -1,14 +1,14 @@
 {
   "Name": "sea_ice_detections",
-  "Title": "Sea Ice Detections",
+  "Title": "AI Sea Ice Concentration",
   "EodashIdentifier": "SID",
   "CollectionGroup": "Sea Ice",
-  "Description": "",
+  "Description": "Arctic L3 sea ice product providing concentration, stage-of-development and floe size information retrieved from Sentinel-1 SAR imagery and GCOM-W AMSR2 microwave radiometer data using a deep learning algorithm and delivered on a 0.5 km grid.",
   "Themes": [
     "Shipping"
   ],
   "Agency": [
-    "placeholder"
+    "DMI"
   ],
   "Resources": [
     {
