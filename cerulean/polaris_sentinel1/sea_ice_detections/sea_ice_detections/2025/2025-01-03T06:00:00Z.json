@@ -58,13 +58,13 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Sea Ice Detections"
+      "title": "AI Sea Ice Concentration"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Sea Ice Detections"
+      "title": "AI Sea Ice Concentration"
     }
   ],
   "assets": {
