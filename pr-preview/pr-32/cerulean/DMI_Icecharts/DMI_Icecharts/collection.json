@@ -26,6 +26,25 @@
     "DMI"
   ],
   "collection_group": "Sea Ice",
+  "eox:colorlegend": {
+    "title": "Total Sea Ice Concentration",
+    "range": [
+      "#96C8FF",
+      "#8CFFA0",
+      "#FFFF00",
+      "#FF7D06",
+      "#FF0000"
+    ],
+    "domain": [
+      "Open Water",
+      "Very open drift ice",
+      "Open Drift Ice",
+      "Close Drift Ice",
+      "Very Close Drift Ice"
+    ],
+    "scaleType": "categorical",
+    "markType": "circle"
+  },
   "endpointtype": "FlatGeobuf source",
   "title": "DMI Ice charts",
   "extent": {
@@ -42,7 +61,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-07-20T19:20:40.232912Z",
+          "2025-07-21T20:36:08.714341Z",
           null
         ]
       ]
