@@ -165,16 +165,22 @@
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          -180,
+          -85,
+          180,
+          89
         ],
         [
           -179,
           55,
           179,
           89
+        ],
+        [
+          -180,
+          -85,
+          180,
+          85
         ]
       ]
     },
@@ -182,7 +188,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-07-20T04:32:17.337973Z"
+          "2025-07-21T20:36:45.792428Z"
         ]
       ]
     }
@@ -190,17 +196,17 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "SHS1",
-      "polarwarp"
+      "polarwarp",
+      "SHS1"
     ],
     "themes": [
+      "Shipping",
       "Energy",
-      "Aquaculture",
-      "Shipping"
+      "Aquaculture"
     ],
     "satellite": [
-      "Sentinel-1",
-      "multiple"
+      "multiple",
+      "Sentinel-1"
     ],
     "sensor": [
       "multiple"

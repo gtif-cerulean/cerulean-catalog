@@ -11,12 +11,6 @@
       "title": "Cerulean GTIF project catalog"
     },
     {
-      "rel": "item",
-      "href": "./sea_floor_depth/2017/2017-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2017-01-01T00:00:00Z"
-    },
-    {
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_static_202211--ext--bathy",
       "type": "image/png",
@@ -96,5 +90,15 @@
       "name": "E.U. Copernicus Marine Service Information (CMEMS)",
       "url": "https://data.marine.copernicus.eu/"
     }
-  ]
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
 }

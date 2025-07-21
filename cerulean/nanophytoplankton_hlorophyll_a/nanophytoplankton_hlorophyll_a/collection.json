@@ -11,24 +11,6 @@
       "title": "Cerulean GTIF project catalog"
     },
     {
-      "rel": "item",
-      "href": "./nanophytoplankton_hlorophyll_a/2025/2025-04-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-04-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./nanophytoplankton_hlorophyll_a/2025/2025-05-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-05-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./nanophytoplankton_hlorophyll_a/2025/2025-06-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-06-01T00:00:00Z"
-    },
-    {
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-multi-4km_P1M_202411",
       "type": "image/png",
@@ -106,5 +88,15 @@
       "name": "E.U. Copernicus Marine Service Information (CMEMS)",
       "url": "https://data.marine.copernicus.eu/"
     }
-  ]
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
 }

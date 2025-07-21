@@ -11,11 +11,6 @@
       "title": "Cerulean GTIF project catalog"
     },
     {
-      "rel": "item",
-      "href": "./structureicing/1970/aa20efbe-cbc5-43f3-a742-24b02cd5f7cc.json",
-      "type": "application/geo+json"
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -59,7 +54,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-07-20T04:32:17.961189Z",
+          "2025-07-21T20:36:46.007113Z",
           null
         ]
       ]

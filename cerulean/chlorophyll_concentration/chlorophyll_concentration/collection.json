@@ -11,108 +11,6 @@
       "title": "Cerulean GTIF project catalog"
     },
     {
-      "rel": "item",
-      "href": "./chlorophyll_concentration/2025/2025-07-02T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-07-02T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./chlorophyll_concentration/2025/2025-07-03T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-07-03T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./chlorophyll_concentration/2025/2025-07-04T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-07-04T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./chlorophyll_concentration/2025/2025-07-05T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-07-05T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./chlorophyll_concentration/2025/2025-07-06T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-07-06T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./chlorophyll_concentration/2025/2025-07-07T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-07-07T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./chlorophyll_concentration/2025/2025-07-08T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-07-08T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./chlorophyll_concentration/2025/2025-07-09T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-07-09T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./chlorophyll_concentration/2025/2025-07-10T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-07-10T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./chlorophyll_concentration/2025/2025-07-11T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-07-11T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./chlorophyll_concentration/2025/2025-07-12T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-07-12T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./chlorophyll_concentration/2025/2025-07-13T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-07-13T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./chlorophyll_concentration/2025/2025-07-14T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-07-14T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./chlorophyll_concentration/2025/2025-07-15T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-07-15T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./chlorophyll_concentration/2025/2025-07-16T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-07-16T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./chlorophyll_concentration/2025/2025-07-17T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-07-17T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./chlorophyll_concentration/2025/2025-07-18T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-07-18T00:00:00Z"
-    },
-    {
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-gapfree-multi-4km_P1D_202311",
       "type": "image/png",
@@ -179,7 +77,7 @@
       "interval": [
         [
           "2025-07-02T00:00:00Z",
-          "2025-07-18T00:00:00Z"
+          "2025-07-20T00:00:00Z"
         ]
       ]
     }
@@ -190,5 +88,15 @@
       "name": "E.U. Copernicus Marine Service Information (CMEMS)",
       "url": "https://data.marine.copernicus.eu/"
     }
-  ]
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
 }
