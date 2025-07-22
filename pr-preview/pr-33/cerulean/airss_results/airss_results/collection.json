@@ -1,0 +1,102 @@
+{
+  "type": "Collection",
+  "id": "airss_results",
+  "stac_version": "1.1.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/collections/Polaris_algorithm_dmi_demo/airss.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "202408132000"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "AIRSS Go or No-Go"
+    }
+  ],
+  "thumbnail": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
+  "themes": [
+    "Shipping"
+  ],
+  "agency": [
+    "DMI"
+  ],
+  "subcode": "airss_go_or_no_go",
+  "collection_group": "Capabilities",
+  "eox:colorlegend": {
+    "title": "Is the vessel_type allowed to proceed?",
+    "range": [
+      "#d9ef8b",
+      "#a6d96a",
+      "#66bd63",
+      "#1a9850",
+      "#ff8787",
+      "#ff5252",
+      "#ff0000",
+      "#a70000"
+    ],
+    "domain": [
+      "<= 0 IN < 2",
+      "<= 2 IN < 5",
+      "<= 5 IN < 10",
+      "IN > 10",
+      "<= -2 IN < 0",
+      "<= -5 IN < -2",
+      "<= -10 IN < -5",
+      "IN < -10"
+    ],
+    "scaleType": "categorical",
+    "markType": "circle"
+  },
+  "endpointtype": "FlatGeobuf source",
+  "title": "AIRSS Go or No-Go",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -50.0,
+          59.0,
+          -39.0,
+          65.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-08-13T00:00:00Z",
+          "2024-08-13T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

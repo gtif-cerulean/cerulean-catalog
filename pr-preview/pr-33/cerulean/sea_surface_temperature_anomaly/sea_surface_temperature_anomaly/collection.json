@@ -1,0 +1,112 @@
+{
+  "type": "Collection",
+  "id": "sea_surface_temperature_anomaly",
+  "stac_version": "1.1.0",
+  "description": "N/A\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "wmts",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg-sst-anomaly_P1D-m_202411",
+      "type": "image/png",
+      "title": "wmts capabilities",
+      "wmts:layer": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg-sst-anomaly_P1D-m_202411/sea_surface_temperature_anomaly",
+      "role": [
+        "data"
+      ],
+      "wmts:dimensions": {
+        "elevation": 0,
+        "style": "cmap:viridis"
+      }
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Sea surface temperature anomaly"
+    }
+  ],
+  "themes": [
+    "Aquaculture",
+    "Energy",
+    "Shipping"
+  ],
+  "tags": [
+    "model"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "CMEMS"
+  ],
+  "subcode": "SSTA",
+  "collection_group": "Sea Water",
+  "eox:colorlegend": {
+    "title": "Sea surface temperature anomaly [degrees C]",
+    "range": [
+      "rgba(68, 1, 84, 1)",
+      "rgba(72, 35, 116, 1)",
+      "rgba(64, 67, 135, 1)",
+      "rgba(52, 94, 141, 1)",
+      "rgba(41, 120, 142, 1)",
+      "rgba(32, 144, 140, 1)",
+      "rgba(34, 167, 132, 1)",
+      "rgba(68, 190, 112, 1)",
+      "rgba(121, 209, 81, 1)",
+      "rgba(189, 223, 38, 1)",
+      "rgba(253, 231, 37, 1)"
+    ],
+    "domain": [
+      -1.48,
+      2.95
+    ]
+  },
+  "endpointtype": "marinedatastore_WMTSCapabilities",
+  "title": "Sea surface temperature anomaly",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -80.0,
+          179.9166717529297,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-01-01T00:00:00Z",
+          "2025-07-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "E.U. Copernicus Marine Service Information (CMEMS)",
+      "url": "https://data.marine.copernicus.eu/"
+    }
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}
