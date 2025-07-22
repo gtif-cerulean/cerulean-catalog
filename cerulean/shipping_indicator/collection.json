@@ -305,15 +305,15 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2022_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
-      "title": "EOxCloudless 2022",
+      "title": "EOxCloudless 2024",
       "roles": [
         "baselayer",
         "visible"
       ],
-      "id": "cloudless-2022",
-      "attribution": "{ EOxCloudless 2022: <a href=\"//s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"//eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2022) }"
+      "id": "cloudless-2024",
+      "attribution": "{ EOxCloudless 2024: <a href=\"//s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"//eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
     },
     {
       "rel": "wms",
@@ -470,26 +470,26 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "SIVELO",
-      "IST",
-      "SIT",
-      "VSI",
-      "MSIA",
-      "USI",
-      "Polaris_algorithm_dmi_demo",
       "SST",
+      "MSIA",
       "SICONC",
+      "SIVELO",
+      "USI",
       "SHS1",
-      "IBC"
+      "VSI",
+      "Polaris_algorithm_dmi_demo",
+      "IST",
+      "IBC",
+      "SIT"
     ],
     "themes": [
       "Shipping",
-      "Energy",
-      "Aquaculture"
+      "Aquaculture",
+      "Energy"
     ],
     "satellite": [
-      "Sentinel-1",
-      "placeholder"
+      "placeholder",
+      "Sentinel-1"
     ],
     "sensor": [
       "placeholder"
