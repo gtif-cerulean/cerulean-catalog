@@ -71,6 +71,7 @@
     "cmems_baltic_ice_thickness",
     "SID_sea_ice_detections",
     "drift_deformation_indicator",
-    "DMI_Icecharts"
+    "DMI_Icecharts",
+    "coastal_change_monitoring_indicator"
   ]
 }

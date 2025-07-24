@@ -1,0 +1,35 @@
+{
+  "Name": "coastal_change_monitoring",
+  "Title": "Coastal Change Monitoring",
+  "CollectionGroup": "Capabilities",
+  "Description": "Costal Change Monitoring algorithm developed by Techworks Marine",
+  "Themes": [
+    "Shipping",
+    "Energy"
+  ],
+  "Tags": [
+    "processing",
+    "capability"
+  ],
+  "Satellite": [
+    "multiple"
+  ],
+  "Sensor": [
+    "multiple"
+  ],
+  "Agency": [
+    "ESA"
+  ],
+  "Resources": [
+    {
+      "Name": "Collection-only",
+      "EndPoint": "Collection-only",
+      "OverwriteBBox": [
+        -179,
+        55,
+        179,
+        89
+      ]
+    }
+  ]
+}
