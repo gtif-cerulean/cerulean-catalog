@@ -43,7 +43,7 @@
       "id": "coastal_change_monitoring_collection",
       "method": "POST",
       "endpoint": "eoxhub_workspaces",
-      "body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/coastal_change_monitoring/body/polarwarp.json"
+      "body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/coastal_change_monitoring/body/coastal_change_monitoring.json"
     },
     {
       "rel": "xyz",
@@ -135,7 +135,7 @@
     "ESA"
   ],
   "collection_group": "Capabilities",
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/coastal_change_monitoring/jsonforms/polarwarp.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/coastal_change_monitoring/jsonforms/coastal_change_monitoring.json",
   "title": "Coastal Change Monitoring",
   "extent": {
     "spatial": {
@@ -151,8 +151,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-07-24T07:35:40.230581Z",
-          "2025-07-24T07:35:40.230581Z"
+          "2025-07-24T07:37:05.986390Z",
+          "2025-07-24T07:37:05.986390Z"
         ]
       ]
     }
@@ -160,8 +160,8 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Shipping",
-      "Energy"
+      "Energy",
+      "Shipping"
     ],
     "satellite": [
       "multiple"
