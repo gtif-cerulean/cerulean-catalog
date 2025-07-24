@@ -1,0 +1,49 @@
+{
+  "Name": "coastal_change_monitoring",
+  "Title": "Coastal Change Monitoring",
+  "CollectionGroup": "Capabilities",
+  "Description": "Costal Change Monitoring algorithm developed by Techworks Marine",
+  "Themes": [
+    "Shipping",
+    "Energy"
+  ],
+  "Tags": [
+    "processing",
+    "capability"
+  ],
+  "Satellite": [
+    "multiple"
+  ],
+  "Sensor": [
+    "multiple"
+  ],
+  "Agency": [
+    "ESA"
+  ],
+  "Resources": [
+    {
+      "Name": "Collection-only",
+      "EndPoint": "Collection-only",
+      "OverwriteBBox": [
+        -179,
+        55,
+        179,
+        89
+      ]
+    }
+  ],
+  "Process": {
+    "Name": "coastal_change_monitoring",
+    "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/coastal_change_monitoring/jsonforms/polarwarp.json",
+    "EndPoints": [
+      {
+        "Identifier": "coastal_change_monitoring_collection",
+        "Url": "https://harshness-map.gtif.eox.at/processes/coastal-change-monitoring-execute/execution",
+        "Method": "POST",
+        "EndPoint": "eoxhub_workspaces",
+        "Body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/coastal_change_monitoring/body/polarwarp.json",
+        "Type": "image/tiff"
+      }
+    ]
+  }
+}
