@@ -135,7 +135,7 @@
     "ESA"
   ],
   "collection_group": "Capabilities",
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/coastal_change_monitoring/jsonforms/coastal_change_monitoring.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/coastal_change_monitoring/jsonforms/coastal_change_monitoring_jsonform.json",
   "title": "Coastal Change Monitoring",
   "extent": {
     "spatial": {
@@ -151,8 +151,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-07-24T07:53:03.434583Z",
-          "2025-07-24T07:53:03.434583Z"
+          "2025-07-24T07:59:42.294411Z",
+          "2025-07-24T07:59:42.294411Z"
         ]
       ]
     }
@@ -160,8 +160,8 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Shipping",
-      "Energy"
+      "Energy",
+      "Shipping"
     ],
     "satellite": [
       "multiple"
