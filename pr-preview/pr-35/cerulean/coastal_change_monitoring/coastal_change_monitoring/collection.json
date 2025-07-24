@@ -1,0 +1,61 @@
+{
+  "type": "Collection",
+  "id": "coastal_change_monitoring",
+  "stac_version": "1.1.0",
+  "description": "Costal Change Monitoring algorithm developed by Techworks Marine",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Coastal Change Monitoring"
+    }
+  ],
+  "themes": [
+    "Shipping",
+    "Energy"
+  ],
+  "tags": [
+    "processing",
+    "capability"
+  ],
+  "satellite": [
+    "multiple"
+  ],
+  "sensor": [
+    "multiple"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Capabilities",
+  "endpointtype": "Collection-only",
+  "title": "Coastal Change Monitoring",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -179,
+          55,
+          179,
+          89
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-07-24T07:34:22.419954Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}
