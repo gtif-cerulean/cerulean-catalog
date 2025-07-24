@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "coastal_change_monitoring",
+  "id": "coastal_change_monitoring_indicator",
   "stac_version": "1.1.0",
-  "description": "Costal Change Monitoring algorithm developed by Techworks Marine",
+  "description": "Costal Change Monitoring algorithm developed by Techworks Marine.",
   "links": [
     {
       "rel": "root",
@@ -35,6 +35,42 @@
         "ESA"
       ],
       "collection_group": "Capabilities"
+    },
+    {
+      "rel": "child",
+      "href": "./Sentinel1-IW-VV/collection.json",
+      "type": "application/json",
+      "title": "Sentinel 1 IW VV",
+      "endpointtype": "Sentinel Hub WMS",
+      "code": "SHS1VV",
+      "id": "Sentinel1-IW-VV",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "tags": [
+        "Sentinel",
+        "Open data"
+      ],
+      "agency": [
+        "European Commission",
+        "ESA"
+      ],
+      "subcode": "SHS1VV",
+      "collection_group": "Other data",
+      "satellite": [
+        "Sentinel-1"
+      ]
+    },
+    {
+      "rel": "service",
+      "href": "https://harshness-map.gtif.eox.at/processes/execute-coastal-change-monitoring/execution",
+      "type": "image/tiff",
+      "id": "coastal_change_monitoring_collection",
+      "method": "POST",
+      "endpoint": "eoxhub_workspaces",
+      "body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/coastal_change_monitoring/body/coastal_change_monitoring.json"
     },
     {
       "rel": "xyz",
@@ -126,38 +162,59 @@
     "ESA"
   ],
   "collection_group": "Capabilities",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/coastal_change_monitoring/jsonforms/coastal_change_monitoring_jsonform.json",
   "title": "Coastal Change Monitoring",
   "extent": {
     "spatial": {
       "bbox": [
         [
+          -180,
+          -85,
+          180,
+          89
+        ],
+        [
           -179,
           55,
           179,
           89
+        ],
+        [
+          -180,
+          -85,
+          180,
+          85
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-07-24T08:06:48.670444Z",
-          "2025-07-24T08:06:48.670444Z"
+          "2022-01-01T00:00:00Z",
+          "2025-07-24T08:06:48.675139Z"
         ]
       ]
     }
   },
   "license": "other",
   "summaries": {
+    "subcode": [
+      "SHS1VV"
+    ],
     "themes": [
+      "Aquaculture",
       "Energy",
       "Shipping"
     ],
     "satellite": [
-      "multiple"
+      "multiple",
+      "Sentinel-1"
     ],
     "sensor": [
       "multiple"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
     ]
   }
 }

@@ -36,6 +36,37 @@
       "collection_group": "Capabilities"
     },
     {
+      "rel": "child",
+      "href": "./coastal_change_monitoring_indicator/collection.json",
+      "type": "application/json",
+      "title": "Coastal Change Monitoring",
+      "id": "coastal_change_monitoring_indicator",
+      "themes": [
+        "Shipping",
+        "Energy"
+      ],
+      "subcode": [
+        "SHS1VV"
+      ],
+      "satellite": [
+        "multiple"
+      ],
+      "sensor": [
+        "multiple"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+      ],
+      "tags": [
+        "processing",
+        "capability"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Capabilities"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-cerulean.github.io/cerulean-catalog/cerulean/catalog.json",
       "type": "application/json"
