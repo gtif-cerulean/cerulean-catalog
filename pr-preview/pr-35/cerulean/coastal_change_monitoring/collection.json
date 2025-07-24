@@ -38,7 +38,7 @@
     },
     {
       "rel": "service",
-      "href": "https://harshness-map.gtif.eox.at/processes/execute-coastal-change-monitoring-execute/execution",
+      "href": "https://harshness-map.gtif.eox.at/processes/execute-coastal-change-monitoring/execution",
       "type": "image/tiff",
       "id": "coastal_change_monitoring_collection",
       "method": "POST",
@@ -151,8 +151,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-07-24T07:49:55.692346Z",
-          "2025-07-24T07:49:55.692346Z"
+          "2025-07-24T07:53:03.434583Z",
+          "2025-07-24T07:53:03.434583Z"
         ]
       ]
     }
@@ -160,8 +160,8 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Energy",
-      "Shipping"
+      "Shipping",
+      "Energy"
     ],
     "satellite": [
       "multiple"
