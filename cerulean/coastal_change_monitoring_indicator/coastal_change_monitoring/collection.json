@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "harshness",
+  "id": "coastal_change_monitoring",
   "stac_version": "1.1.0",
-  "description": "This is an example of how the harshness calculation capability can be triggered and visualized within the dashboard.",
+  "description": "Costal Change Monitoring algorithm developed by Techworks Marine",
   "links": [
     {
       "rel": "root",
@@ -14,11 +14,12 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Harshness capability"
+      "title": "Coastal Change Monitoring"
     }
   ],
   "themes": [
-    "Shipping"
+    "Shipping",
+    "Energy"
   ],
   "tags": [
     "processing",
@@ -33,10 +34,9 @@
   "agency": [
     "ESA"
   ],
-  "subcode": "harshness",
   "collection_group": "Capabilities",
   "endpointtype": "Collection-only",
-  "title": "Harshness capability",
+  "title": "Coastal Change Monitoring",
   "extent": {
     "spatial": {
       "bbox": [
@@ -51,7 +51,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-07-24T08:56:27.811242Z",
+          "2025-07-24T08:57:55.409430Z",
           null
         ]
       ]

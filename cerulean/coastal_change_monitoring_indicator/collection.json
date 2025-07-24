@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "iceberg_concentration",
+  "id": "coastal_change_monitoring_indicator",
   "stac_version": "1.1.0",
-  "description": "Number of icebergs per 100 km2\n",
+  "description": "Costal Change Monitoring algorithm developed by Techworks Marine.",
   "links": [
     {
       "rel": "root",
@@ -12,38 +12,38 @@
     },
     {
       "rel": "child",
-      "href": "./iceberg_concentration/collection.json",
+      "href": "./coastal_change_monitoring/collection.json",
       "type": "application/json",
-      "title": "Iceberg concentration",
-      "endpointtype": "marinedatastore_WMTSCapabilities",
-      "code": "IBC",
-      "id": "iceberg_concentration",
+      "title": "Coastal Change Monitoring",
+      "endpointtype": "Collection-only",
+      "id": "coastal_change_monitoring",
       "themes": [
-        "Aquaculture",
-        "Energy",
-        "Shipping"
+        "Shipping",
+        "Energy"
       ],
       "tags": [
-        "model"
+        "processing",
+        "capability"
       ],
       "satellite": [
-        "placeholder"
+        "multiple"
       ],
       "sensor": [
-        "placeholder"
+        "multiple"
       ],
       "agency": [
-        "CMEMS"
+        "ESA"
       ],
-      "subcode": "IBC",
-      "collection_group": "Icebergs"
+      "collection_group": "Capabilities"
     },
     {
       "rel": "service",
-      "href": "https://cmems.gtif.eox.at/cmems?dataset_id=DMI-ARC-SEAICE_BERG_MOSAIC-L4-NRT-OBS&variables=ibc&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
-      "type": "application/json",
-      "id": "process_cmems",
-      "method": "GET"
+      "href": "https://harshness-map.gtif.eox.at/processes/execute-coastal-change-monitoring/execution",
+      "type": "image/tiff",
+      "id": "coastal_change_monitoring_collection",
+      "method": "POST",
+      "endpoint": "eoxhub_workspaces",
+      "body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/coastal_change_monitoring.json"
     },
     {
       "rel": "xyz",
@@ -118,86 +118,56 @@
     }
   ],
   "themes": [
-    "Aquaculture",
-    "Energy",
-    "Shipping"
+    "Shipping",
+    "Energy"
   ],
   "tags": [
-    "model"
+    "processing",
+    "capability"
   ],
   "satellite": [
-    "placeholder"
+    "multiple"
   ],
   "sensor": [
-    "placeholder"
+    "multiple"
   ],
   "agency": [
-    "CMEMS"
+    "ESA"
   ],
-  "subcode": "IBC",
-  "collection_group": "Icebergs",
-  "eox:colorlegend": {
-    "title": "Iceberg concentration (number of icebergs per 100 km2) [1e-2 km-2]",
-    "range": [
-      "rgb(4, 6, 21)",
-      "rgb(69, 123, 185)",
-      "rgb(229, 248, 252)"
-    ],
-    "domain": [
-      0,
-      1
-    ]
-  },
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/ibc.json",
-  "title": "Iceberg concentration",
+  "collection_group": "Capabilities",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/coastal_change_monitoring_jsonform.json",
+  "title": "Coastal Change Monitoring",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -120.0,
-          54.75,
-          42.87999999999653,
-          87.45000000000047
-        ],
-        [
-          -120.0,
-          54.75,
-          42.87999999999653,
-          87.45000000000047
+          -179,
+          55,
+          179,
+          89
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2024-01-01T05:43:00Z",
-          "2025-07-24T04:52:00Z"
+          "2025-07-24T08:57:55.409430Z",
+          "2025-07-24T08:57:55.409430Z"
         ]
       ]
     }
   },
   "license": "other",
-  "providers": [
-    {
-      "name": "E.U. Copernicus Marine Service Information (CMEMS)",
-      "url": "https://data.marine.copernicus.eu/"
-    }
-  ],
   "summaries": {
-    "subcode": [
-      "IBC"
-    ],
     "themes": [
       "Shipping",
-      "Energy",
-      "Aquaculture"
+      "Energy"
     ],
     "satellite": [
-      "placeholder"
+      "multiple"
     ],
     "sensor": [
-      "placeholder"
+      "multiple"
     ]
   }
 }
