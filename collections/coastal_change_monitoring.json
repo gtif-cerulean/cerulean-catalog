@@ -38,7 +38,7 @@
     "EndPoints": [
       {
         "Identifier": "coastal_change_monitoring_collection",
-        "Url": "https://harshness-map.gtif.eox.at/processes/execute-coastal-change-monitoring-execute/execution",
+        "Url": "https://harshness-map.gtif.eox.at/processes/execute-coastal-change-monitoring/execution",
         "Method": "POST",
         "EndPoint": "eoxhub_workspaces",
         "Body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/coastal_change_monitoring/body/coastal_change_monitoring.json",
