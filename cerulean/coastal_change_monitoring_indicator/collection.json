@@ -43,7 +43,8 @@
       "id": "coastal_change_monitoring_collection",
       "method": "POST",
       "endpoint": "eoxhub_workspaces",
-      "body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/coastal_change_monitoring.json"
+      "body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/coastal_change_monitoring.json",
+      "eox:flatstyle": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/coastal_change_monitoring_style.json"
     },
     {
       "rel": "xyz",
@@ -151,8 +152,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-07-27T04:32:46.276928Z",
-          "2025-07-27T04:32:46.276928Z"
+          "2025-07-28T10:58:09.022590Z",
+          "2025-07-28T10:58:09.022590Z"
         ]
       ]
     }
@@ -160,8 +161,8 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Energy",
-      "Shipping"
+      "Shipping",
+      "Energy"
     ],
     "satellite": [
       "multiple"
