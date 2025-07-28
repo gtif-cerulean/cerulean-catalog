@@ -31,7 +31,8 @@
         "Method": "POST",
         "EndPoint": "eoxhub_workspaces",
         "Body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/coastal_change_monitoring.json",
-        "Type": "image/tiff"
+        "Type": "image/tiff",
+        "Flatstyle": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/coastal_change_monitoring_style.json"
       }
     ]
   }
