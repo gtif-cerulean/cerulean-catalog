@@ -72,6 +72,7 @@
     "SID_sea_ice_detections",
     "drift_deformation_indicator",
     "DMI_Icecharts",
-    "coastal_change_monitoring_indicator"
+    "coastal_change_monitoring_indicator",
+    "CIS_Icecharts"
   ]
 }
