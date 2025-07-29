@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "DMI_Icecharts",
+  "id": "CIS_Icecharts",
   "stac_version": "1.1.0",
-  "description": "Collection of Danish Meteorological Institute Ice Charts since start of 2025",
+  "description": "Collection of Canadian Ice Service since start of 2025",
   "links": [
     {
       "rel": "root",
@@ -14,7 +14,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "DMI Ice charts"
+      "title": "CIS Ice charts"
     }
   ],
   "themes": [
@@ -23,7 +23,7 @@
     "Shipping"
   ],
   "agency": [
-    "DMI"
+    "CIS"
   ],
   "collection_group": "Sea Ice",
   "eox:colorlegend": {
@@ -46,15 +46,15 @@
     "markType": "circle"
   },
   "endpointtype": "FlatGeobuf source",
-  "title": "DMI Ice charts",
+  "title": "CIS Ice charts",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -80.24487203697491,
-          55.25698115978713,
-          10.033447326328545,
-          84.84935228034207
+          -164.050015013943,
+          41.19500179114789,
+          -21.969245526818273,
+          83.3924248362449
         ]
       ]
     },
@@ -62,7 +62,7 @@
       "interval": [
         [
           "2025-01-01T00:00:00Z",
-          "2025-07-28T00:00:00Z"
+          "2025-02-05T00:00:00Z"
         ]
       ]
     }
@@ -70,8 +70,8 @@
   "license": "other",
   "providers": [
     {
-      "name": "Danish Meteorological Institute (DMI)",
-      "url": "https://www.dmi.dk/"
+      "name": "Canadian Ice Service (CIS)",
+      "url": "https://www.canada.ca/en/environment-climate-change/services/ice-forecasts-observations/about-ice-service.html"
     },
     {
       "name": "EOX",
@@ -80,7 +80,7 @@
   ],
   "assets": {
     "geoparquet": {
-      "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4WaZei3Y-02/dmi-ice-charts/flatgeobuf/daily_items.parquet",
+      "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4WaZei3Y-02/cis-ice-charts/geojsons/daily_items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
       "roles": [

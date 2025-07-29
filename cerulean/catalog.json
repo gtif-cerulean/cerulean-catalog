@@ -1463,8 +1463,8 @@
       ],
       "subcode": "SHIP1",
       "satellite": [
-        "Sentinel-1",
-        "placeholder"
+        "placeholder",
+        "Sentinel-1"
       ],
       "sensor": [
         "placeholder"
@@ -1641,6 +1641,22 @@
         "ESA"
       ],
       "collection_group": "Capabilities"
+    },
+    {
+      "rel": "child",
+      "href": "./CIS_Icecharts/collection.json",
+      "type": "application/json",
+      "title": "CIS Ice charts",
+      "id": "CIS_Icecharts",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "agency": [
+        "CIS"
+      ],
+      "collection_group": "Sea Ice"
     },
     {
       "rel": "self",
