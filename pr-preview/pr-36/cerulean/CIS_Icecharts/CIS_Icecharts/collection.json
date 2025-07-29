@@ -1,0 +1,91 @@
+{
+  "type": "Collection",
+  "id": "CIS_Icecharts",
+  "stac_version": "1.1.0",
+  "description": "Collection of Canadian Ice Service since start of 2025",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "CIS Ice charts"
+    }
+  ],
+  "themes": [
+    "Aquaculture",
+    "Energy",
+    "Shipping"
+  ],
+  "agency": [
+    "CIS"
+  ],
+  "collection_group": "Sea Ice",
+  "eox:colorlegend": {
+    "title": "Total Sea Ice Concentration",
+    "range": [
+      "#96C8FF",
+      "#8CFFA0",
+      "#FFFF00",
+      "#FF7D06",
+      "#FF0000"
+    ],
+    "domain": [
+      "Open Water",
+      "Very open drift ice",
+      "Open Drift Ice",
+      "Close Drift Ice",
+      "Very Close Drift Ice"
+    ],
+    "scaleType": "categorical",
+    "markType": "circle"
+  },
+  "endpointtype": "FlatGeobuf source",
+  "title": "CIS Ice charts",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -164.050015013943,
+          41.19500179114789,
+          -21.969245526818273,
+          83.3924248362449
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-01-01T00:00:00Z",
+          "2025-02-05T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "Canadian Ice Service (CIS)",
+      "url": "https://www.canada.ca/en/environment-climate-change/services/ice-forecasts-observations/about-ice-service.html"
+    },
+    {
+      "name": "EOX",
+      "url": "https://eox.at/"
+    }
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4WaZei3Y-02/cis-ice-charts/geojsons/daily_items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}
