@@ -73,6 +73,7 @@
     "drift_deformation_indicator",
     "DMI_Icecharts",
     "coastal_change_monitoring_indicator",
-    "CIS_Icecharts"
+    "CIS_Icecharts",
+    "demo"
   ]
 }
