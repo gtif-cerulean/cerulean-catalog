@@ -43,7 +43,7 @@
       "id": "wake_effect_collection",
       "method": "POST",
       "endpoint": "eoxhub_workspaces",
-      "body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/wake_effect_addition/body/wake_effect.json",
+      "body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/wake_effect.json",
       "eox:flatstyle": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/coastal_change_monitoring_style.json"
     },
     {
@@ -136,7 +136,7 @@
     "ESA"
   ],
   "collection_group": "Capabilities",
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/wake_effect_addition/jsonforms/wake_effect_jsonform.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/wake_effect_jsonform.json",
   "title": "Wake Effect",
   "extent": {
     "spatial": {
@@ -152,8 +152,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-08-06T14:44:04.240136Z",
-          "2025-08-06T14:44:04.240136Z"
+          "2025-08-06T15:10:20.720572Z",
+          "2025-08-06T15:10:20.720572Z"
         ]
       ]
     }
