@@ -1,0 +1,41 @@
+{
+    "Name": "wake_effect_indicator",
+    "Title": "Wake Effect",
+    "Description": "Wake Effect algorithm developed by Techworks Marine.",
+    "CollectionGroup": "Capabilities",
+    "Themes": [
+        "Shipping",
+        "Energy"
+    ],
+    "Tags": [
+        "processing",
+        "capability"
+    ],
+    "Satellite": [
+        "multiple"
+    ],
+    "Sensor": [
+        "multiple"
+    ],
+    "Agency": [
+        "ESA"
+    ],
+    "Collections": [
+        "wake_effect"
+    ],
+    "Process": {
+        "Name": "wake_effect",
+        "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/wake_effect_jsonform.json",
+        "EndPoints": [
+            {
+                "Identifier": "wake_effect_collection",
+                "Url": "https://harshness-map.gtif.eox.at/processes/execute-wake-effect/execution",
+                "Method": "POST",
+                "EndPoint": "eoxhub_workspaces",
+                "Body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/wake_effect.json",
+                "Type": "image/tiff",
+                "Flatstyle": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/coastal_change_monitoring_style.json"
+            }
+        ]
+    }
+}
