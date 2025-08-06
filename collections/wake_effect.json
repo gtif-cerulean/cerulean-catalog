@@ -1,0 +1,35 @@
+{
+    "Name": "wake_effect",
+    "Title": "Wake Effect",
+    "CollectionGroup": "Capabilities",
+    "Description": "Wake Effect algorithm developed by Techworks Marine",
+    "Themes": [
+        "Shipping",
+        "Energy"
+    ],
+    "Tags": [
+        "processing",
+        "capability"
+    ],
+    "Satellite": [
+        "multiple"
+    ],
+    "Sensor": [
+        "multiple"
+    ],
+    "Agency": [
+        "ESA"
+    ],
+    "Resources": [
+        {
+            "Name": "Collection-only",
+            "EndPoint": "Collection-only",
+            "OverwriteBBox": [
+                -179,
+                55,
+                179,
+                89
+            ]
+        }
+    ]
+}
