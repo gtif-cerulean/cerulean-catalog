@@ -37,6 +37,33 @@
       "collection_group": "Capabilities"
     },
     {
+      "rel": "child",
+      "href": "./Sentinel2-L2A/collection.json",
+      "type": "application/json",
+      "title": "Sentinel 2 L2A",
+      "endpointtype": "Sentinel Hub WMS",
+      "code": "SHS2L2A",
+      "id": "Sentinel2-L2A",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "tags": [
+        "Sentinel",
+        "Open data"
+      ],
+      "agency": [
+        "European Commission",
+        "ESA"
+      ],
+      "subcode": "SHS2L2A",
+      "collection_group": "Other data",
+      "satellite": [
+        "Sentinel-2"
+      ]
+    },
+    {
       "rel": "service",
       "href": "https://harshness-map.gtif.eox.at/processes/execute-coastal-change-monitoring/execution",
       "type": "image/tiff",
@@ -142,33 +169,53 @@
     "spatial": {
       "bbox": [
         [
+          -180,
+          -85,
+          180,
+          89
+        ],
+        [
           -179,
           55,
           179,
           89
+        ],
+        [
+          -180,
+          -85,
+          180,
+          85
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-08-14T04:07:21.760404Z",
-          "2025-08-14T04:07:21.760404Z"
+          "2022-01-01T00:00:00Z",
+          "2025-08-14T12:54:14.723193Z"
         ]
       ]
     }
   },
   "license": "other",
   "summaries": {
+    "subcode": [
+      "SHS2L2A"
+    ],
     "themes": [
       "Shipping",
+      "Aquaculture",
       "Energy"
     ],
     "satellite": [
-      "multiple"
+      "multiple",
+      "Sentinel-2"
     ],
     "sensor": [
       "multiple"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
     ]
   }
 }

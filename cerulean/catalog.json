@@ -1503,8 +1503,8 @@
       ],
       "subcode": "polarwarp_sentinel1",
       "satellite": [
-        "Sentinel-1",
-        "multiple"
+        "multiple",
+        "Sentinel-1"
       ],
       "sensor": [
         "multiple"
@@ -1627,11 +1627,17 @@
         "Shipping",
         "Energy"
       ],
+      "subcode": [
+        "SHS2L2A"
+      ],
       "satellite": [
         "multiple"
       ],
       "sensor": [
         "multiple"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
       ],
       "tags": [
         "processing",
