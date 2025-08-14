@@ -44,7 +44,7 @@
     "scaleType": "continuous",
     "tickFormat": ".1f",
     "title": "NDTI (NTU)"
-  }
+  },
   "Resources": [
     {
       "Name": "Collection-only",
