@@ -20,6 +20,31 @@
   "Agency": [
     "ESA"
   ],
+  "Colorlegend": {
+    "domain": [
+      -1,
+      1
+    ],
+    "range": [
+      "#4D0E5F",
+      "#481E70",
+      "#482977",
+      "#403F83",
+      "#3C558E",
+      "#32668E",
+      "#2B798D",
+      "#2E9697",
+      "#209F84",
+      "#3BB87E",
+      "#60C865",
+      "#8BD648",
+      "#BDDF28",
+      "#FFEF44"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "NDTI (NTU)"
+  }
   "Resources": [
     {
       "Name": "Collection-only",
