@@ -217,7 +217,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-08-14T13:28:35.131546Z"
+          "2025-08-17T04:19:20.645966Z"
         ]
       ]
     }
@@ -228,9 +228,9 @@
       "SHS2L2A"
     ],
     "themes": [
-      "Aquaculture",
       "Shipping",
-      "Energy"
+      "Energy",
+      "Aquaculture"
     ],
     "satellite": [
       "multiple",
