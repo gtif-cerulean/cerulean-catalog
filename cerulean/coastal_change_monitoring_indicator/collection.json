@@ -217,7 +217,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-08-21T03:58:21.173508Z"
+          "2025-08-24T04:03:46.113755Z"
         ]
       ]
     }
@@ -228,13 +228,13 @@
       "SHS2L2A"
     ],
     "themes": [
-      "Shipping",
+      "Aquaculture",
       "Energy",
-      "Aquaculture"
+      "Shipping"
     ],
     "satellite": [
-      "multiple",
-      "Sentinel-2"
+      "Sentinel-2",
+      "multiple"
     ],
     "sensor": [
       "multiple"
