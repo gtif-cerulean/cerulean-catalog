@@ -46,7 +46,6 @@
     "title": "NDTI (NTU)"
   },
   "Collections": [
-    "coastal_change_monitoring",
     "SHS1_sentinel2_l2a"
   ],
   "Process": {
