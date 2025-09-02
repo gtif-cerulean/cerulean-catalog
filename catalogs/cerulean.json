@@ -74,6 +74,7 @@
     "DMI_Icecharts",
     "coastal_change_monitoring_indicator",
     "wake_effect_indicator",
-    "CIS_Icecharts"
+    "CIS_Icecharts",
+    "testlegend"
   ]
 }
