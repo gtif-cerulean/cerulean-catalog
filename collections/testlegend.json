@@ -2,5 +2,27 @@
   "Name": "testlegend",
   "Title": "testlegend",
   "Description": "",
-  "Resources": []
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "https://gist.githubusercontent.com/santilland/6711b7a5894b1c20d914a92632fbde7b/raw/9ca95ac66beb411b6b33dae9b3602d52d714b380/testlegend.json",
+      "Bbox": [
+        6.0614934114202015,
+        40.04099989705344,
+        26.090775988286964,
+        55.32650502150439
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2025",
+          "Assets": [
+            {
+              "Identifier": "2025",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/20190629_00h00_h15_deflate.tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
