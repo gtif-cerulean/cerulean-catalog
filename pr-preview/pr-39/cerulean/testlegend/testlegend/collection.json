@@ -1,0 +1,61 @@
+{
+  "type": "Collection",
+  "id": "testlegend",
+  "stac_version": "1.1.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "style",
+      "href": "https://gist.githubusercontent.com/santilland/6711b7a5894b1c20d914a92632fbde7b/raw/9ca95ac66beb411b6b33dae9b3602d52d714b380/testlegend.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "2025"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "testlegend"
+    }
+  ],
+  "endpointtype": "COG source",
+  "title": "testlegend",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          6.0614934114202015,
+          40.04099989705344,
+          26.090775988286964,
+          55.32650502150439
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-01-01T00:00:00Z",
+          "2025-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}
