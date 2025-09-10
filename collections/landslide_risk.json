@@ -1,0 +1,35 @@
+{
+    "Name": "landslide_risk",
+    "Title": "Landslide Risk",
+    "CollectionGroup": "Capabilities",
+    "Description": "Landslide risk algorithm developed by Techworks Marine",
+    "Themes": [
+        "Shipping",
+        "Energy"
+    ],
+    "Tags": [
+        "processing",
+        "capability"
+    ],
+    "Satellite": [
+        "multiple"
+    ],
+    "Sensor": [
+        "multiple"
+    ],
+    "Agency": [
+        "ESA"
+    ],
+    "Resources": [
+        {
+            "Name": "Collection-only",
+            "EndPoint": "Collection-only",
+            "OverwriteBBox": [
+                -179,
+                55,
+                179,
+                89
+            ]
+        }
+    ]
+}
