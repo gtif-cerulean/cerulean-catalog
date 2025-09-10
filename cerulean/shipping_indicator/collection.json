@@ -462,7 +462,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-09-15T00:00:00Z"
+          "2025-09-19T00:00:00Z"
         ]
       ]
     }
@@ -470,33 +470,33 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "IBC",
+      "MSIA",
+      "SST",
+      "Polaris_algorithm_dmi_demo",
+      "SHS1",
       "SIT",
       "SIVELO",
       "SICONC",
-      "Polaris_algorithm_dmi_demo",
       "VSI",
-      "SHS1",
-      "IST",
-      "MSIA",
       "USI",
-      "SST"
+      "IST",
+      "IBC"
     ],
     "themes": [
-      "Aquaculture",
       "Shipping",
-      "Energy"
+      "Energy",
+      "Aquaculture"
     ],
     "satellite": [
-      "placeholder",
-      "Sentinel-1"
+      "Sentinel-1",
+      "placeholder"
     ],
     "sensor": [
       "placeholder"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
     ]
   }
 }

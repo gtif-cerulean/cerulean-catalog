@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "harshness",
+  "id": "landslide_risk_indicator",
   "stac_version": "1.1.0",
-  "description": "This is an example of how the harshness calculation capability can be triggered and visualized within the dashboard.",
+  "description": "Landslide risk algorithm developed by Techworks Marine.",
   "links": [
     {
       "rel": "root",
@@ -12,14 +12,14 @@
     },
     {
       "rel": "child",
-      "href": "./harshness/collection.json",
+      "href": "./landslide_risk/collection.json",
       "type": "application/json",
-      "title": "Harshness capability",
+      "title": "Landslide Risk",
       "endpointtype": "Collection-only",
-      "code": "harshness",
-      "id": "harshness",
+      "id": "landslide_risk",
       "themes": [
-        "Shipping"
+        "Shipping",
+        "Energy"
       ],
       "tags": [
         "processing",
@@ -34,18 +34,17 @@
       "agency": [
         "ESA"
       ],
-      "subcode": "harshness",
       "collection_group": "Capabilities"
     },
     {
       "rel": "service",
-      "href": "https://harshness-map.gtif.eox.at/processes/execute-create-harshness/execution",
+      "href": "https://harshness-map.gtif.eox.at/processes/execute-landslide-risk/execution",
       "type": "image/tiff",
-      "id": "harshnesscollection",
+      "id": "landslide_risk_collection",
       "method": "POST",
       "endpoint": "eoxhub_workspaces",
-      "body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/harshness.json",
-      "eox:flatstyle": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/harshness.json"
+      "body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/landslide_risk.json",
+      "eox:flatstyle": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/coastal_change_monitoring_style.json"
     },
     {
       "rel": "xyz",
@@ -120,7 +119,7 @@
     }
   ],
   "themes": [
-    "Shipping"
+    "Energy"
   ],
   "tags": [
     "processing",
@@ -135,10 +134,34 @@
   "agency": [
     "ESA"
   ],
-  "subcode": "harshness",
   "collection_group": "Capabilities",
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/harshness.json",
-  "title": "Harshness capability",
+  "eox:colorlegend": {
+    "domain": [
+      -50,
+      50
+    ],
+    "range": [
+      "#840000",
+      "#f30000",
+      "#ff7600",
+      "#ffc800",
+      "#fff500",
+      "#cdff31",
+      "#85ff78",
+      "#31ffcc",
+      "#00f3ff",
+      "#00c3ff",
+      "#006cff",
+      "#0043ff",
+      "#0008ff",
+      "#000083"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "Displacement (mm)"
+  },
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/landslide_risk_jsonform.json",
+  "title": "Landslide risk",
   "extent": {
     "spatial": {
       "bbox": [
@@ -153,19 +176,17 @@
     "temporal": {
       "interval": [
         [
-          "2025-09-10T13:16:41.834769Z",
-          "2025-09-10T13:16:41.834769Z"
+          "2025-09-10T13:18:10.464720Z",
+          "2025-09-10T13:18:10.464720Z"
         ]
       ]
     }
   },
   "license": "other",
   "summaries": {
-    "subcode": [
-      "harshness"
-    ],
     "themes": [
-      "Shipping"
+      "Shipping",
+      "Energy"
     ],
     "satellite": [
       "multiple"

@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "wake_effect",
+  "id": "landslide_risk",
   "stac_version": "1.1.0",
-  "description": "Wake Effect algorithm developed by Techworks Marine",
+  "description": "Landslide risk algorithm developed by Techworks Marine",
   "links": [
     {
       "rel": "root",
@@ -14,7 +14,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Wake Effect"
+      "title": "Landslide risk"
     }
   ],
   "themes": [
@@ -36,7 +36,7 @@
   ],
   "collection_group": "Capabilities",
   "endpointtype": "Collection-only",
-  "title": "Wake Effect",
+  "title": "Landslide Risk",
   "extent": {
     "spatial": {
       "bbox": [
@@ -51,7 +51,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-09-10T13:18:07.636149Z",
+          "2025-09-10T13:18:10.464720Z",
           null
         ]
       ]
