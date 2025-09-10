@@ -1,0 +1,65 @@
+{
+    "Name": "landslide_risk_indicator",
+    "Title": "Landslide risk",
+    "Description": "Landslide risk algorithm developed by Techworks Marine.",
+    "CollectionGroup": "Capabilities",
+    "Themes": [
+        "Energy"
+    ],
+    "Tags": [
+        "processing",
+        "capability"
+    ],
+    "Satellite": [
+        "multiple"
+    ],
+    "Sensor": [
+        "multiple"
+    ],
+    "Agency": [
+        "ESA"
+    ],
+    "Collections": [
+        "landslide_risk"
+    ],
+    "Colorlegend": {
+        "domain": [
+            -50,
+            50
+        ],
+        "range": [
+            "#840000",
+            "#f30000",
+            "#ff7600",
+            "#ffc800",
+            "#fff500",
+            "#cdff31",
+            "#85ff78",
+            "#31ffcc",
+            "#00f3ff",
+            "#00c3ff",
+            "#006cff",
+            "#0043ff",
+            "#0008ff",
+            "#000083"
+        ],
+        "scaleType": "continuous",
+        "tickFormat": ".1f",
+        "title": "Displacement (mm)"
+    },
+    "Process": {
+        "Name": "landslide_risk",
+        "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/landslide_risk_jsonform.json",
+        "EndPoints": [
+            {
+                "Identifier": "landslide_risk_collection",
+                "Url": "https://harshness-map.gtif.eox.at/processes/execute-landslide-risk/execution",
+                "Method": "POST",
+                "EndPoint": "eoxhub_workspaces",
+                "Body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/landslide_risk.json",
+                "Type": "image/tiff",
+                "Flatstyle": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/coastal_change_monitoring_style.json"
+            }
+        ]
+    }
+}
