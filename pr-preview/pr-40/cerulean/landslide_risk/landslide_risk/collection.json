@@ -1,0 +1,61 @@
+{
+  "type": "Collection",
+  "id": "landslide_risk",
+  "stac_version": "1.1.0",
+  "description": "Landslide risk algorithm developed by Techworks Marine",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Landslide Risk"
+    }
+  ],
+  "themes": [
+    "Shipping",
+    "Energy"
+  ],
+  "tags": [
+    "processing",
+    "capability"
+  ],
+  "satellite": [
+    "multiple"
+  ],
+  "sensor": [
+    "multiple"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Capabilities",
+  "endpointtype": "Collection-only",
+  "title": "Landslide Risk",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -179,
+          55,
+          179,
+          89
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-09-10T13:01:00.700262Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}
