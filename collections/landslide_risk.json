@@ -1,35 +1,30 @@
 {
-    "Name": "landslide_risk",
-    "Title": "Landslide Risk",
-    "CollectionGroup": "Capabilities",
-    "Description": "Landslide risk algorithm developed by Techworks Marine",
-    "Themes": [
-        "Shipping",
-        "Energy"
-    ],
-    "Tags": [
-        "processing",
-        "capability"
-    ],
-    "Satellite": [
-        "multiple"
-    ],
-    "Sensor": [
-        "multiple"
-    ],
-    "Agency": [
-        "ESA"
-    ],
-    "Resources": [
+  "Name": "landslide_risk",
+  "Title": "Landslide Risk",
+  "CollectionGroup": "Capabilities",
+  "Description": "Landslide risk algorithm developed by Techworks Marine",
+  "Themes": ["Shipping", "Energy"],
+  "Tags": ["processing", "capability"],
+  "Satellite": ["multiple"],
+  "Sensor": ["multiple"],
+  "Agency": ["ESA"],
+
+  "Resources": [
+    {
+      "Name": "GeoJSON source",
+      "Style": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/landslide_risk_outline.json",
+      "Bbox": [-7.3256795, 55.138079, -7.29358, 55.15284],
+      "TimeEntries": [
         {
-            "Name": "Collection-only",
-            "EndPoint": "Collection-only",
-            "OverwriteBBox": [
-                -179,
-                55,
-                179,
-                89
-            ]
+          "Time": "20230101",
+          "Assets": [
+            {
+              "Identifier": "location_wind_farm_outline",
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-data-cerulean1/output-data-landslide-risk/glenard_wind_farm.geojson?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=QHAKTBQPJKVMYQDYMMEZ%2F20250911%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20250911T061844Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=724fa6de856f919130acb548b90027fac3b88b6eb3e3b141211d3b150dde6a7e"
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }
