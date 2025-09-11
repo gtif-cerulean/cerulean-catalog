@@ -11,6 +11,14 @@
       "title": "Cerulean GTIF project catalog"
     },
     {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/landslide_risk_outline.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "location_wind_farm_outline"
+      ]
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -35,27 +43,37 @@
     "ESA"
   ],
   "collection_group": "Capabilities",
-  "endpointtype": "Collection-only",
+  "endpointtype": "GeoJSON source",
   "title": "Landslide Risk",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -179,
-          55,
-          179,
-          89
+          -7.3256795,
+          55.138079,
+          -7.29358,
+          55.15284
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-09-11T03:53:25.769524Z",
-          null
+          "2023-01-01T00:00:00Z",
+          "2023-01-01T00:00:00Z"
         ]
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
 }
