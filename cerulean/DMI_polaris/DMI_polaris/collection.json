@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "DMI_Icecharts",
+  "id": "DMI_polaris",
   "stac_version": "1.1.0",
-  "description": "Collection of Danish Meteorological Institute Ice Charts since start of 2025",
+  "description": "Collection of DMI Polaris",
   "links": [
     {
       "rel": "root",
@@ -14,7 +14,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "DMI Ice charts"
+      "title": "POLARIS (DMI)"
     }
   ],
   "themes": [
@@ -46,15 +46,15 @@
     "markType": "circle"
   },
   "endpointtype": "FlatGeobuf source",
-  "title": "DMI Ice charts",
+  "title": "POLARIS (DMI)",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -80.24487203697491,
-          55.25698115978713,
-          10.033447326328545,
-          84.84935228034207
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ]
       ]
     },
@@ -62,7 +62,7 @@
       "interval": [
         [
           "2025-01-01T00:00:00Z",
-          "2025-09-15T00:00:00Z"
+          "2025-09-16T00:00:00Z"
         ]
       ]
     }
@@ -70,8 +70,8 @@
   "license": "other",
   "providers": [
     {
-      "name": "Danish Meteorological Institute (DMI)",
-      "url": "https://www.dmi.dk/"
+      "name": "DMI",
+      "url": "https://www.dmi.dk"
     },
     {
       "name": "EOX",
@@ -80,7 +80,7 @@
   ],
   "assets": {
     "geoparquet": {
-      "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4WaZei3Y-02/dmi-ice-charts/flatgeobuf/daily_items.parquet",
+      "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4WaZei3Y-02/dmi-polaris/daily_items_merged.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
       "roles": [
