@@ -75,6 +75,7 @@
     "coastal_change_monitoring_indicator",
     "wake_effect_indicator",
     "CIS_Icecharts",
-    "landslide_risk_indicator"
+    "landslide_risk_indicator",
+    "DMI_polaris"
   ]
 }
