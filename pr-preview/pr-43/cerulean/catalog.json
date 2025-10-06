@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./ice_concentration/collection.json",
       "type": "application/json",
-      "title": "Ice concentration",
+      "title": "Ice concentration Antarctica",
       "code": "SICONC",
       "id": "ice_concentration",
       "themes": [
@@ -34,13 +34,13 @@
         "Numerical Model"
       ],
       "eodash:mapProjection": {
-        "name": "EPSG:3031",
-        "def": "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
         "extent": [
-          -3299207.53,
-          -3333134.03,
-          3299207.53,
-          3333134.03
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
         ]
       }
     },

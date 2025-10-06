@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./ice_concentration/collection.json",
       "type": "application/json",
-      "title": "Ice concentration",
+      "title": "Ice concentration Antarctica",
       "endpointtype": "marinedatastore_WMTSCapabilities",
       "code": "SICONC",
       "id": "ice_concentration",
@@ -35,13 +35,13 @@
         "Numerical Model"
       ],
       "eodash:mapProjection": {
-        "name": "EPSG:3031",
-        "def": "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
         "extent": [
-          -3299207.53,
-          -3333134.03,
-          3299207.53,
-          3333134.03
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
         ]
       }
     },
@@ -54,44 +54,14 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
-      "title": "EOxCloudless 2024",
-      "roles": [
-        "baselayer",
-        "visible"
-      ],
-      "id": "cloudless-2024",
-      "attribution": "{ EOxCloudless 2024: <a href=\"//s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"//eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
-    },
-    {
-      "rel": "wms",
-      "href": "//sxcat-demo.eox.at/sxcat_maps/wms",
-      "type": "image/png",
-      "title": "Terrain Light Stereographic North",
+      "title": "EOxCloudless 2023",
       "roles": [
         "baselayer",
         "invisible"
       ],
-      "id": "sx-cat_ortho680500",
-      "wms:layers": "sx-cat_ortho680500",
-      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
-      "eodash:proj4_def": {
-        "name": "ORTHO:680500",
-        "def": "+proj=ortho +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs"
-      }
-    },
-    {
-      "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "image/jpeg",
-      "title": "Terrain light",
-      "roles": [
-        "baselayer",
-        "invisible"
-      ],
-      "id": "terrain-light",
-      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+      "id": "cloudless-2023"
     },
     {
       "rel": "xyz",
@@ -102,8 +72,24 @@
         "baselayer",
         "invisible"
       ],
-      "id": "eox-osm",
-      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+      "id": "OSM"
+    },
+    {
+      "rel": "wms",
+      "href": "//sxcat-demo.eox.at/sxcat_maps/wms",
+      "type": "image/png",
+      "title": "Terrain Light Stereographic South",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "sx-cat_ortho320500",
+      "wms:layers": "sx-cat_ortho320500",
+      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
+      "eodash:proj4_def": {
+        "name": "ORTHO:320500",
+        "def": "+proj=ortho +lat_0=-90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs"
+      }
     },
     {
       "rel": "xyz",
@@ -142,23 +128,23 @@
     "Numerical Model"
   ],
   "eodash:mapProjection": {
-    "name": "EPSG:3031",
-    "def": "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
+    "name": "EPSG:32761",
+    "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
     "extent": [
-      -3299207.53,
-      -3333134.03,
-      3299207.53,
-      3333134.03
+      -1371213.76,
+      -1405880.72,
+      5371213.76,
+      5405880.72
     ]
   },
   "eox:colorlegend": {
     "title": "Ice concentration",
     "range": [
-      "#b4cffa",
-      "#006bce",
-      "#1a2653",
+      "#000000",
       "#333333",
-      "#000000"
+      "#1a2653",
+      "#006bce",
+      "#b4cffa"
     ],
     "domain": [
       0,
@@ -167,21 +153,15 @@
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/siconc.json",
-  "title": "Ice concentration",
+  "title": "Ice concentration Antarctica",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -80.0,
-          179.91668701171875,
-          90.0
-        ],
-        [
-          -180.0,
-          -80.0,
-          179.91668701171875,
-          90.0
+          -100,
+          -75,
+          -70,
+          -68
         ]
       ]
     },
@@ -210,9 +190,9 @@
       "SICONC"
     ],
     "themes": [
+      "Shipping",
       "Aquaculture",
-      "Energy",
-      "Shipping"
+      "Energy"
     ]
   },
   "assets": {
