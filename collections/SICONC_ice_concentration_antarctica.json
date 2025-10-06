@@ -57,6 +57,7 @@
     "DOI": "10.48670/moi-00016",
     "Citation": ""
   },
+  "DataProjection": 3857,
   "MapProjection": {
     "name": "EPSG:3031",
     "def": "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
