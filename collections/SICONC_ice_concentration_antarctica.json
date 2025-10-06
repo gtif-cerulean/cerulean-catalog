@@ -1,39 +1,20 @@
 {
   "Name": "ice_concentration",
-  "Title": "Ice concentration",
+  "Title": "Ice concentration Antarctica",
   "EodashIdentifier": "SICONC",
   "Description": "The Operational Mercator global ocean analysis and forecast system at 1/12 degree is providing 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time in order to reach a two full year’s time series sliding window.\nThis product includes daily and monthly mean files of temperature, salinity, currents, sea level, mixed layer depth and ice parameters from the top to the bottom over the global ocean. It also includes hourly mean surface fields for sea level height, temperature and currents. The global ocean output files are displayed with a 1/12 degree horizontal resolution with regular longitude/latitude equirectangular projection.\n50 vertical levels are ranging from 0 to 5500 meters.\nThis product also delivers a special dataset for surface current which also includes wave and tidal drift called SMOC (Surface merged Ocean Current).\n",
-  "Themes": [
-    "Aquaculture",
-    "Energy",
-    "Shipping"
-  ],
+  "Themes": ["Aquaculture", "Energy", "Shipping"],
   "CollectionGroup": "Antarctica",
   "DataSource": {
     "Spaceborne": {},
-    "Other": [
-      "Numerical Model"
-    ]
+    "Other": ["Numerical Model"]
   },
-  "Agency": [
-    "CMEMS"
-  ],
-  "Tags": [
-    "model"
-  ],
+  "Agency": ["CMEMS"],
+  "Tags": ["model"],
   "Colorlegend": {
     "title": "Ice concentration",
-    "range": [
-      "#b4cffa",
-      "#006bce",
-      "#1a2653",
-      "#333333",
-      "#000000"
-    ],
-    "domain": [
-      0,
-      1
-    ]
+    "range": ["#000000", "#333333", "#1a2653", "#006bce", "#b4cffa"],
+    "domain": [0, 1]
   },
   "Resources": [
     {
@@ -49,24 +30,20 @@
         "elevation": "0",
         "style": "cmap:ice"
       },
+      "OverwriteBBox": [-100, -75, -70, -68],
       "Variable": "",
-      "CollectionId": ""
+      "CollectionId": "",
+      "DataProjection": 3857
     }
   ],
   "Citation": {
     "DOI": "10.48670/moi-00016",
     "Citation": ""
   },
-  "DataProjection": 3857,
   "MapProjection": {
-    "name": "EPSG:3031",
-    "def": "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
-    "extent": [
-      -3299207.53,
-      -3333134.03,
-      3299207.53,
-      3333134.03
-    ]
+    "name": "EPSG:32761",
+    "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+    "extent": [-1371213.76, -1405880.72, 5371213.76, 5405880.72]
   },
   "References": [
     {
@@ -100,5 +77,39 @@
   "License": "",
   "Locations": [],
   "Image": "",
-  "Legend": ""
+  "Legend": "",
+  "BaseLayers": [
+    {
+      "id": "cloudless-2023",
+      "name": "EOxCloudless 2023",
+      "url": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg",
+      "media_type": "image/jpeg",
+      "attribution": "{ EOxCloudless 2023: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"//s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"//eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2023) }",
+      "maxNativeZoom": 17,
+      "protocol": "xyz",
+      "visible": false
+    },
+    {
+      "id": "OSM",
+      "name": "OSM Background",
+      "url": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "media_type": "image/jpeg",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
+      "protocol": "xyz",
+      "visible": false
+    },
+    {
+      "id": "sx-cat_ortho320500",
+      "name": "Terrain Light Stereographic South",
+      "url": "//sxcat-demo.eox.at/sxcat_maps/wms",
+      "layers": "sx-cat_ortho320500",
+      "visible": true,
+      "protocol": "wms",
+      "DataProjection": {
+        "name": "ORTHO:320500",
+        "def": "+proj=ortho +lat_0=-90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs"
+      },
+      "Attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    }
+  ]
 }
