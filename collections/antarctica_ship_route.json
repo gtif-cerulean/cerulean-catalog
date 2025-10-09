@@ -21,6 +21,7 @@
     "Resources": [
         {
             "Name": "GeoJSON source",
+            "DataProjection": 4326,
             "Style": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/landslide_risk_outline.json",
             "Bbox": [
                 -68.125028,
