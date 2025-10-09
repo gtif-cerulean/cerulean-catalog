@@ -12,7 +12,7 @@
     },
     {
       "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/landslide_risk_outline.json",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/antarctica_ship_route.json",
       "type": "text/vector-styles",
       "asset:keys": [
         "ship_route_antarctica"
