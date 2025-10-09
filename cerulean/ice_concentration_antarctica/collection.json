@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "sea_ice_thickness",
+  "id": "ice_concentration_antarctica",
   "stac_version": "1.1.0",
-  "description": "N/A\n",
+  "description": "The Operational Mercator global ocean analysis and forecast system at 1/12 degree is providing 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time in order to reach a two full year’s time series sliding window.\nThis product includes daily and monthly mean files of temperature, salinity, currents, sea level, mixed layer depth and ice parameters from the top to the bottom over the global ocean. It also includes hourly mean surface fields for sea level height, temperature and currents. The global ocean output files are displayed with a 1/12 degree horizontal resolution with regular longitude/latitude equirectangular projection.\n50 vertical levels are ranging from 0 to 5500 meters.\nThis product also delivers a special dataset for surface current which also includes wave and tidal drift called SMOC (Surface merged Ocean Current).\n",
   "links": [
     {
       "rel": "root",
@@ -12,12 +12,36 @@
     },
     {
       "rel": "child",
-      "href": "./sea_ice_thickness/collection.json",
+      "href": "./antarctica_ship_route/collection.json",
       "type": "application/json",
-      "title": "Sea ice thickness",
+      "title": "Ship Route",
+      "endpointtype": "GeoJSON source",
+      "id": "antarctica_ship_route",
+      "themes": [
+        "Shipping"
+      ],
+      "tags": [
+        "processing"
+      ],
+      "satellite": [
+        "multiple"
+      ],
+      "sensor": [
+        "multiple"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Antarctica"
+    },
+    {
+      "rel": "child",
+      "href": "./ice_concentration_antarctica/collection.json",
+      "type": "application/json",
+      "title": "Ice concentration Antarctica",
       "endpointtype": "marinedatastore_WMTSCapabilities",
-      "code": "SIT",
-      "id": "sea_ice_thickness",
+      "code": "SICONC",
+      "id": "ice_concentration_antarctica",
       "themes": [
         "Aquaculture",
         "Energy",
@@ -26,24 +50,24 @@
       "tags": [
         "model"
       ],
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
-      ],
       "agency": [
         "CMEMS"
       ],
-      "subcode": "SIT",
-      "collection_group": "Sea Ice"
-    },
-    {
-      "rel": "service",
-      "href": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_mod_glo_phy_anfc_0.083deg_P1D-m&variables=sithick&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
-      "type": "application/json",
-      "id": "process_cmems",
-      "method": "GET"
+      "subcode": "SICONC",
+      "collection_group": "Antarctica",
+      "otherSources": [
+        "Numerical Model"
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
     },
     {
       "rel": "xyz",
@@ -118,53 +142,41 @@
     }
   ],
   "themes": [
-    "Aquaculture",
-    "Energy",
     "Shipping"
   ],
-  "tags": [
-    "model"
-  ],
-  "satellite": [
-    "placeholder"
-  ],
-  "sensor": [
-    "placeholder"
-  ],
-  "agency": [
-    "CMEMS"
-  ],
-  "subcode": "SIT",
-  "collection_group": "Sea Ice",
-  "eox:colorlegend": {
-    "title": "Sea ice thickness [m]",
-    "range": [
-      "rgb(4, 6, 21)",
-      "rgb(69, 123, 185)",
-      "rgb(229, 248, 252)"
-    ],
-    "domain": [
-      0,
-      2
+  "subcode": "ice_concentration_antarctica",
+  "collection_group": "Antarctica",
+  "eodash:mapProjection": {
+    "name": "EPSG:32761",
+    "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+    "extent": [
+      -1371213.76,
+      -1405880.72,
+      5371213.76,
+      5405880.72
     ]
   },
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/sithick.json",
-  "title": "Sea ice thickness",
+  "title": "Ice concentration Antarctica",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -80.0,
-          179.91668701171875,
-          90.0
+          -100,
+          -75,
+          -41.0,
+          -67.568783
         ],
         [
-          -180.0,
-          -80.0,
-          179.91668701171875,
-          90.0
+          -68.125028,
+          -71.0,
+          -41.0,
+          -67.568783
+        ],
+        [
+          -100,
+          -75,
+          -70,
+          -68
         ]
       ]
     },
@@ -178,26 +190,20 @@
     }
   },
   "license": "other",
-  "providers": [
-    {
-      "name": "E.U. Copernicus Marine Service Information (CMEMS)",
-      "url": "https://data.marine.copernicus.eu/"
-    }
-  ],
   "summaries": {
     "subcode": [
-      "SIT"
+      "SICONC"
     ],
     "themes": [
-      "Shipping",
+      "Energy",
       "Aquaculture",
-      "Energy"
+      "Shipping"
     ],
     "satellite": [
-      "placeholder"
+      "multiple"
     ],
     "sensor": [
-      "placeholder"
+      "multiple"
     ]
   }
 }
