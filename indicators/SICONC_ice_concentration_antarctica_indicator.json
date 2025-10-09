@@ -8,8 +8,8 @@
         "Shipping"
     ],
     "Collections": [
-        "SICONC_ice_concentration_antarctica",
-        "antarctica_ship_route"
+        "antarctica_ship_route",
+        "SICONC_ice_concentration_antarctica"
     ],
     "MapProjection": {
         "name": "EPSG:32761",
