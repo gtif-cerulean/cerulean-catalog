@@ -41,6 +41,7 @@
     "ESA"
   ],
   "collection_group": "Antarctica",
+  "proj:epsg": 4326,
   "endpointtype": "GeoJSON source",
   "title": "Ship Route",
   "extent": {
