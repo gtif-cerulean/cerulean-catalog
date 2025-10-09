@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./ice_concentration/collection.json",
+      "href": "./ice_concentration_antarctica/collection.json",
       "type": "application/json",
       "title": "Ice concentration Antarctica",
       "code": "SICONC",
-      "id": "ice_concentration",
+      "id": "ice_concentration_antarctica",
       "themes": [
         "Aquaculture",
         "Energy",
@@ -43,6 +43,29 @@
           5405880.72
         ]
       }
+    },
+    {
+      "rel": "child",
+      "href": "./antarctica_ship_route/collection.json",
+      "type": "application/json",
+      "title": "Ship Route",
+      "id": "antarctica_ship_route",
+      "themes": [
+        "Shipping"
+      ],
+      "satellite": [
+        "multiple"
+      ],
+      "sensor": [
+        "multiple"
+      ],
+      "tags": [
+        "processing"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Antarctica"
     },
     {
       "rel": "self",
