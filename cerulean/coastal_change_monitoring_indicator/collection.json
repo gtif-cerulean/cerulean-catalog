@@ -179,7 +179,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-10-05T00:00:00Z"
+          "2025-10-09T00:00:00Z"
         ]
       ]
     }
@@ -190,9 +190,9 @@
       "SHS2L2A"
     ],
     "themes": [
-      "Aquaculture",
       "Shipping",
-      "Energy"
+      "Energy",
+      "Aquaculture"
     ],
     "satellite": [
       "Sentinel-2"
