@@ -20,7 +20,7 @@
           "Assets": [
             {
               "Identifier": "location_wind_farm_outline",
-              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-data-cerulean1/output-data-landslide-risk/glenard_wind_farm.geojson?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=QHAKTBQPJKVMYQDYMMEZ%2F20250911%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20250911T061844Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=724fa6de856f919130acb548b90027fac3b88b6eb3e3b141211d3b150dde6a7e"
+              "File": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4WaZei3Y-02/glenard_wind_farm.geojson"
             }
           ]
         }
