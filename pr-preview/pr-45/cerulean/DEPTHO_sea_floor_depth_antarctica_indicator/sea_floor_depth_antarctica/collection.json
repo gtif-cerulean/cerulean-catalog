@@ -21,7 +21,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Ice concentration Antarctica"
+      "title": "Sea floor depth below geoid Antarctica"
     }
   ],
   "themes": [
@@ -79,10 +79,10 @@
     "spatial": {
       "bbox": [
         [
-          -180,
-          -60,
-          180,
-          85
+          -100,
+          -75,
+          -70,
+          -68
         ]
       ]
     },

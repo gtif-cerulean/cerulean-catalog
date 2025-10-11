@@ -50,7 +50,7 @@
       "rel": "child",
       "href": "./DEPTHO_sea_floor_depth_antarctica_indicator/collection.json",
       "type": "application/json",
-      "title": "Ice concentration Antarctica",
+      "title": "Sea floor depth below geoid Antarctica",
       "code": "sea_floor_depth_antarctica",
       "id": "DEPTHO_sea_floor_depth_antarctica_indicator",
       "themes": [

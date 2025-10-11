@@ -158,15 +158,15 @@
       5405880.72
     ]
   },
-  "title": "Ice concentration Antarctica",
+  "title": "Sea floor depth below geoid Antarctica",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180,
-          -71.0,
-          180,
-          85
+          -100,
+          -75,
+          -41.0,
+          -67.568783
         ],
         [
           -68.125028,
@@ -175,10 +175,10 @@
           -67.568783
         ],
         [
-          -180,
-          -60,
-          180,
-          85
+          -100,
+          -75,
+          -70,
+          -68
         ]
       ]
     },
@@ -197,9 +197,9 @@
       "DEPTHO"
     ],
     "themes": [
+      "Shipping",
       "Energy",
-      "Aquaculture",
-      "Shipping"
+      "Aquaculture"
     ],
     "satellite": [
       "multiple",
