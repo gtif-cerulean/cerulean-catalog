@@ -1,0 +1,87 @@
+{
+  "type": "Catalog",
+  "id": "cerulean",
+  "stac_version": "1.1.0",
+  "description": "Catalog providing description to available datasets to the Cerulean GTIF project",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./sea_floor_depth_antarctica/collection.json",
+      "type": "application/json",
+      "title": "Sea floor depth below geoid",
+      "code": "DEPTHO",
+      "id": "sea_floor_depth_antarctica",
+      "themes": [
+        "Aquaculture",
+        "Energy"
+      ],
+      "subcode": "DEPTHO",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Antarctica",
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./DEPTHO_sea_floor_depth_antarctica_indicator/collection.json",
+      "type": "application/json",
+      "title": "Ice concentration Antarctica",
+      "code": "sea_floor_depth_antarctica",
+      "id": "DEPTHO_sea_floor_depth_antarctica_indicator",
+      "themes": [
+        "Shipping"
+      ],
+      "subcode": "sea_floor_depth_antarctica",
+      "satellite": [
+        "multiple",
+        "placeholder"
+      ],
+      "sensor": [
+        "multiple",
+        "placeholder"
+      ],
+      "collection_group": "Antarctica",
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "self",
+      "href": "https://gtif-cerulean.github.io/cerulean-catalog/cerulean/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "Cerulean GTIF project catalog"
+}
