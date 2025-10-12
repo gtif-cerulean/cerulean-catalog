@@ -197,17 +197,17 @@
       "DEPTHO"
     ],
     "themes": [
-      "Aquaculture",
       "Shipping",
-      "Energy"
+      "Energy",
+      "Aquaculture"
     ],
     "satellite": [
-      "placeholder",
-      "multiple"
+      "multiple",
+      "placeholder"
     ],
     "sensor": [
-      "placeholder",
-      "multiple"
+      "multiple",
+      "placeholder"
     ]
   }
 }
