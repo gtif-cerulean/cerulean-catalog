@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "DEPTHO_sea_floor_depth_antarctica_indicator",
+  "id": "MSIA_mean_sea_ice_age_antarctica_indicator",
   "stac_version": "1.1.0",
   "description": "N/A\n",
   "links": [
@@ -36,15 +36,16 @@
     },
     {
       "rel": "child",
-      "href": "./sea_floor_depth_antarctica/collection.json",
+      "href": "./mean_sea_ice_age_antarctica/collection.json",
       "type": "application/json",
-      "title": "Sea floor depth below geoid",
-      "endpointtype": "JAXA_WMTS_PALSAR_OverwriteTimes",
-      "code": "DEPTHO",
-      "id": "sea_floor_depth_antarctica",
+      "title": "Mean sea ice age Antarctica",
+      "endpointtype": "marinedatastore_WMTSCapabilities",
+      "code": "MSIA",
+      "id": "mean_sea_ice_age_antarctica",
       "themes": [
         "Aquaculture",
-        "Energy"
+        "Energy",
+        "Shipping"
       ],
       "tags": [
         "model"
@@ -58,7 +59,7 @@
       "agency": [
         "CMEMS"
       ],
-      "subcode": "DEPTHO",
+      "subcode": "MSIA",
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
         "name": "EPSG:32761",
@@ -146,7 +147,7 @@
   "themes": [
     "Shipping"
   ],
-  "subcode": "sea_floor_depth_antarctica",
+  "subcode": "mean_sea_ice_age_antarctica",
   "collection_group": "Antarctica",
   "eodash:mapProjection": {
     "name": "EPSG:32761",
@@ -158,7 +159,7 @@
       5405880.72
     ]
   },
-  "title": "Sea floor depth below geoid Antarctica",
+  "title": "Mean Sea Ice age Antarctica",
   "extent": {
     "spatial": {
       "bbox": [
@@ -185,8 +186,8 @@
     "temporal": {
       "interval": [
         [
-          "2017-01-01T00:00:00Z",
-          "2025-10-08T00:00:00Z"
+          "2024-01-01T00:00:00Z",
+          "2025-10-21T00:00:00Z"
         ]
       ]
     }
@@ -194,7 +195,7 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "DEPTHO"
+      "MSIA"
     ],
     "themes": [
       "Aquaculture",
