@@ -196,6 +196,43 @@
     },
     {
       "rel": "child",
+      "href": "./surface_snow_thickness_antartica/collection.json",
+      "type": "application/json",
+      "title": "Surface snow thickness Antarctica",
+      "code": "SST",
+      "id": "surface_snow_thickness_antartica",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "subcode": "SST",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Antarctica",
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
       "href": "./sea_ice_eastward_velocity_antarctica/collection.json",
       "type": "application/json",
       "title": "Sea ice eastward velocity Antarctica",
