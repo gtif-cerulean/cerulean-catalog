@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "sea_ice_thickness_antarctica",
+  "id": "eastward_tide_velocity_antarctica",
   "stac_version": "1.1.0",
   "description": "N/A\n",
   "links": [
@@ -12,12 +12,12 @@
     },
     {
       "rel": "child",
-      "href": "./sea_ice_thickness_antarctica/collection.json",
+      "href": "./eastward_tide_velocity_antarctica/collection.json",
       "type": "application/json",
-      "title": "Sea ice thickness Antarctica",
+      "title": "Eastward tide-induced velocity Antarctica",
       "endpointtype": "marinedatastore_WMTSCapabilities",
-      "code": "SIT",
-      "id": "sea_ice_thickness_antarctica",
+      "code": "UOTIDE",
+      "id": "eastward_tide_velocity_antarctica",
       "themes": [
         "Aquaculture",
         "Energy",
@@ -35,7 +35,7 @@
       "agency": [
         "CMEMS"
       ],
-      "subcode": "SIT",
+      "subcode": "UOTIDE",
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
         "name": "EPSG:32761",
@@ -50,7 +50,7 @@
     },
     {
       "rel": "service",
-      "href": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_mod_glo_phy_anfc_0.083deg_P1D-m&variables=sithick&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
+      "href": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_mod_glo_phy_anfc_merged-uv_PT1H-i&variables=utide&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
       "type": "application/json",
       "id": "process_cmems",
       "method": "GET"
@@ -130,7 +130,7 @@
   "agency": [
     "CMEMS"
   ],
-  "subcode": "SIT",
+  "subcode": "UOTIDE",
   "collection_group": "Antarctica",
   "eodash:mapProjection": {
     "name": "EPSG:32761",
@@ -143,20 +143,28 @@
     ]
   },
   "eox:colorlegend": {
-    "title": "Sea ice thickness [m]",
+    "title": "Eastward tide-induced velocity [m s-1]",
     "range": [
-      "rgb(4, 6, 21)",
-      "rgb(69, 123, 185)",
-      "rgb(229, 248, 252)"
+      "rgba(68, 1, 84, 1)",
+      "rgba(72, 35, 116, 1)",
+      "rgba(64, 67, 135, 1)",
+      "rgba(52, 94, 141, 1)",
+      "rgba(41, 120, 142, 1)",
+      "rgba(32, 144, 140, 1)",
+      "rgba(34, 167, 132, 1)",
+      "rgba(68, 190, 112, 1)",
+      "rgba(121, 209, 81, 1)",
+      "rgba(189, 223, 38, 1)",
+      "rgba(253, 231, 37, 1)"
     ],
     "domain": [
-      0,
-      2
+      -0.1123,
+      0.0664
     ]
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/sithick.json",
-  "title": "Sea ice thickness Antarctica",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/utide.json",
+  "title": "Eastward tide-induced velocity Antarctica",
   "extent": {
     "spatial": {
       "bbox": [
@@ -171,8 +179,8 @@
     "temporal": {
       "interval": [
         [
-          "2024-01-01T00:00:00Z",
-          "2025-10-21T00:00:00Z"
+          "2024-12-01T00:00:00Z",
+          "2025-10-21T23:00:00Z"
         ]
       ]
     }
@@ -186,7 +194,7 @@
   ],
   "summaries": {
     "subcode": [
-      "SIT"
+      "UOTIDE"
     ],
     "themes": [
       "Shipping",
