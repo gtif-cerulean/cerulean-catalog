@@ -80,6 +80,7 @@
     "SICONC_ice_concentration_antarctica_indicator",
     "DEPTHO_sea_floor_depth_antarctica_indicator",
     "MSIA_mean_sea_ice_age_antarctica_indicator",
-    "USI_sea_ice_eastward_velocity_antarctica_indicator"
+    "USI_sea_ice_eastward_velocity_antarctica_indicator",
+    "VSI_sea_ice_northward_velocity_antarctica_indicator"
   ]
 }
