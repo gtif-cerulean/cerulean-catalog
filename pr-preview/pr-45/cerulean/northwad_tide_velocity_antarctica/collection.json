@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "sea_ice_speed_antartica",
+  "id": "northwad_tide_velocity_antarctica",
   "stac_version": "1.1.0",
   "description": "N/A\n",
   "links": [
@@ -12,12 +12,12 @@
     },
     {
       "rel": "child",
-      "href": "./sea_ice_speed_antartica/collection.json",
+      "href": "./northwad_tide_velocity_antarctica/collection.json",
       "type": "application/json",
-      "title": "Sea ice speed Antarctica",
+      "title": "Northward tide-induced velocity Antarctica",
       "endpointtype": "marinedatastore_WMTSCapabilities",
-      "code": "SIVELO",
-      "id": "sea_ice_speed_antartica",
+      "code": "VOTIDE",
+      "id": "northwad_tide_velocity_antarctica",
       "themes": [
         "Aquaculture",
         "Energy",
@@ -35,7 +35,7 @@
       "agency": [
         "CMEMS"
       ],
-      "subcode": "SIVELO",
+      "subcode": "VOTIDE",
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
         "name": "EPSG:32761",
@@ -50,7 +50,7 @@
     },
     {
       "rel": "service",
-      "href": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_mod_glo_phy_anfc_0.083deg_P1D-m&variables=sivelo&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
+      "href": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_mod_glo_phy_anfc_merged-uv_PT1H-i&variables=vtide&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
       "type": "application/json",
       "id": "process_cmems",
       "method": "GET"
@@ -130,7 +130,7 @@
   "agency": [
     "CMEMS"
   ],
-  "subcode": "SIVELO",
+  "subcode": "VOTIDE",
   "collection_group": "Antarctica",
   "eodash:mapProjection": {
     "name": "EPSG:32761",
@@ -143,7 +143,7 @@
     ]
   },
   "eox:colorlegend": {
-    "title": "Sea ice speed [m s-1]",
+    "title": "Northward tide-induced velocity [m s-1]",
     "range": [
       "rgba(68, 1, 84, 1)",
       "rgba(72, 35, 116, 1)",
@@ -158,13 +158,13 @@
       "rgba(253, 231, 37, 1)"
     ],
     "domain": [
-      0,
-      0.19
+      -0.0879,
+      0.0957
     ]
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/sivelo.json",
-  "title": "Sea ice speed Antarctica",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/vtide.json",
+  "title": "Northward tide-induced velocity Antarctica",
   "extent": {
     "spatial": {
       "bbox": [
@@ -179,8 +179,8 @@
     "temporal": {
       "interval": [
         [
-          "2024-01-01T00:00:00Z",
-          "2025-10-21T00:00:00Z"
+          "2024-12-01T00:00:00Z",
+          "2025-10-21T23:00:00Z"
         ]
       ]
     }
@@ -194,7 +194,7 @@
   ],
   "summaries": {
     "subcode": [
-      "SIVELO"
+      "VOTIDE"
     ],
     "themes": [
       "Aquaculture",
