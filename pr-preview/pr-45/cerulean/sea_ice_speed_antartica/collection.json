@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "mean_sea_ice_age_antarctica",
+  "id": "sea_ice_speed_antartica",
   "stac_version": "1.1.0",
   "description": "N/A\n",
   "links": [
@@ -12,12 +12,12 @@
     },
     {
       "rel": "child",
-      "href": "./mean_sea_ice_age_antarctica/collection.json",
+      "href": "./sea_ice_speed_antartica/collection.json",
       "type": "application/json",
-      "title": "Mean sea ice age Antarctica",
+      "title": "Sea ice speed Antarctica",
       "endpointtype": "marinedatastore_WMTSCapabilities",
-      "code": "MSIA",
-      "id": "mean_sea_ice_age_antarctica",
+      "code": "SIVELO",
+      "id": "sea_ice_speed_antartica",
       "themes": [
         "Aquaculture",
         "Energy",
@@ -35,7 +35,7 @@
       "agency": [
         "CMEMS"
       ],
-      "subcode": "MSIA",
+      "subcode": "SIVELO",
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
         "name": "EPSG:32761",
@@ -50,7 +50,7 @@
     },
     {
       "rel": "service",
-      "href": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_mod_glo_phy_anfc_0.083deg_P1D-m&variables=siage&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
+      "href": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_mod_glo_phy_anfc_0.083deg_P1D-m&variables=sivelo&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
       "type": "application/json",
       "id": "process_cmems",
       "method": "GET"
@@ -130,7 +130,7 @@
   "agency": [
     "CMEMS"
   ],
-  "subcode": "MSIA",
+  "subcode": "SIVELO",
   "collection_group": "Antarctica",
   "eodash:mapProjection": {
     "name": "EPSG:32761",
@@ -143,7 +143,7 @@
     ]
   },
   "eox:colorlegend": {
-    "title": "Mean sea ice age [years]",
+    "title": "Sea ice speed [m s-1]",
     "range": [
       "rgba(68, 1, 84, 1)",
       "rgba(72, 35, 116, 1)",
@@ -159,12 +159,12 @@
     ],
     "domain": [
       0,
-      0.52
+      0.19
     ]
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/siage.json",
-  "title": "Mean sea ice age Antarctica",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/sivelo.json",
+  "title": "Sea ice speed Antarctica",
   "extent": {
     "spatial": {
       "bbox": [
@@ -194,7 +194,7 @@
   ],
   "summaries": {
     "subcode": [
-      "MSIA"
+      "SIVELO"
     ],
     "themes": [
       "Shipping",
