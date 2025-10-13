@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "surface_snow_thickness_antartica",
+  "id": "eastward_velocity_antarctica",
   "stac_version": "1.1.0",
   "description": "N/A\n",
   "links": [
@@ -12,12 +12,12 @@
     },
     {
       "rel": "child",
-      "href": "./surface_snow_thickness_antartica/collection.json",
+      "href": "./eastward_velocity_antarctica/collection.json",
       "type": "application/json",
-      "title": "Surface snow thickness Antarctica",
+      "title": "Eastward velocity Antarctica",
       "endpointtype": "marinedatastore_WMTSCapabilities",
-      "code": "SST",
-      "id": "surface_snow_thickness_antartica",
+      "code": "UO",
+      "id": "eastward_velocity_antarctica",
       "themes": [
         "Aquaculture",
         "Energy",
@@ -35,7 +35,7 @@
       "agency": [
         "CMEMS"
       ],
-      "subcode": "SST",
+      "subcode": "UO",
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
         "name": "EPSG:32761",
@@ -50,7 +50,7 @@
     },
     {
       "rel": "service",
-      "href": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_mod_glo_phy_anfc_0.083deg_P1D-m&variables=sisnthick&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
+      "href": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_mod_glo_phy-cur_anfc_0.083deg_P1D-m&variables=uo&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
       "type": "application/json",
       "id": "process_cmems",
       "method": "GET"
@@ -130,7 +130,7 @@
   "agency": [
     "CMEMS"
   ],
-  "subcode": "SST",
+  "subcode": "UO",
   "collection_group": "Antarctica",
   "eodash:mapProjection": {
     "name": "EPSG:32761",
@@ -143,20 +143,22 @@
     ]
   },
   "eox:colorlegend": {
-    "title": "Surface snow thickness [m]",
+    "title": "Eastward velocity [m s-1]",
     "range": [
-      "rgb(4, 6, 21)",
-      "rgb(69, 123, 185)",
-      "rgb(229, 248, 252)"
+      "rgb(16, 24, 63)",
+      "rgb(41, 127, 185)",
+      "rgb(234, 234, 234)",
+      "rgb(170, 41, 36)",
+      "rgb(59, 6, 14)"
     ],
     "domain": [
-      0,
-      0.3
+      -1,
+      1
     ]
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/sisnthick.json",
-  "title": "Surface snow thickness Antarctica",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/uo.json",
+  "title": "Eastward velocity Antarctica",
   "extent": {
     "spatial": {
       "bbox": [
@@ -186,7 +188,7 @@
   ],
   "summaries": {
     "subcode": [
-      "SST"
+      "UO"
     ],
     "themes": [
       "Aquaculture",
