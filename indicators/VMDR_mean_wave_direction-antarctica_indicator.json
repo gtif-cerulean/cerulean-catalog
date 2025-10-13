@@ -9,7 +9,7 @@
     ],
     "Collections": [
         "antarctica_ship_route",
-        "VMDR_mean_wave_direction-antarctica"
+        "VMDR_mean_wave_direction_antarctica"
     ],
     "MapProjection": {
         "name": "EPSG:32761",

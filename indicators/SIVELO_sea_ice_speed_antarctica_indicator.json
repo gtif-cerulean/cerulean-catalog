@@ -1,7 +1,7 @@
 {
     "Name": "SIVELO_sea_ice_speed_antarctica_indicator",
     "Title": "Sea Ice Speed Antarctica",
-    "EodashIdentifier": "sea_ice_speed_antartica",
+    "EodashIdentifier": "sea_ice_speed_antarctica",
     "Description": "N/A\n",
     "CollectionGroup": "Antarctica",
     "Themes": [
@@ -9,7 +9,7 @@
     ],
     "Collections": [
         "antarctica_ship_route",
-        "SIVELO_sea_ice_speed_antartica"
+        "SIVELO_sea_ice_speed_antarctica"
     ],
     "MapProjection": {
         "name": "EPSG:32761",
