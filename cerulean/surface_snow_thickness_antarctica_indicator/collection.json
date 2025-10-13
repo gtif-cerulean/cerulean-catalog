@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "surface_snow_thickness_antartica_indicator",
+  "id": "surface_snow_thickness_antarctica_indicator",
   "stac_version": "1.1.0",
   "description": "N/A\n",
   "links": [
@@ -36,12 +36,12 @@
     },
     {
       "rel": "child",
-      "href": "./surface_snow_thickness_antartica/collection.json",
+      "href": "./surface_snow_thickness_antarctica/collection.json",
       "type": "application/json",
       "title": "Surface snow thickness Antarctica",
       "endpointtype": "marinedatastore_WMTSCapabilities",
       "code": "SST",
-      "id": "surface_snow_thickness_antartica",
+      "id": "surface_snow_thickness_antarctica",
       "themes": [
         "Aquaculture",
         "Energy",
@@ -147,7 +147,7 @@
   "themes": [
     "Shipping"
   ],
-  "subcode": "surface_snow_thickness_antartica",
+  "subcode": "surface_snow_thickness_antarctica",
   "collection_group": "Antarctica",
   "eodash:mapProjection": {
     "name": "EPSG:32761",
@@ -198,17 +198,17 @@
       "SST"
     ],
     "themes": [
-      "Shipping",
       "Energy",
-      "Aquaculture"
+      "Aquaculture",
+      "Shipping"
     ],
     "satellite": [
-      "placeholder",
-      "multiple"
+      "multiple",
+      "placeholder"
     ],
     "sensor": [
-      "placeholder",
-      "multiple"
+      "multiple",
+      "placeholder"
     ]
   }
 }

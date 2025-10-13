@@ -471,25 +471,25 @@
   "summaries": {
     "subcode": [
       "Polaris_algorithm_dmi_demo",
-      "IST",
-      "MSIA",
-      "SST",
-      "SICONC",
       "USI",
-      "VSI",
       "SHS1",
       "SIVELO",
+      "IST",
+      "SICONC",
+      "MSIA",
+      "SST",
+      "VSI",
       "IBC",
       "SIT"
     ],
     "themes": [
-      "Shipping",
       "Energy",
-      "Aquaculture"
+      "Aquaculture",
+      "Shipping"
     ],
     "satellite": [
-      "Sentinel-1",
-      "placeholder"
+      "placeholder",
+      "Sentinel-1"
     ],
     "sensor": [
       "placeholder"

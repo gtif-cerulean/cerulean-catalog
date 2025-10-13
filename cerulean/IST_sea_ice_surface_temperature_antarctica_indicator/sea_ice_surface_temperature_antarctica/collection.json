@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "surface_snow_thickness_antartica",
+  "id": "sea_ice_surface_temperature_antarctica",
   "stac_version": "1.1.0",
   "description": "N/A\n",
   "links": [
@@ -15,20 +15,20 @@
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406",
       "type": "image/png",
       "title": "wmts capabilities",
-      "wmts:layer": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406/sisnthick",
+      "wmts:layer": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406/ist",
       "role": [
         "data"
       ],
       "wmts:dimensions": {
         "elevation": 0,
-        "style": "cmap:ice"
+        "style": "cmap:viridis"
       }
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Surface Snow Thickness Antarctica"
+      "title": "Sea Ice Surface Temperature Antarctica"
     }
   ],
   "themes": [
@@ -48,7 +48,7 @@
   "agency": [
     "CMEMS"
   ],
-  "subcode": "SST",
+  "subcode": "IST",
   "collection_group": "Antarctica",
   "eodash:mapProjection": {
     "name": "EPSG:32761",
@@ -61,20 +61,28 @@
     ]
   },
   "eox:colorlegend": {
-    "title": "Surface snow thickness [m]",
+    "title": "Sea ice surface temperature [degrees C]",
     "range": [
-      "rgb(4, 6, 21)",
-      "rgb(69, 123, 185)",
-      "rgb(229, 248, 252)"
+      "rgba(68, 1, 84, 1)",
+      "rgba(72, 35, 116, 1)",
+      "rgba(64, 67, 135, 1)",
+      "rgba(52, 94, 141, 1)",
+      "rgba(41, 120, 142, 1)",
+      "rgba(32, 144, 140, 1)",
+      "rgba(34, 167, 132, 1)",
+      "rgba(68, 190, 112, 1)",
+      "rgba(121, 209, 81, 1)",
+      "rgba(189, 223, 38, 1)",
+      "rgba(253, 231, 37, 1)"
     ],
     "domain": [
-      0,
-      0.3
+      -27.37,
+      0
     ]
   },
   "proj:epsg": 3857,
   "endpointtype": "marinedatastore_WMTSCapabilities",
-  "title": "Surface snow thickness Antarctica",
+  "title": "Sea ice surface temperature Antarctica",
   "extent": {
     "spatial": {
       "bbox": [
