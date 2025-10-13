@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "sea_ice_speed_antartica",
+  "id": "mean_wave_direction_antarctica",
   "stac_version": "1.1.0",
   "description": "N/A\n",
   "links": [
@@ -12,23 +12,23 @@
     },
     {
       "rel": "wmts",
-      "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_WAV_001_027/cmems_mod_glo_wav_anfc_0.083deg_PT3H-i_202411",
       "type": "image/png",
       "title": "wmts capabilities",
-      "wmts:layer": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406/sivelo",
+      "wmts:layer": "GLOBAL_ANALYSISFORECAST_WAV_001_027/cmems_mod_glo_wav_anfc_0.083deg_PT3H-i_202411/VMDR",
       "role": [
         "data"
       ],
       "wmts:dimensions": {
         "elevation": 0,
-        "style": "cmap:viridis"
+        "style": "cmap:cyclic"
       }
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Sea ice speed Antarctica"
+      "title": "Mean wave direction Antarctica"
     }
   ],
   "themes": [
@@ -48,7 +48,7 @@
   "agency": [
     "CMEMS"
   ],
-  "subcode": "SIVELO",
+  "subcode": "VMDR",
   "collection_group": "Antarctica",
   "eodash:mapProjection": {
     "name": "EPSG:32761",
@@ -60,29 +60,9 @@
       5405880.72
     ]
   },
-  "eox:colorlegend": {
-    "title": "Sea ice speed [m s-1]",
-    "range": [
-      "rgba(68, 1, 84, 1)",
-      "rgba(72, 35, 116, 1)",
-      "rgba(64, 67, 135, 1)",
-      "rgba(52, 94, 141, 1)",
-      "rgba(41, 120, 142, 1)",
-      "rgba(32, 144, 140, 1)",
-      "rgba(34, 167, 132, 1)",
-      "rgba(68, 190, 112, 1)",
-      "rgba(121, 209, 81, 1)",
-      "rgba(189, 223, 38, 1)",
-      "rgba(253, 231, 37, 1)"
-    ],
-    "domain": [
-      0,
-      0.19
-    ]
-  },
   "proj:epsg": 3857,
   "endpointtype": "marinedatastore_WMTSCapabilities",
-  "title": "Sea ice speed Antarctica",
+  "title": "Mean wave direction Antarctica",
   "extent": {
     "spatial": {
       "bbox": [
@@ -97,7 +77,7 @@
     "temporal": {
       "interval": [
         [
-          "2024-01-01T00:00:00Z",
+          "2024-12-01T00:00:00Z",
           "2025-10-22T00:00:00Z"
         ]
       ]
