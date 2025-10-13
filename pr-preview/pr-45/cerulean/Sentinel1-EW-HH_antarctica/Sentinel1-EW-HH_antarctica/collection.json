@@ -21,7 +21,10 @@
       "role": [
         "data"
       ],
-      "proj:epsg": 3857
+      "eodash:proj4_def": {
+        "name": "EPSG:3031",
+        "def": "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "parent",
@@ -44,7 +47,7 @@
     "European Commission",
     "ESA"
   ],
-  "subcode": "SHS1",
+  "subcode": "SHS1_ant",
   "collection_group": "Antarctica",
   "satellite": [
     "Sentinel-1"
@@ -59,7 +62,10 @@
       5405880.72
     ]
   },
-  "proj:epsg": 3857,
+  "eodash:proj4_def": {
+    "name": "EPSG:3031",
+    "def": "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+  },
   "endpointtype": "Sentinel Hub WMS",
   "title": "Sentinel 1 EW HH Antarctica",
   "extent": {

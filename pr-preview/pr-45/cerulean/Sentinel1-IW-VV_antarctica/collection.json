@@ -16,7 +16,7 @@
       "type": "application/json",
       "title": "Sentinel 1 IW VV Antarctica",
       "endpointtype": "Sentinel Hub WMS",
-      "code": "SHS1VV",
+      "code": "SHS1VV_ant",
       "id": "Sentinel1-IW-VV_antarctica",
       "themes": [
         "Energy",
@@ -31,7 +31,7 @@
         "European Commission",
         "ESA"
       ],
-      "subcode": "SHS1VV",
+      "subcode": "SHS1VV_ant",
       "collection_group": "Antarctica",
       "satellite": [
         "Sentinel-1"
@@ -119,7 +119,7 @@
     "European Commission",
     "ESA"
   ],
-  "subcode": "SHS1VV",
+  "subcode": "SHS1VV_ant",
   "collection_group": "Antarctica",
   "satellite": [
     "Sentinel-1"
@@ -167,7 +167,7 @@
   ],
   "summaries": {
     "subcode": [
-      "SHS1VV"
+      "SHS1VV_ant"
     ],
     "themes": [
       "Aquaculture",

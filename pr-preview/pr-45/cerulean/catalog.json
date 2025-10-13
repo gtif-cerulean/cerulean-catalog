@@ -125,14 +125,14 @@
       "href": "./Sentinel1-EW-HH_antarctica/collection.json",
       "type": "application/json",
       "title": "Sentinel 1 EW HH Antarctica",
-      "code": "SHS1",
+      "code": "SHS1_ant",
       "id": "Sentinel1-EW-HH_antarctica",
       "themes": [
         "Energy",
         "Aquaculture",
         "Shipping"
       ],
-      "subcode": "SHS1",
+      "subcode": "SHS1_ant",
       "satellite": [
         "Sentinel-1"
       ],
@@ -164,14 +164,14 @@
       "href": "./Sentinel1-IW-VV_antarctica/collection.json",
       "type": "application/json",
       "title": "Sentinel 1 IW VV Antarctica",
-      "code": "SHS1VV",
+      "code": "SHS1VV_ant",
       "id": "Sentinel1-IW-VV_antarctica",
       "themes": [
         "Energy",
         "Aquaculture",
         "Shipping"
       ],
-      "subcode": "SHS1VV",
+      "subcode": "SHS1VV_ant",
       "satellite": [
         "Sentinel-1"
       ],
@@ -617,12 +617,43 @@
       ],
       "subcode": "sea_floor_depth_antarctica",
       "satellite": [
-        "placeholder",
-        "multiple"
+        "multiple",
+        "placeholder"
       ],
       "sensor": [
-        "placeholder",
-        "multiple"
+        "multiple",
+        "placeholder"
+      ],
+      "collection_group": "Antarctica",
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./IST_sea_ice_surface_temperature_antarctica_indicator/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Surface Temperature Antarctica",
+      "code": "sea_ice_surface_temperature_antarctica",
+      "id": "IST_sea_ice_surface_temperature_antarctica_indicator",
+      "themes": [
+        "Shipping"
+      ],
+      "subcode": "sea_ice_surface_temperature_antarctica",
+      "satellite": [
+        "multiple",
+        "placeholder"
+      ],
+      "sensor": [
+        "multiple",
+        "placeholder"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
@@ -648,12 +679,291 @@
       ],
       "subcode": "mean_sea_ice_age_antarctica",
       "satellite": [
-        "placeholder",
-        "multiple"
+        "multiple",
+        "placeholder"
       ],
       "sensor": [
-        "placeholder",
-        "multiple"
+        "multiple",
+        "placeholder"
+      ],
+      "collection_group": "Antarctica",
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./SIT_sea_ice_thickness_antarctica_indicator/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Thickness Antarctica",
+      "code": "sea_ice_thickness_antarctica",
+      "id": "SIT_sea_ice_thickness_antarctica_indicator",
+      "themes": [
+        "Shipping"
+      ],
+      "subcode": "sea_ice_thickness_antarctica",
+      "satellite": [
+        "multiple",
+        "placeholder"
+      ],
+      "sensor": [
+        "multiple",
+        "placeholder"
+      ],
+      "collection_group": "Antarctica",
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./surface_snow_thickness_antartica_indicator/collection.json",
+      "type": "application/json",
+      "title": "Surface Snow Thickness Antarctica",
+      "code": "surface_snow_thickness_antartica",
+      "id": "surface_snow_thickness_antartica_indicator",
+      "themes": [
+        "Shipping"
+      ],
+      "subcode": "surface_snow_thickness_antartica",
+      "satellite": [
+        "multiple",
+        "placeholder"
+      ],
+      "sensor": [
+        "multiple",
+        "placeholder"
+      ],
+      "collection_group": "Antarctica",
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./eastward_tide_velocity_antarctica_indicator/collection.json",
+      "type": "application/json",
+      "title": "Eastward Tide-velocity Antarctica",
+      "code": "eastward_tide_velocity_antarctica",
+      "id": "eastward_tide_velocity_antarctica_indicator",
+      "themes": [
+        "Shipping"
+      ],
+      "subcode": "eastward_tide_velocity_antarctica",
+      "satellite": [
+        "multiple",
+        "placeholder"
+      ],
+      "sensor": [
+        "multiple",
+        "placeholder"
+      ],
+      "collection_group": "Antarctica",
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./eastward_velocity_antarctica_indicator/collection.json",
+      "type": "application/json",
+      "title": "Eastward Velocity Antarctica",
+      "code": "eastward_velocity_antarctica",
+      "id": "eastward_velocity_antarctica_indicator",
+      "themes": [
+        "Shipping"
+      ],
+      "subcode": "eastward_velocity_antarctica",
+      "satellite": [
+        "multiple",
+        "placeholder"
+      ],
+      "sensor": [
+        "multiple",
+        "placeholder"
+      ],
+      "collection_group": "Antarctica",
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./USI_sea_ice_eastward_velocity_antarctica_indicator/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice eastward velocity Antarctica",
+      "code": "sea_ice_eastward_velocity_antarctica",
+      "id": "USI_sea_ice_eastward_velocity_antarctica_indicator",
+      "themes": [
+        "Shipping"
+      ],
+      "subcode": "sea_ice_eastward_velocity_antarctica",
+      "satellite": [
+        "multiple",
+        "placeholder"
+      ],
+      "sensor": [
+        "multiple",
+        "placeholder"
+      ],
+      "collection_group": "Antarctica",
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./maximum_crest_wave_antarctica_indicator/collection.json",
+      "type": "application/json",
+      "title": "Maximum crest trough wave height Antarctica",
+      "code": "maximum_crest_wave_antarctica",
+      "id": "maximum_crest_wave_antarctica_indicator",
+      "themes": [
+        "Shipping"
+      ],
+      "subcode": "maximum_crest_wave_antarctica",
+      "satellite": [
+        "multiple",
+        "placeholder"
+      ],
+      "sensor": [
+        "multiple",
+        "placeholder"
+      ],
+      "collection_group": "Antarctica",
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./northward_tide_velocity_antarctica_indicator/collection.json",
+      "type": "application/json",
+      "title": "Northward Tide-velocity Antarctica",
+      "code": "northwad_tide_velocity_antarctica",
+      "id": "northward_tide_velocity_antarctica_indicator",
+      "themes": [
+        "Shipping"
+      ],
+      "subcode": "northwad_tide_velocity_antarctica",
+      "satellite": [
+        "multiple",
+        "placeholder"
+      ],
+      "sensor": [
+        "multiple",
+        "placeholder"
+      ],
+      "collection_group": "Antarctica",
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./northward_velocity_antarctica_indicator/collection.json",
+      "type": "application/json",
+      "title": "Northward Velocity Antarctica",
+      "code": "northward_velocity_antarctica",
+      "id": "northward_velocity_antarctica_indicator",
+      "themes": [
+        "Shipping"
+      ],
+      "subcode": "northward_velocity_antarctica",
+      "satellite": [
+        "multiple",
+        "placeholder"
+      ],
+      "sensor": [
+        "multiple",
+        "placeholder"
+      ],
+      "collection_group": "Antarctica",
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./VSI_sea_ice_northward_velocity_antarctica_indicator/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Northward Velocity Antarctica",
+      "code": "sea_ice_northward_velocity_antarctica",
+      "id": "VSI_sea_ice_northward_velocity_antarctica_indicator",
+      "themes": [
+        "Shipping"
+      ],
+      "subcode": "sea_ice_northward_velocity_antarctica",
+      "satellite": [
+        "multiple",
+        "placeholder"
+      ],
+      "sensor": [
+        "multiple",
+        "placeholder"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
