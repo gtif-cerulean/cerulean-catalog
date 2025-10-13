@@ -307,6 +307,43 @@
     },
     {
       "rel": "child",
+      "href": "./maximum_crest_wave_antarctica/collection.json",
+      "type": "application/json",
+      "title": "Maximum crest trough wave height Antarctica",
+      "code": "VCMX",
+      "id": "maximum_crest_wave_antarctica",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "subcode": "VCMX",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Antarctica",
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
       "href": "./mean_wave_direction_antarctica/collection.json",
       "type": "application/json",
       "title": "Mean wave direction Antarctica",
@@ -428,12 +465,12 @@
       ],
       "subcode": "sea_floor_depth_antarctica",
       "satellite": [
-        "multiple",
-        "placeholder"
+        "placeholder",
+        "multiple"
       ],
       "sensor": [
-        "multiple",
-        "placeholder"
+        "placeholder",
+        "multiple"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
@@ -459,12 +496,12 @@
       ],
       "subcode": "mean_sea_ice_age_antarctica",
       "satellite": [
-        "multiple",
-        "placeholder"
+        "placeholder",
+        "multiple"
       ],
       "sensor": [
-        "multiple",
-        "placeholder"
+        "placeholder",
+        "multiple"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {

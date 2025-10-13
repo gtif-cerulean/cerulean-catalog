@@ -198,17 +198,17 @@
       "MSIA"
     ],
     "themes": [
-      "Aquaculture",
       "Shipping",
-      "Energy"
+      "Energy",
+      "Aquaculture"
     ],
     "satellite": [
-      "multiple",
-      "placeholder"
+      "placeholder",
+      "multiple"
     ],
     "sensor": [
-      "multiple",
-      "placeholder"
+      "placeholder",
+      "multiple"
     ]
   }
 }
