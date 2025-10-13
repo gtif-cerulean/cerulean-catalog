@@ -9,7 +9,7 @@
     ],
     "Collections": [
         "antarctica_ship_route",
-        "maximum_crest_wave_antarctica"
+        "VCMX_maximum_crest_wave_antarctica"
     ],
     "MapProjection": {
         "name": "EPSG:32761",

@@ -9,7 +9,7 @@
     ],
     "Collections": [
         "antarctica_ship_route",
-        "sea_ice_thickness_antarctica"
+        "SIT_sea_ice_thickness_antarctica"
     ],
     "MapProjection": {
         "name": "EPSG:32761",

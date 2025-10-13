@@ -8,8 +8,8 @@
         "Shipping"
     ],
     "Collections": [
-        "sea_ice_surface_temperature_antarctica",
-        "sea_ice_speed_antartica"
+        "antarctica_ship_route",
+        "IST_sea_ice_surface_temperature_antarctica"
     ],
     "MapProjection": {
         "name": "EPSG:32761",

@@ -9,7 +9,7 @@
     ],
     "Collections": [
         "antarctica_ship_route",
-        "eastward_tide_velocity_antarctica"
+        "UOTIDE_eastward_tide_velocity_antarctica"
     ],
     "MapProjection": {
         "name": "EPSG:32761",

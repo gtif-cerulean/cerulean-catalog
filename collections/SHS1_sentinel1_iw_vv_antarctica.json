@@ -1,7 +1,7 @@
 {
   "Name": "Sentinel1-IW-VV_antarctica",
   "Title": "Sentinel 1 IW VV Antarctica",
-  "EodashIdentifier": "SHS1VV",
+  "EodashIdentifier": "SHS1VV_ant",
   "Description": "SENTINEL_1_IW_VV",
   "CollectionGroup": "Antarctica",
   "Themes": [
@@ -40,7 +40,10 @@
         -70,
         -68
       ],
-      "DataProjection": 3857
+      "DataProjection": {
+        "name": "EPSG:3031",
+        "def": "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     }
   ],
   "Provider": [

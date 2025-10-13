@@ -1,7 +1,7 @@
 {
     "Name": "northward_velocity_antarctica_indicator",
     "Title": "Northward Velocity Antarctica",
-    "EodashIdentifier": "northwad_velocity_antarctica",
+    "EodashIdentifier": "northward_velocity_antarctica",
     "Description": "N/A\n",
     "CollectionGroup": "Antarctica",
     "Themes": [
@@ -9,7 +9,7 @@
     ],
     "Collections": [
         "antarctica_ship_route",
-        "northwad_velocity_antarctica"
+        "VO_northward_velocity_antarctica"
     ],
     "MapProjection": {
         "name": "EPSG:32761",
