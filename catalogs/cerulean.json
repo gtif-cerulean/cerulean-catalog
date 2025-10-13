@@ -87,6 +87,7 @@
     "SIT_sea_ice_thickness_antarctica_indicator",
     "surface_snow_thickness_antartica_indicator",
     "eastward_tide_velocity_antarctica_indicator",
-    "northward_tide_velocity_antarctica_indicator"
+    "northward_tide_velocity_antarctica_indicator",
+    "mean_wave_direction_antarctica_indicator"
   ]
 }
