@@ -90,6 +90,7 @@
     "northward_tide_velocity_antarctica_indicator",
     "mean_wave_direction_antarctica_indicator",
     "maximum_crest_wave_antarctica_indicator",
-    "northward_tide_velocity_antarctica_indicator"
+    "northward_velocity_antarctica_indicator",
+    "eastward_velocity_antarctica_indicator"
   ]
 }
