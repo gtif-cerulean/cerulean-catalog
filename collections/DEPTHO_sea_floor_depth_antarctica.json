@@ -1,0 +1,115 @@
+{
+    "Name": "sea_floor_depth_antarctica",
+    "Title": "Sea floor depth below geoid",
+    "EodashIdentifier": "DEPTHO",
+    "Description": "N/A\n",
+    "Themes": [
+        "Aquaculture",
+        "Energy"
+    ],
+    "CollectionGroup": "Antarctica",
+    "Satellite": [
+        "placeholder"
+    ],
+    "Sensor": [
+        "placeholder"
+    ],
+    "Agency": [
+        "CMEMS"
+    ],
+    "Tags": [
+        "model"
+    ],
+    "Colorlegend": {
+        "title": "Sea floor depth below geoid [m]",
+        "range": [
+            "rgba(68, 1, 84, 1)",
+            "rgba(72, 35, 116, 1)",
+            "rgba(64, 67, 135, 1)",
+            "rgba(52, 94, 141, 1)",
+            "rgba(41, 120, 142, 1)",
+            "rgba(32, 144, 140, 1)",
+            "rgba(34, 167, 132, 1)",
+            "rgba(68, 190, 112, 1)",
+            "rgba(121, 209, 81, 1)",
+            "rgba(189, 223, 38, 1)",
+            "rgba(253, 231, 37, 1)"
+        ],
+        "domain": [
+            25,
+            5727
+        ]
+    },
+    "Resources": [
+        {
+            "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_static_202211--ext--bathy",
+            "Name": "JAXA_WMTS_PALSAR",
+            "Type": "OverwriteTimes",
+            "OverwriteBBox": [
+                -100,
+                -75,
+                -70,
+                -68
+            ],
+            "LayerId": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_static_202211--ext--bathy/deptho",
+            "Times": [
+                "2017"
+            ],
+            "Dimensions": {
+                "elevation": 0,
+                "style": "cmap:viridis"
+            },
+            "DataProjection": 3857
+        }
+    ],
+    "Provider": [
+        {
+            "Name": "E.U. Copernicus Marine Service Information (CMEMS)",
+            "Url": "https://data.marine.copernicus.eu/"
+        }
+    ],
+    "MapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+            -1371213.76,
+            -1405880.72,
+            5371213.76,
+            5405880.72
+        ]
+    },
+    "BaseLayers": [
+        {
+            "id": "cloudless-2023",
+            "name": "EOxCloudless 2023",
+            "url": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg",
+            "media_type": "image/jpeg",
+            "attribution": "{ EOxCloudless 2023: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"//s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"//eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2023) }",
+            "maxNativeZoom": 17,
+            "protocol": "xyz",
+            "visible": false
+        },
+        {
+            "id": "OSM",
+            "name": "OSM Background",
+            "url": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+            "media_type": "image/jpeg",
+            "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
+            "protocol": "xyz",
+            "visible": false
+        },
+        {
+            "id": "sx-cat_ortho320500",
+            "name": "Terrain Light Stereographic South",
+            "url": "//sxcat-demo.eox.at/sxcat_maps/wms",
+            "layers": "sx-cat_ortho320500",
+            "visible": true,
+            "protocol": "wms",
+            "DataProjection": {
+                "name": "ORTHO:320500",
+                "def": "+proj=ortho +lat_0=-90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs"
+            },
+            "Attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+        }
+    ]
+}
