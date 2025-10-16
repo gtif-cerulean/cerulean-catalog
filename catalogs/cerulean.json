@@ -93,6 +93,7 @@
     "VO_northward_velocity_antarctica_indicator",
     "UO_eastward_velocity_antarctica_indicator",
     "SHS1_sentinel1_ew_hh_antarctica",
-    "SHS1_sentinel1_iw_vv_antarctica"
+    "SHS1_sentinel1_iw_vv_antarctica",
+    "SHS1_sentinel2_l2a"
   ]
 }
