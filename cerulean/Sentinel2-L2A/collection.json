@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "Drift_Deformation",
+  "id": "Sentinel2-L2A",
   "stac_version": "1.1.0",
-  "description": "Nansat sea ice drift algorithm uses feature tracking and pattern matching. The gridded ice tracking vectors are then used to estimate sea ice deformation (divergence, shear and total deformation).",
+  "description": "SENTINEL_2_L2A",
   "links": [
     {
       "rel": "root",
@@ -12,12 +12,12 @@
     },
     {
       "rel": "child",
-      "href": "./Sentinel1-EW-HH/collection.json",
+      "href": "./Sentinel2-L2A/collection.json",
       "type": "application/json",
-      "title": "Sentinel 1 EW HH",
+      "title": "Sentinel 2 L2A",
       "endpointtype": "Sentinel Hub WMS",
-      "code": "SHS1",
-      "id": "Sentinel1-EW-HH",
+      "code": "SHS2L2A",
+      "id": "Sentinel2-L2A",
       "themes": [
         "Energy",
         "Aquaculture",
@@ -31,33 +31,10 @@
         "European Commission",
         "ESA"
       ],
-      "subcode": "SHS1",
+      "subcode": "SHS2L2A",
       "collection_group": "Other data",
       "satellite": [
-        "Sentinel-1"
-      ]
-    },
-    {
-      "rel": "service",
-      "href": "https://harshness-map.gtif.eox.at/processes/execute-deformation/execution",
-      "type": "text/plain",
-      "id": "drift_deformation",
-      "method": "POST",
-      "endpoint": "eoxhub_workspaces",
-      "body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/drift_deformation.json",
-      "eox:flatstyle": [
-        {
-          "id": "output_feature_tracking",
-          "url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/drift_deformation_ft_style.json"
-        },
-        {
-          "id": "output_deformation",
-          "url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/drift_deformation_deformation_style.json"
-        },
-        {
-          "id": "output_pm",
-          "url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/drift_deformation_pm_style.json"
-        }
+        "Sentinel-2"
       ]
     },
     {
@@ -132,15 +109,26 @@
       "title": "Cerulean GTIF project catalog"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
   "themes": [
-    "Shipping",
+    "Energy",
     "Aquaculture",
-    "Energy"
+    "Shipping"
   ],
-  "subcode": "drift_deformation_indicator",
-  "collection_group": "Capabilities",
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/drift_deformation.json",
-  "title": "Sea Ice Drift and Deformation",
+  "tags": [
+    "Sentinel",
+    "Open data"
+  ],
+  "agency": [
+    "European Commission",
+    "ESA"
+  ],
+  "subcode": "SHS2L2A",
+  "collection_group": "Other data",
+  "satellite": [
+    "Sentinel-2"
+  ],
+  "title": "Sentinel 2 L2A",
   "extent": {
     "spatial": {
       "bbox": [
@@ -162,9 +150,18 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "Copernicus",
+      "url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
+    },
+    {
+      "name": "Sentinel-Hub"
+    }
+  ],
   "summaries": {
     "subcode": [
-      "SHS1"
+      "SHS2L2A"
     ],
     "themes": [
       "Energy",
@@ -172,10 +169,19 @@
       "Shipping"
     ],
     "satellite": [
-      "Sentinel-1"
+      "Sentinel-2"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }
