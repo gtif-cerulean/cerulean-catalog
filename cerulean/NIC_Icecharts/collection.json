@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "DMI_Icecharts",
+  "id": "NIC_Icecharts",
   "stac_version": "1.1.0",
-  "description": "Collection of Danish Meteorological Institute Ice Charts since start of 2025",
+  "description": "Collection of US Antarctica ice charts since start of 2025",
   "links": [
     {
       "rel": "root",
@@ -12,18 +12,18 @@
     },
     {
       "rel": "child",
-      "href": "./DMI_Icecharts/collection.json",
+      "href": "./NIC_Icecharts/collection.json",
       "type": "application/json",
-      "title": "DMI Ice charts",
-      "endpointtype": "FlatGeobuf source",
-      "id": "DMI_Icecharts",
+      "title": "NIC Ice charts",
+      "endpointtype": "GeoJSON source",
+      "id": "NIC_Icecharts",
       "themes": [
         "Aquaculture",
         "Energy",
         "Shipping"
       ],
       "agency": [
-        "DMI"
+        "USNIC"
       ],
       "collection_group": "Sea Ice"
     },
@@ -85,7 +85,7 @@
     "Shipping"
   ],
   "agency": [
-    "DMI"
+    "USNIC"
   ],
   "collection_group": "Sea Ice",
   "eox:colorlegend": {
@@ -107,29 +107,29 @@
     "scaleType": "categorical",
     "markType": "circle"
   },
-  "title": "DMI Ice charts",
+  "title": "NIC Ice charts",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -80.24487203697491,
-          55.25698115978713,
-          10.033447326328545,
-          84.84935228034207
+          -179.99590861517464,
+          -78.73707592332723,
+          179.99999999983606,
+          -49.99999983750487
         ],
         [
-          -80.24487203697491,
-          55.25698115978713,
-          10.033447326328545,
-          84.84935228034207
+          -179.99590861517464,
+          -78.73707592332723,
+          179.99999999983606,
+          -49.99999983750487
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-01-01T00:00:00Z",
-          "2025-10-15T00:00:00Z"
+          "2025-01-03T00:00:00Z",
+          "2025-10-09T00:00:00Z"
         ]
       ]
     }
@@ -137,8 +137,8 @@
   "license": "other",
   "providers": [
     {
-      "name": "Danish Meteorological Institute (DMI)",
-      "url": "https://www.dmi.dk/"
+      "name": "U.S. NATIONAL ICE CENTER (USNIC)",
+      "url": "https://usicecenter.gov/Products/AntarcData"
     },
     {
       "name": "EOX",
