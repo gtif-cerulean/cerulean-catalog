@@ -45,7 +45,7 @@
     },
     "Resources": [
         {
-            "Name": "FlatGeobuf source",
+            "Name": "GeoJSON source",
             "OverwriteBBox": [
                 -100,
                 -75,
