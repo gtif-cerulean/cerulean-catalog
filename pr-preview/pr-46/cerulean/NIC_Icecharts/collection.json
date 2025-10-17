@@ -15,7 +15,7 @@
       "href": "./NIC_Icecharts/collection.json",
       "type": "application/json",
       "title": "NIC Ice charts",
-      "endpointtype": "FlatGeobuf source",
+      "endpointtype": "GeoJSON source",
       "id": "NIC_Icecharts",
       "themes": [
         "Aquaculture",
