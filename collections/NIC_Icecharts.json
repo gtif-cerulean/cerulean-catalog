@@ -52,7 +52,7 @@
                 -70,
                 -68
             ],
-            "DataProjection": 3857,
+            "DataProjection": 4326,
             "ParquetSource": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4WaZei3Y-02/nic-ice-charts/geojsons/daily_items.parquet"
         }
     ],
