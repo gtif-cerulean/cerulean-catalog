@@ -55,7 +55,7 @@
     "scaleType": "categorical",
     "markType": "circle"
   },
-  "proj:epsg": 3857,
+  "proj:epsg": 4326,
   "endpointtype": "FlatGeobuf source",
   "title": "NIC Ice charts",
   "extent": {
