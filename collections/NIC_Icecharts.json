@@ -46,9 +46,26 @@
     "Resources": [
         {
             "Name": "FlatGeobuf source",
+            "OverwriteBBox": [
+                -100,
+                -75,
+                -70,
+                -68
+            ],
+            "DataProjection": 3857,
             "ParquetSource": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4WaZei3Y-02/nic-ice-charts/geojsons/daily_items.parquet"
         }
     ],
+    "MapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+            -1371213.76,
+            -1405880.72,
+            5371213.76,
+            5405880.72
+        ]
+    },
     "BaseLayers": [
         {
             "id": "OSM",
