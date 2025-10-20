@@ -34,13 +34,17 @@
         "Start": "2022-01-01T00:00:00Z",
         "End": "today"
       },
-      "OverwriteBBox": [
-        -100,
-        -75,
-        -70,
-        -68
+      "BBox": [
+        -180,
+        -90,
+        180,
+        -60
       ],
-      "DataProjection": 3857
+      "DataProjection": {
+        "name": "EPSG:3031",
+        "def": "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [-3299207.53, -3333134.03, 3299207.53, 3333134.03]
+      }
     }
   ],
   "Provider": [
