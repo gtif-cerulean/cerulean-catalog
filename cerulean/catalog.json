@@ -1463,8 +1463,8 @@
       ],
       "subcode": "SHIP1",
       "satellite": [
-        "placeholder",
-        "Sentinel-1"
+        "Sentinel-1",
+        "placeholder"
       ],
       "sensor": [
         "placeholder"
@@ -2194,30 +2194,25 @@
     },
     {
       "rel": "child",
-      "href": "./Sentinel1-EW-HH_antarctica/collection.json",
+      "href": "./Sentinel1-EW-HH_antarctica_indicator/collection.json",
       "type": "application/json",
       "title": "Sentinel 1 EW HH Antarctica",
-      "code": "SHS1_ant",
-      "id": "Sentinel1-EW-HH_antarctica",
+      "id": "Sentinel1-EW-HH_antarctica_indicator",
       "themes": [
-        "Energy",
-        "Aquaculture",
         "Shipping"
       ],
-      "subcode": "SHS1_ant",
+      "subcode": [
+        "SHS1_ant"
+      ],
       "satellite": [
+        "multiple",
         "Sentinel-1"
+      ],
+      "sensor": [
+        "multiple"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
-      ],
-      "tags": [
-        "Sentinel",
-        "Open data"
-      ],
-      "agency": [
-        "European Commission",
-        "ESA"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
@@ -2233,30 +2228,25 @@
     },
     {
       "rel": "child",
-      "href": "./Sentinel1-IW-VV_antarctica/collection.json",
+      "href": "./Sentinel1-IW-VV_antarctica_indicator/collection.json",
       "type": "application/json",
       "title": "Sentinel 1 IW VV Antarctica",
-      "code": "SHS1VV_ant",
-      "id": "Sentinel1-IW-VV_antarctica",
+      "id": "Sentinel1-IW-VV_antarctica_indicator",
       "themes": [
-        "Energy",
-        "Aquaculture",
         "Shipping"
       ],
-      "subcode": "SHS1VV_ant",
+      "subcode": [
+        "SHS1VV_ant"
+      ],
       "satellite": [
+        "multiple",
         "Sentinel-1"
+      ],
+      "sensor": [
+        "multiple"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
-      ],
-      "tags": [
-        "Sentinel",
-        "Open data"
-      ],
-      "agency": [
-        "European Commission",
-        "ESA"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
