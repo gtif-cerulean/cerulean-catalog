@@ -471,16 +471,16 @@
   "summaries": {
     "subcode": [
       "MSIA",
-      "Polaris_algorithm_dmi_demo",
-      "SIT",
-      "SICONC",
-      "SIVELO",
-      "USI",
       "SST",
+      "SIVELO",
       "VSI",
+      "IBC",
+      "Polaris_algorithm_dmi_demo",
       "SHS1",
-      "IST",
-      "IBC"
+      "USI",
+      "SICONC",
+      "SIT",
+      "IST"
     ],
     "themes": [
       "Shipping",
@@ -495,8 +495,8 @@
       "placeholder"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
     ]
   }
 }
