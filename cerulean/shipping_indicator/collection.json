@@ -306,7 +306,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "image/jpeg",
+      "type": "('image/jpeg',)",
       "title": "EOxCloudless 2024",
       "roles": [
         "baselayer",
@@ -318,7 +318,7 @@
     {
       "rel": "wms",
       "href": "//sxcat-demo.eox.at/sxcat_maps/wms",
-      "type": "image/png",
+      "type": "('image/png',)",
       "title": "Terrain Light Stereographic North",
       "roles": [
         "baselayer",
@@ -335,7 +335,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "image/jpeg",
+      "type": "('image/jpeg',)",
       "title": "Terrain light",
       "roles": [
         "baselayer",
@@ -347,7 +347,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "image/jpeg",
+      "type": "('image/jpeg',)",
       "title": "OSM Background",
       "roles": [
         "baselayer",
@@ -359,7 +359,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
-      "type": "image/png",
+      "type": "('image/png',)",
       "title": "Overlay labels",
       "roles": [
         "overlay",
@@ -470,33 +470,33 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "MSIA",
-      "SST",
       "SIVELO",
-      "VSI",
-      "IBC",
-      "Polaris_algorithm_dmi_demo",
-      "SHS1",
       "USI",
-      "SICONC",
+      "SHS1",
+      "Polaris_algorithm_dmi_demo",
+      "IST",
       "SIT",
-      "IST"
+      "VSI",
+      "SST",
+      "MSIA",
+      "SICONC",
+      "IBC"
     ],
     "themes": [
+      "Aquaculture",
       "Shipping",
-      "Energy",
-      "Aquaculture"
+      "Energy"
     ],
     "satellite": [
-      "Sentinel-1",
-      "placeholder"
+      "placeholder",
+      "Sentinel-1"
     ],
     "sensor": [
       "placeholder"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
     ]
   }
 }
