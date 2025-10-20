@@ -188,7 +188,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-10-19T04:00:56.167537Z"
+          "2025-10-20T12:57:24.995485Z"
         ]
       ]
     }
@@ -201,8 +201,8 @@
     ],
     "themes": [
       "Shipping",
-      "Aquaculture",
-      "Energy"
+      "Energy",
+      "Aquaculture"
     ],
     "satellite": [
       "multiple",
