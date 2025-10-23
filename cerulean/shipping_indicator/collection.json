@@ -462,7 +462,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-10-29T00:00:00Z"
+          "2025-11-01T00:00:00Z"
         ]
       ]
     }
@@ -470,16 +470,16 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "Polaris_algorithm_dmi_demo",
-      "SIT",
-      "SICONC",
-      "SST",
-      "USI",
       "MSIA",
-      "SIVELO",
-      "IBC",
-      "IST",
       "SHS1",
+      "USI",
+      "IBC",
+      "Polaris_algorithm_dmi_demo",
+      "SIVELO",
+      "SST",
+      "SICONC",
+      "IST",
+      "SIT",
       "VSI"
     ],
     "themes": [
@@ -488,8 +488,8 @@
       "Energy"
     ],
     "satellite": [
-      "Sentinel-1",
-      "placeholder"
+      "placeholder",
+      "Sentinel-1"
     ],
     "sensor": [
       "placeholder"
