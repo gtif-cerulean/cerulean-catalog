@@ -15,7 +15,7 @@
       "href": "./sea_floor_depth/collection.json",
       "type": "application/json",
       "title": "Sea floor depth below geoid",
-      "endpointtype": "JAXA_WMTS_PALSAR_OverwriteTimes",
+      "endpointtype": "marinedatastore_WMTSCapabilities",
       "code": "DEPTHO",
       "id": "sea_floor_depth",
       "themes": [
@@ -152,18 +152,18 @@
     "spatial": {
       "bbox": [
         [
-          -180,
-          -60,
-          180,
-          85
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2017-01-01T00:00:00Z",
-          "2017-01-01T00:00:00Z"
+          "1970-01-01T00:00:00Z",
+          "2025-10-29T13:31:47.208564Z"
         ]
       ]
     }
@@ -180,8 +180,8 @@
       "DEPTHO"
     ],
     "themes": [
-      "Energy",
-      "Aquaculture"
+      "Aquaculture",
+      "Energy"
     ],
     "satellite": [
       "placeholder"

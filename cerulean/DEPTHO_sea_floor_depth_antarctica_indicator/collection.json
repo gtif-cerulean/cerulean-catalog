@@ -39,7 +39,7 @@
       "href": "./sea_floor_depth_antarctica/collection.json",
       "type": "application/json",
       "title": "Sea floor depth below geoid",
-      "endpointtype": "JAXA_WMTS_PALSAR_OverwriteTimes",
+      "endpointtype": "marinedatastore_WMTSCapabilities",
       "code": "DEPTHO",
       "id": "sea_floor_depth_antarctica",
       "themes": [
@@ -185,8 +185,8 @@
     "temporal": {
       "interval": [
         [
-          "2017-01-01T00:00:00Z",
-          "2025-10-08T00:00:00Z"
+          "1970-01-01T00:00:00Z",
+          "2025-10-29T13:33:16.170937Z"
         ]
       ]
     }
@@ -197,9 +197,9 @@
       "DEPTHO"
     ],
     "themes": [
-      "Energy",
       "Aquaculture",
-      "Shipping"
+      "Shipping",
+      "Energy"
     ],
     "satellite": [
       "multiple",
