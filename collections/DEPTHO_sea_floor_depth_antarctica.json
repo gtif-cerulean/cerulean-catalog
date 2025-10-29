@@ -43,8 +43,8 @@
     "Resources": [
         {
             "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_static_202211--ext--bathy",
-            "Name": "JAXA_WMTS_PALSAR",
-            "Type": "OverwriteTimes",
+            "Type": "WMTSCapabilities",
+            "Name": "marinedatastore",
             "OverwriteBBox": [
                 -100,
                 -75,

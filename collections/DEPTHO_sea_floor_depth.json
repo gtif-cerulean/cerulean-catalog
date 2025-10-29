@@ -43,17 +43,11 @@
   "Resources": [
     {
       "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_static_202211--ext--bathy",
-      "Name": "JAXA_WMTS_PALSAR",
-      "Type": "OverwriteTimes",
-      "OverwriteBBox": [
-        -180,
-        -60,
-        180,
-        85
-      ],
+      "Type": "WMTSCapabilities",
+      "Name": "marinedatastore",
       "LayerId": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_static_202211--ext--bathy/deptho",
       "Times": [
-        "2017"
+          "2017"
       ],
       "Dimensions": {
         "elevation": 0,
