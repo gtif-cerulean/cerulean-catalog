@@ -185,8 +185,8 @@
     "temporal": {
       "interval": [
         [
-          "1970-01-01T00:00:00Z",
-          "2025-11-02T04:01:00.663563Z"
+          "2017-01-01T00:00:00Z",
+          "2025-10-08T00:00:00Z"
         ]
       ]
     }
@@ -197,17 +197,17 @@
       "DEPTHO"
     ],
     "themes": [
-      "Shipping",
       "Energy",
+      "Shipping",
       "Aquaculture"
     ],
     "satellite": [
-      "placeholder",
-      "multiple"
+      "multiple",
+      "placeholder"
     ],
     "sensor": [
-      "placeholder",
-      "multiple"
+      "multiple",
+      "placeholder"
     ]
   }
 }

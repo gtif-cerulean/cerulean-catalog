@@ -96,8 +96,8 @@
     "temporal": {
       "interval": [
         [
-          "1970-01-01T00:00:00Z",
-          "2025-11-02T04:01:00.663563Z"
+          "2017-01-01T00:00:00Z",
+          "2017-01-01T00:00:00Z"
         ]
       ]
     }
@@ -108,5 +108,15 @@
       "name": "E.U. Copernicus Marine Service Information (CMEMS)",
       "url": "https://data.marine.copernicus.eu/"
     }
-  ]
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
 }
