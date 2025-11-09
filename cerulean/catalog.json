@@ -1463,8 +1463,8 @@
       ],
       "subcode": "SHIP1",
       "satellite": [
-        "placeholder",
-        "Sentinel-1"
+        "Sentinel-1",
+        "placeholder"
       ],
       "sensor": [
         "placeholder"
@@ -1503,8 +1503,8 @@
       ],
       "subcode": "polarwarp_sentinel1",
       "satellite": [
-        "multiple",
-        "Sentinel-1"
+        "Sentinel-1",
+        "multiple"
       ],
       "sensor": [
         "multiple"
@@ -2205,8 +2205,8 @@
         "SHS1_ant"
       ],
       "satellite": [
-        "multiple",
-        "Sentinel-1"
+        "Sentinel-1",
+        "multiple"
       ],
       "sensor": [
         "multiple"
@@ -2239,8 +2239,8 @@
         "SHS1VV_ant"
       ],
       "satellite": [
-        "multiple",
-        "Sentinel-1"
+        "Sentinel-1",
+        "multiple"
       ],
       "sensor": [
         "multiple"
