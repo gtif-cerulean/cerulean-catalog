@@ -180,7 +180,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-11-18T19:44:13.278686Z"
+          "2025-11-18T19:46:48.938943Z"
         ]
       ]
     }
@@ -188,13 +188,13 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "polarwarp",
-      "SHS1"
+      "SHS1",
+      "polarwarp"
     ],
     "themes": [
-      "Shipping",
+      "Aquaculture",
       "Energy",
-      "Aquaculture"
+      "Shipping"
     ],
     "satellite": [
       "multiple"

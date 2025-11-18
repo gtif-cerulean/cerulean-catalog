@@ -176,15 +176,15 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "Polaris_algorithm_dmi_demo",
+      "SHS1",
       "SID",
-      "SHS1"
+      "Polaris_algorithm_dmi_demo"
     ],
     "themes": [
-      "Shipping",
+      "Aquaculture",
       "shipping",
       "Energy",
-      "Aquaculture"
+      "Shipping"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
