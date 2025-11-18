@@ -2,27 +2,15 @@
   "Name": "Sentinel1-IW-VV",
   "Title": "Sentinel 1 IW VV",
   "EodashIdentifier": "SHS1VV",
-  "Description": "SENTINEL_1_IW_VV",
-  "CollectionGroup": "Other data",
+  "Description": "Sentinel 1, Interferometric Wide Swath, VV Polarization",
+  "CollectionGroup": "Satellite Data",
   "Themes": [
     "Energy",
     "Aquaculture",
     "Shipping"
   ],
-  "Tags": [
-    "Sentinel",
-    "Open data"
-  ],
-  "DataSource": {
-    "Spaceborne": {
-      "Satellite": [
-        "Sentinel-1"
-      ]
-    }
-  },
   "Agency": [
-    "European Commission",
-    "ESA"
+    "Sentinel Hub"
   ],
   "Image": "Lakes_Sentinel1/thumbnail.png",
   "Resources": [
@@ -35,14 +23,5 @@
         "End": "today"
       }
     }
-  ],
-  "Provider": [
-    {
-      "Name": "Copernicus",
-      "Url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
-    },
-    {
-      "Name": "Sentinel-Hub"
-    }
   ]
-}
+ }
