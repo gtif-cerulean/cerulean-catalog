@@ -2,27 +2,15 @@
     "Name": "Sentinel2-L2A",
     "Title": "Sentinel 2 L2A",
     "EodashIdentifier": "SHS2L2A",
-    "Description": "SENTINEL_2_L2A",
-    "CollectionGroup": "Other data",
+    "Description": "Sentinel 2, Level 2A",
+    "CollectionGroup": "Satellite Data",
     "Themes": [
         "Energy",
         "Aquaculture",
         "Shipping"
     ],
-    "Tags": [
-        "Sentinel",
-        "Open data"
-    ],
-    "DataSource": {
-        "Spaceborne": {
-            "Satellite": [
-                "Sentinel-2"
-            ]
-        }
-    },
     "Agency": [
-        "European Commission",
-        "ESA"
+        "Sentinel Hub"
     ],
     "Image": "Lakes_Sentinel1/thumbnail.png",
     "Resources": [
@@ -34,15 +22,6 @@
                 "Start": "2022-01-01T00:00:00Z",
                 "End": "today"
             }
-        }
-    ],
-    "Provider": [
-        {
-            "Name": "Copernicus",
-            "Url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
-        },
-        {
-            "Name": "Sentinel-Hub"
         }
     ]
 }
