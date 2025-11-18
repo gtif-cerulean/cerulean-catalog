@@ -43,18 +43,7 @@
       "code": "SST",
       "id": "surface_snow_thickness_antarctica",
       "themes": [
-        "Aquaculture",
-        "Energy",
         "Shipping"
-      ],
-      "tags": [
-        "model"
-      ],
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
       ],
       "agency": [
         "CMEMS"
@@ -198,17 +187,13 @@
       "SST"
     ],
     "themes": [
-      "Energy",
-      "Aquaculture",
       "Shipping"
     ],
     "satellite": [
-      "multiple",
-      "placeholder"
+      "multiple"
     ],
     "sensor": [
-      "multiple",
-      "placeholder"
+      "multiple"
     ]
   }
 }

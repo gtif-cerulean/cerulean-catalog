@@ -376,17 +376,17 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "SHS1",
+      "SST",
       "VSI",
-      "IST",
-      "USI",
-      "Polaris_algorithm_dmi_demo",
-      "IBC",
+      "SIVELO",
       "SIT",
       "SICONC",
-      "SST",
-      "SIVELO",
-      "MSIA"
+      "SHS1",
+      "USI",
+      "IBC",
+      "Polaris_algorithm_dmi_demo",
+      "MSIA",
+      "IST"
     ],
     "themes": [
       "Energy",
