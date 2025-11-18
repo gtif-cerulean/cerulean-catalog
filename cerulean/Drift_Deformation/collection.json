@@ -167,9 +167,9 @@
       "SHS1"
     ],
     "themes": [
+      "Energy",
       "Shipping",
-      "Aquaculture",
-      "Energy"
+      "Aquaculture"
     ],
     "satellite": [
       "Sentinel-1"

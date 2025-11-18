@@ -198,17 +198,17 @@
       "VOTIDE"
     ],
     "themes": [
-      "Shipping",
+      "Energy",
       "Aquaculture",
-      "Energy"
+      "Shipping"
     ],
     "satellite": [
-      "multiple",
-      "placeholder"
+      "placeholder",
+      "multiple"
     ],
     "sensor": [
-      "multiple",
-      "placeholder"
+      "placeholder",
+      "multiple"
     ]
   }
 }

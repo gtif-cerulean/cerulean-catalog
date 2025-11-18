@@ -385,21 +385,21 @@
   "summaries": {
     "subcode": [
       "IST",
-      "SIVELO",
-      "USI",
-      "Polaris_algorithm_dmi_demo",
       "SHS1",
-      "IBC",
-      "SICONC",
-      "VSI",
-      "SST",
+      "MSIA",
       "SIT",
-      "MSIA"
+      "SST",
+      "USI",
+      "SIVELO",
+      "IBC",
+      "VSI",
+      "SICONC",
+      "Polaris_algorithm_dmi_demo"
     ],
     "themes": [
+      "Energy",
       "Shipping",
-      "Aquaculture",
-      "Energy"
+      "Aquaculture"
     ],
     "satellite": [
       "Sentinel-1"
