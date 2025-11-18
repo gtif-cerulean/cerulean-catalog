@@ -70,8 +70,8 @@
         "Sentinel-1"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
       ],
       "collection_group": "Capabilities"
     },
@@ -1089,20 +1089,11 @@
       "code": "UOTIDE",
       "id": "eastward_tide_velocity",
       "themes": [
+        "Shipping",
         "Aquaculture",
-        "Energy",
-        "Shipping"
+        "Energy"
       ],
       "subcode": "UOTIDE",
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
-      ],
-      "tags": [
-        "model"
-      ],
       "agency": [
         "CMEMS"
       ],
@@ -1328,8 +1319,8 @@
         "placeholder"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
       ],
       "collection_group": "Capabilities"
     },
@@ -1361,8 +1352,8 @@
       ],
       "subcode": "polarwarp_sentinel1",
       "satellite": [
-        "multiple",
-        "Sentinel-1"
+        "Sentinel-1",
+        "multiple"
       ],
       "sensor": [
         "multiple"
@@ -2044,8 +2035,8 @@
         "SHS1_ant"
       ],
       "satellite": [
-        "multiple",
-        "Sentinel-1"
+        "Sentinel-1",
+        "multiple"
       ],
       "sensor": [
         "multiple"
@@ -2078,8 +2069,8 @@
         "SHS1VV_ant"
       ],
       "satellite": [
-        "multiple",
-        "Sentinel-1"
+        "Sentinel-1",
+        "multiple"
       ],
       "sensor": [
         "multiple"
