@@ -908,20 +908,11 @@
       "code": "VHM0",
       "id": "wave_significant_height",
       "themes": [
-        "Energy",
+        "Shipping",
         "Aquaculture",
-        "Shipping"
+        "Energy"
       ],
       "subcode": "VHM0",
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
-      ],
-      "tags": [
-        "model"
-      ],
       "agency": [
         "CMEMS"
       ],
@@ -935,20 +926,11 @@
       "code": "VMDR",
       "id": "mean_wave_direction",
       "themes": [
+        "Shipping",
         "Aquaculture",
-        "Energy",
-        "Shipping"
+        "Energy"
       ],
       "subcode": "VMDR",
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
-      ],
-      "tags": [
-        "model"
-      ],
       "agency": [
         "CMEMS"
       ],
@@ -1005,20 +987,9 @@
       "code": "VO",
       "id": "northward_velocity",
       "themes": [
-        "Aquaculture",
-        "Energy",
         "Shipping"
       ],
       "subcode": "VO",
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
-      ],
-      "tags": [
-        "model"
-      ],
       "agency": [
         "CMEMS"
       ],
@@ -1098,20 +1069,9 @@
       "code": "VOTIDE",
       "id": "northwad_tide_velocity",
       "themes": [
-        "Aquaculture",
-        "Energy",
         "Shipping"
       ],
       "subcode": "VOTIDE",
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
-      ],
-      "tags": [
-        "model"
-      ],
       "agency": [
         "CMEMS"
       ],
