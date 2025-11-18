@@ -192,18 +192,7 @@
       "code": "VSI",
       "id": "sea_ice_northward_velocity",
       "themes": [
-        "Aquaculture",
-        "Energy",
         "Shipping"
-      ],
-      "tags": [
-        "model"
-      ],
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
       ],
       "agency": [
         "CMEMS"
@@ -395,33 +384,29 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "Polaris_algorithm_dmi_demo",
-      "IST",
-      "MSIA",
-      "VSI",
-      "SHS1",
-      "IBC",
-      "USI",
       "SST",
       "SIVELO",
+      "VSI",
+      "IBC",
+      "SICONC",
+      "Polaris_algorithm_dmi_demo",
+      "IST",
       "SIT",
-      "SICONC"
+      "USI",
+      "SHS1",
+      "MSIA"
     ],
     "themes": [
-      "Energy",
       "Aquaculture",
+      "Energy",
       "Shipping"
     ],
     "satellite": [
-      "placeholder",
       "Sentinel-1"
     ],
-    "sensor": [
-      "placeholder"
-    ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
     ]
   }
 }
