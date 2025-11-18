@@ -761,20 +761,9 @@
       "code": "AD",
       "id": "air_density",
       "themes": [
-        "Aquaculture",
-        "Energy",
-        "Shipping"
+        "Energy"
       ],
       "subcode": "AD",
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
-      ],
-      "tags": [
-        "model"
-      ],
       "agency": [
         "CMEMS"
       ],
@@ -1503,8 +1492,8 @@
       ],
       "subcode": "polarwarp_sentinel1",
       "satellite": [
-        "Sentinel-1",
-        "multiple"
+        "multiple",
+        "Sentinel-1"
       ],
       "sensor": [
         "multiple"
@@ -2205,8 +2194,8 @@
         "SHS1_ant"
       ],
       "satellite": [
-        "Sentinel-1",
-        "multiple"
+        "multiple",
+        "Sentinel-1"
       ],
       "sensor": [
         "multiple"
@@ -2239,8 +2228,8 @@
         "SHS1VV_ant"
       ],
       "satellite": [
-        "Sentinel-1",
-        "multiple"
+        "multiple",
+        "Sentinel-1"
       ],
       "sensor": [
         "multiple"

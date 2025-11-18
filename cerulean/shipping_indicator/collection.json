@@ -462,7 +462,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-11-25T00:00:00Z"
+          "2025-11-27T00:00:00Z"
         ]
       ]
     }
@@ -471,21 +471,21 @@
   "summaries": {
     "subcode": [
       "IBC",
-      "SIVELO",
+      "IST",
+      "VSI",
       "SST",
       "MSIA",
-      "USI",
-      "SICONC",
-      "SHS1",
       "Polaris_algorithm_dmi_demo",
+      "SICONC",
+      "USI",
       "SIT",
-      "VSI",
-      "IST"
+      "SHS1",
+      "SIVELO"
     ],
     "themes": [
+      "Shipping",
       "Aquaculture",
-      "Energy",
-      "Shipping"
+      "Energy"
     ],
     "satellite": [
       "placeholder",
