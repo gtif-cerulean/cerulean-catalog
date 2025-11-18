@@ -139,18 +139,7 @@
       "code": "SST",
       "id": "surface_snow_thickness",
       "themes": [
-        "Aquaculture",
-        "Energy",
         "Shipping"
-      ],
-      "tags": [
-        "model"
-      ],
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
       ],
       "agency": [
         "CMEMS"
@@ -416,16 +405,16 @@
   "summaries": {
     "subcode": [
       "USI",
-      "SHS1",
-      "IBC",
-      "SICONC",
-      "SIVELO",
+      "SIT",
       "Polaris_algorithm_dmi_demo",
-      "SST",
-      "VSI",
+      "SHS1",
+      "SICONC",
       "MSIA",
       "IST",
-      "SIT"
+      "SIVELO",
+      "SST",
+      "IBC",
+      "VSI"
     ],
     "themes": [
       "Energy",

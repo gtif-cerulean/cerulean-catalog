@@ -1094,20 +1094,9 @@
       "code": "SSTA",
       "id": "sea_surface_temperature_anomaly",
       "themes": [
-        "Aquaculture",
-        "Energy",
         "Shipping"
       ],
       "subcode": "SSTA",
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
-      ],
-      "tags": [
-        "model"
-      ],
       "agency": [
         "CMEMS"
       ],
@@ -1231,20 +1220,9 @@
       "code": "SST",
       "id": "surface_snow_thickness",
       "themes": [
-        "Aquaculture",
-        "Energy",
         "Shipping"
       ],
       "subcode": "SST",
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
-      ],
-      "tags": [
-        "model"
-      ],
       "agency": [
         "CMEMS"
       ],
@@ -1652,12 +1630,12 @@
       ],
       "subcode": "sea_floor_depth_antarctica",
       "satellite": [
-        "multiple",
-        "placeholder"
+        "placeholder",
+        "multiple"
       ],
       "sensor": [
-        "multiple",
-        "placeholder"
+        "placeholder",
+        "multiple"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
@@ -1683,12 +1661,12 @@
       ],
       "subcode": "mean_sea_ice_age_antarctica",
       "satellite": [
-        "multiple",
-        "placeholder"
+        "placeholder",
+        "multiple"
       ],
       "sensor": [
-        "multiple",
-        "placeholder"
+        "placeholder",
+        "multiple"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
@@ -1714,12 +1692,12 @@
       ],
       "subcode": "sea_ice_eastward_velocity_antarctica",
       "satellite": [
-        "multiple",
-        "placeholder"
+        "placeholder",
+        "multiple"
       ],
       "sensor": [
-        "multiple",
-        "placeholder"
+        "placeholder",
+        "multiple"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
@@ -1745,12 +1723,12 @@
       ],
       "subcode": "sea_ice_northward_velocity_antarctica",
       "satellite": [
-        "multiple",
-        "placeholder"
+        "placeholder",
+        "multiple"
       ],
       "sensor": [
-        "multiple",
-        "placeholder"
+        "placeholder",
+        "multiple"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
@@ -1776,12 +1754,12 @@
       ],
       "subcode": "sea_ice_speed_antarctica",
       "satellite": [
-        "multiple",
-        "placeholder"
+        "placeholder",
+        "multiple"
       ],
       "sensor": [
-        "multiple",
-        "placeholder"
+        "placeholder",
+        "multiple"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
@@ -1807,12 +1785,12 @@
       ],
       "subcode": "sea_ice_surface_temperature_antarctica",
       "satellite": [
-        "multiple",
-        "placeholder"
+        "placeholder",
+        "multiple"
       ],
       "sensor": [
-        "multiple",
-        "placeholder"
+        "placeholder",
+        "multiple"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
@@ -1838,12 +1816,12 @@
       ],
       "subcode": "sea_ice_thickness_antarctica",
       "satellite": [
-        "multiple",
-        "placeholder"
+        "placeholder",
+        "multiple"
       ],
       "sensor": [
-        "multiple",
-        "placeholder"
+        "placeholder",
+        "multiple"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
@@ -1869,12 +1847,12 @@
       ],
       "subcode": "surface_snow_thickness_antarctica",
       "satellite": [
-        "multiple",
-        "placeholder"
+        "placeholder",
+        "multiple"
       ],
       "sensor": [
-        "multiple",
-        "placeholder"
+        "placeholder",
+        "multiple"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
@@ -1900,12 +1878,12 @@
       ],
       "subcode": "eastward_tide_velocity_antarctica",
       "satellite": [
-        "multiple",
-        "placeholder"
+        "placeholder",
+        "multiple"
       ],
       "sensor": [
-        "multiple",
-        "placeholder"
+        "placeholder",
+        "multiple"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
@@ -1931,12 +1909,12 @@
       ],
       "subcode": "northwad_tide_velocity_antarctica",
       "satellite": [
-        "multiple",
-        "placeholder"
+        "placeholder",
+        "multiple"
       ],
       "sensor": [
-        "multiple",
-        "placeholder"
+        "placeholder",
+        "multiple"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
@@ -1962,12 +1940,12 @@
       ],
       "subcode": "mean_wave_direction_antarctica",
       "satellite": [
-        "multiple",
-        "placeholder"
+        "placeholder",
+        "multiple"
       ],
       "sensor": [
-        "multiple",
-        "placeholder"
+        "placeholder",
+        "multiple"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
@@ -1993,12 +1971,12 @@
       ],
       "subcode": "maximum_crest_wave_antarctica",
       "satellite": [
-        "multiple",
-        "placeholder"
+        "placeholder",
+        "multiple"
       ],
       "sensor": [
-        "multiple",
-        "placeholder"
+        "placeholder",
+        "multiple"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
@@ -2024,12 +2002,12 @@
       ],
       "subcode": "northward_velocity_antarctica",
       "satellite": [
-        "multiple",
-        "placeholder"
+        "placeholder",
+        "multiple"
       ],
       "sensor": [
-        "multiple",
-        "placeholder"
+        "placeholder",
+        "multiple"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
@@ -2055,12 +2033,12 @@
       ],
       "subcode": "eastward_velocity_antarctica",
       "satellite": [
-        "multiple",
-        "placeholder"
+        "placeholder",
+        "multiple"
       ],
       "sensor": [
-        "multiple",
-        "placeholder"
+        "placeholder",
+        "multiple"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
