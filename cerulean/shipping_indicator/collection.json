@@ -384,22 +384,22 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "SICONC",
-      "SIVELO",
-      "VSI",
-      "SIT",
-      "USI",
-      "IBC",
-      "SHS1",
-      "Polaris_algorithm_dmi_demo",
-      "MSIA",
       "IST",
-      "SST"
+      "SIVELO",
+      "USI",
+      "Polaris_algorithm_dmi_demo",
+      "SHS1",
+      "IBC",
+      "SICONC",
+      "VSI",
+      "SST",
+      "SIT",
+      "MSIA"
     ],
     "themes": [
-      "Energy",
       "Shipping",
-      "Aquaculture"
+      "Aquaculture",
+      "Energy"
     ],
     "satellite": [
       "Sentinel-1"

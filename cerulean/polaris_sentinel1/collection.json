@@ -190,9 +190,9 @@
     ],
     "themes": [
       "shipping",
-      "Energy",
       "Shipping",
-      "Aquaculture"
+      "Aquaculture",
+      "Energy"
     ],
     "satellite": [
       "Sentinel-1"

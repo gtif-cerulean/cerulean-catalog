@@ -43,18 +43,7 @@
       "code": "IST",
       "id": "sea_ice_surface_temperature_antarctica",
       "themes": [
-        "Aquaculture",
-        "Energy",
         "Shipping"
-      ],
-      "tags": [
-        "model"
-      ],
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
       ],
       "agency": [
         "CMEMS"
@@ -198,16 +187,12 @@
       "IST"
     ],
     "themes": [
-      "Energy",
-      "Aquaculture",
       "Shipping"
     ],
     "satellite": [
-      "placeholder",
       "multiple"
     ],
     "sensor": [
-      "placeholder",
       "multiple"
     ]
   }
