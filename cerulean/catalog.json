@@ -67,8 +67,8 @@
       ],
       "subcode": "POS1",
       "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
       ],
       "collection_group": "Capabilities"
     },
@@ -1179,8 +1179,8 @@
       ],
       "subcode": "SHIP1",
       "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
       ],
       "collection_group": "Capabilities"
     },
@@ -1254,6 +1254,22 @@
         "Met Office"
       ],
       "collection_group": "Capabilities"
+    },
+    {
+      "rel": "child",
+      "href": "./cmems_balitic_ice_concentration/collection.json",
+      "type": "application/json",
+      "title": "Baltic Sea Ice Concentration",
+      "code": "cmems_baltic_ice_concentration",
+      "id": "cmems_balitic_ice_concentration",
+      "themes": [
+        "Baltic"
+      ],
+      "subcode": "cmems_baltic_ice_concentration",
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Baltic"
     },
     {
       "rel": "child",
