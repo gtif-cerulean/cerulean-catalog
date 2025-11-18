@@ -43,18 +43,7 @@
       "code": "VOTIDE",
       "id": "northwad_tide_velocity_antarctica",
       "themes": [
-        "Aquaculture",
-        "Energy",
         "Shipping"
-      ],
-      "tags": [
-        "model"
-      ],
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
       ],
       "agency": [
         "CMEMS"
@@ -198,17 +187,13 @@
       "VOTIDE"
     ],
     "themes": [
-      "Shipping",
-      "Energy",
-      "Aquaculture"
+      "Shipping"
     ],
     "satellite": [
-      "multiple",
-      "placeholder"
+      "multiple"
     ],
     "sensor": [
-      "multiple",
-      "placeholder"
+      "multiple"
     ]
   }
 }
