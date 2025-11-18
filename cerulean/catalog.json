@@ -1197,20 +1197,9 @@
       "code": "IST",
       "id": "sea_ice_surface_temperature",
       "themes": [
-        "Aquaculture",
-        "Energy",
         "Shipping"
       ],
       "subcode": "IST",
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
-      ],
-      "tags": [
-        "model"
-      ],
       "agency": [
         "CMEMS"
       ],
@@ -1410,20 +1399,9 @@
       "code": "IBC",
       "id": "iceberg_concentration",
       "themes": [
-        "Aquaculture",
-        "Energy",
         "Shipping"
       ],
       "subcode": "IBC",
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
-      ],
-      "tags": [
-        "model"
-      ],
       "agency": [
         "CMEMS"
       ],
