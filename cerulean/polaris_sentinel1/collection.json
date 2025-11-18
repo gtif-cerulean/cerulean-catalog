@@ -176,13 +176,13 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "SHS1",
       "Polaris_algorithm_dmi_demo",
+      "SHS1",
       "SID"
     ],
     "themes": [
-      "Energy",
       "shipping",
+      "Energy",
       "Shipping",
       "Aquaculture"
     ],
