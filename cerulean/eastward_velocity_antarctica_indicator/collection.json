@@ -43,18 +43,7 @@
       "code": "UO",
       "id": "eastward_velocity_antarctica",
       "themes": [
-        "Aquaculture",
-        "Energy",
         "Shipping"
-      ],
-      "tags": [
-        "model"
-      ],
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
       ],
       "agency": [
         "CMEMS"
@@ -198,16 +187,12 @@
       "UO"
     ],
     "themes": [
-      "Energy",
-      "Aquaculture",
       "Shipping"
     ],
     "satellite": [
-      "placeholder",
       "multiple"
     ],
     "sensor": [
-      "placeholder",
       "multiple"
     ]
   }
