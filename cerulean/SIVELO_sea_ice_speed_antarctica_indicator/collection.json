@@ -198,17 +198,17 @@
       "SIVELO"
     ],
     "themes": [
+      "Shipping",
       "Energy",
-      "Aquaculture",
-      "Shipping"
+      "Aquaculture"
     ],
     "satellite": [
-      "placeholder",
-      "multiple"
+      "multiple",
+      "placeholder"
     ],
     "sensor": [
-      "placeholder",
-      "multiple"
+      "multiple",
+      "placeholder"
     ]
   }
 }

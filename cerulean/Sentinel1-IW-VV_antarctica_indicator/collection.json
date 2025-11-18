@@ -47,19 +47,11 @@
         "Aquaculture",
         "Shipping"
       ],
-      "tags": [
-        "Sentinel",
-        "Open data"
-      ],
       "agency": [
-        "European Commission",
-        "ESA"
+        "Sentinel Hub"
       ],
       "subcode": "SHS1VV_ant",
       "collection_group": "Antarctica",
-      "satellite": [
-        "Sentinel-1"
-      ],
       "eodash:mapProjection": {
         "name": "EPSG:32761",
         "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
@@ -190,12 +182,11 @@
       "SHS1VV_ant"
     ],
     "themes": [
+      "Shipping",
       "Energy",
-      "Aquaculture",
-      "Shipping"
+      "Aquaculture"
     ],
     "satellite": [
-      "Sentinel-1",
       "multiple"
     ],
     "sensor": [
