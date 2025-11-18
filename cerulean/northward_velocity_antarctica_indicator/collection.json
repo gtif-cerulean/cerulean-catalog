@@ -43,18 +43,7 @@
       "code": "VO",
       "id": "northward_velocity_antarctica",
       "themes": [
-        "Aquaculture",
-        "Energy",
         "Shipping"
-      ],
-      "tags": [
-        "model"
-      ],
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
       ],
       "agency": [
         "CMEMS"
@@ -198,17 +187,13 @@
       "VO"
     ],
     "themes": [
-      "Energy",
-      "Shipping",
-      "Aquaculture"
+      "Shipping"
     ],
     "satellite": [
-      "multiple",
-      "placeholder"
+      "multiple"
     ],
     "sensor": [
-      "multiple",
-      "placeholder"
+      "multiple"
     ]
   }
 }
