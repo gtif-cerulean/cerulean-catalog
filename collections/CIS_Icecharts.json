@@ -4,13 +4,10 @@
     "Subtitle": "",
     "Description": "Collection of Canadian Ice Service since start of 2025",
     "CollectionGroup": "Sea Ice",
-    "Themes": ["Aquaculture", "Energy", "Shipping"],
-    "Tags": [],
-    "Other": [],
+    "Themes": ["Shipping"],
     "Agency": ["CIS"],
     "Provider": [
         {"Name": "Canadian Ice Service (CIS)", "Url": "https://www.canada.ca/en/environment-climate-change/services/ice-forecasts-observations/about-ice-service.html"},
-        {"Name": "EOX", "Url": "https://eox.at/"}
     ],
     "Colorlegend": {
         "title": "Total Sea Ice Concentration",
