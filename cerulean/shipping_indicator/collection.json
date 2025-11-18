@@ -385,28 +385,28 @@
   "summaries": {
     "subcode": [
       "SST",
+      "IBC",
+      "USI",
+      "IST",
+      "MSIA",
       "SIVELO",
       "VSI",
-      "IBC",
-      "SICONC",
       "Polaris_algorithm_dmi_demo",
-      "IST",
       "SIT",
-      "USI",
-      "SHS1",
-      "MSIA"
+      "SICONC",
+      "SHS1"
     ],
     "themes": [
-      "Aquaculture",
       "Energy",
+      "Aquaculture",
       "Shipping"
     ],
     "satellite": [
       "Sentinel-1"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
     ]
   }
 }

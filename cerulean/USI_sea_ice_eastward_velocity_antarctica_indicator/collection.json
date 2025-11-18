@@ -198,17 +198,17 @@
       "USI"
     ],
     "themes": [
-      "Aquaculture",
       "Energy",
+      "Aquaculture",
       "Shipping"
     ],
     "satellite": [
-      "multiple",
-      "placeholder"
+      "placeholder",
+      "multiple"
     ],
     "sensor": [
-      "multiple",
-      "placeholder"
+      "placeholder",
+      "multiple"
     ]
   }
 }
