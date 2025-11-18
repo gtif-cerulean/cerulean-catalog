@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "Sentinel1-EW-HH_antarctica",
   "stac_version": "1.1.0",
-  "description": "SENTINEL_1_IW_VV",
+  "description": "Sentinel 1, Extra Wide Swath, HH Polarization",
   "links": [
     {
       "rel": "root",
@@ -45,19 +45,11 @@
     "Aquaculture",
     "Shipping"
   ],
-  "tags": [
-    "Sentinel",
-    "Open data"
-  ],
   "agency": [
-    "European Commission",
-    "ESA"
+    "Sentinel Hub"
   ],
   "subcode": "SHS1_ant",
   "collection_group": "Antarctica",
-  "satellite": [
-    "Sentinel-1"
-  ],
   "eodash:mapProjection": {
     "name": "EPSG:32761",
     "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
@@ -101,15 +93,6 @@
     }
   },
   "license": "other",
-  "providers": [
-    {
-      "name": "Copernicus",
-      "url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
-    },
-    {
-      "name": "Sentinel-Hub"
-    }
-  ],
   "assets": {
     "geoparquet": {
       "href": "./items.parquet",

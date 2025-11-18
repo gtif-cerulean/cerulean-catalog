@@ -376,16 +376,16 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "SICONC",
-      "SHS1",
+      "USI",
+      "VSI",
+      "Polaris_algorithm_dmi_demo",
+      "MSIA",
+      "SIT",
       "SST",
       "IBC",
+      "SHS1",
+      "SICONC",
       "SIVELO",
-      "MSIA",
-      "Polaris_algorithm_dmi_demo",
-      "VSI",
-      "SIT",
-      "USI",
       "IST"
     ],
     "themes": [
@@ -394,8 +394,8 @@
       "Energy"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
     ]
   }
 }
