@@ -376,21 +376,21 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "USI",
-      "IST",
-      "Polaris_algorithm_dmi_demo",
-      "SST",
-      "IBC",
       "SHS1",
       "MSIA",
-      "SICONC",
-      "SIVELO",
+      "IST",
+      "USI",
+      "SIT",
+      "Polaris_algorithm_dmi_demo",
+      "SST",
       "VSI",
-      "SIT"
+      "SIVELO",
+      "SICONC",
+      "IBC"
     ],
     "themes": [
-      "Aquaculture",
       "Energy",
+      "Aquaculture",
       "Shipping"
     ],
     "thumbnail": [
