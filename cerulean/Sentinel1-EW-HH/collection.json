@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "Sentinel1-EW-HH",
   "stac_version": "1.1.0",
-  "description": "SENTINEL_1_IW_VV",
+  "description": "SENTINEL 1, Extra Wide Swath, HH Polarization",
   "links": [
     {
       "rel": "root",
@@ -23,19 +23,11 @@
         "Aquaculture",
         "Shipping"
       ],
-      "tags": [
-        "Sentinel",
-        "Open data"
-      ],
       "agency": [
-        "European Commission",
-        "ESA"
+        "Sentinel Hub"
       ],
       "subcode": "SHS1",
-      "collection_group": "Other data",
-      "satellite": [
-        "Sentinel-1"
-      ]
+      "collection_group": "Satellite Data"
     },
     {
       "rel": "xyz",
@@ -115,19 +107,11 @@
     "Aquaculture",
     "Shipping"
   ],
-  "tags": [
-    "Sentinel",
-    "Open data"
-  ],
   "agency": [
-    "European Commission",
-    "ESA"
+    "Sentinel Hub"
   ],
   "subcode": "SHS1",
-  "collection_group": "Other data",
-  "satellite": [
-    "Sentinel-1"
-  ],
+  "collection_group": "Satellite Data",
   "title": "Sentinel 1 EW HH",
   "extent": {
     "spatial": {
@@ -150,26 +134,14 @@
     }
   },
   "license": "other",
-  "providers": [
-    {
-      "name": "Copernicus",
-      "url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
-    },
-    {
-      "name": "Sentinel-Hub"
-    }
-  ],
   "summaries": {
     "subcode": [
       "SHS1"
     ],
     "themes": [
-      "Energy",
       "Shipping",
-      "Aquaculture"
-    ],
-    "satellite": [
-      "Sentinel-1"
+      "Aquaculture",
+      "Energy"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"

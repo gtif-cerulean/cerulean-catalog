@@ -154,9 +154,9 @@
       "VMDR"
     ],
     "themes": [
-      "Energy",
       "Aquaculture",
-      "Shipping"
+      "Shipping",
+      "Energy"
     ]
   }
 }

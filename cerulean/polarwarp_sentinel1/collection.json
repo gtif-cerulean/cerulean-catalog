@@ -54,19 +54,11 @@
         "Aquaculture",
         "Shipping"
       ],
-      "tags": [
-        "Sentinel",
-        "Open data"
-      ],
       "agency": [
-        "European Commission",
-        "ESA"
+        "Sentinel Hub"
       ],
       "subcode": "SHS1",
-      "collection_group": "Other data",
-      "satellite": [
-        "Sentinel-1"
-      ]
+      "collection_group": "Satellite Data"
     },
     {
       "rel": "service",
@@ -188,7 +180,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-11-18T18:56:53.236000Z"
+          "2025-11-18T19:04:21.307459Z"
         ]
       ]
     }
@@ -200,12 +192,11 @@
       "polarwarp"
     ],
     "themes": [
-      "Energy",
+      "Aquaculture",
       "Shipping",
-      "Aquaculture"
+      "Energy"
     ],
     "satellite": [
-      "Sentinel-1",
       "multiple"
     ],
     "sensor": [

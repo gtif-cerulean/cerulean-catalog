@@ -40,19 +40,11 @@
         "Aquaculture",
         "Shipping"
       ],
-      "tags": [
-        "Sentinel",
-        "Open data"
-      ],
       "agency": [
-        "European Commission",
-        "ESA"
+        "Sentinel Hub"
       ],
       "subcode": "SHS1",
-      "collection_group": "Other data",
-      "satellite": [
-        "Sentinel-1"
-      ]
+      "collection_group": "Satellite Data"
     },
     {
       "rel": "child",
@@ -384,29 +376,26 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "IST",
-      "SHS1",
-      "MSIA",
-      "SIT",
-      "SST",
-      "USI",
-      "SIVELO",
-      "IBC",
-      "VSI",
       "SICONC",
-      "Polaris_algorithm_dmi_demo"
+      "SHS1",
+      "SST",
+      "IBC",
+      "SIVELO",
+      "MSIA",
+      "Polaris_algorithm_dmi_demo",
+      "VSI",
+      "SIT",
+      "USI",
+      "IST"
     ],
     "themes": [
-      "Energy",
+      "Aquaculture",
       "Shipping",
-      "Aquaculture"
-    ],
-    "satellite": [
-      "Sentinel-1"
+      "Energy"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
     ]
   }
 }

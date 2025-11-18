@@ -152,8 +152,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-11-18T18:56:57.893964Z",
-          "2025-11-18T18:56:57.893964Z"
+          "2025-11-18T19:04:25.775685Z",
+          "2025-11-18T19:04:25.775685Z"
         ]
       ]
     }
@@ -161,8 +161,8 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Energy",
-      "Shipping"
+      "Shipping",
+      "Energy"
     ],
     "satellite": [
       "multiple"
