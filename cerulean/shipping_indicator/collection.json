@@ -376,26 +376,26 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "USI",
-      "VSI",
-      "Polaris_algorithm_dmi_demo",
-      "MSIA",
-      "SIT",
-      "SST",
-      "IBC",
       "SHS1",
-      "SICONC",
+      "MSIA",
       "SIVELO",
-      "IST"
+      "VSI",
+      "USI",
+      "IBC",
+      "Polaris_algorithm_dmi_demo",
+      "IST",
+      "SICONC",
+      "SST",
+      "SIT"
     ],
     "themes": [
+      "Energy",
       "Aquaculture",
-      "Shipping",
-      "Energy"
+      "Shipping"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
     ]
   }
 }

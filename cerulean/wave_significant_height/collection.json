@@ -169,9 +169,9 @@
       "VHM0"
     ],
     "themes": [
-      "Shipping",
       "Energy",
-      "Aquaculture"
+      "Aquaculture",
+      "Shipping"
     ]
   }
 }
