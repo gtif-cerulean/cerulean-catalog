@@ -377,16 +377,16 @@
   "summaries": {
     "subcode": [
       "USI",
-      "MSIA",
-      "SST",
-      "SIVELO",
       "IBC",
-      "SIT",
-      "Polaris_algorithm_dmi_demo",
-      "IST",
+      "VSI",
       "SHS1",
+      "SIVELO",
+      "MSIA",
+      "SIT",
+      "SST",
+      "Polaris_algorithm_dmi_demo",
       "SICONC",
-      "VSI"
+      "IST"
     ],
     "themes": [
       "Energy",

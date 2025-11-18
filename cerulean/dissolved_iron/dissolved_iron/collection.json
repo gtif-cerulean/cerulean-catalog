@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "dissolved_iron",
   "stac_version": "1.1.0",
-  "description": "N/A\n",
+  "description": "The Operational Mercator Ocean biogeochemical global ocean analysis and forecast system at 1/4 degree is providing 10 days of 3D global ocean forecasts updated weekly. The time series is aggregated in time, in order to reach a two full years time series sliding window. This product includes daily and monthly mean files of biogeochemical parameters (chlorophyll, nitrate, phosphate, silicate, dissolved oxygen, dissolved iron, primary production, phytoplankton, zooplankton, PH, and surface partial pressure of carbon dioxyde) over the global ocean. The global ocean output files are displayed with a 1/4 degree horizontal resolution with regular longitude/latitude equirectangular projection. 50 vertical levels are ranging from 0 to 5700 meters. NEMO version (v3.6_STABLE). Forcings: GLOBAL_ANALYSIS_FORECAST_PHYS_001_024 at daily frequency. Outputs mean fields are interpolated on a standard regular grid in NetCDF format. Initial conditions: World Ocean Atlas 2013 for nitrate, phosphate, silicate and dissolved oxygen, GLODAPv2 for DIC and Alkalinity, and climatological model outputs for Iron and DOC. Quality/Accuracy/Calibration information, See the related QuID.",
   "links": [
     {
       "rel": "root",
@@ -31,17 +31,9 @@
       "title": "Dissolved Iron"
     }
   ],
+  "sci:doi": "10.48670/moi-00015",
   "themes": [
     "Aquaculture"
-  ],
-  "tags": [
-    "model"
-  ],
-  "satellite": [
-    "placeholder"
-  ],
-  "sensor": [
-    "placeholder"
   ],
   "agency": [
     "CMEMS"
@@ -83,12 +75,6 @@
     }
   },
   "license": "other",
-  "providers": [
-    {
-      "name": "E.U. Copernicus Marine Service Information (CMEMS)",
-      "url": "https://data.marine.copernicus.eu/"
-    }
-  ],
   "assets": {
     "geoparquet": {
       "href": "./items.parquet",
