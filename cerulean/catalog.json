@@ -1538,16 +1538,6 @@
     },
     {
       "rel": "child",
-      "href": "./cmems_balitic_ice_concentration/collection.json",
-      "type": "application/json",
-      "title": "Baltic Sea Ice Concentration",
-      "code": "cmems_baltic_ice_concentration",
-      "id": "cmems_balitic_ice_concentration",
-      "subcode": "cmems_baltic_ice_concentration",
-      "collection_group": "Baltic"
-    },
-    {
-      "rel": "child",
       "href": "./cmems_baltic_ice_thickness/collection.json",
       "type": "application/json",
       "title": "Baltic Sea Ice Thickness",

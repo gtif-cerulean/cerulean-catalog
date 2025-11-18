@@ -471,21 +471,21 @@
   "summaries": {
     "subcode": [
       "IBC",
+      "SIVELO",
       "IST",
-      "VSI",
-      "SST",
+      "SIT",
+      "SICONC",
       "MSIA",
       "Polaris_algorithm_dmi_demo",
-      "SICONC",
+      "SST",
       "USI",
-      "SIT",
-      "SHS1",
-      "SIVELO"
+      "VSI",
+      "SHS1"
     ],
     "themes": [
       "Shipping",
-      "Aquaculture",
-      "Energy"
+      "Energy",
+      "Aquaculture"
     ],
     "satellite": [
       "placeholder",
