@@ -1375,8 +1375,6 @@
       "title": "CIS Ice charts",
       "id": "CIS_Icecharts",
       "themes": [
-        "Aquaculture",
-        "Energy",
         "Shipping"
       ],
       "agency": [
