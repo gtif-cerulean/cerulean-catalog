@@ -43,18 +43,7 @@
       "code": "SIVELO",
       "id": "sea_ice_speed_antarctica",
       "themes": [
-        "Aquaculture",
-        "Energy",
         "Shipping"
-      ],
-      "tags": [
-        "model"
-      ],
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
       ],
       "agency": [
         "CMEMS"
@@ -198,17 +187,13 @@
       "SIVELO"
     ],
     "themes": [
-      "Aquaculture",
-      "Shipping",
-      "Energy"
+      "Shipping"
     ],
     "satellite": [
-      "multiple",
-      "placeholder"
+      "multiple"
     ],
     "sensor": [
-      "multiple",
-      "placeholder"
+      "multiple"
     ]
   }
 }
