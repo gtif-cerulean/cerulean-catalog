@@ -2,27 +2,15 @@
   "Name": "Sentinel1-EW-HH",
   "Title": "Sentinel 1 EW HH",
   "EodashIdentifier": "SHS1",
-  "Description": "SENTINEL_1_IW_VV",
-  "CollectionGroup": "Other data",
+  "Description": "SENTINEL 1, Extra Wide Swath, HH Polarization",
+  "CollectionGroup": "Satellite Data",
   "Themes": [
     "Energy",
     "Aquaculture",
     "Shipping"
   ],
-  "Tags": [
-    "Sentinel",
-    "Open data"
-  ],
-  "DataSource": {
-    "Spaceborne": {
-      "Satellite": [
-        "Sentinel-1"
-      ]
-    }
-  },
-  "Agency": [
-    "European Commission",
-    "ESA"
+    "Agency": [
+    "Sentinel Hub"
   ],
   "Image": "Lakes_Sentinel1/thumbnail.png",
   "Resources": [
@@ -35,14 +23,5 @@
         "End": "today"
       }
     }
-  ],
-  "Provider": [
-    {
-      "Name": "Copernicus",
-      "Url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
-    },
-    {
-      "Name": "Sentinel-Hub"
-    }
   ]
-}
+ }
