@@ -27,22 +27,15 @@
       "title": "Baltic Sea Ice Thickness"
     }
   ],
-  "sci:doi": "https://doi.org/10.48670/moi-00010",
+  "sci:doi": "10.48670/moi-00010",
   "themes": [
-    "Shipping",
-    "Energy"
-  ],
-  "tags": [
-    "Model"
+    "Baltic"
   ],
   "agency": [
     "CMEMS"
   ],
   "subcode": "cmems_baltic_ice_thickness",
   "collection_group": "Baltic",
-  "otherSources": [
-    "Numerical Model"
-  ],
   "eox:colorlegend": {
     "title": "Sea Ice Thickness [m]",
     "range": [
@@ -71,23 +64,13 @@
     "temporal": {
       "interval": [
         [
-          "2022-12-02T00:00:00Z",
+          "2024-01-01T00:00:00Z",
           "2025-11-26T00:00:00Z"
         ]
       ]
     }
   },
   "license": "other",
-  "providers": [
-    {
-      "name": "Mercator Océan International",
-      "url": "https://www.mercator-ocean.eu/"
-    },
-    {
-      "name": "Copernicus Marine Service (CMEMS)",
-      "url": "https://data.marine.copernicus.eu/"
-    }
-  ],
   "assets": {
     "geoparquet": {
       "href": "./items.parquet",

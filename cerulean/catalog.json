@@ -1544,20 +1544,13 @@
       "code": "cmems_baltic_ice_thickness",
       "id": "cmems_baltic_ice_thickness",
       "themes": [
-        "Shipping",
-        "Energy"
+        "Baltic"
       ],
       "subcode": "cmems_baltic_ice_thickness",
-      "tags": [
-        "Model"
-      ],
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "Baltic",
-      "otherSources": [
-        "Numerical Model"
-      ]
+      "collection_group": "Baltic"
     },
     {
       "rel": "child",
@@ -1587,8 +1580,6 @@
       "title": "DMI Ice charts",
       "id": "DMI_Icecharts",
       "themes": [
-        "Aquaculture",
-        "Energy",
         "Shipping"
       ],
       "agency": [
