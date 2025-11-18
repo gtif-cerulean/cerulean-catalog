@@ -1,7 +1,6 @@
 {
   "Name": "air_density",
   "Title": "Air density",
-  "EodashIdentifier": "AD",
   "Description": "N/A\n",
   "Themes": [
     "Aquaculture",
@@ -9,12 +8,6 @@
     "Shipping"
   ],
   "CollectionGroup": "Wind",
-  "Satellite": [
-    "placeholder"
-  ],
-  "Sensor": [
-    "placeholder"
-  ],
   "Agency": [
     "CMEMS"
   ],
@@ -24,17 +17,17 @@
   "Colorlegend": {
     "title": "Air density [kg m-3]",
     "range": [
-      "rgba(68, 1, 84, 1)",
-      "rgba(72, 35, 116, 1)",
-      "rgba(64, 67, 135, 1)",
-      "rgba(52, 94, 141, 1)",
-      "rgba(41, 120, 142, 1)",
-      "rgba(32, 144, 140, 1)",
-      "rgba(34, 167, 132, 1)",
-      "rgba(68, 190, 112, 1)",
-      "rgba(121, 209, 81, 1)",
-      "rgba(189, 223, 38, 1)",
-      "rgba(253, 231, 37, 1)"
+      "#000000",
+      "#000000",
+      "#000000",
+      "#000000",
+      "#000000",
+      "#000000",
+      "#000000",
+      "#000000",
+      "#000000",
+      "#000000",
+      "#000000"
     ],
     "domain": [
       1.153,
@@ -44,17 +37,10 @@
   "Resources": [
     {
       "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/WIND_GLO_PHY_L4_NRT_012_004/cmems_obs-wind_glo_phy_nrt_l4_0.125deg_PT1H_202207",
-      "Type": "WMTSCapabilities",
-      "Name": "marinedatastore",
+      "Type": "byoc",
+      "Name": "Sentinel Hub",
       "LayerId": "WIND_GLO_PHY_L4_NRT_012_004/cmems_obs-wind_glo_phy_nrt_l4_0.125deg_PT1H_202207/air_density",
-      "Query": {
-        "Start": "2024-12-01T00:00:00Z",
-        "End": "2030-01-01T00:00:00Z"
-      },
-      "Dimensions": {
-        "elevation": 0,
-        "style": "cmap:viridis"
-      }
+      "CollectionId": ""
     }
   ],
   "Provider": [
@@ -74,5 +60,9 @@
         "Type": "application/json"
       }
     ]
+  },
+  "Citation": {
+    "DOI": "10.48670/moi-00305",
+    "Citation": ""
   }
 }
