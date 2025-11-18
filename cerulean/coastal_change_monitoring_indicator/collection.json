@@ -190,9 +190,9 @@
       "SHS2L2A"
     ],
     "themes": [
+      "Energy",
       "Shipping",
-      "Aquaculture",
-      "Energy"
+      "Aquaculture"
     ],
     "satellite": [
       "Sentinel-2"

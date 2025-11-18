@@ -80,18 +80,7 @@
       "code": "MSIA",
       "id": "mean_sea_ice_age",
       "themes": [
-        "Aquaculture",
-        "Energy",
         "Shipping"
-      ],
-      "tags": [
-        "model"
-      ],
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
       ],
       "agency": [
         "CMEMS"
@@ -448,33 +437,33 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "SIVELO",
+      "SIT",
+      "SHS1",
+      "IBC",
       "MSIA",
+      "USI",
+      "SIVELO",
+      "VSI",
+      "Polaris_algorithm_dmi_demo",
       "SICONC",
       "IST",
-      "VSI",
-      "SHS1",
-      "Polaris_algorithm_dmi_demo",
-      "USI",
-      "SIT",
-      "SST",
-      "IBC"
+      "SST"
     ],
     "themes": [
+      "Energy",
       "Shipping",
-      "Aquaculture",
-      "Energy"
+      "Aquaculture"
     ],
     "satellite": [
-      "Sentinel-1",
-      "placeholder"
+      "placeholder",
+      "Sentinel-1"
     ],
     "sensor": [
       "placeholder"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
     ]
   }
 }

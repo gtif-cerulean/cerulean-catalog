@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "ice_concentration_antarctica",
+  "id": "ice_concentration",
   "stac_version": "1.1.0",
   "description": "The Operational Mercator global ocean analysis and forecast system at 1/12 degree is providing 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time in order to reach a two full year’s time series sliding window.\nThis product includes daily and monthly mean files of temperature, salinity, currents, sea level, mixed layer depth and ice parameters from the top to the bottom over the global ocean. It also includes hourly mean surface fields for sea level height, temperature and currents. The global ocean output files are displayed with a 1/12 degree horizontal resolution with regular longitude/latitude equirectangular projection.\n50 vertical levels are ranging from 0 to 5500 meters.\nThis product also delivers a special dataset for surface current which also includes wave and tidal drift called SMOC (Surface merged Ocean Current).\n",
   "links": [
@@ -20,7 +20,7 @@
         "data"
       ],
       "wmts:dimensions": {
-        "elevation": "0",
+        "elevation": 0,
         "style": "cmap:ice"
       }
     },
@@ -33,56 +33,35 @@
   ],
   "sci:doi": "10.48670/moi-00016",
   "themes": [
-    "Aquaculture",
-    "Energy",
     "Shipping"
-  ],
-  "tags": [
-    "model"
   ],
   "agency": [
     "CMEMS"
   ],
   "subcode": "SICONC",
-  "collection_group": "Antarctica",
-  "otherSources": [
-    "Numerical Model"
-  ],
-  "eodash:mapProjection": {
-    "name": "EPSG:32761",
-    "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
-    "extent": [
-      -1371213.76,
-      -1405880.72,
-      5371213.76,
-      5405880.72
-    ]
-  },
+  "collection_group": "Sea Ice",
   "eox:colorlegend": {
     "title": "Ice concentration",
     "range": [
-      "#000000",
-      "#333333",
-      "#1a2653",
-      "#006bce",
-      "#b4cffa"
+      "rgb(4, 6, 21)",
+      "rgb(69, 123, 185)",
+      "rgb(229, 248, 252)"
     ],
     "domain": [
       0,
       1
     ]
   },
-  "proj:epsg": 3857,
   "endpointtype": "marinedatastore_WMTSCapabilities",
-  "title": "Ice concentration Antarctica",
+  "title": "Ice concentration",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -100,
-          -75,
-          -70,
-          -68
+          -180.0,
+          -80.0,
+          179.91668701171875,
+          90.0
         ]
       ]
     },
@@ -96,16 +75,6 @@
     }
   },
   "license": "other",
-  "providers": [
-    {
-      "name": "Mercator Océan International",
-      "url": "https://www.mercator-ocean.eu/"
-    },
-    {
-      "name": "Copernicus Marine Service (CMEMS)",
-      "url": "https://data.marine.copernicus.eu/"
-    }
-  ],
   "assets": {
     "geoparquet": {
       "href": "./items.parquet",
@@ -113,14 +82,6 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
-      ]
-    },
-    "reference_1": {
-      "href": "https://data.marine.copernicus.eu/product/GLOBAL_ANALYSISFORECAST_PHY_001_024/description",
-      "type": "text/html",
-      "title": "CMEMS Data Description",
-      "roles": [
-        "metadata"
       ]
     }
   }
