@@ -70,8 +70,8 @@
         "Sentinel-1"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
       ],
       "collection_group": "Capabilities"
     },
@@ -890,20 +890,11 @@
       "code": "VCMX",
       "id": "maximum_crest_wave",
       "themes": [
+        "Shipping",
         "Aquaculture",
-        "Energy",
-        "Shipping"
+        "Energy"
       ],
       "subcode": "VCMX",
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
-      ],
-      "tags": [
-        "model"
-      ],
       "agency": [
         "CMEMS"
       ],
@@ -1238,20 +1229,11 @@
       "code": "USI",
       "id": "sea_ice_eastward_velocity",
       "themes": [
-        "Aquaculture",
+        "Shipping",
         "Energy",
-        "Shipping"
+        "Aquaculture"
       ],
       "subcode": "USI",
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
-      ],
-      "tags": [
-        "model"
-      ],
       "agency": [
         "CMEMS"
       ],
@@ -1319,8 +1301,8 @@
         "placeholder"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
       ],
       "collection_group": "Capabilities"
     },
@@ -1352,8 +1334,8 @@
       ],
       "subcode": "polarwarp_sentinel1",
       "satellite": [
-        "Sentinel-1",
-        "multiple"
+        "multiple",
+        "Sentinel-1"
       ],
       "sensor": [
         "multiple"
@@ -1600,12 +1582,12 @@
       ],
       "subcode": "sea_floor_depth_antarctica",
       "satellite": [
-        "placeholder",
-        "multiple"
+        "multiple",
+        "placeholder"
       ],
       "sensor": [
-        "placeholder",
-        "multiple"
+        "multiple",
+        "placeholder"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
@@ -1631,12 +1613,12 @@
       ],
       "subcode": "mean_sea_ice_age_antarctica",
       "satellite": [
-        "placeholder",
-        "multiple"
+        "multiple",
+        "placeholder"
       ],
       "sensor": [
-        "placeholder",
-        "multiple"
+        "multiple",
+        "placeholder"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
@@ -1662,12 +1644,12 @@
       ],
       "subcode": "sea_ice_eastward_velocity_antarctica",
       "satellite": [
-        "placeholder",
-        "multiple"
+        "multiple",
+        "placeholder"
       ],
       "sensor": [
-        "placeholder",
-        "multiple"
+        "multiple",
+        "placeholder"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
@@ -1693,12 +1675,12 @@
       ],
       "subcode": "sea_ice_northward_velocity_antarctica",
       "satellite": [
-        "placeholder",
-        "multiple"
+        "multiple",
+        "placeholder"
       ],
       "sensor": [
-        "placeholder",
-        "multiple"
+        "multiple",
+        "placeholder"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
@@ -1724,12 +1706,12 @@
       ],
       "subcode": "sea_ice_speed_antarctica",
       "satellite": [
-        "placeholder",
-        "multiple"
+        "multiple",
+        "placeholder"
       ],
       "sensor": [
-        "placeholder",
-        "multiple"
+        "multiple",
+        "placeholder"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
@@ -1755,12 +1737,12 @@
       ],
       "subcode": "sea_ice_surface_temperature_antarctica",
       "satellite": [
-        "placeholder",
-        "multiple"
+        "multiple",
+        "placeholder"
       ],
       "sensor": [
-        "placeholder",
-        "multiple"
+        "multiple",
+        "placeholder"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
@@ -1786,12 +1768,12 @@
       ],
       "subcode": "sea_ice_thickness_antarctica",
       "satellite": [
-        "placeholder",
-        "multiple"
+        "multiple",
+        "placeholder"
       ],
       "sensor": [
-        "placeholder",
-        "multiple"
+        "multiple",
+        "placeholder"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
@@ -1817,12 +1799,12 @@
       ],
       "subcode": "surface_snow_thickness_antarctica",
       "satellite": [
-        "placeholder",
-        "multiple"
+        "multiple",
+        "placeholder"
       ],
       "sensor": [
-        "placeholder",
-        "multiple"
+        "multiple",
+        "placeholder"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
@@ -1848,12 +1830,12 @@
       ],
       "subcode": "eastward_tide_velocity_antarctica",
       "satellite": [
-        "placeholder",
-        "multiple"
+        "multiple",
+        "placeholder"
       ],
       "sensor": [
-        "placeholder",
-        "multiple"
+        "multiple",
+        "placeholder"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
@@ -1879,12 +1861,12 @@
       ],
       "subcode": "northwad_tide_velocity_antarctica",
       "satellite": [
-        "placeholder",
-        "multiple"
+        "multiple",
+        "placeholder"
       ],
       "sensor": [
-        "placeholder",
-        "multiple"
+        "multiple",
+        "placeholder"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
@@ -1910,12 +1892,12 @@
       ],
       "subcode": "mean_wave_direction_antarctica",
       "satellite": [
-        "placeholder",
-        "multiple"
+        "multiple",
+        "placeholder"
       ],
       "sensor": [
-        "placeholder",
-        "multiple"
+        "multiple",
+        "placeholder"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
@@ -1941,12 +1923,12 @@
       ],
       "subcode": "maximum_crest_wave_antarctica",
       "satellite": [
-        "placeholder",
-        "multiple"
+        "multiple",
+        "placeholder"
       ],
       "sensor": [
-        "placeholder",
-        "multiple"
+        "multiple",
+        "placeholder"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
@@ -1972,12 +1954,12 @@
       ],
       "subcode": "northward_velocity_antarctica",
       "satellite": [
-        "placeholder",
-        "multiple"
+        "multiple",
+        "placeholder"
       ],
       "sensor": [
-        "placeholder",
-        "multiple"
+        "multiple",
+        "placeholder"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
@@ -2003,12 +1985,12 @@
       ],
       "subcode": "eastward_velocity_antarctica",
       "satellite": [
-        "placeholder",
-        "multiple"
+        "multiple",
+        "placeholder"
       ],
       "sensor": [
-        "placeholder",
-        "multiple"
+        "multiple",
+        "placeholder"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
@@ -2035,8 +2017,8 @@
         "SHS1_ant"
       ],
       "satellite": [
-        "Sentinel-1",
-        "multiple"
+        "multiple",
+        "Sentinel-1"
       ],
       "sensor": [
         "multiple"
@@ -2069,8 +2051,8 @@
         "SHS1VV_ant"
       ],
       "satellite": [
-        "Sentinel-1",
-        "multiple"
+        "multiple",
+        "Sentinel-1"
       ],
       "sensor": [
         "multiple"

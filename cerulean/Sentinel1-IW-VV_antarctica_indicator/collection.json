@@ -190,13 +190,13 @@
       "SHS1VV_ant"
     ],
     "themes": [
-      "Shipping",
       "Aquaculture",
-      "Energy"
+      "Energy",
+      "Shipping"
     ],
     "satellite": [
-      "Sentinel-1",
-      "multiple"
+      "multiple",
+      "Sentinel-1"
     ],
     "sensor": [
       "multiple"

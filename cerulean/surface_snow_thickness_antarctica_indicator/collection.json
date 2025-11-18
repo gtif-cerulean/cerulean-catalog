@@ -198,17 +198,17 @@
       "SST"
     ],
     "themes": [
-      "Shipping",
       "Aquaculture",
-      "Energy"
+      "Energy",
+      "Shipping"
     ],
     "satellite": [
-      "placeholder",
-      "multiple"
+      "multiple",
+      "placeholder"
     ],
     "sensor": [
-      "placeholder",
-      "multiple"
+      "multiple",
+      "placeholder"
     ]
   }
 }

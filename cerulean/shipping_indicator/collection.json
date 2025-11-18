@@ -173,18 +173,9 @@
       "code": "USI",
       "id": "sea_ice_eastward_velocity",
       "themes": [
-        "Aquaculture",
+        "Shipping",
         "Energy",
-        "Shipping"
-      ],
-      "tags": [
-        "model"
-      ],
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
+        "Aquaculture"
       ],
       "agency": [
         "CMEMS"
@@ -404,22 +395,22 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "MSIA",
-      "SST",
-      "VSI",
       "IBC",
-      "IST",
-      "SIT",
       "SHS1",
-      "SIVELO",
-      "SICONC",
+      "SIT",
+      "Polaris_algorithm_dmi_demo",
+      "SST",
+      "MSIA",
       "USI",
-      "Polaris_algorithm_dmi_demo"
+      "VSI",
+      "IST",
+      "SICONC",
+      "SIVELO"
     ],
     "themes": [
-      "Shipping",
       "Aquaculture",
-      "Energy"
+      "Energy",
+      "Shipping"
     ],
     "satellite": [
       "placeholder",
@@ -429,8 +420,8 @@
       "placeholder"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
     ]
   }
 }
