@@ -167,18 +167,7 @@
       "code": "SIVELO",
       "id": "sea_ice_speed",
       "themes": [
-        "Aquaculture",
-        "Energy",
         "Shipping"
-      ],
-      "tags": [
-        "model"
-      ],
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
       ],
       "agency": [
         "CMEMS"
@@ -426,33 +415,33 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "SICONC",
-      "SHS1",
-      "VSI",
-      "SIT",
-      "IST",
       "USI",
-      "Polaris_algorithm_dmi_demo",
-      "MSIA",
+      "SHS1",
       "IBC",
+      "SICONC",
       "SIVELO",
-      "SST"
+      "Polaris_algorithm_dmi_demo",
+      "SST",
+      "VSI",
+      "MSIA",
+      "IST",
+      "SIT"
     ],
     "themes": [
-      "Shipping",
       "Energy",
-      "Aquaculture"
+      "Aquaculture",
+      "Shipping"
     ],
     "satellite": [
-      "Sentinel-1",
-      "placeholder"
+      "placeholder",
+      "Sentinel-1"
     ],
     "sensor": [
       "placeholder"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
     ]
   }
 }
