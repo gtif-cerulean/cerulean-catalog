@@ -182,9 +182,9 @@
       "SHS1VV_ant"
     ],
     "themes": [
+      "Energy",
       "Shipping",
-      "Aquaculture",
-      "Energy"
+      "Aquaculture"
     ],
     "satellite": [
       "multiple"
