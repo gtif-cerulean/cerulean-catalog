@@ -122,18 +122,7 @@
       "code": "SIT",
       "id": "sea_ice_thickness",
       "themes": [
-        "Aquaculture",
-        "Energy",
         "Shipping"
-      ],
-      "tags": [
-        "model"
-      ],
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
       ],
       "agency": [
         "CMEMS"
@@ -437,26 +426,26 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "SIT",
-      "SHS1",
-      "IBC",
-      "MSIA",
-      "USI",
-      "SIVELO",
-      "VSI",
-      "Polaris_algorithm_dmi_demo",
       "SICONC",
+      "SHS1",
+      "VSI",
+      "SIT",
       "IST",
+      "USI",
+      "Polaris_algorithm_dmi_demo",
+      "MSIA",
+      "IBC",
+      "SIVELO",
       "SST"
     ],
     "themes": [
-      "Energy",
       "Shipping",
+      "Energy",
       "Aquaculture"
     ],
     "satellite": [
-      "placeholder",
-      "Sentinel-1"
+      "Sentinel-1",
+      "placeholder"
     ],
     "sensor": [
       "placeholder"

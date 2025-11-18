@@ -58,15 +58,15 @@
       "rel": "child",
       "href": "./sea_ice_detections/collection.json",
       "type": "application/json",
-      "title": "AI Sea Ice Concentration",
+      "title": "Sea Ice Detections",
       "endpointtype": "COG source",
       "code": "SID",
       "id": "sea_ice_detections",
       "themes": [
-        "Shipping"
+        "shipping"
       ],
       "agency": [
-        "DMI"
+        "SMI"
       ],
       "subcode": "SID",
       "collection_group": "Sea Ice"
@@ -184,13 +184,14 @@
   "license": "other",
   "summaries": {
     "subcode": [
+      "Polaris_algorithm_dmi_demo",
       "SHS1",
-      "SID",
-      "Polaris_algorithm_dmi_demo"
+      "SID"
     ],
     "themes": [
-      "Energy",
+      "shipping",
       "Shipping",
+      "Energy",
       "Aquaculture"
     ],
     "satellite": [

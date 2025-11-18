@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "sea_ice_detections",
   "stac_version": "1.1.0",
-  "description": "Arctic L3 sea ice product providing concentration, stage-of-development and floe size information retrieved from Sentinel-1 SAR imagery and GCOM-W AMSR2 microwave radiometer data using a deep learning algorithm and delivered on a 0.5 km grid.",
+  "description": "ASIP (Automated Sea Ice Products) is a new and comprehensive deep learning-based methodology to retrieve high-resolution sea ice maps with accompanying well-calibrated uncertainties from Sentinel-1 SAR and Advanced Microwave Scanning Radiometer 2 (AMSR2) passive microwave observations at a pan-Arctic scale for all seasons.",
   "links": [
     {
       "rel": "root",
@@ -26,15 +26,15 @@
     }
   ],
   "themes": [
-    "Shipping"
+    "shipping"
   ],
   "agency": [
-    "DMI"
+    "SMI"
   ],
   "subcode": "SID",
   "collection_group": "Sea Ice",
   "endpointtype": "COG source",
-  "title": "AI Sea Ice Concentration",
+  "title": "Sea Ice Detections",
   "extent": {
     "spatial": {
       "bbox": [
