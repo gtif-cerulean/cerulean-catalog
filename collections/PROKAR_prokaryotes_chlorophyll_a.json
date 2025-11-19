@@ -2,23 +2,17 @@
   "Name": "prokaryotes_chlorophyll_a",
   "Title": "Prokaryotes Chlorophyll a concentration",
   "EodashIdentifier": "PROKAR",
-  "Description": "N/A\n",
+  "Description": "For the Global Ocean Satellite Observations, ACRI-ST company (Sophia Antipolis, France) is providing Bio-Geo-Chemical (BGC) products based on the Copernicus-GlobColour processor. Upstreams: SeaWiFS, MODIS, MERIS, VIIRS-SNPP & JPSS1, OLCI-S3A & S3B for the "multi" products, and S3A & S3B only for the "olci" products. Variables: Chlorophyll-a (CHL), Phytoplankton Functional types and sizes (PFT), Primary Production (PP), Suspended Matter (SPM), Secchi Transparency Depth (ZSD), Diffuse Attenuation (KD490), Particulate Backscattering (BBP), Absorption Coef. (CDM) and Reflectance (RRS). Temporal resolutions: monthly plus, for some variables, daily gap-free based on a space-time interpolation to provide a "cloud free" product. Spatial resolutions: 4 km and a finer resolution based on olci 300 meters inputs. Recent products are organized in datasets called Near Real Time (NRT) and long time-series (from 1997) in datasets called Multi-Years (MY).",
   "Themes": [
     "Aquaculture"
   ],
   "CollectionGroup": "Water Biology",
-  "Satellite": [
-    "placeholder"
-  ],
-  "Sensor": [
-    "placeholder"
-  ],
   "Agency": [
     "CMEMS"
   ],
-  "Tags": [
-    "model"
-  ],
+  "Citation": {
+    "DOI": "10.48670/moi-00279"
+  },
   "Resources": [
     {
       "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-multi-4km_P1M_202411",
@@ -33,12 +27,6 @@
         "elevation": 0,
         "style": "cmap:amp"
       }
-    }
-  ],
-  "Provider": [
-    {
-      "Name": "E.U. Copernicus Marine Service Information (CMEMS)",
-      "Url": "https://data.marine.copernicus.eu/"
     }
   ],
   "Process": {
