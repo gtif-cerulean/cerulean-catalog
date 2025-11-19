@@ -22,7 +22,7 @@
         "Shipping"
       ],
       "agency": [
-        "DMI"
+        "National Research Council of Canada"
       ],
       "subcode": "Polaris_algorithm_dmi_demo",
       "collection_group": "Capabilities"
@@ -376,22 +376,22 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "IBC",
-      "IST",
       "SIVELO",
-      "USI",
       "SIT",
       "SST",
-      "VSI",
-      "Polaris_algorithm_dmi_demo",
-      "MSIA",
+      "SHS1",
+      "IST",
       "SICONC",
-      "SHS1"
+      "USI",
+      "IBC",
+      "VSI",
+      "MSIA",
+      "Polaris_algorithm_dmi_demo"
     ],
     "themes": [
+      "Energy",
       "Shipping",
-      "Aquaculture",
-      "Energy"
+      "Aquaculture"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",

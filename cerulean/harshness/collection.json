@@ -137,8 +137,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-11-19T14:21:15.299917Z",
-          "2025-11-19T14:21:15.299917Z"
+          "2025-11-19T14:23:57.948940Z",
+          "2025-11-19T14:23:57.948940Z"
         ]
       ]
     }
@@ -149,9 +149,9 @@
       "harshness"
     ],
     "themes": [
+      "Energy",
       "Shipping",
-      "Aquaculture",
-      "Energy"
+      "Aquaculture"
     ]
   }
 }

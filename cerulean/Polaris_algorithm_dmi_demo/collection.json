@@ -22,7 +22,7 @@
         "Shipping"
       ],
       "agency": [
-        "DMI"
+        "National Research Council of Canada"
       ],
       "subcode": "Polaris_algorithm_dmi_demo",
       "collection_group": "Capabilities"
@@ -104,7 +104,7 @@
     "Shipping"
   ],
   "agency": [
-    "DMI"
+    "National Research Council of Canada"
   ],
   "subcode": "Polaris_algorithm_dmi_demo",
   "collection_group": "Capabilities",
