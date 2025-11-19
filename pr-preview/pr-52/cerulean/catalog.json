@@ -25,6 +25,20 @@
       "collection_group": "Wind"
     },
     {
+      "rel": "child",
+      "href": "./dissolved_oxygen/collection.json",
+      "type": "application/json",
+      "title": "Dissolved Oxygen",
+      "id": "dissolved_oxygen",
+      "themes": [
+        "Aquaculture"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Chemistry"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-cerulean.github.io/cerulean-catalog/cerulean/catalog.json",
       "type": "application/json"
