@@ -376,17 +376,17 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "SICONC",
-      "SST",
       "MSIA",
-      "IST",
-      "SIT",
-      "VSI",
-      "IBC",
       "SHS1",
-      "SIVELO",
+      "IBC",
       "Polaris_algorithm_dmi_demo",
-      "USI"
+      "SST",
+      "USI",
+      "SICONC",
+      "IST",
+      "VSI",
+      "SIT",
+      "SIVELO"
     ],
     "themes": [
       "Shipping",
