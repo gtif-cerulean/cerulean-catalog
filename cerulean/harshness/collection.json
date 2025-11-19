@@ -19,20 +19,12 @@
       "code": "harshness",
       "id": "harshness",
       "themes": [
-        "Shipping"
-      ],
-      "tags": [
-        "processing",
-        "capability"
-      ],
-      "satellite": [
-        "multiple"
-      ],
-      "sensor": [
-        "multiple"
+        "Shipping",
+        "Aquaculture",
+        "Energy"
       ],
       "agency": [
-        "ESA"
+        "C-CORE"
       ],
       "subcode": "harshness",
       "collection_group": "Capabilities"
@@ -120,20 +112,12 @@
     }
   ],
   "themes": [
-    "Shipping"
-  ],
-  "tags": [
-    "processing",
-    "capability"
-  ],
-  "satellite": [
-    "multiple"
-  ],
-  "sensor": [
-    "multiple"
+    "Shipping",
+    "Aquaculture",
+    "Energy"
   ],
   "agency": [
-    "ESA"
+    "C-CORE"
   ],
   "subcode": "harshness",
   "collection_group": "Capabilities",
@@ -153,8 +137,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-11-19T12:35:04.992849Z",
-          "2025-11-19T12:35:04.992849Z"
+          "2025-11-19T13:53:44.128177Z",
+          "2025-11-19T13:53:44.128177Z"
         ]
       ]
     }
@@ -165,13 +149,9 @@
       "harshness"
     ],
     "themes": [
+      "Energy",
+      "Aquaculture",
       "Shipping"
-    ],
-    "satellite": [
-      "multiple"
-    ],
-    "sensor": [
-      "multiple"
     ]
   }
 }

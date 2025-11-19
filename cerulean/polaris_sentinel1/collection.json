@@ -55,7 +55,7 @@
       "code": "SID",
       "id": "sea_ice_detections",
       "themes": [
-        "shipping"
+        "Shipping"
       ],
       "agency": [
         "SMI"
@@ -176,15 +176,14 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "SHS1",
       "SID",
+      "SHS1",
       "Polaris_algorithm_dmi_demo"
     ],
     "themes": [
-      "shipping",
       "Energy",
-      "Shipping",
-      "Aquaculture"
+      "Aquaculture",
+      "Shipping"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",

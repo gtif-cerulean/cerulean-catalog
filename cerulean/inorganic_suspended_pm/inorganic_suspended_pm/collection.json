@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "inorganic_suspended_pm",
   "stac_version": "1.1.0",
-  "description": "N/A\n",
+  "description": "For the Global Ocean Satellite Observations, ACRI-ST company (Sophia Antipolis, France) is providing Bio-Geo-Chemical (BGC) products based on the Copernicus-GlobColour processor. Upstreams: SeaWiFS, MODIS, MERIS, VIIRS-SNPP & JPSS1, OLCI-S3A & S3B for the 'multi' products, and S3A & S3B only for the 'olci' products. Variables: Chlorophyll-a (CHL), Phytoplankton Functional types and sizes (PFT), Primary Production (PP), Suspended Matter (SPM), Secchi Transparency Depth (ZSD), Diffuse Attenuation (KD490), Particulate Backscattering (BBP), Absorption Coef. (CDM) and Reflectance (RRS). Temporal resolutions: monthly plus, for some variables, daily gap-free based on a space-time interpolation to provide a 'cloud free' product. Spatial resolutions: 4 km and a finer resolution based on olci 300 meters inputs. Recent products are organized in datasets called Near Real Time (NRT) and long time-series (from 1997) in datasets called Multi-Years (MY).",
   "links": [
     {
       "rel": "root",
@@ -31,17 +31,9 @@
       "title": "Inorganic suspended particulate matter in sea water"
     }
   ],
+  "sci:doi": "10.48670/moi-00279",
   "themes": [
     "Aquaculture"
-  ],
-  "tags": [
-    "model"
-  ],
-  "satellite": [
-    "placeholder"
-  ],
-  "sensor": [
-    "placeholder"
   ],
   "agency": [
     "CMEMS"
@@ -71,12 +63,6 @@
     }
   },
   "license": "other",
-  "providers": [
-    {
-      "name": "E.U. Copernicus Marine Service Information (CMEMS)",
-      "url": "https://data.marine.copernicus.eu/"
-    }
-  ],
   "assets": {
     "geoparquet": {
       "href": "./items.parquet",

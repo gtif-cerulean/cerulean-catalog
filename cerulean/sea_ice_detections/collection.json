@@ -19,7 +19,7 @@
       "code": "SID",
       "id": "sea_ice_detections",
       "themes": [
-        "shipping"
+        "Shipping"
       ],
       "agency": [
         "SMI"
@@ -165,7 +165,7 @@
     }
   ],
   "themes": [
-    "shipping"
+    "Shipping"
   ],
   "agency": [
     "SMI"
@@ -205,7 +205,7 @@
       "SID"
     ],
     "themes": [
-      "shipping"
+      "Shipping"
     ]
   }
 }
