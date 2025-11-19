@@ -191,15 +191,6 @@
         "Aquaculture"
       ],
       "subcode": "SCO2",
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
-      ],
-      "tags": [
-        "model"
-      ],
       "agency": [
         "CMEMS"
       ],
@@ -248,15 +239,6 @@
         "Aquaculture"
       ],
       "subcode": "PO4",
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
-      ],
-      "tags": [
-        "model"
-      ],
       "agency": [
         "CMEMS"
       ],
@@ -1416,12 +1398,12 @@
       ],
       "subcode": "sea_floor_depth_antarctica",
       "satellite": [
-        "multiple",
-        "placeholder"
+        "placeholder",
+        "multiple"
       ],
       "sensor": [
-        "multiple",
-        "placeholder"
+        "placeholder",
+        "multiple"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
