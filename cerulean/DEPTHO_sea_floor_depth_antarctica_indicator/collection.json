@@ -44,16 +44,8 @@
       "id": "sea_floor_depth_antarctica",
       "themes": [
         "Aquaculture",
-        "Energy"
-      ],
-      "tags": [
-        "model"
-      ],
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
+        "Energy",
+        "Shipping"
       ],
       "agency": [
         "CMEMS"
@@ -197,17 +189,15 @@
       "DEPTHO"
     ],
     "themes": [
+      "Energy",
       "Aquaculture",
-      "Shipping",
-      "Energy"
+      "Shipping"
     ],
     "satellite": [
-      "multiple",
-      "placeholder"
+      "multiple"
     ],
     "sensor": [
-      "multiple",
-      "placeholder"
+      "multiple"
     ]
   }
 }
