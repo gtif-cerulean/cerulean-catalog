@@ -250,15 +250,6 @@
         "Aquaculture"
       ],
       "subcode": "NO3",
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
-      ],
-      "tags": [
-        "model"
-      ],
       "agency": [
         "CMEMS"
       ],
