@@ -1,7 +1,6 @@
 {
   "Name": "air_density",
   "Title": "Air density",
-  "EodashIdentifier": "AD",
   "Description": "For the Global Ocean - The product contains hourly Level-4 sea surface wind and stress fields at 0.125 degrees horizontal spatial resolution. Scatterometer observations for Metop-B and Metop-C ASCAT and their collocated European Centre for Medium-Range Weather Forecasts (ECMWF) operational model variables are used to calculate temporally-averaged difference fields. These fields are used to correct for persistent biases in hourly ECMWF operational model fields. The product provides stress-equivalent wind and stress variables as well as their divergence and curl. The applied bias corrections, the standard deviation of the differences (for wind and stress fields) and difference of variances (for divergence and curl fields) are included in the product.",
   "Themes": [
     "Energy"
@@ -10,23 +9,24 @@
   "Agency": [
     "CMEMS"
   ],
- "Citation": {
-    "DOI": "10.48670/moi-00305"
+  "Citation": {
+    "DOI": "10.48670/moi-00305",
+    "Citation": ""
   },
   "Colorlegend": {
     "title": "Air density [kg m-3]",
     "range": [
-      "rgba(68, 1, 84, 1)",
-      "rgba(72, 35, 116, 1)",
-      "rgba(64, 67, 135, 1)",
-      "rgba(52, 94, 141, 1)",
-      "rgba(41, 120, 142, 1)",
-      "rgba(32, 144, 140, 1)",
-      "rgba(34, 167, 132, 1)",
-      "rgba(68, 190, 112, 1)",
-      "rgba(121, 209, 81, 1)",
-      "rgba(189, 223, 38, 1)",
-      "rgba(253, 231, 37, 1)"
+      "#000000",
+      "#000000",
+      "#000000",
+      "#000000",
+      "#000000",
+      "#000000",
+      "#000000",
+      "#000000",
+      "#000000",
+      "#000000",
+      "#000000"
     ],
     "domain": [
       1.153,
@@ -49,7 +49,7 @@
       }
     }
   ],
- "Process": {
+  "Process": {
     "Name": "process_cmems",
     "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
     "VegaDefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/air_density.json",
@@ -60,5 +60,6 @@
         "Type": "application/json"
       }
     ]
-  }
+  },
+  "ShortDescription": "Blabla"
 }
