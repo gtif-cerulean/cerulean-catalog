@@ -1,18 +1,11 @@
 {
   "Name": "dissolved_inorganic_carbon",
   "Title": "Dissolved Inorganic Carbon",
-  "EodashIdentifier": "DIC",
   "Description": "N/A\n",
   "Themes": [
     "Aquaculture"
   ],
   "CollectionGroup": "Water Chemistry",
-  "Satellite": [
-    "placeholder"
-  ],
-  "Sensor": [
-    "placeholder"
-  ],
   "Agency": [
     "CMEMS"
   ],
@@ -22,9 +15,9 @@
   "Colorlegend": {
     "title": "Dissolved Inorganic Carbon [mol m-3]",
     "range": [
-      "rgb(229, 239, 241)",
-      "rgb(112, 122, 212)",
-      "rgb(59, 15, 40)"
+      "#000000",
+      "#000000",
+      "#000000"
     ],
     "domain": [
       1.9845,
@@ -34,17 +27,10 @@
   "Resources": [
     {
       "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_BGC_001_028/cmems_mod_glo_bgc-car_anfc_0.25deg_P1D-m_202311",
-      "Type": "WMTSCapabilities",
-      "Name": "marinedatastore",
+      "Type": "byoc",
+      "Name": "Sentinel Hub",
       "LayerId": "GLOBAL_ANALYSISFORECAST_BGC_001_028/cmems_mod_glo_bgc-car_anfc_0.25deg_P1D-m_202311/dissic",
-      "Query": {
-        "Start": "2021-01-01T00:00:00Z",
-        "End": "2030-01-01T00:00:00Z"
-      },
-      "Dimensions": {
-        "elevation": 0,
-        "style": "cmap:dense"
-      }
+      "CollectionId": ""
     }
   ],
   "Provider": [
@@ -64,5 +50,9 @@
         "Type": "application/json"
       }
     ]
+  },
+  "Citation": {
+    "DOI": "10.48670/moi-00305",
+    "Citation": ""
   }
 }
