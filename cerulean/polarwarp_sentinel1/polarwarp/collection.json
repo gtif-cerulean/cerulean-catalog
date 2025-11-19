@@ -20,18 +20,8 @@
   "themes": [
     "Shipping"
   ],
-  "tags": [
-    "processing",
-    "capability"
-  ],
-  "satellite": [
-    "multiple"
-  ],
-  "sensor": [
-    "multiple"
-  ],
   "agency": [
-    "ESA"
+    "Drift+Noise"
   ],
   "subcode": "polarwarp",
   "collection_group": "Capabilities",
@@ -55,7 +45,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-11-19T14:10:43.966945Z",
+          "2025-11-19T14:22:42.787960Z",
           null
         ]
       ]

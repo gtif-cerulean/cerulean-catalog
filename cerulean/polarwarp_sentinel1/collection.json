@@ -21,18 +21,8 @@
       "themes": [
         "Shipping"
       ],
-      "tags": [
-        "processing",
-        "capability"
-      ],
-      "satellite": [
-        "multiple"
-      ],
-      "sensor": [
-        "multiple"
-      ],
       "agency": [
-        "ESA"
+        "Drift+Noise"
       ],
       "subcode": "polarwarp",
       "collection_group": "Capabilities",
@@ -180,7 +170,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-11-19T14:10:43.966945Z"
+          "2025-11-19T14:22:42.787960Z"
         ]
       ]
     }
@@ -188,19 +178,13 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "SHS1",
-      "polarwarp"
+      "polarwarp",
+      "SHS1"
     ],
     "themes": [
-      "Energy",
+      "Shipping",
       "Aquaculture",
-      "Shipping"
-    ],
-    "satellite": [
-      "multiple"
-    ],
-    "sensor": [
-      "multiple"
+      "Energy"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"

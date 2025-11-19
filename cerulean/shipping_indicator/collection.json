@@ -376,22 +376,22 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "VSI",
-      "SHS1",
-      "SICONC",
-      "IST",
-      "MSIA",
-      "SST",
       "IBC",
-      "Polaris_algorithm_dmi_demo",
-      "USI",
+      "IST",
       "SIVELO",
-      "SIT"
+      "USI",
+      "SIT",
+      "SST",
+      "VSI",
+      "Polaris_algorithm_dmi_demo",
+      "MSIA",
+      "SICONC",
+      "SHS1"
     ],
     "themes": [
-      "Energy",
+      "Shipping",
       "Aquaculture",
-      "Shipping"
+      "Energy"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
