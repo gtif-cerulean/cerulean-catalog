@@ -1362,12 +1362,12 @@
       ],
       "subcode": "sea_floor_depth_antarctica",
       "satellite": [
-        "placeholder",
-        "multiple"
+        "multiple",
+        "placeholder"
       ],
       "sensor": [
-        "placeholder",
-        "multiple"
+        "multiple",
+        "placeholder"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
