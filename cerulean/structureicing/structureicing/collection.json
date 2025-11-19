@@ -18,23 +18,12 @@
     }
   ],
   "themes": [
-    "Shipping"
-  ],
-  "tags": [
-    "processing",
-    "capability"
-  ],
-  "satellite": [
-    "multiple"
-  ],
-  "sensor": [
-    "multiple"
+    "Shipping",
+    "Aquaculture",
+    "Energy"
   ],
   "agency": [
-    "GHRSST",
-    "CMEMS",
-    "CDS",
-    "Met Office"
+    "C-CORE"
   ],
   "subcode": "structureicing",
   "collection_group": "Capabilities",
@@ -54,7 +43,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-11-19T13:55:10.999646Z",
+          "2025-11-19T14:10:44.368343Z",
           null
         ]
       ]

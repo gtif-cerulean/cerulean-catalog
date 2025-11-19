@@ -59,8 +59,8 @@
       ],
       "subcode": "POS1",
       "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
       ],
       "collection_group": "Capabilities"
     },
@@ -964,8 +964,8 @@
       ],
       "subcode": "SHIP1",
       "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
       ],
       "collection_group": "Capabilities"
     },
@@ -1019,24 +1019,13 @@
       "code": "structureicing",
       "id": "structureicing",
       "themes": [
-        "Shipping"
+        "Shipping",
+        "Aquaculture",
+        "Energy"
       ],
       "subcode": "structureicing",
-      "satellite": [
-        "multiple"
-      ],
-      "sensor": [
-        "multiple"
-      ],
-      "tags": [
-        "processing",
-        "capability"
-      ],
       "agency": [
-        "GHRSST",
-        "CMEMS",
-        "CDS",
-        "Met Office"
+        "C-CORE"
       ],
       "collection_group": "Capabilities"
     },
