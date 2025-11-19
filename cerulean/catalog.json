@@ -1470,12 +1470,12 @@
       ],
       "subcode": "sea_floor_depth_antarctica",
       "satellite": [
-        "multiple",
-        "placeholder"
+        "placeholder",
+        "multiple"
       ],
       "sensor": [
-        "multiple",
-        "placeholder"
+        "placeholder",
+        "multiple"
       ],
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
@@ -1968,6 +1968,22 @@
         "USNIC"
       ],
       "collection_group": "Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./total_chlorophyll/collection.json",
+      "type": "application/json",
+      "title": "Total Chlorophyll",
+      "code": "CHL",
+      "id": "total_chlorophyll",
+      "themes": [
+        "Aquaculture"
+      ],
+      "subcode": "CHL",
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Chemistry"
     },
     {
       "rel": "self",
