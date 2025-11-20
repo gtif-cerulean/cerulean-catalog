@@ -376,22 +376,22 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "Polaris_algorithm_dmi_demo",
-      "SST",
       "IST",
-      "SIT",
-      "SIVELO",
-      "MSIA",
-      "SICONC",
-      "IBC",
-      "USI",
       "VSI",
-      "SHS1"
+      "SIT",
+      "USI",
+      "SHS1",
+      "SICONC",
+      "MSIA",
+      "SIVELO",
+      "SST",
+      "Polaris_algorithm_dmi_demo",
+      "IBC"
     ],
     "themes": [
-      "Aquaculture",
+      "Shipping",
       "Energy",
-      "Shipping"
+      "Aquaculture"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
