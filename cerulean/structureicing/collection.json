@@ -147,8 +147,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-11-20T03:59:23.049298Z",
-          "2025-11-20T03:59:23.049298Z"
+          "2025-11-20T13:20:06.800907Z",
+          "2025-11-20T13:20:06.800907Z"
         ]
       ]
     }
@@ -159,9 +159,9 @@
       "structureicing"
     ],
     "themes": [
+      "Energy",
       "Aquaculture",
-      "Shipping",
-      "Energy"
+      "Shipping"
     ]
   }
 }

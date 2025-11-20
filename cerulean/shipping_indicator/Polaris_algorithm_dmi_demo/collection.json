@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "Polaris_algorithm_dmi_demo",
   "stac_version": "1.1.0",
-  "description": "",
+  "description": "Ships operating in the polar regions encounter hazards that present elevated levels of risk and more severe consequences when accidents occur. One of those risks is sea ice. The Polar Operational Limit Assessment Risk Indexing System (POLARIS) is a methodology to assess the risk posed to a ship by ice conditions in relation to the ship's assigned ice class. It uses the WMO standard sea ice charts as the basis for the calculation. POLARIS uses a Risk Index Outcome (RIO) value to assess limitations for operation in ice. For each geographical area encountered the Risk Index Values (RIV) assigned to the ship, based on the ice class, are used to determine a RIO that forms the basis of the decision to operate or limitation for operation. RIO = (C1xRIV1) + (C2 x RIV2) + (C3 x RIV3) + … (Cn x RIVn) Where: C1…Cn are the concentrations (in tenths) of ice types within the ice regime; and RIV1…RIVn are the corresponding Risk Index Values for each ice type.",
   "links": [
     {
       "rel": "root",
