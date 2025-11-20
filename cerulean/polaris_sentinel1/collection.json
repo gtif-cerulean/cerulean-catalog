@@ -168,7 +168,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-11-19T00:00:00Z"
+          "2025-11-20T00:00:00Z"
         ]
       ]
     }
@@ -177,17 +177,17 @@
   "summaries": {
     "subcode": [
       "SHS1",
-      "SID",
-      "Polaris_algorithm_dmi_demo"
+      "Polaris_algorithm_dmi_demo",
+      "SID"
     ],
     "themes": [
-      "Energy",
+      "Aquaculture",
       "Shipping",
-      "Aquaculture"
+      "Energy"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
     ]
   }
 }
