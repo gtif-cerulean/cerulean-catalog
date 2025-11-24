@@ -23,6 +23,10 @@
         "Energy",
         "Shipping"
       ],
+      "providers": [
+        "Mercator Océan International",
+        "Copernicus Marine Service (CMEMS)"
+      ],
       "tags": [
         "model"
       ],
@@ -45,7 +49,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "('image/jpeg',)",
+      "type": "image/jpeg",
       "title": "EOxCloudless 2024",
       "roles": [
         "baselayer",
@@ -57,7 +61,7 @@
     {
       "rel": "wms",
       "href": "//sxcat-demo.eox.at/sxcat_maps/wms",
-      "type": "('image/png',)",
+      "type": "image/png",
       "title": "Terrain Light Stereographic North",
       "roles": [
         "baselayer",
@@ -74,7 +78,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "('image/jpeg',)",
+      "type": "image/jpeg",
       "title": "Terrain light",
       "roles": [
         "baselayer",
@@ -86,7 +90,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "('image/jpeg',)",
+      "type": "image/jpeg",
       "title": "OSM Background",
       "roles": [
         "baselayer",
@@ -98,7 +102,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
-      "type": "('image/png',)",
+      "type": "image/png",
       "title": "Overlay labels",
       "roles": [
         "overlay",
@@ -106,6 +110,14 @@
       ],
       "id": "overlay_bright",
       "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"//eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/styles/wind_energy_polygon.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "Wind_Energy_Areas"
+      ]
     },
     {
       "rel": "service",
@@ -117,7 +129,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "('image/jpeg',)",
+      "type": "image/jpeg",
       "title": "EOxCloudless 2024",
       "roles": [
         "baselayer",
@@ -129,7 +141,7 @@
     {
       "rel": "wms",
       "href": "//sxcat-demo.eox.at/sxcat_maps/wms",
-      "type": "('image/png',)",
+      "type": "image/png",
       "title": "Terrain Light Stereographic North",
       "roles": [
         "baselayer",
@@ -146,7 +158,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "('image/jpeg',)",
+      "type": "image/jpeg",
       "title": "Terrain light",
       "roles": [
         "baselayer",
@@ -158,7 +170,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "('image/jpeg',)",
+      "type": "image/jpeg",
       "title": "OSM Background",
       "roles": [
         "baselayer",
@@ -170,7 +182,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
-      "type": "('image/png',)",
+      "type": "image/png",
       "title": "Overlay labels",
       "roles": [
         "overlay",
@@ -178,6 +190,14 @@
       ],
       "id": "overlay_bright",
       "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"//eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/styles/wind_energy_polygon.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "Wind_Energy_Areas"
+      ]
     },
     {
       "rel": "parent",
@@ -215,6 +235,7 @@
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/siconc.json",
+  "merge_assets": false,
   "title": "Ice concentration",
   "extent": {
     "spatial": {
@@ -237,7 +258,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-12-02T00:00:00Z"
+          "2025-12-03T00:00:00Z"
         ]
       ]
     }
@@ -268,6 +289,15 @@
       "title": "CMEMS Data Description",
       "roles": [
         "metadata"
+      ]
+    },
+    "Wind_Energy_Areas": {
+      "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4WaZei3Y-02/wind_energy.geojson",
+      "type": "application/geo+json",
+      "title": "Wind Energy Areas",
+      "roles": [
+        "overlay",
+        "visible"
       ]
     }
   }

@@ -42,7 +42,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "('image/jpeg',)",
+      "type": "image/jpeg",
       "title": "EOxCloudless 2024",
       "roles": [
         "baselayer",
@@ -54,7 +54,7 @@
     {
       "rel": "wms",
       "href": "//sxcat-demo.eox.at/sxcat_maps/wms",
-      "type": "('image/png',)",
+      "type": "image/png",
       "title": "Terrain Light Stereographic North",
       "roles": [
         "baselayer",
@@ -71,7 +71,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "('image/jpeg',)",
+      "type": "image/jpeg",
       "title": "Terrain light",
       "roles": [
         "baselayer",
@@ -83,7 +83,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "('image/jpeg',)",
+      "type": "image/jpeg",
       "title": "OSM Background",
       "roles": [
         "baselayer",
@@ -95,7 +95,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
-      "type": "('image/png',)",
+      "type": "image/png",
       "title": "Overlay labels",
       "roles": [
         "overlay",
@@ -103,6 +103,14 @@
       ],
       "id": "overlay_bright",
       "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"//eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/styles/wind_energy_polygon.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "Wind_Energy_Areas"
+      ]
     },
     {
       "rel": "parent",
@@ -122,6 +130,7 @@
   "subcode": "harshness",
   "collection_group": "Capabilities",
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/harshness.json",
+  "merge_assets": false,
   "title": "Harshness capability",
   "extent": {
     "spatial": {
@@ -137,8 +146,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-11-23T04:19:13.383283Z",
-          "2025-11-23T04:19:13.383283Z"
+          "2025-11-24T17:09:46.261222Z",
+          "2025-11-24T17:09:46.261222Z"
         ]
       ]
     }
@@ -149,9 +158,20 @@
       "harshness"
     ],
     "themes": [
-      "Energy",
       "Aquaculture",
-      "Shipping"
+      "Shipping",
+      "Energy"
     ]
+  },
+  "assets": {
+    "Wind_Energy_Areas": {
+      "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4WaZei3Y-02/wind_energy.geojson",
+      "type": "application/geo+json",
+      "title": "Wind Energy Areas",
+      "roles": [
+        "overlay",
+        "visible"
+      ]
+    }
   }
 }

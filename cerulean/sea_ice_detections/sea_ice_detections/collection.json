@@ -19,14 +19,6 @@
       ]
     },
     {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/sea_ice_detections.json",
-      "type": "text/cog-styles",
-      "asset:keys": [
-        "202501210600"
-      ]
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",

@@ -59,8 +59,8 @@
       ],
       "subcode": "POS1",
       "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
       ],
       "collection_group": "Capabilities"
     },
@@ -842,6 +842,10 @@
         "Energy",
         "Shipping"
       ],
+      "providers": [
+        "Mercator Océan International",
+        "Copernicus Marine Service (CMEMS)"
+      ],
       "subcode": "SICONC",
       "tags": [
         "model"
@@ -964,26 +968,10 @@
       ],
       "subcode": "SHIP1",
       "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
       ],
       "collection_group": "Capabilities"
-    },
-    {
-      "rel": "child",
-      "href": "./sea_ice_detections/collection.json",
-      "type": "application/json",
-      "title": "Sea Ice Detections",
-      "code": "SID",
-      "id": "sea_ice_detections",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "SID",
-      "agency": [
-        "SMI"
-      ],
-      "collection_group": "Sea Ice"
     },
     {
       "rel": "child",
@@ -1054,6 +1042,22 @@
         "CMEMS"
       ],
       "collection_group": "Baltic"
+    },
+    {
+      "rel": "child",
+      "href": "./sea_ice_detections/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Detections",
+      "code": "SID",
+      "id": "sea_ice_detections",
+      "themes": [
+        "Shipping"
+      ],
+      "subcode": "SID",
+      "agency": [
+        "SMI"
+      ],
+      "collection_group": "Sea Ice"
     },
     {
       "rel": "child",
@@ -1152,6 +1156,9 @@
       "themes": [
         "Shipping"
       ],
+      "providers": [
+        "Canadian Ice Service (CIS)"
+      ],
       "agency": [
         "CIS"
       ],
@@ -1191,6 +1198,10 @@
         "Aquaculture",
         "Energy",
         "Shipping"
+      ],
+      "providers": [
+        "DMI",
+        "EOX"
       ],
       "agency": [
         "DMI"
@@ -1630,6 +1641,10 @@
         "Aquaculture",
         "Energy",
         "Shipping"
+      ],
+      "providers": [
+        "U.S. NATIONAL ICE CENTER (USNIC)",
+        "EOX"
       ],
       "agency": [
         "USNIC"
