@@ -64,7 +64,6 @@
     "VSI_sea_ice_northward_velocity",
     "IBC_iceberg_concentration",
     "shipping_indicator",
-    "SID_sea_ice_detections",
     "polarwarp_indicator",
     "structureicing",
     "cmems_baltic_ice_concentration",

@@ -6,5 +6,13 @@
     "Attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"//eox.at\" target=\"_blank\">EOX</a> }",
     "visible": true,
     "protocol": "xyz"
+  },
+  {
+    "Name": "GeoJSON source",
+    "Style": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/styles/wind_energy_polygon.json",
+    "Identifier": "Wind_Energy_Areas",
+    "Title": "Wind Energy Areas",
+    "File": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4WaZei3Y-02/wind_energy.geojson",
+    "visible": true
   }
 ]
