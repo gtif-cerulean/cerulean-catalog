@@ -1,1 +1,7 @@
-{}
+{
+  "Name": "LST-GCOM-C",
+  "Title": "Crude oil storage monitoring",
+  "EodashIdentifier": "NI",
+  "Description": "The knight of NI",
+  "Collections": []
+}
