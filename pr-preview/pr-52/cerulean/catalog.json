@@ -15,6 +15,7 @@
       "href": "./air_density/collection.json",
       "type": "application/json",
       "title": "Air density",
+      "shortdescription": "Blabla",
       "id": "air_density",
       "themes": [
         "Energy"
@@ -29,6 +30,7 @@
       "href": "./dissolved_oxygen/collection.json",
       "type": "application/json",
       "title": "Dissolved Oxygen",
+      "shortdescription": "testbas",
       "id": "dissolved_oxygen",
       "themes": [
         "Aquaculture"
@@ -37,6 +39,15 @@
         "CMEMS"
       ],
       "collection_group": "Water Chemistry"
+    },
+    {
+      "rel": "child",
+      "href": "./LST-GCOM-C/collection.json",
+      "type": "application/json",
+      "title": "Crude oil storage monitoring",
+      "code": "NI",
+      "id": "LST-GCOM-C",
+      "subcode": "NI"
     },
     {
       "rel": "self",

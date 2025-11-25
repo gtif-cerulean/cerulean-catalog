@@ -32,6 +32,7 @@
     }
   ],
   "sci:doi": "10.48670/moi-00015",
+  "shortdescription": "testbas",
   "themes": [
     "Aquaculture"
   ],
@@ -69,7 +70,7 @@
       "interval": [
         [
           "2021-11-01T00:00:00Z",
-          "2025-11-28T00:00:00Z"
+          "2025-12-04T00:00:00Z"
         ]
       ]
     }
