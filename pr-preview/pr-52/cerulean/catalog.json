@@ -47,7 +47,12 @@
       "title": "Crude oil storage monitoring",
       "code": "NI",
       "id": "LST-GCOM-C",
-      "subcode": "NI"
+      "subcode": "NI",
+      "themes": [
+        "Energy",
+        "Shipping",
+        "Aquaculture"
+      ]
     },
     {
       "rel": "self",

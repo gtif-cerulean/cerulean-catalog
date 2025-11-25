@@ -11,6 +11,42 @@
       "title": "Cerulean GTIF project catalog"
     },
     {
+      "rel": "child",
+      "href": "./CIS_Icecharts/collection.json",
+      "type": "application/json",
+      "title": "CIS Ice charts",
+      "endpointtype": "FlatGeobuf source",
+      "id": "CIS_Icecharts",
+      "themes": [
+        "Shipping"
+      ],
+      "providers": [
+        "Canadian Ice Service (CIS)"
+      ],
+      "agency": [
+        "CIS"
+      ],
+      "collection_group": "Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./sea_floor_depth/collection.json",
+      "type": "application/json",
+      "title": "Sea floor depth below geoid",
+      "endpointtype": "marinedatastore_WMTSCapabilities",
+      "code": "DEPTHO",
+      "id": "sea_floor_depth",
+      "themes": [
+        "Aquaculture",
+        "Energy"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "subcode": "DEPTHO",
+      "collection_group": "Bathymetry"
+    },
+    {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
@@ -89,8 +125,20 @@
       "bbox": [
         [
           -180.0,
-          -90.0,
-          180.0,
+          -80.0,
+          179.91668701171875,
+          90.0
+        ],
+        [
+          -99.23757113680828,
+          41.50884334734237,
+          -38.8276172498024,
+          68.24709802535261
+        ],
+        [
+          -180.0,
+          -80.0,
+          179.91668701171875,
           90.0
         ]
       ]
@@ -98,11 +146,21 @@
     "temporal": {
       "interval": [
         [
-          "2025-11-25T08:13:22.012035Z",
-          null
+          "2017-01-01T00:00:00Z",
+          "2025-11-17T00:00:00Z"
         ]
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "summaries": {
+    "subcode": [
+      "DEPTHO"
+    ],
+    "themes": [
+      "Energy",
+      "Shipping",
+      "Aquaculture"
+    ]
+  }
 }
