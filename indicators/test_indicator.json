@@ -6,5 +6,16 @@
   "Collections": [
     "CIS_Icecharts",
     "DEPTHO_sea_floor_depth"
-  ]
+  ],
+  "Process": {
+    "Name": "",
+    "JsonForm": "",
+    "EndPoints": [
+      {
+        "Identifier": "",
+        "Url": "",
+        "Type": "application/geo+json"
+      }
+    ]
+  }
 }
