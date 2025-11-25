@@ -3,5 +3,8 @@
   "Title": "Crude oil storage monitoring",
   "EodashIdentifier": "NI",
   "Description": "The knight of NI",
-  "Collections": []
+  "Collections": [
+    "CIS_Icecharts",
+    "DEPTHO_sea_floor_depth"
+  ]
 }
