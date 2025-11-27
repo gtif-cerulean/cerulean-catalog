@@ -152,7 +152,7 @@
       "interval": [
         [
           "2024-12-01T00:00:00Z",
-          "2025-12-04T00:00:00Z"
+          "2025-12-06T00:00:00Z"
         ]
       ]
     }
@@ -164,8 +164,8 @@
     ],
     "themes": [
       "Aquaculture",
-      "Shipping",
-      "Energy"
+      "Energy",
+      "Shipping"
     ]
   },
   "assets": {
