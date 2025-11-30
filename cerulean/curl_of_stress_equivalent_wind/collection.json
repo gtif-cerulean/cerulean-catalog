@@ -172,7 +172,7 @@
       "interval": [
         [
           "2024-12-01T00:00:00Z",
-          "2025-11-25T23:00:00Z"
+          "2025-11-28T23:00:00Z"
         ]
       ]
     }
@@ -183,9 +183,9 @@
       "WCS"
     ],
     "themes": [
-      "Aquaculture",
       "Energy",
-      "Shipping"
+      "Shipping",
+      "Aquaculture"
     ]
   },
   "assets": {

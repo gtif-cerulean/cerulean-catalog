@@ -129,20 +129,14 @@
           -90.0,
           180.0,
           90.0
-        ],
-        [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-01-01T00:00:00Z",
-          "2025-11-25T00:00:00Z"
+          "2025-11-30T04:21:17.756931Z",
+          "2025-11-30T04:21:17.756931Z"
         ]
       ]
     }
@@ -158,13 +152,6 @@
       "url": "https://eox.at/"
     }
   ],
-  "summaries": {
-    "themes": [
-      "Aquaculture",
-      "Energy",
-      "Shipping"
-    ]
-  },
   "assets": {
     "Wind_Energy_Areas": {
       "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4WaZei3Y-02/wind_energy.geojson",
