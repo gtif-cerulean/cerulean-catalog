@@ -120,18 +120,24 @@
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          -99.23757113680828,
+          41.50884334734237,
+          -38.8276172498024,
+          68.24709802535261
+        ],
+        [
+          -99.23757113680828,
+          41.50884334734237,
+          -38.8276172498024,
+          68.24709802535261
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-12-02T14:06:29.459207Z",
-          "2025-12-02T14:06:29.459207Z"
+          "2025-01-06T00:00:00Z",
+          "2025-11-24T00:00:00Z"
         ]
       ]
     }
@@ -143,9 +149,14 @@
       "url": "https://www.canada.ca/en/environment-climate-change/services/ice-forecasts-observations/about-ice-service.html"
     }
   ],
+  "summaries": {
+    "themes": [
+      "Shipping"
+    ]
+  },
   "assets": {
     "Wind_Energy_Areas": {
-      "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4WaZei3Y-02/wind_energy.geojson",
+      "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/wind_energy.geojson",
       "type": "application/geo+json",
       "title": "Wind Energy Areas",
       "roles": [

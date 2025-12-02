@@ -17,27 +17,85 @@
       "title": "NIC Ice charts"
     }
   ],
+  "themes": [
+    "Aquaculture",
+    "Energy",
+    "Shipping"
+  ],
+  "agency": [
+    "USNIC"
+  ],
+  "collection_group": "Sea Ice",
+  "eodash:mapProjection": {
+    "name": "EPSG:32761",
+    "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+    "extent": [
+      -1371213.76,
+      -1405880.72,
+      5371213.76,
+      5405880.72
+    ]
+  },
+  "eox:colorlegend": {
+    "title": "Total Sea Ice Concentration",
+    "range": [
+      "#96C8FF",
+      "#8CFFA0",
+      "#FFFF00",
+      "#FF7D06",
+      "#FF0000"
+    ],
+    "domain": [
+      "Open Water",
+      "Very open drift ice",
+      "Open Drift Ice",
+      "Close Drift Ice",
+      "Very Close Drift Ice"
+    ],
+    "scaleType": "categorical",
+    "markType": "circle"
+  },
   "endpointtype": "GeoJSON source",
   "title": "NIC Ice charts",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          -179.99590861517464,
+          -78.73707592332723,
+          179.99999999983606,
+          -49.99999983750487
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-12-02T14:07:07.128195Z",
-          null
+          "2025-01-03T00:00:00Z",
+          "2025-11-28T00:00:00Z"
         ]
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "providers": [
+    {
+      "name": "U.S. NATIONAL ICE CENTER (USNIC)",
+      "url": "https://usicecenter.gov/Products/AntarcData"
+    },
+    {
+      "name": "EOX",
+      "url": "https://eox.at/"
+    }
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/nic-ice-charts/geojsons/daily_items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
 }
