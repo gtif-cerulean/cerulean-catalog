@@ -179,7 +179,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-11-30T04:21:14.253425Z"
+          "2025-12-02T14:06:27.117759Z"
         ]
       ]
     }
@@ -187,13 +187,13 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "SHS1",
-      "polarwarp"
+      "polarwarp",
+      "SHS1"
     ],
     "themes": [
+      "Aquaculture",
       "Energy",
-      "Shipping",
-      "Aquaculture"
+      "Shipping"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
