@@ -1,0 +1,83 @@
+{
+  "type": "Collection",
+  "id": "RCM_eoapi_mix",
+  "stac_version": "1.1.0",
+  "description": "RCM Data collection",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.cif.hub-otc.eox.at/raster/collections/RCM/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=HH&assets=HV&colormap_name=magma&rescale=0,20",
+      "type": "image/png",
+      "title": "RCM_eoapi_mix"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "RCM scenes rendering HH/HV"
+    }
+  ],
+  "themes": [
+    "Energy",
+    "Aquaculture",
+    "Shipping"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Satellite Data",
+  "eox:colorlegend": {
+    "title": "HH sigma0/HV sigma0",
+    "range": [
+      "#0B0724",
+      "#2C115F",
+      "#61136E",
+      "#A11A5B",
+      "#E7523C",
+      "#FCF189"
+    ],
+    "domain": [
+      0,
+      20
+    ]
+  },
+  "endpointtype": "VEDA_tiles",
+  "title": "RCM scenes rendering HH/HV",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -53.884339431588934,
+          58.72891281219104,
+          -45.06737491795583,
+          64.10892304878286
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-08-14T20:47:43Z",
+          "2025-08-14T20:47:43Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}
