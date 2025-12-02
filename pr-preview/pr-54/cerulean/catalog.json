@@ -60,6 +60,26 @@
     },
     {
       "rel": "child",
+      "href": "./DMI_polaris/collection.json",
+      "type": "application/json",
+      "title": "POLARIS (DMI)",
+      "id": "DMI_polaris",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "providers": [
+        "DMI",
+        "EOX"
+      ],
+      "agency": [
+        "DMI"
+      ],
+      "collection_group": "Sea Ice"
+    },
+    {
+      "rel": "child",
       "href": "./RCM_eoapi/collection.json",
       "type": "application/json",
       "title": "RCM scenes",
