@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "polarwarp_sentinel1",
+  "id": "RCM_eoapi",
   "stac_version": "1.1.0",
-  "description": "This is an example of how the polar warp capability can be triggered and visualized within the dashboard.",
+  "description": "RCM Data collection",
   "links": [
     {
       "rel": "root",
@@ -12,53 +12,54 @@
     },
     {
       "rel": "child",
-      "href": "./polarwarp/collection.json",
+      "href": "./RCM_eoapi_mix/collection.json",
       "type": "application/json",
-      "title": "Polar warp capability",
-      "endpointtype": "Collection-only",
-      "code": "polarwarp",
-      "id": "polarwarp",
-      "themes": [
-        "Shipping"
-      ],
-      "agency": [
-        "Drift+Noise"
-      ],
-      "subcode": "polarwarp",
-      "collection_group": "Capabilities",
-      "eodash:mapProjection": {
-        "name": "EPSG:3413",
-        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
-      }
-    },
-    {
-      "rel": "child",
-      "href": "./Sentinel1-EW-HH/collection.json",
-      "type": "application/json",
-      "title": "Sentinel 1 EW HH",
-      "endpointtype": "Sentinel Hub WMS",
-      "code": "SHS1",
-      "id": "Sentinel1-EW-HH",
+      "title": "RCM scenes rendering HH/HV",
+      "endpointtype": "VEDA_tiles",
+      "id": "RCM_eoapi_mix",
       "themes": [
         "Energy",
         "Aquaculture",
         "Shipping"
       ],
       "agency": [
-        "Sentinel Hub"
+        "ESA"
       ],
-      "subcode": "SHS1",
       "collection_group": "Satellite Data"
     },
     {
-      "rel": "service",
-      "href": "https://harshness-map.gtif.eox.at/processes/execute-polarwarp-gcps/execution",
-      "type": "image/tiff",
-      "id": "polarwarpcollection",
-      "method": "POST",
-      "endpoint": "eoxhub_workspaces",
-      "body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/polarwarp.json",
-      "eox:flatstyle": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/polarwarp.json"
+      "rel": "child",
+      "href": "./RCM_eoapi_HH/collection.json",
+      "type": "application/json",
+      "title": "RCM scenes HH",
+      "endpointtype": "VEDA_tiles",
+      "id": "RCM_eoapi_HH",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Satellite Data"
+    },
+    {
+      "rel": "child",
+      "href": "./RCM_eoapi_HV/collection.json",
+      "type": "application/json",
+      "title": "RCM scenes HV",
+      "endpointtype": "VEDA_tiles",
+      "id": "RCM_eoapi_HV",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Satellite Data"
     },
     {
       "rel": "xyz",
@@ -141,62 +142,60 @@
     }
   ],
   "themes": [
+    "Energy",
+    "Aquaculture",
     "Shipping"
   ],
-  "subcode": "polarwarp_sentinel1",
-  "collection_group": "Capabilities",
-  "eodash:mapProjection": {
-    "name": "EPSG:3413",
-    "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
-  },
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/polarwarp.json",
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Satellite Data",
   "merge_assets": false,
-  "title": "Polar warp capability",
+  "title": "RCM scenes",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180,
-          -85,
-          180,
-          89
+          -53.913484286466925,
+          58.707887801243714,
+          -41.66538766274872,
+          64.10892304878286
         ],
         [
-          -179,
-          55,
-          179,
-          89
+          -53.913484286466925,
+          58.707887801243714,
+          -41.66538766274872,
+          64.10892304878286
         ],
         [
-          -180,
-          -85,
-          180,
-          85
+          -53.913484286466925,
+          58.707887801243714,
+          -41.66538766274872,
+          64.10892304878286
+        ],
+        [
+          -53.913484286466925,
+          58.707887801243714,
+          -41.66538766274872,
+          64.10892304878286
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2022-01-01T00:00:00Z",
-          "2025-12-02T18:43:51.433992Z"
+          "2025-08-14T09:15:39Z",
+          "2025-08-14T20:47:48Z"
         ]
       ]
     }
   },
   "license": "other",
   "summaries": {
-    "subcode": [
-      "SHS1",
-      "polarwarp"
-    ],
     "themes": [
-      "Aquaculture",
+      "Shipping",
       "Energy",
-      "Shipping"
-    ],
-    "thumbnail": [
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+      "Aquaculture"
     ]
   },
   "assets": {

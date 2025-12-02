@@ -1678,6 +1678,22 @@
       "collection_group": "Water Chemistry"
     },
     {
+      "rel": "child",
+      "href": "./RCM_eoapi/collection.json",
+      "type": "application/json",
+      "title": "RCM scenes",
+      "id": "RCM_eoapi",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Satellite Data"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-cerulean.github.io/cerulean-catalog/cerulean/catalog.json",
       "type": "application/json"
