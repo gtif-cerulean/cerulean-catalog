@@ -95,6 +95,7 @@
     "SHS1_sentinel1_iw_vv_antarctica",
     "SHS1_sentinel2_l2a",
     "NIC_Icecharts",
-    "CHL_total_chlorophyll"
+    "CHL_total_chlorophyll",
+    "RCM_eoapi"
   ]
 }
