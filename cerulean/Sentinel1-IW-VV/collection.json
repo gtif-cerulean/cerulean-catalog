@@ -137,7 +137,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-12-02T00:00:00Z"
+          "2025-12-04T00:00:00Z"
         ]
       ]
     }
@@ -148,9 +148,9 @@
       "SHS1VV"
     ],
     "themes": [
-      "Shipping",
       "Energy",
-      "Aquaculture"
+      "Aquaculture",
+      "Shipping"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
