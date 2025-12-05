@@ -381,7 +381,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-12-13T00:00:00Z"
+          "2025-12-14T00:00:00Z"
         ]
       ]
     }
@@ -389,17 +389,17 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "SHS1",
-      "SICONC",
-      "VSI",
-      "IBC",
-      "Polaris_algorithm_dmi_demo",
-      "SIT",
-      "SST",
       "SIVELO",
+      "SHS1",
+      "IST",
+      "SIT",
+      "SICONC",
+      "IBC",
+      "SST",
+      "VSI",
       "MSIA",
       "USI",
-      "IST"
+      "Polaris_algorithm_dmi_demo"
     ],
     "themes": [
       "Shipping",

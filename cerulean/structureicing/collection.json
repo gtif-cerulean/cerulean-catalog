@@ -40,16 +40,6 @@
       "eox:flatstyle": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/structureicing.json"
     },
     {
-      "rel": "service",
-      "href": "https://harshness-map.gtif.eox.at/processes/execute-structure-icing-0.5/execution",
-      "type": "image/tiff",
-      "id": "structureicing_copy",
-      "method": "POST",
-      "endpoint": "eoxhub_workspaces",
-      "body": "https://api.npoint.io/6689147784f750164f84",
-      "eox:flatstyle": "https://api.npoint.io/4678f54c258286f4b81d"
-    },
-    {
       "rel": "xyz",
       "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
@@ -156,8 +146,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-12-04T14:53:20.594135Z",
-          "2025-12-04T14:53:20.594135Z"
+          "2025-12-05T14:24:26.268520Z",
+          "2025-12-05T14:24:26.268520Z"
         ]
       ]
     }
@@ -169,8 +159,8 @@
     ],
     "themes": [
       "Shipping",
-      "Energy",
-      "Aquaculture"
+      "Aquaculture",
+      "Energy"
     ]
   },
   "assets": {
