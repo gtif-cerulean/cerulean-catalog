@@ -22,7 +22,8 @@
       "wmts:dimensions": {
         "elevation": 0,
         "style": "cmap:viridis"
-      }
+      },
+      "key": "4d0f6a04-111a-46f9-945e-c1bb8413f7fd"
     },
     {
       "rel": "parent",
@@ -77,7 +78,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-12-20T00:00:00Z"
+          "2025-12-21T00:00:00Z"
         ]
       ]
     }

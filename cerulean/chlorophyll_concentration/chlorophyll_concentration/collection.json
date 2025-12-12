@@ -22,7 +22,8 @@
       "wmts:dimensions": {
         "elevation": 0,
         "style": "cmap:algae"
-      }
+      },
+      "key": "b2a4e616-e61e-4435-82f2-60dfe5399d3a"
     },
     {
       "rel": "parent",
@@ -69,7 +70,7 @@
       "interval": [
         [
           "2025-11-24T00:00:00Z",
-          "2025-12-09T00:00:00Z"
+          "2025-12-10T00:00:00Z"
         ]
       ]
     }

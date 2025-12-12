@@ -22,7 +22,8 @@
       "wmts:dimensions": {
         "elevation": 0,
         "style": "cmap:algae"
-      }
+      },
+      "key": "27ff745e-8fac-469b-a141-719612695d9c"
     },
     {
       "rel": "parent",

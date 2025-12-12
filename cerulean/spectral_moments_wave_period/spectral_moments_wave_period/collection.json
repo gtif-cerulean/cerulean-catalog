@@ -22,7 +22,8 @@
       "wmts:dimensions": {
         "elevation": 0,
         "style": "cmap:tempo"
-      }
+      },
+      "key": "f20ef2e2-169d-4108-b357-045d3dc68974"
     },
     {
       "rel": "parent",
@@ -59,7 +60,7 @@
       "interval": [
         [
           "2024-09-01T00:00:00Z",
-          "2025-12-20T00:00:00Z"
+          "2025-12-22T00:00:00Z"
         ]
       ]
     }
