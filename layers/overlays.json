@@ -8,11 +8,11 @@
     "protocol": "xyz"
   },
   {
-    "Name": "GeoJSON source",
+    "id": "Wind_Energy_Areas",
+    "name": "Wind Energy Areas",
+    "url": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/wind_energy.geojson",
     "Style": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/styles/wind_energy_polygon.json",
-    "Identifier": "Wind_Energy_Areas",
-    "Title": "Wind Energy Areas",
-    "File": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/wind_energy.geojson",
-    "visible": true
+    "visible": true,
+    "protocol": "GeoJSON source"
   }
 ]
