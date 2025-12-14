@@ -137,7 +137,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-12-12T00:00:00Z"
+          "2025-12-14T00:00:00Z"
         ]
       ]
     }
@@ -148,8 +148,8 @@
       "SHS2L2A"
     ],
     "themes": [
-      "Energy",
       "Aquaculture",
+      "Energy",
       "Shipping"
     ],
     "thumbnail": [
