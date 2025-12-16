@@ -23,7 +23,7 @@
         "elevation": "0",
         "style": "cmap:ice"
       },
-      "key": "82d2e517-95a1-4c07-ba38-6824dca49681"
+      "key": "02f8edc5-5663-45cf-8d56-2ce13ccab38f"
     },
     {
       "rel": "wmts",
@@ -38,7 +38,7 @@
         "elevation": 0,
         "style": "cmap:ice"
       },
-      "key": "2e8534c7-d238-41b6-9400-108ef2aa7004"
+      "key": "c6d16ce3-b917-41b3-b841-1b54b360f603"
     },
     {
       "rel": "parent",
@@ -91,7 +91,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-12-23T00:00:00Z"
+          "2025-12-25T00:00:00Z"
         ]
       ]
     }
