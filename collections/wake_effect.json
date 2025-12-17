@@ -23,7 +23,6 @@
     "Resources": [
         {
             "Name": "Collection-only",
-            "EndPoint": "Collection-only",
             "OverwriteBBox": [
                 -179,
                 55,

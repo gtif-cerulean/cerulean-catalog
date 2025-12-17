@@ -15,7 +15,6 @@
   "Resources": [
     {
       "Name": "Collection-only",
-      "EndPoint": "Collection-only",
       "Query": {
         "Start": "2020-01-01T00:00:00Z",
         "End": "2022-12-31T00:00:00Z"

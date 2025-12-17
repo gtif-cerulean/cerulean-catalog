@@ -14,7 +14,9 @@
     ],
     "Resources": [{
       "Name": "FlatGeobuf source",
-      "ParquetSource": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/dmi-polaris/daily_items_merged.parquet"
+      "ParquetSource": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/dmi-polaris/daily_items_merged.parquet",
+      "Style": "",
+      "TimeEntries": []
     }],
     "BaseLayers": [
         {
