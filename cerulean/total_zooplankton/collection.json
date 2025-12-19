@@ -100,7 +100,7 @@
       "title": "Overlay labels",
       "roles": [
         "overlay",
-        "visible"
+        "invisible"
       ],
       "id": "overlay_bright",
       "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
@@ -167,7 +167,7 @@
       "interval": [
         [
           "2023-11-29T00:00:00Z",
-          "2025-12-27T00:00:00Z"
+          "2025-12-28T00:00:00Z"
         ]
       ]
     }
@@ -188,7 +188,7 @@
       "title": "Wind Energy Areas",
       "roles": [
         "overlay",
-        "visible"
+        "invisible"
       ]
     }
   }

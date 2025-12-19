@@ -112,7 +112,7 @@
       "title": "Overlay labels",
       "roles": [
         "overlay",
-        "visible"
+        "invisible"
       ],
       "id": "overlay_bright",
       "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
@@ -206,8 +206,8 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Shipping",
-      "Energy"
+      "Energy",
+      "Shipping"
     ],
     "satellite": [
       "multiple"
@@ -223,7 +223,7 @@
       "title": "Wind Energy Areas",
       "roles": [
         "overlay",
-        "visible"
+        "invisible"
       ]
     }
   }

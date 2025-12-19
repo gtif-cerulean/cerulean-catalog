@@ -279,7 +279,7 @@
       "title": "Overlay labels",
       "roles": [
         "overlay",
-        "visible"
+        "invisible"
       ],
       "id": "overlay_bright",
       "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
@@ -387,7 +387,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-12-27T00:00:00Z"
+          "2025-12-28T00:00:00Z"
         ]
       ]
     }
@@ -395,22 +395,22 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "SST",
-      "SIT",
-      "SICONC",
-      "SIVELO",
-      "IBC",
-      "MSIA",
       "Polaris_algorithm_dmi_demo",
-      "SHS1",
       "VSI",
+      "SICONC",
+      "IST",
+      "IBC",
       "USI",
-      "IST"
+      "MSIA",
+      "SST",
+      "SIVELO",
+      "SHS1",
+      "SIT"
     ],
     "themes": [
+      "Energy",
       "Shipping",
-      "Aquaculture",
-      "Energy"
+      "Aquaculture"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
@@ -424,7 +424,7 @@
       "title": "Wind Energy Areas",
       "roles": [
         "overlay",
-        "visible"
+        "invisible"
       ]
     }
   }

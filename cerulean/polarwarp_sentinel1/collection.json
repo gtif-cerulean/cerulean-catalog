@@ -126,7 +126,7 @@
       "title": "Overlay labels",
       "roles": [
         "overlay",
-        "visible"
+        "invisible"
       ],
       "id": "overlay_bright",
       "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
@@ -185,7 +185,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-12-18T04:19:22.701746Z"
+          "2025-12-19T13:52:49.382373Z"
         ]
       ]
     }
@@ -197,9 +197,9 @@
       "SHS1"
     ],
     "themes": [
+      "Energy",
       "Shipping",
-      "Aquaculture",
-      "Energy"
+      "Aquaculture"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
@@ -212,7 +212,7 @@
       "title": "Wind Energy Areas",
       "roles": [
         "overlay",
-        "visible"
+        "invisible"
       ]
     }
   }
