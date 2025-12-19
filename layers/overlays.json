@@ -4,7 +4,7 @@
     "name": "Overlay labels",
     "url": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
     "Attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }",
-    "visible": true,
+    "visible": false,
     "protocol": "xyz"
   },
   {
@@ -12,7 +12,7 @@
     "name": "Wind Energy Areas",
     "url": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/wind_energy.geojson",
     "Style": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/styles/wind_energy_polygon.json",
-    "visible": true,
+    "visible": false,
     "protocol": "GeoJSON source"
   }
 ]
