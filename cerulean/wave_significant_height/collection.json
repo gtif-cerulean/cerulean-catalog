@@ -173,7 +173,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-12-29T00:00:00Z"
+          "2025-12-30T00:00:00Z"
         ]
       ]
     }
@@ -184,9 +184,9 @@
       "VHM0"
     ],
     "themes": [
-      "Aquaculture",
+      "Energy",
       "Shipping",
-      "Energy"
+      "Aquaculture"
     ]
   },
   "assets": {

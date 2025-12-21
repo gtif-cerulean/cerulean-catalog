@@ -172,7 +172,7 @@
       "interval": [
         [
           "2024-12-01T00:00:00Z",
-          "2025-12-18T23:00:00Z"
+          "2025-12-19T23:00:00Z"
         ]
       ]
     }
@@ -183,9 +183,9 @@
       "WSE"
     ],
     "themes": [
-      "Aquaculture",
+      "Energy",
       "Shipping",
-      "Energy"
+      "Aquaculture"
     ]
   },
   "assets": {
