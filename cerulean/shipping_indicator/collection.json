@@ -395,17 +395,17 @@
   "license": "other",
   "summaries": {
     "subcode": [
+      "SICONC",
+      "SIT",
+      "SIVELO",
+      "VSI",
       "Polaris_algorithm_dmi_demo",
-      "SHS1",
       "SST",
       "MSIA",
-      "SIT",
-      "USI",
-      "IBC",
-      "VSI",
+      "SHS1",
       "IST",
-      "SICONC",
-      "SIVELO"
+      "IBC",
+      "USI"
     ],
     "themes": [
       "Aquaculture",
