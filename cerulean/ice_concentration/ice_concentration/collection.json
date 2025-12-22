@@ -23,7 +23,7 @@
         "elevation": "0",
         "style": "cmap:ice"
       },
-      "key": "732d709a-c068-4d00-b5bf-cb541fcec49d"
+      "key": "7ba8d34f-5b86-4644-9fca-01b209ecd5ff"
     },
     {
       "rel": "wmts",
@@ -38,7 +38,7 @@
         "elevation": 0,
         "style": "cmap:ice"
       },
-      "key": "bee0a5d6-7426-445b-849c-d02b764e2ca0"
+      "key": "64322b41-ef16-4ce5-bff8-f125b6dc28ff"
     },
     {
       "rel": "parent",
