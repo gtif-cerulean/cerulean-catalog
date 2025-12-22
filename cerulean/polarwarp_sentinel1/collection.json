@@ -185,7 +185,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-12-22T12:23:40.903414Z"
+          "2025-12-22T12:52:21.149789Z"
         ]
       ]
     }
@@ -197,9 +197,9 @@
       "polarwarp"
     ],
     "themes": [
-      "Energy",
       "Aquaculture",
-      "Shipping"
+      "Shipping",
+      "Energy"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"

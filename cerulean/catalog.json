@@ -351,22 +351,6 @@
     },
     {
       "rel": "child",
-      "href": "./dinophytes_chlorophyll_a/collection.json",
-      "type": "application/json",
-      "title": "Dinophytes Chlorophyll a - Uncertainty estimation",
-      "code": "DINO_uncertainty",
-      "id": "dinophytes_chlorophyll_a",
-      "themes": [
-        "Aquaculture"
-      ],
-      "subcode": "DINO_uncertainty",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Water Biology"
-    },
-    {
-      "rel": "child",
       "href": "./green_algae/collection.json",
       "type": "application/json",
       "title": "Green Algae Chlorophyll a concentration",
