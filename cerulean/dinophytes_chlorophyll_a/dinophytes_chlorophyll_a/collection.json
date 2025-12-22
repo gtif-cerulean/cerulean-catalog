@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "picophytoplankton_chlorophyll_a",
+  "id": "dinophytes_chlorophyll_a",
   "stac_version": "1.1.0",
   "description": "For the Global Ocean Satellite Observations, ACRI-ST company (Sophia Antipolis, France) is providing Bio-Geo-Chemical (BGC) products based on the Copernicus-GlobColour processor. Upstreams: SeaWiFS, MODIS, MERIS, VIIRS-SNPP & JPSS1, OLCI-S3A & S3B for the 'multi' products, and S3A & S3B only for the 'olci' products. Variables: Chlorophyll-a (CHL), Phytoplankton Functional types and sizes (PFT), Primary Production (PP), Suspended Matter (SPM), Secchi Transparency Depth (ZSD), Diffuse Attenuation (KD490), Particulate Backscattering (BBP), Absorption Coef. (CDM) and Reflectance (RRS). Temporal resolutions: monthly plus, for some variables, daily gap-free based on a space-time interpolation to provide a 'cloud free' product. Spatial resolutions: 4 km and a finer resolution based on olci 300 meters inputs. Recent products are organized in datasets called Near Real Time (NRT) and long time-series (from 1997) in datasets called Multi-Years (MY).",
   "links": [
@@ -15,21 +15,21 @@
       "href": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-multi-4km_P1M_202411",
       "type": "image/png",
       "title": "wmts capabilities",
-      "wmts:layer": "OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-multi-4km_P1M_202411/PICO",
+      "wmts:layer": "OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-multi-4km_P1M_202411/DINO",
       "role": [
         "data"
       ],
       "wmts:dimensions": {
         "elevation": 0,
-        "style": "cmap:algae"
+        "style": "cmap:rainbow"
       },
-      "key": "db98182b-4799-49ef-b49d-ab994f872a72"
+      "key": "21617983-4958-4021-ba54-5e03454684dd"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Picophytoplankton Chlorophyll a concentration"
+      "title": "Mass concentration of dinophytes expressed as chlorophyll in sea water"
     }
   ],
   "sci:doi": "10.48670/moi-00279",
@@ -39,22 +39,28 @@
   "agency": [
     "CMEMS"
   ],
-  "subcode": "PICO",
+  "subcode": "DINO",
   "collection_group": "Water Biology",
   "eox:colorlegend": {
-    "title": "Picophytoplankton Chlorophyll a concentration - Mean of the binned pixels [milligram m^-3]",
+    "title": "Mass concentration of dinophytes expressed as chlorophyll in sea water [%]",
     "range": [
-      "rgb(213, 250, 207)",
-      "rgb(17, 148, 80)",
-      "rgb(13, 36, 18)"
+      "rgba(150, 0, 90, 1)",
+      "rgba(0, 0, 200, 1)",
+      "rgba(0, 25, 255, 1)",
+      "rgba(0, 152, 255, 1)",
+      "rgba(44, 255, 150, 1)",
+      "rgba(151, 255, 0, 1)",
+      "rgba(255, 234, 0, 1)",
+      "rgba(255, 111, 0, 1)",
+      "rgba(255, 0, 0, 1)"
     ],
     "domain": [
-      0.0405,
-      0.7041
+      0,
+      200
     ]
   },
   "endpointtype": "marinedatastore_WMTSCapabilities",
-  "title": "Picophytoplankton Chlorophyll a concentration",
+  "title": "Mass concentration of dinophytes expressed as chlorophyll in sea water",
   "extent": {
     "spatial": {
       "bbox": [
