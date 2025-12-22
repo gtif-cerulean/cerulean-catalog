@@ -27,7 +27,7 @@
     "SHS1_sentinel1_iw_vv",
     "CHLA_chlorophyll_concentration",
     "DIATO_diatoms_chlorophyll_a",
-    "DINO_uncertainty_dinophytes_chlorophyll_a",
+    "DINO_dinophytes_chlorophyll_a",
     "GREEN_green_algae",
     "HAPTO_haptophytes_chlorophyll_a",
     "MICRO_microphytoplankton_chlorophyll_a",
