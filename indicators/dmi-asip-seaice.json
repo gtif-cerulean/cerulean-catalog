@@ -7,7 +7,7 @@
     "Citation": {
         "DOI": "10.48670/mds-00343"
     },
-    "Collections": ["dmi-asip-seaice-sod","dmi-asip-seaice-sic", "dmi-asip-seaice-floe"],
+    "Collections": ["dmi-asip-seaice-sic", "dmi-asip-seaice-sod", "dmi-asip-seaice-floe"],
     "Provider": [
         { "Name": "CMEMS", "Url": "https://marine.copernicus.eu", "Roles": ["producer"] },
         { "Name": "EOX", "Url": "https://eox.at/", "Roles": ["processor"] }
