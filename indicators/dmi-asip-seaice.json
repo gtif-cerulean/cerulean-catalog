@@ -1,0 +1,18 @@
+{
+    "Name": "dmi-asip-seaice-sod",
+    "Title": "Stage of Development",
+    "CollectionGroup": "Sea Ice",
+    "Themes": ["Energy", "Aquaculture", "Shipping"],
+    "Description": "Arctic L3 sea ice product providing concentration, stage-of-development and floe size information retrieved from Sentinel-1 and RCM SAR imagery and GCOM-W AMSR2 microwave radiometer data using a deep learning algorithm and delivered on a 0.5 km grid.",
+    "Citation": {
+        "DOI": "10.48670/mds-00343"
+    },
+    "Collections": ["dmi-asip-seaice-sod","dmi-asip-seaice-sic", "dmi-asip-seaice-floe"],
+    "Provider": [
+        { "Name": "CMEMS", "Url": "https://marine.copernicus.eu", "Roles": ["producer"] },
+        { "Name": "EOX", "Url": "https://eox.at/", "Roles": ["processor"] }
+    ],
+    "Agency": [
+        "CMEMS"
+    ]
+}

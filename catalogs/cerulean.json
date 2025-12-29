@@ -96,6 +96,7 @@
     "SHS1_sentinel2_l2a",
     "NIC_Icecharts",
     "CHL_total_chlorophyll",
+    "dmi-asip-seaice",
     "RCM_eoapi"
   ]
 }
