@@ -23,7 +23,7 @@
     "model"
   ],
   "Colorlegend": {
-    "title": "Sea ice area fraction",
+    "title": "Sea ice area fraction Test",
     "range": [
       "rgb(3, 5, 18)",
       "rgb(48, 46, 95)",
