@@ -152,8 +152,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-12-30T09:44:49.069768Z",
-          "2025-12-30T09:44:49.069768Z"
+          "2025-12-30T10:45:00.423571Z",
+          "2025-12-30T10:45:00.423571Z"
         ]
       ]
     }
@@ -164,9 +164,9 @@
       "harshness"
     ],
     "themes": [
+      "Aquaculture",
       "Shipping",
-      "Energy",
-      "Aquaculture"
+      "Energy"
     ]
   },
   "assets": {

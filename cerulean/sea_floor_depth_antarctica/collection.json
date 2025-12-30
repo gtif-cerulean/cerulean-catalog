@@ -174,9 +174,9 @@
       "DEPTHO"
     ],
     "themes": [
-      "Energy",
       "Aquaculture",
-      "Shipping"
+      "Shipping",
+      "Energy"
     ]
   },
   "assets": {
