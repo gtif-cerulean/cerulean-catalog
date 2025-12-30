@@ -10,7 +10,7 @@
   ],
   "CollectionGroup": "3. Sea Ice",
   "DataSource": {
-    "Spaceborne": {},
+    "Spaceborne": {"Test"},
     "Other": [
       "Numerical Model",
       "0.083° × 0.083°"
@@ -52,27 +52,27 @@
         "style": "cmap:ice"
       },
       "Variable": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406/siconc",
-      "CollectionId": ""
+      "CollectionId": "Test"
     }
   ],
   "Citation": {
     "DOI": "10.48670/moi-00016",
-    "Citation": ""
+    "Citation": "Test"
   },
   "References": [
     {
       "Name": "CMEMS Data Description",
       "Url": "https://data.marine.copernicus.eu/product/GLOBAL_ANALYSISFORECAST_PHY_001_024/description",
-      "Title": ""
+      "Title": "Test"
     }
   ],
   "Provider": [
     {
-      "Name": "Mercator Océan International",
+      "Name": "Mercator Océan International Test",
       "Url": "https://www.mercator-ocean.eu/"
     },
     {
-      "Name": "Copernicus Marine Service (CMEMS)",
+      "Name": "Copernicus Marine Service (CMEMS) Test",
       "Url": "https://data.marine.copernicus.eu/"
     }
   ],
@@ -88,8 +88,8 @@
       }
     ]
   },
-  "License": "",
+  "License": "Test",
   "Locations": ["0.083° × 0.083°"],
   "Image": "",
-  "Legend": ""
+  "Legend": "Test"
 }
