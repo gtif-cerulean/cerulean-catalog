@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "ice_concentration",
   "stac_version": "1.1.0",
-  "description": "The global ocean analysis and forecast system provides 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time to provide a two-year time series sliding window. The output files are displayed with a 1/12 degree horizontal resolution.\"",
+  "description": "The global ocean analysis and forecast system provides 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time to provide a two-year time series sliding window. The output files are displayed with a 1/12 degree horizontal resolution.",
   "links": [
     {
       "rel": "root",
@@ -23,7 +23,7 @@
         "elevation": "0",
         "style": "cmap:ice"
       },
-      "key": "643872f5-eac1-4242-b615-b1efb87b75a7"
+      "key": "bb3de3c0-401c-4f40-8edd-40759bb6a380"
     },
     {
       "rel": "wmts",
@@ -38,7 +38,7 @@
         "elevation": 0,
         "style": "cmap:ice"
       },
-      "key": "a2f19dea-8674-49f7-ad43-11759248bcb9"
+      "key": "422c4cd0-64b3-48e1-b3b5-f04e968eb72e"
     },
     {
       "rel": "parent",
