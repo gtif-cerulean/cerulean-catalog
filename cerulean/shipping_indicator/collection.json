@@ -94,8 +94,8 @@
         "Shipping"
       ],
       "providers": [
-        "Mercator Océan International",
-        "Copernicus Marine Service (CMEMS)"
+        "Mercator Océan International Test",
+        "Copernicus Marine Service (CMEMS) Test"
       ],
       "tags": [
         "model"
@@ -396,26 +396,26 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "SIVELO",
-      "IBC",
-      "SST",
-      "Polaris_algorithm_dmi_demo",
-      "MSIA",
-      "SICONC",
-      "IST",
       "SHS1",
+      "Polaris_algorithm_dmi_demo",
       "SIT",
-      "VSI",
-      "USI"
+      "SST",
+      "SICONC",
+      "SIVELO",
+      "USI",
+      "IBC",
+      "IST",
+      "MSIA",
+      "VSI"
     ],
     "themes": [
-      "Energy",
       "Shipping",
+      "Energy",
       "Aquaculture"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
     ]
   },
   "assets": {

@@ -23,7 +23,7 @@
         "elevation": "0",
         "style": "cmap:ice"
       },
-      "key": "bb3de3c0-401c-4f40-8edd-40759bb6a380"
+      "key": "7cabab00-42f4-4bb6-afa9-428a9516689c"
     },
     {
       "rel": "wmts",
@@ -38,7 +38,7 @@
         "elevation": 0,
         "style": "cmap:ice"
       },
-      "key": "422c4cd0-64b3-48e1-b3b5-f04e968eb72e"
+      "key": "c25a9008-65ad-45ac-861d-11e3171c45a2"
     },
     {
       "rel": "parent",
@@ -48,6 +48,7 @@
     }
   ],
   "sci:doi": "10.48670/moi-00016",
+  "sci:citation": "Test",
   "themes": [
     "Shipping"
   ],
@@ -97,14 +98,14 @@
       ]
     }
   },
-  "license": "other",
+  "license": "proprietary",
   "providers": [
     {
-      "name": "Mercator Océan International",
+      "name": "Mercator Océan International Test",
       "url": "https://www.mercator-ocean.eu/"
     },
     {
-      "name": "Copernicus Marine Service (CMEMS)",
+      "name": "Copernicus Marine Service (CMEMS) Test",
       "url": "https://data.marine.copernicus.eu/"
     }
   ],
@@ -115,6 +116,13 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
+      ]
+    },
+    "legend": {
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Test",
+      "type": "image/png",
+      "roles": [
+        "metadata"
       ]
     },
     "reference_1": {
