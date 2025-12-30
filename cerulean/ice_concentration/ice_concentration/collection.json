@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "ice_concentration",
   "stac_version": "1.1.0",
-  "description": "The Operational Mercator global ocean analysis and forecast system at 1/12 degree is providing 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time in order to reach a two full year’s time series sliding window.\nThis product includes daily and monthly mean files of temperature, salinity, currents, sea level, mixed layer depth and ice parameters from the top to the bottom over the global ocean. It also includes hourly mean surface fields for sea level height, temperature and currents. The global ocean output files are displayed with a 1/12 degree horizontal resolution with regular longitude/latitude equirectangular projection.\n50 vertical levels are ranging from 0 to 5500 meters.\nThis product also delivers a special dataset for surface current which also includes wave and tidal drift called SMOC (Surface merged Ocean Current).\n",
+  "description": "The global ocean analysis and forecast system provides 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time to provide a two-year time series sliding window. The output files are displayed with a 1/12 degree horizontal resolution.\"",
   "links": [
     {
       "rel": "root",
@@ -23,7 +23,7 @@
         "elevation": "0",
         "style": "cmap:ice"
       },
-      "key": "f5675344-5426-45a6-9e89-66093b5bf722"
+      "key": "643872f5-eac1-4242-b615-b1efb87b75a7"
     },
     {
       "rel": "wmts",
@@ -38,13 +38,13 @@
         "elevation": 0,
         "style": "cmap:ice"
       },
-      "key": "4eaf917b-8539-4bf3-a3d3-9c8017204c2d"
+      "key": "a2f19dea-8674-49f7-ad43-11759248bcb9"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Ice concentration"
+      "title": "Sea ice area fraction"
     }
   ],
   "sci:doi": "10.48670/moi-00016",
@@ -60,7 +60,8 @@
   "subcode": "SICONC",
   "collection_group": "Sea Ice",
   "otherSources": [
-    "Numerical Model"
+    "Numerical Model",
+    "0.083° × 0.083°"
   ],
   "eox:colorlegend": {
     "title": "Ice concentration",
@@ -75,7 +76,7 @@
     ]
   },
   "endpointtype": "marinedatastore_WMTSCapabilities",
-  "title": "Ice concentration",
+  "title": "Sea ice area fraction",
   "extent": {
     "spatial": {
       "bbox": [

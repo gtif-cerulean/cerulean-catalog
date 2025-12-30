@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "ice_concentration",
   "stac_version": "1.1.0",
-  "description": "The Operational Mercator global ocean analysis and forecast system at 1/12 degree is providing 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time in order to reach a two full year’s time series sliding window.\nThis product includes daily and monthly mean files of temperature, salinity, currents, sea level, mixed layer depth and ice parameters from the top to the bottom over the global ocean. It also includes hourly mean surface fields for sea level height, temperature and currents. The global ocean output files are displayed with a 1/12 degree horizontal resolution with regular longitude/latitude equirectangular projection.\n50 vertical levels are ranging from 0 to 5500 meters.\nThis product also delivers a special dataset for surface current which also includes wave and tidal drift called SMOC (Surface merged Ocean Current).\n",
+  "description": "The global ocean analysis and forecast system provides 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time to provide a two-year time series sliding window. The output files are displayed with a 1/12 degree horizontal resolution.\"",
   "links": [
     {
       "rel": "root",
@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./ice_concentration/collection.json",
       "type": "application/json",
-      "title": "Ice concentration",
+      "title": "Sea ice area fraction",
       "endpointtype": "marinedatastore_WMTSCapabilities",
       "code": "SICONC",
       "id": "ice_concentration",
@@ -34,17 +34,19 @@
         "CMEMS"
       ],
       "subcode": "SICONC",
-      "collection_group": "Sea Ice",
+      "collection_group": "3. Sea Ice",
       "otherSources": [
-        "Numerical Model"
+        "Numerical Model",
+        "0.083° × 0.083°"
       ]
     },
     {
       "rel": "service",
-      "href": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_mod_glo_phy_anfc_0.083deg_P1D-m&variables=siconc&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
-      "type": "application/json",
-      "id": "process_cmems",
-      "method": "GET"
+      "href": "./ice_concentration/{{feature}}/collection.json",
+      "type": "application/json; profile=collection",
+      "id": "locations",
+      "method": "GET",
+      "endpoint": "STAC"
     },
     {
       "rel": "xyz",
@@ -222,6 +224,7 @@
   "themes": [
     "Shipping"
   ],
+  "locations": true,
   "tags": [
     "model"
   ],
@@ -231,7 +234,8 @@
   "subcode": "SICONC",
   "collection_group": "Sea Ice",
   "otherSources": [
-    "Numerical Model"
+    "Numerical Model",
+    "0.083° × 0.083°"
   ],
   "eox:colorlegend": {
     "title": "Ice concentration",
@@ -245,10 +249,10 @@
       1
     ]
   },
+  "merge_assets": false,
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/siconc.json",
-  "merge_assets": false,
-  "title": "Ice concentration",
+  "title": "Sea ice area fraction",
   "extent": {
     "spatial": {
       "bbox": [

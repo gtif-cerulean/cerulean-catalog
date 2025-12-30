@@ -59,8 +59,8 @@
       ],
       "subcode": "POS1",
       "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
       ],
       "collection_group": "Capabilities"
     },
@@ -834,7 +834,7 @@
       "rel": "child",
       "href": "./ice_concentration/collection.json",
       "type": "application/json",
-      "title": "Ice concentration",
+      "title": "Sea ice area fraction",
       "code": "SICONC",
       "id": "ice_concentration",
       "themes": [
@@ -853,9 +853,10 @@
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "Sea Ice",
+      "collection_group": "3. Sea Ice",
       "otherSources": [
-        "Numerical Model"
+        "Numerical Model",
+        "0.083° × 0.083°"
       ]
     },
     {
@@ -968,8 +969,8 @@
       ],
       "subcode": "SHIP1",
       "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
       ],
       "collection_group": "Capabilities"
     },

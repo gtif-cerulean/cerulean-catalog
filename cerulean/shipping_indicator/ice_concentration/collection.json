@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "ice_concentration",
   "stac_version": "1.1.0",
-  "description": "The Operational Mercator global ocean analysis and forecast system at 1/12 degree is providing 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time in order to reach a two full year’s time series sliding window.\nThis product includes daily and monthly mean files of temperature, salinity, currents, sea level, mixed layer depth and ice parameters from the top to the bottom over the global ocean. It also includes hourly mean surface fields for sea level height, temperature and currents. The global ocean output files are displayed with a 1/12 degree horizontal resolution with regular longitude/latitude equirectangular projection.\n50 vertical levels are ranging from 0 to 5500 meters.\nThis product also delivers a special dataset for surface current which also includes wave and tidal drift called SMOC (Surface merged Ocean Current).\n",
+  "description": "The global ocean analysis and forecast system provides 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time to provide a two-year time series sliding window. The output files are displayed with a 1/12 degree horizontal resolution.\"",
   "links": [
     {
       "rel": "root",
@@ -23,7 +23,7 @@
         "elevation": "0",
         "style": "cmap:ice"
       },
-      "key": "071c8a44-1455-482e-90bf-0e9d73cd8784"
+      "key": "7c8f6e88-d488-4526-aef0-bef1c512deba"
     },
     {
       "rel": "parent",
@@ -45,18 +45,20 @@
     "CMEMS"
   ],
   "subcode": "SICONC",
-  "collection_group": "Sea Ice",
+  "collection_group": "3. Sea Ice",
   "otherSources": [
-    "Numerical Model"
+    "Numerical Model",
+    "0.083° × 0.083°"
   ],
   "eox:colorlegend": {
-    "title": "Ice concentration",
+    "title": "Sea ice area fraction",
     "range": [
-      "#b4cffa",
-      "#006bce",
-      "#1a2653",
-      "#333333",
-      "#000000"
+      "rgb(3, 5, 18)",
+      "rgb(48, 46, 95)",
+      "rgb(62, 93, 168)",
+      "rgb(82, 149, 192)",
+      "rgb(140, 203, 213)",
+      "rgb(234, 252, 253)"
     ],
     "domain": [
       0,
@@ -64,7 +66,7 @@
     ]
   },
   "endpointtype": "marinedatastore_WMTSCapabilities",
-  "title": "Ice concentration",
+  "title": "Sea ice area fraction",
   "extent": {
     "spatial": {
       "bbox": [
@@ -79,7 +81,7 @@
     "temporal": {
       "interval": [
         [
-          "2024-01-01T00:00:00Z",
+          "2022-06-01T00:00:00Z",
           "2026-01-08T00:00:00Z"
         ]
       ]
