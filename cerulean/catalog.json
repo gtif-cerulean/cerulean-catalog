@@ -1679,6 +1679,26 @@
     },
     {
       "rel": "child",
+      "href": "./dmi-asip-seaice/collection.json",
+      "type": "application/json",
+      "title": "High Resolution Sea Ice Information L3 Arctic",
+      "id": "dmi-asip-seaice",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "providers": [
+        "CMEMS",
+        "EOX"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Sea Ice"
+    },
+    {
+      "rel": "child",
       "href": "./RCM_eoapi/collection.json",
       "type": "application/json",
       "title": "RCM scenes",
