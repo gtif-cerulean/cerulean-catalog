@@ -23,7 +23,7 @@
         "elevation": "0",
         "style": "cmap:ice"
       },
-      "key": "c85cac1c-c4fb-458f-983d-09139459c998"
+      "key": "ab189075-c58d-446e-9c0d-93eb172f6a3b"
     },
     {
       "rel": "parent",
@@ -52,7 +52,7 @@
     "0.083° × 0.083°"
   ],
   "eox:colorlegend": {
-    "title": "Sea ice area fraction",
+    "title": "Sea ice area fraction Test",
     "range": [
       "rgb(3, 5, 18)",
       "rgb(48, 46, 95)",
