@@ -388,7 +388,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2026-01-10T00:00:00Z"
+          "2026-01-13T00:00:00Z"
         ]
       ]
     }
@@ -397,16 +397,16 @@
   "summaries": {
     "subcode": [
       "SIT",
-      "SICONC",
       "SST",
-      "IBC",
       "SHS1",
+      "Polaris_algorithm_dmi_demo",
+      "VSI",
+      "SICONC",
+      "USI",
+      "IBC",
       "MSIA",
       "SIVELO",
-      "USI",
-      "VSI",
-      "IST",
-      "Polaris_algorithm_dmi_demo"
+      "IST"
     ],
     "themes": [
       "Aquaculture",
@@ -414,8 +414,8 @@
       "Energy"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
     ]
   },
   "assets": {
