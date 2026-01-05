@@ -11,6 +11,34 @@
       "title": "Cerulean GTIF project catalog"
     },
     {
+      "rel": "child",
+      "href": "./ice_concentration/collection.json",
+      "type": "application/json",
+      "title": "Ice concentration",
+      "code": "SICONC",
+      "id": "ice_concentration",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "providers": [
+        "Mercator Océan International",
+        "Copernicus Marine Service (CMEMS)"
+      ],
+      "subcode": "SICONC",
+      "tags": [
+        "model test"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Sea Ice",
+      "otherSources": [
+        "Numerical Model"
+      ]
+    },
+    {
       "rel": "self",
       "href": "https://gtif-cerulean.github.io/cerulean-catalog/cerulean/catalog.json",
       "type": "application/json"
