@@ -10,7 +10,7 @@
   ],
   "CollectionGroup": "3. Sea Ice",
   "DataSource": {
-    "Spaceborne": {"Test"},
+    "Spaceborne": {"Sensor": "test"},
     "Other": [
       "Numerical Model",
       "0.083° × 0.083°"
@@ -62,8 +62,7 @@
   "References": [
     {
       "Name": "CMEMS Data Description",
-      "Url": "https://data.marine.copernicus.eu/product/GLOBAL_ANALYSISFORECAST_PHY_001_024/description",
-      "Title": "Test"
+      "Url": "https://data.marine.copernicus.eu/product/GLOBAL_ANALYSISFORECAST_PHY_001_024/description"
     }
   ],
   "Provider": [
@@ -87,9 +86,5 @@
         "Type": "application/json"
       }
     ]
-  },
-  "License": "Test",
-  "Locations": ["0.083° × 0.083°"],
-  "Image": "",
-  "Legend": "Test"
+  }
 }

@@ -12,6 +12,10 @@
         "dmi-asip-seaice-sod",
         "dmi-asip-seaice-floe"
     ],
+    "Disable": [
+        "dmi-asip-seaice-sod",
+        "dmi-asip-seaice-floe"
+    ],
     "Provider": [
         {
             "Name": "CMEMS",

@@ -98,6 +98,7 @@
     "CHL_total_chlorophyll",
     "dmi-asip-seaice",
     "RCM_eoapi",
-    "NIC_Icecharts_arctic"
+    "NIC_Icecharts_arctic",
+    "DEPTHO_sea_floor_depth_shores"
   ]
 }
