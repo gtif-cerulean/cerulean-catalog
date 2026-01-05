@@ -1,0 +1,88 @@
+{
+  "type": "Collection",
+  "id": "chlorophyll_concentration",
+  "stac_version": "1.1.0",
+  "description": "For the Global Ocean Satellite Observations, ACRI-ST company (Sophia Antipolis, France) is providing Bio-Geo-Chemical (BGC) products based on the Copernicus-GlobColour processor. Upstreams: SeaWiFS, MODIS, MERIS, VIIRS-SNPP & JPSS1, OLCI-S3A & S3B for the 'multi' products, and S3A & S3B only for the 'olci' products. Variables: Chlorophyll-a (CHL), Phytoplankton Functional types and sizes (PFT), Primary Production (PP), Suspended Matter (SPM), Secchi Transparency Depth (ZSD), Diffuse Attenuation (KD490), Particulate Backscattering (BBP), Absorption Coef. (CDM) and Reflectance (RRS). Temporal resolutions: monthly plus, for some variables, daily gap-free based on a space-time interpolation to provide a cloud free product. Spatial resolutions: 4 km and a finer resolution based on olci 300 meters inputs. Recent products are organized in datasets called Near Real Time (NRT) and long time-series (from 1997) in datasets called Multi-Years (MY).",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "wmts",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-gapfree-multi-4km_P1D_202311",
+      "type": "image/png",
+      "title": "wmts capabilities",
+      "wmts:layer": "OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-gapfree-multi-4km_P1D_202311/CHL",
+      "role": [
+        "data"
+      ],
+      "wmts:dimensions": {
+        "elevation": 0,
+        "style": "cmap:algae"
+      },
+      "key": "691079c7-3824-4574-aaf8-4c5d7d378935"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Chlorophyll-a concentration"
+    }
+  ],
+  "sci:doi": "10.48670/moi-00279",
+  "themes": [
+    "Aquaculture"
+  ],
+  "agency": [
+    "CMEMS"
+  ],
+  "collection_group": "Water Biology",
+  "eox:colorlegend": {
+    "title": "Chlorophyll-a concentration - Mean of the binned pixels [milligram m-3]",
+    "range": [
+      "rgb(213, 250, 207)",
+      "rgb(17, 148, 80)",
+      "rgb(13, 36, 18)"
+    ],
+    "domain": [
+      0.027,
+      1.812
+    ]
+  },
+  "endpointtype": "marinedatastore_WMTSCapabilities",
+  "title": "Chlorophyll-a concentration",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -179.9791717529297,
+          -89.97917175292969,
+          179.9791717529297,
+          89.97916412353516
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-12-19T00:00:00Z",
+          "2026-01-04T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}

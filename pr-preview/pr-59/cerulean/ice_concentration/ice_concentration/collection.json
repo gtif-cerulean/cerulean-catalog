@@ -23,7 +23,22 @@
         "elevation": "0",
         "style": "cmap:ice"
       },
-      "key": "5a6e4f1a-25f4-4bf5-a25b-a66d6d219ffa"
+      "key": "5d1c26b0-328b-4e9c-afd1-3e3f8a94c397"
+    },
+    {
+      "rel": "wmts",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406",
+      "type": "image/png",
+      "title": "wmts capabilities",
+      "wmts:layer": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406/siconc",
+      "role": [
+        "data"
+      ],
+      "wmts:dimensions": {
+        "elevation": 0,
+        "style": "cmap:ice"
+      },
+      "key": "4aac58c2-75b1-4994-bfae-937300523b11"
     },
     {
       "rel": "parent",
@@ -35,8 +50,6 @@
   "sci:doi": "10.48670/moi-00016",
   "sci:citation": "Test",
   "themes": [
-    "Aquaculture",
-    "Energy",
     "Shipping"
   ],
   "tags": [
@@ -45,22 +58,18 @@
   "agency": [
     "CMEMS"
   ],
-  "subcode": "SICONC",
-  "collection_group": "3. Sea Ice",
+  "collection_group": "Sea Ice",
   "sensor": "test",
   "otherSources": [
     "Numerical Model",
     "0.083° × 0.083°"
   ],
   "eox:colorlegend": {
-    "title": "Sea ice area fraction Test",
+    "title": "Ice concentration",
     "range": [
-      "rgb(3, 5, 18)",
-      "rgb(48, 46, 95)",
-      "rgb(62, 93, 168)",
-      "rgb(82, 149, 192)",
-      "rgb(140, 203, 213)",
-      "rgb(234, 252, 253)"
+      "rgb(4, 6, 21)",
+      "rgb(69, 123, 185)",
+      "rgb(229, 248, 252)"
     ],
     "domain": [
       0,
@@ -83,7 +92,7 @@
     "temporal": {
       "interval": [
         [
-          "2022-06-01T00:00:00Z",
+          "2024-01-01T00:00:00Z",
           "2026-01-14T00:00:00Z"
         ]
       ]

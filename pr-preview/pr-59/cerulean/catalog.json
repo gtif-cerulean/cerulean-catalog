@@ -12,10 +12,549 @@
     },
     {
       "rel": "child",
+      "href": "./air_density/collection.json",
+      "type": "application/json",
+      "title": "Air density",
+      "id": "air_density",
+      "themes": [
+        "Energy"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Wind"
+    },
+    {
+      "rel": "child",
+      "href": "./chlorophyll_concentration/collection.json",
+      "type": "application/json",
+      "title": "Chlorophyll-a concentration",
+      "id": "chlorophyll_concentration",
+      "themes": [
+        "Aquaculture"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Biology"
+    },
+    {
+      "rel": "child",
+      "href": "./total_chlorophyll/collection.json",
+      "type": "application/json",
+      "title": "Total Chlorophyll",
+      "id": "total_chlorophyll",
+      "themes": [
+        "Aquaculture"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Chemistry"
+    },
+    {
+      "rel": "child",
+      "href": "./sea_floor_depth/collection.json",
+      "type": "application/json",
+      "title": "Sea floor depth below geoid",
+      "id": "sea_floor_depth",
+      "themes": [
+        "Aquaculture",
+        "Energy"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Bathymetry"
+    },
+    {
+      "rel": "child",
+      "href": "./sea_floor_depth_antarctica/collection.json",
+      "type": "application/json",
+      "title": "Sea floor depth below geoid",
+      "id": "sea_floor_depth_antarctica",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Antarctica",
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./diatoms_chlorophyll_a/collection.json",
+      "type": "application/json",
+      "title": "Diatoms Chlorophyll a concentration",
+      "id": "diatoms_chlorophyll_a",
+      "themes": [
+        "Aquaculture"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Biology"
+    },
+    {
+      "rel": "child",
+      "href": "./dissolved_inorganic_carbon/collection.json",
+      "type": "application/json",
+      "title": "Dissolved Inorganic Carbon",
+      "id": "dissolved_inorganic_carbon",
+      "themes": [
+        "Aquaculture"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Chemistry"
+    },
+    {
+      "rel": "child",
+      "href": "./dinophytes_chlorophyll_a/collection.json",
+      "type": "application/json",
+      "title": "Mass concentration of dinophytes expressed as chlorophyll in sea water",
+      "id": "dinophytes_chlorophyll_a",
+      "themes": [
+        "Aquaculture"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Biology"
+    },
+    {
+      "rel": "child",
+      "href": "./dissolved_iron/collection.json",
+      "type": "application/json",
+      "title": "Dissolved Iron",
+      "id": "dissolved_iron",
+      "themes": [
+        "Aquaculture"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Chemistry"
+    },
+    {
+      "rel": "child",
+      "href": "./dissolved_oxygen/collection.json",
+      "type": "application/json",
+      "title": "Dissolved Oxygen",
+      "id": "dissolved_oxygen",
+      "themes": [
+        "Aquaculture"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Chemistry"
+    },
+    {
+      "rel": "child",
+      "href": "./green_algae/collection.json",
+      "type": "application/json",
+      "title": "Green Algae Chlorophyll a concentration",
+      "id": "green_algae",
+      "themes": [
+        "Aquaculture"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Biology"
+    },
+    {
+      "rel": "child",
+      "href": "./haptophytes_chlorophyll_a/collection.json",
+      "type": "application/json",
+      "title": "Haptophytes Chlorophyll a concentration",
+      "id": "haptophytes_chlorophyll_a",
+      "themes": [
+        "Aquaculture"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Biology"
+    },
+    {
+      "rel": "child",
+      "href": "./iceberg_concentration/collection.json",
+      "type": "application/json",
+      "title": "Iceberg concentration",
+      "id": "iceberg_concentration",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Icebergs"
+    },
+    {
+      "rel": "child",
+      "href": "./sea_ice_surface_temperature/collection.json",
+      "type": "application/json",
+      "title": "Sea ice surface temperature",
+      "id": "sea_ice_surface_temperature",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./sea_ice_surface_temperature_antarctica/collection.json",
+      "type": "application/json",
+      "title": "Sea ice surface temperature Antarctica",
+      "id": "sea_ice_surface_temperature_antarctica",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Antarctica",
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./microphytoplankton_chlorophyll_a/collection.json",
+      "type": "application/json",
+      "title": "Microphytoplankton Chlorophyll a concentration",
+      "id": "microphytoplankton_chlorophyll_a",
+      "themes": [
+        "Aquaculture"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Biology"
+    },
+    {
+      "rel": "child",
+      "href": "./mean_sea_ice_age/collection.json",
+      "type": "application/json",
+      "title": "Mean sea ice age",
+      "id": "mean_sea_ice_age",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./mean_sea_ice_age_antarctica/collection.json",
+      "type": "application/json",
+      "title": "Mean sea ice age Antarctica",
+      "id": "mean_sea_ice_age_antarctica",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Antarctica",
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./nanophytoplankton_hlorophyll_a/collection.json",
+      "type": "application/json",
+      "title": "Nanophytoplankton Chlorophyll a concentration",
+      "id": "nanophytoplankton_hlorophyll_a",
+      "themes": [
+        "Aquaculture"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Biology"
+    },
+    {
+      "rel": "child",
+      "href": "./nitrate/collection.json",
+      "type": "application/json",
+      "title": "Nitrate",
+      "id": "nitrate",
+      "themes": [
+        "Aquaculture"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Chemistry"
+    },
+    {
+      "rel": "child",
+      "href": "./net_primary_production_of_biomass/collection.json",
+      "type": "application/json",
+      "title": "Net primary production of biomass",
+      "id": "net_primary_production_of_biomass",
+      "themes": [
+        "Aquaculture"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Chemistry"
+    },
+    {
+      "rel": "child",
+      "href": "./total_phytoplankton/collection.json",
+      "type": "application/json",
+      "title": "Total Phytoplankton",
+      "id": "total_phytoplankton",
+      "themes": [
+        "Aquaculture"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Chemistry"
+    },
+    {
+      "rel": "child",
+      "href": "./ph/collection.json",
+      "type": "application/json",
+      "title": "PH",
+      "id": "ph",
+      "themes": [
+        "Aquaculture"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Chemistry"
+    },
+    {
+      "rel": "child",
+      "href": "./picophytoplankton_chlorophyll_a/collection.json",
+      "type": "application/json",
+      "title": "Picophytoplankton Chlorophyll a concentration",
+      "id": "picophytoplankton_chlorophyll_a",
+      "themes": [
+        "Aquaculture"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Biology"
+    },
+    {
+      "rel": "child",
+      "href": "./phosphate/collection.json",
+      "type": "application/json",
+      "title": "Phosphate",
+      "id": "phosphate",
+      "themes": [
+        "Aquaculture"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Chemistry"
+    },
+    {
+      "rel": "child",
+      "href": "./prochlorophytes_chlorophyll_a/collection.json",
+      "type": "application/json",
+      "title": "Prochlorophytes Chlorophyll a concentration",
+      "id": "prochlorophytes_chlorophyll_a",
+      "themes": [
+        "Aquaculture"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Biology"
+    },
+    {
+      "rel": "child",
+      "href": "./prokaryotes_chlorophyll_a/collection.json",
+      "type": "application/json",
+      "title": "Prokaryotes Chlorophyll a concentration",
+      "id": "prokaryotes_chlorophyll_a",
+      "themes": [
+        "Aquaculture"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Biology"
+    },
+    {
+      "rel": "child",
+      "href": "./surface_co2/collection.json",
+      "type": "application/json",
+      "title": "Surface CO2",
+      "id": "surface_co2",
+      "themes": [
+        "Aquaculture"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Chemistry"
+    },
+    {
+      "rel": "child",
+      "href": "./Sentinel1-EW-HH/collection.json",
+      "type": "application/json",
+      "title": "Sentinel 1 EW HH",
+      "id": "Sentinel1-EW-HH",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+      ],
+      "agency": [
+        "Sentinel Hub"
+      ],
+      "collection_group": "Satellite Data"
+    },
+    {
+      "rel": "child",
+      "href": "./Sentinel1-EW-HH_antarctica/collection.json",
+      "type": "application/json",
+      "title": "Sentinel 1 EW HH Antarctica",
+      "id": "Sentinel1-EW-HH_antarctica",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+      ],
+      "agency": [
+        "Sentinel Hub"
+      ],
+      "collection_group": "Antarctica",
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./Sentinel1-IW-VV/collection.json",
+      "type": "application/json",
+      "title": "Sentinel 1 IW VV",
+      "id": "Sentinel1-IW-VV",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+      ],
+      "agency": [
+        "Sentinel Hub"
+      ],
+      "collection_group": "Satellite Data"
+    },
+    {
+      "rel": "child",
+      "href": "./Sentinel1-IW-VV_antarctica/collection.json",
+      "type": "application/json",
+      "title": "Sentinel 1 IW VV Antarctica",
+      "id": "Sentinel1-IW-VV_antarctica",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+      ],
+      "agency": [
+        "Sentinel Hub"
+      ],
+      "collection_group": "Antarctica",
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./Sentinel2-L2A/collection.json",
+      "type": "application/json",
+      "title": "Sentinel 2 L2A",
+      "id": "Sentinel2-L2A",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+      ],
+      "agency": [
+        "Sentinel Hub"
+      ],
+      "collection_group": "Satellite Data"
+    },
+    {
+      "rel": "child",
       "href": "./ice_concentration/collection.json",
       "type": "application/json",
       "title": "Sea ice area fraction",
-      "code": "SICONC",
       "id": "ice_concentration",
       "themes": [
         "Aquaculture",
@@ -26,7 +565,6 @@
         "Mercator Océan International Test",
         "Copernicus Marine Service (CMEMS) Test"
       ],
-      "subcode": "SICONC",
       "sensor": "test",
       "tags": [
         "model test"
@@ -39,6 +577,409 @@
         "Numerical Model",
         "0.083° × 0.083°"
       ]
+    },
+    {
+      "rel": "child",
+      "href": "./sea_ice_detections/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Detections",
+      "id": "sea_ice_detections",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "SMI"
+      ],
+      "collection_group": "Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./sea_ice_thickness/collection.json",
+      "type": "application/json",
+      "title": "Sea ice thickness",
+      "id": "sea_ice_thickness",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./sea_ice_thickness_antarctica/collection.json",
+      "type": "application/json",
+      "title": "Sea ice thickness Antarctica",
+      "id": "sea_ice_thickness_antarctica",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Antarctica",
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./sea_ice_speed/collection.json",
+      "type": "application/json",
+      "title": "Sea ice speed",
+      "id": "sea_ice_speed",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./sea_ice_speed_antarctica/collection.json",
+      "type": "application/json",
+      "title": "Sea ice speed Antarctica",
+      "id": "sea_ice_speed_antarctica",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Antarctica",
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./dissolved_silicate/collection.json",
+      "type": "application/json",
+      "title": "Dissolved Silicate",
+      "id": "dissolved_silicate",
+      "themes": [
+        "Aquaculture"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Chemistry"
+    },
+    {
+      "rel": "child",
+      "href": "./salinity/collection.json",
+      "type": "application/json",
+      "title": "Salinity",
+      "id": "salinity",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Sea Water"
+    },
+    {
+      "rel": "child",
+      "href": "./inorganic_suspended_pm/collection.json",
+      "type": "application/json",
+      "title": "Inorganic suspended particulate matter in sea water",
+      "id": "inorganic_suspended_pm",
+      "themes": [
+        "Aquaculture"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Biology"
+    },
+    {
+      "rel": "child",
+      "href": "./sea_surface_temperature_anomaly/collection.json",
+      "type": "application/json",
+      "title": "Sea surface temperature anomaly",
+      "id": "sea_surface_temperature_anomaly",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Sea Water"
+    },
+    {
+      "rel": "child",
+      "href": "./surface_snow_thickness/collection.json",
+      "type": "application/json",
+      "title": "Surface snow thickness",
+      "id": "surface_snow_thickness",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./surface_snow_thickness_antarctica/collection.json",
+      "type": "application/json",
+      "title": "Surface snow thickness Antarctica",
+      "id": "surface_snow_thickness_antarctica",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Antarctica",
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./sea_water_potential_temperature/collection.json",
+      "type": "application/json",
+      "title": "Sea water potential temperature",
+      "id": "sea_water_potential_temperature",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Sea Water"
+    },
+    {
+      "rel": "child",
+      "href": "./total_alkalinity/collection.json",
+      "type": "application/json",
+      "title": "Total Alkalinity",
+      "id": "total_alkalinity",
+      "themes": [
+        "Aquaculture"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Chemistry"
+    },
+    {
+      "rel": "child",
+      "href": "./curl_of_stress_equivalent_wind/collection.json",
+      "type": "application/json",
+      "title": "Curl of stress-equivalent wind",
+      "id": "curl_of_stress_equivalent_wind",
+      "themes": [
+        "Shipping",
+        "Aquaculture",
+        "Energy"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Wind"
+    },
+    {
+      "rel": "child",
+      "href": "./total_zooplankton/collection.json",
+      "type": "application/json",
+      "title": "Total Zooplankton",
+      "id": "total_zooplankton",
+      "themes": [
+        "Aquaculture"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Water Chemistry"
+    },
+    {
+      "rel": "child",
+      "href": "./airss_results/collection.json",
+      "type": "application/json",
+      "title": "AIRSS Go or No-Go",
+      "id": "airss_results",
+      "themes": [
+        "Shipping"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+      ],
+      "agency": [
+        "Canadian Ice Service"
+      ],
+      "collection_group": "Capabilities"
+    },
+    {
+      "rel": "child",
+      "href": "./cmems_balitic_ice_concentration/collection.json",
+      "type": "application/json",
+      "title": "Baltic Sea Ice Concentration",
+      "id": "cmems_balitic_ice_concentration",
+      "themes": [
+        "Baltic"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Baltic"
+    },
+    {
+      "rel": "child",
+      "href": "./cmems_baltic_ice_thickness/collection.json",
+      "type": "application/json",
+      "title": "Baltic Sea Ice Thickness",
+      "id": "cmems_baltic_ice_thickness",
+      "themes": [
+        "Baltic"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Baltic"
+    },
+    {
+      "rel": "child",
+      "href": "./harshness/collection.json",
+      "type": "application/json",
+      "title": "Harshness capability",
+      "id": "harshness",
+      "themes": [
+        "Shipping",
+        "Aquaculture",
+        "Energy"
+      ],
+      "agency": [
+        "C-CORE"
+      ],
+      "collection_group": "Capabilities"
+    },
+    {
+      "rel": "child",
+      "href": "./Polaris_algorithm_dmi_demo/collection.json",
+      "type": "application/json",
+      "title": "POLARIS",
+      "id": "Polaris_algorithm_dmi_demo",
+      "themes": [
+        "Shipping"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+      ],
+      "agency": [
+        "National Research Council of Canada"
+      ],
+      "collection_group": "Capabilities"
+    },
+    {
+      "rel": "child",
+      "href": "./polarwarp/collection.json",
+      "type": "application/json",
+      "title": "Polar warp capability",
+      "id": "polarwarp",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "Drift+Noise"
+      ],
+      "collection_group": "Capabilities",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./structureicing/collection.json",
+      "type": "application/json",
+      "title": "Icing Predictor Index",
+      "id": "structureicing",
+      "themes": [
+        "Shipping",
+        "Aquaculture",
+        "Energy"
+      ],
+      "agency": [
+        "C-CORE"
+      ],
+      "collection_group": "Capabilities"
+    },
+    {
+      "rel": "child",
+      "href": "./polaris_sentinel1/collection.json",
+      "type": "application/json",
+      "title": "POLARIS combined",
+      "id": "polaris_sentinel1",
+      "themes": [
+        "Shipping"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+      ],
+      "collection_group": "Capabilities"
+    },
+    {
+      "rel": "child",
+      "href": "./Drift_Deformation/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Drift and Deformation",
+      "id": "Drift_Deformation",
+      "themes": [
+        "Shipping",
+        "Aquaculture",
+        "Energy"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+      ],
+      "collection_group": "Capabilities"
+    },
+    {
+      "rel": "child",
+      "href": "./polarwarp_sentinel1/collection.json",
+      "type": "application/json",
+      "title": "Polar warp capability",
+      "id": "polarwarp_sentinel1",
+      "themes": [
+        "Shipping"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+      ],
+      "collection_group": "Capabilities",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "self",
