@@ -11,9 +11,9 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-  # run at 3:40 weekly on sunday and wednesday
+  # run at 8:40 daily
   schedule:
-    - cron: '40 3 * * 0,4'
+    - cron: '40 8 * * *'
 jobs:
   deploy:
     runs-on: ubuntu-22.04
@@ -34,7 +34,7 @@ jobs:
           SH_CLIENT_SECRET: ${{ secrets.SH_CLIENT_SECRET }}
         # actually run the catalog generation
         run: |
-          docker run -v "$PWD:/workspace" -w "/workspace" -e SH_INSTANCE_ID="$SH_INSTANCE_ID" -e SH_CLIENT_ID="$SH_CLIENT_ID" -e SH_CLIENT_SECRET="$SH_CLIENT_SECRET" ghcr.io/eodash/eodash_catalog:0.3.31 eodash_catalog -gp
+          docker run -v "$PWD:/workspace" -w "/workspace" -e SH_INSTANCE_ID="$SH_INSTANCE_ID" -e SH_CLIENT_ID="$SH_CLIENT_ID" -e SH_CLIENT_SECRET="$SH_CLIENT_SECRET" ghcr.io/eodash/eodash_catalog:0.3.34 eodash_catalog -gp
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
