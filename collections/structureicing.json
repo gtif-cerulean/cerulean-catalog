@@ -1,7 +1,6 @@
 {
   "Name": "structureicing",
   "Title": "Icing Predictor Index",
-  "EodashIdentifier": "structureicing",
   "CollectionGroup": "Capabilities",
   "Description": "structureicing/structureicing.md",
   "Themes": [

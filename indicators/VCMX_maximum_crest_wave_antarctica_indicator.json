@@ -1,7 +1,6 @@
 {
     "Name": "maximum_crest_wave_antarctica_indicator",
     "Title": "Maximum crest trough wave height Antarctica",
-    "EodashIdentifier": "maximum_crest_wave_antarctica",
     "Description": "N/A\n",
     "CollectionGroup": "Antarctica",
     "Themes": [

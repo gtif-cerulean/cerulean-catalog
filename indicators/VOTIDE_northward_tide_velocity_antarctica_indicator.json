@@ -1,7 +1,6 @@
 {
     "Name": "northward_tide_velocity_antarctica_indicator",
     "Title": "Northward Tide-velocity Antarctica",
-    "EodashIdentifier": "northwad_tide_velocity_antarctica",
     "Description": "N/A\n",
     "CollectionGroup": "Antarctica",
     "Themes": [

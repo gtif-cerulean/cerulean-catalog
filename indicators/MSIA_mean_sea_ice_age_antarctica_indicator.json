@@ -1,7 +1,6 @@
 {
     "Name": "MSIA_mean_sea_ice_age_antarctica_indicator",
     "Title": "Mean Sea Ice age Antarctica",
-    "EodashIdentifier": "mean_sea_ice_age_antarctica",
     "Description": "N/A\n",
     "CollectionGroup": "Antarctica",
     "Themes": [

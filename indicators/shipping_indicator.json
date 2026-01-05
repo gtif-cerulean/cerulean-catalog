@@ -1,7 +1,6 @@
 {
   "Name": "shipping_indicator",
   "Title": "Shipping indicator",
-  "EodashIdentifier": "SHIP1",
   "Description": "",
   "CollectionGroup": "Capabilities",
   "Themes": [
