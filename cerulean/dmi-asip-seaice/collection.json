@@ -47,6 +47,9 @@
         "CMEMS",
         "EOX"
       ],
+      "roles": [
+        "disable"
+      ],
       "agency": [
         "CMEMS"
       ],
@@ -67,6 +70,9 @@
       "providers": [
         "CMEMS",
         "EOX"
+      ],
+      "roles": [
+        "disable"
       ],
       "agency": [
         "CMEMS"
@@ -228,9 +234,9 @@
   ],
   "summaries": {
     "themes": [
-      "Energy",
       "Shipping",
-      "Aquaculture"
+      "Aquaculture",
+      "Energy"
     ]
   },
   "assets": {

@@ -23,7 +23,7 @@
         "elevation": "0",
         "style": "cmap:ice"
       },
-      "key": "93148d30-dc5e-46da-974f-4cbdb5664cf4"
+      "key": "2f628274-5314-4579-9ac5-8e0e11234bbf"
     },
     {
       "rel": "wmts",
@@ -38,7 +38,7 @@
         "elevation": 0,
         "style": "cmap:ice"
       },
-      "key": "1483e263-4574-4a37-9a3c-55c08c82dce1"
+      "key": "887f1583-e257-4da0-afdc-2a14152c46af"
     },
     {
       "rel": "parent",
@@ -60,6 +60,7 @@
   ],
   "subcode": "SICONC",
   "collection_group": "Sea Ice",
+  "sensor": "test",
   "otherSources": [
     "Numerical Model",
     "0.083° × 0.083°"
@@ -98,7 +99,7 @@
       ]
     }
   },
-  "license": "proprietary",
+  "license": "other",
   "providers": [
     {
       "name": "Mercator Océan International Test",
@@ -116,13 +117,6 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
-      ]
-    },
-    "legend": {
-      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Test",
-      "type": "image/png",
-      "roles": [
-        "metadata"
       ]
     },
     "reference_1": {

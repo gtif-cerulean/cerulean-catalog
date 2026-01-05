@@ -191,14 +191,14 @@
   "license": "other",
   "summaries": {
     "subcode": [
+      "SID",
       "Polaris_algorithm_dmi_demo",
-      "SHS1",
-      "SID"
+      "SHS1"
     ],
     "themes": [
-      "Energy",
       "Shipping",
-      "Aquaculture"
+      "Aquaculture",
+      "Energy"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",

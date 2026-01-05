@@ -166,8 +166,8 @@
     "temporal": {
       "interval": [
         [
-          "2017-01-01T00:00:00Z",
-          "2017-01-01T00:00:00Z"
+          "2022-01-01T00:00:00Z",
+          "2022-01-01T00:00:00Z"
         ]
       ]
     }
@@ -178,8 +178,8 @@
       "DEPTHO"
     ],
     "themes": [
-      "Energy",
-      "Aquaculture"
+      "Aquaculture",
+      "Energy"
     ]
   },
   "assets": {

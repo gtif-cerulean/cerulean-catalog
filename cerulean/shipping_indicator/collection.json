@@ -105,6 +105,7 @@
       ],
       "subcode": "SICONC",
       "collection_group": "3. Sea Ice",
+      "sensor": "test",
       "otherSources": [
         "Numerical Model",
         "0.083° × 0.083°"
@@ -396,22 +397,25 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "IBC",
-      "Polaris_algorithm_dmi_demo",
       "USI",
-      "SIT",
-      "SST",
-      "VSI",
-      "SHS1",
-      "SICONC",
-      "IST",
       "MSIA",
-      "SIVELO"
+      "SIVELO",
+      "IBC",
+      "IST",
+      "SST",
+      "SHS1",
+      "VSI",
+      "SIT",
+      "Polaris_algorithm_dmi_demo",
+      "SICONC"
     ],
     "themes": [
-      "Energy",
       "Shipping",
-      "Aquaculture"
+      "Aquaculture",
+      "Energy"
+    ],
+    "sensor": [
+      "test"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",

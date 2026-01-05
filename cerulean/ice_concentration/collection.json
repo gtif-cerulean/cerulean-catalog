@@ -35,6 +35,7 @@
       ],
       "subcode": "SICONC",
       "collection_group": "3. Sea Ice",
+      "sensor": "test",
       "otherSources": [
         "Numerical Model",
         "0.083° × 0.083°"
@@ -42,11 +43,10 @@
     },
     {
       "rel": "service",
-      "href": "./ice_concentration/{{feature}}/collection.json",
-      "type": "application/json; profile=collection",
-      "id": "locations",
-      "method": "GET",
-      "endpoint": "STAC"
+      "href": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_mod_glo_phy_anfc_0.083deg_P1D-m&variables=siconc&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
+      "type": "application/json",
+      "id": "process_cmems",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -225,7 +225,6 @@
   "themes": [
     "Shipping"
   ],
-  "locations": true,
   "tags": [
     "model"
   ],
@@ -234,6 +233,7 @@
   ],
   "subcode": "SICONC",
   "collection_group": "Sea Ice",
+  "sensor": "test",
   "otherSources": [
     "Numerical Model",
     "0.083° × 0.083°"
@@ -250,9 +250,9 @@
       1
     ]
   },
-  "merge_assets": false,
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/siconc.json",
+  "merge_assets": false,
   "title": "Sea ice area fraction",
   "extent": {
     "spatial": {
@@ -280,7 +280,7 @@
       ]
     }
   },
-  "license": "proprietary",
+  "license": "other",
   "providers": [
     {
       "name": "Mercator Océan International Test",
@@ -297,16 +297,12 @@
     ],
     "themes": [
       "Shipping"
+    ],
+    "sensor": [
+      "test"
     ]
   },
   "assets": {
-    "legend": {
-      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Test",
-      "type": "image/png",
-      "roles": [
-        "metadata"
-      ]
-    },
     "reference_1": {
       "href": "https://data.marine.copernicus.eu/product/GLOBAL_ANALYSISFORECAST_PHY_001_024/description",
       "type": "text/html",
