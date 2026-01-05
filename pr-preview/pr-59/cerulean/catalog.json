@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./ice_concentration/collection.json",
       "type": "application/json",
-      "title": "Ice concentration",
+      "title": "Sea ice area fraction",
       "code": "SICONC",
       "id": "ice_concentration",
       "themes": [
@@ -23,19 +23,21 @@
         "Shipping"
       ],
       "providers": [
-        "Mercator Océan International",
-        "Copernicus Marine Service (CMEMS)"
+        "Mercator Océan International Test",
+        "Copernicus Marine Service (CMEMS) Test"
       ],
       "subcode": "SICONC",
+      "sensor": "test",
       "tags": [
         "model test"
       ],
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "Sea Ice",
+      "collection_group": "3. Sea Ice",
       "otherSources": [
-        "Numerical Model"
+        "Numerical Model",
+        "0.083° × 0.083°"
       ]
     },
     {
