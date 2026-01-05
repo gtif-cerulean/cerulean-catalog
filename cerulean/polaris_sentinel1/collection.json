@@ -183,7 +183,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2026-01-04T00:00:00Z"
+          "2026-01-05T00:00:00Z"
         ]
       ]
     }
@@ -191,14 +191,14 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "SHS1",
       "Polaris_algorithm_dmi_demo",
+      "SHS1",
       "SID"
     ],
     "themes": [
-      "Aquaculture",
+      "Energy",
       "Shipping",
-      "Energy"
+      "Aquaculture"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
