@@ -12,6 +12,84 @@
     },
     {
       "rel": "child",
+      "href": "./IBC_iceberg_concentration_IW/collection.json",
+      "type": "application/json",
+      "title": "Number of icebergs per unit area (S1 IW)",
+      "id": "IBC_iceberg_concentration_IW",
+      "themes": [
+        "Shipping",
+        "Energy",
+        "Aquaculture"
+      ],
+      "sensor": "Satellite S1 IW",
+      "agency": [
+        "DMI"
+      ],
+      "collection_group": "4. Icebergs",
+      "otherSources": [
+        "Numerical Model",
+        "10 km x 10 km"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./PHYC_phytoplankton/collection.json",
+      "type": "application/json",
+      "title": "Mole concentration of phytoplankton expressed as carbon in sea water",
+      "id": "PHYC_phytoplankton",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "7. Water Chemistry",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./SIAGE_sea_ice_age.json/collection.json",
+      "type": "application/json",
+      "title": "Age of sea ice",
+      "id": "SIAGE_sea_ice_age.json",
+      "themes": [
+        "Shipping"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "3. Sea Ice",
+      "otherSources": [
+        "Spatial Resolution: 0.083° x 0.083°",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./TALK_alkalinity/collection.json",
+      "type": "application/json",
+      "title": "Sea water alkalinity expressed as mole equivalent",
+      "id": "TALK_alkalinity",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "7. Water Chemistry",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./chlorophyll_concentration/collection.json",
       "type": "application/json",
       "title": "Chlorophyll-a concentration",
@@ -26,18 +104,22 @@
     },
     {
       "rel": "child",
-      "href": "./sea_floor_depth/collection.json",
+      "href": "./DEPTHO_sea_floor_depth/collection.json",
       "type": "application/json",
       "title": "Sea floor depth below geoid",
-      "id": "sea_floor_depth",
+      "id": "DEPTHO_sea_floor_depth",
       "themes": [
         "Aquaculture",
         "Energy"
       ],
       "agency": [
-        "CMEMS"
+        "Mercator Ocean International"
       ],
-      "collection_group": "Bathymetry"
+      "collection_group": "10. Bathymetry",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Static"
+      ]
     },
     {
       "rel": "child",
@@ -123,31 +205,24 @@
     },
     {
       "rel": "child",
-      "href": "./iceberg_concentration/collection.json",
-      "type": "application/json",
-      "title": "Iceberg concentration",
-      "id": "iceberg_concentration",
-      "themes": [
-        "Shipping"
-      ],
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Icebergs"
-    },
-    {
-      "rel": "child",
       "href": "./sea_ice_surface_temperature/collection.json",
       "type": "application/json",
       "title": "Sea ice surface temperature",
       "id": "sea_ice_surface_temperature",
       "themes": [
-        "Shipping"
+        "Shipping",
+        "Energy",
+        "Aquaculture"
       ],
+      "sensor": "Numerical model",
       "agency": [
-        "CMEMS"
+        "Mercator Ocean International"
       ],
-      "collection_group": "Sea Ice"
+      "collection_group": "3. Sea Ice",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ]
     },
     {
       "rel": "child",
@@ -189,20 +264,6 @@
     },
     {
       "rel": "child",
-      "href": "./mean_sea_ice_age/collection.json",
-      "type": "application/json",
-      "title": "Mean sea ice age",
-      "id": "mean_sea_ice_age",
-      "themes": [
-        "Shipping"
-      ],
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Sea Ice"
-    },
-    {
-      "rel": "child",
       "href": "./mean_sea_ice_age_antarctica/collection.json",
       "type": "application/json",
       "title": "Mean sea ice age Antarctica",
@@ -241,45 +302,45 @@
     },
     {
       "rel": "child",
-      "href": "./nitrate/collection.json",
+      "href": "./NO3_nitrate/collection.json",
       "type": "application/json",
-      "title": "Nitrate",
-      "id": "nitrate",
+      "title": "Mole concentration of nitrate in sea water",
+      "code": "NO3",
+      "id": "NO3_nitrate",
       "themes": [
         "Aquaculture"
       ],
+      "subcode": "NO3",
+      "sensor": "Numerical model",
       "agency": [
-        "CMEMS"
+        "Mercator Ocean International"
       ],
-      "collection_group": "Water Chemistry"
+      "collection_group": "7. Water Chemistry",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ]
     },
     {
       "rel": "child",
-      "href": "./total_phytoplankton/collection.json",
+      "href": "./PH_ph/collection.json",
       "type": "application/json",
-      "title": "Total Phytoplankton",
-      "id": "total_phytoplankton",
+      "title": "Sea water pH reported on total scale",
+      "code": "DIC",
+      "id": "PH_ph",
       "themes": [
         "Aquaculture"
       ],
+      "subcode": "DIC",
+      "sensor": "Numerical model",
       "agency": [
-        "CMEMS"
+        "Mercator Ocean International"
       ],
-      "collection_group": "Water Chemistry"
-    },
-    {
-      "rel": "child",
-      "href": "./ph/collection.json",
-      "type": "application/json",
-      "title": "PH",
-      "id": "ph",
-      "themes": [
-        "Aquaculture"
-      ],
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Water Chemistry"
+      "collection_group": "7. Water Chemistry",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ]
     },
     {
       "rel": "child",
@@ -297,17 +358,22 @@
     },
     {
       "rel": "child",
-      "href": "./phosphate/collection.json",
+      "href": "./PO4_phosphate/collection.json",
       "type": "application/json",
-      "title": "Phosphate",
-      "id": "phosphate",
+      "title": "Mole concentration of phosphate in sea water",
+      "id": "PO4_phosphate",
       "themes": [
         "Aquaculture"
       ],
+      "sensor": "Numerical model",
       "agency": [
-        "CMEMS"
+        "Mercator Ocean International"
       ],
-      "collection_group": "Water Chemistry"
+      "collection_group": "7. Water Chemistry",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ]
     },
     {
       "rel": "child",
@@ -336,20 +402,6 @@
         "CMEMS"
       ],
       "collection_group": "Water Biology"
-    },
-    {
-      "rel": "child",
-      "href": "./surface_co2/collection.json",
-      "type": "application/json",
-      "title": "Surface CO2",
-      "id": "surface_co2",
-      "themes": [
-        "Aquaculture"
-      ],
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Water Chemistry"
     },
     {
       "rel": "child",
@@ -470,29 +522,15 @@
       "rel": "child",
       "href": "./ice_concentration/collection.json",
       "type": "application/json",
-      "title": "Sea ice area fraction",
+      "title": "Ice concentration",
       "id": "ice_concentration",
       "themes": [
-        "Aquaculture",
-        "Energy",
         "Shipping"
-      ],
-      "providers": [
-        "Mercator Océan International Test",
-        "Copernicus Marine Service (CMEMS) Test"
-      ],
-      "sensor": "test",
-      "tags": [
-        "model test"
       ],
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "3. Sea Ice",
-      "otherSources": [
-        "Numerical Model",
-        "0.083° × 0.083°"
-      ]
+      "collection_group": "Sea Ice"
     },
     {
       "rel": "child",
@@ -505,20 +543,6 @@
       ],
       "agency": [
         "SMI"
-      ],
-      "collection_group": "Sea Ice"
-    },
-    {
-      "rel": "child",
-      "href": "./sea_ice_thickness/collection.json",
-      "type": "application/json",
-      "title": "Sea ice thickness",
-      "id": "sea_ice_thickness",
-      "themes": [
-        "Shipping"
-      ],
-      "agency": [
-        "CMEMS"
       ],
       "collection_group": "Sea Ice"
     },
@@ -548,17 +572,24 @@
     },
     {
       "rel": "child",
-      "href": "./sea_ice_speed/collection.json",
+      "href": "./SIVELO_sea_ice_speed/collection.json",
       "type": "application/json",
       "title": "Sea ice speed",
-      "id": "sea_ice_speed",
+      "id": "SIVELO_sea_ice_speed",
       "themes": [
+        "Aquaculture",
+        "Energy",
         "Shipping"
       ],
+      "sensor": "Numerical model",
       "agency": [
-        "CMEMS"
+        "Mercator Ocean International"
       ],
-      "collection_group": "Sea Ice"
+      "collection_group": "3. Sea Ice",
+      "otherSources": [
+        "Numerical Model",
+        "0.083° × 0.083°"
+      ]
     },
     {
       "rel": "child",
@@ -586,31 +617,22 @@
     },
     {
       "rel": "child",
-      "href": "./dissolved_silicate/collection.json",
+      "href": "./SO_salinity/collection.json",
       "type": "application/json",
-      "title": "Dissolved Silicate",
-      "id": "dissolved_silicate",
+      "title": "Sea water salinity",
+      "id": "SO_salinity",
       "themes": [
         "Aquaculture"
       ],
+      "sensor": "Numerical model",
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "Water Chemistry"
-    },
-    {
-      "rel": "child",
-      "href": "./salinity/collection.json",
-      "type": "application/json",
-      "title": "Salinity",
-      "id": "salinity",
-      "themes": [
-        "Shipping"
-      ],
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Sea Water"
+      "collection_group": "5. Sea Water",
+      "otherSources": [
+        "Numerical Model",
+        "0.083° × 0.083°"
+      ]
     },
     {
       "rel": "child",
@@ -625,34 +647,6 @@
         "CMEMS"
       ],
       "collection_group": "Water Biology"
-    },
-    {
-      "rel": "child",
-      "href": "./sea_surface_temperature_anomaly/collection.json",
-      "type": "application/json",
-      "title": "Sea surface temperature anomaly",
-      "id": "sea_surface_temperature_anomaly",
-      "themes": [
-        "Shipping"
-      ],
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Sea Water"
-    },
-    {
-      "rel": "child",
-      "href": "./surface_snow_thickness/collection.json",
-      "type": "application/json",
-      "title": "Surface snow thickness",
-      "id": "surface_snow_thickness",
-      "themes": [
-        "Shipping"
-      ],
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Sea Ice"
     },
     {
       "rel": "child",
@@ -680,34 +674,6 @@
     },
     {
       "rel": "child",
-      "href": "./sea_water_potential_temperature/collection.json",
-      "type": "application/json",
-      "title": "Sea water potential temperature",
-      "id": "sea_water_potential_temperature",
-      "themes": [
-        "Shipping"
-      ],
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Sea Water"
-    },
-    {
-      "rel": "child",
-      "href": "./total_alkalinity/collection.json",
-      "type": "application/json",
-      "title": "Total Alkalinity",
-      "id": "total_alkalinity",
-      "themes": [
-        "Aquaculture"
-      ],
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Water Chemistry"
-    },
-    {
-      "rel": "child",
       "href": "./curl_of_stress_equivalent_wind/collection.json",
       "type": "application/json",
       "title": "Curl of stress-equivalent wind",
@@ -721,20 +687,6 @@
         "CMEMS"
       ],
       "collection_group": "Wind"
-    },
-    {
-      "rel": "child",
-      "href": "./total_zooplankton/collection.json",
-      "type": "application/json",
-      "title": "Total Zooplankton",
-      "id": "total_zooplankton",
-      "themes": [
-        "Aquaculture"
-      ],
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Water Chemistry"
     },
     {
       "rel": "child",
@@ -850,6 +802,268 @@
     },
     {
       "rel": "child",
+      "href": "./CHL_chlorophyll_Chemistry/collection.json",
+      "type": "application/json",
+      "title": "Mass concentration of chlorophyll a in sea water - Chemistry",
+      "code": "CHL",
+      "id": "CHL_chlorophyll_Chemistry",
+      "themes": [
+        "Aquaculture"
+      ],
+      "subcode": "CHL",
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "7. Water Chemistry",
+      "otherSources": [
+        "Spatial Resolution: 0.25° × 0.25°",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./DISSIC_inorganic_carbon/collection.json",
+      "type": "application/json",
+      "title": "Mole concentration of dissolved inorganic carbon in sea water",
+      "code": "DIC",
+      "id": "DISSIC_inorganic_carbon",
+      "themes": [
+        "Aquaculture"
+      ],
+      "subcode": "DIC",
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "7. Water Chemistry",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./FE_iron/collection.json",
+      "type": "application/json",
+      "title": "Mole concentration of dissolved iron in sea water",
+      "code": "DI",
+      "id": "FE_iron",
+      "themes": [
+        "Aquaculture"
+      ],
+      "subcode": "DI",
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "7. Water Chemistry",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./NPPV_net_primary_production_of_biomass/collection.json",
+      "type": "application/json",
+      "title": "Net primary production of biomass expressed as carbon per unit volume in sea water",
+      "code": "NPPB",
+      "id": "NPPV_net_primary_production_of_biomass",
+      "themes": [
+        "Aquaculture"
+      ],
+      "subcode": "NPPB",
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "Water Chemistry",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./O2_oxygen/collection.json",
+      "type": "application/json",
+      "title": "Mole concentration of dissolved molecular oxygen in sea water",
+      "code": "DO",
+      "id": "O2_oxygen",
+      "themes": [
+        "Aquaculture"
+      ],
+      "subcode": "DO",
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "7. Water Chemistry",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./SICONC_sea_ice_concentration/collection.json",
+      "type": "application/json",
+      "title": "Sea ice area fraction",
+      "id": "SICONC_sea_ice_concentration",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "3. Sea Ice",
+      "otherSources": [
+        "Numerical Model",
+        "0.083° × 0.083°"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./SISNTHICK_surface_snow_thickness/collection.json",
+      "type": "application/json",
+      "title": "Surface snow thickness",
+      "id": "SISNTHICK_surface_snow_thickness",
+      "themes": [
+        "Shipping"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "3. Sea Ice",
+      "otherSources": [
+        "Numerical Model",
+        "0.083° × 0.083°"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./SITHICK_sea_ice_thickness/collection.json",
+      "type": "application/json",
+      "title": "Sea ice thickness",
+      "id": "SITHICK_sea_ice_thickness",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "3. Sea Ice",
+      "otherSources": [
+        "Numerical Model",
+        "0.083° × 0.083°"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./SI_silicate/collection.json",
+      "type": "application/json",
+      "title": "Mole concentration of silicate in sea water",
+      "id": "SI_silicate",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "7. Water Chemistry",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./SPCO2_surface_co2/collection.json",
+      "type": "application/json",
+      "title": "Surface partial pressure of carbon dioxide in sea water",
+      "id": "SPCO2_surface_co2",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "7. Water Chemistry",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Sea_surface_temperature_anomaly/collection.json",
+      "type": "application/json",
+      "title": "Sea surface temperature anomaly",
+      "id": "Sea_surface_temperature_anomaly",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "5. Sea Water",
+      "otherSources": [
+        "Numerical Model",
+        "0.083° × 0.083°"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./THETAO_sea_water_potential_temperature/collection.json",
+      "type": "application/json",
+      "title": "Sea water potential temperature",
+      "id": "THETAO_sea_water_potential_temperature",
+      "themes": [
+        "Aquaculture",
+        "Shipping"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "Sea Water",
+      "otherSources": [
+        "Numerical Model",
+        "0.083° × 0.083°"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./ZOOC_zooplankton/collection.json",
+      "type": "application/json",
+      "title": "Mole concentration of zooplankton expressed as carbon in sea water",
+      "id": "ZOOC_zooplankton",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "7. Water Chemistry",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./polaris_sentinel1/collection.json",
       "type": "application/json",
       "title": "POLARIS combined",
@@ -858,8 +1072,8 @@
         "Shipping"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
       ],
       "collection_group": "Capabilities"
     },
