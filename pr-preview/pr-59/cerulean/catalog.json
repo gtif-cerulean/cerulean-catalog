@@ -12,20 +12,6 @@
     },
     {
       "rel": "child",
-      "href": "./air_density/collection.json",
-      "type": "application/json",
-      "title": "Air density",
-      "id": "air_density",
-      "themes": [
-        "Energy"
-      ],
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Wind"
-    },
-    {
-      "rel": "child",
       "href": "./chlorophyll_concentration/collection.json",
       "type": "application/json",
       "title": "Chlorophyll-a concentration",
@@ -37,20 +23,6 @@
         "CMEMS"
       ],
       "collection_group": "Water Biology"
-    },
-    {
-      "rel": "child",
-      "href": "./total_chlorophyll/collection.json",
-      "type": "application/json",
-      "title": "Total Chlorophyll",
-      "id": "total_chlorophyll",
-      "themes": [
-        "Aquaculture"
-      ],
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Water Chemistry"
     },
     {
       "rel": "child",
@@ -109,20 +81,6 @@
     },
     {
       "rel": "child",
-      "href": "./dissolved_inorganic_carbon/collection.json",
-      "type": "application/json",
-      "title": "Dissolved Inorganic Carbon",
-      "id": "dissolved_inorganic_carbon",
-      "themes": [
-        "Aquaculture"
-      ],
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Water Chemistry"
-    },
-    {
-      "rel": "child",
       "href": "./dinophytes_chlorophyll_a/collection.json",
       "type": "application/json",
       "title": "Mass concentration of dinophytes expressed as chlorophyll in sea water",
@@ -134,34 +92,6 @@
         "CMEMS"
       ],
       "collection_group": "Water Biology"
-    },
-    {
-      "rel": "child",
-      "href": "./dissolved_iron/collection.json",
-      "type": "application/json",
-      "title": "Dissolved Iron",
-      "id": "dissolved_iron",
-      "themes": [
-        "Aquaculture"
-      ],
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Water Chemistry"
-    },
-    {
-      "rel": "child",
-      "href": "./dissolved_oxygen/collection.json",
-      "type": "application/json",
-      "title": "Dissolved Oxygen",
-      "id": "dissolved_oxygen",
-      "themes": [
-        "Aquaculture"
-      ],
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Water Chemistry"
     },
     {
       "rel": "child",
@@ -315,20 +245,6 @@
       "type": "application/json",
       "title": "Nitrate",
       "id": "nitrate",
-      "themes": [
-        "Aquaculture"
-      ],
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Water Chemistry"
-    },
-    {
-      "rel": "child",
-      "href": "./net_primary_production_of_biomass/collection.json",
-      "type": "application/json",
-      "title": "Net primary production of biomass",
-      "id": "net_primary_production_of_biomass",
       "themes": [
         "Aquaculture"
       ],
@@ -942,8 +858,8 @@
         "Shipping"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
       ],
       "collection_group": "Capabilities"
     },
