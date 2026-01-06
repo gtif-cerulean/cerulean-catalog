@@ -15,7 +15,7 @@
       "href": "https://eoapi.workspace.cif.hub-otc.eox.at/raster/collections/asip-seaice/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=sod&nodata=-1&colormap=%7B%220%22%3A%20%5B240%2C210%2C250%5D%2C%221%22%3A%5B155%2C210%2C0%5D%2C%222%22%3A%5B0%2C120%2C0%5D%2C%223%22%3A%5B200%2C0%2C0%5D%2C%224%22%3A%5B150%2C150%2C150%5D%7D",
       "type": "image/png",
       "title": "Stage of Development",
-      "key": "d49d6f20-481e-4a69-84df-21b7795ee12e"
+      "key": "4dc9dc45-2e69-461b-9c89-6e83b8d2e12a"
     },
     {
       "rel": "parent",
@@ -70,7 +70,7 @@
       "interval": [
         [
           "2026-01-03T00:00:00Z",
-          "2026-01-04T00:00:00Z"
+          "2026-01-05T00:00:00Z"
         ]
       ]
     }
