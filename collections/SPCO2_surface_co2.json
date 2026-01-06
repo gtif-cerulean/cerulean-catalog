@@ -1,21 +1,30 @@
 {
-  "Name": "surface_co2",
-  "Title": "Surface CO2",
-  "Description": "The Operational Mercator Ocean biogeochemical global ocean analysis and forecast system at 1/4 degree is providing 10 days of 3D global ocean forecasts updated weekly. The time series is aggregated in time, in order to reach a two full year's time series sliding window. This product includes daily and monthly mean files of biogeochemical parameters (chlorophyll, nitrate, phosphate, silicate, dissolved oxygen, dissolved iron, primary production, phytoplankton, zooplankton, PH, and surface partial pressure of carbon dioxyde) over the global ocean. The global ocean output files are displayed with a 1/4 degree horizontal resolution with regular longitude/latitude equirectangular projection. 50 vertical levels are ranging from 0 to 5700 meters. NEMO version (v3.6_STABLE). Forcings: GLOBAL_ANALYSIS_FORECAST_PHYS_001_024 at daily frequency. Outputs mean fields are interpolated on a standard regular grid in NetCDF format. Initial conditions: World Ocean Atlas 2013 for nitrate, phosphate, silicate and dissolved oxygen, GLODAPv2 for DIC and Alkalinity, and climatological model outputs for Iron and DOC. Quality/Accuracy/Calibration information: See the related QuID.",
+  "Name": "SPCO2_surface_co2",
+  "Title": "Surface partial pressure of carbon dioxide in sea water",
+  "Description": "The biogeochemical global ocean analysis and forecast system provides 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time to provide a two-year time series sliding window. The product includes daily biogeochemical parameters (chlorophyll, nitrate, phosphate, silicate, dissolved oxygen, dissolved iron, primary production, phytoplankton, zooplankton, PH, and surface partial pressure of carbon dioxyde) over the global ocean. The output files are displayed with a 1/4 degree horizontal resolution.",
   "Themes": [
     "Aquaculture"
   ],
-  "CollectionGroup": "Water Chemistry",
+  "CollectionGroup": "7. Water Chemistry",
+  "DataSource": {
+    "Spaceborne": {"Sensor": "Numerical model"},
+    "Other": [
+      "Spatial Resolution: 0.083° × 0.083°",
+      "Frequency: Daily"
+    ]
+  },
   "Agency": [
-    "CMEMS"
+    "Mercator Ocean International"
   ],
   "Colorlegend": {
     "title": "Surface CO2 [Pa]",
     "range": [
-      "rgb(251, 236, 177)",
-      "rgb(236, 119, 90)",
-      "rgb(150, 33, 103)",
-      "rgb(46, 13, 60)"
+      "rgb(253, 237, 176)",
+      "rgb(245, 166, 114)",
+      "rgb(226, 97, 82)",
+      "rgb(179, 46, 94)",
+      "rgb(114, 25, 95)",
+      "rgb(47, 15, 61)"
     ],
     "domain": [
       28,

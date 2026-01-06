@@ -1,5 +1,5 @@
 {
-  "Name": "ice_concentration",
+  "Name": "SICONC_sea_ice_concentration",
   "Title": "Sea ice area fraction",
   "Description": "The global ocean analysis and forecast system provides 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time to provide a two-year time series sliding window. The output files are displayed with a 1/12 degree horizontal resolution.",
   "Themes": [
@@ -9,20 +9,17 @@
   ],
   "CollectionGroup": "3. Sea Ice",
   "DataSource": {
-    "Spaceborne": {"Sensor": "test"},
+    "Spaceborne": {"Sensor": "Numerical model"},
     "Other": [
       "Numerical Model",
       "0.083° × 0.083°"
     ]
   },
   "Agency": [
-    "CMEMS"
-  ],
-  "Tags": [
-    "model test"
+    "Mercator Ocean International"
   ],
   "Colorlegend": {
-    "title": "Sea ice area fraction Test",
+    "title": "Sea ice area fraction",
     "range": [
       "rgb(3, 5, 18)",
       "rgb(48, 46, 95)",
@@ -35,6 +32,9 @@
       0,
       1
     ]
+  },
+  "Citation": {
+    "DOI": "10.48670/moi-00016"
   },
   "Resources": [
     {
@@ -54,27 +54,7 @@
       "CollectionId": "Test"
     }
   ],
-  "Citation": {
-    "DOI": "10.48670/moi-00016",
-    "Citation": "Test"
-  },
-  "References": [
-    {
-      "Name": "CMEMS Data Description",
-      "Url": "https://data.marine.copernicus.eu/product/GLOBAL_ANALYSISFORECAST_PHY_001_024/description"
-    }
-  ],
-  "Provider": [
-    {
-      "Name": "Mercator Océan International Test",
-      "Url": "https://www.mercator-ocean.eu/"
-    },
-    {
-      "Name": "Copernicus Marine Service (CMEMS) Test",
-      "Url": "https://data.marine.copernicus.eu/"
-    }
-  ],
-  "Process": {
+      "Process": {
     "Name": "process_cmems",
     "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
     "VegaDefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/siconc.json",
