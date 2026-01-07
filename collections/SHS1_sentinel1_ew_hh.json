@@ -11,7 +11,6 @@
     "Agency": [
     "Sentinel Hub"
   ],
-  "Image": "Lakes_Sentinel1/thumbnail.png",
   "Resources": [
     {
       "EndPoint": "https://services.sentinel-hub.com/ogc/wms/{SH_INSTANCE_ID}",
