@@ -2,7 +2,7 @@
   "Name": "harshness",
   "Title": "Harshness capability",
   "CollectionGroup": "Capabilities",
-  "Description": "This is an example of how the harshness calculation capability can be triggered and visualized within the dashboard.",
+  "Description": "markdowns/harshnes.md",
   "Themes": [
     "Shipping",
     "Aquaculture",
