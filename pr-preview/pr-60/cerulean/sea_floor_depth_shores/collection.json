@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "harshness",
+  "id": "sea_floor_depth_shores",
   "stac_version": "1.1.0",
-  "description": "markdowns/harshnes.md",
+  "description": "The Operational Mercator global ocean analysis and forecast system at 1/12 degree is providing 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time in order to reach a two full year’s time series sliding window. This product includes daily and monthly mean files of temperature, salinity, currents, sea level, mixed layer depth and ice parameters from the top to the bottom over the global ocean. It also includes hourly mean surface fields for sea level height, temperature and currents. The global ocean output files are displayed with a 1/12 degree horizontal resolution with regular longitude/latitude equirectangular projection. 50 vertical levels are ranging from 0 to 5500 meters. This product also delivers a special dataset for surface current which also includes wave and tidal drift called SMOC (Surface merged Ocean Current).",
   "links": [
     {
       "rel": "root",
@@ -12,30 +12,19 @@
     },
     {
       "rel": "child",
-      "href": "./harshness/collection.json",
+      "href": "./sea_floor_depth_shores/collection.json",
       "type": "application/json",
-      "title": "Harshness capability",
-      "endpointtype": "Collection-only",
-      "id": "harshness",
+      "title": "Sea floor depth shores",
+      "endpointtype": "marinedatastore_WMTSCapabilities",
+      "id": "sea_floor_depth_shores",
       "themes": [
-        "Shipping",
         "Aquaculture",
         "Energy"
       ],
       "agency": [
-        "C-CORE"
+        "CMEMS"
       ],
-      "collection_group": "Capabilities"
-    },
-    {
-      "rel": "service",
-      "href": "https://harshness-map.gtif.eox.at/processes/execute-create-harshness/execution",
-      "type": "image/tiff",
-      "id": "harshnesscollection",
-      "method": "POST",
-      "endpoint": "eoxhub_workspaces",
-      "body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/harshness.json",
-      "eox:flatstyle": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/harshness.json"
+      "collection_group": "Bathymetry"
     },
     {
       "rel": "xyz",
@@ -123,34 +112,54 @@
       "title": "Cerulean GTIF project catalog"
     }
   ],
+  "sci:doi": "10.48670/moi-00016",
   "themes": [
-    "Shipping",
     "Aquaculture",
     "Energy"
   ],
   "agency": [
-    "C-CORE"
+    "CMEMS"
   ],
-  "collection_group": "Capabilities",
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/harshness.json",
+  "collection_group": "Bathymetry",
+  "eox:colorlegend": {
+    "title": "Sea floor depth below geoid [m]",
+    "range": [
+      "rgb(68, 1, 84)",
+      "rgb(64, 67, 135)",
+      "rgb(41, 120, 142)",
+      "rgb(34, 167, 132)",
+      "rgb(121, 209, 81)",
+      "rgb(253, 231, 36)"
+    ],
+    "domain": [
+      0,
+      150
+    ]
+  },
   "merge_assets": false,
-  "title": "Harshness capability",
+  "title": "Sea floor depth shores",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -179,
-          55,
-          179,
-          89
+          -180.0,
+          -80.0,
+          179.91668701171875,
+          90.0
+        ],
+        [
+          -180.0,
+          -80.0,
+          179.91668701171875,
+          90.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2026-01-07T22:28:06.453042Z",
-          "2026-01-07T22:28:06.453042Z"
+          "2022-01-01T00:00:00Z",
+          "2022-01-01T00:00:00Z"
         ]
       ]
     }
@@ -159,8 +168,7 @@
   "summaries": {
     "themes": [
       "Aquaculture",
-      "Energy",
-      "Shipping"
+      "Energy"
     ]
   },
   "assets": {

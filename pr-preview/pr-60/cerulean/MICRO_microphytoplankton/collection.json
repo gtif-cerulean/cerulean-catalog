@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "harshness",
+  "id": "MICRO_microphytoplankton",
   "stac_version": "1.1.0",
-  "description": "markdowns/harshnes.md",
+  "description": "The Bio-Geo-Chemical (BGC) products are based on the Copernicus-GlobColour processor. Data comes from SeaWiFS, MODIS, MERIS, VIIRS-SNPP & JPSS1, OLCI-S3A & S3B. Variables are Chlorophyll-a (CHL) and Phytoplankton Functional types and sizes (PFT).",
   "links": [
     {
       "rel": "root",
@@ -12,30 +12,30 @@
     },
     {
       "rel": "child",
-      "href": "./harshness/collection.json",
+      "href": "./MICRO_microphytoplankton/collection.json",
       "type": "application/json",
-      "title": "Harshness capability",
-      "endpointtype": "Collection-only",
-      "id": "harshness",
+      "title": "Mass concentration of microphytoplankton expressed as chlorophyll in sea water",
+      "endpointtype": "marinedatastore_WMTSCapabilities",
+      "id": "MICRO_microphytoplankton",
       "themes": [
-        "Shipping",
-        "Aquaculture",
-        "Energy"
+        "Aquaculture"
       ],
       "agency": [
-        "C-CORE"
+        "ACRI"
       ],
-      "collection_group": "Capabilities"
+      "collection_group": "F. Water Biology",
+      "sensor": "Satellite observations",
+      "otherSources": [
+        "Spatial Resolution: 4 × 4 km",
+        "Frequency: Daily"
+      ]
     },
     {
       "rel": "service",
-      "href": "https://harshness-map.gtif.eox.at/processes/execute-create-harshness/execution",
-      "type": "image/tiff",
-      "id": "harshnesscollection",
-      "method": "POST",
-      "endpoint": "eoxhub_workspaces",
-      "body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/harshness.json",
-      "eox:flatstyle": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/harshness.json"
+      "href": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_obs-oc_glo_bgc-plankton_nrt_l4-multi-4km_P1M&variables=MICRO&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
+      "type": "application/json",
+      "id": "process_cmems",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -123,34 +123,60 @@
       "title": "Cerulean GTIF project catalog"
     }
   ],
+  "sci:doi": "10.48670/moi-00279",
   "themes": [
-    "Shipping",
-    "Aquaculture",
-    "Energy"
+    "Aquaculture"
   ],
   "agency": [
-    "C-CORE"
+    "ACRI"
   ],
-  "collection_group": "Capabilities",
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/harshness.json",
+  "collection_group": "F. Water Biology",
+  "sensor": "Satellite observations",
+  "otherSources": [
+    "Spatial Resolution: 4 × 4 km",
+    "Frequency: Daily"
+  ],
+  "eox:colorlegend": {
+    "title": "Mass concentration of microphytoplankton expressed as chlorophyll in sea water [mg/m^3]",
+    "range": [
+      "rgb(214, 249, 207)",
+      "rgb(149, 205, 137)",
+      "rgb(67, 168, 85)",
+      "rgb(9, 125, 74)",
+      "rgb(25, 80, 52)",
+      "rgb(17, 36, 20)"
+    ],
+    "domain": [
+      0.0052547,
+      0.5565822
+    ]
+  },
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/MICRO.json",
   "merge_assets": false,
-  "title": "Harshness capability",
+  "title": "Mass concentration of microphytoplankton expressed as chlorophyll in sea water",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -179,
-          55,
-          179,
-          89
+          -179.9791717529297,
+          -89.97917175292969,
+          179.9791717529297,
+          89.97916412353516
+        ],
+        [
+          -179.9791717529297,
+          -89.97917175292969,
+          179.9791717529297,
+          89.97916412353516
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2026-01-07T22:28:06.453042Z",
-          "2026-01-07T22:28:06.453042Z"
+          "2025-10-01T00:00:00Z",
+          "2025-12-01T00:00:00Z"
         ]
       ]
     }
@@ -158,9 +184,10 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Aquaculture",
-      "Energy",
-      "Shipping"
+      "Aquaculture"
+    ],
+    "sensor": [
+      "Satellite observations"
     ]
   },
   "assets": {

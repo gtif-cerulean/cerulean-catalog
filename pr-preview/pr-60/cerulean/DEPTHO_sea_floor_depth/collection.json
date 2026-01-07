@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "harshness",
+  "id": "DEPTHO_sea_floor_depth",
   "stac_version": "1.1.0",
-  "description": "markdowns/harshnes.md",
+  "description": "The global ocean analysis and forecast system provides 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time to provide a two-year time series sliding window. The output files are displayed with a 1/12 degree horizontal resolution.",
   "links": [
     {
       "rel": "root",
@@ -12,30 +12,30 @@
     },
     {
       "rel": "child",
-      "href": "./harshness/collection.json",
+      "href": "./DEPTHO_sea_floor_depth/collection.json",
       "type": "application/json",
-      "title": "Harshness capability",
-      "endpointtype": "Collection-only",
-      "id": "harshness",
+      "title": "Sea floor depth below geoid",
+      "endpointtype": "marinedatastore_WMTSCapabilities",
+      "id": "DEPTHO_sea_floor_depth",
       "themes": [
-        "Shipping",
         "Aquaculture",
         "Energy"
       ],
       "agency": [
-        "C-CORE"
+        "Mercator Ocean International"
       ],
-      "collection_group": "Capabilities"
+      "collection_group": "J. Bathymetry",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Static"
+      ]
     },
     {
       "rel": "service",
-      "href": "https://harshness-map.gtif.eox.at/processes/execute-create-harshness/execution",
-      "type": "image/tiff",
-      "id": "harshnesscollection",
-      "method": "POST",
-      "endpoint": "eoxhub_workspaces",
-      "body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/harshness.json",
-      "eox:flatstyle": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/harshness.json"
+      "href": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_mod_glo_bgc-pft_anfc_0.25deg_P1D-m&variables=chl&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
+      "type": "application/json",
+      "id": "process_cmems",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -123,34 +123,60 @@
       "title": "Cerulean GTIF project catalog"
     }
   ],
+  "sci:doi": "10.48670/moi-00016",
   "themes": [
-    "Shipping",
     "Aquaculture",
     "Energy"
   ],
   "agency": [
-    "C-CORE"
+    "Mercator Ocean International"
   ],
-  "collection_group": "Capabilities",
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/harshness.json",
+  "collection_group": "J. Bathymetry",
+  "otherSources": [
+    "Spatial Resolution: 0.083° × 0.083°",
+    "Frequency: Static"
+  ],
+  "eox:colorlegend": {
+    "title": "Sea floor depth below geoid [m]",
+    "range": [
+      "rgb(68, 1, 84)",
+      "rgb(64, 67, 135)",
+      "rgb(41, 120, 142)",
+      "rgb(34, 167, 132)",
+      "rgb(121, 209, 81)",
+      "rgb(253, 231, 36)"
+    ],
+    "domain": [
+      0,
+      5727
+    ]
+  },
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/deptho.json",
   "merge_assets": false,
-  "title": "Harshness capability",
+  "title": "Sea floor depth below geoid",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -179,
-          55,
-          179,
-          89
+          -180.0,
+          -80.0,
+          179.91668701171875,
+          90.0
+        ],
+        [
+          -180.0,
+          -80.0,
+          179.91668701171875,
+          90.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2026-01-07T22:28:06.453042Z",
-          "2026-01-07T22:28:06.453042Z"
+          "2022-01-01T00:00:00Z",
+          "2022-01-01T00:00:00Z"
         ]
       ]
     }
@@ -159,8 +185,7 @@
   "summaries": {
     "themes": [
       "Aquaculture",
-      "Energy",
-      "Shipping"
+      "Energy"
     ]
   },
   "assets": {

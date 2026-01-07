@@ -12,6 +12,185 @@
     },
     {
       "rel": "child",
+      "href": "./DEPTHO_sea_floor_depth/collection.json",
+      "type": "application/json",
+      "title": "Sea floor depth below geoid",
+      "id": "DEPTHO_sea_floor_depth",
+      "themes": [
+        "Aquaculture",
+        "Energy"
+      ],
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "J. Bathymetry",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Static"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./DEPTHO_sea_floor_depth_antarctica/collection.json",
+      "type": "application/json",
+      "title": "Sea floor depth below geoid - Antarctica",
+      "id": "DEPTHO_sea_floor_depth_antarctica",
+      "themes": [
+        "Antarctica"
+      ],
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "L. Antarctica",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Static"
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./sea_floor_depth_shores/collection.json",
+      "type": "application/json",
+      "title": "Sea floor depth shores",
+      "id": "sea_floor_depth_shores",
+      "themes": [
+        "Aquaculture",
+        "Energy"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Bathymetry"
+    },
+    {
+      "rel": "child",
+      "href": "./GREEN_green_algae/collection.json",
+      "type": "application/json",
+      "title": "Mass concentration of greenalgae expressed as chlorophyll in sea water",
+      "id": "GREEN_green_algae",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Satellite observations",
+      "agency": [
+        "ACRI"
+      ],
+      "collection_group": "F. Water Biology",
+      "otherSources": [
+        "Spatial Resolution: 4 × 4 km",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./sea_ice_surface_temperature/collection.json",
+      "type": "application/json",
+      "title": "Sea ice surface temperature",
+      "id": "sea_ice_surface_temperature",
+      "themes": [
+        "Shipping",
+        "Energy",
+        "Aquaculture"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "C. Sea Ice",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./sea_ice_surface_temperature_antarctica/collection.json",
+      "type": "application/json",
+      "title": "Sea ice surface temperature - Antarctica",
+      "id": "sea_ice_surface_temperature_antarctica",
+      "themes": [
+        "Antarctica"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "C. Antarctica",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./SIAGE_sea_ice_age.json/collection.json",
+      "type": "application/json",
+      "title": "Age of sea ice",
+      "id": "SIAGE_sea_ice_age.json",
+      "themes": [
+        "Shipping"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "C. Sea Ice",
+      "otherSources": [
+        "Spatial Resolution: 0.083° x 0.083°",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./SIVELO_sea_ice_speed_antarctica/collection.json",
+      "type": "application/json",
+      "title": "Sea ice speed - Antarctica",
+      "id": "SIVELO_sea_ice_speed_antarctica",
+      "themes": [
+        "Antarctica"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "L. Antarctica",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
       "href": "./harshness/collection.json",
       "type": "application/json",
       "title": "Harshness capability",
@@ -25,6 +204,302 @@
         "C-CORE"
       ],
       "collection_group": "Capabilities"
+    },
+    {
+      "rel": "child",
+      "href": "./CHL_chlorophyll_Biology/collection.json",
+      "type": "application/json",
+      "title": "Mass concentration of chlorophyll a in sea water - Biology",
+      "id": "CHL_chlorophyll_Biology",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Satellite observations",
+      "agency": [
+        "ACRI"
+      ],
+      "collection_group": "F. Water Biology",
+      "otherSources": [
+        "Spatial Resolution: 4 × 4 km",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./DIATO_diatoms/collection.json",
+      "type": "application/json",
+      "title": "Mass concentration of diatoms expressed as chlorophyll in sea water",
+      "id": "DIATO_diatoms",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Satellite observations",
+      "agency": [
+        "ACRI"
+      ],
+      "collection_group": "F. Water Biology",
+      "otherSources": [
+        "Spatial Resolution: 4 × 4 km",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./DINO_dinophytes/collection.json",
+      "type": "application/json",
+      "title": "Mass concentration of dinophytes expressed as chlorophyll in sea water",
+      "id": "DINO_dinophytes",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Satellite observations",
+      "agency": [
+        "ACRI"
+      ],
+      "collection_group": "F. Water Biology",
+      "otherSources": [
+        "Spatial Resolution: 4 × 4 km",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./HAPTO_haptophytes/collection.json",
+      "type": "application/json",
+      "title": "Mass concentration of haptophytes expressed as chlorophyll in sea water",
+      "id": "HAPTO_haptophytes",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Satellite observations",
+      "agency": [
+        "ACRI"
+      ],
+      "collection_group": "F. Water Biology",
+      "otherSources": [
+        "Spatial Resolution: 4 × 4 km",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./MICRO_microphytoplankton/collection.json",
+      "type": "application/json",
+      "title": "Mass concentration of microphytoplankton expressed as chlorophyll in sea water",
+      "id": "MICRO_microphytoplankton",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Satellite observations",
+      "agency": [
+        "ACRI"
+      ],
+      "collection_group": "F. Water Biology",
+      "otherSources": [
+        "Spatial Resolution: 4 × 4 km",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./NANO_nanophytoplankton/collection.json",
+      "type": "application/json",
+      "title": "Mass concentration of nanophytoplankton expressed as chlorophyll in sea water",
+      "id": "NANO_nanophytoplankton",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Satellite observations",
+      "agency": [
+        "ACRI"
+      ],
+      "collection_group": "F. Water Biology",
+      "otherSources": [
+        "Spatial Resolution: 4 × 4 km",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./PICO_picophytoplankton/collection.json",
+      "type": "application/json",
+      "title": "Mass concentration of picophytoplankton expressed as chlorophyll in sea water",
+      "id": "PICO_picophytoplankton",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Satellite observations",
+      "agency": [
+        "ACRI"
+      ],
+      "collection_group": "F. Water Biology",
+      "otherSources": [
+        "Spatial Resolution: 4 × 4 km",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./PROCHLO_prochlorophytes/collection.json",
+      "type": "application/json",
+      "title": "Mass concentration of prochlorophytes expressed as chlorophyll in sea water",
+      "id": "PROCHLO_prochlorophytes",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Satellite observations",
+      "agency": [
+        "ACRI"
+      ],
+      "collection_group": "F. Water Biology",
+      "otherSources": [
+        "Spatial Resolution: 4 × 4 km",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./PROKAR_prokaryotes/collection.json",
+      "type": "application/json",
+      "title": "Mass concentration of prokaryotes expressed as chlorophyll in sea water",
+      "id": "PROKAR_prokaryotes",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Satellite observations",
+      "agency": [
+        "ACRI"
+      ],
+      "collection_group": "F. Water Biology",
+      "otherSources": [
+        "Spatial Resolution: 4 × 4 km",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./SIAGE_sea_ice_age_antarctica/collection.json",
+      "type": "application/json",
+      "title": "Age of sea ice - Antarctica",
+      "id": "SIAGE_sea_ice_age_antarctica",
+      "themes": [
+        "Antarctica"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "L. Antarctica",
+      "otherSources": [
+        "Spatial Resolution: 0.083° x 0.083°",
+        "Frequency: Daily"
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./SICONC_sea_ice_concentration_antarctica/collection.json",
+      "type": "application/json",
+      "title": "Sea ice area fraction - Antarctica",
+      "id": "SICONC_sea_ice_concentration_antarctica",
+      "themes": [
+        "Antarctica"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "L. Antarctica",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./SISNTHICK_surface_snow_thickness_antarctica/collection.json",
+      "type": "application/json",
+      "title": "Surface snow thickness - Antarctica",
+      "id": "SISNTHICK_surface_snow_thickness_antarctica",
+      "themes": [
+        "Antarctica"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "L. Antarctica",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./SITHICK_sea_ice_thickness_antarctica/collection.json",
+      "type": "application/json",
+      "title": "Sea ice thickness - Antarctica",
+      "id": "SITHICK_sea_ice_thickness_antarctica",
+      "themes": [
+        "Antarctica"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "L. Antarctica",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./SPM_suspended_matter/collection.json",
+      "type": "application/json",
+      "title": "Mass concentration of suspended matter in sea water",
+      "id": "SPM_suspended_matter",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Satellite observations",
+      "agency": [
+        "ACRI"
+      ],
+      "collection_group": "F. Water Biology",
+      "otherSources": [
+        "Spatial Resolution: 4 × 4 km",
+        "Frequency: Daily"
+      ]
     },
     {
       "rel": "self",
