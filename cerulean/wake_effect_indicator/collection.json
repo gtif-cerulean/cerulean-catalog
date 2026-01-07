@@ -167,8 +167,8 @@
     "temporal": {
       "interval": [
         [
-          "2026-01-07T11:42:53.093671Z",
-          "2026-01-07T11:42:53.093671Z"
+          "2026-01-07T12:10:03.585350Z",
+          "2026-01-07T12:10:03.585350Z"
         ]
       ]
     }
@@ -176,8 +176,8 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Energy",
-      "Shipping"
+      "Shipping",
+      "Energy"
     ],
     "satellite": [
       "multiple"
@@ -188,7 +188,7 @@
   },
   "assets": {
     "legend": {
-      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/wake_effect/wake_legend.png",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/wake_effect/wake_legend.png",
       "type": "image/png",
       "roles": [
         "metadata"

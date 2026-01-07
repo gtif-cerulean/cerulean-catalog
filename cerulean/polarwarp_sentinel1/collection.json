@@ -180,7 +180,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2026-01-07T11:42:48.064526Z"
+          "2026-01-07T12:09:56.858656Z"
         ]
       ]
     }
@@ -188,12 +188,9 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Energy",
       "Aquaculture",
-      "Shipping"
-    ],
-    "thumbnail": [
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+      "Shipping",
+      "Energy"
     ]
   },
   "assets": {

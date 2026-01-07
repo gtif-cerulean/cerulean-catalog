@@ -103,7 +103,6 @@
       "title": "Cerulean GTIF project catalog"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
   "themes": [
     "Energy",
     "Aquaculture",
@@ -148,22 +147,12 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Energy",
       "Shipping",
-      "Aquaculture"
-    ],
-    "thumbnail": [
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+      "Aquaculture",
+      "Energy"
     ]
   },
   "assets": {
-    "thumbnail": {
-      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
-      "type": "image/png",
-      "roles": [
-        "thumbnail"
-      ]
-    },
     "Wind_Energy_Areas": {
       "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/wind_energy.geojson",
       "type": "application/geo+json",

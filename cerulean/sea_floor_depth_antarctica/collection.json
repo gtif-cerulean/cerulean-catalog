@@ -168,9 +168,9 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Energy",
       "Shipping",
-      "Aquaculture"
+      "Aquaculture",
+      "Energy"
     ]
   },
   "assets": {

@@ -15,7 +15,7 @@
       "href": "https://eoapi.workspace.cif.hub-otc.eox.at/raster/collections/asip-seaice/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=flz&nodata=-1&colormap=%7B%220%22%3A%20%5B160%2C232%2C91%5D%2C%221%22%3A%5B145%2C89%2C222%5D%2C%222%22%3A%5B91%2C131%2C19%5D%2C%20%223%22%3A%20%5B255%2C125%2C7%5D%7D",
       "type": "image/png",
       "title": "Form of Ice",
-      "key": "989a99c0-035b-4a87-87a6-7de328c93692"
+      "key": "e95acf07-467a-408d-a928-f3dc610753f2"
     },
     {
       "rel": "parent",

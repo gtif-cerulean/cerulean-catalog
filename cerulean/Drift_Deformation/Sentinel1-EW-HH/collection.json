@@ -29,7 +29,6 @@
       "title": "Sea Ice Drift and Deformation"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
   "themes": [
     "Energy",
     "Aquaculture",
@@ -69,13 +68,6 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
-      "type": "image/png",
-      "roles": [
-        "thumbnail"
       ]
     }
   }
