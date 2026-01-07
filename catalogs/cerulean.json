@@ -5,7 +5,7 @@
   "endpoint": "https://gtif-cerulean.github.io/cerulean-catalog/cerulean/",
   "default_base_layers": "layers/baselayers",
   "default_overlay_layers": "layers/overlays",
-  "assets_endpoint": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections",
+  "assets_endpoint": "https://raw.githubusercontent.com/gtif-cerulean/assets/main",
   "collections": [
     "harshness",
     "polaris",

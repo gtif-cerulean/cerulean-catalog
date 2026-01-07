@@ -34,7 +34,7 @@
     "scaleType": "categorical",
     "markType": "circle"
   },
-  "Image": "Polartep_SeaIceCharts_demo/thumbnail.png",
+  "Image": "collections/Polartep_SeaIceCharts_demo/thumbnail.png",
   "Resources": [
     {
       "Name": "FlatGeobuf source",
