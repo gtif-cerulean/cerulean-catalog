@@ -1,33 +1,34 @@
 {
-  "Name": "sea_floor_depth",
+  "Name": "DEPTHO_sea_floor_depth",
   "Title": "Sea floor depth below geoid",
-  "EodashIdentifier": "DEPTHO",
-  "Description": "The Operational Mercator global ocean analysis and forecast system at 1/12 degree is providing 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time in order to reach a two full year’s time series sliding window. This product includes daily and monthly mean files of temperature, salinity, currents, sea level, mixed layer depth and ice parameters from the top to the bottom over the global ocean. It also includes hourly mean surface fields for sea level height, temperature and currents. The global ocean output files are displayed with a 1/12 degree horizontal resolution with regular longitude/latitude equirectangular projection. 50 vertical levels are ranging from 0 to 5500 meters. This product also delivers a special dataset for surface current which also includes wave and tidal drift called SMOC (Surface merged Ocean Current).",
+  "Description": "The global ocean analysis and forecast system provides 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time to provide a two-year time series sliding window. The output files are displayed with a 1/12 degree horizontal resolution.",
   "Themes": [
     "Aquaculture",
     "Energy"
   ],
-  "CollectionGroup": "Bathymetry",
+  "CollectionGroup": "10. Bathymetry",
+  "DataSource": {
+    "Spaceborne": {"Sensor": ""},
+    "Other": [
+      "Spatial Resolution: 0.083° × 0.083°",
+      "Frequency: Static"
+    ]
+  },
   "Agency": [
-    "CMEMS"
+    "Mercator Ocean International"
   ],
   "Colorlegend": {
     "title": "Sea floor depth below geoid [m]",
     "range": [
-      "rgba(68, 1, 84, 1)",
-      "rgba(72, 35, 116, 1)",
-      "rgba(64, 67, 135, 1)",
-      "rgba(52, 94, 141, 1)",
-      "rgba(41, 120, 142, 1)",
-      "rgba(32, 144, 140, 1)",
-      "rgba(34, 167, 132, 1)",
-      "rgba(68, 190, 112, 1)",
-      "rgba(121, 209, 81, 1)",
-      "rgba(189, 223, 38, 1)",
-      "rgba(253, 231, 37, 1)"
+      "rgb(0, 127, 0)",
+      "rgb(0, 50, 51)",
+      "rgb(0, 25, 102)",
+      "rgb(0, 101, 153)",
+      "rgb(102, 178, 204)",
+      "rgb(255, 255, 255)"
     ],
     "domain": [
-      25,
+      0,
       5727
     ]
   },
@@ -45,8 +46,20 @@
       ],
       "Dimensions": {
         "elevation": 0,
-        "style": "cmap:viridis"
+        "style": "cmap:ocean"
       }
     }
-  ]
+  ],
+"Process": {
+    "Name": "process_cmems",
+    "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/deptho.json",
+    "EndPoints": [
+      {
+        "Identifier": "process_cmems",
+        "Url": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_mod_glo_bgc-pft_anfc_0.25deg_P1D-m&variables=chl&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
+        "Type": "application/json"
+      }
+    ]
+  }
 }

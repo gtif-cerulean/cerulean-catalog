@@ -1,21 +1,30 @@
 {
-  "Name": "phosphate",
-  "Title": "Phosphate",
-  "EodashIdentifier": "PO4",
-  "Description": "The Operational Mercator Ocean biogeochemical global ocean analysis and forecast system at 1/4 degree is providing 10 days of 3D global ocean forecasts updated weekly. The time series is aggregated in time, in order to reach a two full year's time series sliding window. This product includes daily and monthly mean files of biogeochemical parameters (chlorophyll, nitrate, phosphate, silicate, dissolved oxygen, dissolved iron, primary production, phytoplankton, zooplankton, PH, and surface partial pressure of carbon dioxyde) over the global ocean. The global ocean output files are displayed with a 1/4 degree horizontal resolution with regular longitude/latitude equirectangular projection. 50 vertical levels are ranging from 0 to 5700 meters. NEMO version (v3.6_STABLE). Forcings: GLOBAL_ANALYSIS_FORECAST_PHYS_001_024 at daily frequency. Outputs mean fields are interpolated on a standard regular grid in NetCDF format. Initial conditions: World Ocean Atlas 2013 for nitrate, phosphate, silicate and dissolved oxygen, GLODAPv2 for DIC and Alkalinity, and climatological model outputs for Iron and DOC. Quality/Accuracy/Calibration information: See the related QuID.",
+  "Name": "PO4_phosphate",
+  "Title": "Mole concentration of phosphate in sea water",
+  "Description": "The biogeochemical global ocean analysis and forecast system provides 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time to provide a two-year time series sliding window. The product includes daily biogeochemical parameters (chlorophyll, nitrate, phosphate, silicate, dissolved oxygen, dissolved iron, primary production, phytoplankton, zooplankton, PH, and surface partial pressure of carbon dioxyde) over the global ocean. The output files are displayed with a 1/4 degree horizontal resolution.",
   "Themes": [
     "Aquaculture"
   ],
-  "CollectionGroup": "Water Chemistry",
+  "CollectionGroup": "7. Water Chemistry",
+  "DataSource": {
+    "Spaceborne": {"Sensor": "Numerical model"},
+    "Other": [
+      "Spatial Resolution: 0.083° × 0.083°",
+      "Frequency: Daily"
+    ]
+  },
   "Agency": [
-    "CMEMS"
+    "Mercator Ocean International"
   ],
   "Colorlegend": {
-    "title": "Phosphate [mmol m-3]",
+    "title": "Mole concentration of phosphate in sea water [mmol/m^3]",
     "range": [
-      "rgb(229, 239, 241)",
-      "rgb(112, 122, 212)",
-      "rgb(59, 15, 40)"
+      "rgb(230, 240, 240)",
+      "rgb(149, 197, 226)",
+      "rgb(115, 144, 227)",
+      "rgb(120, 84, 186)",
+      "rgb(103, 35, 112)",
+      "rgb(54, 14, 36)"
     ],
     "domain": [
       0.0297,

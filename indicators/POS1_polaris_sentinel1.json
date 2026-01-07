@@ -1,7 +1,6 @@
 {
   "Name": "polaris_sentinel1",
   "Title": "POLARIS combined",
-  "EodashIdentifier": "POS1",
   "Description": "",
   "CollectionGroup": "Capabilities",
   "Themes": [

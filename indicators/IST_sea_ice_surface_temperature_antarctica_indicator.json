@@ -1,7 +1,6 @@
 {
     "Name": "IST_sea_ice_surface_temperature_antarctica_indicator",
     "Title": "Sea Ice Surface Temperature Antarctica",
-    "EodashIdentifier": "sea_ice_surface_temperature_antarctica",
     "Description": "N/A\n",
     "CollectionGroup": "Antarctica",
     "Themes": [

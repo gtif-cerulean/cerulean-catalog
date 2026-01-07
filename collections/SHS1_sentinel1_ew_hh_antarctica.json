@@ -1,7 +1,6 @@
 {
   "Name": "Sentinel1-EW-HH_antarctica",
   "Title": "Sentinel 1 EW HH Antarctica",
-  "EodashIdentifier": "SHS1_ant",
   "Description": "Sentinel 1, Extra Wide Swath, HH Polarization",
   "CollectionGroup": "Antarctica",
   "Themes": [

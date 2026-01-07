@@ -1,7 +1,6 @@
 {
     "Name": "surface_snow_thickness_antarctica_indicator",
     "Title": "Surface Snow Thickness Antarctica",
-    "EodashIdentifier": "surface_snow_thickness_antarctica",
     "Description": "N/A\n",
     "CollectionGroup": "Antarctica",
     "Themes": [

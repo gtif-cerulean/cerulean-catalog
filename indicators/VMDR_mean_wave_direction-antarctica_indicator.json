@@ -1,7 +1,6 @@
 {
     "Name": "mean_wave_direction_antarctica_indicator",
     "Title": "Mean wave direction Antarctica",
-    "EodashIdentifier": "mean_wave_direction_antarctica",
     "Description": "N/A\n",
     "CollectionGroup": "Antarctica",
     "Themes": [

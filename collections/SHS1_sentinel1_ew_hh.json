@@ -1,7 +1,6 @@
 {
   "Name": "Sentinel1-EW-HH",
   "Title": "Sentinel 1 EW HH",
-  "EodashIdentifier": "SHS1",
   "Description": "SENTINEL 1, Extra Wide Swath, HH Polarization",
   "CollectionGroup": "Satellite Data",
   "Themes": [

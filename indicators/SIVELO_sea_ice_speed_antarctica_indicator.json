@@ -1,7 +1,6 @@
 {
     "Name": "SIVELO_sea_ice_speed_antarctica_indicator",
     "Title": "Sea Ice Speed Antarctica",
-    "EodashIdentifier": "sea_ice_speed_antarctica",
     "Description": "N/A\n",
     "CollectionGroup": "Antarctica",
     "Themes": [

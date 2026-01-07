@@ -1,7 +1,6 @@
 {
     "Name": "SIT_sea_ice_thickness_antarctica_indicator",
     "Title": "Sea Ice Thickness Antarctica",
-    "EodashIdentifier": "sea_ice_thickness_antarctica",
     "Description": "N/A\n",
     "CollectionGroup": "Antarctica",
     "Themes": [

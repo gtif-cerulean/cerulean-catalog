@@ -1,7 +1,6 @@
 {
     "Name": "USI_sea_ice_eastward_velocity_antarctica_indicator",
     "Title": "Sea Ice eastward velocity Antarctica",
-    "EodashIdentifier": "sea_ice_eastward_velocity_antarctica",
     "Description": "N/A\n",
     "CollectionGroup": "Antarctica",
     "Themes": [
