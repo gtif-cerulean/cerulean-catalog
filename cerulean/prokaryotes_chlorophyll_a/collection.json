@@ -16,7 +16,6 @@
       "type": "application/json",
       "title": "Prokaryotes Chlorophyll a concentration",
       "endpointtype": "marinedatastore_WMTSCapabilities",
-      "code": "PROKAR",
       "id": "prokaryotes_chlorophyll_a",
       "themes": [
         "Aquaculture"
@@ -24,7 +23,6 @@
       "agency": [
         "CMEMS"
       ],
-      "subcode": "PROKAR",
       "collection_group": "Water Biology"
     },
     {
@@ -127,7 +125,6 @@
   "agency": [
     "CMEMS"
   ],
-  "subcode": "PROKAR",
   "collection_group": "Water Biology",
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/PROKAR.json",
@@ -161,9 +158,6 @@
   },
   "license": "other",
   "summaries": {
-    "subcode": [
-      "PROKAR"
-    ],
     "themes": [
       "Aquaculture"
     ]

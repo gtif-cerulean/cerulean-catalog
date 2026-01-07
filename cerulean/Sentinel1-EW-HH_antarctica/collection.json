@@ -16,7 +16,6 @@
       "type": "application/json",
       "title": "Sentinel 1 EW HH Antarctica",
       "endpointtype": "Sentinel Hub WMS",
-      "code": "SHS1_ant",
       "id": "Sentinel1-EW-HH_antarctica",
       "themes": [
         "Energy",
@@ -26,7 +25,6 @@
       "agency": [
         "Sentinel Hub"
       ],
-      "subcode": "SHS1_ant",
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
         "name": "EPSG:32761",
@@ -114,7 +112,6 @@
   "agency": [
     "Sentinel Hub"
   ],
-  "subcode": "SHS1_ant",
   "collection_group": "Antarctica",
   "eodash:mapProjection": {
     "name": "EPSG:32761",
@@ -150,12 +147,9 @@
   },
   "license": "other",
   "summaries": {
-    "subcode": [
-      "SHS1_ant"
-    ],
     "themes": [
-      "Shipping",
       "Energy",
+      "Shipping",
       "Aquaculture"
     ],
     "thumbnail": [

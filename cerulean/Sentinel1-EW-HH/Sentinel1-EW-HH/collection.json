@@ -38,7 +38,6 @@
   "agency": [
     "Sentinel Hub"
   ],
-  "subcode": "SHS1",
   "collection_group": "Satellite Data",
   "endpointtype": "Sentinel Hub WMS",
   "title": "Sentinel 1 EW HH",

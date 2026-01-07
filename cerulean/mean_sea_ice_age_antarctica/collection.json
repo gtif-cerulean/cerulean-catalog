@@ -16,7 +16,6 @@
       "type": "application/json",
       "title": "Mean sea ice age Antarctica",
       "endpointtype": "marinedatastore_WMTSCapabilities",
-      "code": "MSIA",
       "id": "mean_sea_ice_age_antarctica",
       "themes": [
         "Shipping"
@@ -24,7 +23,6 @@
       "agency": [
         "CMEMS"
       ],
-      "subcode": "MSIA",
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
         "name": "EPSG:32761",
@@ -117,7 +115,6 @@
   "agency": [
     "CMEMS"
   ],
-  "subcode": "MSIA",
   "collection_group": "Antarctica",
   "eodash:mapProjection": {
     "name": "EPSG:32761",
@@ -175,9 +172,6 @@
   },
   "license": "other",
   "summaries": {
-    "subcode": [
-      "MSIA"
-    ],
     "themes": [
       "Shipping"
     ]

@@ -1,0 +1,97 @@
+{
+  "type": "Collection",
+  "id": "CHL_chlorophyll_Chemistry",
+  "stac_version": "1.1.0",
+  "description": "The biogeochemical global ocean analysis and forecast system provides 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time to provide a two-year time series sliding window. The product includes daily biogeochemical parameters (chlorophyll, nitrate, phosphate, silicate, dissolved oxygen, dissolved iron, primary production, phytoplankton, zooplankton, PH, and surface partial pressure of carbon dioxyde) over the global ocean. The output files are displayed with a 1/4 degree horizontal resolution.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "wmts",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_BGC_001_028/cmems_mod_glo_bgc-pft_anfc_0.25deg_P1D-m_202311",
+      "type": "image/png",
+      "title": "wmts capabilities",
+      "wmts:layer": "GLOBAL_ANALYSISFORECAST_BGC_001_028/cmems_mod_glo_bgc-pft_anfc_0.25deg_P1D-m_202311/chl",
+      "role": [
+        "data"
+      ],
+      "wmts:dimensions": {
+        "elevation": 0,
+        "style": "cmap:algae"
+      },
+      "key": "915e00dc-78ac-4066-95f0-740647a78fb5"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Mass concentration of chlorophyll a in sea water - Chemistry"
+    }
+  ],
+  "sci:doi": "10.48670/moi-00015",
+  "themes": [
+    "Aquaculture"
+  ],
+  "agency": [
+    "Mercator Ocean International"
+  ],
+  "subcode": "CHL",
+  "collection_group": "7. Water Chemistry",
+  "sensor": "Numerical model",
+  "otherSources": [
+    "Spatial Resolution: 0.25° × 0.25°",
+    "Frequency: Daily"
+  ],
+  "eox:colorlegend": {
+    "title": "Mass concentration of chlorophyll a in sea water - Chemistry [mg/m^3]",
+    "range": [
+      "rgb(214, 249, 207)",
+      "rgb(149, 205, 137)",
+      "rgb(67, 168, 85)",
+      "rgb(9, 125, 74)",
+      "rgb(25, 80, 52)",
+      "rgb(17, 36, 20)"
+    ],
+    "domain": [
+      0.00283,
+      0.77506
+    ]
+  },
+  "endpointtype": "marinedatastore_WMTSCapabilities",
+  "title": "Mass concentration of chlorophyll a in sea water - Chemistry",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -80.0,
+          179.75,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-11-01T00:00:00Z",
+          "2026-01-16T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}

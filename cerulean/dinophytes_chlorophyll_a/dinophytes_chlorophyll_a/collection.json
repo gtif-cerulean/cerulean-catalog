@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:rainbow"
       },
-      "key": "b8869e28-a773-4daf-a3c6-acbd008e70f5"
+      "key": "f5280f97-5aa4-40ac-a823-9875afbab1d1"
     },
     {
       "rel": "parent",
@@ -39,7 +39,6 @@
   "agency": [
     "CMEMS"
   ],
-  "subcode": "DINO",
   "collection_group": "Water Biology",
   "eox:colorlegend": {
     "title": "Mass concentration of dinophytes expressed as chlorophyll in sea water [%]",

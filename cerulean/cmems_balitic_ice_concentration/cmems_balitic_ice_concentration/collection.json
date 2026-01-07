@@ -19,7 +19,7 @@
       "role": [
         "data"
       ],
-      "key": "05cd5d69-1f62-44b8-a765-a3d39e58b1d6"
+      "key": "00ff5116-4b3a-4d70-8f5c-0228c34d6391"
     },
     {
       "rel": "parent",
@@ -35,7 +35,6 @@
   "agency": [
     "CMEMS"
   ],
-  "subcode": "cmems_baltic_ice_concentration",
   "collection_group": "Baltic",
   "eox:colorlegend": {
     "title": "Sea Ice Concentration [%]",

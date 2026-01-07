@@ -16,7 +16,6 @@
       "type": "application/json",
       "title": "Baltic Sea Ice Concentration",
       "endpointtype": "marinedatastore_WMTSCapabilities",
-      "code": "cmems_baltic_ice_concentration",
       "id": "cmems_balitic_ice_concentration",
       "themes": [
         "Baltic"
@@ -24,7 +23,6 @@
       "agency": [
         "CMEMS"
       ],
-      "subcode": "cmems_baltic_ice_concentration",
       "collection_group": "Baltic"
     },
     {
@@ -127,7 +125,6 @@
   "agency": [
     "CMEMS"
   ],
-  "subcode": "cmems_baltic_ice_concentration",
   "collection_group": "Baltic",
   "eox:colorlegend": {
     "title": "Sea Ice Concentration [%]",
@@ -173,9 +170,6 @@
   },
   "license": "other",
   "summaries": {
-    "subcode": [
-      "cmems_baltic_ice_concentration"
-    ],
     "themes": [
       "Baltic"
     ]

@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:algae"
       },
-      "key": "fe1b6d1f-7c8b-429a-a12e-939a8102bfbb"
+      "key": "b1ced9d1-f230-4ab7-9d6d-2fd0088d903c"
     },
     {
       "rel": "parent",
@@ -39,7 +39,6 @@
   "agency": [
     "CMEMS"
   ],
-  "subcode": "DIATO",
   "collection_group": "Water Biology",
   "eox:colorlegend": {
     "title": "Diatoms Chlorophyll a concentration - Mean of the binned pixels [milligram m^-3]",

@@ -15,14 +15,12 @@
       "href": "./harshness/collection.json",
       "type": "application/json",
       "title": "Harshness capability",
-      "code": "harshness",
       "id": "harshness",
       "themes": [
         "Shipping",
         "Aquaculture",
         "Energy"
       ],
-      "subcode": "harshness",
       "agency": [
         "C-CORE"
       ],
@@ -33,12 +31,10 @@
       "href": "./Polaris_algorithm_dmi_demo/collection.json",
       "type": "application/json",
       "title": "POLARIS",
-      "code": "Polaris_algorithm_dmi_demo",
       "id": "Polaris_algorithm_dmi_demo",
       "themes": [
         "Shipping"
       ],
-      "subcode": "Polaris_algorithm_dmi_demo",
       "thumbnail": [
         "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
       ],
@@ -52,12 +48,10 @@
       "href": "./polaris_sentinel1/collection.json",
       "type": "application/json",
       "title": "POLARIS combined",
-      "code": "POS1",
       "id": "polaris_sentinel1",
       "themes": [
         "Shipping"
       ],
-      "subcode": "POS1",
       "thumbnail": [
         "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
         "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
@@ -69,12 +63,10 @@
       "href": "./airss_results/collection.json",
       "type": "application/json",
       "title": "AIRSS Go or No-Go",
-      "code": "airss_go_or_no_go",
       "id": "airss_results",
       "themes": [
         "Shipping"
       ],
-      "subcode": "airss_go_or_no_go",
       "thumbnail": [
         "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
       ],
@@ -85,209 +77,255 @@
     },
     {
       "rel": "child",
-      "href": "./net_primary_production_of_biomass/collection.json",
+      "href": "./NPPV_net_primary_production_of_biomass/collection.json",
       "type": "application/json",
-      "title": "Net primary production of biomass",
+      "title": "Net primary production of biomass expressed as carbon per unit volume in sea water",
       "code": "NPPB",
-      "id": "net_primary_production_of_biomass",
+      "id": "NPPV_net_primary_production_of_biomass",
       "themes": [
         "Aquaculture"
       ],
       "subcode": "NPPB",
+      "sensor": "Numerical model",
       "agency": [
-        "CMEMS"
+        "Mercator Ocean International"
       ],
-      "collection_group": "Water Chemistry"
+      "collection_group": "Water Chemistry",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ]
     },
     {
       "rel": "child",
-      "href": "./dissolved_oxygen/collection.json",
+      "href": "./O2_oxygen/collection.json",
       "type": "application/json",
-      "title": "Dissolved Oxygen",
+      "title": "Mole concentration of dissolved molecular oxygen in sea water",
       "code": "DO",
-      "id": "dissolved_oxygen",
+      "id": "O2_oxygen",
       "themes": [
         "Aquaculture"
       ],
       "subcode": "DO",
+      "sensor": "Numerical model",
       "agency": [
-        "CMEMS"
+        "Mercator Ocean International"
       ],
-      "collection_group": "Water Chemistry"
+      "collection_group": "7. Water Chemistry",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ]
     },
     {
       "rel": "child",
-      "href": "./dissolved_inorganic_carbon/collection.json",
+      "href": "./DISSIC_inorganic_carbon/collection.json",
       "type": "application/json",
-      "title": "Dissolved Inorganic Carbon",
+      "title": "Mole concentration of dissolved inorganic carbon in sea water",
       "code": "DIC",
-      "id": "dissolved_inorganic_carbon",
+      "id": "DISSIC_inorganic_carbon",
       "themes": [
         "Aquaculture"
       ],
       "subcode": "DIC",
+      "sensor": "Numerical model",
       "agency": [
-        "CMEMS"
+        "Mercator Ocean International"
       ],
-      "collection_group": "Water Chemistry"
+      "collection_group": "7. Water Chemistry",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ]
     },
     {
       "rel": "child",
-      "href": "./ph/collection.json",
+      "href": "./PH_ph/collection.json",
       "type": "application/json",
-      "title": "PH",
+      "title": "Sea water pH reported on total scale",
       "code": "DIC",
-      "id": "ph",
+      "id": "PH_ph",
       "themes": [
         "Aquaculture"
       ],
       "subcode": "DIC",
+      "sensor": "Numerical model",
       "agency": [
-        "CMEMS"
+        "Mercator Ocean International"
       ],
-      "collection_group": "Water Chemistry"
+      "collection_group": "7. Water Chemistry",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ]
     },
     {
       "rel": "child",
-      "href": "./total_alkalinity/collection.json",
+      "href": "./TALK_alkalinity/collection.json",
       "type": "application/json",
-      "title": "Total Alkalinity",
-      "code": "TA",
-      "id": "total_alkalinity",
+      "title": "Sea water alkalinity expressed as mole equivalent",
+      "id": "TALK_alkalinity",
       "themes": [
         "Aquaculture"
       ],
-      "subcode": "TA",
+      "sensor": "Numerical model",
       "agency": [
-        "CMEMS"
+        "Mercator Ocean International"
       ],
-      "collection_group": "Water Chemistry"
+      "collection_group": "7. Water Chemistry",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ]
     },
     {
       "rel": "child",
-      "href": "./surface_co2/collection.json",
+      "href": "./SPCO2_surface_co2/collection.json",
       "type": "application/json",
-      "title": "Surface CO2",
-      "code": "SCO2",
-      "id": "surface_co2",
+      "title": "Surface partial pressure of carbon dioxide in sea water",
+      "id": "SPCO2_surface_co2",
       "themes": [
         "Aquaculture"
       ],
-      "subcode": "SCO2",
+      "sensor": "Numerical model",
       "agency": [
-        "CMEMS"
+        "Mercator Ocean International"
       ],
-      "collection_group": "Water Chemistry"
+      "collection_group": "7. Water Chemistry",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ]
     },
     {
       "rel": "child",
-      "href": "./dissolved_iron/collection.json",
+      "href": "./FE_iron/collection.json",
       "type": "application/json",
-      "title": "Dissolved Iron",
+      "title": "Mole concentration of dissolved iron in sea water",
       "code": "DI",
-      "id": "dissolved_iron",
+      "id": "FE_iron",
       "themes": [
         "Aquaculture"
       ],
       "subcode": "DI",
+      "sensor": "Numerical model",
       "agency": [
-        "CMEMS"
+        "Mercator Ocean International"
       ],
-      "collection_group": "Water Chemistry"
+      "collection_group": "7. Water Chemistry",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ]
     },
     {
       "rel": "child",
-      "href": "./nitrate/collection.json",
+      "href": "./NO3_nitrate/collection.json",
       "type": "application/json",
-      "title": "Nitrate",
+      "title": "Mole concentration of nitrate in sea water",
       "code": "NO3",
-      "id": "nitrate",
+      "id": "NO3_nitrate",
       "themes": [
         "Aquaculture"
       ],
       "subcode": "NO3",
+      "sensor": "Numerical model",
       "agency": [
-        "CMEMS"
+        "Mercator Ocean International"
       ],
-      "collection_group": "Water Chemistry"
+      "collection_group": "7. Water Chemistry",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ]
     },
     {
       "rel": "child",
-      "href": "./phosphate/collection.json",
+      "href": "./PO4_phosphate/collection.json",
       "type": "application/json",
-      "title": "Phosphate",
-      "code": "PO4",
-      "id": "phosphate",
+      "title": "Mole concentration of phosphate in sea water",
+      "id": "PO4_phosphate",
       "themes": [
         "Aquaculture"
       ],
-      "subcode": "PO4",
+      "sensor": "Numerical model",
       "agency": [
-        "CMEMS"
+        "Mercator Ocean International"
       ],
-      "collection_group": "Water Chemistry"
+      "collection_group": "7. Water Chemistry",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ]
     },
     {
       "rel": "child",
-      "href": "./dissolved_silicate/collection.json",
+      "href": "./SI_silicate/collection.json",
       "type": "application/json",
-      "title": "Dissolved Silicate",
-      "code": "SI",
-      "id": "dissolved_silicate",
+      "title": "Mole concentration of silicate in sea water",
+      "id": "SI_silicate",
       "themes": [
         "Aquaculture"
       ],
-      "subcode": "SI",
+      "sensor": "Numerical model",
       "agency": [
-        "CMEMS"
+        "Mercator Ocean International"
       ],
-      "collection_group": "Water Chemistry"
+      "collection_group": "7. Water Chemistry",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ]
     },
     {
       "rel": "child",
-      "href": "./total_phytoplankton/collection.json",
+      "href": "./PHYC_phytoplankton/collection.json",
       "type": "application/json",
-      "title": "Total Phytoplankton",
-      "code": "PHYC",
-      "id": "total_phytoplankton",
+      "title": "Mole concentration of phytoplankton expressed as carbon in sea water",
+      "id": "PHYC_phytoplankton",
       "themes": [
         "Aquaculture"
       ],
-      "subcode": "PHYC",
+      "sensor": "Numerical model",
       "agency": [
-        "CMEMS"
+        "Mercator Ocean International"
       ],
-      "collection_group": "Water Chemistry"
+      "collection_group": "7. Water Chemistry",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ]
     },
     {
       "rel": "child",
-      "href": "./total_zooplankton/collection.json",
+      "href": "./ZOOC_zooplankton/collection.json",
       "type": "application/json",
-      "title": "Total Zooplankton",
-      "code": "ZOOC",
-      "id": "total_zooplankton",
+      "title": "Mole concentration of zooplankton expressed as carbon in sea water",
+      "id": "ZOOC_zooplankton",
       "themes": [
         "Aquaculture"
       ],
-      "subcode": "ZOOC",
+      "sensor": "Numerical model",
       "agency": [
-        "CMEMS"
+        "Mercator Ocean International"
       ],
-      "collection_group": "Water Chemistry"
+      "collection_group": "7. Water Chemistry",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ]
     },
     {
       "rel": "child",
       "href": "./Sentinel1-EW-HH/collection.json",
       "type": "application/json",
       "title": "Sentinel 1 EW HH",
-      "code": "SHS1",
       "id": "Sentinel1-EW-HH",
       "themes": [
         "Energy",
         "Aquaculture",
         "Shipping"
       ],
-      "subcode": "SHS1",
       "thumbnail": [
         "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
       ],
@@ -301,14 +339,12 @@
       "href": "./Sentinel1-IW-VV/collection.json",
       "type": "application/json",
       "title": "Sentinel 1 IW VV",
-      "code": "SHS1VV",
       "id": "Sentinel1-IW-VV",
       "themes": [
         "Energy",
         "Aquaculture",
         "Shipping"
       ],
-      "subcode": "SHS1VV",
       "thumbnail": [
         "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
       ],
@@ -319,31 +355,34 @@
     },
     {
       "rel": "child",
-      "href": "./chlorophyll_concentration/collection.json",
+      "href": "./CHL_chlorophyll_Chemistry/collection.json",
       "type": "application/json",
-      "title": "Chlorophyll-a concentration",
-      "code": "CHLA",
-      "id": "chlorophyll_concentration",
+      "title": "Mass concentration of chlorophyll a in sea water - Chemistry",
+      "code": "CHL",
+      "id": "CHL_chlorophyll_Chemistry",
       "themes": [
         "Aquaculture"
       ],
-      "subcode": "CHLA",
+      "subcode": "CHL",
+      "sensor": "Numerical model",
       "agency": [
-        "CMEMS"
+        "Mercator Ocean International"
       ],
-      "collection_group": "Water Biology"
+      "collection_group": "7. Water Chemistry",
+      "otherSources": [
+        "Spatial Resolution: 0.25° × 0.25°",
+        "Frequency: Daily"
+      ]
     },
     {
       "rel": "child",
       "href": "./diatoms_chlorophyll_a/collection.json",
       "type": "application/json",
       "title": "Diatoms Chlorophyll a concentration",
-      "code": "DIATO",
       "id": "diatoms_chlorophyll_a",
       "themes": [
         "Aquaculture"
       ],
-      "subcode": "DIATO",
       "agency": [
         "CMEMS"
       ],
@@ -354,12 +393,10 @@
       "href": "./dinophytes_chlorophyll_a/collection.json",
       "type": "application/json",
       "title": "Mass concentration of dinophytes expressed as chlorophyll in sea water",
-      "code": "DINO",
       "id": "dinophytes_chlorophyll_a",
       "themes": [
         "Aquaculture"
       ],
-      "subcode": "DINO",
       "agency": [
         "CMEMS"
       ],
@@ -370,12 +407,10 @@
       "href": "./green_algae/collection.json",
       "type": "application/json",
       "title": "Green Algae Chlorophyll a concentration",
-      "code": "GREEN",
       "id": "green_algae",
       "themes": [
         "Aquaculture"
       ],
-      "subcode": "GREEN",
       "agency": [
         "CMEMS"
       ],
@@ -386,12 +421,10 @@
       "href": "./haptophytes_chlorophyll_a/collection.json",
       "type": "application/json",
       "title": "Haptophytes Chlorophyll a concentration",
-      "code": "HAPTO",
       "id": "haptophytes_chlorophyll_a",
       "themes": [
         "Aquaculture"
       ],
-      "subcode": "HAPTO",
       "agency": [
         "CMEMS"
       ],
@@ -402,12 +435,10 @@
       "href": "./microphytoplankton_chlorophyll_a/collection.json",
       "type": "application/json",
       "title": "Microphytoplankton Chlorophyll a concentration",
-      "code": "MICRO",
       "id": "microphytoplankton_chlorophyll_a",
       "themes": [
         "Aquaculture"
       ],
-      "subcode": "MICRO",
       "agency": [
         "CMEMS"
       ],
@@ -418,12 +449,10 @@
       "href": "./nanophytoplankton_hlorophyll_a/collection.json",
       "type": "application/json",
       "title": "Nanophytoplankton Chlorophyll a concentration",
-      "code": "NANO",
       "id": "nanophytoplankton_hlorophyll_a",
       "themes": [
         "Aquaculture"
       ],
-      "subcode": "NANO",
       "agency": [
         "CMEMS"
       ],
@@ -434,12 +463,10 @@
       "href": "./picophytoplankton_chlorophyll_a/collection.json",
       "type": "application/json",
       "title": "Picophytoplankton Chlorophyll a concentration",
-      "code": "PICO",
       "id": "picophytoplankton_chlorophyll_a",
       "themes": [
         "Aquaculture"
       ],
-      "subcode": "PICO",
       "agency": [
         "CMEMS"
       ],
@@ -450,12 +477,10 @@
       "href": "./prochlorophytes_chlorophyll_a/collection.json",
       "type": "application/json",
       "title": "Prochlorophytes Chlorophyll a concentration",
-      "code": "PROCHLO",
       "id": "prochlorophytes_chlorophyll_a",
       "themes": [
         "Aquaculture"
       ],
-      "subcode": "PROCHLO",
       "agency": [
         "CMEMS"
       ],
@@ -466,12 +491,10 @@
       "href": "./prokaryotes_chlorophyll_a/collection.json",
       "type": "application/json",
       "title": "Prokaryotes Chlorophyll a concentration",
-      "code": "PROKAR",
       "id": "prokaryotes_chlorophyll_a",
       "themes": [
         "Aquaculture"
       ],
-      "subcode": "PROKAR",
       "agency": [
         "CMEMS"
       ],
@@ -482,12 +505,10 @@
       "href": "./inorganic_suspended_pm/collection.json",
       "type": "application/json",
       "title": "Inorganic suspended particulate matter in sea water",
-      "code": "SPM",
       "id": "inorganic_suspended_pm",
       "themes": [
         "Aquaculture"
       ],
-      "subcode": "SPM",
       "agency": [
         "CMEMS"
       ],
@@ -495,364 +516,135 @@
     },
     {
       "rel": "child",
-      "href": "./sea_floor_depth/collection.json",
+      "href": "./DEPTHO_sea_floor_depth/collection.json",
       "type": "application/json",
       "title": "Sea floor depth below geoid",
-      "code": "DEPTHO",
-      "id": "sea_floor_depth",
+      "id": "DEPTHO_sea_floor_depth",
       "themes": [
         "Aquaculture",
         "Energy"
       ],
-      "subcode": "DEPTHO",
       "agency": [
-        "CMEMS"
+        "Mercator Ocean International"
       ],
-      "collection_group": "Bathymetry"
+      "collection_group": "10. Bathymetry",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Static"
+      ]
     },
     {
       "rel": "child",
-      "href": "./air_density/collection.json",
+      "href": "./SO_salinity/collection.json",
       "type": "application/json",
-      "title": "Air density",
-      "code": "AD",
-      "id": "air_density",
+      "title": "Sea water salinity",
+      "id": "SO_salinity",
       "themes": [
-        "Energy"
+        "Aquaculture"
       ],
-      "subcode": "AD",
+      "sensor": "Numerical model",
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "Wind"
+      "collection_group": "5. Sea Water",
+      "otherSources": [
+        "Numerical Model",
+        "0.083° × 0.083°"
+      ]
     },
     {
       "rel": "child",
-      "href": "./eastward_wind/collection.json",
-      "type": "application/json",
-      "title": "Stress-equivalent wind eastward component",
-      "code": "EWW",
-      "id": "eastward_wind",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "EWW",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Wind"
-    },
-    {
-      "rel": "child",
-      "href": "./northward_wind/collection.json",
-      "type": "application/json",
-      "title": "Stress-equivalent wind northward component",
-      "code": "NWW",
-      "id": "northward_wind",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "NWW",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Wind"
-    },
-    {
-      "rel": "child",
-      "href": "./wind_stress_eastward/collection.json",
-      "type": "application/json",
-      "title": "Surface wind stress eastward component",
-      "code": "WSE",
-      "id": "wind_stress_eastward",
-      "themes": [
-        "Shipping",
-        "Aquaculture",
-        "Energy"
-      ],
-      "subcode": "WSE",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Wind"
-    },
-    {
-      "rel": "child",
-      "href": "./wind_stress_northward/collection.json",
-      "type": "application/json",
-      "title": "Surface wind stress northward component",
-      "code": "WSN",
-      "id": "wind_stress_northward",
-      "themes": [
-        "Shipping",
-        "Aquaculture",
-        "Energy"
-      ],
-      "subcode": "WSN",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Wind"
-    },
-    {
-      "rel": "child",
-      "href": "./curl_of_stress_equivalent_wind/collection.json",
-      "type": "application/json",
-      "title": "Curl of stress-equivalent wind",
-      "code": "WCS",
-      "id": "curl_of_stress_equivalent_wind",
-      "themes": [
-        "Shipping",
-        "Aquaculture",
-        "Energy"
-      ],
-      "subcode": "WCS",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Wind"
-    },
-    {
-      "rel": "child",
-      "href": "./maximum_crest_wave/collection.json",
-      "type": "application/json",
-      "title": "Maximum crest trough wave height",
-      "code": "VCMX",
-      "id": "maximum_crest_wave",
-      "themes": [
-        "Shipping",
-        "Aquaculture",
-        "Energy"
-      ],
-      "subcode": "VCMX",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Waves"
-    },
-    {
-      "rel": "child",
-      "href": "./wave_significant_height/collection.json",
-      "type": "application/json",
-      "title": "Spectral significant wave height",
-      "code": "VHM0",
-      "id": "wave_significant_height",
-      "themes": [
-        "Shipping",
-        "Aquaculture",
-        "Energy"
-      ],
-      "subcode": "VHM0",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Waves"
-    },
-    {
-      "rel": "child",
-      "href": "./mean_wave_direction/collection.json",
-      "type": "application/json",
-      "title": "Mean wave direction",
-      "code": "VMDR",
-      "id": "mean_wave_direction",
-      "themes": [
-        "Shipping",
-        "Aquaculture",
-        "Energy"
-      ],
-      "subcode": "VMDR",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Waves"
-    },
-    {
-      "rel": "child",
-      "href": "./spectral_moments_wave_period/collection.json",
-      "type": "application/json",
-      "title": "Spectral moments primary swell wave period",
-      "code": "VTM01",
-      "id": "spectral_moments_wave_period",
-      "themes": [
-        "Shipping",
-        "Aquaculture",
-        "Energy"
-      ],
-      "subcode": "VTM01",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Waves"
-    },
-    {
-      "rel": "child",
-      "href": "./eastward_velocity/collection.json",
-      "type": "application/json",
-      "title": "Eastward velocity",
-      "code": "UO",
-      "id": "eastward_velocity",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "UO",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Sea Water"
-    },
-    {
-      "rel": "child",
-      "href": "./northward_velocity/collection.json",
-      "type": "application/json",
-      "title": "Northward velocity",
-      "code": "VO",
-      "id": "northward_velocity",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "VO",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Sea Water"
-    },
-    {
-      "rel": "child",
-      "href": "./salinity/collection.json",
-      "type": "application/json",
-      "title": "Salinity",
-      "code": "SO",
-      "id": "salinity",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "SO",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Sea Water"
-    },
-    {
-      "rel": "child",
-      "href": "./sea_water_potential_temperature/collection.json",
+      "href": "./THETAO_sea_water_potential_temperature/collection.json",
       "type": "application/json",
       "title": "Sea water potential temperature",
-      "code": "SWPT",
-      "id": "sea_water_potential_temperature",
+      "id": "THETAO_sea_water_potential_temperature",
       "themes": [
+        "Aquaculture",
         "Shipping"
       ],
-      "subcode": "SWPT",
+      "sensor": "Numerical model",
       "agency": [
-        "CMEMS"
+        "Mercator Ocean International"
       ],
-      "collection_group": "Sea Water"
+      "collection_group": "Sea Water",
+      "otherSources": [
+        "Numerical Model",
+        "0.083° × 0.083°"
+      ]
     },
     {
       "rel": "child",
-      "href": "./sea_surface_temperature_anomaly/collection.json",
+      "href": "./Sea_surface_temperature_anomaly/collection.json",
       "type": "application/json",
       "title": "Sea surface temperature anomaly",
-      "code": "SSTA",
-      "id": "sea_surface_temperature_anomaly",
+      "id": "Sea_surface_temperature_anomaly",
       "themes": [
-        "Shipping"
+        "Aquaculture"
       ],
-      "subcode": "SSTA",
+      "sensor": "Numerical model",
       "agency": [
-        "CMEMS"
+        "Mercator Ocean International"
       ],
-      "collection_group": "Sea Water"
-    },
-    {
-      "rel": "child",
-      "href": "./eastward_tide_velocity/collection.json",
-      "type": "application/json",
-      "title": "Eastward tide-induced velocity",
-      "code": "UOTIDE",
-      "id": "eastward_tide_velocity",
-      "themes": [
-        "Shipping",
-        "Aquaculture",
-        "Energy"
-      ],
-      "subcode": "UOTIDE",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Sea Water"
-    },
-    {
-      "rel": "child",
-      "href": "./northwad_tide_velocity/collection.json",
-      "type": "application/json",
-      "title": "Northward tide-induced velocity",
-      "code": "VOTIDE",
-      "id": "northwad_tide_velocity",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "VOTIDE",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Sea Water"
+      "collection_group": "5. Sea Water",
+      "otherSources": [
+        "Numerical Model",
+        "0.083° × 0.083°"
+      ]
     },
     {
       "rel": "child",
       "href": "./sea_ice_surface_temperature/collection.json",
       "type": "application/json",
       "title": "Sea ice surface temperature",
-      "code": "IST",
       "id": "sea_ice_surface_temperature",
       "themes": [
-        "Shipping"
+        "Shipping",
+        "Energy",
+        "Aquaculture"
       ],
-      "subcode": "IST",
+      "sensor": "Numerical model",
       "agency": [
-        "CMEMS"
+        "Mercator Ocean International"
       ],
-      "collection_group": "Sea Ice"
+      "collection_group": "3. Sea Ice",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ]
     },
     {
       "rel": "child",
-      "href": "./mean_sea_ice_age/collection.json",
+      "href": "./SIAGE_sea_ice_age.json/collection.json",
       "type": "application/json",
-      "title": "Mean sea ice age",
-      "code": "MSIA",
-      "id": "mean_sea_ice_age",
+      "title": "Age of sea ice",
+      "id": "SIAGE_sea_ice_age.json",
       "themes": [
         "Shipping"
       ],
-      "subcode": "MSIA",
+      "sensor": "Numerical model",
       "agency": [
-        "CMEMS"
+        "Mercator Ocean International"
       ],
-      "collection_group": "Sea Ice"
+      "collection_group": "3. Sea Ice",
+      "otherSources": [
+        "Spatial Resolution: 0.083° x 0.083°",
+        "Frequency: Daily"
+      ]
     },
     {
       "rel": "child",
-      "href": "./ice_concentration/collection.json",
+      "href": "./SICONC_sea_ice_concentration/collection.json",
       "type": "application/json",
       "title": "Sea ice area fraction",
-      "code": "SICONC",
-      "id": "ice_concentration",
+      "id": "SICONC_sea_ice_concentration",
       "themes": [
         "Aquaculture",
         "Energy",
         "Shipping"
       ],
-      "providers": [
-        "Mercator Océan International Test",
-        "Copernicus Marine Service (CMEMS) Test"
-      ],
-      "subcode": "SICONC",
-      "sensor": "test",
-      "tags": [
-        "model"
-      ],
+      "sensor": "Numerical model",
       "agency": [
-        "CMEMS"
+        "Mercator Ocean International"
       ],
       "collection_group": "3. Sea Ice",
       "otherSources": [
@@ -862,133 +654,95 @@
     },
     {
       "rel": "child",
-      "href": "./surface_snow_thickness/collection.json",
+      "href": "./SISNTHICK_surface_snow_thickness/collection.json",
       "type": "application/json",
       "title": "Surface snow thickness",
-      "code": "SST",
-      "id": "surface_snow_thickness",
+      "id": "SISNTHICK_surface_snow_thickness",
       "themes": [
         "Shipping"
       ],
-      "subcode": "SST",
+      "sensor": "Numerical model",
       "agency": [
-        "CMEMS"
+        "Mercator Ocean International"
       ],
-      "collection_group": "Sea Ice"
+      "collection_group": "3. Sea Ice",
+      "otherSources": [
+        "Numerical Model",
+        "0.083° × 0.083°"
+      ]
     },
     {
       "rel": "child",
-      "href": "./sea_ice_thickness/collection.json",
+      "href": "./SITHICK_sea_ice_thickness/collection.json",
       "type": "application/json",
       "title": "Sea ice thickness",
-      "code": "SIT",
-      "id": "sea_ice_thickness",
+      "id": "SITHICK_sea_ice_thickness",
       "themes": [
+        "Aquaculture",
+        "Energy",
         "Shipping"
       ],
-      "subcode": "SIT",
+      "sensor": "Numerical model",
       "agency": [
-        "CMEMS"
+        "Mercator Ocean International"
       ],
-      "collection_group": "Sea Ice"
+      "collection_group": "3. Sea Ice",
+      "otherSources": [
+        "Numerical Model",
+        "0.083° × 0.083°"
+      ]
     },
     {
       "rel": "child",
-      "href": "./sea_ice_speed/collection.json",
+      "href": "./SIVELO_sea_ice_speed/collection.json",
       "type": "application/json",
       "title": "Sea ice speed",
-      "code": "SIVELO",
-      "id": "sea_ice_speed",
+      "id": "SIVELO_sea_ice_speed",
       "themes": [
+        "Aquaculture",
+        "Energy",
         "Shipping"
       ],
-      "subcode": "SIVELO",
+      "sensor": "Numerical model",
       "agency": [
-        "CMEMS"
+        "Mercator Ocean International"
       ],
-      "collection_group": "Sea Ice"
+      "collection_group": "3. Sea Ice",
+      "otherSources": [
+        "Numerical Model",
+        "0.083° × 0.083°"
+      ]
     },
     {
       "rel": "child",
-      "href": "./sea_ice_eastward_velocity/collection.json",
+      "href": "./IBC_iceberg_concentration_IW/collection.json",
       "type": "application/json",
-      "title": "Sea ice eastward velocity",
-      "code": "USI",
-      "id": "sea_ice_eastward_velocity",
+      "title": "Number of icebergs per unit area (S1 IW)",
+      "id": "IBC_iceberg_concentration_IW",
       "themes": [
         "Shipping",
         "Energy",
         "Aquaculture"
       ],
-      "subcode": "USI",
+      "sensor": "Satellite S1 IW",
       "agency": [
-        "CMEMS"
+        "DMI"
       ],
-      "collection_group": "Sea Ice"
-    },
-    {
-      "rel": "child",
-      "href": "./sea_ice_northward_velocity/collection.json",
-      "type": "application/json",
-      "title": "Sea ice northward velocity",
-      "code": "VSI",
-      "id": "sea_ice_northward_velocity",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "VSI",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Sea Ice"
-    },
-    {
-      "rel": "child",
-      "href": "./iceberg_concentration/collection.json",
-      "type": "application/json",
-      "title": "Iceberg concentration",
-      "code": "IBC",
-      "id": "iceberg_concentration",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "IBC",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Icebergs"
-    },
-    {
-      "rel": "child",
-      "href": "./shipping_indicator/collection.json",
-      "type": "application/json",
-      "title": "Shipping indicator",
-      "code": "SHIP1",
-      "id": "shipping_indicator",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "SHIP1",
-      "sensor": [
-        "test"
-      ],
-      "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
-      ],
-      "collection_group": "Capabilities"
+      "collection_group": "4. Icebergs",
+      "otherSources": [
+        "Numerical Model",
+        "10 km x 10 km"
+      ]
     },
     {
       "rel": "child",
       "href": "./polarwarp_sentinel1/collection.json",
       "type": "application/json",
       "title": "Polar warp capability",
-      "code": "polarwarp_sentinel1",
       "id": "polarwarp_sentinel1",
       "themes": [
         "Shipping"
       ],
-      "subcode": "polarwarp_sentinel1",
       "thumbnail": [
         "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
       ],
@@ -1003,14 +757,12 @@
       "href": "./structureicing/collection.json",
       "type": "application/json",
       "title": "Icing Predictor Index",
-      "code": "structureicing",
       "id": "structureicing",
       "themes": [
         "Shipping",
         "Aquaculture",
         "Energy"
       ],
-      "subcode": "structureicing",
       "agency": [
         "C-CORE"
       ],
@@ -1021,12 +773,10 @@
       "href": "./cmems_balitic_ice_concentration/collection.json",
       "type": "application/json",
       "title": "Baltic Sea Ice Concentration",
-      "code": "cmems_baltic_ice_concentration",
       "id": "cmems_balitic_ice_concentration",
       "themes": [
         "Baltic"
       ],
-      "subcode": "cmems_baltic_ice_concentration",
       "agency": [
         "CMEMS"
       ],
@@ -1037,12 +787,10 @@
       "href": "./cmems_baltic_ice_thickness/collection.json",
       "type": "application/json",
       "title": "Baltic Sea Ice Thickness",
-      "code": "cmems_baltic_ice_thickness",
       "id": "cmems_baltic_ice_thickness",
       "themes": [
         "Baltic"
       ],
-      "subcode": "cmems_baltic_ice_thickness",
       "agency": [
         "CMEMS"
       ],
@@ -1053,12 +801,10 @@
       "href": "./sea_ice_detections/collection.json",
       "type": "application/json",
       "title": "Sea Ice Detections",
-      "code": "SID",
       "id": "sea_ice_detections",
       "themes": [
         "Shipping"
       ],
-      "subcode": "SID",
       "agency": [
         "SMI"
       ],
@@ -1069,14 +815,12 @@
       "href": "./Drift_Deformation/collection.json",
       "type": "application/json",
       "title": "Sea Ice Drift and Deformation",
-      "code": "drift_deformation_indicator",
       "id": "Drift_Deformation",
       "themes": [
         "Shipping",
         "Aquaculture",
         "Energy"
       ],
-      "subcode": "drift_deformation_indicator",
       "thumbnail": [
         "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
       ],
@@ -1105,9 +849,6 @@
       "themes": [
         "Shipping",
         "Energy"
-      ],
-      "subcode": [
-        "SHS2L2A"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
@@ -1215,17 +956,29 @@
     },
     {
       "rel": "child",
+      "href": "./ice_concentration/collection.json",
+      "type": "application/json",
+      "title": "Ice concentration",
+      "id": "ice_concentration",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Sea Ice"
+    },
+    {
+      "rel": "child",
       "href": "./sea_floor_depth_antarctica/collection.json",
       "type": "application/json",
       "title": "Sea floor depth below geoid",
-      "code": "DEPTHO",
       "id": "sea_floor_depth_antarctica",
       "themes": [
         "Aquaculture",
         "Energy",
         "Shipping"
       ],
-      "subcode": "DEPTHO",
       "agency": [
         "CMEMS"
       ],
@@ -1246,64 +999,10 @@
       "href": "./mean_sea_ice_age_antarctica/collection.json",
       "type": "application/json",
       "title": "Mean sea ice age Antarctica",
-      "code": "MSIA",
       "id": "mean_sea_ice_age_antarctica",
       "themes": [
         "Shipping"
       ],
-      "subcode": "MSIA",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Antarctica",
-      "eodash:mapProjection": {
-        "name": "EPSG:32761",
-        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
-        "extent": [
-          -1371213.76,
-          -1405880.72,
-          5371213.76,
-          5405880.72
-        ]
-      }
-    },
-    {
-      "rel": "child",
-      "href": "./sea_ice_eastward_velocity_antarctica/collection.json",
-      "type": "application/json",
-      "title": "Sea ice eastward velocity Antarctica",
-      "code": "USI",
-      "id": "sea_ice_eastward_velocity_antarctica",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "USI",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Antarctica",
-      "eodash:mapProjection": {
-        "name": "EPSG:32761",
-        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
-        "extent": [
-          -1371213.76,
-          -1405880.72,
-          5371213.76,
-          5405880.72
-        ]
-      }
-    },
-    {
-      "rel": "child",
-      "href": "./sea_ice_northward_velocity_antarctica/collection.json",
-      "type": "application/json",
-      "title": "Sea ice northward velocity Antarctica",
-      "code": "VSI",
-      "id": "sea_ice_northward_velocity_antarctica",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "VSI",
       "agency": [
         "CMEMS"
       ],
@@ -1324,12 +1023,10 @@
       "href": "./sea_ice_speed_antarctica/collection.json",
       "type": "application/json",
       "title": "Sea ice speed Antarctica",
-      "code": "SIVELO",
       "id": "sea_ice_speed_antarctica",
       "themes": [
         "Shipping"
       ],
-      "subcode": "SIVELO",
       "agency": [
         "CMEMS"
       ],
@@ -1350,12 +1047,10 @@
       "href": "./sea_ice_surface_temperature_antarctica/collection.json",
       "type": "application/json",
       "title": "Sea ice surface temperature Antarctica",
-      "code": "IST",
       "id": "sea_ice_surface_temperature_antarctica",
       "themes": [
         "Shipping"
       ],
-      "subcode": "IST",
       "agency": [
         "CMEMS"
       ],
@@ -1376,12 +1071,10 @@
       "href": "./sea_ice_thickness_antarctica/collection.json",
       "type": "application/json",
       "title": "Sea ice thickness Antarctica",
-      "code": "SIT",
       "id": "sea_ice_thickness_antarctica",
       "themes": [
         "Shipping"
       ],
-      "subcode": "SIT",
       "agency": [
         "CMEMS"
       ],
@@ -1402,142 +1095,10 @@
       "href": "./surface_snow_thickness_antarctica/collection.json",
       "type": "application/json",
       "title": "Surface snow thickness Antarctica",
-      "code": "SST",
       "id": "surface_snow_thickness_antarctica",
       "themes": [
         "Shipping"
       ],
-      "subcode": "SST",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Antarctica",
-      "eodash:mapProjection": {
-        "name": "EPSG:32761",
-        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
-        "extent": [
-          -1371213.76,
-          -1405880.72,
-          5371213.76,
-          5405880.72
-        ]
-      }
-    },
-    {
-      "rel": "child",
-      "href": "./eastward_tide_velocity_antarctica/collection.json",
-      "type": "application/json",
-      "title": "Eastward tide-induced velocity Antarctica",
-      "code": "UOTIDE",
-      "id": "eastward_tide_velocity_antarctica",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "UOTIDE",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Antarctica",
-      "eodash:mapProjection": {
-        "name": "EPSG:32761",
-        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
-        "extent": [
-          -1371213.76,
-          -1405880.72,
-          5371213.76,
-          5405880.72
-        ]
-      }
-    },
-    {
-      "rel": "child",
-      "href": "./northwad_tide_velocity_antarctica/collection.json",
-      "type": "application/json",
-      "title": "Northward tide-induced velocity Antarctica",
-      "code": "VOTIDE",
-      "id": "northwad_tide_velocity_antarctica",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "VOTIDE",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Antarctica",
-      "eodash:mapProjection": {
-        "name": "EPSG:32761",
-        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
-        "extent": [
-          -1371213.76,
-          -1405880.72,
-          5371213.76,
-          5405880.72
-        ]
-      }
-    },
-    {
-      "rel": "child",
-      "href": "./maximum_crest_wave_antarctica/collection.json",
-      "type": "application/json",
-      "title": "Maximum crest trough wave height Antarctica",
-      "code": "VCMX",
-      "id": "maximum_crest_wave_antarctica",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "VCMX",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Antarctica",
-      "eodash:mapProjection": {
-        "name": "EPSG:32761",
-        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
-        "extent": [
-          -1371213.76,
-          -1405880.72,
-          5371213.76,
-          5405880.72
-        ]
-      }
-    },
-    {
-      "rel": "child",
-      "href": "./northward_velocity_antarctica/collection.json",
-      "type": "application/json",
-      "title": "Northward velocity Antarctica",
-      "code": "VO",
-      "id": "northward_velocity_antarctica",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "VO",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Antarctica",
-      "eodash:mapProjection": {
-        "name": "EPSG:32761",
-        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
-        "extent": [
-          -1371213.76,
-          -1405880.72,
-          5371213.76,
-          5405880.72
-        ]
-      }
-    },
-    {
-      "rel": "child",
-      "href": "./eastward_velocity_antarctica/collection.json",
-      "type": "application/json",
-      "title": "Eastward velocity Antarctica",
-      "code": "UO",
-      "id": "eastward_velocity_antarctica",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "UO",
       "agency": [
         "CMEMS"
       ],
@@ -1558,14 +1119,12 @@
       "href": "./Sentinel1-EW-HH_antarctica/collection.json",
       "type": "application/json",
       "title": "Sentinel 1 EW HH Antarctica",
-      "code": "SHS1_ant",
       "id": "Sentinel1-EW-HH_antarctica",
       "themes": [
         "Energy",
         "Aquaculture",
         "Shipping"
       ],
-      "subcode": "SHS1_ant",
       "thumbnail": [
         "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
       ],
@@ -1589,14 +1148,12 @@
       "href": "./Sentinel1-IW-VV_antarctica/collection.json",
       "type": "application/json",
       "title": "Sentinel 1 IW VV Antarctica",
-      "code": "SHS1VV_ant",
       "id": "Sentinel1-IW-VV_antarctica",
       "themes": [
         "Energy",
         "Aquaculture",
         "Shipping"
       ],
-      "subcode": "SHS1VV_ant",
       "thumbnail": [
         "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
       ],
@@ -1620,14 +1177,12 @@
       "href": "./Sentinel2-L2A/collection.json",
       "type": "application/json",
       "title": "Sentinel 2 L2A",
-      "code": "SHS2L2A",
       "id": "Sentinel2-L2A",
       "themes": [
         "Energy",
         "Aquaculture",
         "Shipping"
       ],
-      "subcode": "SHS2L2A",
       "thumbnail": [
         "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
       ],
@@ -1665,22 +1220,6 @@
           5405880.72
         ]
       }
-    },
-    {
-      "rel": "child",
-      "href": "./total_chlorophyll/collection.json",
-      "type": "application/json",
-      "title": "Total Chlorophyll",
-      "code": "CHL",
-      "id": "total_chlorophyll",
-      "themes": [
-        "Aquaculture"
-      ],
-      "subcode": "CHL",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Water Chemistry"
     },
     {
       "rel": "child",

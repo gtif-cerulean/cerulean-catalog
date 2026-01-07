@@ -1,0 +1,96 @@
+{
+  "type": "Collection",
+  "id": "SPCO2_surface_co2",
+  "stac_version": "1.1.0",
+  "description": "The biogeochemical global ocean analysis and forecast system provides 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time to provide a two-year time series sliding window. The product includes daily biogeochemical parameters (chlorophyll, nitrate, phosphate, silicate, dissolved oxygen, dissolved iron, primary production, phytoplankton, zooplankton, PH, and surface partial pressure of carbon dioxyde) over the global ocean. The output files are displayed with a 1/4 degree horizontal resolution.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "wmts",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_BGC_001_028/cmems_mod_glo_bgc-co2_anfc_0.25deg_P1D-m_202311",
+      "type": "image/png",
+      "title": "wmts capabilities",
+      "wmts:layer": "GLOBAL_ANALYSISFORECAST_BGC_001_028/cmems_mod_glo_bgc-co2_anfc_0.25deg_P1D-m_202311/spco2",
+      "role": [
+        "data"
+      ],
+      "wmts:dimensions": {
+        "elevation": 0,
+        "style": "cmap:matter"
+      },
+      "key": "d7ab1c7d-8421-449a-9558-7de5a26d45ee"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Surface partial pressure of carbon dioxide in sea water"
+    }
+  ],
+  "sci:doi": "10.48670/moi-00015",
+  "themes": [
+    "Aquaculture"
+  ],
+  "agency": [
+    "Mercator Ocean International"
+  ],
+  "collection_group": "7. Water Chemistry",
+  "sensor": "Numerical model",
+  "otherSources": [
+    "Spatial Resolution: 0.083° × 0.083°",
+    "Frequency: Daily"
+  ],
+  "eox:colorlegend": {
+    "title": "Surface CO2 [Pa]",
+    "range": [
+      "rgb(253, 237, 176)",
+      "rgb(245, 166, 114)",
+      "rgb(226, 97, 82)",
+      "rgb(179, 46, 94)",
+      "rgb(114, 25, 95)",
+      "rgb(47, 15, 61)"
+    ],
+    "domain": [
+      28,
+      50
+    ]
+  },
+  "endpointtype": "marinedatastore_WMTSCapabilities",
+  "title": "Surface partial pressure of carbon dioxide in sea water",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -80.0,
+          179.75,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-11-01T00:00:00Z",
+          "2026-01-16T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}

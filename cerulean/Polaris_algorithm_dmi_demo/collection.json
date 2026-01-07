@@ -16,7 +16,6 @@
       "type": "application/json",
       "title": "POLARIS",
       "endpointtype": "FlatGeobuf source",
-      "code": "Polaris_algorithm_dmi_demo",
       "id": "Polaris_algorithm_dmi_demo",
       "themes": [
         "Shipping"
@@ -24,7 +23,6 @@
       "agency": [
         "National Research Council of Canada"
       ],
-      "subcode": "Polaris_algorithm_dmi_demo",
       "collection_group": "Capabilities"
     },
     {
@@ -120,7 +118,6 @@
   "agency": [
     "National Research Council of Canada"
   ],
-  "subcode": "Polaris_algorithm_dmi_demo",
   "collection_group": "Capabilities",
   "merge_assets": false,
   "title": "POLARIS",
@@ -152,9 +149,6 @@
   },
   "license": "other",
   "summaries": {
-    "subcode": [
-      "Polaris_algorithm_dmi_demo"
-    ],
     "themes": [
       "Shipping"
     ],

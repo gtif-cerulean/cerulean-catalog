@@ -31,7 +31,6 @@
   "agency": [
     "SMI"
   ],
-  "subcode": "SID",
   "collection_group": "Sea Ice",
   "endpointtype": "COG source",
   "title": "Sea Ice Detections",

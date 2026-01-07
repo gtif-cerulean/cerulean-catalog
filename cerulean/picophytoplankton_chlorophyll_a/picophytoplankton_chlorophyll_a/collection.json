@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:algae"
       },
-      "key": "771c57d6-5d7e-45d5-8aa6-1af2d8816faf"
+      "key": "10755234-94ab-4d31-95b9-eaffeb213854"
     },
     {
       "rel": "parent",
@@ -39,7 +39,6 @@
   "agency": [
     "CMEMS"
   ],
-  "subcode": "PICO",
   "collection_group": "Water Biology",
   "eox:colorlegend": {
     "title": "Picophytoplankton Chlorophyll a concentration - Mean of the binned pixels [milligram m^-3]",

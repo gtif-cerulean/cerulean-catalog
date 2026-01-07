@@ -16,7 +16,6 @@
       "type": "application/json",
       "title": "Sea floor depth below geoid",
       "endpointtype": "marinedatastore_WMTSCapabilities",
-      "code": "DEPTHO",
       "id": "sea_floor_depth_antarctica",
       "themes": [
         "Aquaculture",
@@ -26,7 +25,6 @@
       "agency": [
         "CMEMS"
       ],
-      "subcode": "DEPTHO",
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
         "name": "EPSG:32761",
@@ -114,7 +112,6 @@
   "agency": [
     "CMEMS"
   ],
-  "subcode": "DEPTHO",
   "collection_group": "Antarctica",
   "eodash:mapProjection": {
     "name": "EPSG:32761",
@@ -170,12 +167,9 @@
   },
   "license": "other",
   "summaries": {
-    "subcode": [
-      "DEPTHO"
-    ],
     "themes": [
-      "Shipping",
       "Energy",
+      "Shipping",
       "Aquaculture"
     ]
   },

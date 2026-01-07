@@ -16,7 +16,6 @@
       "type": "application/json",
       "title": "Sentinel 2 L2A",
       "endpointtype": "Sentinel Hub WMS",
-      "code": "SHS2L2A",
       "id": "Sentinel2-L2A",
       "themes": [
         "Energy",
@@ -26,7 +25,6 @@
       "agency": [
         "Sentinel Hub"
       ],
-      "subcode": "SHS2L2A",
       "collection_group": "Satellite Data"
     },
     {
@@ -193,12 +191,9 @@
   },
   "license": "other",
   "summaries": {
-    "subcode": [
-      "SHS2L2A"
-    ],
     "themes": [
-      "Shipping",
       "Energy",
+      "Shipping",
       "Aquaculture"
     ],
     "thumbnail": [

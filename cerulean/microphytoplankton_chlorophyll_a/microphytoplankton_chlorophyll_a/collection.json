@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:algae"
       },
-      "key": "b0247763-0875-48ac-82ff-be732e7cc345"
+      "key": "72a043f1-8757-4ba5-95d4-560f6f49e2d5"
     },
     {
       "rel": "parent",
@@ -39,7 +39,6 @@
   "agency": [
     "CMEMS"
   ],
-  "subcode": "MICRO",
   "collection_group": "Water Biology",
   "eox:colorlegend": {
     "title": "Microphytoplankton Chlorophyll a concentration - Mean of the binned pixels [milligram m^-3]",

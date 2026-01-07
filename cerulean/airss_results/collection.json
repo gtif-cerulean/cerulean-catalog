@@ -16,7 +16,6 @@
       "type": "application/json",
       "title": "AIRSS Go or No-Go",
       "endpointtype": "FlatGeobuf source",
-      "code": "airss_go_or_no_go",
       "id": "airss_results",
       "themes": [
         "Shipping"
@@ -24,7 +23,6 @@
       "agency": [
         "Canadian Ice Service"
       ],
-      "subcode": "airss_go_or_no_go",
       "collection_group": "Capabilities"
     },
     {
@@ -120,7 +118,6 @@
   "agency": [
     "Canadian Ice Service"
   ],
-  "subcode": "airss_go_or_no_go",
   "collection_group": "Capabilities",
   "eox:colorlegend": {
     "title": "Is the vessel_type allowed to proceed?",
@@ -177,9 +174,6 @@
   },
   "license": "other",
   "summaries": {
-    "subcode": [
-      "airss_go_or_no_go"
-    ],
     "themes": [
       "Shipping"
     ],

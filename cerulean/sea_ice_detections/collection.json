@@ -16,7 +16,6 @@
       "type": "application/json",
       "title": "Sea Ice Detections",
       "endpointtype": "COG source",
-      "code": "SID",
       "id": "sea_ice_detections",
       "themes": [
         "Shipping"
@@ -24,7 +23,6 @@
       "agency": [
         "SMI"
       ],
-      "subcode": "SID",
       "collection_group": "Sea Ice"
     },
     {
@@ -119,7 +117,6 @@
   "agency": [
     "SMI"
   ],
-  "subcode": "SID",
   "collection_group": "Sea Ice",
   "merge_assets": false,
   "title": "Sea Ice Detections",
@@ -151,9 +148,6 @@
   },
   "license": "other",
   "summaries": {
-    "subcode": [
-      "SID"
-    ],
     "themes": [
       "Shipping"
     ]

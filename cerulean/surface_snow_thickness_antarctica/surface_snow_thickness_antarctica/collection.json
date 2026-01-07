@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:ice"
       },
-      "key": "0e3eea76-4c8d-4715-a59d-e535415a2d6a"
+      "key": "c678cd5d-f283-4c4a-98aa-5f81e16e29d1"
     },
     {
       "rel": "parent",
@@ -39,7 +39,6 @@
   "agency": [
     "CMEMS"
   ],
-  "subcode": "SST",
   "collection_group": "Antarctica",
   "eodash:mapProjection": {
     "name": "EPSG:32761",

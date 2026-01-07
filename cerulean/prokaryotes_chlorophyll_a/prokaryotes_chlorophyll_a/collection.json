@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:amp"
       },
-      "key": "61114cf2-cac7-4338-a370-9c7e123ed64e"
+      "key": "bfef6519-d6ae-4546-9280-cb1843392986"
     },
     {
       "rel": "parent",
@@ -39,7 +39,6 @@
   "agency": [
     "CMEMS"
   ],
-  "subcode": "PROKAR",
   "collection_group": "Water Biology",
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Prokaryotes Chlorophyll a concentration",

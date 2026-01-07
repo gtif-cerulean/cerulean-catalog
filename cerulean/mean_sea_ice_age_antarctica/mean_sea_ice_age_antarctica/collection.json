@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:viridis"
       },
-      "key": "1abb0a05-4d11-4bae-a0df-b812e7068143"
+      "key": "9f339b81-7c6e-40a3-8bf3-96b0a4e7f472"
     },
     {
       "rel": "parent",
@@ -39,7 +39,6 @@
   "agency": [
     "CMEMS"
   ],
-  "subcode": "MSIA",
   "collection_group": "Antarctica",
   "eodash:mapProjection": {
     "name": "EPSG:32761",

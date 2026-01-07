@@ -16,7 +16,6 @@
       "type": "application/json",
       "title": "Sentinel 1 EW HH",
       "endpointtype": "Sentinel Hub WMS",
-      "code": "SHS1",
       "id": "Sentinel1-EW-HH",
       "themes": [
         "Energy",
@@ -26,7 +25,6 @@
       "agency": [
         "Sentinel Hub"
       ],
-      "subcode": "SHS1",
       "collection_group": "Satellite Data"
     },
     {
@@ -124,7 +122,6 @@
   "agency": [
     "Sentinel Hub"
   ],
-  "subcode": "SHS1",
   "collection_group": "Satellite Data",
   "merge_assets": false,
   "title": "Sentinel 1 EW HH",
@@ -150,12 +147,9 @@
   },
   "license": "other",
   "summaries": {
-    "subcode": [
-      "SHS1"
-    ],
     "themes": [
-      "Shipping",
       "Energy",
+      "Shipping",
       "Aquaculture"
     ],
     "thumbnail": [

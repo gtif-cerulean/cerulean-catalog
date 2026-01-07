@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:amp"
       },
-      "key": "e31dd11f-9c5f-4b8f-bdaf-cc8408760cc3"
+      "key": "f2b45528-4f05-48c4-8d02-4d7a8a6784e4"
     },
     {
       "rel": "parent",
@@ -39,7 +39,6 @@
   "agency": [
     "CMEMS"
   ],
-  "subcode": "PROCHLO",
   "collection_group": "Water Biology",
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Prochlorophytes Chlorophyll a concentration",

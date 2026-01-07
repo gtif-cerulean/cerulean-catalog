@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:algae"
       },
-      "key": "7b18cd37-e5e1-4aec-881b-aab63653335c"
+      "key": "54393c8d-4135-4199-98fb-6e822e644c61"
     },
     {
       "rel": "parent",
@@ -39,7 +39,6 @@
   "agency": [
     "CMEMS"
   ],
-  "subcode": "GREEN",
   "collection_group": "Water Biology",
   "eox:colorlegend": {
     "title": "Green Algae Chlorophyll a concentration - Mean of the binned pixels [milligram m^-3]",

@@ -48,7 +48,6 @@
   "agency": [
     "Sentinel Hub"
   ],
-  "subcode": "SHS1_ant",
   "collection_group": "Antarctica",
   "eodash:mapProjection": {
     "name": "EPSG:32761",

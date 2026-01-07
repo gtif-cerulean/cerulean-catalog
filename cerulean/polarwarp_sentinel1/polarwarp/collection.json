@@ -23,7 +23,6 @@
   "agency": [
     "Drift+Noise"
   ],
-  "subcode": "polarwarp",
   "collection_group": "Capabilities",
   "eodash:mapProjection": {
     "name": "EPSG:3413",
@@ -45,7 +44,7 @@
     "temporal": {
       "interval": [
         [
-          "2026-01-07T09:00:08.252659Z",
+          "2026-01-07T11:42:48.064526Z",
           null
         ]
       ]

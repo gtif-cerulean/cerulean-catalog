@@ -16,7 +16,6 @@
       "type": "application/json",
       "title": "Picophytoplankton Chlorophyll a concentration",
       "endpointtype": "marinedatastore_WMTSCapabilities",
-      "code": "PICO",
       "id": "picophytoplankton_chlorophyll_a",
       "themes": [
         "Aquaculture"
@@ -24,7 +23,6 @@
       "agency": [
         "CMEMS"
       ],
-      "subcode": "PICO",
       "collection_group": "Water Biology"
     },
     {
@@ -127,7 +125,6 @@
   "agency": [
     "CMEMS"
   ],
-  "subcode": "PICO",
   "collection_group": "Water Biology",
   "eox:colorlegend": {
     "title": "Picophytoplankton Chlorophyll a concentration - Mean of the binned pixels [milligram m^-3]",
@@ -173,9 +170,6 @@
   },
   "license": "other",
   "summaries": {
-    "subcode": [
-      "PICO"
-    ],
     "themes": [
       "Aquaculture"
     ]

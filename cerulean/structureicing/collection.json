@@ -16,7 +16,6 @@
       "type": "application/json",
       "title": "Icing Predictor Index",
       "endpointtype": "Collection-only",
-      "code": "structureicing",
       "id": "structureicing",
       "themes": [
         "Shipping",
@@ -26,7 +25,6 @@
       "agency": [
         "C-CORE"
       ],
-      "subcode": "structureicing",
       "collection_group": "Capabilities"
     },
     {
@@ -133,7 +131,6 @@
   "agency": [
     "C-CORE"
   ],
-  "subcode": "structureicing",
   "collection_group": "Capabilities",
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/structureicing.json",
   "merge_assets": false,
@@ -152,21 +149,18 @@
     "temporal": {
       "interval": [
         [
-          "2026-01-07T09:00:08.556600Z",
-          "2026-01-07T09:00:08.556600Z"
+          "2026-01-07T11:42:48.367101Z",
+          "2026-01-07T11:42:48.367101Z"
         ]
       ]
     }
   },
   "license": "other",
   "summaries": {
-    "subcode": [
-      "structureicing"
-    ],
     "themes": [
-      "Shipping",
       "Energy",
-      "Aquaculture"
+      "Aquaculture",
+      "Shipping"
     ]
   },
   "assets": {

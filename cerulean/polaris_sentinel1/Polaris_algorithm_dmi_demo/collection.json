@@ -32,7 +32,6 @@
   "agency": [
     "National Research Council of Canada"
   ],
-  "subcode": "Polaris_algorithm_dmi_demo",
   "collection_group": "Capabilities",
   "endpointtype": "FlatGeobuf source",
   "title": "POLARIS",

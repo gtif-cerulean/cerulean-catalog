@@ -16,7 +16,6 @@
       "type": "application/json",
       "title": "POLARIS",
       "endpointtype": "FlatGeobuf source",
-      "code": "Polaris_algorithm_dmi_demo",
       "id": "Polaris_algorithm_dmi_demo",
       "themes": [
         "Shipping"
@@ -24,7 +23,6 @@
       "agency": [
         "National Research Council of Canada"
       ],
-      "subcode": "Polaris_algorithm_dmi_demo",
       "collection_group": "Capabilities"
     },
     {
@@ -33,7 +31,6 @@
       "type": "application/json",
       "title": "Sentinel 1 EW HH",
       "endpointtype": "Sentinel Hub WMS",
-      "code": "SHS1",
       "id": "Sentinel1-EW-HH",
       "themes": [
         "Energy",
@@ -43,7 +40,6 @@
       "agency": [
         "Sentinel Hub"
       ],
-      "subcode": "SHS1",
       "collection_group": "Satellite Data"
     },
     {
@@ -52,7 +48,6 @@
       "type": "application/json",
       "title": "Sea Ice Detections",
       "endpointtype": "COG source",
-      "code": "SID",
       "id": "sea_ice_detections",
       "themes": [
         "Shipping"
@@ -60,7 +55,6 @@
       "agency": [
         "SMI"
       ],
-      "subcode": "SID",
       "collection_group": "Sea Ice"
     },
     {
@@ -152,7 +146,6 @@
   "themes": [
     "Shipping"
   ],
-  "subcode": "POS1",
   "collection_group": "Capabilities",
   "merge_assets": false,
   "title": "POLARIS combined",
@@ -190,15 +183,10 @@
   },
   "license": "other",
   "summaries": {
-    "subcode": [
-      "SID",
-      "Polaris_algorithm_dmi_demo",
-      "SHS1"
-    ],
     "themes": [
-      "Shipping",
       "Energy",
-      "Aquaculture"
+      "Aquaculture",
+      "Shipping"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",

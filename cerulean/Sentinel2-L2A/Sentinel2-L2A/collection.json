@@ -38,7 +38,6 @@
   "agency": [
     "Sentinel Hub"
   ],
-  "subcode": "SHS2L2A",
   "collection_group": "Satellite Data",
   "endpointtype": "Sentinel Hub WMS",
   "title": "Sentinel 2 L2A",

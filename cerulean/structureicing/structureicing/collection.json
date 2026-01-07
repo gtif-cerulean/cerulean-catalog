@@ -25,7 +25,6 @@
   "agency": [
     "C-CORE"
   ],
-  "subcode": "structureicing",
   "collection_group": "Capabilities",
   "endpointtype": "Collection-only",
   "title": "Icing Predictor Index",
@@ -43,7 +42,7 @@
     "temporal": {
       "interval": [
         [
-          "2026-01-07T09:00:08.556600Z",
+          "2026-01-07T11:42:48.367101Z",
           null
         ]
       ]

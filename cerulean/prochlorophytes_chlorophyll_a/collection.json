@@ -16,7 +16,6 @@
       "type": "application/json",
       "title": "Prochlorophytes Chlorophyll a concentration",
       "endpointtype": "marinedatastore_WMTSCapabilities",
-      "code": "PROCHLO",
       "id": "prochlorophytes_chlorophyll_a",
       "themes": [
         "Aquaculture"
@@ -24,7 +23,6 @@
       "agency": [
         "CMEMS"
       ],
-      "subcode": "PROCHLO",
       "collection_group": "Water Biology"
     },
     {
@@ -127,7 +125,6 @@
   "agency": [
     "CMEMS"
   ],
-  "subcode": "PROCHLO",
   "collection_group": "Water Biology",
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/PROCHLO.json",
@@ -161,9 +158,6 @@
   },
   "license": "other",
   "summaries": {
-    "subcode": [
-      "PROCHLO"
-    ],
     "themes": [
       "Aquaculture"
     ]

@@ -16,7 +16,6 @@
       "type": "application/json",
       "title": "Diatoms Chlorophyll a concentration",
       "endpointtype": "marinedatastore_WMTSCapabilities",
-      "code": "DIATO",
       "id": "diatoms_chlorophyll_a",
       "themes": [
         "Aquaculture"
@@ -24,7 +23,6 @@
       "agency": [
         "CMEMS"
       ],
-      "subcode": "DIATO",
       "collection_group": "Water Biology"
     },
     {
@@ -127,7 +125,6 @@
   "agency": [
     "CMEMS"
   ],
-  "subcode": "DIATO",
   "collection_group": "Water Biology",
   "eox:colorlegend": {
     "title": "Diatoms Chlorophyll a concentration - Mean of the binned pixels [milligram m^-3]",
@@ -173,9 +170,6 @@
   },
   "license": "other",
   "summaries": {
-    "subcode": [
-      "DIATO"
-    ],
     "themes": [
       "Aquaculture"
     ]

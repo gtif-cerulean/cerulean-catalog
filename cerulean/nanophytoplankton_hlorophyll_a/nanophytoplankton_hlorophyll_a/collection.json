@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:algae"
       },
-      "key": "c5520507-b85a-4c4f-91c5-d89b02bc2c8d"
+      "key": "d54c2934-04ae-4165-9ec3-c50602db57b0"
     },
     {
       "rel": "parent",
@@ -39,7 +39,6 @@
   "agency": [
     "CMEMS"
   ],
-  "subcode": "NANO",
   "collection_group": "Water Biology",
   "eox:colorlegend": {
     "title": "Nanophytoplankton Chlorophyll a concentration - Mean of the binned pixels [milligram m^-3]",

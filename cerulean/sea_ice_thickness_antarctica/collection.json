@@ -16,7 +16,6 @@
       "type": "application/json",
       "title": "Sea ice thickness Antarctica",
       "endpointtype": "marinedatastore_WMTSCapabilities",
-      "code": "SIT",
       "id": "sea_ice_thickness_antarctica",
       "themes": [
         "Shipping"
@@ -24,7 +23,6 @@
       "agency": [
         "CMEMS"
       ],
-      "subcode": "SIT",
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
         "name": "EPSG:32761",
@@ -117,7 +115,6 @@
   "agency": [
     "CMEMS"
   ],
-  "subcode": "SIT",
   "collection_group": "Antarctica",
   "eodash:mapProjection": {
     "name": "EPSG:32761",
@@ -167,9 +164,6 @@
   },
   "license": "other",
   "summaries": {
-    "subcode": [
-      "SIT"
-    ],
     "themes": [
       "Shipping"
     ]

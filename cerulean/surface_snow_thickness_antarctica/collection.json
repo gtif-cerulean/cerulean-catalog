@@ -16,7 +16,6 @@
       "type": "application/json",
       "title": "Surface snow thickness Antarctica",
       "endpointtype": "marinedatastore_WMTSCapabilities",
-      "code": "SST",
       "id": "surface_snow_thickness_antarctica",
       "themes": [
         "Shipping"
@@ -24,7 +23,6 @@
       "agency": [
         "CMEMS"
       ],
-      "subcode": "SST",
       "collection_group": "Antarctica",
       "eodash:mapProjection": {
         "name": "EPSG:32761",
@@ -117,7 +115,6 @@
   "agency": [
     "CMEMS"
   ],
-  "subcode": "SST",
   "collection_group": "Antarctica",
   "eodash:mapProjection": {
     "name": "EPSG:32761",
@@ -167,9 +164,6 @@
   },
   "license": "other",
   "summaries": {
-    "subcode": [
-      "SST"
-    ],
     "themes": [
       "Shipping"
     ]

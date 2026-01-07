@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:algae"
       },
-      "key": "4c2883e1-7f3d-4fe6-abd1-b139903d0ace"
+      "key": "a434e87d-69f1-4ccd-a6b2-4c9458fbc80b"
     },
     {
       "rel": "parent",
@@ -39,7 +39,6 @@
   "agency": [
     "CMEMS"
   ],
-  "subcode": "HAPTO",
   "collection_group": "Water Biology",
   "eox:colorlegend": {
     "title": "Haptophytes Chlorophyll a concentration - Mean of the binned pixels [milligram m^-3]",

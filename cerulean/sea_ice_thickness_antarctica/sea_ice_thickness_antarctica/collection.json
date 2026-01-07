@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:ice"
       },
-      "key": "2bfc08db-c2d1-47cb-951b-7833eea6e05f"
+      "key": "54cdfd10-43fc-4e12-b46c-5a4160e878ce"
     },
     {
       "rel": "parent",
@@ -39,7 +39,6 @@
   "agency": [
     "CMEMS"
   ],
-  "subcode": "SIT",
   "collection_group": "Antarctica",
   "eodash:mapProjection": {
     "name": "EPSG:32761",

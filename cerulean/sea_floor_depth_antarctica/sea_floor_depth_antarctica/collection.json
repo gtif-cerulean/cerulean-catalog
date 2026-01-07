@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:viridis"
       },
-      "key": "1245be36-82d6-471b-a717-63b9cffdb4bd"
+      "key": "3f9df556-93cf-4bce-83fa-f39ac5c364f2"
     },
     {
       "rel": "parent",
@@ -41,7 +41,6 @@
   "agency": [
     "CMEMS"
   ],
-  "subcode": "DEPTHO",
   "collection_group": "Antarctica",
   "eodash:mapProjection": {
     "name": "EPSG:32761",

@@ -16,7 +16,6 @@
       "type": "application/json",
       "title": "Polar warp capability",
       "endpointtype": "Collection-only",
-      "code": "polarwarp",
       "id": "polarwarp",
       "themes": [
         "Shipping"
@@ -24,7 +23,6 @@
       "agency": [
         "Drift+Noise"
       ],
-      "subcode": "polarwarp",
       "collection_group": "Capabilities",
       "eodash:mapProjection": {
         "name": "EPSG:3413",
@@ -37,7 +35,6 @@
       "type": "application/json",
       "title": "Sentinel 1 EW HH",
       "endpointtype": "Sentinel Hub WMS",
-      "code": "SHS1",
       "id": "Sentinel1-EW-HH",
       "themes": [
         "Energy",
@@ -47,7 +44,6 @@
       "agency": [
         "Sentinel Hub"
       ],
-      "subcode": "SHS1",
       "collection_group": "Satellite Data"
     },
     {
@@ -149,7 +145,6 @@
   "themes": [
     "Shipping"
   ],
-  "subcode": "polarwarp_sentinel1",
   "collection_group": "Capabilities",
   "eodash:mapProjection": {
     "name": "EPSG:3413",
@@ -185,21 +180,17 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2026-01-07T09:00:08.252659Z"
+          "2026-01-07T11:42:48.064526Z"
         ]
       ]
     }
   },
   "license": "other",
   "summaries": {
-    "subcode": [
-      "polarwarp",
-      "SHS1"
-    ],
     "themes": [
-      "Shipping",
       "Energy",
-      "Aquaculture"
+      "Aquaculture",
+      "Shipping"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"

@@ -16,7 +16,6 @@
       "type": "application/json",
       "title": "Baltic Sea Ice Thickness",
       "endpointtype": "marinedatastore_WMTSCapabilities",
-      "code": "cmems_baltic_ice_thickness",
       "id": "cmems_baltic_ice_thickness",
       "themes": [
         "Baltic"
@@ -24,7 +23,6 @@
       "agency": [
         "CMEMS"
       ],
-      "subcode": "cmems_baltic_ice_thickness",
       "collection_group": "Baltic"
     },
     {
@@ -127,7 +125,6 @@
   "agency": [
     "CMEMS"
   ],
-  "subcode": "cmems_baltic_ice_thickness",
   "collection_group": "Baltic",
   "eox:colorlegend": {
     "title": "Sea Ice Thickness [m]",
@@ -173,9 +170,6 @@
   },
   "license": "other",
   "summaries": {
-    "subcode": [
-      "cmems_baltic_ice_thickness"
-    ],
     "themes": [
       "Baltic"
     ]

@@ -16,7 +16,6 @@
       "type": "application/json",
       "title": "Mass concentration of dinophytes expressed as chlorophyll in sea water",
       "endpointtype": "marinedatastore_WMTSCapabilities",
-      "code": "DINO",
       "id": "dinophytes_chlorophyll_a",
       "themes": [
         "Aquaculture"
@@ -24,7 +23,6 @@
       "agency": [
         "CMEMS"
       ],
-      "subcode": "DINO",
       "collection_group": "Water Biology"
     },
     {
@@ -127,7 +125,6 @@
   "agency": [
     "CMEMS"
   ],
-  "subcode": "DINO",
   "collection_group": "Water Biology",
   "eox:colorlegend": {
     "title": "Mass concentration of dinophytes expressed as chlorophyll in sea water [%]",
@@ -179,9 +176,6 @@
   },
   "license": "other",
   "summaries": {
-    "subcode": [
-      "DINO"
-    ],
     "themes": [
       "Aquaculture"
     ]

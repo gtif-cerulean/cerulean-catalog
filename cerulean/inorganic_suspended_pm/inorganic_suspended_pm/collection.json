@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:amp"
       },
-      "key": "b1e03026-72ed-4fd8-b7b5-470075eea32e"
+      "key": "571446ed-0aac-47b9-af24-4bf6e98645e4"
     },
     {
       "rel": "parent",
@@ -39,7 +39,6 @@
   "agency": [
     "CMEMS"
   ],
-  "subcode": "SPM",
   "collection_group": "Water Biology",
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Inorganic suspended particulate matter in sea water",
