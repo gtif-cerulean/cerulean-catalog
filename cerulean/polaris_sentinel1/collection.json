@@ -183,7 +183,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2026-01-06T00:00:00Z"
+          "2026-01-07T00:00:00Z"
         ]
       ]
     }
@@ -201,8 +201,8 @@
       "Aquaculture"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
     ]
   },
   "assets": {
