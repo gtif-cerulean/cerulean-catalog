@@ -1,26 +1,29 @@
 {
-  "Name": "dinophytes_chlorophyll_a",
+  "Name": "DINO_dinophytes",
   "Title": "Mass concentration of dinophytes expressed as chlorophyll in sea water",
-  "Description": "For the Global Ocean Satellite Observations, ACRI-ST company (Sophia Antipolis, France) is providing Bio-Geo-Chemical (BGC) products based on the Copernicus-GlobColour processor. Upstreams: SeaWiFS, MODIS, MERIS, VIIRS-SNPP & JPSS1, OLCI-S3A & S3B for the 'multi' products, and S3A & S3B only for the 'olci' products. Variables: Chlorophyll-a (CHL), Phytoplankton Functional types and sizes (PFT), Primary Production (PP), Suspended Matter (SPM), Secchi Transparency Depth (ZSD), Diffuse Attenuation (KD490), Particulate Backscattering (BBP), Absorption Coef. (CDM) and Reflectance (RRS). Temporal resolutions: monthly plus, for some variables, daily gap-free based on a space-time interpolation to provide a 'cloud free' product. Spatial resolutions: 4 km and a finer resolution based on olci 300 meters inputs. Recent products are organized in datasets called Near Real Time (NRT) and long time-series (from 1997) in datasets called Multi-Years (MY).",
+  "Description": "The Bio-Geo-Chemical (BGC) products are based on the Copernicus-GlobColour processor. Data comes from SeaWiFS, MODIS, MERIS, VIIRS-SNPP & JPSS1, OLCI-S3A & S3B. Variables are Chlorophyll-a (CHL) and Phytoplankton Functional types and sizes (PFT).",
   "Themes": [
     "Aquaculture"
   ],
-  "CollectionGroup": "Water Biology",
-  "Agency": [
-    "CMEMS"
+  "CollectionGroup": "F. Water Biology",
+     "DataSource": {
+    "Spaceborne": {"Sensor": "Satellite observations"},
+    "Other": [
+      "Spatial Resolution: 4 × 4 km",
+      "Frequency: Daily"
+    ]
+  },"Agency": [
+    "ACRI"
   ],
   "Colorlegend": {
     "title": "Mass concentration of dinophytes expressed as chlorophyll in sea water [%]",
     "range": [
-      "rgba(150, 0, 90, 1)",
-      "rgba(0, 0, 200, 1)",
-      "rgba(0, 25, 255, 1)",
-      "rgba(0, 152, 255, 1)",
-      "rgba(44, 255, 150, 1)",
-      "rgba(151, 255, 0, 1)",
-      "rgba(255, 234, 0, 1)",
-      "rgba(255, 111, 0, 1)",
-      "rgba(255, 0, 0, 1)"
+      "rgb(214, 249, 207)",
+      "rgb(149, 205, 137)",
+      "rgb(67, 168, 85)",
+      "rgb(9, 125, 74)",
+      "rgb(25, 80, 52)",
+      "rgb(17, 36, 20)"
     ],
     "domain": [
       0,
@@ -37,12 +40,12 @@
       "Name": "marinedatastore",
       "LayerId": "OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-multi-4km_P1M_202411/DINO",
       "Query": {
-        "Start": "2024-01-01T00:00:00Z",
+        "Start": "2021-01-01T00:00:00Z",
         "End": "2030-01-01T00:00:00Z"
       },
       "Dimensions": {
         "elevation": 0,
-        "style": "cmap:rainbow"
+        "style": "cmap:algae"
       }
     }
   ],

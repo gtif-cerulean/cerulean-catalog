@@ -6,7 +6,7 @@
     "Aquaculture",
     "Energy"
   ],
-  "CollectionGroup": "10. Bathymetry",
+  "CollectionGroup": "J. Bathymetry",
   "DataSource": {
     "Spaceborne": {"Sensor": ""},
     "Other": [
@@ -20,12 +20,12 @@
   "Colorlegend": {
     "title": "Sea floor depth below geoid [m]",
     "range": [
-      "rgb(0, 127, 0)",
-      "rgb(0, 50, 51)",
-      "rgb(0, 25, 102)",
-      "rgb(0, 101, 153)",
-      "rgb(102, 178, 204)",
-      "rgb(255, 255, 255)"
+      "rgb(68, 1, 84)",
+      "rgb(64, 67, 135)",
+      "rgb(41, 120, 142)",
+      "rgb(34, 167, 132)",
+      "rgb(121, 209, 81)",
+      "rgb(253, 231, 36)"
     ],
     "domain": [
       0,
@@ -46,7 +46,7 @@
       ],
       "Dimensions": {
         "elevation": 0,
-        "style": "cmap:ocean"
+        "style": "cmap:viridis"
       }
     }
   ],

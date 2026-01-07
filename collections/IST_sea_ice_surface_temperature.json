@@ -7,7 +7,7 @@
     "Energy",
     "Aquaculture"
   ],
-  "CollectionGroup": "3. Sea Ice",
+  "CollectionGroup": "C. Sea Ice",
   "DataSource": {
     "Spaceborne": {"Sensor": "Numerical model"},
     "Other": [
