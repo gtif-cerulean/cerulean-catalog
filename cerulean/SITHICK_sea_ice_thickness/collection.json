@@ -180,7 +180,7 @@
       "interval": [
         [
           "2022-06-01T00:00:00Z",
-          "2026-01-16T00:00:00Z"
+          "2026-01-17T00:00:00Z"
         ]
       ]
     }
@@ -189,8 +189,8 @@
   "summaries": {
     "themes": [
       "Shipping",
-      "Aquaculture",
-      "Energy"
+      "Energy",
+      "Aquaculture"
     ],
     "sensor": [
       "Numerical model"
