@@ -1,7 +1,7 @@
 {
   "Name": "polarwarp",
   "Title": "Polar warp capability",
-  "CollectionGroup": "Capabilities",
+  "CollectionGroup": "A. Capabilities",
   "Description": "This is an example of how the polar warp capability can be triggered and visualized within the dashboard.",
   "Themes": [
     "Shipping"

@@ -1,7 +1,7 @@
 {
   "Name": "RCM_eoapi_HV",
   "Title": "RCM scenes HV",
-  "CollectionGroup": "Satellite Data",
+  "CollectionGroup": "B. Satellite Data",
   "Themes": [
     "Energy",
     "Aquaculture",

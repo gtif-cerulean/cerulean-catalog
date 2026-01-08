@@ -1,7 +1,7 @@
 {
   "Name": "harshness",
   "Title": "Harshness capability",
-  "CollectionGroup": "Capabilities",
+  "CollectionGroup": "A. Capabilities",
   "Description": "markdowns/harshnes.md",
   "Themes": [
     "Shipping",

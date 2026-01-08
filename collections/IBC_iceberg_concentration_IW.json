@@ -7,7 +7,7 @@
     "Energy",
     "Aquaculture"
   ],
-  "CollectionGroup": "4. Icebergs",
+  "CollectionGroup": "D. Icebergs",
   "DataSource": {
     "Spaceborne": {"Sensor": "Satellite S1 IW"},
     "Other": [

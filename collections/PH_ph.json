@@ -6,7 +6,7 @@
   "Themes": [
     "Aquaculture"
   ],
-  "CollectionGroup": "7. Water Chemistry",
+  "CollectionGroup": "G. Water Chemistry",
   "DataSource": {
     "Spaceborne": {"Sensor": "Numerical model"},
     "Other": [

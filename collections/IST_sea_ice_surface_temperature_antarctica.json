@@ -5,7 +5,7 @@
   "Themes": [
     "Antarctica"
     ],
-  "CollectionGroup": "C. Antarctica",
+  "CollectionGroup": "L. Antarctica",
   "DataSource": {
     "Spaceborne": {"Sensor": "Numerical model"},
     "Other": [

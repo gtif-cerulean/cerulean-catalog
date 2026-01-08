@@ -5,7 +5,7 @@
   "Themes": [
     "Aquaculture"
   ],
-  "CollectionGroup": "5. Sea Water",
+  "CollectionGroup": "E. Sea Water",
   "DataSource": {
     "Spaceborne": {"Sensor": "Numerical model"},
     "Other": [

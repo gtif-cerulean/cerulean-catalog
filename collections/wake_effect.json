@@ -1,7 +1,7 @@
 {
     "Name": "wake_effect",
     "Title": "Wake Effect",
-    "CollectionGroup": "Capabilities",
+    "CollectionGroup": "A. Capabilities",
     "Description": "Wake Effect algorithm developed by Techworks Marine",
     "Themes": [
         "Shipping",

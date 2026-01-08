@@ -1,14 +1,21 @@
 {
   "Name": "sea_floor_depth_shores",
-  "Title": "Sea floor depth shores",
-  "Description": "The Operational Mercator global ocean analysis and forecast system at 1/12 degree is providing 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time in order to reach a two full year’s time series sliding window. This product includes daily and monthly mean files of temperature, salinity, currents, sea level, mixed layer depth and ice parameters from the top to the bottom over the global ocean. It also includes hourly mean surface fields for sea level height, temperature and currents. The global ocean output files are displayed with a 1/12 degree horizontal resolution with regular longitude/latitude equirectangular projection. 50 vertical levels are ranging from 0 to 5500 meters. This product also delivers a special dataset for surface current which also includes wave and tidal drift called SMOC (Surface merged Ocean Current).",
+  "Title": "Sea floor depth - Shallow water",
+ "Description": "The global ocean analysis and forecast system provides 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time to provide a two-year time series sliding window. The output files are displayed with a 1/12 degree horizontal resolution.",
   "Themes": [
     "Aquaculture",
     "Energy"
   ],
-  "CollectionGroup": "Bathymetry",
+  "CollectionGroup": "J. Bathymetry",
+  "DataSource": {
+    "Spaceborne": {"Sensor": ""},
+    "Other": [
+      "Spatial Resolution: 0.083° × 0.083°",
+      "Frequency: Static"
+    ]
+  },
   "Agency": [
-    "CMEMS"
+    "Mercator Ocean International"
   ],
   "Colorlegend": {
     "title": "Sea floor depth below geoid [m]",
