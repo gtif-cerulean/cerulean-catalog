@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:viridis"
       },
-      "key": "cca24e3b-c50a-4adc-9563-b466d9b75160"
+      "key": "5a127af2-d855-4713-bcf2-d661bf312d4b"
     },
     {
       "rel": "parent",
@@ -39,7 +39,7 @@
     "Aquaculture"
   ],
   "agency": [
-    "Mercator Ocean International"
+    "Mercator Ocean International "
   ],
   "collection_group": "C. Sea Ice",
   "sensor": "Numerical model",
@@ -79,7 +79,7 @@
       "interval": [
         [
           "2022-06-01T00:00:00Z",
-          "2026-01-16T00:00:00Z"
+          "2026-01-17T00:00:00Z"
         ]
       ]
     }

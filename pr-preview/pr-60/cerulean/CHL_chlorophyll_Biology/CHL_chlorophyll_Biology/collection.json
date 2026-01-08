@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:algae"
       },
-      "key": "4f5153b7-8aeb-44f3-936c-0b4db9d9435a"
+      "key": "4a5a65d8-9e8b-48e6-8730-7d07d6559396"
     },
     {
       "rel": "parent",
@@ -43,7 +43,7 @@
   "sensor": "Satellite observations",
   "otherSources": [
     "Spatial Resolution: 4 × 4 km",
-    "Frequency: Daily"
+    "Frequency: Daily "
   ],
   "eox:colorlegend": {
     "title": "Mass concentration of chlorophyll a in sea water - Biology [mg/m^3]",
@@ -76,8 +76,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-12-19T00:00:00Z",
-          "2026-01-06T00:00:00Z"
+          "2025-12-24T00:00:00Z",
+          "2026-01-07T00:00:00Z"
         ]
       ]
     }

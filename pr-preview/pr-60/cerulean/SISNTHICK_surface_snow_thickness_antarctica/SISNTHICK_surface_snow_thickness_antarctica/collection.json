@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:ice"
       },
-      "key": "8690f015-e584-4ac8-8021-bbd473a72bbb"
+      "key": "df16e4cb-a0f6-4f7d-91c2-070b21565c3f"
     },
     {
       "rel": "parent",
@@ -37,7 +37,7 @@
     "Antarctica"
   ],
   "agency": [
-    "Mercator Ocean International"
+    "Mercator Ocean International "
   ],
   "collection_group": "L. Antarctica",
   "sensor": "Numerical model",
@@ -88,7 +88,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2026-01-16T00:00:00Z"
+          "2026-01-17T00:00:00Z"
         ]
       ]
     }

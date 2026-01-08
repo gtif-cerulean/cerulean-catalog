@@ -22,7 +22,7 @@
         "Energy"
       ],
       "agency": [
-        "Mercator Ocean International"
+        "Mercator Ocean International "
       ],
       "collection_group": "J. Bathymetry",
       "otherSources": [
@@ -129,7 +129,7 @@
     "Energy"
   ],
   "agency": [
-    "Mercator Ocean International"
+    "Mercator Ocean International "
   ],
   "collection_group": "J. Bathymetry",
   "otherSources": [
@@ -184,8 +184,8 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Aquaculture",
-      "Energy"
+      "Energy",
+      "Aquaculture"
     ]
   },
   "assets": {

@@ -25,7 +25,7 @@
       "agency": [
         "C-CORE"
       ],
-      "collection_group": "Capabilities"
+      "collection_group": "A. Capabilities"
     },
     {
       "rel": "service",
@@ -131,7 +131,7 @@
   "agency": [
     "C-CORE"
   ],
-  "collection_group": "Capabilities",
+  "collection_group": "A. Capabilities",
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/harshness.json",
   "merge_assets": false,
   "title": "Harshness capability",
@@ -149,8 +149,8 @@
     "temporal": {
       "interval": [
         [
-          "2026-01-07T22:28:06.453042Z",
-          "2026-01-07T22:28:06.453042Z"
+          "2026-01-08T22:21:39.832844Z",
+          "2026-01-08T22:21:39.832844Z"
         ]
       ]
     }
@@ -158,9 +158,9 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Aquaculture",
       "Energy",
-      "Shipping"
+      "Shipping",
+      "Aquaculture"
     ]
   },
   "assets": {

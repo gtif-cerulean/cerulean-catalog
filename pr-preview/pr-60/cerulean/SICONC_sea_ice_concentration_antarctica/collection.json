@@ -21,7 +21,7 @@
         "Antarctica"
       ],
       "agency": [
-        "Mercator Ocean International"
+        "Mercator Ocean International "
       ],
       "collection_group": "L. Antarctica",
       "sensor": "Numerical model",
@@ -128,7 +128,7 @@
     "Antarctica"
   ],
   "agency": [
-    "Mercator Ocean International"
+    "Mercator Ocean International "
   ],
   "collection_group": "L. Antarctica",
   "sensor": "Numerical model",
@@ -176,7 +176,7 @@
       "interval": [
         [
           "2022-06-01T00:00:00Z",
-          "2026-01-16T00:00:00Z"
+          "2026-01-17T00:00:00Z"
         ]
       ]
     }

@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:viridis"
       },
-      "key": "4b851e31-c364-45c9-a9ee-bfae4662ef33"
+      "key": "daeb2b9e-89ac-465f-beaf-722009d3ba4e"
     },
     {
       "rel": "parent",
@@ -37,7 +37,7 @@
     "Shipping"
   ],
   "agency": [
-    "Mercator Ocean International"
+    "Mercator Ocean International "
   ],
   "collection_group": "C. Sea Ice",
   "sensor": "Numerical model",
@@ -77,7 +77,7 @@
       "interval": [
         [
           "2022-06-01T00:00:00Z",
-          "2026-01-16T00:00:00Z"
+          "2026-01-17T00:00:00Z"
         ]
       ]
     }

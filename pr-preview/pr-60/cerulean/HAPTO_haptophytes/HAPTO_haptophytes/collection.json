@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:algae"
       },
-      "key": "a8cb1bba-9c71-49ba-922a-a53ad6d58fed"
+      "key": "510f7e39-ffa5-4d77-8cfa-529b2236b139"
     },
     {
       "rel": "parent",
@@ -37,7 +37,7 @@
     "Aquaculture"
   ],
   "agency": [
-    "ACRI"
+    "ACRI "
   ],
   "collection_group": "F. Water Biology",
   "sensor": "Satellite observations",

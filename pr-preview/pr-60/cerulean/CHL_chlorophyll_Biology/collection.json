@@ -27,7 +27,7 @@
       "sensor": "Satellite observations",
       "otherSources": [
         "Spatial Resolution: 4 × 4 km",
-        "Frequency: Daily"
+        "Frequency: Daily "
       ]
     },
     {
@@ -134,7 +134,7 @@
   "sensor": "Satellite observations",
   "otherSources": [
     "Spatial Resolution: 4 × 4 km",
-    "Frequency: Daily"
+    "Frequency: Daily "
   ],
   "eox:colorlegend": {
     "title": "Mass concentration of chlorophyll a in sea water - Biology [mg/m^3]",
@@ -175,8 +175,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-12-19T00:00:00Z",
-          "2026-01-06T00:00:00Z"
+          "2025-12-24T00:00:00Z",
+          "2026-01-07T00:00:00Z"
         ]
       ]
     }

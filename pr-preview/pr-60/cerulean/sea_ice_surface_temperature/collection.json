@@ -23,7 +23,7 @@
         "Aquaculture"
       ],
       "agency": [
-        "Mercator Ocean International"
+        "Mercator Ocean International "
       ],
       "collection_group": "C. Sea Ice",
       "sensor": "Numerical model",
@@ -132,7 +132,7 @@
     "Aquaculture"
   ],
   "agency": [
-    "Mercator Ocean International"
+    "Mercator Ocean International "
   ],
   "collection_group": "C. Sea Ice",
   "sensor": "Numerical model",
@@ -180,7 +180,7 @@
       "interval": [
         [
           "2022-06-01T00:00:00Z",
-          "2026-01-16T00:00:00Z"
+          "2026-01-17T00:00:00Z"
         ]
       ]
     }
@@ -188,9 +188,9 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Aquaculture",
       "Energy",
-      "Shipping"
+      "Shipping",
+      "Aquaculture"
     ],
     "sensor": [
       "Numerical model"

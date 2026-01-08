@@ -23,7 +23,7 @@
       "agency": [
         "Mercator Ocean International"
       ],
-      "collection_group": "C. Antarctica",
+      "collection_group": "L. Antarctica",
       "sensor": "Numerical model",
       "otherSources": [
         "Spatial Resolution: 0.083° × 0.083°",
@@ -120,7 +120,7 @@
   "agency": [
     "Mercator Ocean International"
   ],
-  "collection_group": "C. Antarctica",
+  "collection_group": "L. Antarctica",
   "sensor": "Numerical model",
   "otherSources": [
     "Spatial Resolution: 0.083° × 0.083°",
@@ -170,7 +170,7 @@
       "interval": [
         [
           "2022-06-01T00:00:00Z",
-          "2026-01-16T00:00:00Z"
+          "2026-01-17T00:00:00Z"
         ]
       ]
     }
