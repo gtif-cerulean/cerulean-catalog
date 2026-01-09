@@ -2,7 +2,7 @@
     "Name": "wake_effect_indicator",
     "Title": "Wake Effect",
     "Description": "Wake Effect algorithm developed by Techworks Marine.",
-    "CollectionGroup": "Capabilities",
+    "CollectionGroup": "A. Capabilities",
     "Themes": [
         "Shipping",
         "Energy"

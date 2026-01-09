@@ -7,7 +7,7 @@
     "Aquaculture",
     "Shipping"
   ],
-  "Description": "RCM Data collection",
+  "Description": "B. RCM Data collection",
   "Collections": [
     "RCM_eoapi_mix",
     "RCM_eoapi_HH",

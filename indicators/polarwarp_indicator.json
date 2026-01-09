@@ -2,7 +2,7 @@
   "Name": "polarwarp_sentinel1",
   "Title": "Polar warp capability",
   "Description": "This is an example of how the polar warp capability can be triggered and visualized within the dashboard.",
-  "CollectionGroup": "Capabilities",
+  "CollectionGroup": "A. Capabilities",
   "Themes": ["Shipping"],
   "Collections": ["polarwarp", "SHS1_sentinel1_ew_hh"],
   "MapProjection": {
