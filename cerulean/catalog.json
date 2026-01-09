@@ -55,7 +55,7 @@
       "thumbnail": [
         "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
       ],
-      "collection_group": "Capabilities"
+      "collection_group": "A. Capabilities"
     },
     {
       "rel": "child",
@@ -369,10 +369,181 @@
     },
     {
       "rel": "child",
+      "href": "./DIATO_diatoms/collection.json",
+      "type": "application/json",
+      "title": "Mass concentration of diatoms expressed as chlorophyll in sea water",
+      "id": "DIATO_diatoms",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Satellite observations",
+      "agency": [
+        "ACRI "
+      ],
+      "collection_group": "F. Water Biology",
+      "otherSources": [
+        "Spatial Resolution: 4 × 4 km",
+        "Frequency: Monthly"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./DINO_dinophytes/collection.json",
+      "type": "application/json",
+      "title": "Mass concentration of dinophytes expressed as chlorophyll in sea water",
+      "id": "DINO_dinophytes",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Satellite observations",
+      "agency": [
+        "ACRI "
+      ],
+      "collection_group": "F. Water Biology",
+      "otherSources": [
+        "Spatial Resolution: 4 × 4 km",
+        "Frequency: Monthly"
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./GREEN_green_algae/collection.json",
       "type": "application/json",
-      "title": "Mass concentration of greenalgae expressed as chlorophyll in sea water",
+      "title": "Mass concentration of green algae expressed as chlorophyll in sea water",
       "id": "GREEN_green_algae",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Satellite observations",
+      "agency": [
+        "ACRI "
+      ],
+      "collection_group": "F. Water Biology",
+      "otherSources": [
+        "Spatial Resolution: 4 × 4 km",
+        "Frequency: Monthly"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./HAPTO_haptophytes/collection.json",
+      "type": "application/json",
+      "title": "Mass concentration of haptophytes expressed as chlorophyll in sea water",
+      "id": "HAPTO_haptophytes",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Satellite observations",
+      "agency": [
+        "ACRI "
+      ],
+      "collection_group": "F. Water Biology",
+      "otherSources": [
+        "Spatial Resolution: 4 × 4 km",
+        "Frequency: Monthly"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./MICRO_microphytoplankton/collection.json",
+      "type": "application/json",
+      "title": "Mass concentration of microphytoplankton expressed as chlorophyll in sea water",
+      "id": "MICRO_microphytoplankton",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Satellite observations",
+      "agency": [
+        "ACRI "
+      ],
+      "collection_group": "F. Water Biology",
+      "otherSources": [
+        "Spatial Resolution: 4 × 4 km",
+        "Frequency: Monthly"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./NANO_nanophytoplankton/collection.json",
+      "type": "application/json",
+      "title": "Mass concentration of nanophytoplankton expressed as chlorophyll in sea water",
+      "id": "NANO_nanophytoplankton",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Satellite observations",
+      "agency": [
+        "ACRI "
+      ],
+      "collection_group": "F. Water Biology",
+      "otherSources": [
+        "Spatial Resolution: 4 × 4 km",
+        "Frequency: Monthly"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./PICO_picophytoplankton/collection.json",
+      "type": "application/json",
+      "title": "Mass concentration of picophytoplankton expressed as chlorophyll in sea water",
+      "id": "PICO_picophytoplankton",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Satellite observations",
+      "agency": [
+        "ACRI "
+      ],
+      "collection_group": "F. Water Biology",
+      "otherSources": [
+        "Spatial Resolution: 4 × 4 km",
+        "Frequency: Monthly"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./PROCHLO_prochlorophytes/collection.json",
+      "type": "application/json",
+      "title": "Mass concentration of prochlorophytes expressed as chlorophyll in sea water",
+      "id": "PROCHLO_prochlorophytes",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Satellite observations",
+      "agency": [
+        "ACRI "
+      ],
+      "collection_group": "F. Water Biology",
+      "otherSources": [
+        "Spatial Resolution: 4 × 4 km",
+        "Frequency: Monthly"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./PROKAR_prokaryotes/collection.json",
+      "type": "application/json",
+      "title": "Mass concentration of prokaryotes expressed as chlorophyll in sea water",
+      "id": "PROKAR_prokaryotes",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Satellite observations",
+      "agency": [
+        "ACRI"
+      ],
+      "collection_group": "F. Water Biology",
+      "otherSources": [
+        "Spatial Resolution: 4 × 4 km",
+        "Frequency: Monthly"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./SPM_suspended_matter/collection.json",
+      "type": "application/json",
+      "title": "Mass concentration of suspended matter in sea water",
+      "id": "SPM_suspended_matter",
       "themes": [
         "Aquaculture"
       ],
@@ -615,7 +786,7 @@
       "themes": [
         "Shipping"
       ],
-      "collection_group": "Capabilities",
+      "collection_group": "A. Capabilities",
       "eodash:mapProjection": {
         "name": "EPSG:3413",
         "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
@@ -662,7 +833,7 @@
         "Aquaculture",
         "Energy"
       ],
-      "collection_group": "Capabilities"
+      "collection_group": "A. Capabilities"
     },
     {
       "rel": "child",
@@ -701,7 +872,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "Capabilities"
+      "collection_group": "A. Capabilities"
     },
     {
       "rel": "child",
@@ -726,7 +897,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "Capabilities"
+      "collection_group": "A. Capabilities"
     },
     {
       "rel": "child",
@@ -767,7 +938,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "Capabilities"
+      "collection_group": "A. Capabilities"
     },
     {
       "rel": "child",
@@ -957,7 +1128,7 @@
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "Sea Ice"
+      "collection_group": "C. Sea Ice"
     },
     {
       "rel": "child",

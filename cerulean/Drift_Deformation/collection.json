@@ -141,7 +141,7 @@
     "Aquaculture",
     "Energy"
   ],
-  "collection_group": "Capabilities",
+  "collection_group": "A. Capabilities",
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/drift_deformation.json",
   "merge_assets": false,
   "title": "Sea Ice Drift and Deformation",
@@ -169,8 +169,8 @@
   "summaries": {
     "themes": [
       "Shipping",
-      "Aquaculture",
-      "Energy"
+      "Energy",
+      "Aquaculture"
     ]
   },
   "assets": {

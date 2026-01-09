@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./GREEN_green_algae/collection.json",
       "type": "application/json",
-      "title": "Mass concentration of greenalgae expressed as chlorophyll in sea water",
+      "title": "Mass concentration of green algae expressed as chlorophyll in sea water",
       "endpointtype": "marinedatastore_WMTSCapabilities",
       "id": "GREEN_green_algae",
       "themes": [
@@ -137,7 +137,7 @@
     "Frequency: Monthly"
   ],
   "eox:colorlegend": {
-    "title": "Mass concentration of greenalgae expressed as chlorophyll in sea water [mg/m3]",
+    "title": "Mass concentration of green algae expressed as chlorophyll in sea water [mg/m3]",
     "range": [
       "rgb(214, 249, 207)",
       "rgb(149, 205, 137)",
@@ -154,7 +154,7 @@
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/GREEN.json",
   "merge_assets": false,
-  "title": "Mass concentration of greenalgae expressed as chlorophyll in sea water",
+  "title": "Mass concentration of green algae expressed as chlorophyll in sea water",
   "extent": {
     "spatial": {
       "bbox": [

@@ -146,7 +146,7 @@
   "themes": [
     "Shipping"
   ],
-  "collection_group": "Capabilities",
+  "collection_group": "A. Capabilities",
   "merge_assets": false,
   "title": "POLARIS combined",
   "extent": {
@@ -185,8 +185,8 @@
   "summaries": {
     "themes": [
       "Shipping",
-      "Aquaculture",
-      "Energy"
+      "Energy",
+      "Aquaculture"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"

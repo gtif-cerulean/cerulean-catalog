@@ -1,0 +1,204 @@
+{
+  "type": "Collection",
+  "id": "PICO_picophytoplankton",
+  "stac_version": "1.1.0",
+  "description": "The Bio-Geo-Chemical (BGC) products are based on the Copernicus-GlobColour processor. Data comes from SeaWiFS, MODIS, MERIS, VIIRS-SNPP & JPSS1, OLCI-S3A & S3B. Variables are Chlorophyll-a (CHL) and Phytoplankton Functional types and sizes (PFT).",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./PICO_picophytoplankton/collection.json",
+      "type": "application/json",
+      "title": "Mass concentration of picophytoplankton expressed as chlorophyll in sea water",
+      "endpointtype": "marinedatastore_WMTSCapabilities",
+      "id": "PICO_picophytoplankton",
+      "themes": [
+        "Aquaculture"
+      ],
+      "agency": [
+        "ACRI "
+      ],
+      "collection_group": "F. Water Biology",
+      "sensor": "Satellite observations",
+      "otherSources": [
+        "Spatial Resolution: 4 × 4 km",
+        "Frequency: Monthly"
+      ]
+    },
+    {
+      "rel": "service",
+      "href": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_obs-oc_glo_bgc-plankton_nrt_l4-multi-4km_P1M&variables=PICO&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
+      "type": "application/json",
+      "id": "process_cmems",
+      "method": "GET"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "cloudless-2024",
+      "attribution": "{ EOxCloudless 2024: <a href=\"https://s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"https://eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
+    },
+    {
+      "rel": "wms",
+      "href": "https://sxcat-demo.eox.at/sxcat_maps/wms",
+      "type": "image/png",
+      "title": "Terrain Light Stereographic North",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "sx-cat_ortho680500",
+      "wms:layers": "sx-cat_ortho680500",
+      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
+      "eodash:proj4_def": {
+        "name": "ORTHO:680500",
+        "def": "+proj=ortho +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+        "extent": [
+          -6422528,
+          -6422528,
+          6422528,
+          6422528
+        ]
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain light",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "terrain-light",
+      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "eox-osm",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/styles/wind_energy_polygon.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "Wind_Energy_Areas"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    }
+  ],
+  "sci:doi": "10.48670/moi-00279",
+  "themes": [
+    "Aquaculture"
+  ],
+  "agency": [
+    "ACRI "
+  ],
+  "collection_group": "F. Water Biology",
+  "sensor": "Satellite observations",
+  "otherSources": [
+    "Spatial Resolution: 4 × 4 km",
+    "Frequency: Monthly"
+  ],
+  "eox:colorlegend": {
+    "title": "Mass concentration of picophytoplankton expressed as chlorophyll in sea water [mg/m^3]",
+    "range": [
+      "rgb(214, 249, 207)",
+      "rgb(149, 205, 137)",
+      "rgb(67, 168, 85)",
+      "rgb(9, 125, 74)",
+      "rgb(25, 80, 52)",
+      "rgb(17, 36, 20)"
+    ],
+    "domain": [
+      0.0405,
+      0.7041
+    ]
+  },
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/PICO.json",
+  "merge_assets": false,
+  "title": "Mass concentration of picophytoplankton expressed as chlorophyll in sea water",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -179.9791717529297,
+          -89.97917175292969,
+          179.9791717529297,
+          89.97916412353516
+        ],
+        [
+          -179.9791717529297,
+          -89.97917175292969,
+          179.9791717529297,
+          89.97916412353516
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-10-01T00:00:00Z",
+          "2025-12-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "summaries": {
+    "themes": [
+      "Aquaculture"
+    ],
+    "sensor": [
+      "Satellite observations"
+    ]
+  },
+  "assets": {
+    "Wind_Energy_Areas": {
+      "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/wind_energy.geojson",
+      "type": "application/geo+json",
+      "title": "Wind Energy Areas",
+      "roles": [
+        "overlay",
+        "invisible"
+      ]
+    }
+  }
+}

@@ -140,7 +140,7 @@
   "agency": [
     "ESA"
   ],
-  "collection_group": "Capabilities",
+  "collection_group": "A. Capabilities",
   "eox:colorlegend": {
     "domain": [
       -1,
@@ -193,8 +193,8 @@
   "summaries": {
     "themes": [
       "Shipping",
-      "Aquaculture",
-      "Energy"
+      "Energy",
+      "Aquaculture"
     ]
   },
   "assets": {
