@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "RCM_eoapi",
   "stac_version": "1.1.0",
-  "description": "B. RCM Data collection",
+  "description": "RCM Data collection",
   "links": [
     {
       "rel": "root",
@@ -155,7 +155,7 @@
   "agency": [
     "ESA"
   ],
-  "collection_group": "Satellite Data",
+  "collection_group": "B. Satellite Data",
   "merge_assets": false,
   "title": "RCM scenes",
   "extent": {
@@ -199,9 +199,9 @@
   "license": "other",
   "summaries": {
     "themes": [
+      "Aquaculture",
       "Shipping",
-      "Energy",
-      "Aquaculture"
+      "Energy"
     ]
   },
   "assets": {
