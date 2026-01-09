@@ -2,7 +2,7 @@
   "Name": "coastal_change_monitoring_indicator",
   "Title": "Coastal Change Monitoring",
   "Description": "Costal Change Monitoring algorithm developed by Techworks Marine.",
-  "CollectionGroup": "Capabilities",
+  "CollectionGroup": "A. Capabilities",
   "Themes": [
     "Shipping",
     "Energy"

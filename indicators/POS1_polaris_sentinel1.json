@@ -2,7 +2,7 @@
   "Name": "polaris_sentinel1",
   "Title": "POLARIS combined",
   "Description": "",
-  "CollectionGroup": "Capabilities",
+  "CollectionGroup": "A. Capabilities",
   "Themes": [
     "Shipping"
   ],

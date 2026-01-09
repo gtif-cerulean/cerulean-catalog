@@ -2,7 +2,7 @@
     "Name": "landslide_risk_indicator",
     "Title": "Landslide risk",
     "Description": "Landslide risk algorithm developed by Techworks Marine.",
-    "CollectionGroup": "Capabilities",
+    "CollectionGroup": "A. Capabilities",
     "Themes": [
         "Energy"
     ],
