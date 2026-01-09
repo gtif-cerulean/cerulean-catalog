@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:haline"
       },
-      "key": "37aa1888-ef89-4623-a792-4a1362c55f97"
+      "key": "a2aae533-b17d-4334-9f37-da44cdc6899b"
     },
     {
       "rel": "parent",
@@ -39,7 +39,7 @@
   "agency": [
     "CMEMS"
   ],
-  "collection_group": "5. Sea Water",
+  "collection_group": "E. Sea Water",
   "sensor": "Numerical model",
   "otherSources": [
     "Numerical Model",

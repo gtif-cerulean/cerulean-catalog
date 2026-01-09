@@ -21,9 +21,9 @@
         "Shipping"
       ],
       "agency": [
-        "Mercator Ocean International"
+        "Mercator Ocean International "
       ],
-      "collection_group": "3. Sea Ice",
+      "collection_group": "C. Sea Ice",
       "sensor": "Numerical model",
       "otherSources": [
         "Spatial Resolution: 0.083° x 0.083°",
@@ -128,9 +128,9 @@
     "Shipping"
   ],
   "agency": [
-    "Mercator Ocean International"
+    "Mercator Ocean International "
   ],
-  "collection_group": "3. Sea Ice",
+  "collection_group": "C. Sea Ice",
   "sensor": "Numerical model",
   "otherSources": [
     "Spatial Resolution: 0.083° x 0.083°",
@@ -139,12 +139,12 @@
   "eox:colorlegend": {
     "title": "Age of sea ice [years]",
     "range": [
-      "rgb(68, 1, 84)",
-      "rgb(64, 67, 135)",
-      "rgb(41, 120, 142)",
-      "rgb(34, 167, 132)",
+      "rgb(253, 231, 36)",
       "rgb(121, 209, 81)",
-      "rgb(253, 231, 36)"
+      "rgb(34, 167, 132)",
+      "rgb(41, 120, 142)",
+      "rgb(64, 67, 135)",
+      "rgb(68, 1, 84)"
     ],
     "domain": [
       0,

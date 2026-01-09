@@ -37,7 +37,7 @@
   "agency": [
     "Sentinel Hub"
   ],
-  "collection_group": "Satellite Data",
+  "collection_group": "B. Satellite Data",
   "endpointtype": "Sentinel Hub WMS",
   "title": "Sentinel 2 L2A",
   "extent": {

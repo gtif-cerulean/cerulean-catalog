@@ -25,7 +25,7 @@
       "agency": [
         "Sentinel Hub"
       ],
-      "collection_group": "Satellite Data"
+      "collection_group": "B. Satellite Data"
     },
     {
       "rel": "service",
@@ -193,8 +193,8 @@
   "summaries": {
     "themes": [
       "Shipping",
-      "Energy",
-      "Aquaculture"
+      "Aquaculture",
+      "Energy"
     ]
   },
   "assets": {

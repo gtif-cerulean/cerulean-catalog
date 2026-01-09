@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:viridis"
       },
-      "key": "841103b8-8d7c-4d85-ab19-ca7289f0e57b"
+      "key": "ce5b615b-ee4e-4b68-8296-b659bd5fe6f1"
     },
     {
       "rel": "parent",
@@ -39,9 +39,9 @@
     "Aquaculture"
   ],
   "agency": [
-    "Mercator Ocean International"
+    "Mercator Ocean International "
   ],
-  "collection_group": "3. Sea Ice",
+  "collection_group": "C. Sea Ice",
   "sensor": "Numerical model",
   "otherSources": [
     "Spatial Resolution: 0.083° × 0.083°",

@@ -23,7 +23,7 @@
       "agency": [
         "Mercator Ocean International"
       ],
-      "collection_group": "3. Sea Ice",
+      "collection_group": "C. Sea Ice",
       "sensor": "Numerical model",
       "otherSources": [
         "Numerical Model",
@@ -130,7 +130,7 @@
   "agency": [
     "Mercator Ocean International"
   ],
-  "collection_group": "3. Sea Ice",
+  "collection_group": "C. Sea Ice",
   "sensor": "Numerical model",
   "otherSources": [
     "Numerical Model",

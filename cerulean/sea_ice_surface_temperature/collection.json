@@ -23,9 +23,9 @@
         "Aquaculture"
       ],
       "agency": [
-        "Mercator Ocean International"
+        "Mercator Ocean International "
       ],
-      "collection_group": "3. Sea Ice",
+      "collection_group": "C. Sea Ice",
       "sensor": "Numerical model",
       "otherSources": [
         "Spatial Resolution: 0.083° × 0.083°",
@@ -132,9 +132,9 @@
     "Aquaculture"
   ],
   "agency": [
-    "Mercator Ocean International"
+    "Mercator Ocean International "
   ],
-  "collection_group": "3. Sea Ice",
+  "collection_group": "C. Sea Ice",
   "sensor": "Numerical model",
   "otherSources": [
     "Spatial Resolution: 0.083° × 0.083°",
@@ -189,8 +189,8 @@
   "summaries": {
     "themes": [
       "Shipping",
-      "Energy",
-      "Aquaculture"
+      "Aquaculture",
+      "Energy"
     ],
     "sensor": [
       "Numerical model"

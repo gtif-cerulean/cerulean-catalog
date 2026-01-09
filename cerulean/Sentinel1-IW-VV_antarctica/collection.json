@@ -18,14 +18,12 @@
       "endpointtype": "Sentinel Hub WMS",
       "id": "Sentinel1-IW-VV_antarctica",
       "themes": [
-        "Energy",
-        "Aquaculture",
-        "Shipping"
+        "Antarctica"
       ],
       "agency": [
         "Sentinel Hub"
       ],
-      "collection_group": "Antarctica",
+      "collection_group": "L. Antarctica",
       "eodash:mapProjection": {
         "name": "EPSG:32761",
         "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
@@ -104,14 +102,12 @@
     }
   ],
   "themes": [
-    "Energy",
-    "Aquaculture",
-    "Shipping"
+    "Antarctica"
   ],
   "agency": [
     "Sentinel Hub"
   ],
-  "collection_group": "Antarctica",
+  "collection_group": "L. Antarctica",
   "eodash:mapProjection": {
     "name": "EPSG:32761",
     "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
@@ -147,9 +143,7 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Shipping",
-      "Energy",
-      "Aquaculture"
+      "Antarctica"
     ]
   },
   "assets": {

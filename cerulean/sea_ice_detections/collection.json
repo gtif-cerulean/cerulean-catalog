@@ -23,7 +23,7 @@
       "agency": [
         "SMI"
       ],
-      "collection_group": "Sea Ice"
+      "collection_group": "C. Sea Ice"
     },
     {
       "rel": "xyz",
@@ -117,7 +117,7 @@
   "agency": [
     "SMI"
   ],
-  "collection_group": "Sea Ice",
+  "collection_group": "C. Sea Ice",
   "merge_assets": false,
   "title": "Sea Ice Detections",
   "extent": {

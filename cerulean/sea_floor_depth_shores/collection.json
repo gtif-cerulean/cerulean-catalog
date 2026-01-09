@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "sea_floor_depth_shores",
   "stac_version": "1.1.0",
-  "description": "The Operational Mercator global ocean analysis and forecast system at 1/12 degree is providing 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time in order to reach a two full year’s time series sliding window. This product includes daily and monthly mean files of temperature, salinity, currents, sea level, mixed layer depth and ice parameters from the top to the bottom over the global ocean. It also includes hourly mean surface fields for sea level height, temperature and currents. The global ocean output files are displayed with a 1/12 degree horizontal resolution with regular longitude/latitude equirectangular projection. 50 vertical levels are ranging from 0 to 5500 meters. This product also delivers a special dataset for surface current which also includes wave and tidal drift called SMOC (Surface merged Ocean Current).",
+  "description": "The global ocean analysis and forecast system provides 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time to provide a two-year time series sliding window. The output files are displayed with a 1/12 degree horizontal resolution.",
   "links": [
     {
       "rel": "root",
@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./sea_floor_depth_shores/collection.json",
       "type": "application/json",
-      "title": "Sea floor depth shores",
+      "title": "Sea floor depth - Shallow water",
       "endpointtype": "marinedatastore_WMTSCapabilities",
       "id": "sea_floor_depth_shores",
       "themes": [
@@ -22,9 +22,13 @@
         "Energy"
       ],
       "agency": [
-        "CMEMS"
+        "Mercator Ocean International"
       ],
-      "collection_group": "Bathymetry"
+      "collection_group": "J. Bathymetry",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Static"
+      ]
     },
     {
       "rel": "xyz",
@@ -118,23 +122,22 @@
     "Energy"
   ],
   "agency": [
-    "CMEMS"
+    "Mercator Ocean International"
   ],
-  "collection_group": "Bathymetry",
+  "collection_group": "J. Bathymetry",
+  "otherSources": [
+    "Spatial Resolution: 0.083° × 0.083°",
+    "Frequency: Static"
+  ],
   "eox:colorlegend": {
     "title": "Sea floor depth below geoid [m]",
     "range": [
-      "rgba(68, 1, 84, 1)",
-      "rgba(72, 35, 116, 1)",
-      "rgba(64, 67, 135, 1)",
-      "rgba(52, 94, 141, 1)",
-      "rgba(41, 120, 142, 1)",
-      "rgba(32, 144, 140, 1)",
-      "rgba(34, 167, 132, 1)",
-      "rgba(68, 190, 112, 1)",
-      "rgba(121, 209, 81, 1)",
-      "rgba(189, 223, 38, 1)",
-      "rgba(253, 231, 37, 1)"
+      "rgb(230, 240, 240)",
+      "rgb(149, 197, 226)",
+      "rgb(115, 144, 227)",
+      "rgb(120, 84, 186)",
+      "rgb(103, 35, 112)",
+      "rgb(54, 14, 36)"
     ],
     "domain": [
       0,
@@ -142,7 +145,7 @@
     ]
   },
   "merge_assets": false,
-  "title": "Sea floor depth shores",
+  "title": "Sea floor depth - Shallow water",
   "extent": {
     "spatial": {
       "bbox": [
@@ -172,8 +175,8 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Energy",
-      "Aquaculture"
+      "Aquaculture",
+      "Energy"
     ]
   },
   "assets": {

@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "CIS_Icecharts",
   "stac_version": "1.1.0",
-  "description": "Collection of Canadian Ice Service since start of 2025",
+  "description": "Collection of Canadian Ice Service since the start of 2025",
   "links": [
     {
       "rel": "root",
@@ -23,7 +23,7 @@
   "agency": [
     "CIS"
   ],
-  "collection_group": "Sea Ice",
+  "collection_group": "C. Sea Ice",
   "eox:colorlegend": {
     "title": "Total Sea Ice Concentration",
     "range": [

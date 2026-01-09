@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:matter"
       },
-      "key": "389e12c4-c4b0-408b-b2ae-31d0c75ad054"
+      "key": "40c7a063-8342-4cc2-aa38-db36a952acfe"
     },
     {
       "rel": "parent",
@@ -40,7 +40,7 @@
     "Mercator Ocean International"
   ],
   "subcode": "NPPB",
-  "collection_group": "Water Chemistry",
+  "collection_group": "G. Water Chemistry",
   "sensor": "Numerical model",
   "otherSources": [
     "Spatial Resolution: 0.083° × 0.083°",

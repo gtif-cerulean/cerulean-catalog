@@ -25,7 +25,7 @@
         "Mercator Ocean International"
       ],
       "subcode": "NO3",
-      "collection_group": "7. Water Chemistry",
+      "collection_group": "G. Water Chemistry",
       "sensor": "Numerical model",
       "otherSources": [
         "Spatial Resolution: 0.083° × 0.083°",
@@ -133,7 +133,7 @@
     "Mercator Ocean International"
   ],
   "subcode": "NO3",
-  "collection_group": "7. Water Chemistry",
+  "collection_group": "G. Water Chemistry",
   "sensor": "Numerical model",
   "otherSources": [
     "Spatial Resolution: 0.083° × 0.083°",

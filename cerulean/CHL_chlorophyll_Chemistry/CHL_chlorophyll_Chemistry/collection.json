@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:algae"
       },
-      "key": "b39996f7-b0e5-46fa-9405-861c64e12721"
+      "key": "0c9bcf50-c1ca-47a3-af9a-47edeb3d4057"
     },
     {
       "rel": "parent",
@@ -40,7 +40,7 @@
     "Mercator Ocean International"
   ],
   "subcode": "CHL",
-  "collection_group": "7. Water Chemistry",
+  "collection_group": "G. Water Chemistry",
   "sensor": "Numerical model",
   "otherSources": [
     "Spatial Resolution: 0.25° × 0.25°",

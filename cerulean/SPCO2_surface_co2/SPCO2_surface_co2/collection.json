@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:matter"
       },
-      "key": "30b953fd-1a81-445c-ae21-48fa25691a98"
+      "key": "d5782b1c-a842-4865-9e9e-5cc12fd37a2a"
     },
     {
       "rel": "parent",
@@ -39,7 +39,7 @@
   "agency": [
     "Mercator Ocean International"
   ],
-  "collection_group": "7. Water Chemistry",
+  "collection_group": "G. Water Chemistry",
   "sensor": "Numerical model",
   "otherSources": [
     "Spatial Resolution: 0.083° × 0.083°",

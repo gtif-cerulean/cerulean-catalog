@@ -25,7 +25,7 @@
       "agency": [
         "C-CORE"
       ],
-      "collection_group": "Capabilities"
+      "collection_group": "A. Capabilities"
     },
     {
       "rel": "service",
@@ -131,7 +131,7 @@
   "agency": [
     "C-CORE"
   ],
-  "collection_group": "Capabilities",
+  "collection_group": "A. Capabilities",
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/structureicing.json",
   "merge_assets": false,
   "title": "Icing Predictor Index",
@@ -149,8 +149,8 @@
     "temporal": {
       "interval": [
         [
-          "2026-01-09T08:58:32.906626Z",
-          "2026-01-09T08:58:32.906626Z"
+          "2026-01-09T12:46:15.776881Z",
+          "2026-01-09T12:46:15.776881Z"
         ]
       ]
     }
@@ -159,8 +159,8 @@
   "summaries": {
     "themes": [
       "Shipping",
-      "Energy",
-      "Aquaculture"
+      "Aquaculture",
+      "Energy"
     ]
   },
   "assets": {

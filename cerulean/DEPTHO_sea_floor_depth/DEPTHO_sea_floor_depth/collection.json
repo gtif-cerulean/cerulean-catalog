@@ -21,9 +21,9 @@
       ],
       "wmts:dimensions": {
         "elevation": 0,
-        "style": "cmap:ocean"
+        "style": "cmap:dense"
       },
-      "key": "240bab75-2336-47ae-8f54-9e1e4e3769fd"
+      "key": "ccb501ed-ee83-400d-81d4-55bd817ac2a6"
     },
     {
       "rel": "parent",
@@ -38,9 +38,9 @@
     "Energy"
   ],
   "agency": [
-    "Mercator Ocean International"
+    "Mercator Ocean International "
   ],
-  "collection_group": "10. Bathymetry",
+  "collection_group": "J. Bathymetry",
   "otherSources": [
     "Spatial Resolution: 0.083° × 0.083°",
     "Frequency: Static"
@@ -48,12 +48,12 @@
   "eox:colorlegend": {
     "title": "Sea floor depth below geoid [m]",
     "range": [
-      "rgb(0, 127, 0)",
-      "rgb(0, 50, 51)",
-      "rgb(0, 25, 102)",
-      "rgb(0, 101, 153)",
-      "rgb(102, 178, 204)",
-      "rgb(255, 255, 255)"
+      "rgb(230, 240, 240)",
+      "rgb(149, 197, 226)",
+      "rgb(115, 144, 227)",
+      "rgb(120, 84, 186)",
+      "rgb(103, 35, 112)",
+      "rgb(54, 14, 36)"
     ],
     "domain": [
       0,

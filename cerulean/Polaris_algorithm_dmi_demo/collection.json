@@ -23,7 +23,7 @@
       "agency": [
         "National Research Council of Canada"
       ],
-      "collection_group": "Capabilities"
+      "collection_group": "A. Capabilities"
     },
     {
       "rel": "xyz",
@@ -118,7 +118,7 @@
   "agency": [
     "National Research Council of Canada"
   ],
-  "collection_group": "Capabilities",
+  "collection_group": "A. Capabilities",
   "merge_assets": false,
   "title": "POLARIS",
   "extent": {

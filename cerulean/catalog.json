@@ -24,7 +24,7 @@
       "agency": [
         "C-CORE"
       ],
-      "collection_group": "Capabilities"
+      "collection_group": "A. Capabilities"
     },
     {
       "rel": "child",
@@ -41,7 +41,7 @@
       "agency": [
         "National Research Council of Canada"
       ],
-      "collection_group": "Capabilities"
+      "collection_group": "A. Capabilities"
     },
     {
       "rel": "child",
@@ -61,7 +61,7 @@
       "rel": "child",
       "href": "./airss_results/collection.json",
       "type": "application/json",
-      "title": "AIRSS Go or No-Go",
+      "title": "Canadian Arctic Ice Regime Shipping System (AIRSS)",
       "id": "airss_results",
       "themes": [
         "Shipping"
@@ -72,7 +72,7 @@
       "agency": [
         "Canadian Ice Service"
       ],
-      "collection_group": "Capabilities"
+      "collection_group": "A. Capabilities"
     },
     {
       "rel": "child",
@@ -89,7 +89,7 @@
       "agency": [
         "Mercator Ocean International"
       ],
-      "collection_group": "Water Chemistry",
+      "collection_group": "G. Water Chemistry",
       "otherSources": [
         "Spatial Resolution: 0.083° × 0.083°",
         "Frequency: Daily"
@@ -110,7 +110,7 @@
       "agency": [
         "Mercator Ocean International"
       ],
-      "collection_group": "7. Water Chemistry",
+      "collection_group": "G. Water Chemistry",
       "otherSources": [
         "Spatial Resolution: 0.083° × 0.083°",
         "Frequency: Daily"
@@ -131,7 +131,7 @@
       "agency": [
         "Mercator Ocean International"
       ],
-      "collection_group": "7. Water Chemistry",
+      "collection_group": "G. Water Chemistry",
       "otherSources": [
         "Spatial Resolution: 0.083° × 0.083°",
         "Frequency: Daily"
@@ -152,7 +152,7 @@
       "agency": [
         "Mercator Ocean International"
       ],
-      "collection_group": "7. Water Chemistry",
+      "collection_group": "G. Water Chemistry",
       "otherSources": [
         "Spatial Resolution: 0.083° × 0.083°",
         "Frequency: Daily"
@@ -171,7 +171,7 @@
       "agency": [
         "Mercator Ocean International"
       ],
-      "collection_group": "7. Water Chemistry",
+      "collection_group": "G. Water Chemistry",
       "otherSources": [
         "Spatial Resolution: 0.083° × 0.083°",
         "Frequency: Daily"
@@ -190,7 +190,7 @@
       "agency": [
         "Mercator Ocean International"
       ],
-      "collection_group": "7. Water Chemistry",
+      "collection_group": "G. Water Chemistry",
       "otherSources": [
         "Spatial Resolution: 0.083° × 0.083°",
         "Frequency: Daily"
@@ -211,7 +211,7 @@
       "agency": [
         "Mercator Ocean International"
       ],
-      "collection_group": "7. Water Chemistry",
+      "collection_group": "G. Water Chemistry",
       "otherSources": [
         "Spatial Resolution: 0.083° × 0.083°",
         "Frequency: Daily"
@@ -232,7 +232,7 @@
       "agency": [
         "Mercator Ocean International"
       ],
-      "collection_group": "7. Water Chemistry",
+      "collection_group": "G. Water Chemistry",
       "otherSources": [
         "Spatial Resolution: 0.083° × 0.083°",
         "Frequency: Daily"
@@ -251,7 +251,7 @@
       "agency": [
         "Mercator Ocean International"
       ],
-      "collection_group": "7. Water Chemistry",
+      "collection_group": "G. Water Chemistry",
       "otherSources": [
         "Spatial Resolution: 0.083° × 0.083°",
         "Frequency: Daily"
@@ -270,7 +270,7 @@
       "agency": [
         "Mercator Ocean International"
       ],
-      "collection_group": "7. Water Chemistry",
+      "collection_group": "G. Water Chemistry",
       "otherSources": [
         "Spatial Resolution: 0.083° × 0.083°",
         "Frequency: Daily"
@@ -289,7 +289,7 @@
       "agency": [
         "Mercator Ocean International"
       ],
-      "collection_group": "7. Water Chemistry",
+      "collection_group": "G. Water Chemistry",
       "otherSources": [
         "Spatial Resolution: 0.083° × 0.083°",
         "Frequency: Daily"
@@ -308,7 +308,7 @@
       "agency": [
         "Mercator Ocean International"
       ],
-      "collection_group": "7. Water Chemistry",
+      "collection_group": "G. Water Chemistry",
       "otherSources": [
         "Spatial Resolution: 0.083° × 0.083°",
         "Frequency: Daily"
@@ -328,7 +328,7 @@
       "agency": [
         "Sentinel Hub"
       ],
-      "collection_group": "Satellite Data"
+      "collection_group": "B. Satellite Data"
     },
     {
       "rel": "child",
@@ -344,7 +344,7 @@
       "agency": [
         "Sentinel Hub"
       ],
-      "collection_group": "Satellite Data"
+      "collection_group": "B. Satellite Data"
     },
     {
       "rel": "child",
@@ -361,7 +361,7 @@
       "agency": [
         "Mercator Ocean International"
       ],
-      "collection_group": "7. Water Chemistry",
+      "collection_group": "G. Water Chemistry",
       "otherSources": [
         "Spatial Resolution: 0.25° × 0.25°",
         "Frequency: Daily"
@@ -369,143 +369,22 @@
     },
     {
       "rel": "child",
-      "href": "./diatoms_chlorophyll_a/collection.json",
+      "href": "./GREEN_green_algae/collection.json",
       "type": "application/json",
-      "title": "Diatoms Chlorophyll a concentration",
-      "id": "diatoms_chlorophyll_a",
+      "title": "Mass concentration of greenalgae expressed as chlorophyll in sea water",
+      "id": "GREEN_green_algae",
       "themes": [
         "Aquaculture"
       ],
+      "sensor": "Satellite observations",
       "agency": [
-        "CMEMS"
+        "ACRI "
       ],
-      "collection_group": "Water Biology"
-    },
-    {
-      "rel": "child",
-      "href": "./dinophytes_chlorophyll_a/collection.json",
-      "type": "application/json",
-      "title": "Mass concentration of dinophytes expressed as chlorophyll in sea water",
-      "id": "dinophytes_chlorophyll_a",
-      "themes": [
-        "Aquaculture"
-      ],
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Water Biology"
-    },
-    {
-      "rel": "child",
-      "href": "./green_algae/collection.json",
-      "type": "application/json",
-      "title": "Green Algae Chlorophyll a concentration",
-      "id": "green_algae",
-      "themes": [
-        "Aquaculture"
-      ],
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Water Biology"
-    },
-    {
-      "rel": "child",
-      "href": "./haptophytes_chlorophyll_a/collection.json",
-      "type": "application/json",
-      "title": "Haptophytes Chlorophyll a concentration",
-      "id": "haptophytes_chlorophyll_a",
-      "themes": [
-        "Aquaculture"
-      ],
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Water Biology"
-    },
-    {
-      "rel": "child",
-      "href": "./microphytoplankton_chlorophyll_a/collection.json",
-      "type": "application/json",
-      "title": "Microphytoplankton Chlorophyll a concentration",
-      "id": "microphytoplankton_chlorophyll_a",
-      "themes": [
-        "Aquaculture"
-      ],
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Water Biology"
-    },
-    {
-      "rel": "child",
-      "href": "./nanophytoplankton_hlorophyll_a/collection.json",
-      "type": "application/json",
-      "title": "Nanophytoplankton Chlorophyll a concentration",
-      "id": "nanophytoplankton_hlorophyll_a",
-      "themes": [
-        "Aquaculture"
-      ],
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Water Biology"
-    },
-    {
-      "rel": "child",
-      "href": "./picophytoplankton_chlorophyll_a/collection.json",
-      "type": "application/json",
-      "title": "Picophytoplankton Chlorophyll a concentration",
-      "id": "picophytoplankton_chlorophyll_a",
-      "themes": [
-        "Aquaculture"
-      ],
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Water Biology"
-    },
-    {
-      "rel": "child",
-      "href": "./prochlorophytes_chlorophyll_a/collection.json",
-      "type": "application/json",
-      "title": "Prochlorophytes Chlorophyll a concentration",
-      "id": "prochlorophytes_chlorophyll_a",
-      "themes": [
-        "Aquaculture"
-      ],
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Water Biology"
-    },
-    {
-      "rel": "child",
-      "href": "./prokaryotes_chlorophyll_a/collection.json",
-      "type": "application/json",
-      "title": "Prokaryotes Chlorophyll a concentration",
-      "id": "prokaryotes_chlorophyll_a",
-      "themes": [
-        "Aquaculture"
-      ],
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Water Biology"
-    },
-    {
-      "rel": "child",
-      "href": "./inorganic_suspended_pm/collection.json",
-      "type": "application/json",
-      "title": "Inorganic suspended particulate matter in sea water",
-      "id": "inorganic_suspended_pm",
-      "themes": [
-        "Aquaculture"
-      ],
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Water Biology"
+      "collection_group": "F. Water Biology",
+      "otherSources": [
+        "Spatial Resolution: 4 × 4 km",
+        "Frequency: Monthly"
+      ]
     },
     {
       "rel": "child",
@@ -518,9 +397,9 @@
         "Energy"
       ],
       "agency": [
-        "Mercator Ocean International"
+        "Mercator Ocean International "
       ],
-      "collection_group": "10. Bathymetry",
+      "collection_group": "J. Bathymetry",
       "otherSources": [
         "Spatial Resolution: 0.083° × 0.083°",
         "Frequency: Static"
@@ -539,7 +418,7 @@
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "5. Sea Water",
+      "collection_group": "E. Sea Water",
       "otherSources": [
         "Numerical Model",
         "0.083° × 0.083°"
@@ -559,7 +438,7 @@
       "agency": [
         "Mercator Ocean International"
       ],
-      "collection_group": "Sea Water",
+      "collection_group": "E. Sea Water",
       "otherSources": [
         "Numerical Model",
         "0.083° × 0.083°"
@@ -578,7 +457,7 @@
       "agency": [
         "Mercator Ocean International"
       ],
-      "collection_group": "5. Sea Water",
+      "collection_group": "E. Sea Water",
       "otherSources": [
         "Numerical Model",
         "0.083° × 0.083°"
@@ -597,9 +476,9 @@
       ],
       "sensor": "Numerical model",
       "agency": [
-        "Mercator Ocean International"
+        "Mercator Ocean International "
       ],
-      "collection_group": "3. Sea Ice",
+      "collection_group": "C. Sea Ice",
       "otherSources": [
         "Spatial Resolution: 0.083° × 0.083°",
         "Frequency: Daily"
@@ -616,9 +495,9 @@
       ],
       "sensor": "Numerical model",
       "agency": [
-        "Mercator Ocean International"
+        "Mercator Ocean International "
       ],
-      "collection_group": "3. Sea Ice",
+      "collection_group": "C. Sea Ice",
       "otherSources": [
         "Spatial Resolution: 0.083° x 0.083°",
         "Frequency: Daily"
@@ -639,7 +518,7 @@
       "agency": [
         "Mercator Ocean International"
       ],
-      "collection_group": "3. Sea Ice",
+      "collection_group": "C. Sea Ice",
       "otherSources": [
         "Numerical Model",
         "0.083° × 0.083°"
@@ -658,7 +537,7 @@
       "agency": [
         "Mercator Ocean International"
       ],
-      "collection_group": "3. Sea Ice",
+      "collection_group": "C. Sea Ice",
       "otherSources": [
         "Numerical Model",
         "0.083° × 0.083°"
@@ -679,7 +558,7 @@
       "agency": [
         "Mercator Ocean International"
       ],
-      "collection_group": "3. Sea Ice",
+      "collection_group": "C. Sea Ice",
       "otherSources": [
         "Numerical Model",
         "0.083° × 0.083°"
@@ -700,7 +579,7 @@
       "agency": [
         "Mercator Ocean International"
       ],
-      "collection_group": "3. Sea Ice",
+      "collection_group": "C. Sea Ice",
       "otherSources": [
         "Numerical Model",
         "0.083° × 0.083°"
@@ -721,7 +600,7 @@
       "agency": [
         "DMI"
       ],
-      "collection_group": "4. Icebergs",
+      "collection_group": "D. Icebergs",
       "otherSources": [
         "Numerical Model",
         "10 km x 10 km"
@@ -756,35 +635,7 @@
       "agency": [
         "C-CORE"
       ],
-      "collection_group": "Capabilities"
-    },
-    {
-      "rel": "child",
-      "href": "./cmems_balitic_ice_concentration/collection.json",
-      "type": "application/json",
-      "title": "Baltic Sea Ice Concentration",
-      "id": "cmems_balitic_ice_concentration",
-      "themes": [
-        "Baltic"
-      ],
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Baltic"
-    },
-    {
-      "rel": "child",
-      "href": "./cmems_baltic_ice_thickness/collection.json",
-      "type": "application/json",
-      "title": "Baltic Sea Ice Thickness",
-      "id": "cmems_baltic_ice_thickness",
-      "themes": [
-        "Baltic"
-      ],
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Baltic"
+      "collection_group": "A. Capabilities"
     },
     {
       "rel": "child",
@@ -798,7 +649,7 @@
       "agency": [
         "SMI"
       ],
-      "collection_group": "Sea Ice"
+      "collection_group": "C. Sea Ice"
     },
     {
       "rel": "child",
@@ -825,7 +676,7 @@
       "agency": [
         "DMI"
       ],
-      "collection_group": "Sea Ice"
+      "collection_group": "C. Sea Ice"
     },
     {
       "rel": "child",
@@ -892,7 +743,7 @@
       "agency": [
         "CIS"
       ],
-      "collection_group": "Sea Ice"
+      "collection_group": "C. Sea Ice"
     },
     {
       "rel": "child",
@@ -936,37 +787,25 @@
       "agency": [
         "DMI"
       ],
-      "collection_group": "Sea Ice"
+      "collection_group": "C. Sea Ice"
     },
     {
       "rel": "child",
-      "href": "./ice_concentration/collection.json",
+      "href": "./DEPTHO_sea_floor_depth_antarctica/collection.json",
       "type": "application/json",
-      "title": "Ice concentration",
-      "id": "ice_concentration",
+      "title": "Sea floor depth below geoid - Antarctica",
+      "id": "DEPTHO_sea_floor_depth_antarctica",
       "themes": [
-        "Shipping"
+        "Antarctica"
       ],
       "agency": [
-        "CMEMS"
+        "Mercator Ocean International "
       ],
-      "collection_group": "Sea Ice"
-    },
-    {
-      "rel": "child",
-      "href": "./sea_floor_depth_antarctica/collection.json",
-      "type": "application/json",
-      "title": "Sea floor depth below geoid",
-      "id": "sea_floor_depth_antarctica",
-      "themes": [
-        "Aquaculture",
-        "Energy",
-        "Shipping"
+      "collection_group": "L. Antarctica",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Static"
       ],
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Antarctica",
       "eodash:mapProjection": {
         "name": "EPSG:32761",
         "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
@@ -980,41 +819,22 @@
     },
     {
       "rel": "child",
-      "href": "./mean_sea_ice_age_antarctica/collection.json",
+      "href": "./SIVELO_sea_ice_speed_antarctica/collection.json",
       "type": "application/json",
-      "title": "Mean sea ice age Antarctica",
-      "id": "mean_sea_ice_age_antarctica",
+      "title": "Sea ice speed - Antarctica",
+      "id": "SIVELO_sea_ice_speed_antarctica",
       "themes": [
-        "Shipping"
+        "Antarctica"
       ],
+      "sensor": "Numerical model",
       "agency": [
-        "CMEMS"
+        "Mercator Ocean International "
       ],
-      "collection_group": "Antarctica",
-      "eodash:mapProjection": {
-        "name": "EPSG:32761",
-        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
-        "extent": [
-          -1371213.76,
-          -1405880.72,
-          5371213.76,
-          5405880.72
-        ]
-      }
-    },
-    {
-      "rel": "child",
-      "href": "./sea_ice_speed_antarctica/collection.json",
-      "type": "application/json",
-      "title": "Sea ice speed Antarctica",
-      "id": "sea_ice_speed_antarctica",
-      "themes": [
-        "Shipping"
+      "collection_group": "L. Antarctica",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
       ],
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Antarctica",
       "eodash:mapProjection": {
         "name": "EPSG:32761",
         "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
@@ -1030,63 +850,20 @@
       "rel": "child",
       "href": "./sea_ice_surface_temperature_antarctica/collection.json",
       "type": "application/json",
-      "title": "Sea ice surface temperature Antarctica",
+      "title": "Sea ice surface temperature - Antarctica",
       "id": "sea_ice_surface_temperature_antarctica",
       "themes": [
-        "Shipping"
+        "Antarctica"
       ],
+      "sensor": "Numerical model",
       "agency": [
-        "CMEMS"
+        "Mercator Ocean International"
       ],
-      "collection_group": "Antarctica",
-      "eodash:mapProjection": {
-        "name": "EPSG:32761",
-        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
-        "extent": [
-          -1371213.76,
-          -1405880.72,
-          5371213.76,
-          5405880.72
-        ]
-      }
-    },
-    {
-      "rel": "child",
-      "href": "./sea_ice_thickness_antarctica/collection.json",
-      "type": "application/json",
-      "title": "Sea ice thickness Antarctica",
-      "id": "sea_ice_thickness_antarctica",
-      "themes": [
-        "Shipping"
+      "collection_group": "L. Antarctica",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
       ],
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Antarctica",
-      "eodash:mapProjection": {
-        "name": "EPSG:32761",
-        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
-        "extent": [
-          -1371213.76,
-          -1405880.72,
-          5371213.76,
-          5405880.72
-        ]
-      }
-    },
-    {
-      "rel": "child",
-      "href": "./surface_snow_thickness_antarctica/collection.json",
-      "type": "application/json",
-      "title": "Surface snow thickness Antarctica",
-      "id": "surface_snow_thickness_antarctica",
-      "themes": [
-        "Shipping"
-      ],
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Antarctica",
       "eodash:mapProjection": {
         "name": "EPSG:32761",
         "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
@@ -1105,14 +882,12 @@
       "title": "Sentinel 1 EW HH Antarctica",
       "id": "Sentinel1-EW-HH_antarctica",
       "themes": [
-        "Energy",
-        "Aquaculture",
-        "Shipping"
+        "Antarctica"
       ],
       "agency": [
         "Sentinel Hub"
       ],
-      "collection_group": "Antarctica",
+      "collection_group": "L. Antarctica",
       "eodash:mapProjection": {
         "name": "EPSG:32761",
         "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
@@ -1131,14 +906,12 @@
       "title": "Sentinel 1 IW VV Antarctica",
       "id": "Sentinel1-IW-VV_antarctica",
       "themes": [
-        "Energy",
-        "Aquaculture",
-        "Shipping"
+        "Antarctica"
       ],
       "agency": [
         "Sentinel Hub"
       ],
-      "collection_group": "Antarctica",
+      "collection_group": "L. Antarctica",
       "eodash:mapProjection": {
         "name": "EPSG:32761",
         "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
@@ -1164,37 +937,7 @@
       "agency": [
         "Sentinel Hub"
       ],
-      "collection_group": "Satellite Data"
-    },
-    {
-      "rel": "child",
-      "href": "./NIC_Icecharts/collection.json",
-      "type": "application/json",
-      "title": "NIC Ice charts",
-      "id": "NIC_Icecharts",
-      "themes": [
-        "Aquaculture",
-        "Energy",
-        "Shipping"
-      ],
-      "providers": [
-        "U.S. NATIONAL ICE CENTER (USNIC)",
-        "EOX"
-      ],
-      "agency": [
-        "USNIC"
-      ],
-      "collection_group": "Sea Ice",
-      "eodash:mapProjection": {
-        "name": "EPSG:32761",
-        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
-        "extent": [
-          -1371213.76,
-          -1405880.72,
-          5371213.76,
-          5405880.72
-        ]
-      }
+      "collection_group": "B. Satellite Data"
     },
     {
       "rel": "child",
@@ -1250,7 +993,7 @@
       "agency": [
         "USNIC"
       ],
-      "collection_group": "Sea Ice",
+      "collection_group": "C. Sea Ice",
       "eodash:mapProjection": {
         "name": "EPSG:3413",
         "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
@@ -1260,16 +1003,20 @@
       "rel": "child",
       "href": "./sea_floor_depth_shores/collection.json",
       "type": "application/json",
-      "title": "Sea floor depth shores",
+      "title": "Sea floor depth - Shallow water",
       "id": "sea_floor_depth_shores",
       "themes": [
         "Aquaculture",
         "Energy"
       ],
       "agency": [
-        "CMEMS"
+        "Mercator Ocean International"
       ],
-      "collection_group": "Bathymetry"
+      "collection_group": "J. Bathymetry",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Static"
+      ]
     },
     {
       "rel": "self",

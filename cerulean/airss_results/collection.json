@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./airss_results/collection.json",
       "type": "application/json",
-      "title": "AIRSS Go or No-Go",
+      "title": "Canadian Arctic Ice Regime Shipping System (AIRSS)",
       "endpointtype": "FlatGeobuf source",
       "id": "airss_results",
       "themes": [
@@ -23,7 +23,7 @@
       "agency": [
         "Canadian Ice Service"
       ],
-      "collection_group": "Capabilities"
+      "collection_group": "A. Capabilities"
     },
     {
       "rel": "xyz",
@@ -118,9 +118,9 @@
   "agency": [
     "Canadian Ice Service"
   ],
-  "collection_group": "Capabilities",
+  "collection_group": "A. Capabilities",
   "eox:colorlegend": {
-    "title": "Is the vessel_type allowed to proceed?",
+    "title": "Risk Level",
     "range": [
       "#d9ef8b",
       "#a6d96a",
@@ -145,7 +145,7 @@
     "markType": "circle"
   },
   "merge_assets": false,
-  "title": "AIRSS Go or No-Go",
+  "title": "Canadian Arctic Ice Regime Shipping System (AIRSS)",
   "extent": {
     "spatial": {
       "bbox": [

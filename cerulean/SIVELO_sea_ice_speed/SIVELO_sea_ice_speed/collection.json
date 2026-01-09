@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:speed"
       },
-      "key": "06eb8de0-c6b0-4535-ac09-57bfcb8b4a34"
+      "key": "dd2f7662-f339-4144-8f44-2ab73ebf2c43"
     },
     {
       "rel": "parent",
@@ -41,7 +41,7 @@
   "agency": [
     "Mercator Ocean International"
   ],
-  "collection_group": "3. Sea Ice",
+  "collection_group": "C. Sea Ice",
   "sensor": "Numerical model",
   "otherSources": [
     "Numerical Model",

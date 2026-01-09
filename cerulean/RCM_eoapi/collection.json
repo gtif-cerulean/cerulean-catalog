@@ -25,7 +25,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "Satellite Data"
+      "collection_group": "B. Satellite Data"
     },
     {
       "rel": "child",
@@ -42,7 +42,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "Satellite Data"
+      "collection_group": "B. Satellite Data"
     },
     {
       "rel": "child",
@@ -59,7 +59,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "Satellite Data"
+      "collection_group": "B. Satellite Data"
     },
     {
       "rel": "xyz",
@@ -200,8 +200,8 @@
   "summaries": {
     "themes": [
       "Shipping",
-      "Energy",
-      "Aquaculture"
+      "Aquaculture",
+      "Energy"
     ]
   },
   "assets": {

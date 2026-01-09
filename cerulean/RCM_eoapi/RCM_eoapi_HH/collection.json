@@ -15,7 +15,7 @@
       "href": "https://eoapi.workspace.cif.hub-otc.eox.at/raster/collections/RCM/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=HH&colormap_name=gray&rescale=0,0.5",
       "type": "image/png",
       "title": "RCM scenes HH",
-      "key": "d1b98e71-a88a-4bdc-af29-05d170b425d5"
+      "key": "24d49e35-dd65-4b75-9a6b-9eb910a7850b"
     },
     {
       "rel": "parent",
@@ -32,7 +32,7 @@
   "agency": [
     "ESA"
   ],
-  "collection_group": "Satellite Data",
+  "collection_group": "B. Satellite Data",
   "eox:colorlegend": {
     "title": "HH sigma0",
     "range": [

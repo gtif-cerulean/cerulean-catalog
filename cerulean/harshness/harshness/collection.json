@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "harshness",
   "stac_version": "1.1.0",
-  "description": "This is an example of how the harshness calculation capability can be triggered and visualized within the dashboard.",
+  "description": "markdowns/harshnes.md",
   "links": [
     {
       "rel": "root",
@@ -25,7 +25,7 @@
   "agency": [
     "C-CORE"
   ],
-  "collection_group": "Capabilities",
+  "collection_group": "A. Capabilities",
   "endpointtype": "Collection-only",
   "title": "Harshness capability",
   "extent": {
@@ -42,7 +42,7 @@
     "temporal": {
       "interval": [
         [
-          "2026-01-09T08:57:58.919347Z",
+          "2026-01-09T12:45:43.794403Z",
           null
         ]
       ]

@@ -42,7 +42,7 @@
   "agency": [
     "ESA"
   ],
-  "collection_group": "Capabilities",
+  "collection_group": "A. Capabilities",
   "endpointtype": "GeoJSON source",
   "title": "Landslide Risk",
   "extent": {

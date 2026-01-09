@@ -25,7 +25,7 @@
       "agency": [
         "DMI"
       ],
-      "collection_group": "4. Icebergs",
+      "collection_group": "D. Icebergs",
       "sensor": "Satellite S1 IW",
       "otherSources": [
         "Numerical Model",
@@ -134,7 +134,7 @@
   "agency": [
     "DMI"
   ],
-  "collection_group": "4. Icebergs",
+  "collection_group": "D. Icebergs",
   "sensor": "Satellite S1 IW",
   "otherSources": [
     "Numerical Model",
@@ -180,7 +180,7 @@
       "interval": [
         [
           "2024-01-02T09:47:00Z",
-          "2026-01-08T09:56:00Z"
+          "2026-01-09T08:57:00Z"
         ]
       ]
     }
@@ -189,8 +189,8 @@
   "summaries": {
     "themes": [
       "Shipping",
-      "Energy",
-      "Aquaculture"
+      "Aquaculture",
+      "Energy"
     ],
     "sensor": [
       "Satellite S1 IW"

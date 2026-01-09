@@ -23,7 +23,7 @@
       "agency": [
         "Mercator Ocean International"
       ],
-      "collection_group": "5. Sea Water",
+      "collection_group": "E. Sea Water",
       "sensor": "Numerical model",
       "otherSources": [
         "Numerical Model",
@@ -130,7 +130,7 @@
   "agency": [
     "Mercator Ocean International"
   ],
-  "collection_group": "5. Sea Water",
+  "collection_group": "E. Sea Water",
   "sensor": "Numerical model",
   "otherSources": [
     "Numerical Model",
@@ -175,7 +175,7 @@
     "temporal": {
       "interval": [
         [
-          "2024-01-01T00:00:00Z",
+          "2022-11-01T00:00:00Z",
           "2026-01-18T00:00:00Z"
         ]
       ]

@@ -23,7 +23,7 @@
   "agency": [
     "Drift+Noise"
   ],
-  "collection_group": "Capabilities",
+  "collection_group": "A. Capabilities",
   "eodash:mapProjection": {
     "name": "EPSG:3413",
     "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
@@ -44,7 +44,7 @@
     "temporal": {
       "interval": [
         [
-          "2026-01-09T08:58:32.636831Z",
+          "2026-01-09T12:46:15.412700Z",
           null
         ]
       ]

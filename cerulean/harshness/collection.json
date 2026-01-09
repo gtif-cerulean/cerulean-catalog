@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "harshness",
   "stac_version": "1.1.0",
-  "description": "This is an example of how the harshness calculation capability can be triggered and visualized within the dashboard.",
+  "description": "markdowns/harshnes.md",
   "links": [
     {
       "rel": "root",
@@ -25,7 +25,7 @@
       "agency": [
         "C-CORE"
       ],
-      "collection_group": "Capabilities"
+      "collection_group": "A. Capabilities"
     },
     {
       "rel": "service",
@@ -131,7 +131,7 @@
   "agency": [
     "C-CORE"
   ],
-  "collection_group": "Capabilities",
+  "collection_group": "A. Capabilities",
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/harshness.json",
   "merge_assets": false,
   "title": "Harshness capability",
@@ -149,8 +149,8 @@
     "temporal": {
       "interval": [
         [
-          "2026-01-09T08:57:58.919347Z",
-          "2026-01-09T08:57:58.919347Z"
+          "2026-01-09T12:45:43.794403Z",
+          "2026-01-09T12:45:43.794403Z"
         ]
       ]
     }
@@ -159,8 +159,8 @@
   "summaries": {
     "themes": [
       "Shipping",
-      "Energy",
-      "Aquaculture"
+      "Aquaculture",
+      "Energy"
     ]
   },
   "assets": {

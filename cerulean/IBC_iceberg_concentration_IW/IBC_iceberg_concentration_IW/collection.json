@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:ice,range:0/1"
       },
-      "key": "4425e15c-9d31-4ba7-ad71-b0d949b28f34"
+      "key": "be9c8206-7569-4f00-82cf-baa15f9456d6"
     },
     {
       "rel": "parent",
@@ -41,7 +41,7 @@
   "agency": [
     "DMI"
   ],
-  "collection_group": "4. Icebergs",
+  "collection_group": "D. Icebergs",
   "sensor": "Satellite S1 IW",
   "otherSources": [
     "Numerical Model",
@@ -79,7 +79,7 @@
       "interval": [
         [
           "2024-01-02T09:47:00Z",
-          "2026-01-08T09:56:00Z"
+          "2026-01-09T08:57:00Z"
         ]
       ]
     }

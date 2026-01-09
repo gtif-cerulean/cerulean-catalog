@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "sea_ice_surface_temperature_antarctica",
   "stac_version": "1.1.0",
-  "description": "The Operational Mercator global ocean analysis and forecast system at 1/12 degree is providing 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time in order to reach a two full year’s time series sliding window.\nThis product includes daily and monthly mean files of temperature, salinity, currents, sea level, mixed layer depth and ice parameters from the top to the bottom over the global ocean. It also includes hourly mean surface fields for sea level height, temperature and currents. The global ocean output files are displayed with a 1/12 degree horizontal resolution with regular longitude/latitude equirectangular projection.\n50 vertical levels are ranging from 0 to 5500 meters.\nThis product also delivers a special dataset for surface current which also includes wave and tidal drift called SMOC (Surface merged Ocean Current).\n",
+  "description": "The global ocean analysis and forecast system provides 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time to provide a two-year time series sliding window. The output files are displayed with a 1/12 degree horizontal resolution.",
   "links": [
     {
       "rel": "root",
@@ -14,16 +14,21 @@
       "rel": "child",
       "href": "./sea_ice_surface_temperature_antarctica/collection.json",
       "type": "application/json",
-      "title": "Sea ice surface temperature Antarctica",
+      "title": "Sea ice surface temperature - Antarctica",
       "endpointtype": "marinedatastore_WMTSCapabilities",
       "id": "sea_ice_surface_temperature_antarctica",
       "themes": [
-        "Shipping"
+        "Antarctica"
       ],
       "agency": [
-        "CMEMS"
+        "Mercator Ocean International"
       ],
-      "collection_group": "Antarctica",
+      "collection_group": "L. Antarctica",
+      "sensor": "Numerical model",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ],
       "eodash:mapProjection": {
         "name": "EPSG:32761",
         "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
@@ -110,12 +115,17 @@
   ],
   "sci:doi": "10.48670/moi-00016",
   "themes": [
-    "Shipping"
+    "Antarctica"
   ],
   "agency": [
-    "CMEMS"
+    "Mercator Ocean International"
   ],
-  "collection_group": "Antarctica",
+  "collection_group": "L. Antarctica",
+  "sensor": "Numerical model",
+  "otherSources": [
+    "Spatial Resolution: 0.083° × 0.083°",
+    "Frequency: Daily"
+  ],
   "eodash:mapProjection": {
     "name": "EPSG:32761",
     "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
@@ -127,19 +137,14 @@
     ]
   },
   "eox:colorlegend": {
-    "title": "Sea ice surface temperature [degrees C]",
+    "title": "Sea ice surface temperature [°C]",
     "range": [
-      "rgba(68, 1, 84, 1)",
-      "rgba(72, 35, 116, 1)",
-      "rgba(64, 67, 135, 1)",
-      "rgba(52, 94, 141, 1)",
-      "rgba(41, 120, 142, 1)",
-      "rgba(32, 144, 140, 1)",
-      "rgba(34, 167, 132, 1)",
-      "rgba(68, 190, 112, 1)",
-      "rgba(121, 209, 81, 1)",
-      "rgba(189, 223, 38, 1)",
-      "rgba(253, 231, 37, 1)"
+      "rgb(68, 1, 84)",
+      "rgb(64, 67, 135)",
+      "rgb(41, 120, 142)",
+      "rgb(34, 167, 132)",
+      "rgb(121, 209, 81)",
+      "rgb(253, 231, 36)"
     ],
     "domain": [
       -27.37,
@@ -149,7 +154,7 @@
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/ist.json",
   "merge_assets": false,
-  "title": "Sea ice surface temperature Antarctica",
+  "title": "Sea ice surface temperature - Antarctica",
   "extent": {
     "spatial": {
       "bbox": [
@@ -164,7 +169,7 @@
     "temporal": {
       "interval": [
         [
-          "2024-01-01T00:00:00Z",
+          "2022-06-01T00:00:00Z",
           "2026-01-18T00:00:00Z"
         ]
       ]
@@ -173,7 +178,10 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Shipping"
+      "Antarctica"
+    ],
+    "sensor": [
+      "Numerical model"
     ]
   },
   "assets": {

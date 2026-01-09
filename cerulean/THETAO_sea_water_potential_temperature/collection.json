@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "THETAO_sea_water_potential_temperature",
   "stac_version": "1.1.0",
-  "description": "The Operational Mercator global ocean analysis and forecast system at 1/12 degree is providing 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time in order to reach a two full year’s time series sliding window.\nThis product includes daily and monthly mean files of temperature, salinity, currents, sea level, mixed layer depth and ice parameters from the top to the bottom over the global ocean. It also includes hourly mean surface fields for sea level height, temperature and currents. The global ocean output files are displayed with a 1/12 degree horizontal resolution with regular longitude/latitude equirectangular projection.\n50 vertical levels are ranging from 0 to 5500 meters.\nThis product also delivers a special dataset for surface current which also includes wave and tidal drift called SMOC (Surface merged Ocean Current).\n",
+  "description": "The global ocean analysis and forecast system provides 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time to provide a two-year time series sliding window. The output files are displayed with a 1/12 degree horizontal resolution.",
   "links": [
     {
       "rel": "root",
@@ -24,7 +24,7 @@
       "agency": [
         "Mercator Ocean International"
       ],
-      "collection_group": "Sea Water",
+      "collection_group": "E. Sea Water",
       "sensor": "Numerical model",
       "otherSources": [
         "Numerical Model",
@@ -132,12 +132,27 @@
   "agency": [
     "Mercator Ocean International"
   ],
-  "collection_group": "Sea Water",
+  "collection_group": "E. Sea Water",
   "sensor": "Numerical model",
   "otherSources": [
     "Numerical Model",
     "0.083° × 0.083°"
   ],
+  "eox:colorlegend": {
+    "title": "Sea water potential temperature [°C]",
+    "range": [
+      "rgb(3, 35, 51)",
+      "rgb(63, 51, 159)",
+      "rgb(138, 82, 140)",
+      "rgb(213, 107, 108)",
+      "rgb(251, 165, 60)",
+      "rgb(231, 250, 90)"
+    ],
+    "domain": [
+      -1.48,
+      2.95
+    ]
+  },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/thetao.json",
   "merge_assets": false,

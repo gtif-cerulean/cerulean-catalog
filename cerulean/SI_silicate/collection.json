@@ -23,7 +23,7 @@
       "agency": [
         "Mercator Ocean International"
       ],
-      "collection_group": "7. Water Chemistry",
+      "collection_group": "G. Water Chemistry",
       "sensor": "Numerical model",
       "otherSources": [
         "Spatial Resolution: 0.083° × 0.083°",
@@ -130,7 +130,7 @@
   "agency": [
     "Mercator Ocean International"
   ],
-  "collection_group": "7. Water Chemistry",
+  "collection_group": "G. Water Chemistry",
   "sensor": "Numerical model",
   "otherSources": [
     "Spatial Resolution: 0.083° × 0.083°",
