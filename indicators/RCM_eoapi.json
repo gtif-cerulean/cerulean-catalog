@@ -1,13 +1,13 @@
 {
   "Name": "RCM_eoapi",
   "Title": "RCM scenes",
-  "CollectionGroup": "Satellite Data",
+  "CollectionGroup": "B. Satellite Data",
   "Themes": [
     "Energy",
     "Aquaculture",
     "Shipping"
   ],
-  "Description": "B. RCM Data collection",
+  "Description": "RCM Data collection",
   "Collections": [
     "RCM_eoapi_mix",
     "RCM_eoapi_HH",
