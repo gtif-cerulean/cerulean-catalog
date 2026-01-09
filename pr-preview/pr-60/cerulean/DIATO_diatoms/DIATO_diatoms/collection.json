@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:algae"
       },
-      "key": "5e288a52-b538-41b1-9d74-97e4068a6493"
+      "key": "61f92e6a-2ea7-4ef6-ae8f-48fcfb1e3fbd"
     },
     {
       "rel": "parent",
@@ -43,7 +43,7 @@
   "sensor": "Satellite observations",
   "otherSources": [
     "Spatial Resolution: 4 × 4 km",
-    "Frequency: Daily"
+    "Frequency: Monthly"
   ],
   "eox:colorlegend": {
     "title": "Mass concentration of diatoms expressed as chlorophyll in sea water [mg/m^3]",

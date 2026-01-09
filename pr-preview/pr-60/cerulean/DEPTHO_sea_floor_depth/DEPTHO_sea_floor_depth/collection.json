@@ -21,9 +21,9 @@
       ],
       "wmts:dimensions": {
         "elevation": 0,
-        "style": "cmap:viridis"
+        "style": "cmap:dense"
       },
-      "key": "abaf7d55-b442-44d3-af91-768e38c19b53"
+      "key": "f35a9b18-4006-42bf-957c-4e65a98d5448"
     },
     {
       "rel": "parent",
@@ -48,12 +48,12 @@
   "eox:colorlegend": {
     "title": "Sea floor depth below geoid [m]",
     "range": [
-      "rgb(68, 1, 84)",
-      "rgb(64, 67, 135)",
-      "rgb(41, 120, 142)",
-      "rgb(34, 167, 132)",
-      "rgb(121, 209, 81)",
-      "rgb(253, 231, 36)"
+      "rgb(230, 240, 240)",
+      "rgb(149, 197, 226)",
+      "rgb(115, 144, 227)",
+      "rgb(120, 84, 186)",
+      "rgb(103, 35, 112)",
+      "rgb(54, 14, 36)"
     ],
     "domain": [
       0,

@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:algae"
       },
-      "key": "60658062-b40f-49bf-a335-90d9079e662e"
+      "key": "b202eaa2-d17b-4f3e-8980-fcb94e6898dd"
     },
     {
       "rel": "parent",
@@ -43,7 +43,7 @@
   "sensor": "Satellite observations",
   "otherSources": [
     "Spatial Resolution: 4 × 4 km",
-    "Frequency: Daily"
+    "Frequency: Monthly"
   ],
   "eox:colorlegend": {
     "title": "Mass concentration of picophytoplankton expressed as chlorophyll in sea water [mg/m^3]",

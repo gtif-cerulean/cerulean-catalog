@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:algae"
       },
-      "key": "da14b512-aa69-42e3-b44f-6a8fbff126cf"
+      "key": "354b2001-82d3-4f66-968e-456c51fd3718"
     },
     {
       "rel": "parent",
@@ -43,7 +43,7 @@
   "sensor": "Satellite observations",
   "otherSources": [
     "Spatial Resolution: 4 × 4 km",
-    "Frequency: Daily"
+    "Frequency: Monthly"
   ],
   "eox:colorlegend": {
     "title": "Mass concentration of prokaryotes expressed as chlorophyll in sea water [mg/m^3]",

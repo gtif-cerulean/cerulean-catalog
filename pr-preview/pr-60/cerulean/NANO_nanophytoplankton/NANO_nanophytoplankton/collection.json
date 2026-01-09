@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:algae"
       },
-      "key": "ad99b4d6-1d90-40a2-b177-d609fb9f511a"
+      "key": "02c8dd6c-7223-43d6-b9b7-02da575a41a0"
     },
     {
       "rel": "parent",
@@ -43,7 +43,7 @@
   "sensor": "Satellite observations",
   "otherSources": [
     "Spatial Resolution: 4 × 4 km",
-    "Frequency: Daily"
+    "Frequency: Monthly"
   ],
   "eox:colorlegend": {
     "title": "Mass concentration of nanophytoplankton expressed as chlorophyll in sea water [mg/m^3]",

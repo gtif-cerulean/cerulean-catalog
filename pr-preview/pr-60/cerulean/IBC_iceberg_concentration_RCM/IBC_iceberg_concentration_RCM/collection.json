@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "SITHICK_sea_ice_thickness",
+  "id": "IBC_iceberg_concentration_RCM",
   "stac_version": "1.1.0",
-  "description": "The global ocean analysis and forecast system provides 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time to provide a two-year time series sliding window. The output files are displayed with a 1/12 degree horizontal resolution.",
+  "description": "The iceberg product contains two datasets describing iceberg concentration as number of icebergs counted within 10x10 km grid cells; one derived from Sentinel 1 IW mode and the other from Radarsat Constellation Mission data. The iceberg concentration is derived by applying a Constant False Alarm Rate (CFAR) algorithm on data from Synthetic Aperture Radar (SAR) satellite sensors.",
   "links": [
     {
       "rel": "root",
@@ -12,43 +12,43 @@
     },
     {
       "rel": "wmts",
-      "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007/DMI-ARC-SEAICE_BERG_MOSAIC_IW-L4-NRT-OBS_202511",
       "type": "image/png",
       "title": "wmts capabilities",
-      "wmts:layer": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406/sithick",
+      "wmts:layer": "SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007/DMI-ARC-SEAICE_BERG_MOSAIC_IW-L4-NRT-OBS_202511/ibc",
       "role": [
         "data"
       ],
       "wmts:dimensions": {
         "elevation": 0,
-        "style": "cmap:ice"
+        "style": "cmap:ice,range:0/1"
       },
-      "key": "252e1ba1-35a2-40b3-8c64-fcb0cec95fc6"
+      "key": "98e32751-78fc-4d61-a62a-a364b418deae"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Sea ice thickness"
+      "title": "Number of icebergs per unit area (RCM)"
     }
   ],
-  "sci:doi": "10.48670/moi-00016",
+  "sci:doi": "10.48670/moi-00129",
   "themes": [
-    "Aquaculture",
+    "Shipping",
     "Energy",
-    "Shipping"
+    "Aquaculture"
   ],
   "agency": [
-    "Mercator Ocean International"
+    "DMI"
   ],
-  "collection_group": "C. Sea Ice",
-  "sensor": "Numerical model",
+  "collection_group": "D. Icebergs",
+  "sensor": "Satellite S1 IW",
   "otherSources": [
     "Numerical Model",
-    "0.083° × 0.083°"
+    "10 km x 10 km"
   ],
   "eox:colorlegend": {
-    "title": "Sea ice thickness [m]",
+    "title": "Number of icebergs per unit area (RCM) [#/100 km^2]",
     "range": [
       "rgb(3, 5, 18)",
       "rgb(48, 46, 95)",
@@ -59,27 +59,27 @@
     ],
     "domain": [
       0,
-      2
+      1
     ]
   },
   "endpointtype": "marinedatastore_WMTSCapabilities",
-  "title": "Sea ice thickness",
+  "title": "Number of icebergs per unit area (RCM)",
   "extent": {
     "spatial": {
       "bbox": [
         [
           -180.0,
-          -80.0,
-          179.91668701171875,
-          90.0
+          30.0,
+          179.8999999999795,
+          89.93999999999991
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2022-06-01T00:00:00Z",
-          "2026-01-18T00:00:00Z"
+          "2024-01-02T09:47:00Z",
+          "2026-01-09T08:57:00Z"
         ]
       ]
     }

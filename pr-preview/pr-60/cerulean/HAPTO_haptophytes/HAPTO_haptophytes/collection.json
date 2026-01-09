@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:algae"
       },
-      "key": "510f7e39-ffa5-4d77-8cfa-529b2236b139"
+      "key": "cc2c969d-a8e7-4c13-88d5-835eaa42ccc3"
     },
     {
       "rel": "parent",
@@ -43,7 +43,7 @@
   "sensor": "Satellite observations",
   "otherSources": [
     "Spatial Resolution: 4 × 4 km",
-    "Frequency: Daily"
+    "Frequency: Monthly"
   ],
   "eox:colorlegend": {
     "title": "Mass concentration of haptophytes expressed as chlorophyll in sea water [mg/m^3]",

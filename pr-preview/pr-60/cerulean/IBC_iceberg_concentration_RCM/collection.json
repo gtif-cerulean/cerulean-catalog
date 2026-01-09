@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "PHYC_phytoplankton",
+  "id": "IBC_iceberg_concentration_RCM",
   "stac_version": "1.1.0",
-  "description": "The biogeochemical global ocean analysis and forecast system provides 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time to provide a two-year time series sliding window. The product includes daily biogeochemical parameters (chlorophyll, nitrate, phosphate, silicate, dissolved oxygen, dissolved iron, primary production, phytoplankton, zooplankton, PH, and surface partial pressure of carbon dioxyde) over the global ocean. The output files are displayed with a 1/4 degree horizontal resolution.",
+  "description": "The iceberg product contains two datasets describing iceberg concentration as number of icebergs counted within 10x10 km grid cells; one derived from Sentinel 1 IW mode and the other from Radarsat Constellation Mission data. The iceberg concentration is derived by applying a Constant False Alarm Rate (CFAR) algorithm on data from Synthetic Aperture Radar (SAR) satellite sensors.",
   "links": [
     {
       "rel": "root",
@@ -12,27 +12,29 @@
     },
     {
       "rel": "child",
-      "href": "./PHYC_phytoplankton/collection.json",
+      "href": "./IBC_iceberg_concentration_RCM/collection.json",
       "type": "application/json",
-      "title": "Mole concentration of phytoplankton expressed as carbon in sea water",
+      "title": "Number of icebergs per unit area (RCM)",
       "endpointtype": "marinedatastore_WMTSCapabilities",
-      "id": "PHYC_phytoplankton",
+      "id": "IBC_iceberg_concentration_RCM",
       "themes": [
+        "Shipping",
+        "Energy",
         "Aquaculture"
       ],
       "agency": [
-        "Mercator Ocean International"
+        "DMI"
       ],
-      "collection_group": "G. Water Chemistry",
-      "sensor": "Numerical model",
+      "collection_group": "D. Icebergs",
+      "sensor": "Satellite S1 IW",
       "otherSources": [
-        "Spatial Resolution: 0.083° × 0.083°",
-        "Frequency: Daily"
+        "Numerical Model",
+        "10 km x 10 km"
       ]
     },
     {
       "rel": "service",
-      "href": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_mod_glo_bgc-pft_anfc_0.25deg_P1D-m&variables=phyc&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
+      "href": "https://cmems.gtif.eox.at/cmems?dataset_id=DMI-ARC-SEAICE_BERG_MOSAIC-L4-NRT-OBS&variables=ibc&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
       "type": "application/json",
       "id": "process_cmems",
       "method": "GET"
@@ -123,60 +125,62 @@
       "title": "Cerulean GTIF project catalog"
     }
   ],
-  "sci:doi": "10.48670/moi-00015",
+  "sci:doi": "10.48670/moi-00129",
   "themes": [
+    "Shipping",
+    "Energy",
     "Aquaculture"
   ],
   "agency": [
-    "Mercator Ocean International"
+    "DMI"
   ],
-  "collection_group": "G. Water Chemistry",
-  "sensor": "Numerical model",
+  "collection_group": "D. Icebergs",
+  "sensor": "Satellite S1 IW",
   "otherSources": [
-    "Spatial Resolution: 0.083° × 0.083°",
-    "Frequency: Daily"
+    "Numerical Model",
+    "10 km x 10 km"
   ],
   "eox:colorlegend": {
-    "title": "Mole concentration of phytoplankton expressed as carbon in sea water [mmol/m^3]",
+    "title": "Number of icebergs per unit area (RCM) [#/100 km^2]",
     "range": [
-      "rgb(253, 237, 176)",
-      "rgb(245, 166, 114)",
-      "rgb(226, 97, 82)",
-      "rgb(179, 46, 94)",
-      "rgb(114, 25, 95)",
-      "rgb(47, 15, 61)"
+      "rgb(3, 5, 18)",
+      "rgb(48, 46, 95)",
+      "rgb(62, 93, 168)",
+      "rgb(82, 149, 192)",
+      "rgb(140, 203, 213)",
+      "rgb(234, 252, 253)"
     ],
     "domain": [
-      0.01,
-      3.73
+      0,
+      1
     ]
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/phyc.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/ibc.json",
   "merge_assets": false,
-  "title": "Mole concentration of phytoplankton expressed as carbon in sea water",
+  "title": "Number of icebergs per unit area (RCM)",
   "extent": {
     "spatial": {
       "bbox": [
         [
           -180.0,
-          -80.0,
-          179.75,
-          90.0
+          30.0,
+          179.8999999999795,
+          89.93999999999991
         ],
         [
           -180.0,
-          -80.0,
-          179.75,
-          90.0
+          30.0,
+          179.8999999999795,
+          89.93999999999991
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2021-11-01T00:00:00Z",
-          "2026-01-18T00:00:00Z"
+          "2024-01-02T09:47:00Z",
+          "2026-01-09T08:57:00Z"
         ]
       ]
     }
@@ -184,10 +188,12 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Aquaculture"
+      "Aquaculture",
+      "Shipping",
+      "Energy"
     ],
     "sensor": [
-      "Numerical model"
+      "Satellite S1 IW"
     ]
   },
   "assets": {

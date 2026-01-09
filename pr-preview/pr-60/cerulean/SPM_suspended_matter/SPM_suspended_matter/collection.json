@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:dense"
       },
-      "key": "32f99c02-95b1-468c-afb3-5e65c378d30d"
+      "key": "36cd2bac-fef9-4722-90de-76cacc9aedbe"
     },
     {
       "rel": "parent",
@@ -43,7 +43,7 @@
   "sensor": "Satellite observations",
   "otherSources": [
     "Spatial Resolution: 4 × 4 km",
-    "Frequency: Daily"
+    "Frequency: Monthly"
   ],
   "eox:colorlegend": {
     "title": "Mass concentration of suspended matter in sea water [g/m^3]",

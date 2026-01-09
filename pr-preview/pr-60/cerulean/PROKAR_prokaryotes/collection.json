@@ -27,7 +27,7 @@
       "sensor": "Satellite observations",
       "otherSources": [
         "Spatial Resolution: 4 × 4 km",
-        "Frequency: Daily"
+        "Frequency: Monthly"
       ]
     },
     {
@@ -134,7 +134,7 @@
   "sensor": "Satellite observations",
   "otherSources": [
     "Spatial Resolution: 4 × 4 km",
-    "Frequency: Daily"
+    "Frequency: Monthly"
   ],
   "eox:colorlegend": {
     "title": "Mass concentration of prokaryotes expressed as chlorophyll in sea water [mg/m^3]",

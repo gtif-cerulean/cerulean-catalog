@@ -12,6 +12,27 @@
     },
     {
       "rel": "child",
+      "href": "./IBC_iceberg_concentration_RCM/collection.json",
+      "type": "application/json",
+      "title": "Number of icebergs per unit area (RCM)",
+      "id": "IBC_iceberg_concentration_RCM",
+      "themes": [
+        "Shipping",
+        "Energy",
+        "Aquaculture"
+      ],
+      "sensor": "Satellite S1 IW",
+      "agency": [
+        "DMI"
+      ],
+      "collection_group": "D. Icebergs",
+      "otherSources": [
+        "Numerical Model",
+        "10 km x 10 km"
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./SICONC_sea_ice_concentration_Baltic/collection.json",
       "type": "application/json",
       "title": "Sea ice area fraction - Baltic Sea",
@@ -244,7 +265,7 @@
       "collection_group": "F. Water Biology",
       "otherSources": [
         "Spatial Resolution: 4 × 4 km",
-        "Frequency: Daily"
+        "Frequency: Monthly"
       ]
     },
     {
@@ -1115,7 +1136,7 @@
       "collection_group": "F. Water Biology",
       "otherSources": [
         "Spatial Resolution: 4 × 4 km",
-        "Frequency: Daily"
+        "Frequency: Monthly"
       ]
     },
     {
@@ -1134,7 +1155,7 @@
       "collection_group": "F. Water Biology",
       "otherSources": [
         "Spatial Resolution: 4 × 4 km",
-        "Frequency: Daily"
+        "Frequency: Monthly"
       ]
     },
     {
@@ -1153,7 +1174,7 @@
       "collection_group": "F. Water Biology",
       "otherSources": [
         "Spatial Resolution: 4 × 4 km",
-        "Frequency: Daily"
+        "Frequency: Monthly"
       ]
     },
     {
@@ -1172,7 +1193,7 @@
       "collection_group": "F. Water Biology",
       "otherSources": [
         "Spatial Resolution: 4 × 4 km",
-        "Frequency: Daily"
+        "Frequency: Monthly"
       ]
     },
     {
@@ -1191,7 +1212,7 @@
       "collection_group": "F. Water Biology",
       "otherSources": [
         "Spatial Resolution: 4 × 4 km",
-        "Frequency: Daily"
+        "Frequency: Monthly"
       ]
     },
     {
@@ -1238,7 +1259,7 @@
       "collection_group": "F. Water Biology",
       "otherSources": [
         "Spatial Resolution: 4 × 4 km",
-        "Frequency: Daily"
+        "Frequency: Monthly"
       ]
     },
     {
@@ -1257,7 +1278,7 @@
       "collection_group": "F. Water Biology",
       "otherSources": [
         "Spatial Resolution: 4 × 4 km",
-        "Frequency: Daily"
+        "Frequency: Monthly"
       ]
     },
     {
@@ -1276,7 +1297,7 @@
       "collection_group": "F. Water Biology",
       "otherSources": [
         "Spatial Resolution: 4 × 4 km",
-        "Frequency: Daily"
+        "Frequency: Monthly"
       ]
     },
     {
@@ -1401,7 +1422,7 @@
       "collection_group": "F. Water Biology",
       "otherSources": [
         "Spatial Resolution: 4 × 4 km",
-        "Frequency: Daily"
+        "Frequency: Monthly"
       ]
     },
     {
