@@ -20,12 +20,12 @@
   "Colorlegend": {
     "title": "Sea floor depth below geoid [m]",
     "range": [
-      "rgb(68, 1, 84)",
-      "rgb(64, 67, 135)",
-      "rgb(41, 120, 142)",
-      "rgb(34, 167, 132)",
-      "rgb(121, 209, 81)",
-      "rgb(253, 231, 36)"
+     "rgb(230, 240, 240)",
+      "rgb(149, 197, 226)",
+      "rgb(115, 144, 227)",
+      "rgb(120, 84, 186)",
+      "rgb(103, 35, 112)",
+      "rgb(54, 14, 36)"
     ],
     "domain": [
       0,
@@ -46,7 +46,7 @@
       ],
       "Dimensions": {
         "elevation": 0,
-        "style": "cmap:viridis,range:0/150"
+        "style": "cmap:dense,range:0/150"
       }
     }
   ]

@@ -1,9 +1,10 @@
 {
-  "Name": "THETAO_sea_water_potential_temperature",
-  "Title": "Sea water potential temperature",
+  "Name": "Sea_water_velocity",
+  "Title": "Sea water velocity",
   "Description": "The global ocean analysis and forecast system provides 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time to provide a two-year time series sliding window. The output files are displayed with a 1/12 degree horizontal resolution.",
   "Themes": [
     "Aquaculture",
+    "Energy",
     "Shipping"
   ],
   "CollectionGroup": "E. Sea Water",
@@ -18,14 +19,14 @@
     "Mercator Ocean International"
   ],
    "Colorlegend": {
-    "title": "Sea water potential temperature [°C]",
+    "title": "Sea water velocity [m/s]",
     "range": [
-     "rgb(3, 35, 51)",
-      "rgb(63, 51, 159)",
-      "rgb(138, 82, 140)",
-      "rgb(213, 107, 108)",
-      "rgb(251, 165, 60)",
-      "rgb(231, 250, 90)"
+     "rgb(254, 252, 205)",
+      "rgb(216, 196, 95)",
+      "rgb(141, 161, 11)",
+      "rgb(50, 128, 30)",
+      "rgb(15, 83, 44)",
+      "rgb(23, 35, 18)"
     ],
     "domain": [
       -1.48,
@@ -39,21 +40,21 @@
       "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy-thetao_anfc_0.083deg_P1D-m_202406",
       "Type": "WMTSCapabilities",
       "Name": "marinedatastore",
-      "LayerId": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy-thetao_anfc_0.083deg_P1D-m_202406/thetao",
+      "LayerId": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy-cur_anfc_0.083deg_P1D-m_202406/sea_water_velocity",
       "Query": {
         "Start": "2021-06-01T00:00:00Z",
         "End": "2025-01-05T00:00:00Z"
       },
       "Dimensions": {
         "elevation": 0,
-        "style": "cmap:thermal,range:-3/30"
+        "style": "cmap:speed"
       }
     }
   ],
   "Process": {
     "Name": "process_cmems",
     "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
-    "VegaDefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/thetao.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/sea_water_velocity.json",
     "EndPoints": [
       {
         "Identifier": "process_cmems",
