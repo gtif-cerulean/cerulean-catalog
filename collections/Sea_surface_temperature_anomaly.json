@@ -5,7 +5,7 @@
   "Themes": [
     "Aquaculture"
   ],
-  "CollectionGroup": "5. Sea Water",
+  "CollectionGroup": "E. Sea Water",
   "DataSource": {
     "Spaceborne": {"Sensor": "Numerical model"},
     "Other": [
@@ -41,7 +41,7 @@
       "Name": "marinedatastore",
       "LayerId": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg-sst-anomaly_P1D-m_202411/sea_surface_temperature_anomaly",
       "Query": {
-        "Start": "2024-01-01T00:00:00Z",
+        "Start": "2021-01-01T00:00:00Z",
         "End": "2030-01-01T00:00:00Z"
       },
       "Dimensions": {

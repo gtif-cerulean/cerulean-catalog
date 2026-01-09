@@ -1,7 +1,7 @@
 {
     "Name": "RCM_eoapi_mix",
     "Title": "RCM scenes rendering HH/HV",
-    "CollectionGroup": "Satellite Data",
+    "CollectionGroup": "B. Satellite Data",
     "Themes": ["Energy", "Aquaculture", "Shipping"],
     "Description": "RCM Data collection",
     "Resources": [

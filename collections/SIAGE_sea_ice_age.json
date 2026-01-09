@@ -5,7 +5,7 @@
   "Themes": [
     "Shipping"
   ],
-  "CollectionGroup": "3. Sea Ice",
+  "CollectionGroup": "C. Sea Ice",
   "DataSource": {
     "Spaceborne": {"Sensor": "Numerical model"},
     "Other": [
@@ -14,17 +14,17 @@
     ]
   },
     "Agency": [
-    "Mercator Ocean International"
+    "Mercator Ocean International "
     ],
     "Colorlegend": {
     "title": "Age of sea ice [years]",
     "range": [
-      "rgb(68, 1, 84)",
-      "rgb(64, 67, 135)",
-      "rgb(41, 120, 142)",
-      "rgb(34, 167, 132)",
+      "rgb(253, 231, 36)",
       "rgb(121, 209, 81)",
-      "rgb(253, 231, 36)"
+      "rgb(34, 167, 132)",
+      "rgb(41, 120, 142)",
+      "rgb(64, 67, 135)",
+      "rgb(68, 1, 84)"
     ],
     "domain": [
       0,

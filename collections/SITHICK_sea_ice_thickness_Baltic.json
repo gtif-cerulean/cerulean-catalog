@@ -1,22 +1,19 @@
 {
-  "Name": "SITHICK_sea_ice_thickness",
-  "Title": "Sea ice thickness",
-  "Description": "The global ocean analysis and forecast system provides 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time to provide a two-year time series sliding window. The output files are displayed with a 1/12 degree horizontal resolution.",
+  "Name": "SITHICK_sea_ice_thickness_Baltic",
+  "Title": "Sea ice thickness - Baltic Sea",
+  "Description": "The physical model provides forecasts for the conditions in the Baltic Sea. The forecast is for 10 days. Several datasets are provided: ice concentration and thickness, temperature, salinity, and currents. The product is produced by a Baltic Sea set up of the NEMOv4.2.1 ocean model. The ocean model is forced with Stokes drift data from the Baltic Sea Wave forecast product. Satellite SST, sea ice concentrations and in-situ T and S profiles are assimilated into the model's analysis field.",
   "Themes": [
-    "Aquaculture",
-    "Energy",
-    "Shipping"
+    "Baltic Sea"
   ],
-  "CollectionGroup": "C. Sea Ice",
-  "DataSource": {
-    "Spaceborne": {"Sensor": "Numerical model"},
+  "CollectionGroup": "K. Baltic Sea",
+    "DataSource": {
+    "Spaceborne": {"Sensor": "Numerical models"},
     "Other": [
-      "Numerical Model",
-      "0.083° × 0.083°"
+      "Spatial Resolution: 2 × 2 km",
+      "Frequency: Daily "
     ]
-  },
-  "Agency": [
-    "Mercator Ocean International"
+  },"Agency": [
+    "SMHI"
   ],
   "Colorlegend": {
     "title": "Sea ice thickness [m]",
@@ -29,27 +26,25 @@
       "rgb(234, 252, 253)"
     ],
     "domain": [
-      0,
-      2
+     0,
+      100
     ]
   },
   "Citation": {
-    "DOI": "10.48670/moi-00016"
+    "DOI": "10.48670/moi-00010"
   },
   "Resources": [
     {
-      "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406",
-      "Type": "WMTSCapabilities",
+      "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411",
       "Name": "marinedatastore",
-      "LayerId": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406/sithick",
-      "Query": {
+      "Type": "WMTSCapabilities",
+      "LayerId": "BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411/sithick",
+       "Query": {
         "Start": "2021-01-01T00:00:00Z",
         "End": "2030-01-01T00:00:00Z"
       },
-      "Dimensions": {
-        "elevation": 0,
-        "style": "cmap:ice"
-      }
+      "Variable": "",
+      "Dimensions": {}
     }
   ],
   "Process": {

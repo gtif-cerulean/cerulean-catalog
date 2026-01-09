@@ -7,7 +7,7 @@
     "Energy",
     "Aquaculture"
   ],
-  "CollectionGroup": "3. Sea Ice",
+  "CollectionGroup": "C. Sea Ice",
   "DataSource": {
     "Spaceborne": {"Sensor": "Numerical model"},
     "Other": [
@@ -16,7 +16,7 @@
     ]
     },
     "Agency": [
-    "Mercator Ocean International"
+    "Mercator Ocean International "
   ],
   "Colorlegend": {
     "title": "Sea ice surface temperature [°C]",

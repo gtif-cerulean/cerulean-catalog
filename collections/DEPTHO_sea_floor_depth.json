@@ -6,7 +6,7 @@
     "Aquaculture",
     "Energy"
   ],
-  "CollectionGroup": "10. Bathymetry",
+  "CollectionGroup": "J. Bathymetry",
   "DataSource": {
     "Spaceborne": {"Sensor": ""},
     "Other": [
@@ -15,17 +15,17 @@
     ]
   },
   "Agency": [
-    "Mercator Ocean International"
+    "Mercator Ocean International "
   ],
   "Colorlegend": {
     "title": "Sea floor depth below geoid [m]",
     "range": [
-      "rgb(0, 127, 0)",
-      "rgb(0, 50, 51)",
-      "rgb(0, 25, 102)",
-      "rgb(0, 101, 153)",
-      "rgb(102, 178, 204)",
-      "rgb(255, 255, 255)"
+     "rgb(230, 240, 240)",
+      "rgb(149, 197, 226)",
+      "rgb(115, 144, 227)",
+      "rgb(120, 84, 186)",
+      "rgb(103, 35, 112)",
+      "rgb(54, 14, 36)"
     ],
     "domain": [
       0,
@@ -46,7 +46,7 @@
       ],
       "Dimensions": {
         "elevation": 0,
-        "style": "cmap:ocean"
+        "style": "cmap:dense"
       }
     }
   ],
