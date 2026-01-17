@@ -176,7 +176,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2026-01-16T00:00:00Z"
+          "2026-01-17T00:00:00Z"
         ]
       ]
     }
@@ -185,8 +185,8 @@
   "summaries": {
     "themes": [
       "Shipping",
-      "Aquaculture",
-      "Energy"
+      "Energy",
+      "Aquaculture"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
