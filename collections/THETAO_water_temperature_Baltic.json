@@ -26,8 +26,8 @@
       "rgb(231, 250, 90)"
     ],
     "domain": [
-     0,
-      100
+     2.8,
+      10.2
     ]
   },
   "Citation": {
@@ -56,7 +56,7 @@
     "EndPoints": [
       {
         "Identifier": "process_cmems",
-        "Url": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_mod_bal_phy_anfc_P1D-m_202411&variables=thetao&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
+        "Url": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_mod_bal_phy_anfc_P1D-m&variables=thetao&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
         "Type": "application/json"
       }
     ]

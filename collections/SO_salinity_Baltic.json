@@ -1,6 +1,6 @@
 {
   "Name": "SO_salinity_Baltic",
-  "Title": "Sea water potential temperature - Baltic Sea",
+  "Title": "Sea water salinity - Baltic Sea",
   "Description": "The physical model provides forecasts for the conditions in the Baltic Sea. The forecast is for 10 days. Several datasets are provided: ice concentration and thickness, temperature, salinity, and currents. The product is produced by a Baltic Sea set up of the NEMOv4.2.1 ocean model. The ocean model is forced with Stokes drift data from the Baltic Sea Wave forecast product. Satellite SST, sea ice concentrations and in-situ T and S profiles are assimilated into the model's analysis field.",
   "Themes": [
     "Baltic Sea"

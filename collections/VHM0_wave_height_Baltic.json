@@ -1,6 +1,6 @@
 {
   "Name": "VHM0_wave_height_Baltic",
-  "Title": "Sea surface wave significant wave height - Baltic Sea",
+  "Title": "Sea surface wave significant height - Baltic Sea",
   "Description": "The wave model multiyear product provides a hindcast for the monthly climatology of significant wave height and wave period in the Baltic Sea. The product is based on the wave model WAM cycle 4.7 and surface forcing from ECMWF's ERA5 reanalysis products.",
   "Themes": [
     "Baltic Sea"
