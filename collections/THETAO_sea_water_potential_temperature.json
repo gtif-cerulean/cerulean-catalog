@@ -10,8 +10,8 @@
   "DataSource": {
     "Spaceborne": {"Sensor": "Numerical model"},
     "Other": [
-      "Numerical Model",
-      "0.083° × 0.083°"
+      "Spatial Resolution: 0.083° x 0.083°",
+      "Frequency: Daily"
     ]
   },
   "Agency": [

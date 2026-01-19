@@ -11,8 +11,8 @@
   "DataSource": {
     "Spaceborne": {"Sensor": "Satellite S1 IW"},
     "Other": [
-      "Numerical Model",
-      "10 km x 10 km"
+      "Spatial Resolution: 10 km x 10 km",
+      "Frequency: Daily"
     ]
   },"Agency": [
     "DMI"
@@ -42,7 +42,7 @@
       "Name": "marinedatastore",
       "LayerId": "SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007/DMI-ARC-SEAICE_BERG_MOSAIC_IW-L4-NRT-OBS_202511/ibc",
       "Query": {
-        "Start": "2024-01-01T00:00:00Z",
+        "Start": "2021-01-01T00:00:00Z",
         "End": "2030-01-01T00:00:00Z"
       },
       "Dimensions": {
