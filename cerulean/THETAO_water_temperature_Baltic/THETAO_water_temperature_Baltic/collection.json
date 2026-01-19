@@ -22,7 +22,7 @@
       "wmts:dimensions": {
         "style": "cmap:thermal"
       },
-      "key": "d9b8f605-19c1-4a87-8bc1-f238bb883a7b"
+      "key": "c3bd7977-69de-4163-8712-83f5300d1db0"
     },
     {
       "rel": "parent",
@@ -55,8 +55,8 @@
       "rgb(231, 250, 90)"
     ],
     "domain": [
-      0,
-      100
+      2.8,
+      10.2
     ]
   },
   "endpointtype": "marinedatastore_WMTSCapabilities",

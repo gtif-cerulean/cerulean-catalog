@@ -1271,7 +1271,7 @@
       "rel": "child",
       "href": "./SO_salinity_Baltic/collection.json",
       "type": "application/json",
-      "title": "Sea water potential temperature - Baltic Sea",
+      "title": "Sea water salinity - Baltic Sea",
       "id": "SO_salinity_Baltic",
       "themes": [
         "Baltic Sea"
@@ -1402,7 +1402,7 @@
       "rel": "child",
       "href": "./VHM0_wave_height_Baltic/collection.json",
       "type": "application/json",
-      "title": "Sea surface wave significant wave height - Baltic Sea",
+      "title": "Sea surface wave significant height - Baltic Sea",
       "id": "VHM0_wave_height_Baltic",
       "themes": [
         "Baltic Sea"

@@ -23,13 +23,13 @@
         "elevation": 0,
         "style": "cmap:haline"
       },
-      "key": "f2f0faca-51c1-4ff3-b260-c5ddc6aa3d66"
+      "key": "7a2dfb76-06d8-41c0-b744-42b90f5037b2"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Sea water potential temperature - Baltic Sea"
+      "title": "Sea water salinity - Baltic Sea"
     }
   ],
   "sci:doi": "10.48670/moi-00016",
@@ -61,7 +61,7 @@
     ]
   },
   "endpointtype": "marinedatastore_WMTSCapabilities",
-  "title": "Sea water potential temperature - Baltic Sea",
+  "title": "Sea water salinity - Baltic Sea",
   "extent": {
     "spatial": {
       "bbox": [

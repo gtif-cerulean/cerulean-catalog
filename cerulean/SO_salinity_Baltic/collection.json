@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./SO_salinity_Baltic/collection.json",
       "type": "application/json",
-      "title": "Sea water potential temperature - Baltic Sea",
+      "title": "Sea water salinity - Baltic Sea",
       "endpointtype": "marinedatastore_WMTSCapabilities",
       "id": "SO_salinity_Baltic",
       "themes": [
@@ -154,7 +154,7 @@
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/so.json",
   "merge_assets": false,
-  "title": "Sea water potential temperature - Baltic Sea",
+  "title": "Sea water salinity - Baltic Sea",
   "extent": {
     "spatial": {
       "bbox": [

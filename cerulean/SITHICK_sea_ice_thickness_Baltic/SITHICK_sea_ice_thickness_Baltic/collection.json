@@ -19,7 +19,7 @@
       "role": [
         "data"
       ],
-      "key": "e8305fbd-8f38-4f75-b44d-c360ce741b87"
+      "key": "2ea37613-2f1a-49a3-ba5e-d720648c8a12"
     },
     {
       "rel": "parent",
@@ -53,7 +53,7 @@
     ],
     "domain": [
       0,
-      100
+      1.25
     ]
   },
   "endpointtype": "marinedatastore_WMTSCapabilities",

@@ -23,13 +23,13 @@
         "elevation": 0,
         "style": "cmap:amp"
       },
-      "key": "fbb33318-8fcd-4c55-b581-5c5d0960f325"
+      "key": "793caec5-fcb2-4781-8a92-c2481b3f73f9"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Sea surface wave significant wave height - Baltic Sea"
+      "title": "Sea surface wave significant height - Baltic Sea"
     }
   ],
   "sci:doi": "10.48670/moi-00014",
@@ -61,7 +61,7 @@
     ]
   },
   "endpointtype": "marinedatastore_WMTSCapabilities",
-  "title": "Sea surface wave significant wave height - Baltic Sea",
+  "title": "Sea surface wave significant height - Baltic Sea",
   "extent": {
     "spatial": {
       "bbox": [
@@ -77,7 +77,7 @@
       "interval": [
         [
           "1970-01-01T00:00:00Z",
-          "2026-01-19T20:49:15.163945Z"
+          "2026-01-19T21:21:41.939305Z"
         ]
       ]
     }

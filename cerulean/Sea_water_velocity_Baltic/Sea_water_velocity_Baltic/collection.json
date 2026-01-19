@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:speed"
       },
-      "key": "941437dd-d50c-4194-9887-7e79c133d8c2"
+      "key": "c90f07f6-2c9c-46a5-bd4a-832d96144218"
     },
     {
       "rel": "parent",
@@ -56,8 +56,8 @@
       "rgb(23, 35, 18)"
     ],
     "domain": [
-      30,
-      36.8
+      0,
+      0.5
     ]
   },
   "endpointtype": "marinedatastore_WMTSCapabilities",
