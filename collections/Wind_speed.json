@@ -1,0 +1,67 @@
+{
+  "Name": "Wind_speed",
+  "Title": "Wind speed",
+  "Description": "The Global Ocean product contains monthly Level-4 sea surface wind fields at 0.25 degrees horizontal spatial resolution. The monthly averaged wind fields are based on monthly average ECMWF ERA5 reanalysis fields, corrected for persistent biases using all available Level-3 scatterometer observations from the Metop-A, Metop-B and Metop-C ASCAT, QuikSCAT SeaWinds and ERS-1 and ERS-2 SCAT satellite instruments.",
+  "Themes": [
+    "Aquaculture",
+    "Shipping",
+    "Energy"
+  ],
+  "CollectionGroup": "I. Wind",
+  "DataSource": {
+    "Spaceborne": {"Sensor": "Satellite Observations"},
+    "Other": [
+      "Spatial Resolution: 0.25° × 0.25°",
+      "Frequency: Monthly"
+    ]
+  },
+  "Agency": [
+    "Mercator Ocean International"
+  ],
+  "Colorlegend": {
+    "title": "Wind speed [m/s]",
+    "range": [
+      "rgb(254, 252, 205)",
+      "rgb(216, 196, 95)",
+      "rgb(141, 161, 11)",
+      "rgb(50, 128, 30)",
+      "rgb(15, 83, 44)",
+      "rgb(23, 35, 18)"
+    ],
+    "domain": [
+      1.12,
+      15.37
+    ]
+  },
+  "Citation": {
+    "DOI": "10.48670/moi-00181"
+  },
+  "Resources": [
+    {
+      "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/WIND_GLO_PHY_CLIMATE_L4_MY_012_003/cmems_obs-wind_glo_phy_my_l4_P1M_202411",
+      "Type": "WMTSCapabilities",
+      "Name": "marinedatastore",
+      "LayerId": "WIND_GLO_PHY_CLIMATE_L4_MY_012_003/cmems_obs-wind_glo_phy_my_l4_P1M_202411/wind_speed",
+      "Query": {
+        "Start": "2021-01-01T00:00:00Z",
+        "End": "2030-01-01T00:00:00Z"
+      },
+      "Dimensions": {
+        "elevation": 0,
+        "style": "cmap:speed"
+      }
+    }
+  ],
+  "Process": {
+    "Name": "process_cmems",
+    "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/wind_speed.json",
+    "EndPoints": [
+      {
+        "Identifier": "process_cmems",
+        "Url": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_obs-wind_glo_phy_my_l4_P1M_202411&variables=wind_speed&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
+        "Type": "application/json"
+      }
+    ]
+  }
+}

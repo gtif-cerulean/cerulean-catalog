@@ -1,0 +1,67 @@
+{
+  "Name": "VHM0_wave_height",
+  "Title": "Sea surface wave significant height",
+  "Description": "The product is based on the MFWAM model, a third generation wave model that calculates the wave spectrum. i.e. the distribution of sea state energy in frequency and direction on a 1/5° irregular grid. Average wave quantities derived from this wave spectrum  are delivered on a regular 1/5° grid.  The product takes into account oceanic currents from the GLORYS12 physical ocean reanalysis and assimilates SWH observed from historical altimetry missions and directional wave spectra from Sentinel 1 SAR from 2017 onwards.",
+  "Themes": [
+    "Aquaculture",
+    "Shipping",
+    "Energy"
+  ],
+  "CollectionGroup": "H. Waves",
+  "DataSource": {
+    "Spaceborne": {"Sensor": "Numerical models"},
+    "Other": [
+      "Spatial Resolution: 0.2° × 0.2°",
+      "Frequency: Monthly"
+    ]
+  },
+  "Agency": [
+    "Mercator Ocean International"
+  ],
+  "Colorlegend": {
+    "title": "Sea surface wave significant height [m]",
+    "range": [
+      "rgb(241, 236, 236)",
+      "rgb(219, 177, 163)",
+      "rgb(201, 119, 91)",
+      "rgb(179, 55, 38)",
+      "rgb(126, 13, 41)",
+      "rgb(60, 9, 17)"
+    ],
+    "domain": [
+      0.54,
+      4.53
+    ]
+  },
+  "Citation": {
+    "DOI": "10.48670/moi-00022"
+  },
+  "Resources": [
+    {
+      "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_MULTIYEAR_WAV_001_032/cmems_mod_glo_wav_my_0.2deg-climatology_P1M-m_202311",
+      "Type": "WMTSCapabilities",
+      "Name": "marinedatastore",
+      "LayerId": "GLOBAL_MULTIYEAR_WAV_001_032/cmems_mod_glo_wav_my_0.2deg-climatology_P1M-m_202311/VHM0",
+      "Query": {
+        "Start": "2021-01-01T00:00:00Z",
+        "End": "2030-01-01T00:00:00Z"
+      },
+      "Dimensions": {
+        "elevation": 0,
+        "style": "cmap:amp"
+      }
+    }
+  ],
+  "Process": {
+    "Name": "process_cmems",
+    "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/VHM0.json",
+    "EndPoints": [
+      {
+        "Identifier": "process_cmems",
+        "Url": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_mod_glo_wav_my_0.2deg-climatology_P1M-m_202311&variables=VHM0&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
+        "Type": "application/json"
+      }
+    ]
+  }
+}
