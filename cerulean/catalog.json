@@ -681,6 +681,35 @@
     },
     {
       "rel": "child",
+      "href": "./SIAGE_sea_ice_age_antarctica/collection.json",
+      "type": "application/json",
+      "title": "Age of sea ice - Antarctica",
+      "id": "SIAGE_sea_ice_age_antarctica",
+      "themes": [
+        "Antarctica"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International "
+      ],
+      "collection_group": "L. Antarctica",
+      "otherSources": [
+        "Spatial Resolution: 0.083° x 0.083°",
+        "Frequency: Daily"
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
       "href": "./SICONC_sea_ice_concentration/collection.json",
       "type": "application/json",
       "title": "Sea ice area fraction",
@@ -721,6 +750,35 @@
     },
     {
       "rel": "child",
+      "href": "./SISNTHICK_surface_snow_thickness_antarctica/collection.json",
+      "type": "application/json",
+      "title": "Surface snow thickness - Antarctica",
+      "id": "SISNTHICK_surface_snow_thickness_antarctica",
+      "themes": [
+        "Antarctica"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International "
+      ],
+      "collection_group": "L. Antarctica",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
       "href": "./SITHICK_sea_ice_thickness/collection.json",
       "type": "application/json",
       "title": "Sea ice thickness",
@@ -739,6 +797,35 @@
         "Spatial Resolution: 0.083° x 0.083°",
         "Frequency: Daily"
       ]
+    },
+    {
+      "rel": "child",
+      "href": "./SITHICK_sea_ice_thickness_antarctica/collection.json",
+      "type": "application/json",
+      "title": "Sea ice thickness - Antarctica",
+      "id": "SITHICK_sea_ice_thickness_antarctica",
+      "themes": [
+        "Antarctica"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International "
+      ],
+      "collection_group": "L. Antarctica",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
     },
     {
       "rel": "child",
@@ -773,6 +860,27 @@
         "Aquaculture"
       ],
       "sensor": "Satellite S1 IW",
+      "agency": [
+        "DMI"
+      ],
+      "collection_group": "D. Icebergs",
+      "otherSources": [
+        "Spatial Resolution: 10 km x 10 km",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./IBC_iceberg_concentration_RCM/collection.json",
+      "type": "application/json",
+      "title": "Number of icebergs per unit area (RCM)",
+      "id": "IBC_iceberg_concentration_RCM",
+      "themes": [
+        "Shipping",
+        "Energy",
+        "Aquaculture"
+      ],
+      "sensor": "Satellite RCM",
       "agency": [
         "DMI"
       ],
@@ -950,6 +1058,25 @@
         "DMI"
       ],
       "collection_group": "C. Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./SICONC_sea_ice_concentration_antarctica/collection.json",
+      "type": "application/json",
+      "title": "Sea ice area fraction - Antarctica",
+      "id": "SICONC_sea_ice_concentration_antarctica",
+      "themes": [
+        "Antarctica"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International "
+      ],
+      "collection_group": "L. Antarctica",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ]
     },
     {
       "rel": "child",
