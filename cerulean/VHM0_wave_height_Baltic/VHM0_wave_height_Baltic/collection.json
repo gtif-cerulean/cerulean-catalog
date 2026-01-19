@@ -1,0 +1,86 @@
+{
+  "type": "Collection",
+  "id": "VHM0_wave_height_Baltic",
+  "stac_version": "1.1.0",
+  "description": "The wave model multiyear product provides a hindcast for the monthly climatology of significant wave height and wave period in the Baltic Sea. The product is based on the wave model WAM cycle 4.7 and surface forcing from ECMWF's ERA5 reanalysis products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "wmts",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/BALTICSEA_MULTIYEAR_WAV_003_015/cmems_mod_bal_wav_my_2km-climatology_P1M-m_202411",
+      "type": "image/png",
+      "title": "wmts capabilities",
+      "wmts:layer": "BALTICSEA_MULTIYEAR_WAV_003_015/cmems_mod_bal_wav_my_2km-climatology_P1M-m_202411/VHM0",
+      "role": [
+        "data"
+      ],
+      "wmts:dimensions": {
+        "elevation": 0,
+        "style": "cmap:amp"
+      },
+      "key": "fbb33318-8fcd-4c55-b581-5c5d0960f325"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Sea surface wave significant wave height - Baltic Sea"
+    }
+  ],
+  "sci:doi": "10.48670/moi-00014",
+  "themes": [
+    "Baltic Sea"
+  ],
+  "agency": [
+    "FMI"
+  ],
+  "collection_group": "K. Baltic Sea",
+  "sensor": "Numerical models",
+  "otherSources": [
+    "Spatial Resolution: 2 × 2 km",
+    "Frequency: Monthly"
+  ],
+  "eox:colorlegend": {
+    "title": "Sea surface wave significant height [m]",
+    "range": [
+      "rgb(241, 236, 236)",
+      "rgb(219, 177, 163)",
+      "rgb(201, 119, 91)",
+      "rgb(179, 55, 38)",
+      "rgb(126, 13, 41)",
+      "rgb(60, 9, 17)"
+    ],
+    "domain": [
+      0.54,
+      4.53
+    ]
+  },
+  "endpointtype": "marinedatastore_WMTSCapabilities",
+  "title": "Sea surface wave significant wave height - Baltic Sea",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1970-01-01T00:00:00Z",
+          "2026-01-19T20:49:15.163945Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

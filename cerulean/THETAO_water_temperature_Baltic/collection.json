@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "dmi-asip-seaice",
+  "id": "THETAO_water_temperature_Baltic",
   "stac_version": "1.1.0",
-  "description": "Arctic L3 sea ice product providing concentration, stage-of-development and floe size information retrieved from Sentinel-1 and RCM SAR imagery and GCOM-W AMSR2 microwave radiometer data using a deep learning algorithm and delivered on a 0.5 km grid.",
+  "description": "The physical model provides forecasts for the conditions in the Baltic Sea. The forecast is for 10 days. Several datasets are provided: ice concentration and thickness, temperature, salinity, and currents. The product is produced by a Baltic Sea set up of the NEMOv4.2.1 ocean model. The ocean model is forced with Stokes drift data from the Baltic Sea Wave forecast product. Satellite SST, sea ice concentrations and in-situ T and S profiles are assimilated into the model's analysis field.",
   "links": [
     {
       "rel": "root",
@@ -12,72 +12,30 @@
     },
     {
       "rel": "child",
-      "href": "./dmi-asip-seaice-sic/collection.json",
+      "href": "./THETAO_water_temperature_Baltic/collection.json",
       "type": "application/json",
-      "title": "Sea Ice Concentration",
-      "endpointtype": "VEDA_tiles",
-      "id": "dmi-asip-seaice-sic",
+      "title": "Sea water potential temperature - Baltic Sea",
+      "endpointtype": "marinedatastore_WMTSCapabilities",
+      "id": "THETAO_water_temperature_Baltic",
       "themes": [
-        "Energy",
-        "Aquaculture",
-        "Shipping"
-      ],
-      "providers": [
-        "CMEMS",
-        "EOX"
+        "Baltic Sea"
       ],
       "agency": [
-        "CMEMS"
+        "SMHI"
       ],
-      "collection_group": "C. Sea Ice"
+      "collection_group": "K. Baltic Sea",
+      "sensor": "Numerical models",
+      "otherSources": [
+        "Spatial Resolution: 2 × 2 km",
+        "Frequency: Daily "
+      ]
     },
     {
-      "rel": "child",
-      "href": "./dmi-asip-seaice-sod/collection.json",
+      "rel": "service",
+      "href": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_mod_bal_phy_anfc_P1D-m_202411&variables=thetao&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
       "type": "application/json",
-      "title": "Stage of Development",
-      "endpointtype": "VEDA_tiles",
-      "id": "dmi-asip-seaice-sod",
-      "themes": [
-        "Energy",
-        "Aquaculture",
-        "Shipping"
-      ],
-      "providers": [
-        "CMEMS",
-        "EOX"
-      ],
-      "roles": [
-        "disable"
-      ],
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "C. Sea Ice"
-    },
-    {
-      "rel": "child",
-      "href": "./dmi-asip-seaice-floe/collection.json",
-      "type": "application/json",
-      "title": "Form of Ice",
-      "endpointtype": "VEDA_tiles",
-      "id": "dmi-asip-seaice-floe",
-      "themes": [
-        "Energy",
-        "Aquaculture",
-        "Shipping"
-      ],
-      "providers": [
-        "CMEMS",
-        "EOX"
-      ],
-      "roles": [
-        "disable"
-      ],
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "C. Sea Ice"
+      "id": "process_cmems",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -165,78 +123,71 @@
       "title": "Cerulean GTIF project catalog"
     }
   ],
-  "sci:doi": "10.48670/mds-00343",
+  "sci:doi": "10.48670/moi-00010",
   "themes": [
-    "Energy",
-    "Aquaculture",
-    "Shipping"
+    "Baltic Sea"
   ],
   "agency": [
-    "CMEMS"
+    "SMHI"
   ],
-  "collection_group": "C. Sea Ice",
+  "collection_group": "K. Baltic Sea",
+  "sensor": "Numerical models",
+  "otherSources": [
+    "Spatial Resolution: 2 × 2 km",
+    "Frequency: Daily "
+  ],
+  "eox:colorlegend": {
+    "title": "Sea water potential temperature [°C]",
+    "range": [
+      "rgb(3, 35, 51)",
+      "rgb(63, 51, 159)",
+      "rgb(138, 82, 140)",
+      "rgb(213, 107, 108)",
+      "rgb(251, 165, 60)",
+      "rgb(231, 250, 90)"
+    ],
+    "domain": [
+      0,
+      100
+    ]
+  },
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/thetao.json",
   "merge_assets": false,
-  "title": "High Resolution Sea Ice Information L3 Arctic",
+  "title": "Sea water potential temperature - Baltic Sea",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          30.979842711050686,
-          180.0,
-          90.0
+          9.041582107543945,
+          53.008296966552734,
+          30.208656311035156,
+          65.8909912109375
         ],
         [
-          -180.0,
-          30.979842711050686,
-          180.0,
-          90.0
-        ],
-        [
-          -180.0,
-          30.979842711050686,
-          180.0,
-          90.0
-        ],
-        [
-          -180.0,
-          30.979842711050686,
-          180.0,
-          90.0
+          9.041582107543945,
+          53.008296966552734,
+          30.208656311035156,
+          65.8909912109375
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2026-01-03T00:00:00Z",
-          "2026-01-18T00:00:00Z"
+          "2022-12-02T00:00:00Z",
+          "2026-01-27T00:00:00Z"
         ]
       ]
     }
   },
   "license": "other",
-  "providers": [
-    {
-      "name": "CMEMS",
-      "roles": [
-        "producer"
-      ],
-      "url": "https://marine.copernicus.eu"
-    },
-    {
-      "name": "EOX",
-      "roles": [
-        "processor"
-      ],
-      "url": "https://eox.at/"
-    }
-  ],
   "summaries": {
     "themes": [
-      "Aquaculture",
-      "Energy",
-      "Shipping"
+      "Baltic Sea"
+    ],
+    "sensor": [
+      "Numerical models"
     ]
   },
   "assets": {

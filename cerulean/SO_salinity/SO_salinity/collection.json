@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:haline"
       },
-      "key": "8f0d0b9d-fb1e-4078-82ee-6cb6ad122298"
+      "key": "a512263a-e5c4-4e4c-8fa2-0dfb4441c834"
     },
     {
       "rel": "parent",
@@ -37,7 +37,7 @@
     "Aquaculture"
   ],
   "agency": [
-    "CMEMS"
+    "Mercator Ocean International"
   ],
   "collection_group": "E. Sea Water",
   "sensor": "Numerical model",

@@ -1,0 +1,88 @@
+{
+  "type": "Collection",
+  "id": "VTM02_wave_period",
+  "stac_version": "1.1.0",
+  "description": "The product is based on the MFWAM model, a third generation wave model that calculates the wave spectrum. i.e. the distribution of sea state energy in frequency and direction on a 1/5° irregular grid. Average wave quantities derived from this wave spectrum  are delivered on a regular 1/5° grid.  The product takes into account oceanic currents from the GLORYS12 physical ocean reanalysis and assimilates SWH observed from historical altimetry missions and directional wave spectra from Sentinel 1 SAR from 2017 onwards.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "wmts",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_MULTIYEAR_WAV_001_032/cmems_mod_glo_wav_my_0.2deg-climatology_P1M-m_202311",
+      "type": "image/png",
+      "title": "wmts capabilities",
+      "wmts:layer": "GLOBAL_MULTIYEAR_WAV_001_032/cmems_mod_glo_wav_my_0.2deg-climatology_P1M-m_202311/VTM02",
+      "role": [
+        "data"
+      ],
+      "wmts:dimensions": {
+        "elevation": 0,
+        "style": "cmap:tempo"
+      },
+      "key": "1bfbfac6-5736-418d-86dc-9c91941cbc93"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Sea surface wave mean period from variance spectral density second frequency moment"
+    }
+  ],
+  "sci:doi": "10.48670/moi-00022",
+  "themes": [
+    "Aquaculture",
+    "Shipping",
+    "Energy"
+  ],
+  "agency": [
+    "Mercator Ocean International"
+  ],
+  "collection_group": "H. Waves",
+  "sensor": "Numerical models",
+  "otherSources": [
+    "Spatial Resolution: 0.2° × 0.2°",
+    "Frequency: Monthly"
+  ],
+  "eox:colorlegend": {
+    "title": "Sea surface wave mean period from variance spectral density second frequency moment [s]",
+    "range": [
+      "rgb(254, 245, 244)",
+      "rgb(181, 202, 175)",
+      "rgb(93, 167, 134)",
+      "rgb(16, 125, 121)",
+      "rgb(28, 77, 96)",
+      "rgb(20, 29, 67)"
+    ],
+    "domain": [
+      3.29,
+      7.94
+    ]
+  },
+  "endpointtype": "marinedatastore_WMTSCapabilities",
+  "title": "Sea surface wave mean period from variance spectral density second frequency moment",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1970-01-01T00:00:00Z",
+          "2026-01-19T20:49:15.722326Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

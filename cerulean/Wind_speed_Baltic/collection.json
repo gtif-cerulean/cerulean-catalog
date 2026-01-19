@@ -1,0 +1,210 @@
+{
+  "type": "Collection",
+  "id": "Wind_speed_Baltic",
+  "stac_version": "1.1.0",
+  "description": "The product contains daily Level-3 sea surface wind with a 1km horizontal pixel spacing using Near Real-Time Synthetic Aperture Radar (SAR) observations and their collocated European Centre for Medium-Range Weather Forecasts (ECMWF) model outputs.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./Wind_speed_Baltic/collection.json",
+      "type": "application/json",
+      "title": "Wind speed - Baltic Sea",
+      "endpointtype": "marinedatastore_WMTSCapabilities",
+      "id": "Wind_speed_Baltic",
+      "themes": [
+        "Aquaculture",
+        "Shipping",
+        "Energy"
+      ],
+      "agency": [
+        "CLS"
+      ],
+      "collection_group": "I. Wind",
+      "sensor": "Satellite Observations",
+      "otherSources": [
+        "Spatial Resolution: 0.25° × 0.25°",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "service",
+      "href": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_obs-wind_bal_phy_nrt_l3-s1a-sar-asc-0.01deg_P1D-i_202506&variables=wind_speed&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
+      "type": "application/json",
+      "id": "process_cmems",
+      "method": "GET"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "cloudless-2024",
+      "attribution": "{ EOxCloudless 2024: <a href=\"https://s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"https://eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
+    },
+    {
+      "rel": "wms",
+      "href": "https://sxcat-demo.eox.at/sxcat_maps/wms",
+      "type": "image/png",
+      "title": "Terrain Light Stereographic North",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "sx-cat_ortho680500",
+      "wms:layers": "sx-cat_ortho680500",
+      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
+      "eodash:proj4_def": {
+        "name": "ORTHO:680500",
+        "def": "+proj=ortho +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+        "extent": [
+          -6422528,
+          -6422528,
+          6422528,
+          6422528
+        ]
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain light",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "terrain-light",
+      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "eox-osm",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/styles/wind_energy_polygon.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "Wind_Energy_Areas"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    }
+  ],
+  "sci:doi": "10.48670/mds-00332",
+  "themes": [
+    "Aquaculture",
+    "Shipping",
+    "Energy"
+  ],
+  "agency": [
+    "CLS"
+  ],
+  "collection_group": "I. Wind",
+  "sensor": "Satellite Observations",
+  "otherSources": [
+    "Spatial Resolution: 0.25° × 0.25°",
+    "Frequency: Daily"
+  ],
+  "eox:colorlegend": {
+    "title": "Wind speed [m/s]",
+    "range": [
+      "rgb(254, 252, 205)",
+      "rgb(216, 196, 95)",
+      "rgb(141, 161, 11)",
+      "rgb(50, 128, 30)",
+      "rgb(15, 83, 44)",
+      "rgb(23, 35, 18)"
+    ],
+    "domain": [
+      1.12,
+      15.37
+    ]
+  },
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/wind_speed.json",
+  "merge_assets": false,
+  "title": "Wind speed - Baltic Sea",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          9.005999565124512,
+          53.50600051879883,
+          30.5939998626709,
+          66.09400177001953
+        ],
+        [
+          9.005999565124512,
+          53.50600051879883,
+          30.5939998626709,
+          66.09400177001953
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-04-01T00:00:00Z",
+          "2026-01-19T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "summaries": {
+    "themes": [
+      "Aquaculture",
+      "Energy",
+      "Shipping"
+    ],
+    "sensor": [
+      "Satellite Observations"
+    ]
+  },
+  "assets": {
+    "Wind_Energy_Areas": {
+      "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/wind_energy.geojson",
+      "type": "application/geo+json",
+      "title": "Wind Energy Areas",
+      "roles": [
+        "overlay",
+        "invisible"
+      ]
+    }
+  }
+}

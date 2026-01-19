@@ -12,6 +12,396 @@
     },
     {
       "rel": "child",
+      "href": "./airss_results/collection.json",
+      "type": "application/json",
+      "title": "Canadian Arctic Ice Regime Shipping System (AIRSS)",
+      "id": "airss_results",
+      "themes": [
+        "Shipping"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+      ],
+      "agency": [
+        "Canadian Ice Service"
+      ],
+      "collection_group": "A. Capabilities"
+    },
+    {
+      "rel": "child",
+      "href": "./CHL_chlorophyll_Biology/collection.json",
+      "type": "application/json",
+      "title": "Mass concentration of chlorophyll a in sea water - Biology",
+      "id": "CHL_chlorophyll_Biology",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Satellite observations",
+      "agency": [
+        "ACRI"
+      ],
+      "collection_group": "F. Water Biology",
+      "otherSources": [
+        "Spatial Resolution: 4 × 4 km",
+        "Frequency: Daily "
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./CHL_chlorophyll_Chemistry/collection.json",
+      "type": "application/json",
+      "title": "Mass concentration of chlorophyll a in sea water - Chemistry",
+      "code": "CHL",
+      "id": "CHL_chlorophyll_Chemistry",
+      "themes": [
+        "Aquaculture"
+      ],
+      "subcode": "CHL",
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "G. Water Chemistry",
+      "otherSources": [
+        "Spatial Resolution: 0.25° × 0.25°",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./CIS_Icecharts/collection.json",
+      "type": "application/json",
+      "title": "CIS Ice charts",
+      "id": "CIS_Icecharts",
+      "themes": [
+        "Shipping"
+      ],
+      "providers": [
+        "Canadian Ice Service (CIS)"
+      ],
+      "agency": [
+        "CIS"
+      ],
+      "collection_group": "C. Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./coastal_change_monitoring_indicator/collection.json",
+      "type": "application/json",
+      "title": "Coastal Change Monitoring",
+      "id": "coastal_change_monitoring_indicator",
+      "themes": [
+        "Shipping",
+        "Energy"
+      ],
+      "tags": [
+        "processing",
+        "capability"
+      ],
+      "satellite": [
+        "multiple"
+      ],
+      "sensor": [
+        "multiple"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "A. Capabilities"
+    },
+    {
+      "rel": "child",
+      "href": "./DEPTHO_sea_floor_depth/collection.json",
+      "type": "application/json",
+      "title": "Sea floor depth below geoid",
+      "id": "DEPTHO_sea_floor_depth",
+      "themes": [
+        "Aquaculture",
+        "Energy"
+      ],
+      "agency": [
+        "Mercator Ocean International "
+      ],
+      "collection_group": "J. Bathymetry",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Static"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./DEPTHO_sea_floor_depth_antarctica/collection.json",
+      "type": "application/json",
+      "title": "Sea floor depth below geoid - Antarctica",
+      "id": "DEPTHO_sea_floor_depth_antarctica",
+      "themes": [
+        "Antarctica"
+      ],
+      "agency": [
+        "Mercator Ocean International "
+      ],
+      "collection_group": "L. Antarctica",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Static"
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./sea_floor_depth_shores/collection.json",
+      "type": "application/json",
+      "title": "Sea floor depth - Shallow water",
+      "id": "sea_floor_depth_shores",
+      "themes": [
+        "Aquaculture",
+        "Energy"
+      ],
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "J. Bathymetry",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Static"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./DIATO_diatoms/collection.json",
+      "type": "application/json",
+      "title": "Mass concentration of diatoms expressed as chlorophyll in sea water",
+      "id": "DIATO_diatoms",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Satellite observations",
+      "agency": [
+        "ACRI "
+      ],
+      "collection_group": "F. Water Biology",
+      "otherSources": [
+        "Spatial Resolution: 4 × 4 km",
+        "Frequency: Monthly"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./DINO_dinophytes/collection.json",
+      "type": "application/json",
+      "title": "Mass concentration of dinophytes expressed as chlorophyll in sea water",
+      "id": "DINO_dinophytes",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Satellite observations",
+      "agency": [
+        "ACRI "
+      ],
+      "collection_group": "F. Water Biology",
+      "otherSources": [
+        "Spatial Resolution: 4 × 4 km",
+        "Frequency: Monthly"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./DISSIC_inorganic_carbon/collection.json",
+      "type": "application/json",
+      "title": "Mole concentration of dissolved inorganic carbon in sea water",
+      "code": "DIC",
+      "id": "DISSIC_inorganic_carbon",
+      "themes": [
+        "Aquaculture"
+      ],
+      "subcode": "DIC",
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "G. Water Chemistry",
+      "otherSources": [
+        "Spatial Resolution: 0.25° × 0.25°",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./DMI_Icecharts/collection.json",
+      "type": "application/json",
+      "title": "DMI Ice charts",
+      "id": "DMI_Icecharts",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "DMI"
+      ],
+      "collection_group": "C. Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./DMI_polaris/collection.json",
+      "type": "application/json",
+      "title": "POLARIS (DMI)",
+      "id": "DMI_polaris",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "providers": [
+        "DMI",
+        "EOX"
+      ],
+      "agency": [
+        "DMI"
+      ],
+      "collection_group": "C. Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./dmi-asip-seaice-floe/collection.json",
+      "type": "application/json",
+      "title": "Form of Ice",
+      "id": "dmi-asip-seaice-floe",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "providers": [
+        "CMEMS",
+        "EOX"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "C. Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./dmi-asip-seaice-sic/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Concentration",
+      "id": "dmi-asip-seaice-sic",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "providers": [
+        "CMEMS",
+        "EOX"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "C. Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./dmi-asip-seaice-sod/collection.json",
+      "type": "application/json",
+      "title": "Stage of Development",
+      "id": "dmi-asip-seaice-sod",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "providers": [
+        "CMEMS",
+        "EOX"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "C. Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./Drift_Deformation/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Drift and Deformation",
+      "id": "Drift_Deformation",
+      "themes": [
+        "Shipping",
+        "Aquaculture",
+        "Energy"
+      ],
+      "collection_group": "A. Capabilities"
+    },
+    {
+      "rel": "child",
+      "href": "./FE_iron/collection.json",
+      "type": "application/json",
+      "title": "Mole concentration of dissolved iron in sea water",
+      "code": "DI",
+      "id": "FE_iron",
+      "themes": [
+        "Aquaculture"
+      ],
+      "subcode": "DI",
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "G. Water Chemistry",
+      "otherSources": [
+        "Spatial Resolution: 0.25° × 0.25°",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./GREEN_green_algae/collection.json",
+      "type": "application/json",
+      "title": "Mass concentration of green algae expressed as chlorophyll in sea water",
+      "id": "GREEN_green_algae",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Satellite observations",
+      "agency": [
+        "ACRI "
+      ],
+      "collection_group": "F. Water Biology",
+      "otherSources": [
+        "Spatial Resolution: 4 × 4 km",
+        "Frequency: Monthly"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./HAPTO_haptophytes/collection.json",
+      "type": "application/json",
+      "title": "Mass concentration of haptophytes expressed as chlorophyll in sea water",
+      "id": "HAPTO_haptophytes",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Satellite observations",
+      "agency": [
+        "ACRI "
+      ],
+      "collection_group": "F. Water Biology",
+      "otherSources": [
+        "Spatial Resolution: 4 × 4 km",
+        "Frequency: Monthly"
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./harshness/collection.json",
       "type": "application/json",
       "title": "Harshness capability",
@@ -28,37 +418,202 @@
     },
     {
       "rel": "child",
-      "href": "./Polaris_algorithm_dmi_demo/collection.json",
+      "href": "./IBC_iceberg_concentration_IW/collection.json",
       "type": "application/json",
-      "title": "POLARIS",
-      "id": "Polaris_algorithm_dmi_demo",
+      "title": "Number of icebergs per unit area (S1 IW)",
+      "id": "IBC_iceberg_concentration_IW",
       "themes": [
-        "Shipping"
+        "Shipping",
+        "Energy",
+        "Aquaculture"
       ],
-      "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+      "sensor": "Satellite S1 IW",
+      "agency": [
+        "DMI"
+      ],
+      "collection_group": "D. Icebergs",
+      "otherSources": [
+        "Spatial Resolution: 10 km x 10 km",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./IBC_iceberg_concentration_RCM/collection.json",
+      "type": "application/json",
+      "title": "Number of icebergs per unit area (RCM)",
+      "id": "IBC_iceberg_concentration_RCM",
+      "themes": [
+        "Shipping",
+        "Energy",
+        "Aquaculture"
+      ],
+      "sensor": "Satellite RCM",
+      "agency": [
+        "DMI"
+      ],
+      "collection_group": "D. Icebergs",
+      "otherSources": [
+        "Spatial Resolution: 10 km x 10 km",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./sea_ice_surface_temperature/collection.json",
+      "type": "application/json",
+      "title": "Sea ice surface temperature",
+      "id": "sea_ice_surface_temperature",
+      "themes": [
+        "Shipping",
+        "Energy",
+        "Aquaculture"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International "
+      ],
+      "collection_group": "C. Sea Ice",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./sea_ice_surface_temperature_antarctica/collection.json",
+      "type": "application/json",
+      "title": "Sea ice surface temperature - Antarctica",
+      "id": "sea_ice_surface_temperature_antarctica",
+      "themes": [
+        "Antarctica"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "L. Antarctica",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./landslide_risk_indicator/collection.json",
+      "type": "application/json",
+      "title": "Landslide risk",
+      "id": "landslide_risk_indicator",
+      "themes": [
+        "Energy"
+      ],
+      "satellite": [
+        "multiple"
+      ],
+      "sensor": [
+        "multiple"
+      ],
+      "tags": [
+        "processing",
+        "capability"
       ],
       "agency": [
-        "National Research Council of Canada"
+        "ESA"
       ],
       "collection_group": "A. Capabilities"
     },
     {
       "rel": "child",
-      "href": "./airss_results/collection.json",
+      "href": "./MICRO_microphytoplankton/collection.json",
       "type": "application/json",
-      "title": "Canadian Arctic Ice Regime Shipping System (AIRSS)",
-      "id": "airss_results",
+      "title": "Mass concentration of microphytoplankton expressed as chlorophyll in sea water",
+      "id": "MICRO_microphytoplankton",
       "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Satellite observations",
+      "agency": [
+        "ACRI "
+      ],
+      "collection_group": "F. Water Biology",
+      "otherSources": [
+        "Spatial Resolution: 4 × 4 km",
+        "Frequency: Monthly"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./NANO_nanophytoplankton/collection.json",
+      "type": "application/json",
+      "title": "Mass concentration of nanophytoplankton expressed as chlorophyll in sea water",
+      "id": "NANO_nanophytoplankton",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Satellite observations",
+      "agency": [
+        "ACRI "
+      ],
+      "collection_group": "F. Water Biology",
+      "otherSources": [
+        "Spatial Resolution: 4 × 4 km",
+        "Frequency: Monthly"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./NIC_Icecharts_arctic/collection.json",
+      "type": "application/json",
+      "title": "NIC Ice charts Arctic",
+      "id": "NIC_Icecharts_arctic",
+      "themes": [
+        "Aquaculture",
+        "Energy",
         "Shipping"
       ],
-      "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+      "providers": [
+        "U.S. NATIONAL ICE CENTER (USNIC)",
+        "EOX"
       ],
       "agency": [
-        "Canadian Ice Service"
+        "USNIC"
       ],
-      "collection_group": "A. Capabilities"
+      "collection_group": "C. Sea Ice",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./NO3_nitrate/collection.json",
+      "type": "application/json",
+      "title": "Mole concentration of nitrate in sea water",
+      "code": "NO3",
+      "id": "NO3_nitrate",
+      "themes": [
+        "Aquaculture"
+      ],
+      "subcode": "NO3",
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "G. Water Chemistry",
+      "otherSources": [
+        "Spatial Resolution: 0.25° × 0.25°",
+        "Frequency: Daily"
+      ]
     },
     {
       "rel": "child",
@@ -104,27 +659,6 @@
     },
     {
       "rel": "child",
-      "href": "./DISSIC_inorganic_carbon/collection.json",
-      "type": "application/json",
-      "title": "Mole concentration of dissolved inorganic carbon in sea water",
-      "code": "DIC",
-      "id": "DISSIC_inorganic_carbon",
-      "themes": [
-        "Aquaculture"
-      ],
-      "subcode": "DIC",
-      "sensor": "Numerical model",
-      "agency": [
-        "Mercator Ocean International"
-      ],
-      "collection_group": "G. Water Chemistry",
-      "otherSources": [
-        "Spatial Resolution: 0.25° × 0.25°",
-        "Frequency: Daily"
-      ]
-    },
-    {
-      "rel": "child",
       "href": "./PH_ph/collection.json",
       "type": "application/json",
       "title": "Sea water pH reported on total scale",
@@ -134,124 +668,6 @@
         "Aquaculture"
       ],
       "subcode": "DIC",
-      "sensor": "Numerical model",
-      "agency": [
-        "Mercator Ocean International"
-      ],
-      "collection_group": "G. Water Chemistry",
-      "otherSources": [
-        "Spatial Resolution: 0.25° × 0.25°",
-        "Frequency: Daily"
-      ]
-    },
-    {
-      "rel": "child",
-      "href": "./TALK_alkalinity/collection.json",
-      "type": "application/json",
-      "title": "Sea water alkalinity expressed as mole equivalent",
-      "id": "TALK_alkalinity",
-      "themes": [
-        "Aquaculture"
-      ],
-      "sensor": "Numerical model",
-      "agency": [
-        "Mercator Ocean International"
-      ],
-      "collection_group": "G. Water Chemistry",
-      "otherSources": [
-        "Spatial Resolution: 0.25° × 0.25°",
-        "Frequency: Daily"
-      ]
-    },
-    {
-      "rel": "child",
-      "href": "./SPCO2_surface_co2/collection.json",
-      "type": "application/json",
-      "title": "Surface partial pressure of carbon dioxide in sea water",
-      "id": "SPCO2_surface_co2",
-      "themes": [
-        "Aquaculture"
-      ],
-      "sensor": "Numerical model",
-      "agency": [
-        "Mercator Ocean International"
-      ],
-      "collection_group": "G. Water Chemistry",
-      "otherSources": [
-        "Spatial Resolution: 0.25° × 0.25°",
-        "Frequency: Daily"
-      ]
-    },
-    {
-      "rel": "child",
-      "href": "./FE_iron/collection.json",
-      "type": "application/json",
-      "title": "Mole concentration of dissolved iron in sea water",
-      "code": "DI",
-      "id": "FE_iron",
-      "themes": [
-        "Aquaculture"
-      ],
-      "subcode": "DI",
-      "sensor": "Numerical model",
-      "agency": [
-        "Mercator Ocean International"
-      ],
-      "collection_group": "G. Water Chemistry",
-      "otherSources": [
-        "Spatial Resolution: 0.25° × 0.25°",
-        "Frequency: Daily"
-      ]
-    },
-    {
-      "rel": "child",
-      "href": "./NO3_nitrate/collection.json",
-      "type": "application/json",
-      "title": "Mole concentration of nitrate in sea water",
-      "code": "NO3",
-      "id": "NO3_nitrate",
-      "themes": [
-        "Aquaculture"
-      ],
-      "subcode": "NO3",
-      "sensor": "Numerical model",
-      "agency": [
-        "Mercator Ocean International"
-      ],
-      "collection_group": "G. Water Chemistry",
-      "otherSources": [
-        "Spatial Resolution: 0.25° × 0.25°",
-        "Frequency: Daily"
-      ]
-    },
-    {
-      "rel": "child",
-      "href": "./PO4_phosphate/collection.json",
-      "type": "application/json",
-      "title": "Mole concentration of phosphate in sea water",
-      "id": "PO4_phosphate",
-      "themes": [
-        "Aquaculture"
-      ],
-      "sensor": "Numerical model",
-      "agency": [
-        "Mercator Ocean International"
-      ],
-      "collection_group": "G. Water Chemistry",
-      "otherSources": [
-        "Spatial Resolution: 0.25° × 0.25°",
-        "Frequency: Daily"
-      ]
-    },
-    {
-      "rel": "child",
-      "href": "./SI_silicate/collection.json",
-      "type": "application/json",
-      "title": "Mole concentration of silicate in sea water",
-      "id": "SI_silicate",
-      "themes": [
-        "Aquaculture"
-      ],
       "sensor": "Numerical model",
       "agency": [
         "Mercator Ocean International"
@@ -283,211 +699,6 @@
     },
     {
       "rel": "child",
-      "href": "./ZOOC_zooplankton/collection.json",
-      "type": "application/json",
-      "title": "Mole concentration of zooplankton expressed as carbon in sea water",
-      "id": "ZOOC_zooplankton",
-      "themes": [
-        "Aquaculture"
-      ],
-      "sensor": "Numerical model",
-      "agency": [
-        "Mercator Ocean International"
-      ],
-      "collection_group": "G. Water Chemistry",
-      "otherSources": [
-        "Spatial Resolution: 0.25° × 0.25°",
-        "Frequency: Daily"
-      ]
-    },
-    {
-      "rel": "child",
-      "href": "./Sentinel1-EW-HH/collection.json",
-      "type": "application/json",
-      "title": "Sentinel 1 EW HH",
-      "id": "Sentinel1-EW-HH",
-      "themes": [
-        "Energy",
-        "Aquaculture",
-        "Shipping"
-      ],
-      "agency": [
-        "Sentinel Hub"
-      ],
-      "collection_group": "B. Satellite Data"
-    },
-    {
-      "rel": "child",
-      "href": "./Sentinel1-IW-VV/collection.json",
-      "type": "application/json",
-      "title": "Sentinel 1 IW VV",
-      "id": "Sentinel1-IW-VV",
-      "themes": [
-        "Energy",
-        "Aquaculture",
-        "Shipping"
-      ],
-      "agency": [
-        "Sentinel Hub"
-      ],
-      "collection_group": "B. Satellite Data"
-    },
-    {
-      "rel": "child",
-      "href": "./CHL_chlorophyll_Chemistry/collection.json",
-      "type": "application/json",
-      "title": "Mass concentration of chlorophyll a in sea water - Chemistry",
-      "code": "CHL",
-      "id": "CHL_chlorophyll_Chemistry",
-      "themes": [
-        "Aquaculture"
-      ],
-      "subcode": "CHL",
-      "sensor": "Numerical model",
-      "agency": [
-        "Mercator Ocean International"
-      ],
-      "collection_group": "G. Water Chemistry",
-      "otherSources": [
-        "Spatial Resolution: 0.25° × 0.25°",
-        "Frequency: Daily"
-      ]
-    },
-    {
-      "rel": "child",
-      "href": "./CHL_chlorophyll_Biology/collection.json",
-      "type": "application/json",
-      "title": "Mass concentration of chlorophyll a in sea water - Biology",
-      "id": "CHL_chlorophyll_Biology",
-      "themes": [
-        "Aquaculture"
-      ],
-      "sensor": "Satellite observations",
-      "agency": [
-        "ACRI"
-      ],
-      "collection_group": "F. Water Biology",
-      "otherSources": [
-        "Spatial Resolution: 4 × 4 km",
-        "Frequency: Daily "
-      ]
-    },
-    {
-      "rel": "child",
-      "href": "./DIATO_diatoms/collection.json",
-      "type": "application/json",
-      "title": "Mass concentration of diatoms expressed as chlorophyll in sea water",
-      "id": "DIATO_diatoms",
-      "themes": [
-        "Aquaculture"
-      ],
-      "sensor": "Satellite observations",
-      "agency": [
-        "ACRI "
-      ],
-      "collection_group": "F. Water Biology",
-      "otherSources": [
-        "Spatial Resolution: 4 × 4 km",
-        "Frequency: Monthly"
-      ]
-    },
-    {
-      "rel": "child",
-      "href": "./DINO_dinophytes/collection.json",
-      "type": "application/json",
-      "title": "Mass concentration of dinophytes expressed as chlorophyll in sea water",
-      "id": "DINO_dinophytes",
-      "themes": [
-        "Aquaculture"
-      ],
-      "sensor": "Satellite observations",
-      "agency": [
-        "ACRI "
-      ],
-      "collection_group": "F. Water Biology",
-      "otherSources": [
-        "Spatial Resolution: 4 × 4 km",
-        "Frequency: Monthly"
-      ]
-    },
-    {
-      "rel": "child",
-      "href": "./GREEN_green_algae/collection.json",
-      "type": "application/json",
-      "title": "Mass concentration of green algae expressed as chlorophyll in sea water",
-      "id": "GREEN_green_algae",
-      "themes": [
-        "Aquaculture"
-      ],
-      "sensor": "Satellite observations",
-      "agency": [
-        "ACRI "
-      ],
-      "collection_group": "F. Water Biology",
-      "otherSources": [
-        "Spatial Resolution: 4 × 4 km",
-        "Frequency: Monthly"
-      ]
-    },
-    {
-      "rel": "child",
-      "href": "./HAPTO_haptophytes/collection.json",
-      "type": "application/json",
-      "title": "Mass concentration of haptophytes expressed as chlorophyll in sea water",
-      "id": "HAPTO_haptophytes",
-      "themes": [
-        "Aquaculture"
-      ],
-      "sensor": "Satellite observations",
-      "agency": [
-        "ACRI "
-      ],
-      "collection_group": "F. Water Biology",
-      "otherSources": [
-        "Spatial Resolution: 4 × 4 km",
-        "Frequency: Monthly"
-      ]
-    },
-    {
-      "rel": "child",
-      "href": "./MICRO_microphytoplankton/collection.json",
-      "type": "application/json",
-      "title": "Mass concentration of microphytoplankton expressed as chlorophyll in sea water",
-      "id": "MICRO_microphytoplankton",
-      "themes": [
-        "Aquaculture"
-      ],
-      "sensor": "Satellite observations",
-      "agency": [
-        "ACRI "
-      ],
-      "collection_group": "F. Water Biology",
-      "otherSources": [
-        "Spatial Resolution: 4 × 4 km",
-        "Frequency: Monthly"
-      ]
-    },
-    {
-      "rel": "child",
-      "href": "./NANO_nanophytoplankton/collection.json",
-      "type": "application/json",
-      "title": "Mass concentration of nanophytoplankton expressed as chlorophyll in sea water",
-      "id": "NANO_nanophytoplankton",
-      "themes": [
-        "Aquaculture"
-      ],
-      "sensor": "Satellite observations",
-      "agency": [
-        "ACRI "
-      ],
-      "collection_group": "F. Water Biology",
-      "otherSources": [
-        "Spatial Resolution: 4 × 4 km",
-        "Frequency: Monthly"
-      ]
-    },
-    {
-      "rel": "child",
       "href": "./PICO_picophytoplankton/collection.json",
       "type": "application/json",
       "title": "Mass concentration of picophytoplankton expressed as chlorophyll in sea water",
@@ -504,6 +715,57 @@
         "Spatial Resolution: 4 × 4 km",
         "Frequency: Monthly"
       ]
+    },
+    {
+      "rel": "child",
+      "href": "./PO4_phosphate/collection.json",
+      "type": "application/json",
+      "title": "Mole concentration of phosphate in sea water",
+      "id": "PO4_phosphate",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "G. Water Chemistry",
+      "otherSources": [
+        "Spatial Resolution: 0.25° × 0.25°",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Polaris_algorithm_dmi_demo/collection.json",
+      "type": "application/json",
+      "title": "POLARIS",
+      "id": "Polaris_algorithm_dmi_demo",
+      "themes": [
+        "Shipping"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+      ],
+      "agency": [
+        "National Research Council of Canada"
+      ],
+      "collection_group": "A. Capabilities"
+    },
+    {
+      "rel": "child",
+      "href": "./polarwarp_sentinel1/collection.json",
+      "type": "application/json",
+      "title": "Polar warp capability",
+      "id": "polarwarp_sentinel1",
+      "themes": [
+        "Shipping"
+      ],
+      "collection_group": "A. Capabilities",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "child",
@@ -545,80 +807,19 @@
     },
     {
       "rel": "child",
-      "href": "./SPM_suspended_matter/collection.json",
+      "href": "./RCM_eoapi/collection.json",
       "type": "application/json",
-      "title": "Mass concentration of suspended matter in sea water",
-      "id": "SPM_suspended_matter",
+      "title": "RCM scenes",
+      "id": "RCM_eoapi",
       "themes": [
-        "Aquaculture"
-      ],
-      "sensor": "Satellite observations",
-      "agency": [
-        "ACRI "
-      ],
-      "collection_group": "F. Water Biology",
-      "otherSources": [
-        "Spatial Resolution: 4 × 4 km",
-        "Frequency: Monthly"
-      ]
-    },
-    {
-      "rel": "child",
-      "href": "./DEPTHO_sea_floor_depth/collection.json",
-      "type": "application/json",
-      "title": "Sea floor depth below geoid",
-      "id": "DEPTHO_sea_floor_depth",
-      "themes": [
-        "Aquaculture",
-        "Energy"
-      ],
-      "agency": [
-        "Mercator Ocean International "
-      ],
-      "collection_group": "J. Bathymetry",
-      "otherSources": [
-        "Spatial Resolution: 0.083° × 0.083°",
-        "Frequency: Static"
-      ]
-    },
-    {
-      "rel": "child",
-      "href": "./SO_salinity/collection.json",
-      "type": "application/json",
-      "title": "Sea water salinity",
-      "id": "SO_salinity",
-      "themes": [
-        "Aquaculture"
-      ],
-      "sensor": "Numerical model",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "E. Sea Water",
-      "otherSources": [
-        "Spatial Resolution: 0.083° x 0.083°",
-        "Frequency: Daily"
-      ]
-    },
-    {
-      "rel": "child",
-      "href": "./THETAO_sea_water_potential_temperature/collection.json",
-      "type": "application/json",
-      "title": "Sea water potential temperature",
-      "id": "THETAO_sea_water_potential_temperature",
-      "themes": [
+        "Energy",
         "Aquaculture",
         "Shipping"
       ],
-      "sensor": "Numerical model",
       "agency": [
-        "Mercator Ocean International"
+        "ESA"
       ],
-      "collection_group": "E. Sea Water",
-      "otherSources": [
-        "Spatial Resolution: 0.083° x 0.083°",
-        "Frequency: Daily"
-      ]
+      "collection_group": "B. Satellite Data"
     },
     {
       "rel": "child",
@@ -641,22 +842,135 @@
     },
     {
       "rel": "child",
-      "href": "./sea_ice_surface_temperature/collection.json",
+      "href": "./Sea_water_velocity_Baltic/collection.json",
       "type": "application/json",
-      "title": "Sea ice surface temperature",
-      "id": "sea_ice_surface_temperature",
+      "title": "Sea water velocity - Baltic Sea",
+      "id": "Sea_water_velocity_Baltic",
       "themes": [
-        "Shipping",
+        "Baltic Sea"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "SMHI"
+      ],
+      "collection_group": "K. Baltic Sea",
+      "otherSources": [
+        "Spatial Resolution: 2 × 2 km",
+        "Frequency: Daily "
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Sentinel1-EW-HH/collection.json",
+      "type": "application/json",
+      "title": "Sentinel 1 EW HH",
+      "id": "Sentinel1-EW-HH",
+      "themes": [
         "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "agency": [
+        "Sentinel Hub"
+      ],
+      "collection_group": "B. Satellite Data"
+    },
+    {
+      "rel": "child",
+      "href": "./Sentinel1-EW-HH_antarctica/collection.json",
+      "type": "application/json",
+      "title": "Sentinel 1 EW HH Antarctica",
+      "id": "Sentinel1-EW-HH_antarctica",
+      "themes": [
+        "Antarctica"
+      ],
+      "agency": [
+        "Sentinel Hub"
+      ],
+      "collection_group": "L. Antarctica",
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./Sentinel1-IW-VV/collection.json",
+      "type": "application/json",
+      "title": "Sentinel 1 IW VV",
+      "id": "Sentinel1-IW-VV",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "agency": [
+        "Sentinel Hub"
+      ],
+      "collection_group": "B. Satellite Data"
+    },
+    {
+      "rel": "child",
+      "href": "./Sentinel1-IW-VV_antarctica/collection.json",
+      "type": "application/json",
+      "title": "Sentinel 1 IW VV Antarctica",
+      "id": "Sentinel1-IW-VV_antarctica",
+      "themes": [
+        "Antarctica"
+      ],
+      "agency": [
+        "Sentinel Hub"
+      ],
+      "collection_group": "L. Antarctica",
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./Sentinel2-L2A/collection.json",
+      "type": "application/json",
+      "title": "Sentinel 2 L2A",
+      "id": "Sentinel2-L2A",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "agency": [
+        "Sentinel Hub"
+      ],
+      "collection_group": "B. Satellite Data"
+    },
+    {
+      "rel": "child",
+      "href": "./SI_silicate/collection.json",
+      "type": "application/json",
+      "title": "Mole concentration of silicate in sea water",
+      "id": "SI_silicate",
+      "themes": [
         "Aquaculture"
       ],
       "sensor": "Numerical model",
       "agency": [
-        "Mercator Ocean International "
+        "Mercator Ocean International"
       ],
-      "collection_group": "C. Sea Ice",
+      "collection_group": "G. Water Chemistry",
       "otherSources": [
-        "Spatial Resolution: 0.083° × 0.083°",
+        "Spatial Resolution: 0.25° × 0.25°",
         "Frequency: Daily"
       ]
     },
@@ -727,6 +1041,44 @@
       "otherSources": [
         "Spatial Resolution: 0.083° x 0.083°",
         "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./SICONC_sea_ice_concentration_antarctica/collection.json",
+      "type": "application/json",
+      "title": "Sea ice area fraction - Antarctica",
+      "id": "SICONC_sea_ice_concentration_antarctica",
+      "themes": [
+        "Antarctica"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International "
+      ],
+      "collection_group": "L. Antarctica",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./SICONC_sea_ice_concentration_Baltic/collection.json",
+      "type": "application/json",
+      "title": "Sea ice area fraction - Baltic Sea",
+      "id": "SICONC_sea_ice_concentration_Baltic",
+      "themes": [
+        "Baltic Sea"
+      ],
+      "sensor": "Numerical models",
+      "agency": [
+        "SMHI"
+      ],
+      "collection_group": "K. Baltic Sea",
+      "otherSources": [
+        "Spatial Resolution: 2 × 2 km",
+        "Frequency: Daily "
       ]
     },
     {
@@ -829,6 +1181,25 @@
     },
     {
       "rel": "child",
+      "href": "./SITHICK_sea_ice_thickness_Baltic/collection.json",
+      "type": "application/json",
+      "title": "Sea ice thickness - Baltic Sea",
+      "id": "SITHICK_sea_ice_thickness_Baltic",
+      "themes": [
+        "Baltic Sea"
+      ],
+      "sensor": "Numerical models",
+      "agency": [
+        "SMHI"
+      ],
+      "collection_group": "K. Baltic Sea",
+      "otherSources": [
+        "Spatial Resolution: 2 × 2 km",
+        "Frequency: Daily "
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./SIVELO_sea_ice_speed/collection.json",
       "type": "application/json",
       "title": "Sea ice speed",
@@ -847,264 +1218,6 @@
         "Spatial Resolution: 0.083° x 0.083°",
         "Frequency: Daily"
       ]
-    },
-    {
-      "rel": "child",
-      "href": "./IBC_iceberg_concentration_IW/collection.json",
-      "type": "application/json",
-      "title": "Number of icebergs per unit area (S1 IW)",
-      "id": "IBC_iceberg_concentration_IW",
-      "themes": [
-        "Shipping",
-        "Energy",
-        "Aquaculture"
-      ],
-      "sensor": "Satellite S1 IW",
-      "agency": [
-        "DMI"
-      ],
-      "collection_group": "D. Icebergs",
-      "otherSources": [
-        "Spatial Resolution: 10 km x 10 km",
-        "Frequency: Daily"
-      ]
-    },
-    {
-      "rel": "child",
-      "href": "./IBC_iceberg_concentration_RCM/collection.json",
-      "type": "application/json",
-      "title": "Number of icebergs per unit area (RCM)",
-      "id": "IBC_iceberg_concentration_RCM",
-      "themes": [
-        "Shipping",
-        "Energy",
-        "Aquaculture"
-      ],
-      "sensor": "Satellite RCM",
-      "agency": [
-        "DMI"
-      ],
-      "collection_group": "D. Icebergs",
-      "otherSources": [
-        "Spatial Resolution: 10 km x 10 km",
-        "Frequency: Daily"
-      ]
-    },
-    {
-      "rel": "child",
-      "href": "./polarwarp_sentinel1/collection.json",
-      "type": "application/json",
-      "title": "Polar warp capability",
-      "id": "polarwarp_sentinel1",
-      "themes": [
-        "Shipping"
-      ],
-      "collection_group": "A. Capabilities",
-      "eodash:mapProjection": {
-        "name": "EPSG:3413",
-        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
-      }
-    },
-    {
-      "rel": "child",
-      "href": "./structureicing/collection.json",
-      "type": "application/json",
-      "title": "Icing Predictor Index",
-      "id": "structureicing",
-      "themes": [
-        "Shipping",
-        "Aquaculture",
-        "Energy"
-      ],
-      "agency": [
-        "C-CORE"
-      ],
-      "collection_group": "A. Capabilities"
-    },
-    {
-      "rel": "child",
-      "href": "./Drift_Deformation/collection.json",
-      "type": "application/json",
-      "title": "Sea Ice Drift and Deformation",
-      "id": "Drift_Deformation",
-      "themes": [
-        "Shipping",
-        "Aquaculture",
-        "Energy"
-      ],
-      "collection_group": "A. Capabilities"
-    },
-    {
-      "rel": "child",
-      "href": "./DMI_Icecharts/collection.json",
-      "type": "application/json",
-      "title": "DMI Ice charts",
-      "id": "DMI_Icecharts",
-      "themes": [
-        "Shipping"
-      ],
-      "agency": [
-        "DMI"
-      ],
-      "collection_group": "C. Sea Ice"
-    },
-    {
-      "rel": "child",
-      "href": "./coastal_change_monitoring_indicator/collection.json",
-      "type": "application/json",
-      "title": "Coastal Change Monitoring",
-      "id": "coastal_change_monitoring_indicator",
-      "themes": [
-        "Shipping",
-        "Energy"
-      ],
-      "tags": [
-        "processing",
-        "capability"
-      ],
-      "satellite": [
-        "multiple"
-      ],
-      "sensor": [
-        "multiple"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "A. Capabilities"
-    },
-    {
-      "rel": "child",
-      "href": "./wake_effect_indicator/collection.json",
-      "type": "application/json",
-      "title": "Wake Effect",
-      "id": "wake_effect_indicator",
-      "themes": [
-        "Shipping",
-        "Energy"
-      ],
-      "satellite": [
-        "multiple"
-      ],
-      "sensor": [
-        "multiple"
-      ],
-      "tags": [
-        "processing",
-        "capability"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "A. Capabilities"
-    },
-    {
-      "rel": "child",
-      "href": "./CIS_Icecharts/collection.json",
-      "type": "application/json",
-      "title": "CIS Ice charts",
-      "id": "CIS_Icecharts",
-      "themes": [
-        "Shipping"
-      ],
-      "providers": [
-        "Canadian Ice Service (CIS)"
-      ],
-      "agency": [
-        "CIS"
-      ],
-      "collection_group": "C. Sea Ice"
-    },
-    {
-      "rel": "child",
-      "href": "./landslide_risk_indicator/collection.json",
-      "type": "application/json",
-      "title": "Landslide risk",
-      "id": "landslide_risk_indicator",
-      "themes": [
-        "Energy"
-      ],
-      "satellite": [
-        "multiple"
-      ],
-      "sensor": [
-        "multiple"
-      ],
-      "tags": [
-        "processing",
-        "capability"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "A. Capabilities"
-    },
-    {
-      "rel": "child",
-      "href": "./DMI_polaris/collection.json",
-      "type": "application/json",
-      "title": "POLARIS (DMI)",
-      "id": "DMI_polaris",
-      "themes": [
-        "Aquaculture",
-        "Energy",
-        "Shipping"
-      ],
-      "providers": [
-        "DMI",
-        "EOX"
-      ],
-      "agency": [
-        "DMI"
-      ],
-      "collection_group": "C. Sea Ice"
-    },
-    {
-      "rel": "child",
-      "href": "./SICONC_sea_ice_concentration_antarctica/collection.json",
-      "type": "application/json",
-      "title": "Sea ice area fraction - Antarctica",
-      "id": "SICONC_sea_ice_concentration_antarctica",
-      "themes": [
-        "Antarctica"
-      ],
-      "sensor": "Numerical model",
-      "agency": [
-        "Mercator Ocean International "
-      ],
-      "collection_group": "L. Antarctica",
-      "otherSources": [
-        "Spatial Resolution: 0.083° × 0.083°",
-        "Frequency: Daily"
-      ]
-    },
-    {
-      "rel": "child",
-      "href": "./DEPTHO_sea_floor_depth_antarctica/collection.json",
-      "type": "application/json",
-      "title": "Sea floor depth below geoid - Antarctica",
-      "id": "DEPTHO_sea_floor_depth_antarctica",
-      "themes": [
-        "Antarctica"
-      ],
-      "agency": [
-        "Mercator Ocean International "
-      ],
-      "collection_group": "L. Antarctica",
-      "otherSources": [
-        "Spatial Resolution: 0.083° × 0.083°",
-        "Frequency: Static"
-      ],
-      "eodash:mapProjection": {
-        "name": "EPSG:32761",
-        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
-        "extent": [
-          -1371213.76,
-          -1405880.72,
-          5371213.76,
-          5405880.72
-        ]
-      }
     },
     {
       "rel": "child",
@@ -1137,174 +1250,339 @@
     },
     {
       "rel": "child",
-      "href": "./sea_ice_surface_temperature_antarctica/collection.json",
+      "href": "./SO_salinity/collection.json",
       "type": "application/json",
-      "title": "Sea ice surface temperature - Antarctica",
-      "id": "sea_ice_surface_temperature_antarctica",
+      "title": "Sea water salinity",
+      "id": "SO_salinity",
       "themes": [
-        "Antarctica"
+        "Aquaculture"
       ],
       "sensor": "Numerical model",
       "agency": [
         "Mercator Ocean International"
       ],
-      "collection_group": "L. Antarctica",
+      "collection_group": "E. Sea Water",
       "otherSources": [
-        "Spatial Resolution: 0.083° × 0.083°",
+        "Spatial Resolution: 0.083° x 0.083°",
         "Frequency: Daily"
-      ],
-      "eodash:mapProjection": {
-        "name": "EPSG:32761",
-        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
-        "extent": [
-          -1371213.76,
-          -1405880.72,
-          5371213.76,
-          5405880.72
-        ]
-      }
+      ]
     },
     {
       "rel": "child",
-      "href": "./Sentinel1-EW-HH_antarctica/collection.json",
+      "href": "./SO_salinity_Baltic/collection.json",
       "type": "application/json",
-      "title": "Sentinel 1 EW HH Antarctica",
-      "id": "Sentinel1-EW-HH_antarctica",
+      "title": "Sea water potential temperature - Baltic Sea",
+      "id": "SO_salinity_Baltic",
       "themes": [
-        "Antarctica"
+        "Baltic Sea"
       ],
+      "sensor": "Numerical model",
       "agency": [
-        "Sentinel Hub"
+        "SMHI"
       ],
-      "collection_group": "L. Antarctica",
-      "eodash:mapProjection": {
-        "name": "EPSG:32761",
-        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
-        "extent": [
-          -1371213.76,
-          -1405880.72,
-          5371213.76,
-          5405880.72
-        ]
-      }
+      "collection_group": "K. Baltic Sea",
+      "otherSources": [
+        "Spatial Resolution: 2 × 2 km",
+        "Frequency: Daily "
+      ]
     },
     {
       "rel": "child",
-      "href": "./Sentinel1-IW-VV_antarctica/collection.json",
+      "href": "./SPCO2_surface_co2/collection.json",
       "type": "application/json",
-      "title": "Sentinel 1 IW VV Antarctica",
-      "id": "Sentinel1-IW-VV_antarctica",
+      "title": "Surface partial pressure of carbon dioxide in sea water",
+      "id": "SPCO2_surface_co2",
       "themes": [
-        "Antarctica"
+        "Aquaculture"
       ],
+      "sensor": "Numerical model",
       "agency": [
-        "Sentinel Hub"
+        "Mercator Ocean International"
       ],
-      "collection_group": "L. Antarctica",
-      "eodash:mapProjection": {
-        "name": "EPSG:32761",
-        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
-        "extent": [
-          -1371213.76,
-          -1405880.72,
-          5371213.76,
-          5405880.72
-        ]
-      }
+      "collection_group": "G. Water Chemistry",
+      "otherSources": [
+        "Spatial Resolution: 0.25° × 0.25°",
+        "Frequency: Daily"
+      ]
     },
     {
       "rel": "child",
-      "href": "./Sentinel2-L2A/collection.json",
+      "href": "./SPM_suspended_matter/collection.json",
       "type": "application/json",
-      "title": "Sentinel 2 L2A",
-      "id": "Sentinel2-L2A",
+      "title": "Mass concentration of suspended matter in sea water",
+      "id": "SPM_suspended_matter",
       "themes": [
-        "Energy",
-        "Aquaculture",
-        "Shipping"
+        "Aquaculture"
       ],
+      "sensor": "Satellite observations",
       "agency": [
-        "Sentinel Hub"
+        "ACRI "
       ],
-      "collection_group": "B. Satellite Data"
+      "collection_group": "F. Water Biology",
+      "otherSources": [
+        "Spatial Resolution: 4 × 4 km",
+        "Frequency: Monthly"
+      ]
     },
     {
       "rel": "child",
-      "href": "./dmi-asip-seaice/collection.json",
+      "href": "./structureicing/collection.json",
       "type": "application/json",
-      "title": "High Resolution Sea Ice Information L3 Arctic",
-      "id": "dmi-asip-seaice",
+      "title": "Icing Predictor Index",
+      "id": "structureicing",
       "themes": [
-        "Energy",
-        "Aquaculture",
-        "Shipping"
-      ],
-      "providers": [
-        "CMEMS",
-        "EOX"
-      ],
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "C. Sea Ice"
-    },
-    {
-      "rel": "child",
-      "href": "./RCM_eoapi/collection.json",
-      "type": "application/json",
-      "title": "RCM scenes",
-      "id": "RCM_eoapi",
-      "themes": [
-        "Energy",
-        "Aquaculture",
-        "Shipping"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "B. Satellite Data"
-    },
-    {
-      "rel": "child",
-      "href": "./NIC_Icecharts_arctic/collection.json",
-      "type": "application/json",
-      "title": "NIC Ice charts Arctic",
-      "id": "NIC_Icecharts_arctic",
-      "themes": [
-        "Aquaculture",
-        "Energy",
-        "Shipping"
-      ],
-      "providers": [
-        "U.S. NATIONAL ICE CENTER (USNIC)",
-        "EOX"
-      ],
-      "agency": [
-        "USNIC"
-      ],
-      "collection_group": "C. Sea Ice",
-      "eodash:mapProjection": {
-        "name": "EPSG:3413",
-        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
-      }
-    },
-    {
-      "rel": "child",
-      "href": "./sea_floor_depth_shores/collection.json",
-      "type": "application/json",
-      "title": "Sea floor depth - Shallow water",
-      "id": "sea_floor_depth_shores",
-      "themes": [
+        "Shipping",
         "Aquaculture",
         "Energy"
       ],
       "agency": [
+        "C-CORE"
+      ],
+      "collection_group": "A. Capabilities"
+    },
+    {
+      "rel": "child",
+      "href": "./TALK_alkalinity/collection.json",
+      "type": "application/json",
+      "title": "Sea water alkalinity expressed as mole equivalent",
+      "id": "TALK_alkalinity",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
         "Mercator Ocean International"
       ],
-      "collection_group": "J. Bathymetry",
+      "collection_group": "G. Water Chemistry",
       "otherSources": [
-        "Spatial Resolution: 0.083° × 0.083°",
-        "Frequency: Static"
+        "Spatial Resolution: 0.25° × 0.25°",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./THETAO_sea_water_potential_temperature/collection.json",
+      "type": "application/json",
+      "title": "Sea water potential temperature",
+      "id": "THETAO_sea_water_potential_temperature",
+      "themes": [
+        "Aquaculture",
+        "Shipping"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "E. Sea Water",
+      "otherSources": [
+        "Spatial Resolution: 0.083° x 0.083°",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./THETAO_water_temperature_Baltic/collection.json",
+      "type": "application/json",
+      "title": "Sea water potential temperature - Baltic Sea",
+      "id": "THETAO_water_temperature_Baltic",
+      "themes": [
+        "Baltic Sea"
+      ],
+      "sensor": "Numerical models",
+      "agency": [
+        "SMHI"
+      ],
+      "collection_group": "K. Baltic Sea",
+      "otherSources": [
+        "Spatial Resolution: 2 × 2 km",
+        "Frequency: Daily "
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./VHM0_wave_height_Baltic/collection.json",
+      "type": "application/json",
+      "title": "Sea surface wave significant wave height - Baltic Sea",
+      "id": "VHM0_wave_height_Baltic",
+      "themes": [
+        "Baltic Sea"
+      ],
+      "sensor": "Numerical models",
+      "agency": [
+        "FMI"
+      ],
+      "collection_group": "K. Baltic Sea",
+      "otherSources": [
+        "Spatial Resolution: 2 × 2 km",
+        "Frequency: Monthly"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./VTM02_wave_period_Baltic/collection.json",
+      "type": "application/json",
+      "title": "Surface wave mean period from variance spectral density second frequency moment - Baltic Sea",
+      "id": "VTM02_wave_period_Baltic",
+      "themes": [
+        "Baltic Sea"
+      ],
+      "sensor": "Numerical models",
+      "agency": [
+        "FMI"
+      ],
+      "collection_group": "K. Baltic Sea",
+      "otherSources": [
+        "Spatial Resolution: 2 × 2 km",
+        "Frequency: Monthly"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./VTM02_wave_period/collection.json",
+      "type": "application/json",
+      "title": "Sea surface wave mean period from variance spectral density second frequency moment",
+      "id": "VTM02_wave_period",
+      "themes": [
+        "Aquaculture",
+        "Shipping",
+        "Energy"
+      ],
+      "sensor": "Numerical models",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "H. Waves",
+      "otherSources": [
+        "Spatial Resolution: 0.2° × 0.2°",
+        "Frequency: Monthly"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./VHM0_wave_height/collection.json",
+      "type": "application/json",
+      "title": "Sea surface wave significant height",
+      "id": "VHM0_wave_height",
+      "themes": [
+        "Aquaculture",
+        "Shipping",
+        "Energy"
+      ],
+      "sensor": "Numerical models",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "H. Waves",
+      "otherSources": [
+        "Spatial Resolution: 0.2° × 0.2°",
+        "Frequency: Monthly"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./wake_effect_indicator/collection.json",
+      "type": "application/json",
+      "title": "Wake Effect",
+      "id": "wake_effect_indicator",
+      "themes": [
+        "Shipping",
+        "Energy"
+      ],
+      "satellite": [
+        "multiple"
+      ],
+      "sensor": [
+        "multiple"
+      ],
+      "tags": [
+        "processing",
+        "capability"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "A. Capabilities"
+    },
+    {
+      "rel": "child",
+      "href": "./Wind_speed/collection.json",
+      "type": "application/json",
+      "title": "Wind speed",
+      "id": "Wind_speed",
+      "themes": [
+        "Aquaculture",
+        "Shipping",
+        "Energy"
+      ],
+      "sensor": "Satellite Observations",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "I. Wind",
+      "otherSources": [
+        "Spatial Resolution: 0.25° × 0.25°",
+        "Frequency: Monthly"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Wind_speed_sdd/collection.json",
+      "type": "application/json",
+      "title": "Wind speed standard deviation of differences",
+      "id": "Wind_speed_sdd",
+      "themes": [
+        "Aquaculture",
+        "Shipping",
+        "Energy"
+      ],
+      "sensor": "Satellite Observations",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "I. Wind",
+      "otherSources": [
+        "Spatial Resolution: 0.25° × 0.25°",
+        "Frequency: Monthly"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Wind_speed_Baltic/collection.json",
+      "type": "application/json",
+      "title": "Wind speed - Baltic Sea",
+      "id": "Wind_speed_Baltic",
+      "themes": [
+        "Aquaculture",
+        "Shipping",
+        "Energy"
+      ],
+      "sensor": "Satellite Observations",
+      "agency": [
+        "CLS"
+      ],
+      "collection_group": "I. Wind",
+      "otherSources": [
+        "Spatial Resolution: 0.25° × 0.25°",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./ZOOC_zooplankton/collection.json",
+      "type": "application/json",
+      "title": "Mole concentration of zooplankton expressed as carbon in sea water",
+      "id": "ZOOC_zooplankton",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "G. Water Chemistry",
+      "otherSources": [
+        "Spatial Resolution: 0.25° × 0.25°",
+        "Frequency: Daily"
       ]
     },
     {
