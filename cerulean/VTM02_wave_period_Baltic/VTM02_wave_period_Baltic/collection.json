@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:tempo"
       },
-      "key": "5cba065c-3b04-4d9a-95a0-1b819712b6ae"
+      "key": "4735d9d5-1ad5-40b3-b7f6-8cf5c5e0f8f3"
     },
     {
       "rel": "parent",
@@ -66,21 +66,31 @@
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          9.013799667358398,
+          53.00830078125,
+          30.20800018310547,
+          65.90809631347656
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "1970-01-01T00:00:00Z",
-          "2026-01-19T21:21:41.977556Z"
+          "2001-01-01T00:00:00Z",
+          "2001-12-01T00:00:00Z"
         ]
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
 }
