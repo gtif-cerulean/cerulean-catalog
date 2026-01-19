@@ -27,8 +27,8 @@
       "collection_group": "E. Sea Water",
       "sensor": "Numerical model",
       "otherSources": [
-        "Numerical Model",
-        "0.083° × 0.083°"
+        "Spatial Resolution: 0.083° x 0.083°",
+        "Frequency: Daily"
       ]
     },
     {
@@ -135,8 +135,8 @@
   "collection_group": "E. Sea Water",
   "sensor": "Numerical model",
   "otherSources": [
-    "Numerical Model",
-    "0.083° × 0.083°"
+    "Spatial Resolution: 0.083° x 0.083°",
+    "Frequency: Daily"
   ],
   "eox:colorlegend": {
     "title": "Sea water potential temperature [°C]",
@@ -186,8 +186,8 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Aquaculture",
-      "Shipping"
+      "Shipping",
+      "Aquaculture"
     ],
     "sensor": [
       "Numerical model"

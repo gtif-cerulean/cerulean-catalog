@@ -28,7 +28,7 @@
       "collection_group": "G. Water Chemistry",
       "sensor": "Numerical model",
       "otherSources": [
-        "Spatial Resolution: 0.083° × 0.083°",
+        "Spatial Resolution: 0.25° × 0.25°",
         "Frequency: Daily"
       ]
     },
@@ -136,7 +136,7 @@
   "collection_group": "G. Water Chemistry",
   "sensor": "Numerical model",
   "otherSources": [
-    "Spatial Resolution: 0.083° × 0.083°",
+    "Spatial Resolution: 0.25° × 0.25°",
     "Frequency: Daily"
   ],
   "eox:colorlegend": {

@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "PROKAR_prokaryotes",
+  "id": "CHL_chlorophyll_Biology",
   "stac_version": "1.1.0",
   "description": "The Bio-Geo-Chemical (BGC) products are based on the Copernicus-GlobColour processor. Data comes from SeaWiFS, MODIS, MERIS, VIIRS-SNPP & JPSS1, OLCI-S3A & S3B. Variables are Chlorophyll-a (CHL) and Phytoplankton Functional types and sizes (PFT).",
   "links": [
@@ -12,10 +12,10 @@
     },
     {
       "rel": "wmts",
-      "href": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-multi-4km_P1M_202411",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-gapfree-multi-4km_P1D_202311",
       "type": "image/png",
       "title": "wmts capabilities",
-      "wmts:layer": "OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-multi-4km_P1M_202411/PROKAR",
+      "wmts:layer": "OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-gapfree-multi-4km_P1D_202311/CHL",
       "role": [
         "data"
       ],
@@ -23,13 +23,13 @@
         "elevation": 0,
         "style": "cmap:algae"
       },
-      "key": "67f3e446-8c72-4115-a2e4-fb2f193cd80b"
+      "key": "5e9e27fe-c341-4cd7-8422-203b19e51976"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Mass concentration of prokaryotes expressed as chlorophyll in sea water"
+      "title": "Mass concentration of chlorophyll a in sea water - Biology"
     }
   ],
   "sci:doi": "10.48670/moi-00279",
@@ -43,10 +43,10 @@
   "sensor": "Satellite observations",
   "otherSources": [
     "Spatial Resolution: 4 × 4 km",
-    "Frequency: Monthly"
+    "Frequency: Daily "
   ],
   "eox:colorlegend": {
-    "title": "Mass concentration of prokaryotes expressed as chlorophyll in sea water [mg/m^3]",
+    "title": "Mass concentration of chlorophyll a in sea water - Biology [mg/m^3]",
     "range": [
       "rgb(214, 249, 207)",
       "rgb(149, 205, 137)",
@@ -56,12 +56,12 @@
       "rgb(17, 36, 20)"
     ],
     "domain": [
-      0.0405,
-      0.7041
+      0.027,
+      1.812
     ]
   },
   "endpointtype": "marinedatastore_WMTSCapabilities",
-  "title": "Mass concentration of prokaryotes expressed as chlorophyll in sea water",
+  "title": "Mass concentration of chlorophyll a in sea water - Biology",
   "extent": {
     "spatial": {
       "bbox": [
@@ -76,8 +76,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-10-01T00:00:00Z",
-          "2025-12-01T00:00:00Z"
+          "2026-01-03T00:00:00Z",
+          "2026-01-18T00:00:00Z"
         ]
       ]
     }

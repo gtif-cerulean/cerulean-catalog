@@ -45,20 +45,6 @@
     },
     {
       "rel": "child",
-      "href": "./polaris_sentinel1/collection.json",
-      "type": "application/json",
-      "title": "POLARIS combined",
-      "id": "polaris_sentinel1",
-      "themes": [
-        "Shipping"
-      ],
-      "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
-      ],
-      "collection_group": "A. Capabilities"
-    },
-    {
-      "rel": "child",
       "href": "./airss_results/collection.json",
       "type": "application/json",
       "title": "Canadian Arctic Ice Regime Shipping System (AIRSS)",
@@ -91,7 +77,7 @@
       ],
       "collection_group": "G. Water Chemistry",
       "otherSources": [
-        "Spatial Resolution: 0.083° × 0.083°",
+        "Spatial Resolution: 0.25° × 0.25°",
         "Frequency: Daily"
       ]
     },
@@ -112,7 +98,7 @@
       ],
       "collection_group": "G. Water Chemistry",
       "otherSources": [
-        "Spatial Resolution: 0.083° × 0.083°",
+        "Spatial Resolution: 0.25° × 0.25°",
         "Frequency: Daily"
       ]
     },
@@ -133,7 +119,7 @@
       ],
       "collection_group": "G. Water Chemistry",
       "otherSources": [
-        "Spatial Resolution: 0.083° × 0.083°",
+        "Spatial Resolution: 0.25° × 0.25°",
         "Frequency: Daily"
       ]
     },
@@ -154,7 +140,7 @@
       ],
       "collection_group": "G. Water Chemistry",
       "otherSources": [
-        "Spatial Resolution: 0.083° × 0.083°",
+        "Spatial Resolution: 0.25° × 0.25°",
         "Frequency: Daily"
       ]
     },
@@ -173,7 +159,7 @@
       ],
       "collection_group": "G. Water Chemistry",
       "otherSources": [
-        "Spatial Resolution: 0.083° × 0.083°",
+        "Spatial Resolution: 0.25° × 0.25°",
         "Frequency: Daily"
       ]
     },
@@ -192,7 +178,7 @@
       ],
       "collection_group": "G. Water Chemistry",
       "otherSources": [
-        "Spatial Resolution: 0.083° × 0.083°",
+        "Spatial Resolution: 0.25° × 0.25°",
         "Frequency: Daily"
       ]
     },
@@ -213,7 +199,7 @@
       ],
       "collection_group": "G. Water Chemistry",
       "otherSources": [
-        "Spatial Resolution: 0.083° × 0.083°",
+        "Spatial Resolution: 0.25° × 0.25°",
         "Frequency: Daily"
       ]
     },
@@ -234,7 +220,7 @@
       ],
       "collection_group": "G. Water Chemistry",
       "otherSources": [
-        "Spatial Resolution: 0.083° × 0.083°",
+        "Spatial Resolution: 0.25° × 0.25°",
         "Frequency: Daily"
       ]
     },
@@ -253,7 +239,7 @@
       ],
       "collection_group": "G. Water Chemistry",
       "otherSources": [
-        "Spatial Resolution: 0.083° × 0.083°",
+        "Spatial Resolution: 0.25° × 0.25°",
         "Frequency: Daily"
       ]
     },
@@ -272,7 +258,7 @@
       ],
       "collection_group": "G. Water Chemistry",
       "otherSources": [
-        "Spatial Resolution: 0.083° × 0.083°",
+        "Spatial Resolution: 0.25° × 0.25°",
         "Frequency: Daily"
       ]
     },
@@ -291,7 +277,7 @@
       ],
       "collection_group": "G. Water Chemistry",
       "otherSources": [
-        "Spatial Resolution: 0.083° × 0.083°",
+        "Spatial Resolution: 0.25° × 0.25°",
         "Frequency: Daily"
       ]
     },
@@ -310,7 +296,7 @@
       ],
       "collection_group": "G. Water Chemistry",
       "otherSources": [
-        "Spatial Resolution: 0.083° × 0.083°",
+        "Spatial Resolution: 0.25° × 0.25°",
         "Frequency: Daily"
       ]
     },
@@ -365,6 +351,25 @@
       "otherSources": [
         "Spatial Resolution: 0.25° × 0.25°",
         "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./CHL_chlorophyll_Biology/collection.json",
+      "type": "application/json",
+      "title": "Mass concentration of chlorophyll a in sea water - Biology",
+      "id": "CHL_chlorophyll_Biology",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Satellite observations",
+      "agency": [
+        "ACRI"
+      ],
+      "collection_group": "F. Water Biology",
+      "otherSources": [
+        "Spatial Resolution: 4 × 4 km",
+        "Frequency: Daily "
       ]
     },
     {
@@ -591,8 +596,8 @@
       ],
       "collection_group": "E. Sea Water",
       "otherSources": [
-        "Numerical Model",
-        "0.083° × 0.083°"
+        "Spatial Resolution: 0.083° x 0.083°",
+        "Frequency: Daily"
       ]
     },
     {
@@ -611,8 +616,8 @@
       ],
       "collection_group": "E. Sea Water",
       "otherSources": [
-        "Numerical Model",
-        "0.083° × 0.083°"
+        "Spatial Resolution: 0.083° x 0.083°",
+        "Frequency: Daily"
       ]
     },
     {
@@ -630,8 +635,8 @@
       ],
       "collection_group": "E. Sea Water",
       "otherSources": [
-        "Numerical Model",
-        "0.083° × 0.083°"
+        "Spatial Resolution: 0.083° x 0.083°",
+        "Frequency: Daily"
       ]
     },
     {
@@ -691,8 +696,8 @@
       ],
       "collection_group": "C. Sea Ice",
       "otherSources": [
-        "Numerical Model",
-        "0.083° × 0.083°"
+        "Spatial Resolution: 0.083° x 0.083°",
+        "Frequency: Daily"
       ]
     },
     {
@@ -710,8 +715,8 @@
       ],
       "collection_group": "C. Sea Ice",
       "otherSources": [
-        "Numerical Model",
-        "0.083° × 0.083°"
+        "Spatial Resolution: 0.083° x 0.083°",
+        "Frequency: Daily"
       ]
     },
     {
@@ -731,8 +736,8 @@
       ],
       "collection_group": "C. Sea Ice",
       "otherSources": [
-        "Numerical Model",
-        "0.083° × 0.083°"
+        "Spatial Resolution: 0.083° x 0.083°",
+        "Frequency: Daily"
       ]
     },
     {
@@ -752,8 +757,8 @@
       ],
       "collection_group": "C. Sea Ice",
       "otherSources": [
-        "Numerical Model",
-        "0.083° × 0.083°"
+        "Spatial Resolution: 0.083° x 0.083°",
+        "Frequency: Daily"
       ]
     },
     {
@@ -773,8 +778,8 @@
       ],
       "collection_group": "D. Icebergs",
       "otherSources": [
-        "Numerical Model",
-        "10 km x 10 km"
+        "Spatial Resolution: 10 km x 10 km",
+        "Frequency: Daily"
       ]
     },
     {
@@ -807,20 +812,6 @@
         "C-CORE"
       ],
       "collection_group": "A. Capabilities"
-    },
-    {
-      "rel": "child",
-      "href": "./sea_ice_detections/collection.json",
-      "type": "application/json",
-      "title": "Sea Ice Detections",
-      "id": "sea_ice_detections",
-      "themes": [
-        "Shipping"
-      ],
-      "agency": [
-        "SMI"
-      ],
-      "collection_group": "C. Sea Ice"
     },
     {
       "rel": "child",

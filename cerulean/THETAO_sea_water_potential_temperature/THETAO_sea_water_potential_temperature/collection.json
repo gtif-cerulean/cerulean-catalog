@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:thermal,range:-3/30"
       },
-      "key": "05b235f6-a82e-49c0-ac4f-9551d30246b2"
+      "key": "45399047-b3bd-4f95-8043-70875e435bf4"
     },
     {
       "rel": "parent",
@@ -43,8 +43,8 @@
   "collection_group": "E. Sea Water",
   "sensor": "Numerical model",
   "otherSources": [
-    "Numerical Model",
-    "0.083° × 0.083°"
+    "Spatial Resolution: 0.083° x 0.083°",
+    "Frequency: Daily"
   ],
   "eox:colorlegend": {
     "title": "Sea water potential temperature [°C]",

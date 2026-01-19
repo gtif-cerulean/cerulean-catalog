@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:speed"
       },
-      "key": "6dc65965-d166-4095-8d9c-972b5c2c4b51"
+      "key": "7ebd887c-adb0-4d94-97e1-57340b342bb7"
     },
     {
       "rel": "parent",
@@ -44,8 +44,8 @@
   "collection_group": "C. Sea Ice",
   "sensor": "Numerical model",
   "otherSources": [
-    "Numerical Model",
-    "0.083° × 0.083°"
+    "Spatial Resolution: 0.083° x 0.083°",
+    "Frequency: Daily"
   ],
   "eox:colorlegend": {
     "title": "Sea ice speed [m/s]",
@@ -78,7 +78,7 @@
     "temporal": {
       "interval": [
         [
-          "2024-01-01T00:00:00Z",
+          "2022-06-01T00:00:00Z",
           "2026-01-28T00:00:00Z"
         ]
       ]

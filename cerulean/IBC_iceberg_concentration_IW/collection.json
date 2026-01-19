@@ -28,8 +28,8 @@
       "collection_group": "D. Icebergs",
       "sensor": "Satellite S1 IW",
       "otherSources": [
-        "Numerical Model",
-        "10 km x 10 km"
+        "Spatial Resolution: 10 km x 10 km",
+        "Frequency: Daily"
       ]
     },
     {
@@ -137,8 +137,8 @@
   "collection_group": "D. Icebergs",
   "sensor": "Satellite S1 IW",
   "otherSources": [
-    "Numerical Model",
-    "10 km x 10 km"
+    "Spatial Resolution: 10 km x 10 km",
+    "Frequency: Daily"
   ],
   "eox:colorlegend": {
     "title": "Number of icebergs per unit area (S1 IW) [#/100 km^2]",
@@ -179,8 +179,8 @@
     "temporal": {
       "interval": [
         [
-          "2024-01-02T09:47:00Z",
-          "2026-01-18T15:45:00Z"
+          "2023-11-25T10:01:00Z",
+          "2026-01-19T09:16:00Z"
         ]
       ]
     }
@@ -188,9 +188,9 @@
   "license": "other",
   "summaries": {
     "themes": [
+      "Shipping",
       "Energy",
-      "Aquaculture",
-      "Shipping"
+      "Aquaculture"
     ],
     "sensor": [
       "Satellite S1 IW"

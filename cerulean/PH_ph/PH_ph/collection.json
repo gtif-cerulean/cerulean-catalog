@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:viridis"
       },
-      "key": "6c9851c6-0445-4a4e-a74f-4233d6983f70"
+      "key": "4f817e97-d5a2-427d-9450-34a2f01465b0"
     },
     {
       "rel": "parent",
@@ -43,7 +43,7 @@
   "collection_group": "G. Water Chemistry",
   "sensor": "Numerical model",
   "otherSources": [
-    "Spatial Resolution: 0.083° × 0.083°",
+    "Spatial Resolution: 0.25° × 0.25°",
     "Frequency: Daily"
   ],
   "eox:colorlegend": {

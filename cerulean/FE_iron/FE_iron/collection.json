@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:dense"
       },
-      "key": "0df49176-0954-4f50-b68b-e713151370e0"
+      "key": "6735be97-41a5-49cd-a6fb-45545473caf2"
     },
     {
       "rel": "parent",
@@ -43,11 +43,11 @@
   "collection_group": "G. Water Chemistry",
   "sensor": "Numerical model",
   "otherSources": [
-    "Spatial Resolution: 0.083° × 0.083°",
+    "Spatial Resolution: 0.25° × 0.25°",
     "Frequency: Daily"
   ],
   "eox:colorlegend": {
-    "title": "Mole concentration of dissolved iron in sea water [[mmol/m^3]",
+    "title": "Mole concentration of dissolved iron in sea water [mmol/m^3]",
     "range": [
       "rgb(230, 240, 240)",
       "rgb(149, 197, 226)",

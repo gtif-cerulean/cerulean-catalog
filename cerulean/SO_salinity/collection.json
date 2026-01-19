@@ -26,8 +26,8 @@
       "collection_group": "E. Sea Water",
       "sensor": "Numerical model",
       "otherSources": [
-        "Numerical Model",
-        "0.083° × 0.083°"
+        "Spatial Resolution: 0.083° x 0.083°",
+        "Frequency: Daily"
       ]
     },
     {
@@ -133,11 +133,11 @@
   "collection_group": "E. Sea Water",
   "sensor": "Numerical model",
   "otherSources": [
-    "Numerical Model",
-    "0.083° × 0.083°"
+    "Spatial Resolution: 0.083° x 0.083°",
+    "Frequency: Daily"
   ],
   "eox:colorlegend": {
-    "title": "Salinity [1e-3]",
+    "title": "Salinity [/10^3]",
     "range": [
       "rgb(41, 24, 107)",
       "rgb(12, 77, 150)",

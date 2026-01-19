@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:dense"
       },
-      "key": "cdd66f28-495e-4c4a-8702-d02bd4f52583"
+      "key": "3b064255-6d03-4b41-8455-70c1e4a2f095"
     },
     {
       "rel": "parent",
@@ -43,7 +43,7 @@
   "collection_group": "G. Water Chemistry",
   "sensor": "Numerical model",
   "otherSources": [
-    "Spatial Resolution: 0.083° × 0.083°",
+    "Spatial Resolution: 0.25° × 0.25°",
     "Frequency: Daily"
   ],
   "eox:colorlegend": {

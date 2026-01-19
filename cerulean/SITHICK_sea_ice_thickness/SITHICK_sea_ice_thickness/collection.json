@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:ice"
       },
-      "key": "0b5b0f0c-5e25-4bca-b5e1-1f7d7f707ead"
+      "key": "282c922b-2c95-40b7-8483-da6e71953b31"
     },
     {
       "rel": "parent",
@@ -44,8 +44,8 @@
   "collection_group": "C. Sea Ice",
   "sensor": "Numerical model",
   "otherSources": [
-    "Numerical Model",
-    "0.083° × 0.083°"
+    "Spatial Resolution: 0.083° x 0.083°",
+    "Frequency: Daily"
   ],
   "eox:colorlegend": {
     "title": "Sea ice thickness [m]",

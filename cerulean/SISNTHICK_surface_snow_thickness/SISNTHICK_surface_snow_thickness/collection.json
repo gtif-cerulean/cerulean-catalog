@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:ice"
       },
-      "key": "c33c1f9f-cd12-43bf-93fd-f5afb01a17d9"
+      "key": "ef8a8786-6262-4a56-b3a0-42a9571a1e1f"
     },
     {
       "rel": "parent",
@@ -42,8 +42,8 @@
   "collection_group": "C. Sea Ice",
   "sensor": "Numerical model",
   "otherSources": [
-    "Numerical Model",
-    "0.083° × 0.083°"
+    "Spatial Resolution: 0.083° x 0.083°",
+    "Frequency: Daily"
   ],
   "eox:colorlegend": {
     "title": "Surface snow thickness [m]",

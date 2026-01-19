@@ -28,8 +28,8 @@
       "collection_group": "C. Sea Ice",
       "sensor": "Numerical model",
       "otherSources": [
-        "Numerical Model",
-        "0.083° × 0.083°"
+        "Spatial Resolution: 0.083° x 0.083°",
+        "Frequency: Daily"
       ]
     },
     {
@@ -137,8 +137,8 @@
   "collection_group": "C. Sea Ice",
   "sensor": "Numerical model",
   "otherSources": [
-    "Numerical Model",
-    "0.083° × 0.083°"
+    "Spatial Resolution: 0.083° x 0.083°",
+    "Frequency: Daily"
   ],
   "eox:colorlegend": {
     "title": "Sea ice thickness [m]",
@@ -188,9 +188,9 @@
   "license": "other",
   "summaries": {
     "themes": [
+      "Shipping",
       "Energy",
-      "Aquaculture",
-      "Shipping"
+      "Aquaculture"
     ],
     "sensor": [
       "Numerical model"

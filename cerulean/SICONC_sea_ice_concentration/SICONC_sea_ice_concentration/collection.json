@@ -23,7 +23,7 @@
         "elevation": "0",
         "style": "cmap:ice"
       },
-      "key": "35f33895-0dc1-4657-8c19-4275137dc660"
+      "key": "3334480a-69fd-4c35-9ac9-19c99b1ba9f4"
     },
     {
       "rel": "parent",
@@ -44,8 +44,8 @@
   "collection_group": "C. Sea Ice",
   "sensor": "Numerical model",
   "otherSources": [
-    "Numerical Model",
-    "0.083° × 0.083°"
+    "Spatial Resolution: 0.083° x 0.083°",
+    "Frequency: Daily"
   ],
   "eox:colorlegend": {
     "title": "Sea ice area fraction",

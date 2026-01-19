@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:viridis"
       },
-      "key": "6f38fbe5-d308-456c-ac0a-fe1cd8fbe831"
+      "key": "b4768b93-547b-42ba-b05a-9514d36a21ff"
     },
     {
       "rel": "parent",
@@ -42,8 +42,8 @@
   "collection_group": "E. Sea Water",
   "sensor": "Numerical model",
   "otherSources": [
-    "Numerical Model",
-    "0.083° × 0.083°"
+    "Spatial Resolution: 0.083° x 0.083°",
+    "Frequency: Daily"
   ],
   "eox:colorlegend": {
     "title": "Sea surface temperature anomaly [°C]",
