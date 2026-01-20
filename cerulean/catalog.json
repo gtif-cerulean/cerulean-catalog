@@ -272,7 +272,7 @@
       "rel": "child",
       "href": "./dmi-asip-seaice-floe/collection.json",
       "type": "application/json",
-      "title": "Form of Ice",
+      "title": "AI: Sea Ice Floe Size",
       "id": "dmi-asip-seaice-floe",
       "themes": [
         "Energy",
@@ -292,7 +292,7 @@
       "rel": "child",
       "href": "./dmi-asip-seaice-sic/collection.json",
       "type": "application/json",
-      "title": "Sea Ice Concentration",
+      "title": "AI: Sea Ice Concentration",
       "id": "dmi-asip-seaice-sic",
       "themes": [
         "Energy",
@@ -312,7 +312,7 @@
       "rel": "child",
       "href": "./dmi-asip-seaice-sod/collection.json",
       "type": "application/json",
-      "title": "Stage of Development",
+      "title": "AI: Sea Ice Stage of Development",
       "id": "dmi-asip-seaice-sod",
       "themes": [
         "Energy",
@@ -1560,7 +1560,7 @@
       "agency": [
         "CLS"
       ],
-      "collection_group": "I. Wind",
+      "collection_group": "K. Baltic Sea",
       "otherSources": [
         "Spatial Resolution: 0.25° × 0.25°",
         "Frequency: Daily"

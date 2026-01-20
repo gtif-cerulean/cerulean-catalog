@@ -25,7 +25,7 @@
       "agency": [
         "CLS"
       ],
-      "collection_group": "I. Wind",
+      "collection_group": "K. Baltic Sea",
       "sensor": "Satellite Observations",
       "otherSources": [
         "Spatial Resolution: 0.25° × 0.25°",
@@ -134,7 +134,7 @@
   "agency": [
     "CLS"
   ],
-  "collection_group": "I. Wind",
+  "collection_group": "K. Baltic Sea",
   "sensor": "Satellite Observations",
   "otherSources": [
     "Spatial Resolution: 0.25° × 0.25°",
@@ -188,9 +188,9 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Aquaculture",
+      "Energy",
       "Shipping",
-      "Energy"
+      "Aquaculture"
     ],
     "sensor": [
       "Satellite Observations"

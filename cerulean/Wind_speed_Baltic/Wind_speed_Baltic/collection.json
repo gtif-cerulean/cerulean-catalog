@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:speed"
       },
-      "key": "6cea20d2-a706-47e2-a338-e4249cefdc2b"
+      "key": "00f5d73d-aba9-4b9c-817a-91ccc75a480d"
     },
     {
       "rel": "parent",
@@ -41,7 +41,7 @@
   "agency": [
     "CLS"
   ],
-  "collection_group": "I. Wind",
+  "collection_group": "K. Baltic Sea",
   "sensor": "Satellite Observations",
   "otherSources": [
     "Spatial Resolution: 0.25° × 0.25°",

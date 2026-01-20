@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./dmi-asip-seaice-floe/collection.json",
       "type": "application/json",
-      "title": "Form of Ice",
+      "title": "AI: Sea Ice Floe Size",
       "endpointtype": "VEDA_tiles",
       "id": "dmi-asip-seaice-floe",
       "themes": [
@@ -128,7 +128,7 @@
   ],
   "collection_group": "C. Sea Ice",
   "eox:colorlegend": {
-    "title": "Form of Ice - Floes (width)",
+    "title": "AI: Sea Ice Floe Size (width)",
     "range": [
       "rgb(160,232,91)",
       "rgb(145,89,222)",
@@ -145,7 +145,7 @@
     "markType": "circle"
   },
   "merge_assets": false,
-  "title": "Form of Ice",
+  "title": "AI: Sea Ice Floe Size",
   "extent": {
     "spatial": {
       "bbox": [
@@ -191,9 +191,9 @@
   ],
   "summaries": {
     "themes": [
-      "Aquaculture",
+      "Energy",
       "Shipping",
-      "Energy"
+      "Aquaculture"
     ]
   },
   "assets": {

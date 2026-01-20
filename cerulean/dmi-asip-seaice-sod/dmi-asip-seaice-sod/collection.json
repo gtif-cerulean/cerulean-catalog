@@ -14,14 +14,14 @@
       "rel": "xyz",
       "href": "https://eoapi.workspace.cif.hub-otc.eox.at/raster/collections/asip-seaice/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=sod&nodata=-1&colormap=%7B%220%22%3A%20%5B240%2C210%2C250%5D%2C%221%22%3A%5B155%2C210%2C0%5D%2C%222%22%3A%5B0%2C120%2C0%5D%2C%223%22%3A%5B200%2C0%2C0%5D%2C%224%22%3A%5B150%2C150%2C150%5D%7D",
       "type": "image/png",
-      "title": "Stage of Development",
-      "key": "c63a5b7a-5f07-4a92-b206-1365db0e8e0a"
+      "title": "AI: Sea Ice Stage of Development",
+      "key": "6d94d31a-657a-4f73-8aa9-2f4678300bd7"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Stage of Development"
+      "title": "AI: Sea Ice Stage of Development"
     }
   ],
   "sci:doi": "10.48670/mds-00343",
@@ -35,7 +35,7 @@
   ],
   "collection_group": "C. Sea Ice",
   "eox:colorlegend": {
-    "title": "Stage of Development",
+    "title": "AI: Sea Ice Stage of Development",
     "range": [
       "rgb(240,210,250)",
       "rgb(155,210,0)",
@@ -54,7 +54,7 @@
     "markType": "circle"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Stage of Development",
+  "title": "AI: Sea Ice Stage of Development",
   "extent": {
     "spatial": {
       "bbox": [

@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./dmi-asip-seaice-sic/collection.json",
       "type": "application/json",
-      "title": "Sea Ice Concentration",
+      "title": "AI: Sea Ice Concentration",
       "endpointtype": "VEDA_tiles",
       "id": "dmi-asip-seaice-sic",
       "themes": [
@@ -128,7 +128,7 @@
   ],
   "collection_group": "C. Sea Ice",
   "eox:colorlegend": {
-    "title": "Sea Ice Concentration [%]",
+    "title": "AI: Sea Ice Concentration [%]",
     "range": [
       "rgb(150,200,255)",
       "rgb(140,255,160)",
@@ -147,7 +147,7 @@
     "markType": "circle"
   },
   "merge_assets": false,
-  "title": "Sea Ice Concentration",
+  "title": "AI: Sea Ice Concentration",
   "extent": {
     "spatial": {
       "bbox": [
@@ -193,9 +193,9 @@
   ],
   "summaries": {
     "themes": [
-      "Aquaculture",
+      "Energy",
       "Shipping",
-      "Energy"
+      "Aquaculture"
     ]
   },
   "assets": {

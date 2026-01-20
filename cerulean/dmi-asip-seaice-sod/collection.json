@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./dmi-asip-seaice-sod/collection.json",
       "type": "application/json",
-      "title": "Stage of Development",
+      "title": "AI: Sea Ice Stage of Development",
       "endpointtype": "VEDA_tiles",
       "id": "dmi-asip-seaice-sod",
       "themes": [
@@ -128,7 +128,7 @@
   ],
   "collection_group": "C. Sea Ice",
   "eox:colorlegend": {
-    "title": "Stage of Development",
+    "title": "AI: Sea Ice Stage of Development",
     "range": [
       "rgb(240,210,250)",
       "rgb(155,210,0)",
@@ -147,7 +147,7 @@
     "markType": "circle"
   },
   "merge_assets": false,
-  "title": "Stage of Development",
+  "title": "AI: Sea Ice Stage of Development",
   "extent": {
     "spatial": {
       "bbox": [
@@ -193,9 +193,9 @@
   ],
   "summaries": {
     "themes": [
-      "Aquaculture",
+      "Energy",
       "Shipping",
-      "Energy"
+      "Aquaculture"
     ]
   },
   "assets": {
