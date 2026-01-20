@@ -18,9 +18,7 @@
       "endpointtype": "marinedatastore_WMTSCapabilities",
       "id": "Wind_speed_Baltic",
       "themes": [
-        "Aquaculture",
-        "Shipping",
-        "Energy"
+        "Baltic Sea"
       ],
       "agency": [
         "CLS"
@@ -127,9 +125,7 @@
   ],
   "sci:doi": "10.48670/mds-00332",
   "themes": [
-    "Aquaculture",
-    "Shipping",
-    "Energy"
+    "Baltic Sea"
   ],
   "agency": [
     "CLS"
@@ -188,9 +184,7 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Energy",
-      "Shipping",
-      "Aquaculture"
+      "Baltic Sea"
     ],
     "sensor": [
       "Satellite Observations"

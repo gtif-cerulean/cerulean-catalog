@@ -1552,9 +1552,7 @@
       "title": "Wind speed - Baltic Sea",
       "id": "Wind_speed_Baltic",
       "themes": [
-        "Aquaculture",
-        "Shipping",
-        "Energy"
+        "Baltic Sea"
       ],
       "sensor": "Satellite Observations",
       "agency": [

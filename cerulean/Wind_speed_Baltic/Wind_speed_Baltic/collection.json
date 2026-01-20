@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:speed"
       },
-      "key": "00f5d73d-aba9-4b9c-817a-91ccc75a480d"
+      "key": "999cabbf-72d5-4b30-9ffd-c46b4cdb2fd3"
     },
     {
       "rel": "parent",
@@ -34,9 +34,7 @@
   ],
   "sci:doi": "10.48670/mds-00332",
   "themes": [
-    "Aquaculture",
-    "Shipping",
-    "Energy"
+    "Baltic Sea"
   ],
   "agency": [
     "CLS"
