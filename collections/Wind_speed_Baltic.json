@@ -7,7 +7,7 @@
     "Shipping",
     "Energy"
   ],
-  "CollectionGroup": "I. Wind",
+  "CollectionGroup": "K. Baltic Sea",
   "DataSource": {
     "Spaceborne": {"Sensor": "Satellite Observations"},
     "Other": [

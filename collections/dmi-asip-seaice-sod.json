@@ -1,6 +1,6 @@
 {
     "Name": "dmi-asip-seaice-sod",
-    "Title": "Stage of Development",
+    "Title": "AI: Sea Ice Stage of Development",
     "CollectionGroup": "C. Sea Ice",
     "Themes": ["Energy", "Aquaculture", "Shipping"],
     "Description": "Arctic L3 sea ice product providing concentration, stage-of-development and floe size information retrieved from Sentinel-1 and RCM SAR imagery and GCOM-W AMSR2 microwave radiometer data using a deep learning algorithm and delivered on a 0.5 km grid.",
@@ -26,7 +26,7 @@
         "CMEMS"
     ],
     "Colorlegend": {
-        "title": "Stage of Development",
+        "title": "AI: Sea Ice Stage of Development",
         "range": [
             "rgb(240,210,250)",
             "rgb(155,210,0)",

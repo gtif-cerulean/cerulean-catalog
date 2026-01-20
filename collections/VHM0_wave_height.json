@@ -43,7 +43,7 @@
       "Name": "marinedatastore",
       "LayerId": "GLOBAL_MULTIYEAR_WAV_001_032/cmems_mod_glo_wav_my_0.2deg-climatology_P1M-m_202311/VHM0",
       "Query": {
-        "Start": "2021-01-01T00:00:00Z",
+        "Start": "2000-01-01T00:00:00Z",
         "End": "2030-01-01T00:00:00Z"
       },
       "Dimensions": {
