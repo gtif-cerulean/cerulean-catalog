@@ -3,9 +3,7 @@
   "Title": "Wind speed - Baltic Sea",
   "Description": "The product contains daily Level-3 sea surface wind with a 1km horizontal pixel spacing using Near Real-Time Synthetic Aperture Radar (SAR) observations and their collocated European Centre for Medium-Range Weather Forecasts (ECMWF) model outputs.",
   "Themes": [
-    "Aquaculture",
-    "Shipping",
-    "Energy"
+    "Baltic Sea"
   ],
   "CollectionGroup": "K. Baltic Sea",
   "DataSource": {
