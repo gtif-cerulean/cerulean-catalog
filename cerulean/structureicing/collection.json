@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./structureicing/collection.json",
       "type": "application/json",
-      "title": "Icing Predictor Index",
+      "title": "Structure Icing Index",
       "endpointtype": "Collection-only",
       "id": "structureicing",
       "themes": [
@@ -134,7 +134,7 @@
   "collection_group": "A. Capabilities",
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/structureicing.json",
   "merge_assets": false,
-  "title": "Icing Predictor Index",
+  "title": "Structure Icing Index",
   "extent": {
     "spatial": {
       "bbox": [
@@ -149,8 +149,8 @@
     "temporal": {
       "interval": [
         [
-          "2026-01-21T20:19:25.618992Z",
-          "2026-01-21T20:19:25.618992Z"
+          "2026-01-21T20:20:48.226191Z",
+          "2026-01-21T20:20:48.226191Z"
         ]
       ]
     }
@@ -158,9 +158,9 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Aquaculture",
+      "Shipping",
       "Energy",
-      "Shipping"
+      "Aquaculture"
     ]
   },
   "assets": {

@@ -14,7 +14,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Icing Predictor Index"
+      "title": "Structure Icing Index"
     }
   ],
   "themes": [
@@ -27,7 +27,7 @@
   ],
   "collection_group": "A. Capabilities",
   "endpointtype": "Collection-only",
-  "title": "Icing Predictor Index",
+  "title": "Structure Icing Index",
   "extent": {
     "spatial": {
       "bbox": [
@@ -42,7 +42,7 @@
     "temporal": {
       "interval": [
         [
-          "2026-01-21T20:19:25.618992Z",
+          "2026-01-21T20:20:48.226191Z",
           null
         ]
       ]
