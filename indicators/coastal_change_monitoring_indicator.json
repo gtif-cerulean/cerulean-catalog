@@ -1,7 +1,7 @@
 {
   "Name": "coastal_change_monitoring_indicator",
-  "Title": "Coastal Change Monitoring",
-  "Description": "Costal Change Monitoring algorithm developed by Techworks Marine.",
+  "Title": "Normalised Difference Turbidity Index",
+  "Description": "Costal Change Monitoring algorithm developed by TechWorks Marine.",
   "CollectionGroup": "A. Capabilities",
   "Themes": [
     "Shipping",
