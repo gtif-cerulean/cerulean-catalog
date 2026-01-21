@@ -36,7 +36,7 @@
   ],
   "collection_group": "A. Capabilities",
   "endpointtype": "Collection-only",
-  "title": "Wake Effect",
+  "title": "Wind Turbine Wake Effect",
   "extent": {
     "spatial": {
       "bbox": [
@@ -51,7 +51,7 @@
     "temporal": {
       "interval": [
         [
-          "2026-01-21T20:34:46.377570Z",
+          "2026-01-21T20:35:54.866335Z",
           null
         ]
       ]

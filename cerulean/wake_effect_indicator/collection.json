@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./wake_effect/collection.json",
       "type": "application/json",
-      "title": "Wake Effect",
+      "title": "Wind Turbine Wake Effect",
       "endpointtype": "Collection-only",
       "id": "wake_effect",
       "themes": [
@@ -167,8 +167,8 @@
     "temporal": {
       "interval": [
         [
-          "2026-01-21T20:34:46.377570Z",
-          "2026-01-21T20:34:46.377570Z"
+          "2026-01-21T20:35:54.866335Z",
+          "2026-01-21T20:35:54.866335Z"
         ]
       ]
     }
