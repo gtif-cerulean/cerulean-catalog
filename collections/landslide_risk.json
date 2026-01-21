@@ -1,8 +1,8 @@
 {
   "Name": "landslide_risk",
-  "Title": "Landslide Risk",
+  "Title": "Land Stability",
   "CollectionGroup": "A. Capabilities",
-  "Description": "Landslide risk algorithm developed by Techworks Marine",
+  "Description": "Land stability risk algorithm developed by TechWorks Marine",
   "Themes": ["Shipping", "Energy"],
   "Tags": ["processing", "capability"],
   "Satellite": ["multiple"],
