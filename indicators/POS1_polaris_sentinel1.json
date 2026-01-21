@@ -9,6 +9,6 @@
   "Collections": [
     "polaris",
     "SHS1_sentinel1_ew_hh",
-    "SID_sea_ice_detections"
+    "dmi-asip-seaice-sic"
   ]
 }
