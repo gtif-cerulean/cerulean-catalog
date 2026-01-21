@@ -1,6 +1,6 @@
 {
   "Name": "polarwarp_sentinel1",
-  "Title": "Polar warp capability",
+  "Title": "Sea Ice Motion Animation",
   "Description": "This is an example of how the polar warp capability can be triggered and visualized within the dashboard.",
   "CollectionGroup": "A. Capabilities",
   "Themes": ["Shipping"],
