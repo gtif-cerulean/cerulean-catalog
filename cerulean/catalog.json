@@ -769,6 +769,20 @@
     },
     {
       "rel": "child",
+      "href": "./polaris_sentinel1/collection.json",
+      "type": "application/json",
+      "title": "POLARIS combined",
+      "id": "polaris_sentinel1",
+      "themes": [
+        "Shipping"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+      ],
+      "collection_group": "A. Capabilities"
+    },
+    {
+      "rel": "child",
       "href": "./PROCHLO_prochlorophytes/collection.json",
       "type": "application/json",
       "title": "Mass concentration of prochlorophytes expressed as chlorophyll in sea water",
