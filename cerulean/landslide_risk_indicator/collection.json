@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./landslide_risk/collection.json",
       "type": "application/json",
-      "title": "Normalised Difference Turbidity Index",
+      "title": "Land Stability",
       "endpointtype": "GeoJSON source",
       "id": "landslide_risk",
       "themes": [
