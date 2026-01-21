@@ -1493,7 +1493,7 @@
       "rel": "child",
       "href": "./wake_effect_indicator/collection.json",
       "type": "application/json",
-      "title": "Wake Effect",
+      "title": "Wind Turbine Wake Effect",
       "id": "wake_effect_indicator",
       "themes": [
         "Shipping",
