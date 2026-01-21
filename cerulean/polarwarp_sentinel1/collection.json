@@ -152,7 +152,7 @@
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/polarwarp.json",
   "merge_assets": false,
-  "title": "Polar warp capability",
+  "title": "Sea Ice Motion Animation",
   "extent": {
     "spatial": {
       "bbox": [
@@ -180,7 +180,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2026-01-21T20:32:56.874532Z"
+          "2026-01-21T20:34:16.158309Z"
         ]
       ]
     }

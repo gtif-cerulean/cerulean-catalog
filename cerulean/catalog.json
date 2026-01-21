@@ -756,7 +756,7 @@
       "rel": "child",
       "href": "./polarwarp_sentinel1/collection.json",
       "type": "application/json",
-      "title": "Polar warp capability",
+      "title": "Sea Ice Motion Animation",
       "id": "polarwarp_sentinel1",
       "themes": [
         "Shipping"
