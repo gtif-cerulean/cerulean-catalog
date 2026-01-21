@@ -1,13 +1,13 @@
 {
   "Name": "polaris_sentinel1",
-  "Title": "POLARIS combined",
+  "Title": "Sea Ice Concentration Comparisons",
   "Description": "",
   "CollectionGroup": "A. Capabilities",
   "Themes": [
     "Shipping"
   ],
   "Collections": [
-    "polaris",
+    "DMI_Icecharts",
     "SHS1_sentinel1_ew_hh",
     "dmi-asip-seaice-sic"
   ]
