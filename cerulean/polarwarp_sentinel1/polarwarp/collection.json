@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "polarwarp",
   "stac_version": "1.1.0",
-  "description": "This is an example of how the polar warp capability can be triggered and visualized within the dashboard.",
+  "description": "",
   "links": [
     {
       "rel": "root",
@@ -29,7 +29,7 @@
     "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
   },
   "endpointtype": "Collection-only",
-  "title": "Polar warp capability",
+  "title": "Sea Ice Motion Animation",
   "extent": {
     "spatial": {
       "bbox": [
@@ -44,7 +44,7 @@
     "temporal": {
       "interval": [
         [
-          "2026-01-21T20:21:35.750308Z",
+          "2026-01-21T20:22:48.720550Z",
           null
         ]
       ]

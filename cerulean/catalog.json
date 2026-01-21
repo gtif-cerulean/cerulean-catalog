@@ -739,7 +739,7 @@
       "rel": "child",
       "href": "./Polaris_algorithm_dmi_demo/collection.json",
       "type": "application/json",
-      "title": "POLARIS",
+      "title": "Ship Risk Index (POLARIS)",
       "id": "Polaris_algorithm_dmi_demo",
       "themes": [
         "Shipping"

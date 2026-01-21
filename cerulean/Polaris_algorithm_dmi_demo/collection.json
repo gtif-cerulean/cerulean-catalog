@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./Polaris_algorithm_dmi_demo/collection.json",
       "type": "application/json",
-      "title": "POLARIS",
+      "title": "Ship Risk Index (POLARIS)",
       "endpointtype": "FlatGeobuf source",
       "id": "Polaris_algorithm_dmi_demo",
       "themes": [
@@ -120,7 +120,7 @@
   ],
   "collection_group": "A. Capabilities",
   "merge_assets": false,
-  "title": "POLARIS",
+  "title": "Ship Risk Index (POLARIS)",
   "extent": {
     "spatial": {
       "bbox": [

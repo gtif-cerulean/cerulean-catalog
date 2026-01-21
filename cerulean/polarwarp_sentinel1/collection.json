@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./polarwarp/collection.json",
       "type": "application/json",
-      "title": "Polar warp capability",
+      "title": "Sea Ice Motion Animation",
       "endpointtype": "Collection-only",
       "id": "polarwarp",
       "themes": [
@@ -180,7 +180,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2026-01-21T20:21:35.750308Z"
+          "2026-01-21T20:22:48.720550Z"
         ]
       ]
     }
@@ -188,8 +188,8 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Aquaculture",
       "Energy",
+      "Aquaculture",
       "Shipping"
     ]
   },

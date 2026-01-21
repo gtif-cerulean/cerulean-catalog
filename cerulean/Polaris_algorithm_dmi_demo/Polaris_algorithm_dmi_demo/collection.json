@@ -22,7 +22,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "POLARIS"
+      "title": "Ship Risk Index (POLARIS)"
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
@@ -34,7 +34,7 @@
   ],
   "collection_group": "A. Capabilities",
   "endpointtype": "FlatGeobuf source",
-  "title": "POLARIS",
+  "title": "Ship Risk Index (POLARIS)",
   "extent": {
     "spatial": {
       "bbox": [
