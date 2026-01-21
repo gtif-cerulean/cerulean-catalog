@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "landslide_risk",
   "stac_version": "1.1.0",
-  "description": "Landslide risk algorithm developed by Techworks Marine",
+  "description": "Land stability risk algorithm developed by TechWorks Marine",
   "links": [
     {
       "rel": "root",
@@ -44,7 +44,7 @@
   ],
   "collection_group": "A. Capabilities",
   "endpointtype": "GeoJSON source",
-  "title": "Landslide Risk",
+  "title": "Land Stability",
   "extent": {
     "spatial": {
       "bbox": [
