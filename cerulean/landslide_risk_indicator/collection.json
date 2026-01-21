@@ -175,7 +175,7 @@
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/landslide_risk_jsonform.json",
   "merge_assets": false,
-  "title": "Landslide risk",
+  "title": "Land Stability",
   "extent": {
     "spatial": {
       "bbox": [

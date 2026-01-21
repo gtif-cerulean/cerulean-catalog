@@ -512,7 +512,7 @@
       "rel": "child",
       "href": "./landslide_risk_indicator/collection.json",
       "type": "application/json",
-      "title": "Landslide risk",
+      "title": "Land Stability",
       "id": "landslide_risk_indicator",
       "themes": [
         "Energy"
