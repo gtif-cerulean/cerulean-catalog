@@ -12,18 +12,18 @@
     },
     {
       "rel": "child",
-      "href": "./Polaris_algorithm_dmi_demo/collection.json",
+      "href": "./DMI_Icecharts/collection.json",
       "type": "application/json",
-      "title": "POLARIS",
+      "title": "DMI Ice charts",
       "endpointtype": "FlatGeobuf source",
-      "id": "Polaris_algorithm_dmi_demo",
+      "id": "DMI_Icecharts",
       "themes": [
         "Shipping"
       ],
       "agency": [
-        "National Research Council of Canada"
+        "DMI"
       ],
-      "collection_group": "A. Capabilities"
+      "collection_group": "C. Sea Ice"
     },
     {
       "rel": "child",
@@ -154,7 +154,7 @@
   ],
   "collection_group": "A. Capabilities",
   "merge_assets": false,
-  "title": "POLARIS combined",
+  "title": "Sea Ice Concentration Comparisons",
   "extent": {
     "spatial": {
       "bbox": [
@@ -165,10 +165,10 @@
           90.0
         ],
         [
-          -120.0,
-          14.0,
-          70.0,
-          85.0
+          -80.24487203697491,
+          55.25698115978713,
+          10.033447326328545,
+          84.84935228034207
         ],
         [
           -180,
@@ -196,12 +196,9 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Aquaculture",
+      "Energy",
       "Shipping",
-      "Energy"
-    ],
-    "thumbnail": [
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+      "Aquaculture"
     ]
   },
   "assets": {
