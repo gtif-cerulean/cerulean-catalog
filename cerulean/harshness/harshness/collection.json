@@ -14,7 +14,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Harshness capability"
+      "title": "Harshness Index"
     }
   ],
   "themes": [
@@ -27,7 +27,7 @@
   ],
   "collection_group": "A. Capabilities",
   "endpointtype": "Collection-only",
-  "title": "Harshness capability",
+  "title": "Harshness Index",
   "extent": {
     "spatial": {
       "bbox": [
@@ -42,7 +42,7 @@
     "temporal": {
       "interval": [
         [
-          "2026-01-21T20:17:21.411196Z",
+          "2026-01-21T20:18:48.213896Z",
           null
         ]
       ]

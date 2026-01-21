@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./harshness/collection.json",
       "type": "application/json",
-      "title": "Harshness capability",
+      "title": "Harshness Index",
       "endpointtype": "Collection-only",
       "id": "harshness",
       "themes": [
@@ -134,7 +134,7 @@
   "collection_group": "A. Capabilities",
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/harshness.json",
   "merge_assets": false,
-  "title": "Harshness capability",
+  "title": "Harshness Index",
   "extent": {
     "spatial": {
       "bbox": [
@@ -149,8 +149,8 @@
     "temporal": {
       "interval": [
         [
-          "2026-01-21T20:17:21.411196Z",
-          "2026-01-21T20:17:21.411196Z"
+          "2026-01-21T20:18:48.213896Z",
+          "2026-01-21T20:18:48.213896Z"
         ]
       ]
     }
@@ -158,9 +158,9 @@
   "license": "other",
   "summaries": {
     "themes": [
+      "Aquaculture",
       "Energy",
-      "Shipping",
-      "Aquaculture"
+      "Shipping"
     ]
   },
   "assets": {
