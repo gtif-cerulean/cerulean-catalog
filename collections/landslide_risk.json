@@ -1,6 +1,6 @@
 {
   "Name": "landslide_risk",
-  "Title": "Normalised Difference Turbidity Index",
+  "Title": "Land Stability",
   "CollectionGroup": "A. Capabilities",
   "Description": "Land stability risk algorithm developed by TechWorks Marine",
   "Themes": ["Energy"],
