@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "coastal_change_monitoring_indicator",
   "stac_version": "1.1.0",
-  "description": "Costal Change Monitoring algorithm developed by Techworks Marine.",
+  "description": "Costal Change Monitoring algorithm developed by TechWorks Marine.",
   "links": [
     {
       "rel": "root",
@@ -168,7 +168,7 @@
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/coastal_change_monitoring_jsonform.json",
   "merge_assets": false,
-  "title": "Coastal Change Monitoring",
+  "title": "Normalised Difference Turbidity Index",
   "extent": {
     "spatial": {
       "bbox": [

@@ -26,7 +26,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Coastal Change Monitoring"
+      "title": "Normalised Difference Turbidity Index"
     }
   ],
   "themes": [

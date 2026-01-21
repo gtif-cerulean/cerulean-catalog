@@ -88,7 +88,7 @@
       "rel": "child",
       "href": "./coastal_change_monitoring_indicator/collection.json",
       "type": "application/json",
-      "title": "Coastal Change Monitoring",
+      "title": "Normalised Difference Turbidity Index",
       "id": "coastal_change_monitoring_indicator",
       "themes": [
         "Shipping",
