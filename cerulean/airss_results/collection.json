@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./airss_results/collection.json",
       "type": "application/json",
-      "title": "Canadian Arctic Ice Regime Shipping System (AIRSS)",
+      "title": "Ship Risk Index (AIRSS)",
       "endpointtype": "FlatGeobuf source",
       "id": "airss_results",
       "themes": [
@@ -145,7 +145,7 @@
     "markType": "circle"
   },
   "merge_assets": false,
-  "title": "Canadian Arctic Ice Regime Shipping System (AIRSS)",
+  "title": "Ship Risk Index (AIRSS)",
   "extent": {
     "spatial": {
       "bbox": [
