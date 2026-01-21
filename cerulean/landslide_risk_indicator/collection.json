@@ -14,11 +14,10 @@
       "rel": "child",
       "href": "./landslide_risk/collection.json",
       "type": "application/json",
-      "title": "Land Stability",
+      "title": "Normalised Difference Turbidity Index",
       "endpointtype": "GeoJSON source",
       "id": "landslide_risk",
       "themes": [
-        "Shipping",
         "Energy"
       ],
       "tags": [
@@ -206,8 +205,7 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Energy",
-      "Shipping"
+      "Energy"
     ],
     "satellite": [
       "multiple"

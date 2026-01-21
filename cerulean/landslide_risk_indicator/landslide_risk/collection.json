@@ -26,7 +26,6 @@
     }
   ],
   "themes": [
-    "Shipping",
     "Energy"
   ],
   "tags": [
@@ -44,7 +43,7 @@
   ],
   "collection_group": "A. Capabilities",
   "endpointtype": "GeoJSON source",
-  "title": "Land Stability",
+  "title": "Normalised Difference Turbidity Index",
   "extent": {
     "spatial": {
       "bbox": [
