@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "structureicing",
+  "id": "route_optimization",
   "stac_version": "1.1.0",
-  "description": "structureicing/structureicing.md",
+  "description": "Route Optimization Capability",
   "links": [
     {
       "rel": "root",
@@ -14,20 +14,29 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Structure Icing Index"
+      "title": "Route Optimization Indicator"
     }
   ],
   "themes": [
     "Shipping",
-    "Aquaculture",
     "Energy"
   ],
+  "tags": [
+    "processing",
+    "capability"
+  ],
+  "satellite": [
+    "multiple"
+  ],
+  "sensor": [
+    "multiple"
+  ],
   "agency": [
-    "C-CORE"
+    "ESA"
   ],
   "collection_group": "A. Capabilities",
   "endpointtype": "Collection-only",
-  "title": "Structure Icing Index",
+  "title": "Route Optimization",
   "extent": {
     "spatial": {
       "bbox": [
@@ -42,7 +51,7 @@
     "temporal": {
       "interval": [
         [
-          "2026-01-22T13:57:53.867466Z",
+          "2026-01-22T13:57:58.158125Z",
           null
         ]
       ]

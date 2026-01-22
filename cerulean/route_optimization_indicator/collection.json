@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "dmi-asip-seaice-sod",
+  "id": "route_optimization_indicator",
   "stac_version": "1.1.0",
-  "description": "Arctic L3 sea ice product providing concentration, stage-of-development and floe size information retrieved from Sentinel-1 and RCM SAR imagery and GCOM-W AMSR2 microwave radiometer data using a deep learning algorithm and delivered on a 0.5 km grid.",
+  "description": "",
   "links": [
     {
       "rel": "root",
@@ -12,24 +12,44 @@
     },
     {
       "rel": "child",
-      "href": "./dmi-asip-seaice-sod/collection.json",
+      "href": "./route_optimization/collection.json",
       "type": "application/json",
-      "title": "AI: Sea Ice Stage of Development",
-      "endpointtype": "VEDA_tiles",
-      "id": "dmi-asip-seaice-sod",
+      "title": "Route Optimization",
+      "endpointtype": "Collection-only",
+      "id": "route_optimization",
       "themes": [
-        "Energy",
-        "Aquaculture",
-        "Shipping"
+        "Shipping",
+        "Energy"
       ],
-      "providers": [
-        "CMEMS",
-        "EOX"
+      "tags": [
+        "processing",
+        "capability"
+      ],
+      "satellite": [
+        "multiple"
+      ],
+      "sensor": [
+        "multiple"
       ],
       "agency": [
-        "CMEMS"
+        "ESA"
       ],
-      "collection_group": "C. Sea Ice"
+      "collection_group": "A. Capabilities"
+    },
+    {
+      "rel": "service",
+      "href": "https://harshness-map.gtif.eox.at/processes/execute-route-optimization/execution",
+      "type": "application/geojson",
+      "id": "route_optimization_collection",
+      "method": "POST",
+      "endpoint": "eoxhub_workspaces",
+      "body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/route_optimization.json",
+      "eox:flatstyle": [
+        {
+          "id": "output_route_geojson",
+          "url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/route_optimization_style.json"
+        }
+      ]
     },
     {
       "rel": "xyz",
@@ -117,85 +137,58 @@
       "title": "Cerulean GTIF project catalog"
     }
   ],
-  "sci:doi": "10.48670/mds-00343",
   "themes": [
-    "Energy",
-    "Aquaculture",
-    "Shipping"
+    "Shipping",
+    "Energy"
+  ],
+  "tags": [
+    "processing",
+    "capability"
+  ],
+  "satellite": [
+    "multiple"
+  ],
+  "sensor": [
+    "multiple"
   ],
   "agency": [
-    "CMEMS"
+    "ESA"
   ],
-  "collection_group": "C. Sea Ice",
-  "eox:colorlegend": {
-    "title": "AI: Sea Ice Stage of Development",
-    "range": [
-      "rgb(240,210,250)",
-      "rgb(155,210,0)",
-      "rgb(0,120,0)",
-      "rgb(200,0,0)",
-      "rgb(150,150,150)"
-    ],
-    "domain": [
-      "New and Young Ice (<30 cm)",
-      "Thin First Year Ice (30 cm - 70 cm)",
-      "Thick First Year Ice (>70 cm)",
-      "Multi-Year Ice",
-      "Glacier Ice"
-    ],
-    "scaleType": "categorical",
-    "markType": "circle"
-  },
+  "collection_group": "A. Capabilities",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/route_optimization.json",
   "merge_assets": false,
-  "title": "AI: Sea Ice Stage of Development",
+  "title": "Route Optimization Indicator",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          30.979842711050686,
-          180.0,
-          90.0
-        ],
-        [
-          -180.0,
-          30.979842711050686,
-          180.0,
-          90.0
+          -179,
+          55,
+          179,
+          89
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2026-01-03T00:00:00Z",
-          "2026-01-21T00:00:00Z"
+          "2026-01-22T13:57:58.158125Z",
+          "2026-01-22T13:57:58.158125Z"
         ]
       ]
     }
   },
   "license": "other",
-  "providers": [
-    {
-      "name": "CMEMS",
-      "roles": [
-        "producer"
-      ],
-      "url": "https://marine.copernicus.eu"
-    },
-    {
-      "name": "EOX",
-      "roles": [
-        "processor"
-      ],
-      "url": "https://eox.at/"
-    }
-  ],
   "summaries": {
     "themes": [
       "Energy",
-      "Aquaculture",
       "Shipping"
+    ],
+    "satellite": [
+      "multiple"
+    ],
+    "sensor": [
+      "multiple"
     ]
   },
   "assets": {

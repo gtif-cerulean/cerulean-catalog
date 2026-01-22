@@ -1595,6 +1595,31 @@
       ]
     },
     {
+      "rel": "child",
+      "href": "./route_optimization_indicator/collection.json",
+      "type": "application/json",
+      "title": "Route Optimization Indicator",
+      "id": "route_optimization_indicator",
+      "themes": [
+        "Shipping",
+        "Energy"
+      ],
+      "satellite": [
+        "multiple"
+      ],
+      "sensor": [
+        "multiple"
+      ],
+      "tags": [
+        "processing",
+        "capability"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "A. Capabilities"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-cerulean.github.io/cerulean-catalog/cerulean/catalog.json",
       "type": "application/json"
