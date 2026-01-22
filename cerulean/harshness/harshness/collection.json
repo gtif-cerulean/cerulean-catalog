@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "harshness",
   "stac_version": "1.1.0",
-  "description": "markdowns/harshnes.md",
+  "description": "text\n",
   "links": [
     {
       "rel": "root",
@@ -42,7 +42,7 @@
     "temporal": {
       "interval": [
         [
-          "2026-01-22T13:57:15.647432Z",
+          "2026-01-22T15:28:09.832397Z",
           null
         ]
       ]
