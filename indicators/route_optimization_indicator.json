@@ -1,0 +1,46 @@
+{
+    "Name": "route_optimization_indicator",
+    "Title": "Route Optimization Indicator",
+    "Description": "",
+    "CollectionGroup": "A. Capabilities",
+    "Themes": [
+        "Shipping",
+        "Energy"
+    ],
+    "Tags": [
+        "processing",
+        "capability"
+    ],
+    "Satellite": [
+        "multiple"
+    ],
+    "Sensor": [
+        "multiple"
+    ],
+    "Agency": [
+        "ESA"
+    ],
+    "Collections": [
+        "route_optimization"
+    ],
+    "Process": {
+        "Name": "route_optimization",
+        "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/route_optimization.json",
+        "EndPoints": [
+            {
+                "Identifier": "route_optimization_collection",
+                "Url": "https://harshness-map.gtif.eox.at/processes/execute-route-optimization/execution",
+                "Method": "POST",
+                "EndPoint": "eoxhub_workspaces",
+                "Body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/route_optimization.json",
+                "Type": "application/geojson",
+                "Flatstyle": [
+                    {
+                        "Identifier": "output_route_geojson",
+                        "Url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/route_optimization_style.json"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "Name": "route_optimization",
+    "Title": "Route Optimization",
+    "CollectionGroup": "A. Capabilities",
+    "Description": "Route Optimization Capability",
+    "Themes": [
+        "Shipping",
+        "Energy"
+    ],
+    "Tags": [
+        "processing",
+        "capability"
+    ],
+    "Satellite": [
+        "multiple"
+    ],
+    "Sensor": [
+        "multiple"
+    ],
+    "Agency": [
+        "ESA"
+    ],
+    "Resources": [
+        {
+            "Name": "Collection-only",
+            "OverwriteBBox": [
+                -179,
+                55,
+                179,
+                89
+            ]
+        }
+    ]
+}
