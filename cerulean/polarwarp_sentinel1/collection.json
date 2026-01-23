@@ -23,7 +23,7 @@
       "agency": [
         "Drift+Noise"
       ],
-      "collection_group": "A. Capabilities",
+      "collection_group": "A. Algorithms",
       "eodash:mapProjection": {
         "name": "EPSG:3413",
         "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
@@ -180,7 +180,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2026-01-23T12:42:31.047198Z"
+          "2026-01-23T12:47:38.600827Z"
         ]
       ]
     }
@@ -188,9 +188,9 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Energy",
       "Shipping",
-      "Aquaculture"
+      "Aquaculture",
+      "Energy"
     ]
   },
   "assets": {
