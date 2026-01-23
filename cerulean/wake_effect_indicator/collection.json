@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "wake_effect_indicator",
   "stac_version": "1.1.0",
-  "description": "Wake Effect algorithm developed by TechWorks Marine.",
+  "description": "The turbulence that occurs downfield to a windfarm (the wake) can be\nobserved by Sentinel-1. The consequence of this more turbulent air can\nbe a reduction in wind resource in other windfarms downfield. Depending\non the prevailing wind direction, newly constructed offshore wind farms\ncan “steal” the wind resource from existing wind farms.\n\nThe capability’s purpose is to show the wind and current direction from\nCMEMS model data overlayed on Sentinel-1 IW GRD SAR data and is intended\nto be visualised in areas with offshore wind farms. Under certain\nconditions, the SAR data can show that upstream turbines have an effect\non the wind reaching downstream turbines. The model data is used to\nverify that the visible effect seen in the images is in fact wind\nrelated and not current related.\n",
   "links": [
     {
       "rel": "root",
@@ -149,7 +149,7 @@
   "agency": [
     "ESA"
   ],
-  "collection_group": "A. Capabilities",
+  "collection_group": "A. Algorithms",
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/wake_effect_jsonform.json",
   "merge_assets": false,
   "title": "Wind Turbine Wake Effect",
@@ -167,8 +167,8 @@
     "temporal": {
       "interval": [
         [
-          "2026-01-23T12:51:57.771668Z",
-          "2026-01-23T12:51:57.771668Z"
+          "2026-01-23T12:53:28.768726Z",
+          "2026-01-23T12:53:28.768726Z"
         ]
       ]
     }
