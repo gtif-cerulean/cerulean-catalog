@@ -1,8 +1,8 @@
 {
     "Name": "wake_effect",
     "Title": "Wind Turbine Wake Effect",
-    "CollectionGroup": "A. Capabilities",
-    "Description": "Wake Effect algorithm developed by Techworks Marine",
+    "CollectionGroup": "A. Algorithms",
+    "Description": "markdowns/Wind_Turbine_Wake_Effect.md",
     "Themes": [
         "Shipping",
         "Energy"

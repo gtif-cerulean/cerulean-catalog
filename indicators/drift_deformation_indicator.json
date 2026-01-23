@@ -1,8 +1,7 @@
 {
   "Name": "Drift_Deformation",
   "Title": "Sea Ice Drift and Deformation",
-  "Description": "Nansat sea ice drift algorithm uses feature tracking and pattern matching. The gridded ice tracking vectors are then used to estimate sea ice deformation (divergence, shear and total deformation).",
-  "CollectionGroup": "A. Capabilities",
+  "Description": "markdowns/Sea_Ice_Drift_and_Deformation.md",
   "Themes": ["Shipping", "Aquaculture", "Energy"],
   "Collections": ["SHS1_sentinel1_ew_hh"],
   "Process": {

@@ -1,7 +1,7 @@
 {
     "Name": "route_optimization",
     "Title": "Route Optimization",
-    "CollectionGroup": "A. Capabilities",
+    "CollectionGroup": "A. Algorithms",
     "Description": "Route Optimization Capability",
     "Themes": [
         "Shipping",

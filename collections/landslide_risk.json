@@ -1,8 +1,8 @@
 {
   "Name": "landslide_risk",
   "Title": "Land Stability",
-  "CollectionGroup": "A. Capabilities",
-  "Description": "Land stability risk algorithm developed by TechWorks Marine",
+  "CollectionGroup": "A. Algorithms",
+  "Description": "markdowns/Land_Stability.md",
   "Themes": ["Energy"],
   "Tags": ["processing", "capability"],
   "Satellite": ["multiple"],

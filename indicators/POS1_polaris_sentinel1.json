@@ -2,7 +2,7 @@
   "Name": "polaris_sentinel1",
   "Title": "Sea Ice Concentration Comparison",
   "Description": "",
-  "CollectionGroup": "A. Capabilities",
+  "CollectionGroup": "A. Algorithms",
   "Themes": [
     "Shipping"
   ],
