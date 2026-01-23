@@ -23,7 +23,7 @@
     "Collections": [
         "wake_effect"
     ],
-    "Legend":"wake_effect/wake_legend.png",
+    "Legend":"collections/wake_effect/wake_legend.png",
     "Process": {
         "Name": "wake_effect",
         "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/wake_effect_jsonform.json",
