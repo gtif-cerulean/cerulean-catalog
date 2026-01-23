@@ -2,7 +2,7 @@
     "Name": "route_optimization_indicator",
     "Title": "Route Optimization Indicator",
     "Description": "",
-    "CollectionGroup": "A. Capabilities",
+    "CollectionGroup": "A. Algorithms",
     "Themes": [
         "Shipping",
         "Energy"
