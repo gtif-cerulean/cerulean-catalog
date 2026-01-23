@@ -167,8 +167,8 @@
     "temporal": {
       "interval": [
         [
-          "2026-01-23T13:28:13.988859Z",
-          "2026-01-23T13:28:13.988859Z"
+          "2026-01-23T14:43:23.732863Z",
+          "2026-01-23T14:43:23.732863Z"
         ]
       ]
     }
@@ -188,7 +188,7 @@
   },
   "assets": {
     "legend": {
-      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/wake_effect/wake_legend.png",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/wake_effect/wake_legend.png",
       "type": "image/png",
       "roles": [
         "metadata"
