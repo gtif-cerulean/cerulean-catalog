@@ -338,7 +338,8 @@
         "Shipping",
         "Aquaculture",
         "Energy"
-      ]
+      ],
+      "collection_group": "A. Algorithms"
     },
     {
       "rel": "child",
