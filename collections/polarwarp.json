@@ -1,8 +1,8 @@
 {
   "Name": "polarwarp",
   "Title": "Sea Ice Motion Animation",
-  "CollectionGroup": "A. Capabilities",
-  "Description": " ",
+  "CollectionGroup": "A. Algorithms",
+  "Description": "markdowns/Sea_Ice_Motion_Animation.md",
   "Themes": [
     "Shipping"
   ],
