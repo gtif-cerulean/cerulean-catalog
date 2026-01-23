@@ -34,7 +34,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "A. Capabilities"
+      "collection_group": "A. Algorithms"
     },
     {
       "rel": "service",
@@ -167,8 +167,8 @@
     "temporal": {
       "interval": [
         [
-          "2026-01-23T11:56:49.566285Z",
-          "2026-01-23T11:56:49.566285Z"
+          "2026-01-23T12:43:10.063599Z",
+          "2026-01-23T12:43:10.063599Z"
         ]
       ]
     }

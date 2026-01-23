@@ -152,7 +152,7 @@
   "themes": [
     "Shipping"
   ],
-  "collection_group": "A. Capabilities",
+  "collection_group": "A. Algorithms",
   "merge_assets": false,
   "title": "Sea Ice Concentration Comparison",
   "extent": {
@@ -196,9 +196,9 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Aquaculture",
       "Energy",
-      "Shipping"
+      "Shipping",
+      "Aquaculture"
     ]
   },
   "assets": {

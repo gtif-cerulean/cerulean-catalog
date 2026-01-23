@@ -42,7 +42,7 @@
   "agency": [
     "ESA"
   ],
-  "collection_group": "A. Capabilities",
+  "collection_group": "A. Algorithms",
   "proj:epsg": 4326,
   "endpointtype": "GeoJSON source",
   "title": "Route Optimization",

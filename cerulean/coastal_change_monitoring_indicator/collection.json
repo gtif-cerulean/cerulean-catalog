@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "coastal_change_monitoring_indicator",
   "stac_version": "1.1.0",
-  "description": "Costal Change Monitoring algorithm developed by TechWorks Marine.",
+  "description": "Offshore wind farms require power cables to be connected to a grid point onshore. These power cables are buried in the seabed:\r\n\r\n-   To prevent cable damage from storms and in-water activities occurring above the cables.\r\n-   To minimise wear to the cables.\r\n-   To minimise disruption to plant and animal life on the seabed (post-burial).\r\n\r\nThe dynamic coastal environment can expose offshore wind farm cabling and is a leading cause in the disruption of operations for offshore wind farms. By studying this dynamic environment using EO data, coupled with physical coastal erosion events, planning for cable onshoring activities can be undertaken in far greater detail by the industry.\r\n",
   "links": [
     {
       "rel": "root",
@@ -140,7 +140,7 @@
   "agency": [
     "ESA"
   ],
-  "collection_group": "A. Capabilities",
+  "collection_group": "A. Algorithms",
   "eox:colorlegend": {
     "domain": [
       -1,
@@ -192,9 +192,9 @@
   "license": "other",
   "summaries": {
     "themes": [
+      "Shipping",
       "Aquaculture",
-      "Energy",
-      "Shipping"
+      "Energy"
     ]
   },
   "assets": {

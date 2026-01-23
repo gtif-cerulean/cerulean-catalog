@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "landslide_risk",
   "stac_version": "1.1.0",
-  "description": "Land stability risk algorithm developed by TechWorks Marine",
+  "description": "The land stability algorithm uses Interferometric SAR (InSAR) techniques to determine whether the stability of peat bogland is suitable for windfarm development.\r\n\r\nThe InSAR technique uses Sentinel-1’s Single Look Complex (SLC) product. Millimetre-sized changes can be tracked using InSAR by studying the same area at two different time points. This means that changes that cannot be seen by the human eye can be tracked. Areas exhibiting larger changes over time are deemed to be at higher risk of instability.\r\n\r\nThe Intermittent Small Baseline Subset (SBAS) InSAR technique is used to derive displacement and velocity. This technique uses short temporal and spatial gaps or “baselines” between interferometric image pairs to reduce the effects of decorrelation.\r\n",
   "links": [
     {
       "rel": "root",
@@ -41,7 +41,7 @@
   "agency": [
     "ESA"
   ],
-  "collection_group": "A. Capabilities",
+  "collection_group": "A. Algorithms",
   "endpointtype": "GeoJSON source",
   "title": "Land Stability",
   "extent": {
