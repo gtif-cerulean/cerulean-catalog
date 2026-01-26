@@ -92,6 +92,7 @@
     "Wind_vector",
     "Wind_speed_Baltic",
     "ZOOC_zooplankton",
-    "route_optimization_indicator"
+    "route_optimization_indicator",
+    "nightlights-test"
   ]
 }
