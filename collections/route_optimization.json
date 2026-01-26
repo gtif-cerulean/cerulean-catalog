@@ -2,23 +2,15 @@
     "Name": "route_optimization",
     "Title": "Route Optimization",
     "CollectionGroup": "A. Algorithms",
-    "Description": "Route Optimization Capability",
+    "Description": "Route Optimization",
     "Themes": [
-        "Shipping",
-        "Energy"
-    ],
-    "Tags": [
-        "processing",
-        "capability"
-    ],
-    "Satellite": [
-        "multiple"
+        "Shipping"
     ],
     "Sensor": [
-        "multiple"
+        "Algorithm"
     ],
     "Agency": [
-        "ESA"
+        "Memorial University"
     ],
     "Resources": [
         {
