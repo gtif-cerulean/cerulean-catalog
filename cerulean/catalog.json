@@ -1604,15 +1604,15 @@
         "Shipping",
         "Energy"
       ],
-      "satellite": [
-        "multiple"
-      ],
       "sensor": [
         "multiple"
       ],
       "tags": [
         "processing",
         "capability"
+      ],
+      "satellite": [
+        "multiple"
       ],
       "agency": [
         "ESA"

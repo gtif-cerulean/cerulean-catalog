@@ -18,21 +18,13 @@
       "endpointtype": "GeoJSON source",
       "id": "route_optimization",
       "themes": [
-        "Shipping",
-        "Energy"
-      ],
-      "tags": [
-        "processing",
-        "capability"
-      ],
-      "satellite": [
-        "multiple"
+        "Shipping"
       ],
       "sensor": [
-        "multiple"
+        "Algorithm"
       ],
       "agency": [
-        "ESA"
+        "Memorial University"
       ],
       "collection_group": "A. Algorithms"
     },
@@ -187,14 +179,10 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Shipping",
-      "Energy"
-    ],
-    "satellite": [
-      "multiple"
+      "Shipping"
     ],
     "sensor": [
-      "multiple"
+      "Algorithm"
     ]
   },
   "assets": {

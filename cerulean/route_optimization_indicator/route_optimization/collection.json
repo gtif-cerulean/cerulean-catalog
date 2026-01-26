@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "route_optimization",
   "stac_version": "1.1.0",
-  "description": "Route Optimization Capability",
+  "description": "Route Optimization",
   "links": [
     {
       "rel": "root",
@@ -26,21 +26,13 @@
     }
   ],
   "themes": [
-    "Shipping",
-    "Energy"
-  ],
-  "tags": [
-    "processing",
-    "capability"
-  ],
-  "satellite": [
-    "multiple"
+    "Shipping"
   ],
   "sensor": [
-    "multiple"
+    "Algorithm"
   ],
   "agency": [
-    "ESA"
+    "Memorial University"
   ],
   "collection_group": "A. Algorithms",
   "proj:epsg": 4326,
