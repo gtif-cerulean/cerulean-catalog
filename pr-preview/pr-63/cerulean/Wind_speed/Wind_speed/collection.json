@@ -1,0 +1,98 @@
+{
+  "type": "Collection",
+  "id": "Wind_speed",
+  "stac_version": "1.1.0",
+  "description": "The Global Ocean product contains monthly Level-4 sea surface wind fields at 0.25 degrees horizontal spatial resolution. The monthly averaged wind fields are based on monthly average ECMWF ERA5 reanalysis fields, corrected for persistent biases using all available Level-3 scatterometer observations from the Metop-A, Metop-B and Metop-C ASCAT, QuikSCAT SeaWinds and ERS-1 and ERS-2 SCAT satellite instruments.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "wmts",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/WIND_GLO_PHY_CLIMATE_L4_MY_012_003/cmems_obs-wind_glo_phy_my_l4_P1M_202411",
+      "type": "image/png",
+      "title": "wmts capabilities",
+      "wmts:layer": "WIND_GLO_PHY_CLIMATE_L4_MY_012_003/cmems_obs-wind_glo_phy_my_l4_P1M_202411/wind",
+      "role": [
+        "data"
+      ],
+      "wmts:dimensions": {
+        "elevation": 0,
+        "style": "cmap:speed,vectorStyle:solidAndVector,range:0/24"
+      },
+      "key": "d3dd7e6d-d1e7-4fee-8c63-be2fc3ebc7e3"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Wind speed"
+    }
+  ],
+  "sci:doi": "10.48670/moi-00181",
+  "themes": [
+    "Aquaculture",
+    "Shipping",
+    "Energy"
+  ],
+  "agency": [
+    "Mercator Ocean International"
+  ],
+  "collection_group": "I. Wind",
+  "sensor": "Satellite Observations",
+  "otherSources": [
+    "Spatial Resolution: 0.25° × 0.25°",
+    "Frequency: Monthly"
+  ],
+  "eox:colorlegend": {
+    "title": "Wind speed [m/s]",
+    "range": [
+      "rgb(254, 252, 205)",
+      "rgb(216, 196, 95)",
+      "rgb(141, 161, 11)",
+      "rgb(50, 128, 30)",
+      "rgb(15, 83, 44)",
+      "rgb(23, 35, 18)"
+    ],
+    "domain": [
+      0,
+      24
+    ]
+  },
+  "endpointtype": "marinedatastore_WMTSCapabilities",
+  "title": "Wind speed",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -179.875,
+          -89.875,
+          179.875,
+          89.875
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-01-01T00:00:00Z",
+          "2025-09-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}

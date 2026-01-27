@@ -1,0 +1,145 @@
+{
+  "type": "Catalog",
+  "id": "cerulean",
+  "stac_version": "1.1.0",
+  "description": "Catalog providing description to available datasets to the Cerulean GTIF project",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./Sea_water_velocity/collection.json",
+      "type": "application/json",
+      "title": "Sea water velocity",
+      "id": "Sea_water_velocity",
+      "themes": [
+        "Shipping",
+        "Aquaculture",
+        "Energy"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "E. Sea Water"
+    },
+    {
+      "rel": "child",
+      "href": "./SIVELO_sea_ice_speed/collection.json",
+      "type": "application/json",
+      "title": "Sea ice speed",
+      "id": "SIVELO_sea_ice_speed",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "C. Sea Ice",
+      "otherSources": [
+        "Spatial Resolution: 0.083° x 0.083°",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./SIVELO_sea_ice_speed_antarctica/collection.json",
+      "type": "application/json",
+      "title": "Sea ice speed - Antarctica",
+      "id": "SIVELO_sea_ice_speed_antarctica",
+      "themes": [
+        "Antarctica"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International "
+      ],
+      "collection_group": "L. Antarctica",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./Sea_water_velocity_Baltic/collection.json",
+      "type": "application/json",
+      "title": "Sea water velocity - Baltic Sea",
+      "id": "Sea_water_velocity_Baltic",
+      "themes": [
+        "Baltic Sea"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "SMHI"
+      ],
+      "collection_group": "K. Baltic Sea",
+      "otherSources": [
+        "Spatial Resolution: 2 × 2 km",
+        "Frequency: Daily "
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Wind_speed/collection.json",
+      "type": "application/json",
+      "title": "Wind speed",
+      "id": "Wind_speed",
+      "themes": [
+        "Aquaculture",
+        "Shipping",
+        "Energy"
+      ],
+      "sensor": "Satellite Observations",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "I. Wind",
+      "otherSources": [
+        "Spatial Resolution: 0.25° × 0.25°",
+        "Frequency: Monthly"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Wind_speed_Baltic/collection.json",
+      "type": "application/json",
+      "title": "Wind speed - Baltic Sea",
+      "id": "Wind_speed_Baltic",
+      "themes": [
+        "Baltic Sea"
+      ],
+      "sensor": "Satellite Observations",
+      "agency": [
+        "CLS"
+      ],
+      "collection_group": "K. Baltic Sea",
+      "otherSources": [
+        "Spatial Resolution: 0.25° × 0.25°",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "self",
+      "href": "https://gtif-cerulean.github.io/cerulean-catalog/cerulean/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "Cerulean GTIF project catalog"
+}
