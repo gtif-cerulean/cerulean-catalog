@@ -30,7 +30,7 @@
     ],
     "domain": [
       0,
-      0.19
+      0.3
     ]
   },
   "Citation": {
@@ -41,14 +41,14 @@
       "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406",
       "Type": "WMTSCapabilities",
       "Name": "marinedatastore",
-      "LayerId": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406/sivelo",
+      "LayerId": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406/sea_ice_velocity",
       "Query": {
         "Start": "2021-01-01T00:00:00Z",
         "End": "2030-01-01T00:00:00Z"
       },
       "Dimensions": {
         "elevation": 0,
-        "style": "cmap:speed"
+        "style": "cmap:speed,vectorStyle:solidAndVector,range:0/0.3"
       }
     }
   ],
