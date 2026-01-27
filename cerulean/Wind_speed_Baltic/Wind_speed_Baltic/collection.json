@@ -15,15 +15,15 @@
       "href": "https://wmts.marine.copernicus.eu/teroWmts/WIND_BAL_PHY_HR_L3_NRT_012_102/cmems_obs-wind_bal_phy_nrt_l3-s1a-sar-asc-0.01deg_P1D-i_202506",
       "type": "image/png",
       "title": "wmts capabilities",
-      "wmts:layer": "WIND_BAL_PHY_HR_L3_NRT_012_102/cmems_obs-wind_bal_phy_nrt_l3-s1a-sar-asc-0.01deg_P1D-i_202506/wind_speed",
+      "wmts:layer": "WIND_BAL_PHY_HR_L3_NRT_012_102/cmems_obs-wind_bal_phy_nrt_l3-s1a-sar-asc-0.01deg_P1D-i_202506/wind",
       "role": [
         "data"
       ],
       "wmts:dimensions": {
         "elevation": 0,
-        "style": "cmap:speed"
+        "style": "cmap:speed,vectorStyle:solidAndVector,range:0/35"
       },
-      "key": "95a89224-f1d7-44dc-8b7a-69d477991ec7"
+      "key": "c24a59b3-7e4c-41cb-84b1-52e4732d878a"
     },
     {
       "rel": "parent",
@@ -56,8 +56,8 @@
       "rgb(23, 35, 18)"
     ],
     "domain": [
-      1.12,
-      15.37
+      0,
+      35
     ]
   },
   "endpointtype": "marinedatastore_WMTSCapabilities",

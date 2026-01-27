@@ -15,15 +15,15 @@
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406",
       "type": "image/png",
       "title": "wmts capabilities",
-      "wmts:layer": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406/sivelo",
+      "wmts:layer": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406/sea_ice_velocity",
       "role": [
         "data"
       ],
       "wmts:dimensions": {
         "elevation": 0,
-        "style": "cmap:speed"
+        "style": "cmap:speed,vectorStyle:solidAndVector,range:0/0.3"
       },
-      "key": "6e7f8408-9710-4e6b-9fab-2a21205ce30d"
+      "key": "d5f80249-bfca-4810-b91e-efa1bf884d32"
     },
     {
       "rel": "parent",
@@ -59,7 +59,7 @@
     ],
     "domain": [
       0,
-      0.19
+      0.3
     ]
   },
   "endpointtype": "marinedatastore_WMTSCapabilities",

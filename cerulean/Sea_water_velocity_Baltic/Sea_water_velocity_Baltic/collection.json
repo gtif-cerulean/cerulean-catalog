@@ -21,9 +21,9 @@
       ],
       "wmts:dimensions": {
         "elevation": 0,
-        "style": "cmap:speed"
+        "style": "cmap:speed,vectorStyle:solidAndVector,range:0/0.5"
       },
-      "key": "ad8a6d2e-ee98-4af6-8162-f730fc8d8a71"
+      "key": "94fbd426-f98d-4516-8e63-8b696ca2bac4"
     },
     {
       "rel": "parent",

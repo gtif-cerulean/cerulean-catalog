@@ -15,15 +15,15 @@
       "href": "https://wmts.marine.copernicus.eu/teroWmts/WIND_GLO_PHY_CLIMATE_L4_MY_012_003/cmems_obs-wind_glo_phy_my_l4_P1M_202411",
       "type": "image/png",
       "title": "wmts capabilities",
-      "wmts:layer": "WIND_GLO_PHY_CLIMATE_L4_MY_012_003/cmems_obs-wind_glo_phy_my_l4_P1M_202411/wind_speed",
+      "wmts:layer": "WIND_GLO_PHY_CLIMATE_L4_MY_012_003/cmems_obs-wind_glo_phy_my_l4_P1M_202411/wind",
       "role": [
         "data"
       ],
       "wmts:dimensions": {
         "elevation": 0,
-        "style": "cmap:speed"
+        "style": "cmap:speed,vectorStyle:solidAndVector,range:0/24"
       },
-      "key": "a35f875e-af48-4f32-a5e7-4d690c969ce9"
+      "key": "5bf2544e-6018-40e6-b616-cdd4f25be24b"
     },
     {
       "rel": "parent",
@@ -58,8 +58,8 @@
       "rgb(23, 35, 18)"
     ],
     "domain": [
-      1.12,
-      15.37
+      0,
+      24
     ]
   },
   "endpointtype": "marinedatastore_WMTSCapabilities",

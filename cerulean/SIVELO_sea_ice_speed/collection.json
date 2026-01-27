@@ -152,7 +152,7 @@
     ],
     "domain": [
       0,
-      0.19
+      0.3
     ]
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
@@ -189,8 +189,8 @@
   "summaries": {
     "themes": [
       "Shipping",
-      "Energy",
-      "Aquaculture"
+      "Aquaculture",
+      "Energy"
     ],
     "sensor": [
       "Numerical model"

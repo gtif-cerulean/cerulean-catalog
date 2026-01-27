@@ -1620,6 +1620,22 @@
       "collection_group": "A. Algorithms"
     },
     {
+      "rel": "child",
+      "href": "./Sea_water_velocity/collection.json",
+      "type": "application/json",
+      "title": "Sea water velocity",
+      "id": "Sea_water_velocity",
+      "themes": [
+        "Shipping",
+        "Aquaculture",
+        "Energy"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "E. Sea Water"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-cerulean.github.io/cerulean-catalog/cerulean/catalog.json",
       "type": "application/json"

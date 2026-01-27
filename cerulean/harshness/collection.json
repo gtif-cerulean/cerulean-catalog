@@ -149,8 +149,8 @@
     "temporal": {
       "interval": [
         [
-          "2026-01-27T09:01:17.923019Z",
-          "2026-01-27T09:01:17.923019Z"
+          "2026-01-27T16:21:45.169607Z",
+          "2026-01-27T16:21:45.169607Z"
         ]
       ]
     }
@@ -158,9 +158,9 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Shipping",
+      "Aquaculture",
       "Energy",
-      "Aquaculture"
+      "Shipping"
     ]
   },
   "assets": {
