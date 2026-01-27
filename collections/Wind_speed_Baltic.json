@@ -27,8 +27,8 @@
       "rgb(23, 35, 18)"
     ],
     "domain": [
-      1.12,
-      15.37
+      0,
+      35
     ]
   },
   "Citation": {
@@ -39,14 +39,14 @@
       "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/WIND_BAL_PHY_HR_L3_NRT_012_102/cmems_obs-wind_bal_phy_nrt_l3-s1a-sar-asc-0.01deg_P1D-i_202506",
       "Type": "WMTSCapabilities",
       "Name": "marinedatastore",
-      "LayerId": "WIND_BAL_PHY_HR_L3_NRT_012_102/cmems_obs-wind_bal_phy_nrt_l3-s1a-sar-asc-0.01deg_P1D-i_202506/wind_speed",
+      "LayerId": "WIND_BAL_PHY_HR_L3_NRT_012_102/cmems_obs-wind_bal_phy_nrt_l3-s1a-sar-asc-0.01deg_P1D-i_202506/wind",
       "Query": {
         "Start": "2021-01-01T00:00:00Z",
         "End": "2030-01-01T00:00:00Z"
       },
       "Dimensions": {
         "elevation": 0,
-        "style": "cmap:speed"
+        "style": "cmap:speed,vectorStyle:solidAndVector,range:0/35"
       }
     }
   ],
@@ -57,7 +57,7 @@
     "EndPoints": [
       {
         "Identifier": "process_cmems",
-        "Url": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_obs-wind_bal_phy_nrt_l3-s1a-sar-asc-0.01deg_P1D-i_202506&variables=wind_speed&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
+        "Url": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_obs-wind_bal_phy_nrt_l3-s1a-sar-asc-0.01deg_P1D-i&variables=wind_speed&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
         "Type": "application/json"
       }
     ]
