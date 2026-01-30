@@ -180,7 +180,7 @@
       "interval": [
         [
           "2025-10-31T23:45:00Z",
-          "2026-01-29T04:09:00Z"
+          "2026-01-30T03:59:00Z"
         ]
       ]
     }
@@ -188,9 +188,9 @@
   "license": "other",
   "summaries": {
     "themes": [
+      "Shipping",
       "Aquaculture",
-      "Energy",
-      "Shipping"
+      "Energy"
     ],
     "sensor": [
       "Satellite RCM"
