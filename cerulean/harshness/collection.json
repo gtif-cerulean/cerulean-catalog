@@ -149,8 +149,8 @@
     "temporal": {
       "interval": [
         [
-          "2026-02-04T13:23:51.005006Z",
-          "2026-02-04T13:23:51.005006Z"
+          "2026-02-05T09:26:04.745681Z",
+          "2026-02-05T09:26:04.745681Z"
         ]
       ]
     }
@@ -159,8 +159,8 @@
   "summaries": {
     "themes": [
       "Energy",
-      "Aquaculture",
-      "Shipping"
+      "Shipping",
+      "Aquaculture"
     ]
   },
   "assets": {
