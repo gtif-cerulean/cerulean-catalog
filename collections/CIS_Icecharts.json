@@ -12,19 +12,6 @@
             "Url": "https://www.canada.ca/en/environment-climate-change/services/ice-forecasts-observations/about-ice-service.html"
         }
     ],
-    "Colorlegend": {
-        "title": "Total Sea Ice Concentration",
-        "range": ["#96C8FF", "#8CFFA0", "#FFFF00", "#FF7D06", "#FF0000"],
-        "domain": [
-            "Open Water",
-            "Very open drift ice",
-            "Open Drift Ice",
-            "Close Drift Ice",
-            "Very Close Drift Ice"
-        ],
-        "scaleType": "categorical",
-        "markType": "circle"
-    },
     "Resources": [
         {
             "Name": "FlatGeobuf source",
