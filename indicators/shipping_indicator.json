@@ -10,13 +10,12 @@
     "polaris",
     "SHS1_sentinel1_ew_hh",
     "IST_sea_ice_surface_temperature",
-    "MSIA_mean_sea_ice_age",
-    "SICONC_ice_concentration",
+    "SIAGE_sea_ice_age",
+    "SICONC_sea_ice_concentration",
     "SIT_sea_ice_thickness",
     "SST_surface_snow_thickness",
     "SIVELO_sea_ice_speed",
-    "USI_sea_ice_eastward_velocity",
-    "VSI_sea_ice_northward_velocity",
-    "IBC_iceberg_concentration"
+    "IBC_iceberg_concentration_IW", 
+    "IBC_iceberg_concentration_RCM"
   ]
 }
