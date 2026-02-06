@@ -572,6 +572,34 @@
     },
     {
       "rel": "child",
+      "href": "./NIC_Icecharts_Antarctica/collection.json",
+      "type": "application/json",
+      "title": "NIC Ice charts Antarctica",
+      "id": "NIC_Icecharts_Antarctica",
+      "themes": [
+        "Antarctica"
+      ],
+      "providers": [
+        "U.S. NATIONAL ICE CENTER (USNIC)",
+        "EOX"
+      ],
+      "agency": [
+        "USNIC"
+      ],
+      "collection_group": "L. Antarctica",
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
       "href": "./NIC_Icecharts_arctic/collection.json",
       "type": "application/json",
       "title": "NIC Ice charts Arctic",
