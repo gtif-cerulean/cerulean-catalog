@@ -1,0 +1,36 @@
+{
+  "type": "Catalog",
+  "id": "cerulean",
+  "stac_version": "1.1.0",
+  "description": "Catalog providing description to available datasets to the Cerulean GTIF project",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./coastal_change_nrc/collection.json",
+      "type": "application/json",
+      "title": "Coastal Change NRC",
+      "id": "coastal_change_nrc",
+      "themes": [
+        "Shipping",
+        "Aquaculture",
+        "Energy"
+      ],
+      "agency": [
+        "NRC"
+      ],
+      "collection_group": "A. Algorithms"
+    },
+    {
+      "rel": "self",
+      "href": "https://gtif-cerulean.github.io/cerulean-catalog/cerulean/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "Cerulean GTIF project catalog"
+}
