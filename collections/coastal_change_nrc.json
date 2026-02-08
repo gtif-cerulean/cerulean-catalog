@@ -1,0 +1,44 @@
+{
+    "Name": "coastal_change_nrc",
+    "Title": "Coastal Change NRC",
+    "CollectionGroup": "A. Algorithms",
+    "Description": "Richards amazing algorithm",
+    "Themes": [
+        "Shipping",
+        "Aquaculture",
+        "Energy"
+    ],
+    "Agency": [
+        "NRC"
+    ],
+    "Resources": [
+        {
+            "Name": "Collection-only",
+            "Query": {
+                "Start": "2025-01-01T00:00:00Z",
+                "End": "2026-12-31T00:00:00Z"
+            },
+            "OverwriteBBox": [
+                -179,
+                55,
+                179,
+                89
+            ]
+        }
+    ],
+    "Process": {
+        "Name": "coastal_change_nrc",
+        "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/coastal_change_nrc_jsonform.json",
+        "EndPoints": [
+            {
+                "Identifier": "coastal_change_nrc",
+                "Url": "https://harshness-map.gtif.eox.at/processes/execute-coastal-change-nrc/execution",
+                "Method": "POST",
+                "EndPoint": "eoxhub_workspaces",
+                "Body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/coastal_change_nrc.json",
+                "Type": "image/tiff",
+                "Flatstyle": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/coastal_change_nrc_style.json"
+            }
+        ]
+    }
+}
