@@ -98,34 +98,23 @@
     "spatial": {
       "bbox": [
         [
-          -80.24487203697491,
-          55.252643970043046,
-          10.033447326328545,
-          84.84935228034207
-        ],
-        [
-          -80.24487203697491,
-          55.252643970043046,
-          10.033447326328545,
-          84.84935228034207
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-01-01T00:00:00Z",
-          "2026-02-06T00:00:00Z"
+          "2026-02-08T09:00:34.845232Z",
+          "2026-02-08T09:00:34.845232Z"
         ]
       ]
     }
   },
   "license": "other",
-  "summaries": {
-    "themes": [
-      "Shipping"
-    ]
-  },
   "assets": {
     "Wind_Energy_Areas": {
       "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/wind_energy.geojson",

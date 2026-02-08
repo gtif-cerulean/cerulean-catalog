@@ -126,24 +126,18 @@
     "spatial": {
       "bbox": [
         [
-          -3906762.150073499,
-          -5644039.787309173,
-          3607347.9113053097,
-          6645219.2042379165
-        ],
-        [
-          -3906762.150073499,
-          -5644039.787309173,
-          3607347.9113053097,
-          6645219.2042379165
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-01-03T00:00:00Z",
-          "2026-02-06T00:00:00Z"
+          "2026-02-08T09:00:46.788731Z",
+          "2026-02-08T09:00:46.788731Z"
         ]
       ]
     }
@@ -159,13 +153,6 @@
       "url": "https://eox.at/"
     }
   ],
-  "summaries": {
-    "themes": [
-      "Aquaculture",
-      "Shipping",
-      "Energy"
-    ]
-  },
   "assets": {
     "Wind_Energy_Areas": {
       "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/wind_energy.geojson",
