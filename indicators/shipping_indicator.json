@@ -12,7 +12,7 @@
     "IST_sea_ice_surface_temperature",
     "SIAGE_sea_ice_age",
     "SICONC_sea_ice_concentration",
-    "SIT_sea_ice_thickness",
+    "SITHICK_sea_ice_thickness",
     "SST_surface_snow_thickness",
     "SIVELO_sea_ice_speed",
     "IBC_iceberg_concentration_IW", 
