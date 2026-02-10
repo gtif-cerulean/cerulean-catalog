@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "Sentinel1-EW-HH",
+  "id": "coastal_change_nrc",
   "stac_version": "1.1.0",
-  "description": "SENTINEL 1, Extra Wide Swath, HH Polarization",
+  "description": "Richards amazing algorithm",
   "links": [
     {
       "rel": "root",
@@ -12,20 +12,30 @@
     },
     {
       "rel": "child",
-      "href": "./Sentinel1-EW-HH/collection.json",
+      "href": "./coastal_change_nrc/collection.json",
       "type": "application/json",
-      "title": "Sentinel 1 EW HH",
-      "endpointtype": "Sentinel Hub WMS",
-      "id": "Sentinel1-EW-HH",
+      "title": "Coastal Change NRC",
+      "endpointtype": "Collection-only",
+      "id": "coastal_change_nrc",
       "themes": [
-        "Energy",
+        "Shipping",
         "Aquaculture",
-        "Shipping"
+        "Energy"
       ],
       "agency": [
-        "Sentinel Hub"
+        "NRC"
       ],
-      "collection_group": "B. Satellite Data"
+      "collection_group": "A. Algorithms"
+    },
+    {
+      "rel": "service",
+      "href": "https://harshness-map.gtif.eox.at/processes/execute-coastal-change-nrc/execution",
+      "type": "image/tiff",
+      "id": "coastal_change_nrc",
+      "method": "POST",
+      "endpoint": "eoxhub_workspaces",
+      "body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/coastal_change_nrc.json",
+      "eox:flatstyle": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/coastal_change_nrc_style.json"
     },
     {
       "rel": "xyz",
@@ -114,32 +124,33 @@
     }
   ],
   "themes": [
-    "Energy",
+    "Shipping",
     "Aquaculture",
-    "Shipping"
+    "Energy"
   ],
   "agency": [
-    "Sentinel Hub"
+    "NRC"
   ],
-  "collection_group": "B. Satellite Data",
+  "collection_group": "A. Algorithms",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/coastal_change_nrc_jsonform.json",
   "merge_assets": false,
-  "title": "Sentinel 1 EW HH",
+  "title": "Coastal Change NRC",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180,
-          -85,
-          180,
-          85
+          -179,
+          55,
+          179,
+          89
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2022-01-01T00:00:00Z",
-          "2026-02-10T00:00:00Z"
+          "2026-02-10T13:12:11.760903Z",
+          "2026-02-10T13:12:11.760903Z"
         ]
       ]
     }

@@ -1,0 +1,52 @@
+{
+  "type": "Collection",
+  "id": "coastal_change_nrc",
+  "stac_version": "1.1.0",
+  "description": "Richards amazing algorithm",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Coastal Change NRC"
+    }
+  ],
+  "themes": [
+    "Shipping",
+    "Aquaculture",
+    "Energy"
+  ],
+  "agency": [
+    "NRC"
+  ],
+  "collection_group": "A. Algorithms",
+  "endpointtype": "Collection-only",
+  "title": "Coastal Change NRC",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -179,
+          55,
+          179,
+          89
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2026-02-10T13:12:11.760903Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}
