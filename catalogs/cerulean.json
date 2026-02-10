@@ -91,6 +91,7 @@
     "Wind_speed_Baltic",
     "ZOOC_zooplankton",
     "route_optimization_indicator",
-    "Sea_water_velocity"
+    "Sea_water_velocity",
+    "coastal_change_nrc"
   ]
 }
