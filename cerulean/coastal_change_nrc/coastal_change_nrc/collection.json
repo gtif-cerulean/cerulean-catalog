@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "coastal_change_nrc",
   "stac_version": "1.1.0",
-  "description": "Richards amazing algorithm",
+  "description": "The developed change detection algorithm is based on CNN-based land-water segmentation using semantic segmentation models applied to multi-temporal satellite imagery. For each timestamp, the algorithm generates a binary land-water mask, where land and water classes are distinguished at the pixel level. By comparing these binary masks across different time periods, the algorithm identifies areas of change, such as shoreline retreat, expansion, or shifts due to erosion, sediment deposition, or flooding.",
   "links": [
     {
       "rel": "root",
@@ -14,7 +14,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Coastal Change NRC"
+      "title": "Coastal Change Detection"
     }
   ],
   "themes": [
@@ -27,7 +27,7 @@
   ],
   "collection_group": "A. Algorithms",
   "endpointtype": "Collection-only",
-  "title": "Coastal Change NRC",
+  "title": "Coastal Change Detection",
   "extent": {
     "spatial": {
       "bbox": [
@@ -42,7 +42,7 @@
     "temporal": {
       "interval": [
         [
-          "2026-02-10T13:12:11.760903Z",
+          "2026-02-10T14:36:29.952146Z",
           null
         ]
       ]

@@ -1667,7 +1667,7 @@
       "rel": "child",
       "href": "./coastal_change_nrc/collection.json",
       "type": "application/json",
-      "title": "Coastal Change NRC",
+      "title": "Coastal Change Detection",
       "id": "coastal_change_nrc",
       "themes": [
         "Shipping",
