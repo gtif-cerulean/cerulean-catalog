@@ -12,23 +12,6 @@
     },
     {
       "rel": "child",
-      "href": "./airss_results/collection.json",
-      "type": "application/json",
-      "title": "Ship Risk Index (AIRSS)",
-      "id": "airss_results",
-      "themes": [
-        "Shipping"
-      ],
-      "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
-      ],
-      "agency": [
-        "Canadian Ice Service"
-      ],
-      "collection_group": "A. Algorithms"
-    },
-    {
-      "rel": "child",
       "href": "./CHL_chlorophyll_Biology/collection.json",
       "type": "application/json",
       "title": "Mass concentration of chlorophyll a in sea water - Biology",
@@ -255,8 +238,6 @@
       "title": "POLARIS (DMI)",
       "id": "DMI_polaris",
       "themes": [
-        "Aquaculture",
-        "Energy",
         "Shipping"
       ],
       "providers": [
@@ -266,7 +247,7 @@
       "agency": [
         "DMI"
       ],
-      "collection_group": "C. Sea Ice"
+      "collection_group": "A. Algorithms"
     },
     {
       "rel": "child",
@@ -762,23 +743,6 @@
         "Spatial Resolution: 0.25° × 0.25°",
         "Frequency: Daily"
       ]
-    },
-    {
-      "rel": "child",
-      "href": "./Polaris_algorithm_dmi_demo/collection.json",
-      "type": "application/json",
-      "title": "Ship Risk Index (POLARIS)",
-      "id": "Polaris_algorithm_dmi_demo",
-      "themes": [
-        "Shipping"
-      ],
-      "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
-      ],
-      "agency": [
-        "National Research Council of Canada"
-      ],
-      "collection_group": "A. Algorithms"
     },
     {
       "rel": "child",
