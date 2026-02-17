@@ -15,7 +15,7 @@
       "href": "https://eoapi.workspace.cif.hub-otc.eox.at/raster/collections/RCM/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=HH&colormap_name=gray&rescale=0,0.5",
       "type": "image/png",
       "title": "RCM scenes HH",
-      "key": "98e205eb-7975-4918-8454-0a1af1795b3d"
+      "key": "753a8a00-8b0e-4c9c-abd4-891d91e037df"
     },
     {
       "rel": "parent",
