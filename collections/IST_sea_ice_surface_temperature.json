@@ -48,7 +48,8 @@
       },
       "Dimensions": {
         "elevation": 0,
-        "style": "cmap:viridis"
+        "style": "cmap:viridis",
+        "Bbox": [-68, 40, 35, 78]
       }
     }
   ],
