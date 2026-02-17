@@ -21,15 +21,9 @@
       ],
       "wmts:dimensions": {
         "elevation": 0,
-        "style": "cmap:viridis",
-        "Bbox": [
-          -68,
-          40,
-          35,
-          78
-        ]
+        "style": "cmap:viridis"
       },
-      "key": "ed30411b-ad8c-4daf-a6cf-47f69ebc2028"
+      "key": "774ef5bd-b09a-426d-8d00-790f566d3c5c"
     },
     {
       "rel": "parent",
