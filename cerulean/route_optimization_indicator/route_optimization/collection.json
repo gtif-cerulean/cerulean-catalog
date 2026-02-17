@@ -12,7 +12,7 @@
     },
     {
       "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/dmi-ice-charts.json",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/dmi_polaris_style.json",
       "type": "text/vector-styles",
       "asset:keys": [
         "route_optimization"
