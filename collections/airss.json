@@ -39,7 +39,7 @@
     {
       "Name": "FlatGeobuf source",
       "Style": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/collections/Polaris_algorithm_dmi_demo/airss.json",
-      "Bbox": [-80, 43, 30, 79],
+      "Bbox": [-78, 42, 30, 78],
       "TimeEntries": [
         {
           "Time": "202408132000",
