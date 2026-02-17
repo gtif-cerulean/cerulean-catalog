@@ -16,7 +16,7 @@
         {
             "Name": "GeoJSON source",
             "DataProjection": 4326,
-            "Style": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/dmi-ice-charts.json",
+            "Style": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/dmi_polaris_style.json",
             "Bbox": [
                 -80.0,
                 65.0,
@@ -29,7 +29,7 @@
                     "Assets": [
                         {
                             "Identifier": "route_optimization",
-                            "File": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/202512092115_Qaanaaq.geojson"
+                            "File": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/202512092115_Qaanaaq_polaris.geojson"
                         }
                     ]
                 }
