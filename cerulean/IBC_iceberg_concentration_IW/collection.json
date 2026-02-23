@@ -188,9 +188,9 @@
   "license": "other",
   "summaries": {
     "themes": [
+      "Shipping",
       "Energy",
-      "Aquaculture",
-      "Shipping"
+      "Aquaculture"
     ],
     "sensor": [
       "Satellite S1 IW"
