@@ -1590,7 +1590,7 @@
       "rel": "child",
       "href": "./route_optimization_indicator/collection.json",
       "type": "application/json",
-      "title": "Route Optimization Indicator",
+      "title": "Route Optimization",
       "id": "route_optimization_indicator",
       "themes": [
         "Shipping",

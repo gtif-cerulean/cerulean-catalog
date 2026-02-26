@@ -149,7 +149,7 @@
   "collection_group": "A. Algorithms",
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/route_optimization.json",
   "merge_assets": false,
-  "title": "Route Optimization Indicator",
+  "title": "Route Optimization",
   "extent": {
     "spatial": {
       "bbox": [

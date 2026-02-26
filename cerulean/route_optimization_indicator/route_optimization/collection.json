@@ -22,7 +22,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Route Optimization Indicator"
+      "title": "Route Optimization"
     }
   ],
   "themes": [
