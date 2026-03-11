@@ -15,6 +15,30 @@
             "Style": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/styles/wind_energy_polygon.json",
             "visible": false,
             "protocol": "GeoJSON source"
+        },
+        {
+            "id": "Hudson_Strait",
+            "name": "Hudson Strait",
+            "url": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/RCM_AOI_1_Hudson_Strait.geojson",
+            "Style": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/styles/wind_energy_polygon.json",
+            "visible": false,
+            "protocol": "GeoJSON source"
+        },
+        {
+            "id": "Resolute_and_Grise_Fiord",
+            "name": "Resolute and Grise Fiord",
+            "url": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/RCM_AOI_2_Resolute_and_Grise_Fiord.geojson",
+            "Style": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/styles/wind_energy_polygon.json",
+            "visible": false,
+            "protocol": "GeoJSON source"
+        },
+        {
+            "id": "Weddell_Sea",
+            "name": "Weddell Sea",
+            "url": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/RCM_AOI_3_Peninsula_Weddell_Sea.geojson",
+            "Style": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/styles/wind_energy_polygon.json",
+            "visible": false,
+            "protocol": "GeoJSON source"
         }
     ]
 }
