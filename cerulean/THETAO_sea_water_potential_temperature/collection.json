@@ -118,6 +118,30 @@
       ]
     },
     {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/styles/wind_energy_polygon.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "Hudson_Strait"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/styles/wind_energy_polygon.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "Resolute_and_Grise_Fiord"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/styles/wind_energy_polygon.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "Weddell_Sea"
+      ]
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -198,6 +222,33 @@
       "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/wind_energy.geojson",
       "type": "application/geo+json",
       "title": "Wind Energy Areas",
+      "roles": [
+        "overlay",
+        "invisible"
+      ]
+    },
+    "Hudson_Strait": {
+      "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/RCM_AOI_1_Hudson_Strait.geojson",
+      "type": "application/geo+json",
+      "title": "Hudson Strait",
+      "roles": [
+        "overlay",
+        "invisible"
+      ]
+    },
+    "Resolute_and_Grise_Fiord": {
+      "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/RCM_AOI_2_Resolute_and_Grise_Fiord.geojson",
+      "type": "application/geo+json",
+      "title": "Resolute and Grise Fiord",
+      "roles": [
+        "overlay",
+        "invisible"
+      ]
+    },
+    "Weddell_Sea": {
+      "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/RCM_AOI_3_Peninsula_Weddell_Sea.geojson",
+      "type": "application/geo+json",
+      "title": "Weddell Sea",
       "roles": [
         "overlay",
         "invisible"
