@@ -177,7 +177,7 @@
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/GREEN.json",
-  "merge_assets": false,
+  "eodash:merge_assets": false,
   "title": "Mass concentration of green algae expressed as chlorophyll in sea water",
   "extent": {
     "spatial": {

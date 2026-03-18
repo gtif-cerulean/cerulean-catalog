@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_BGC_001_028/cmems_mod_glo_bgc-nut_anfc_0.25deg_P1D-m_202311",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Mole concentration of silicate in sea water",
       "wmts:layer": "GLOBAL_ANALYSISFORECAST_BGC_001_028/cmems_mod_glo_bgc-nut_anfc_0.25deg_P1D-m_202311/si",
       "role": [
         "data"
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:dense"
       },
-      "key": "00e454e9-da8a-4579-b46b-b71109d756df"
+      "key": "cf60408b-c73e-4b17-92a0-faa59597abce"
     },
     {
       "rel": "parent",

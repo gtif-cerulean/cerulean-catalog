@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_BGC_001_028/cmems_mod_glo_bgc-nut_anfc_0.25deg_P1D-m_202311",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Mole concentration of dissolved iron in sea water",
       "wmts:layer": "GLOBAL_ANALYSISFORECAST_BGC_001_028/cmems_mod_glo_bgc-nut_anfc_0.25deg_P1D-m_202311/fe",
       "role": [
         "data"
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:dense"
       },
-      "key": "66b399b9-b4d4-47a0-9062-eb7a84734953"
+      "key": "b85c585d-5228-40c7-826a-9401e0b163f9"
     },
     {
       "rel": "parent",

@@ -14,12 +14,12 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Sea ice area fraction - Baltic Sea",
       "wmts:layer": "BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411/siconc",
       "role": [
         "data"
       ],
-      "key": "5f983861-dd8c-416e-b48c-35f33369094c"
+      "key": "ee2cdc11-b2ae-468b-8bed-aea1ad9f8be2"
     },
     {
       "rel": "parent",

@@ -145,7 +145,7 @@
     "CIS"
   ],
   "collection_group": "C. Sea Ice",
-  "merge_assets": false,
+  "eodash:merge_assets": false,
   "title": "CIS Ice charts",
   "extent": {
     "spatial": {

@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-multi-4km_P1M_202411",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Mass concentration of diatoms expressed as chlorophyll in sea water",
       "wmts:layer": "OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-multi-4km_P1M_202411/DIATO",
       "role": [
         "data"
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:algae"
       },
-      "key": "b1a215ef-f2f4-43a3-88f3-50b797c1b489"
+      "key": "c8fe87a8-af09-493d-ad57-b75c0e13f03f"
     },
     {
       "rel": "parent",

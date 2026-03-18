@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-multi-4km_P1M_202411",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Mass concentration of prokaryotes expressed as chlorophyll in sea water",
       "wmts:layer": "OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-multi-4km_P1M_202411/PROKAR",
       "role": [
         "data"
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:algae"
       },
-      "key": "951904a6-ff13-42cb-a646-1bf6d9953d23"
+      "key": "a155e5c5-b467-4f18-878b-4aafb7931fc7"
     },
     {
       "rel": "parent",

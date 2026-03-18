@@ -146,7 +146,7 @@
     "Sentinel Hub"
   ],
   "collection_group": "B. Satellite Data",
-  "merge_assets": false,
+  "eodash:merge_assets": false,
   "title": "Sentinel 1 EW HH",
   "extent": {
     "spatial": {
@@ -172,8 +172,8 @@
   "summaries": {
     "themes": [
       "Aquaculture",
-      "Shipping",
-      "Energy"
+      "Energy",
+      "Shipping"
     ]
   },
   "assets": {

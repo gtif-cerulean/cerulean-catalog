@@ -168,7 +168,7 @@
       150
     ]
   },
-  "merge_assets": false,
+  "eodash:merge_assets": false,
   "title": "Sea floor depth - Shallow water",
   "extent": {
     "spatial": {

@@ -166,7 +166,7 @@
       5727
     ]
   },
-  "merge_assets": false,
+  "eodash:merge_assets": false,
   "title": "Sea floor depth below geoid - Antarctica",
   "extent": {
     "spatial": {

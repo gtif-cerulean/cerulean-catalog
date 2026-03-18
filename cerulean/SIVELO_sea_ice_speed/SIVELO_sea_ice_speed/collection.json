@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Sea ice speed",
       "wmts:layer": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406/sea_ice_velocity",
       "role": [
         "data"
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:speed,vectorStyle:solidAndVector,range:0/0.3"
       },
-      "key": "c8a868f5-9d6f-421a-b090-fdca647ef4c4"
+      "key": "78ff223e-e73c-467c-bd66-da2238e8c84e"
     },
     {
       "rel": "parent",

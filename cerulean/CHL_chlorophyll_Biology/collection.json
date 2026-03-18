@@ -177,7 +177,7 @@
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/CHLA.json",
-  "merge_assets": false,
+  "eodash:merge_assets": false,
   "title": "Mass concentration of chlorophyll a in sea water - Biology",
   "extent": {
     "spatial": {
@@ -200,7 +200,7 @@
       "interval": [
         [
           "2026-02-27T00:00:00Z",
-          "2026-03-16T00:00:00Z"
+          "2026-03-17T00:00:00Z"
         ]
       ]
     }

@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/BALTICSEA_MULTIYEAR_WAV_003_015/cmems_mod_bal_wav_my_2km-climatology_P1M-m_202411",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Surface wave mean period from variance spectral density second frequency moment - Baltic Sea",
       "wmts:layer": "BALTICSEA_MULTIYEAR_WAV_003_015/cmems_mod_bal_wav_my_2km-climatology_P1M-m_202411/VTM02",
       "role": [
         "data"
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:tempo"
       },
-      "key": "10ffdb0b-6d1e-41c7-8116-6d707f803a42"
+      "key": "576f2d7b-6e91-4b05-adcd-5721f48ebd23"
     },
     {
       "rel": "parent",

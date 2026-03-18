@@ -177,7 +177,7 @@
     "Shipping"
   ],
   "collection_group": "A. Algorithms",
-  "merge_assets": false,
+  "eodash:merge_assets": false,
   "title": "Sea Ice Concentration Comparison",
   "extent": {
     "spatial": {

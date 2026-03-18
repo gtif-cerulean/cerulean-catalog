@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_BGC_001_028/cmems_mod_glo_bgc-bio_anfc_0.25deg_P1D-m_202311",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Mole concentration of dissolved molecular oxygen in sea water",
       "wmts:layer": "GLOBAL_ANALYSISFORECAST_BGC_001_028/cmems_mod_glo_bgc-bio_anfc_0.25deg_P1D-m_202311/o2",
       "role": [
         "data"
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:matter"
       },
-      "key": "e2c75998-e7e9-4ac7-968c-0c212ce7e260"
+      "key": "8587bb1f-860c-4ded-acd4-f367f3cfd182"
     },
     {
       "rel": "parent",

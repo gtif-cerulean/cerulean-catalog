@@ -180,7 +180,7 @@
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/o2.json",
-  "merge_assets": false,
+  "eodash:merge_assets": false,
   "title": "Mole concentration of dissolved molecular oxygen in sea water",
   "extent": {
     "spatial": {

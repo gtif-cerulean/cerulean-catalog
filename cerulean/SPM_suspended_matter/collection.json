@@ -177,7 +177,7 @@
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/SPM.json",
-  "merge_assets": false,
+  "eodash:merge_assets": false,
   "title": "Mass concentration of suspended matter in sea water",
   "extent": {
     "spatial": {

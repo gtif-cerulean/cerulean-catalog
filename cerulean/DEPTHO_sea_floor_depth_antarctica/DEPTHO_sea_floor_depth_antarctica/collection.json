@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_static_202211--ext--bathy",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Sea floor depth below geoid - Antarctica",
       "wmts:layer": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_static_202211--ext--bathy/deptho",
       "role": [
         "data"
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:dense"
       },
-      "key": "4226fb0c-9e0f-4c5c-a484-ac8de5ce6202"
+      "key": "c023639f-fa77-4efc-a3d6-74968ab179db"
     },
     {
       "rel": "parent",

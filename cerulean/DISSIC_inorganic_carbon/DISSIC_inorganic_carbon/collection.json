@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_BGC_001_028/cmems_mod_glo_bgc-car_anfc_0.25deg_P1D-m_202311",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Mole concentration of dissolved inorganic carbon in sea water",
       "wmts:layer": "GLOBAL_ANALYSISFORECAST_BGC_001_028/cmems_mod_glo_bgc-car_anfc_0.25deg_P1D-m_202311/dissic",
       "role": [
         "data"
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:dense"
       },
-      "key": "1b44504f-def7-452b-b095-eb1285a225b9"
+      "key": "6ba2cf30-779f-49ca-a0a5-499d0686a119"
     },
     {
       "rel": "parent",

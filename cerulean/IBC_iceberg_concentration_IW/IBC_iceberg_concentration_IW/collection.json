@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007/DMI-ARC-SEAICE_BERG_MOSAIC_IW-L4-NRT-OBS_202511",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Number of icebergs per unit area (S1 IW)",
       "wmts:layer": "SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007/DMI-ARC-SEAICE_BERG_MOSAIC_IW-L4-NRT-OBS_202511/ibc",
       "role": [
         "data"
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:ice,range:0/1"
       },
-      "key": "39c9f591-53a0-429d-aeee-49020e82bd72"
+      "key": "bca991ff-b45f-4fd9-aad1-4ccc01147fa0"
     },
     {
       "rel": "parent",
@@ -79,7 +79,7 @@
       "interval": [
         [
           "2023-11-25T10:01:00Z",
-          "2026-03-17T06:15:00Z"
+          "2026-03-18T09:29:00Z"
         ]
       ]
     }

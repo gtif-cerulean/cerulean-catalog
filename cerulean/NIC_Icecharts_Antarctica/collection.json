@@ -146,7 +146,7 @@
       5405880.72
     ]
   },
-  "merge_assets": false,
+  "eodash:merge_assets": false,
   "title": "NIC Ice charts Antarctica",
   "extent": {
     "spatial": {

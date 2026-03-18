@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_BGC_001_028/cmems_mod_glo_bgc-co2_anfc_0.25deg_P1D-m_202311",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Surface partial pressure of carbon dioxide in sea water",
       "wmts:layer": "GLOBAL_ANALYSISFORECAST_BGC_001_028/cmems_mod_glo_bgc-co2_anfc_0.25deg_P1D-m_202311/spco2",
       "role": [
         "data"
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:matter"
       },
-      "key": "38937572-b3c8-4996-ba35-3be415152d9d"
+      "key": "97da61dc-748a-4b6b-8c99-813570f635e6"
     },
     {
       "rel": "parent",

@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_static_202211--ext--bathy",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Sea floor depth below geoid",
       "wmts:layer": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_static_202211--ext--bathy/deptho",
       "role": [
         "data"
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:dense"
       },
-      "key": "7adf00e3-17f6-4d88-91ae-bd0c9e4db80d"
+      "key": "caeb3aa9-0ed5-4023-96c6-c83d77eea5f0"
     },
     {
       "rel": "parent",

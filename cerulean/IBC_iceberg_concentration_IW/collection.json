@@ -181,7 +181,7 @@
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/ibc.json",
-  "merge_assets": false,
+  "eodash:merge_assets": false,
   "title": "Number of icebergs per unit area (S1 IW)",
   "extent": {
     "spatial": {
@@ -204,7 +204,7 @@
       "interval": [
         [
           "2023-11-25T10:01:00Z",
-          "2026-03-17T06:15:00Z"
+          "2026-03-18T09:29:00Z"
         ]
       ]
     }

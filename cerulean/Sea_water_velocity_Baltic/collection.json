@@ -168,7 +168,7 @@
       0.5
     ]
   },
-  "merge_assets": false,
+  "eodash:merge_assets": false,
   "title": "Sea water velocity - Baltic Sea",
   "extent": {
     "spatial": {

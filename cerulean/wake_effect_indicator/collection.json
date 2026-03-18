@@ -175,7 +175,7 @@
   ],
   "collection_group": "A. Algorithms",
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/wake_effect_jsonform.json",
-  "merge_assets": false,
+  "eodash:merge_assets": false,
   "title": "Wind Turbine Wake Effect",
   "extent": {
     "spatial": {
@@ -191,8 +191,8 @@
     "temporal": {
       "interval": [
         [
-          "2026-03-18T09:35:54.821039Z",
-          "2026-03-18T09:35:54.821039Z"
+          "2026-03-18T18:53:17.371217Z",
+          "2026-03-18T18:53:17.371217Z"
         ]
       ]
     }

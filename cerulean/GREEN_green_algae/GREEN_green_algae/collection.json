@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-multi-4km_P1M_202411",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Mass concentration of green algae expressed as chlorophyll in sea water",
       "wmts:layer": "OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-multi-4km_P1M_202411/GREEN",
       "role": [
         "data"
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:algae"
       },
-      "key": "3b25a002-2b96-480a-be18-6e13e7e750c0"
+      "key": "7925860b-bc34-468b-812e-7d69c50a7426"
     },
     {
       "rel": "parent",

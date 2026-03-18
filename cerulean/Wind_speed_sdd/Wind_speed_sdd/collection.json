@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/WIND_GLO_PHY_CLIMATE_L4_MY_012_003/cmems_obs-wind_glo_phy_my_l4_P1M_202411",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Wind speed standard deviation of differences",
       "wmts:layer": "WIND_GLO_PHY_CLIMATE_L4_MY_012_003/cmems_obs-wind_glo_phy_my_l4_P1M_202411/wind_speed_sdd",
       "role": [
         "data"
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:viridis"
       },
-      "key": "382f9819-2c29-4d7b-a837-a29a9d69e85a"
+      "key": "add8fc39-3a40-45fb-8067-e6d023150d3b"
     },
     {
       "rel": "parent",

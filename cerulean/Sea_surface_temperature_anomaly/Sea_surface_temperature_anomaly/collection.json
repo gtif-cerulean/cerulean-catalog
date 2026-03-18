@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg-sst-anomaly_P1D-m_202411",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Sea surface temperature anomaly",
       "wmts:layer": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg-sst-anomaly_P1D-m_202411/sea_surface_temperature_anomaly",
       "role": [
         "data"
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:viridis"
       },
-      "key": "cd56a01a-ee30-4cc4-913d-3bd0d2aa249c"
+      "key": "7a4dfcd7-a8d7-463c-b4c4-9da7b9ed9cda"
     },
     {
       "rel": "parent",

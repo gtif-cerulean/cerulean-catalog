@@ -157,7 +157,7 @@
   ],
   "collection_group": "A. Algorithms",
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/harshness.json",
-  "merge_assets": false,
+  "eodash:merge_assets": false,
   "title": "Harshness Index",
   "extent": {
     "spatial": {
@@ -173,8 +173,8 @@
     "temporal": {
       "interval": [
         [
-          "2026-03-18T09:32:24.069894Z",
-          "2026-03-18T09:32:24.069894Z"
+          "2026-03-18T18:49:56.453445Z",
+          "2026-03-18T18:49:56.453445Z"
         ]
       ]
     }

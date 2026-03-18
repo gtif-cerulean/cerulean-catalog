@@ -177,7 +177,7 @@
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/VTM02.json",
-  "merge_assets": false,
+  "eodash:merge_assets": false,
   "title": "Surface wave mean period from variance spectral density second frequency moment - Baltic Sea",
   "extent": {
     "spatial": {

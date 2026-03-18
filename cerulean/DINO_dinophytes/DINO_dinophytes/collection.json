@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-multi-4km_P1M_202411",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Mass concentration of dinophytes expressed as chlorophyll in sea water",
       "wmts:layer": "OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-multi-4km_P1M_202411/DINO",
       "role": [
         "data"
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:algae"
       },
-      "key": "c4fbf8a1-61de-429b-baeb-180be6e84a61"
+      "key": "8a54860c-d066-44bb-981e-92814ef51c65"
     },
     {
       "rel": "parent",

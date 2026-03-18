@@ -177,7 +177,7 @@
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/zooc.json",
-  "merge_assets": false,
+  "eodash:merge_assets": false,
   "title": "Mole concentration of zooplankton expressed as carbon in sea water",
   "extent": {
     "spatial": {

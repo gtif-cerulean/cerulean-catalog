@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Sea water velocity - Baltic Sea",
       "wmts:layer": "BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411/sea_water_velocity",
       "role": [
         "data"
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:speed,vectorStyle:solidAndVector,range:0/0.5"
       },
-      "key": "c7e35bb9-86ac-4a1f-afc8-ab8fe97f9f75"
+      "key": "cd8e7aed-7f6f-43f3-bfd2-6cea949978f7"
     },
     {
       "rel": "parent",

@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/BALTICSEA_MULTIYEAR_WAV_003_015/cmems_mod_bal_wav_my_2km-climatology_P1M-m_202411",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Sea surface wave significant height - Baltic Sea",
       "wmts:layer": "BALTICSEA_MULTIYEAR_WAV_003_015/cmems_mod_bal_wav_my_2km-climatology_P1M-m_202411/VHM0",
       "role": [
         "data"
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:amp"
       },
-      "key": "73110f16-51d6-4d5e-8865-e991161ee0a8"
+      "key": "93ee758e-9c17-4b9f-b9a1-9aff43014710"
     },
     {
       "rel": "parent",

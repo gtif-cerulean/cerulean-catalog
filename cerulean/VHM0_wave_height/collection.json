@@ -181,7 +181,7 @@
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/VHM0.json",
-  "merge_assets": false,
+  "eodash:merge_assets": false,
   "title": "Sea surface wave significant height",
   "extent": {
     "spatial": {

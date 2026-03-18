@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_BGC_001_028/cmems_mod_glo_bgc-plankton_anfc_0.25deg_P1D-m_202411",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Mole concentration of zooplankton expressed as carbon in sea water",
       "wmts:layer": "GLOBAL_ANALYSISFORECAST_BGC_001_028/cmems_mod_glo_bgc-plankton_anfc_0.25deg_P1D-m_202411/zooc",
       "role": [
         "data"
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:matter"
       },
-      "key": "e974d791-f835-4bf0-b6ee-217fa8f6028e"
+      "key": "cce68fa8-d1f7-4d5e-9b81-07f01e3e0a19"
     },
     {
       "rel": "parent",

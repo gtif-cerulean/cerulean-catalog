@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_MULTIYEAR_WAV_001_032/cmems_mod_glo_wav_my_0.2deg-climatology_P1M-m_202311",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Sea surface wave mean period from variance spectral density second frequency moment",
       "wmts:layer": "GLOBAL_MULTIYEAR_WAV_001_032/cmems_mod_glo_wav_my_0.2deg-climatology_P1M-m_202311/VTM02",
       "role": [
         "data"
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:tempo"
       },
-      "key": "9d51c6b9-2bc3-4726-bf2c-cb57ce89ff88"
+      "key": "26634abe-dd7c-4f9b-b5e3-ae2f2dc3a7b1"
     },
     {
       "rel": "parent",

@@ -146,7 +146,7 @@
     "DMI"
   ],
   "collection_group": "A. Algorithms",
-  "merge_assets": false,
+  "eodash:merge_assets": false,
   "title": "POLARIS (DMI)",
   "extent": {
     "spatial": {

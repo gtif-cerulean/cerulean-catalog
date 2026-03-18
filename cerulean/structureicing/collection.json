@@ -157,7 +157,7 @@
   ],
   "collection_group": "A. Algorithms",
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/structureicing.json",
-  "merge_assets": false,
+  "eodash:merge_assets": false,
   "title": "Structure Icing Index",
   "extent": {
     "spatial": {
@@ -173,8 +173,8 @@
     "temporal": {
       "interval": [
         [
-          "2026-03-18T09:35:51.459317Z",
-          "2026-03-18T09:35:51.459317Z"
+          "2026-03-18T18:53:14.904271Z",
+          "2026-03-18T18:53:14.904271Z"
         ]
       ]
     }

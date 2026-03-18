@@ -163,7 +163,7 @@
     ],
     "tickFormat": ".1f"
   },
-  "merge_assets": false,
+  "eodash:merge_assets": false,
   "title": "Sea water velocity",
   "extent": {
     "spatial": {

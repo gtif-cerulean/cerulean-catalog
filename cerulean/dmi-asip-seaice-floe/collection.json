@@ -168,7 +168,7 @@
     "scaleType": "categorical",
     "markType": "circle"
   },
-  "merge_assets": false,
+  "eodash:merge_assets": false,
   "title": "AI: Sea Ice Floe Size",
   "extent": {
     "spatial": {
@@ -216,8 +216,8 @@
   "summaries": {
     "themes": [
       "Aquaculture",
-      "Shipping",
-      "Energy"
+      "Energy",
+      "Shipping"
     ]
   },
   "assets": {

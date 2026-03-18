@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_MULTIYEAR_WAV_001_032/cmems_mod_glo_wav_my_0.2deg-climatology_P1M-m_202311",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Sea surface wave significant height",
       "wmts:layer": "GLOBAL_MULTIYEAR_WAV_001_032/cmems_mod_glo_wav_my_0.2deg-climatology_P1M-m_202311/VHM0",
       "role": [
         "data"
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:amp"
       },
-      "key": "65e55edf-ad1a-48f9-b401-db0de39b651a"
+      "key": "fd89f8f8-66d1-4e7b-9ffc-c3c2ae7c33fc"
     },
     {
       "rel": "parent",

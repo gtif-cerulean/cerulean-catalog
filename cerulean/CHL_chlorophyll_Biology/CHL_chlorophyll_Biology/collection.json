@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-gapfree-multi-4km_P1D_202311",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Mass concentration of chlorophyll a in sea water - Biology",
       "wmts:layer": "OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-gapfree-multi-4km_P1D_202311/CHL",
       "role": [
         "data"
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:algae"
       },
-      "key": "0b101dc9-4980-4f96-b51b-096bbf0dad3d"
+      "key": "da647518-a301-4532-8775-0963ac127574"
     },
     {
       "rel": "parent",
@@ -77,7 +77,7 @@
       "interval": [
         [
           "2026-02-27T00:00:00Z",
-          "2026-03-16T00:00:00Z"
+          "2026-03-17T00:00:00Z"
         ]
       ]
     }

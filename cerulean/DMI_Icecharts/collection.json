@@ -142,7 +142,7 @@
     "DMI"
   ],
   "collection_group": "C. Sea Ice",
-  "merge_assets": false,
+  "eodash:merge_assets": false,
   "title": "DMI Ice charts",
   "extent": {
     "spatial": {

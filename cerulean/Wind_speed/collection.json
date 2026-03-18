@@ -181,7 +181,7 @@
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/wind_speed.json",
-  "merge_assets": false,
+  "eodash:merge_assets": false,
   "title": "Wind speed",
   "extent": {
     "spatial": {

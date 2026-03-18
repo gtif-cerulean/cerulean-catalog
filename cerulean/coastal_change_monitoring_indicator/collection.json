@@ -191,7 +191,7 @@
     "title": "NDTI (NTU)"
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/coastal_change_monitoring_jsonform.json",
-  "merge_assets": false,
+  "eodash:merge_assets": false,
   "title": "Normalised Difference Turbidity Index",
   "extent": {
     "spatial": {
@@ -217,8 +217,8 @@
   "summaries": {
     "themes": [
       "Aquaculture",
-      "Shipping",
-      "Energy"
+      "Energy",
+      "Shipping"
     ]
   },
   "assets": {

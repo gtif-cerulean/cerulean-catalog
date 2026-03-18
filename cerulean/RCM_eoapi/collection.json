@@ -180,7 +180,7 @@
     "ESA"
   ],
   "collection_group": "B. Satellite Data",
-  "merge_assets": false,
+  "eodash:merge_assets": false,
   "title": "RCM scenes",
   "extent": {
     "spatial": {
@@ -215,7 +215,7 @@
       "interval": [
         [
           "2025-08-14T09:15:39Z",
-          "2026-03-15T23:39:36Z"
+          "2026-03-16T23:39:14Z"
         ]
       ]
     }
@@ -224,8 +224,8 @@
   "summaries": {
     "themes": [
       "Aquaculture",
-      "Shipping",
-      "Energy"
+      "Energy",
+      "Shipping"
     ]
   },
   "assets": {

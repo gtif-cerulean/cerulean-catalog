@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_static_202211--ext--bathy",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Sea floor depth - Shallow water",
       "wmts:layer": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_static_202211--ext--bathy/deptho",
       "role": [
         "data"
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:dense,range:0/150"
       },
-      "key": "c9003630-2d8a-484d-88b5-e774ba177876"
+      "key": "fce19e8c-e3d0-4727-9dfe-327ad69fce3f"
     },
     {
       "rel": "parent",
