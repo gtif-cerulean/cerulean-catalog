@@ -215,7 +215,7 @@
       "interval": [
         [
           "2025-08-14T09:15:39Z",
-          "2026-03-23T23:05:30Z"
+          "2026-03-24T23:39:05Z"
         ]
       ]
     }
@@ -223,8 +223,8 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Energy",
       "Shipping",
+      "Energy",
       "Aquaculture"
     ]
   },
