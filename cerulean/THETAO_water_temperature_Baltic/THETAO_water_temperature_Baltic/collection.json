@@ -22,7 +22,7 @@
       "wmts:dimensions": {
         "style": "cmap:thermal"
       },
-      "key": "2791fc1d-2b23-40ed-b4fc-1f85bf50f841"
+      "key": "5c89dacd-9399-4a49-b2d8-24d58f46bc5e"
     },
     {
       "rel": "parent",
@@ -76,7 +76,7 @@
       "interval": [
         [
           "2022-12-02T00:00:00Z",
-          "2026-04-04T00:00:00Z"
+          "2026-04-05T00:00:00Z"
         ]
       ]
     }
