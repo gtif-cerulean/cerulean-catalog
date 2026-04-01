@@ -13,7 +13,7 @@
     ],
     "Resources": [
         {
-            "EndPoint": "https://services.sentinel-hub.com/ogc/wms/{SH_INSTANCE_ID}",
+            "EndPoint": "https://sh.dataspace.copernicus.eu/ogc/wms/{SH_INSTANCE_ID}",
             "Name": "Sentinel Hub WMS",
             "LayerId": "S2_L2A",
             "DateTimeInterval": {
