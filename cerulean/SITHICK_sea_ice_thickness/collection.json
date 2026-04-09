@@ -204,7 +204,7 @@
       "interval": [
         [
           "2022-06-01T00:00:00Z",
-          "2026-04-17T00:00:00Z"
+          "2026-04-18T00:00:00Z"
         ]
       ]
     }
@@ -212,9 +212,9 @@
   "license": "other",
   "summaries": {
     "themes": [
+      "Aquaculture",
       "Energy",
-      "Shipping",
-      "Aquaculture"
+      "Shipping"
     ],
     "sensor": [
       "Numerical model"
