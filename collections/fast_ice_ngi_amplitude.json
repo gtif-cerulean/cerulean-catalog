@@ -1,0 +1,37 @@
+{
+    "Name": "Fast_Ice_NGI_Amplitude",
+    "Title": "Fast Ice NGI Amplitude",
+    "CollectionGroup": "B. Satellite Data",
+    "Themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+    ],
+    "Description": "Fast Ice NGI",
+    "Resources": [
+        {
+            "EndPoint": "https://eoapi.workspace.polartep-iceview.hub-otc-sc.eox.at/stac/",
+            "Name": "VEDA",
+            "Type": "tiles",
+            "CollectionId": "Fast_Ice",
+            "ColormapName": "ylorrd",
+            "Assets": [
+                "Amplitude"
+            ]
+        }
+    ],
+    "Agency": [
+        "ESA"
+    ],
+    "Colorlegend": {
+        "title": "Amplitude",
+        "range": [
+            "#000000",
+            "#ffffff"
+        ],
+        "domain": [
+            0,
+            1
+        ]
+    }
+}

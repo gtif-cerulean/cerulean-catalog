@@ -92,6 +92,7 @@
     "ZOOC_zooplankton",
     "route_optimization_indicator",
     "Sea_water_velocity",
-    "coastal_change_nrc"
+    "coastal_change_nrc",
+    "fast_ice_ngi_eoapi"
   ]
 }
