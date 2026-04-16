@@ -1,7 +1,7 @@
 {
     "Name": "Fast_Ice_NGI_EOAPI",
     "Title": "Fast Ice NGI scenes",
-    "CollectionGroup": "B. Satellite Data",
+    "CollectionGroup": "C. Sea Ice",
     "Themes": [
         "Energy",
         "Aquaculture",
@@ -15,5 +15,6 @@
     ],
     "Agency": [
         "ESA"
-    ]
+    ],
+    "Disable":["fast_ice_ngi_amplitude","fast_ice_ngi_coherence"]
 }
