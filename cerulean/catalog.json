@@ -1644,6 +1644,22 @@
       "collection_group": "A. Algorithms"
     },
     {
+      "rel": "child",
+      "href": "./Fast_Ice_NGI_EOAPI/collection.json",
+      "type": "application/json",
+      "title": "Fast Ice NGI scenes",
+      "id": "Fast_Ice_NGI_EOAPI",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "B. Satellite Data"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-cerulean.github.io/cerulean-catalog/cerulean/catalog.json",
       "type": "application/json"
