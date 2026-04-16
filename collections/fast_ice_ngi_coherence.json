@@ -1,0 +1,42 @@
+{
+    "Name": "Fast_Ice_NGI_Coherence",
+    "Title": "Fast Ice NGI Coherence",
+    "CollectionGroup": "B. Satellite Data",
+    "Themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+    ],
+    "Description": "Fast Ice NGI",
+    "Resources": [
+        {
+            "EndPoint": "https://eoapi.workspace.polartep-iceview.hub-otc-sc.eox.at/stac/",
+            "Name": "VEDA",
+            "Type": "tiles",
+            "CollectionId": "Fast_Ice",
+            "ColormapName": "spring_r",
+            "Assets": [
+                "Coherence"
+            ],
+            "Rescale": [
+                0,
+                1
+            ],
+            "NoData": "NaN"
+        }
+    ],
+    "Agency": [
+        "ESA"
+    ],
+    "Colorlegend": {
+        "title": "Coherence",
+        "range": [
+            "#FFFF00",
+            "#FF00FF"
+        ],
+        "domain": [
+            0,
+            1
+        ]
+    }
+}

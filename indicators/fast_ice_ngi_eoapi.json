@@ -1,0 +1,19 @@
+{
+    "Name": "Fast_Ice_NGI_EOAPI",
+    "Title": "Fast Ice NGI scenes",
+    "CollectionGroup": "B. Satellite Data",
+    "Themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+    ],
+    "Description": "Fast Ice NGI Data collection",
+    "Collections": [
+        "Fast_Ice_NGI_Amplitude",
+        "Fast_Ice_NGI_Coherence",
+        "Fast_Ice_NGI_Strainrate"
+    ],
+    "Agency": [
+        "ESA"
+    ]
+}
