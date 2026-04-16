@@ -12,10 +12,10 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.polartep-iceview.hub-otc-sc.eox.at/raster/collections/Fast_Ice/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=Coherence&colormap_name=spring_r&nodata=0",
+      "href": "https://eoapi.workspace.polartep-iceview.hub-otc-sc.eox.at/raster/collections/Fast_Ice/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=Coherence&colormap_name=spring_r&nodata=-99999",
       "type": "image/png",
       "title": "Fast Ice NGI Coherence",
-      "key": "8b0ad1b7-e534-4e70-8867-448f596ab060"
+      "key": "bcb0db54-071b-4eea-b401-fb91305237e2"
     },
     {
       "rel": "parent",
@@ -61,7 +61,7 @@
       "interval": [
         [
           "2017-11-01T00:00:00Z",
-          "2025-03-16T00:00:00Z"
+          "2018-02-28T00:00:00Z"
         ]
       ]
     }
