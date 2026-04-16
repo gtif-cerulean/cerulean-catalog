@@ -12,10 +12,10 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.polartep-iceview.hub-otc-sc.eox.at/raster/collections/Fast_Ice/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=Strainrate&colormap_name=ylorrd",
+      "href": "https://eoapi.workspace.polartep-iceview.hub-otc-sc.eox.at/raster/collections/Fast_Ice/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=Strainrate&colormap_name=spring_r&nodata=0",
       "type": "image/png",
       "title": "Fast Ice NGI Strainrate",
-      "key": "37b74090-8b13-4dfc-b358-310c2d071a6e"
+      "key": "662a42c2-9010-4289-ac95-65dcb0c9d196"
     },
     {
       "rel": "parent",
