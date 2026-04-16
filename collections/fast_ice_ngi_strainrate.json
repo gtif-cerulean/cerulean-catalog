@@ -14,10 +14,11 @@
             "Name": "VEDA",
             "Type": "tiles",
             "CollectionId": "Fast_Ice",
-            "ColormapName": "ylorrd",
+            "ColormapName": "spring_r",
             "Assets": [
                 "Strainrate"
-            ]
+            ],
+            "NoData": 0
         }
     ],
     "Agency": [
