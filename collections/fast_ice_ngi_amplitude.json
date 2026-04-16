@@ -22,7 +22,7 @@
                 0,
                 200
             ],
-            "NoData": -99999
+            "NoData": "NaN"
         }
     ],
     "Agency": [
