@@ -22,6 +22,9 @@
         "Aquaculture",
         "Shipping"
       ],
+      "roles": [
+        "disable"
+      ],
       "agency": [
         "ESA"
       ],
@@ -38,6 +41,9 @@
         "Energy",
         "Aquaculture",
         "Shipping"
+      ],
+      "roles": [
+        "disable"
       ],
       "agency": [
         "ESA"
@@ -179,7 +185,7 @@
   "agency": [
     "ESA"
   ],
-  "collection_group": "B. Satellite Data",
+  "collection_group": "C. Sea Ice",
   "eodash:merge_assets": false,
   "title": "Fast Ice NGI scenes",
   "extent": {
@@ -223,9 +229,9 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Shipping",
       "Energy",
-      "Aquaculture"
+      "Aquaculture",
+      "Shipping"
     ]
   },
   "assets": {
