@@ -9,9 +9,9 @@
     ],
     "Description": "Fast Ice NGI Data collection",
     "Collections": [
-        "Fast_Ice_NGI_Amplitude",
-        "Fast_Ice_NGI_Coherence",
-        "Fast_Ice_NGI_Strainrate"
+        "fast_ice_ngi_amplitude",
+        "fast_ice_ngi_coherence",
+        "fast_ice_ngi_strainrate"
     ],
     "Agency": [
         "ESA"
