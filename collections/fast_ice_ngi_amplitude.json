@@ -18,6 +18,10 @@
             "Assets": [
                 "Amplitude"
             ],
+            "Rescale": [
+                0,
+                1
+            ],
             "NoData": -99999
         }
     ],
