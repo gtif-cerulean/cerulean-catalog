@@ -16,7 +16,7 @@
             "CollectionId": "Fast_Ice",
             "ColormapName": "spring_r",
             "Assets": [
-                "Strainrate"
+                "StrainRate"
             ],
             "Rescale": [
                 0,
