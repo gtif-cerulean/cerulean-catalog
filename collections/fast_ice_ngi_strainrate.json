@@ -18,7 +18,7 @@
             "Assets": [
                 "Strainrate"
             ],
-            "NoData": 0
+            "NoData": -99999
         }
     ],
     "Agency": [
