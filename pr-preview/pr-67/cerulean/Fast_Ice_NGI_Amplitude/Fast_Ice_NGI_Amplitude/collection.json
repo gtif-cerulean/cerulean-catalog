@@ -12,10 +12,10 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.polartep-iceview.hub-otc-sc.eox.at/raster/collections/Fast_Ice/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=Amplitude&colormap_name=spring_r&nodata=-99999&rescale=0,1",
+      "href": "https://eoapi.workspace.polartep-iceview.hub-otc-sc.eox.at/raster/collections/Fast_Ice/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=Amplitude&colormap_name=spring_r&nodata=-99999&rescale=0,200",
       "type": "image/png",
       "title": "Fast Ice NGI Amplitude",
-      "key": "29cb104a-b0c8-47db-8890-f35ba96005f1"
+      "key": "90d1fe28-8230-412d-953c-0290c7417853"
     },
     {
       "rel": "parent",
@@ -36,12 +36,12 @@
   "eox:colorlegend": {
     "title": "Amplitude",
     "range": [
-      "#000000",
-      "#ffffff"
+      "#FFFF00",
+      "#FF00FF"
     ],
     "domain": [
       0,
-      1
+      200
     ]
   },
   "endpointtype": "VEDA_tiles",

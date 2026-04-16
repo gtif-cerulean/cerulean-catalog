@@ -12,10 +12,10 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.polartep-iceview.hub-otc-sc.eox.at/raster/collections/Fast_Ice/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=Strainrate&colormap_name=spring_r&nodata=-99999&rescale=0,1",
+      "href": "https://eoapi.workspace.polartep-iceview.hub-otc-sc.eox.at/raster/collections/Fast_Ice/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=Strainrate&colormap_name=spring_r&nodata=-99999&rescale=0,0.0001",
       "type": "image/png",
       "title": "Fast Ice NGI Strainrate",
-      "key": "33dc2f8d-5aed-4d09-b352-6b708cc286b4"
+      "key": "8c14292d-64f3-489b-a482-512351031996"
     },
     {
       "rel": "parent",
@@ -36,12 +36,12 @@
   "eox:colorlegend": {
     "title": "Strainrate",
     "range": [
-      "#000000",
-      "#ffffff"
+      "#FFFF00",
+      "#FF00FF"
     ],
     "domain": [
       0,
-      1
+      0.0001
     ]
   },
   "endpointtype": "VEDA_tiles",

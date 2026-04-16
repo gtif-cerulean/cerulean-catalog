@@ -149,8 +149,8 @@
   "eox:colorlegend": {
     "title": "Coherence",
     "range": [
-      "#000000",
-      "#ffffff"
+      "#FFFF00",
+      "#FF00FF"
     ],
     "domain": [
       0,
@@ -189,8 +189,8 @@
   "summaries": {
     "themes": [
       "Energy",
-      "Aquaculture",
-      "Shipping"
+      "Shipping",
+      "Aquaculture"
     ]
   },
   "assets": {

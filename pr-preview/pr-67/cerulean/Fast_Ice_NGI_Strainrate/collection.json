@@ -149,12 +149,12 @@
   "eox:colorlegend": {
     "title": "Strainrate",
     "range": [
-      "#000000",
-      "#ffffff"
+      "#FFFF00",
+      "#FF00FF"
     ],
     "domain": [
       0,
-      1
+      0.0001
     ]
   },
   "eodash:merge_assets": false,
@@ -189,8 +189,8 @@
   "summaries": {
     "themes": [
       "Energy",
-      "Aquaculture",
-      "Shipping"
+      "Shipping",
+      "Aquaculture"
     ]
   },
   "assets": {
