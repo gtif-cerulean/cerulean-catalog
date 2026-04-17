@@ -5,7 +5,7 @@
     "Themes": [
         "Landfast Sea Ice"
     ],
-    "Description": "markdowns/Landfast_Ice_4.md",
+    "Description": "markdowns/Landfast_Ice.md",
     "Collections": [
         "fast_ice_ngi_amplitude",
         "fast_ice_ngi_coherence",
