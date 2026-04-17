@@ -176,6 +176,9 @@
   "themes": [
     "Shipping"
   ],
+  "agency": [
+    "DMI"
+  ],
   "collection_group": "A. Algorithms",
   "eodash:merge_assets": false,
   "title": "Sea Ice Concentration Comparison",

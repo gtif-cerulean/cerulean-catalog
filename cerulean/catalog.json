@@ -494,10 +494,6 @@
       "sensor": [
         "multiple"
       ],
-      "tags": [
-        "processing",
-        "capability"
-      ],
       "agency": [
         "TechWorks Marine"
       ],
@@ -760,6 +756,9 @@
       "id": "polaris_sentinel1",
       "themes": [
         "Shipping"
+      ],
+      "agency": [
+        "DMI"
       ],
       "collection_group": "A. Algorithms"
     },
