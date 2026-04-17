@@ -12,10 +12,10 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.polartep-iceview.hub-otc-sc.eox.at/raster/collections/Fast_Ice/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=Amplitude&colormap_name=spring_r&nodata=NaN&rescale=0,200",
+      "href": "https://eoapi.workspace.polartep-iceview.hub-otc-sc.eox.at/raster/collections/Fast_Ice/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=Amplitude&colormap_name=gray&nodata=NaN&rescale=0,200",
       "type": "image/png",
       "title": "Fast Ice NGI Amplitude",
-      "key": "c8376f80-89cb-4d41-a5e4-4a7158164e83"
+      "key": "feb6269f-645c-4764-875a-41437577a682"
     },
     {
       "rel": "parent",
