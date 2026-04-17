@@ -31,8 +31,8 @@
     "Colorlegend": {
         "title": "Amplitude",
         "range": [
-            "#FFFF00",
-            "#FF00FF"
+      "#000000",
+      "#ffffff"
         ],
         "domain": [
             0,
