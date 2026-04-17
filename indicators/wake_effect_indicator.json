@@ -4,21 +4,10 @@
     "Description": "markdowns/Wind_Turbine_Wake_Effect.md",
     "CollectionGroup": "A. Algorithms",
     "Themes": [
-        "Shipping",
-        "Energy"
-    ],
-    "Tags": [
-        "processing",
-        "capability"
-    ],
-    "Satellite": [
-        "multiple"
-    ],
-    "Sensor": [
-        "multiple"
+       "Energy"
     ],
     "Agency": [
-        "ESA"
+        "TechWorks Marine"
     ],
     "Collections": [
         "wake_effect"

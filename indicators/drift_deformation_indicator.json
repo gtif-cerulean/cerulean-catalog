@@ -2,8 +2,11 @@
   "Name": "Drift_Deformation",
   "Title": "Sea Ice Drift and Deformation",
   "Description": "markdowns/Sea_Ice_Drift_and_Deformation.md",
-  "Themes": ["Shipping", "Aquaculture", "Energy"],
+  "Themes": ["Shipping"],
   "CollectionGroup": "A. Algorithms",
+  "Agency": [
+        "C-CORE"
+    ],
   "Collections": ["SHS1_sentinel1_ew_hh"],
   "Process": {
     "Name": "drift_deformation",

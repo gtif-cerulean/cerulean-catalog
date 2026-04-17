@@ -4,21 +4,10 @@
   "Description": "markdowns/Normalised_Difference_Turbidity_Index.md",
   "CollectionGroup": "A. Algorithms",
   "Themes": [
-    "Shipping",
     "Energy"
   ],
-  "Tags": [
-    "processing",
-    "capability"
-  ],
-  "Satellite": [
-    "multiple"
-  ],
-  "Sensor": [
-    "multiple"
-  ],
   "Agency": [
-    "ESA"
+    "TechWorks Marine"
   ],
   "Colorlegend": {
     "domain": [

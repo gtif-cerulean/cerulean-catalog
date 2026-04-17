@@ -1,20 +1,21 @@
 {
     "Name": "Fast_Ice_NGI_EOAPI",
-    "Title": "Fast Ice NGI scenes",
+    "Title": "Landfast Sea Ice Motion",
     "CollectionGroup": "C. Sea Ice",
     "Themes": [
-        "Energy",
-        "Aquaculture",
-        "Shipping"
+        "Landfast Sea Ice"
     ],
-    "Description": "Fast Ice NGI Data collection",
+    "Description": "markdowns/Landfast_Ice_4.md",
     "Collections": [
         "fast_ice_ngi_amplitude",
         "fast_ice_ngi_coherence",
         "fast_ice_ngi_strainrate"
     ],
     "Agency": [
-        "ESA"
+        "Norwegian Geotechnical Institute (NGI)"
     ],
-    "Disable":["fast_ice_ngi_amplitude","fast_ice_ngi_coherence"]
+    "Citation": {
+    "DOI": "10.5194/tc-13-557-2019"
+    },
+  "Disable":["fast_ice_ngi_amplitude","fast_ice_ngi_coherence"]
 }

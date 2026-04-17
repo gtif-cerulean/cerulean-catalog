@@ -1,24 +1,13 @@
 {
     "Name": "route_optimization_indicator",
     "Title": "Route Optimization",
-    "Description": "",
+    "Description": "The International Maritime Organization has adopted the Carbon Intensity Indicator (CII) regulation to promote decarbonization of shipping operations. The CII regulation includes specific treatment for vessels sailing in ice, which allows the time spent in ice, and the associated emissions and transport work, to be excluded from the reported annual CII. This algorithm integrates the CII regulation into a route optimization tool for vessels in ice. The approach decomposes the regulation from evaluating an annual CII value to monitoring an instantaneous CII value over a unit distance. A ship performance model is used to estimate resistance, powering, and fuel consumption. A graph-based pathfinding method is applied to find optimal routes and speeds for the vessel. The Polar Operational Limit Assessment Risk Indexing System (POLARIS, see the POLARIS algorithm) is applied to promote safe operations in ice. The goal is to optimize multiple objectives: distance travelled, voyage time, and fuel consumption. The constraints are that the operations must adhere to POLARIS and CII regulations. The solution is a proposed route with waypoints and directions from A to B, and the suggested speeds along the path.",
     "CollectionGroup": "A. Algorithms",
     "Themes": [
-        "Shipping",
-        "Energy"
-    ],
-    "Tags": [
-        "processing",
-        "capability"
-    ],
-    "Satellite": [
-        "multiple"
-    ],
-    "Sensor": [
-        "multiple"
+        "Shipping"
     ],
     "Agency": [
-        "ESA"
+        "Tien Tran, Memorial University"
     ],
     "Collections": [
         "route_optimization"
