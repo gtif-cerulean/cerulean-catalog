@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "Fast_Ice_NGI_EOAPI",
   "stac_version": "1.1.0",
-  "description": "markdowns/Landfast_Ice.md",
+  "description": "**Motivation**\r\n\r\nSeasonal landfast sea ice is an integral part many Arctic coastal marine ecosystems. The ice serves as a climate regulator, habitat for marine mammals and a platform for transportation.\r\n\r\nSynthetic Aperture Radar (SAR) enables mapping of coastal sea ice over large areas, and the use of SAR Interferometry (InSAR) can be used to discriminate landfast and temporarily stationary drifting ice.\r\n\r\nInSAR can also map the dynamic nature of the ice and its changes on seasonal to decadal timescales.\r\n\r\n**Deriving strain from InSAR**\r\n\r\nInSAR processing detects phase changes between SAR images, revealing relative ice motion along the line of sight. This 1D motion field helps estimate minimum possible strain over a 12-day interval.\r\n\r\nActual strain may be higher if ice motion occurs outside the line of sight or if elastic rebound occurs between acquisitions. Still, InSAR provides valuable insight into spatial variability in stability and can help identify grounded or bottom-fast ice.\r\n\r\nLimitations include low coherence and data loss during temperature fluctuations or melt onset. In such cases complementary methods are recommended to maintain data continuity.\r\n\r\n**Funding**\r\n\r\nThe algorithm development has been funded by four organizations:\r\n\r\n- ESA Arctic Phi-lab\r\n- Svalbard Integrated Arctic Observing System\r\n- Svalbard Environmental Protection Fund\r\n- Norwegian Research Council",
   "links": [
     {
       "rel": "root",
@@ -228,8 +228,8 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Energy",
       "Shipping",
+      "Energy",
       "Aquaculture"
     ]
   },
