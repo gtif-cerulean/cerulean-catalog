@@ -15,7 +15,7 @@
       "href": "https://eoapi.workspace.polartep-iceview.hub-otc-sc.eox.at/raster/collections/Fast_Ice/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=Amplitude&colormap_name=gray&nodata=NaN&rescale=0,80",
       "type": "image/png",
       "title": "Fast Ice NGI Amplitude",
-      "key": "4cd5059f-ab8f-487c-ae67-c81f89a2aff4"
+      "key": "ede0f663-ce72-4ad9-9d02-13e0eba8378c"
     },
     {
       "rel": "parent",

@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "Fast_Ice_NGI_EOAPI",
   "stac_version": "1.1.0",
-  "description": "markdowns/Landfast_Ice_4.md",
+  "description": "markdowns/Landfast_Ice.md",
   "links": [
     {
       "rel": "root",
@@ -229,8 +229,8 @@
   "summaries": {
     "themes": [
       "Energy",
-      "Aquaculture",
-      "Shipping"
+      "Shipping",
+      "Aquaculture"
     ]
   },
   "assets": {
