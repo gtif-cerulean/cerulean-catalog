@@ -14,7 +14,7 @@
             "Name": "VEDA",
             "Type": "tiles",
             "CollectionId": "Fast_Ice",
-            "ColormapName": "spring_r",
+            "ColormapName": "gray",
             "Assets": [
                 "Amplitude"
             ],
