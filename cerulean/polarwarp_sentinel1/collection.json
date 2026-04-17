@@ -169,6 +169,9 @@
   "themes": [
     "Shipping"
   ],
+  "agency": [
+    "Drift+Noise"
+  ],
   "collection_group": "A. Algorithms",
   "eodash:mapProjection": {
     "name": "EPSG:3413",
@@ -204,7 +207,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2026-04-17T13:52:56.334798Z"
+          "2026-04-17T13:59:09.572907Z"
         ]
       ]
     }
@@ -212,9 +215,9 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Shipping",
+      "Energy",
       "Aquaculture",
-      "Energy"
+      "Shipping"
     ]
   },
   "assets": {

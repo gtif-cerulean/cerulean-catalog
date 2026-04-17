@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "polaris_sentinel1",
   "stac_version": "1.1.0",
-  "description": "",
+  "description": "Provides the AI: Sea Ice Concentration, Sentinel 1EW HH, and DMI Ice Charts together so that they can be compared.",
   "links": [
     {
       "rel": "root",
@@ -220,9 +220,9 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Shipping",
+      "Energy",
       "Aquaculture",
-      "Energy"
+      "Shipping"
     ]
   },
   "assets": {

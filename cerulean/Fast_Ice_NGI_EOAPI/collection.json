@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "Fast_Ice_NGI_EOAPI",
   "stac_version": "1.1.0",
-  "description": "Fast Ice NGI Data collection",
+  "description": "markdowns/Landfast_Ice_4.md",
   "links": [
     {
       "rel": "root",
@@ -177,17 +177,16 @@
       "title": "Cerulean GTIF project catalog"
     }
   ],
+  "sci:doi": "10.5194/tc-13-557-2019",
   "themes": [
-    "Energy",
-    "Aquaculture",
-    "Shipping"
+    "Landfast Sea Ice"
   ],
   "agency": [
-    "ESA"
+    "Norwegian Geotechnical Institute (NGI)"
   ],
   "collection_group": "C. Sea Ice",
   "eodash:merge_assets": false,
-  "title": "Fast Ice NGI scenes",
+  "title": "Landfast Sea Ice Motion",
   "extent": {
     "spatial": {
       "bbox": [
@@ -229,9 +228,9 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Shipping",
+      "Energy",
       "Aquaculture",
-      "Energy"
+      "Shipping"
     ]
   },
   "assets": {

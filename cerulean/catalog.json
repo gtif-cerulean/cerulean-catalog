@@ -74,21 +74,10 @@
       "title": "Normalised Difference Turbidity Index",
       "id": "coastal_change_monitoring_indicator",
       "themes": [
-        "Shipping",
         "Energy"
       ],
-      "tags": [
-        "processing",
-        "capability"
-      ],
-      "satellite": [
-        "multiple"
-      ],
-      "sensor": [
-        "multiple"
-      ],
       "agency": [
-        "ESA"
+        "TechWorks Marine"
       ],
       "collection_group": "A. Algorithms"
     },
@@ -316,9 +305,10 @@
       "title": "Sea Ice Drift and Deformation",
       "id": "Drift_Deformation",
       "themes": [
-        "Shipping",
-        "Aquaculture",
-        "Energy"
+        "Shipping"
+      ],
+      "agency": [
+        "C-CORE"
       ],
       "collection_group": "A. Algorithms"
     },
@@ -509,7 +499,7 @@
         "capability"
       ],
       "agency": [
-        "ESA"
+        "TechWorks Marine"
       ],
       "collection_group": "A. Algorithms"
     },
@@ -752,6 +742,9 @@
       "id": "polarwarp_sentinel1",
       "themes": [
         "Shipping"
+      ],
+      "agency": [
+        "Drift+Noise"
       ],
       "collection_group": "A. Algorithms",
       "eodash:mapProjection": {
@@ -1488,7 +1481,6 @@
       "title": "Wind Turbine Wake Effect",
       "id": "wake_effect_indicator",
       "themes": [
-        "Shipping",
         "Energy"
       ],
       "satellite": [
@@ -1497,12 +1489,8 @@
       "sensor": [
         "multiple"
       ],
-      "tags": [
-        "processing",
-        "capability"
-      ],
       "agency": [
-        "ESA"
+        "TechWorks Marine"
       ],
       "collection_group": "A. Algorithms"
     },
@@ -1593,21 +1581,13 @@
       "title": "Route Optimization",
       "id": "route_optimization_indicator",
       "themes": [
-        "Shipping",
-        "Energy"
+        "Shipping"
       ],
       "sensor": [
-        "multiple"
-      ],
-      "tags": [
-        "processing",
-        "capability"
-      ],
-      "satellite": [
-        "multiple"
+        "Algorithm"
       ],
       "agency": [
-        "ESA"
+        "Tien Tran, Memorial University"
       ],
       "collection_group": "A. Algorithms"
     },
@@ -1647,15 +1627,13 @@
       "rel": "child",
       "href": "./Fast_Ice_NGI_EOAPI/collection.json",
       "type": "application/json",
-      "title": "Fast Ice NGI scenes",
+      "title": "Landfast Sea Ice Motion",
       "id": "Fast_Ice_NGI_EOAPI",
       "themes": [
-        "Energy",
-        "Aquaculture",
-        "Shipping"
+        "Landfast Sea Ice"
       ],
       "agency": [
-        "ESA"
+        "Norwegian Geotechnical Institute (NGI)"
       ],
       "collection_group": "C. Sea Ice"
     },

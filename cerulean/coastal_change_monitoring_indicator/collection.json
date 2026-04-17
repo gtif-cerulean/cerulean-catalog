@@ -148,21 +148,10 @@
     }
   ],
   "themes": [
-    "Shipping",
     "Energy"
   ],
-  "tags": [
-    "processing",
-    "capability"
-  ],
-  "satellite": [
-    "multiple"
-  ],
-  "sensor": [
-    "multiple"
-  ],
   "agency": [
-    "ESA"
+    "TechWorks Marine"
   ],
   "collection_group": "A. Algorithms",
   "eox:colorlegend": {
@@ -216,9 +205,9 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Shipping",
+      "Energy",
       "Aquaculture",
-      "Energy"
+      "Shipping"
     ]
   },
   "assets": {
