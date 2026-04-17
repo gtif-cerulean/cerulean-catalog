@@ -31,8 +31,8 @@
     "Colorlegend": {
         "title": "Coherence",
         "range": [
-            "#FFFF00",
-            "#FF00FF"
+            "#440154",
+            "#fde725"
         ],
         "domain": [
             0,
