@@ -29,7 +29,7 @@
         "ESA"
     ],
     "Colorlegend": {
-        "title": "Strainrate",
+        "title": "Strainrate × 10⁻⁶",
         "range": [
             "#FFFF00",
             "#FF00FF"
