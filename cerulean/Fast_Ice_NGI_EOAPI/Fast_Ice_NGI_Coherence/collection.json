@@ -15,7 +15,7 @@
       "href": "https://eoapi.workspace.polartep-iceview.hub-otc-sc.eox.at/raster/collections/Fast_Ice/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=Coherence&colormap_name=viridis&nodata=NaN&rescale=0,1",
       "type": "image/png",
       "title": "Fast Ice NGI Coherence",
-      "key": "d0abf07b-3002-4a1a-8683-0624601e25dc"
+      "key": "41dd73d2-91da-43db-bfaf-2c18381e7602"
     },
     {
       "rel": "parent",
