@@ -204,7 +204,7 @@
       "interval": [
         [
           "2025-10-31T23:45:00Z",
-          "2026-04-20T02:55:00Z"
+          "2026-04-22T07:28:00Z"
         ]
       ]
     }
@@ -213,8 +213,8 @@
   "summaries": {
     "themes": [
       "Aquaculture",
-      "Shipping",
-      "Energy"
+      "Energy",
+      "Shipping"
     ],
     "sensor": [
       "Satellite RCM"
