@@ -15,7 +15,7 @@
       "href": "https://eoapi.workspace.cif.hub-otc.eox.at/raster/collections/RCM/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=HH&assets=HV&colormap_name=magma&rescale=0,20&expression=HH_b1/HV_b1",
       "type": "image/png",
       "title": "RCM scenes rendering HH/HV",
-      "key": "15d2a66c-8531-4beb-88f6-be1e3d21e4b5"
+      "key": "777d5446-e5e4-4e25-9255-5ee5fa001159"
     },
     {
       "rel": "parent",
@@ -56,7 +56,7 @@
         [
           -122.35463340633562,
           -80.55667822824233,
-          -15.711872074617805,
+          -13.807054847991763,
           82.8059697623318
         ]
       ]
@@ -65,7 +65,7 @@
       "interval": [
         [
           "2025-08-14T09:15:39Z",
-          "2026-04-20T23:07:54Z"
+          "2026-04-21T23:13:10Z"
         ]
       ]
     }
