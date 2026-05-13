@@ -12,10 +12,10 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.cif.hub-otc.eox.at/raster/collections/RCM/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=HH&colormap_name=gray&rescale=0,0.5",
+      "href": "https://eoapi.workspace.cif.hub-otc.eox.at/raster/collections/RCM/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=HH&colormap_name=gray&rescale=0,0.2",
       "type": "image/png",
       "title": "RCM scenes HH",
-      "key": "86804abd-cc22-4ed2-a5ef-c04af8d3c6c5"
+      "key": "30605a97-7ad7-4ae0-acd2-556ab494980d"
     },
     {
       "rel": "parent",
@@ -41,7 +41,7 @@
     ],
     "domain": [
       0,
-      0.5
+      0.2
     ]
   },
   "endpointtype": "VEDA_tiles",
