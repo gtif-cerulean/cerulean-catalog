@@ -17,7 +17,7 @@
       "ColormapName": "gray",
       "Rescale": [
         0,
-        0.5
+        0.2
       ],
       "Assets": [
         "HH"
@@ -35,7 +35,7 @@
     ],
     "domain": [
       0,
-      0.5
+      0.2
     ]
   }
 }
