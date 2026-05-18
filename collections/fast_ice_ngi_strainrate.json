@@ -29,7 +29,7 @@
         "ESA"
     ],
     "Colorlegend": {
-        "title": "Strainrate × 10⁻⁶",
+        "title": "Apparent look-directional average strain rate (in mm/km/day)",
         "range": [
             "#FFFF00",
             "#FF00FF"
