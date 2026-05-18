@@ -15,7 +15,7 @@
       "href": "https://eoapi.workspace.polartep-iceview.hub-otc-sc.eox.at/raster/collections/Fast_Ice/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=StrainRate&colormap_name=spring_r&nodata=NaN&rescale=0,0.0001",
       "type": "image/png",
       "title": "Fast Ice NGI Strainrate",
-      "key": "d7c988a9-f4ab-4761-981c-5b8cf5b39578"
+      "key": "32990152-68a4-4e83-8264-975ebd86aff6"
     },
     {
       "rel": "parent",
@@ -34,7 +34,7 @@
   ],
   "collection_group": "B. Satellite Data",
   "eox:colorlegend": {
-    "title": "Strainrate × 10⁻⁶",
+    "title": "Apparent look-directional average strain rate (in mm/km/day)",
     "range": [
       "#FFFF00",
       "#FF00FF"
