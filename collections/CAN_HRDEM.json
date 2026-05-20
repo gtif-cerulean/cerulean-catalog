@@ -23,6 +23,7 @@
     {
       "EndPoint": "https://datacube.services.geo.ca/wrapper/ogc/elevation-hrdem-mosaic",
       "Name": "Natural Resources Canada WMS",
+      "Type": "WMTSCapabilities",
       "LayerId": "dtm",
       "OverwriteBBox": [
         -157.7323,
