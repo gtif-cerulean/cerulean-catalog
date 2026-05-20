@@ -1608,22 +1608,6 @@
     },
     {
       "rel": "child",
-      "href": "./coastal_change_nrc/collection.json",
-      "type": "application/json",
-      "title": "Coastal Change Detection",
-      "id": "coastal_change_nrc",
-      "themes": [
-        "Shipping",
-        "Aquaculture",
-        "Energy"
-      ],
-      "agency": [
-        "NRC"
-      ],
-      "collection_group": "A. Algorithms"
-    },
-    {
-      "rel": "child",
       "href": "./Fast_Ice_NGI_EOAPI/collection.json",
       "type": "application/json",
       "title": "Landfast Sea Ice Motion",
