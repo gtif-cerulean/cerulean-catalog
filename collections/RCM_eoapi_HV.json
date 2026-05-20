@@ -30,8 +30,8 @@
   "Colorlegend": {
     "title": "HV sigma0",
     "range": [
-      "#ffffff",
       "#000000",
+      "#ffffff"
     ],
     "domain": [
       0,
