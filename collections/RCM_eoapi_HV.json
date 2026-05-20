@@ -14,10 +14,10 @@
       "Name": "VEDA",
       "Type": "tiles",
       "CollectionId": "RCM",
-      "ColormapName": "gray_r",
+      "ColormapName": "gray",
       "Rescale": [
         0,
-        0.03
+        0.005
       ],
       "Assets": [
         "HV"
@@ -35,7 +35,7 @@
     ],
     "domain": [
       0,
-      0.03
+      0.005
     ]
   }
 }
