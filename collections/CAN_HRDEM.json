@@ -25,6 +25,9 @@
       "EndPoint": "https://datacube.services.geo.ca/wrapper/ogc/elevation-hrdem-mosaic",
       "LayerId": "dtm",
       "Version": "1.3.0",
+      "Times": [
+        "2025-01-01"
+      ],
       "OverwriteBBox": [
         -157.7323,
         33.6654,
