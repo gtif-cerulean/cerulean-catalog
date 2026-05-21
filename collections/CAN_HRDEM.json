@@ -1,0 +1,39 @@
+{
+  "Name": "CAN_HRDEM",
+  "Title": "High Resolution Digital Elevation Model (HRDEM) Mosaic",
+  "Description": "Natural Resources Canada OGC Web Map Service (WMS) for the High Resolution Digital Elevation Model (HRDEM) Mosaic. The HRDEM Mosaic is a continuous elevation product covering the Canadian landmass. It is derived from the High Resolution Digital Elevation Model (HRDEM) data which is produced from airborne LiDAR data.",
+  "Themes": [
+    "Energy",
+    "Aquaculture",
+    "Shipping"
+  ],
+  "CollectionGroup": "J. Bathymetry",
+  "DataSource": {
+    "Spaceborne": {
+      "Sensor": "Airborne LiDAR"
+    },
+    "Other": [
+      "Frequency: Static"
+    ]
+  },
+  "Agency": [
+    "Natural Resources Canada"
+  ],
+  "Resources": [
+    {
+      "Name": "WMS",
+      "EndPoint": "https://datacube.services.geo.ca/wrapper/ogc/elevation-hrdem-mosaic",
+      "LayerId": "dtm",
+      "Version": "1.3.0",
+      "Times": [
+        "2025-01-01"
+      ],
+      "OverwriteBBox": [
+        -157.7323,
+        33.6654,
+        -26.6969,
+        76.4949
+      ]
+    }
+  ]
+}
