@@ -1621,6 +1621,26 @@
       "collection_group": "C. Sea Ice"
     },
     {
+      "rel": "child",
+      "href": "./CAN_HRDEM/collection.json",
+      "type": "application/json",
+      "title": "High Resolution Digital Elevation Model (HRDEM) Mosaic",
+      "id": "CAN_HRDEM",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "sensor": "Airborne LiDAR",
+      "agency": [
+        "Natural Resources Canada"
+      ],
+      "collection_group": "J. Bathymetry",
+      "otherSources": [
+        "Frequency: Static"
+      ]
+    },
+    {
       "rel": "self",
       "href": "https://gtif-cerulean.github.io/cerulean-catalog/cerulean/catalog.json",
       "type": "application/json"
