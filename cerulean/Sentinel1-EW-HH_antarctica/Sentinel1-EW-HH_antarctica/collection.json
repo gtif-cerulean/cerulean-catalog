@@ -12,7 +12,7 @@
     },
     {
       "rel": "wms",
-      "href": "https://sh.dataspace.copernicus.eu/ogc/wms/ce48ad62-7968-43f2-9008-848c7660f831",
+      "href": "https://sh.dataspace.copernicus.eu/ogc/wms/c06e4b09-215b-4c91-b208-bbe2c037b863",
       "type": "image/png",
       "title": "Sentinel 1 EW HH Antarctica",
       "wms:layers": [
@@ -83,7 +83,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2026-06-17T00:00:00Z"
+          "2026-06-18T00:00:00Z"
         ]
       ]
     }
