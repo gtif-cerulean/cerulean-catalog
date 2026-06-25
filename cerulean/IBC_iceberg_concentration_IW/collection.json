@@ -204,7 +204,7 @@
       "interval": [
         [
           "2023-11-25T10:01:00Z",
-          "2026-06-23T10:21:00Z"
+          "2026-06-24T10:54:59Z"
         ]
       ]
     }
@@ -212,8 +212,8 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Energy",
       "Aquaculture",
+      "Energy",
       "Shipping"
     ],
     "sensor": [
