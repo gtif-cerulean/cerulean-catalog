@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:algae"
       },
-      "key": "077e6821-9d5b-4b2d-9ef7-7b3e0cef5ba7"
+      "key": "593fdfbd-b7cd-49e8-b917-8a53b2db0a59"
     },
     {
       "rel": "parent",
@@ -76,8 +76,8 @@
     "temporal": {
       "interval": [
         [
-          "2026-06-12T00:00:00Z",
-          "2026-06-30T00:00:00Z"
+          "2026-06-17T00:00:00Z",
+          "2026-07-01T00:00:00Z"
         ]
       ]
     }
