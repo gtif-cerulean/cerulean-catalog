@@ -16,6 +16,7 @@
             "EndPoint": "https://sh.dataspace.copernicus.eu/ogc/wms/{SH_INSTANCE_ID}",
             "Name": "Sentinel Hub WMS",
             "LayerId": "S2_L2A",
+            "TileSize": 1024,
             "DateTimeInterval": {
                 "Start": "2022-01-01T00:00:00Z",
                 "End": "today"
