@@ -33,6 +33,7 @@
       "#000000",
       "#ffffff"
     ],
+    "tickFormat": ".3f",
     "domain": [
       0,
       0.005
