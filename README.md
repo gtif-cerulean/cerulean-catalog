@@ -7,4 +7,4 @@ https://gtif-cerulean.github.io/cerulean-catalog/cerulean/catalog.json
 
 Using STAC browser, e.g.:
 
-https://radiantearth.github.io/stac-browser/#/external/gtif-cerulean.github.io/cerulean-catalog/cerulean/catalog.json
+https://browser.moregeo.it/external/gtif-cerulean.github.io/cerulean-catalog/cerulean/catalog.json
