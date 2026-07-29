@@ -12,10 +12,10 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.cif.hub-otc.eox.at/raster/collections/RCM/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=HH&assets=HV&colormap_name=magma&rescale=0,20&expression=HH_b1/HV_b1",
+      "href": "https://eoapi.workspace.cif.hub-otc.eox.at/raster/collections/RCM/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=HH&assets=HV&colormap_name=magma&rescale=0,20&expression=b1/b2",
       "type": "image/png",
       "title": "RCM scenes rendering HH/HV",
-      "key": "e798d1cc-4149-4ab1-b26a-bbebf9030d18"
+      "key": "aa542fd4-6993-43c6-b60e-14bbc68af005"
     },
     {
       "rel": "parent",
