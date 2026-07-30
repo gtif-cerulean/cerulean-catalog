@@ -6,30 +6,18 @@
     "Aquaculture"
   ],
   "CollectionGroup": "F. Water Biology",
-     "DataSource": {
-    "Spaceborne": {"Sensor": "Satellite observations"},
+  "DataSource": {
+    "Spaceborne": {
+      "Sensor": "Satellite observations"
+    },
     "Other": [
-      "Spatial Resolution: 4 × 4 km",
+      "Spatial Resolution: 4 \u00d7 4 km",
       "Frequency: Monthly"
     ]
-  },"Agency": [
+  },
+  "Agency": [
     "ACRI "
   ],
-  "Colorlegend": {
-    "title": "Mass concentration of dinophytes expressed as chlorophyll in sea water [%]",
-    "range": [
-      "rgb(214, 249, 207)",
-      "rgb(149, 205, 137)",
-      "rgb(67, 168, 85)",
-      "rgb(9, 125, 74)",
-      "rgb(25, 80, 52)",
-      "rgb(17, 36, 20)"
-    ],
-    "domain": [
-      0,
-      200
-    ]
-  },
   "Citation": {
     "DOI": "10.48670/moi-00279"
   },
@@ -44,9 +32,9 @@
         "End": "2030-01-01T00:00:00Z"
       },
       "Dimensions": {
-        "elevation": 0,
         "style": "cmap:algae"
-      }
+      },
+      "Unit": "Mass concentration of dinophytes expressed as chlorophyll in sea water [%]"
     }
   ],
   "Process": {

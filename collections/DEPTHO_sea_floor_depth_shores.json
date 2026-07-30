@@ -1,37 +1,24 @@
 {
   "Name": "sea_floor_depth_shores",
   "Title": "Sea floor depth - Shallow water",
- "Description": "The global ocean analysis and forecast system provides 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time to provide a two-year time series sliding window. The output files are displayed with a 1/12 degree horizontal resolution.",
+  "Description": "The global ocean analysis and forecast system provides 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time to provide a two-year time series sliding window. The output files are displayed with a 1/12 degree horizontal resolution.",
   "Themes": [
     "Aquaculture",
     "Energy"
   ],
   "CollectionGroup": "J. Bathymetry",
   "DataSource": {
-    "Spaceborne": {"Sensor": ""},
+    "Spaceborne": {
+      "Sensor": ""
+    },
     "Other": [
-      "Spatial Resolution: 0.083° × 0.083°",
+      "Spatial Resolution: 0.083\u00b0 \u00d7 0.083\u00b0",
       "Frequency: Static"
     ]
   },
   "Agency": [
     "Mercator Ocean International"
   ],
-  "Colorlegend": {
-    "title": "Sea floor depth below geoid [m]",
-    "range": [
-     "rgb(230, 240, 240)",
-      "rgb(149, 197, 226)",
-      "rgb(115, 144, 227)",
-      "rgb(120, 84, 186)",
-      "rgb(103, 35, 112)",
-      "rgb(54, 14, 36)"
-    ],
-    "domain": [
-      0,
-      150
-    ]
-  },
   "Citation": {
     "DOI": "10.48670/moi-00016"
   },
@@ -42,12 +29,12 @@
       "Name": "marinedatastore",
       "LayerId": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_static_202211--ext--bathy/deptho",
       "Times": [
-          "2022"
+        "2022"
       ],
       "Dimensions": {
-        "elevation": 0,
         "style": "cmap:dense,range:0/150"
-      }
+      },
+      "Unit": "Sea floor depth below geoid [m]"
     }
   ]
 }

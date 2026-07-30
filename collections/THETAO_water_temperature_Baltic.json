@@ -6,30 +6,18 @@
     "Baltic Sea"
   ],
   "CollectionGroup": "K. Baltic Sea",
-    "DataSource": {
-    "Spaceborne": {"Sensor": "Numerical models"},
+  "DataSource": {
+    "Spaceborne": {
+      "Sensor": "Numerical models"
+    },
     "Other": [
-      "Spatial Resolution: 2 × 2 km",
+      "Spatial Resolution: 2 \u00d7 2 km",
       "Frequency: Daily "
     ]
-  },"Agency": [
+  },
+  "Agency": [
     "SMHI"
   ],
-  "Colorlegend": {
-    "title": "Sea water potential temperature [°C]",
-    "range": [
-      "rgb(3, 35, 51)",
-      "rgb(63, 51, 159)",
-      "rgb(138, 82, 140)",
-      "rgb(213, 107, 108)",
-      "rgb(251, 165, 60)",
-      "rgb(231, 250, 90)"
-    ],
-    "domain": [
-     2.8,
-      10.2
-    ]
-  },
   "Citation": {
     "DOI": "10.48670/moi-00010"
   },
@@ -46,10 +34,11 @@
       "Variable": "",
       "Dimensions": {
         "style": "cmap:thermal"
-      }
+      },
+      "Unit": "Sea water potential temperature [\u00b0C]"
     }
   ],
-    "Process": {
+  "Process": {
     "Name": "process_cmems",
     "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
     "VegaDefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/thetao.json",

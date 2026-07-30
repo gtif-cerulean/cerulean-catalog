@@ -4,33 +4,20 @@
   "Description": "The wave model multiyear product provides a hindcast for the monthly climatology of significant wave height and wave period in the Baltic Sea. The product is based on the wave model WAM cycle 4.7 and surface forcing from ECMWF's ERA5 reanalysis products.",
   "Themes": [
     "Baltic Sea"
-    ],
+  ],
   "CollectionGroup": "K. Baltic Sea",
   "DataSource": {
-    "Spaceborne": {"Sensor": "Numerical models"},
+    "Spaceborne": {
+      "Sensor": "Numerical models"
+    },
     "Other": [
-      "Spatial Resolution: 2 × 2 km",
+      "Spatial Resolution: 2 \u00d7 2 km",
       "Frequency: Monthly"
     ]
   },
   "Agency": [
     "FMI"
   ],
-  "Colorlegend": {
-    "title": "Sea surface wave significant height [m]",
-    "range": [
-      "rgb(241, 236, 236)",
-      "rgb(219, 177, 163)",
-      "rgb(201, 119, 91)",
-      "rgb(179, 55, 38)",
-      "rgb(126, 13, 41)",
-      "rgb(60, 9, 17)"
-    ],
-    "domain": [
-      0.54,
-      4.53
-    ]
-  },
   "Citation": {
     "DOI": "10.48670/moi-00014"
   },
@@ -45,9 +32,9 @@
         "End": "2030-01-01T00:00:00Z"
       },
       "Dimensions": {
-        "elevation": 0,
         "style": "cmap:amp"
-      }
+      },
+      "Unit": "Sea surface wave significant height [m]"
     }
   ],
   "Process": {

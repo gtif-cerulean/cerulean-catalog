@@ -6,30 +6,18 @@
     "Baltic Sea"
   ],
   "CollectionGroup": "K. Baltic Sea",
-    "DataSource": {
-    "Spaceborne": {"Sensor": "Numerical models"},
+  "DataSource": {
+    "Spaceborne": {
+      "Sensor": "Numerical models"
+    },
     "Other": [
-      "Spatial Resolution: 2 × 2 km",
+      "Spatial Resolution: 2 \u00d7 2 km",
       "Frequency: Daily "
     ]
-  },"Agency": [
+  },
+  "Agency": [
     "SMHI"
   ],
-  "Colorlegend": {
-    "title": "Sea ice thickness [m]",
-    "range": [
-      "rgb(3, 5, 18)",
-      "rgb(48, 46, 95)",
-      "rgb(62, 93, 168)",
-      "rgb(82, 149, 192)",
-      "rgb(140, 203, 213)",
-      "rgb(234, 252, 253)"
-    ],
-    "domain": [
-     0,
-      1.25
-    ]
-  },
   "Citation": {
     "DOI": "10.48670/moi-00010"
   },
@@ -39,12 +27,13 @@
       "Name": "marinedatastore",
       "Type": "WMTSCapabilities",
       "LayerId": "BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411/sithick",
-       "Query": {
+      "Query": {
         "Start": "2021-01-01T00:00:00Z",
         "End": "2030-01-01T00:00:00Z"
       },
       "Variable": "",
-      "Dimensions": {}
+      "Dimensions": {},
+      "Unit": "Sea ice thickness [m]"
     }
   ],
   "Process": {

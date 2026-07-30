@@ -7,30 +7,17 @@
   ],
   "CollectionGroup": "K. Baltic Sea",
   "DataSource": {
-    "Spaceborne": {"Sensor": "Satellite Observations"},
+    "Spaceborne": {
+      "Sensor": "Satellite Observations"
+    },
     "Other": [
-      "Spatial Resolution: 0.25° × 0.25°",
+      "Spatial Resolution: 0.25\u00b0 \u00d7 0.25\u00b0",
       "Frequency: Daily"
     ]
   },
   "Agency": [
     "CLS"
   ],
-  "Colorlegend": {
-    "title": "Wind speed [m/s]",
-    "range": [
-      "rgb(254, 252, 205)",
-      "rgb(216, 196, 95)",
-      "rgb(141, 161, 11)",
-      "rgb(50, 128, 30)",
-      "rgb(15, 83, 44)",
-      "rgb(23, 35, 18)"
-    ],
-    "domain": [
-      0,
-      35
-    ]
-  },
   "Citation": {
     "DOI": "10.48670/mds-00332"
   },
@@ -45,9 +32,9 @@
         "End": "2030-01-01T00:00:00Z"
       },
       "Dimensions": {
-        "elevation": 0,
         "style": "cmap:speed,vectorStyle:solidAndVector,range:0/35"
-      }
+      },
+      "Unit": "Wind speed [m/s]"
     }
   ],
   "Process": {
