@@ -92,7 +92,7 @@
           ]
         },
         "legend": {
-          "title": "1",
+          "title": "Sea ice area fraction",
           "scaleType": "continuous",
           "tickFormat": ".2f",
           "rangeProperty": "cmap",

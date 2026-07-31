@@ -20,7 +20,6 @@
         "data"
       ],
       "wmts:dimensions": {
-        "elevation": 0,
         "style": "cmap:matter"
       },
       "eodash:rasterform": {
@@ -92,7 +91,7 @@
           ]
         },
         "legend": {
-          "title": "Pa",
+          "title": "Surface CO2 [Pa]",
           "scaleType": "continuous",
           "tickFormat": ".0f",
           "rangeProperty": "cmap",

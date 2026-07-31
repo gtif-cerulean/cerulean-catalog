@@ -20,7 +20,6 @@
         "data"
       ],
       "wmts:dimensions": {
-        "elevation": 0,
         "style": "cmap:matter"
       },
       "eodash:rasterform": {
@@ -204,7 +203,7 @@
           ]
         },
         "legend": {
-          "title": "mmol m-3",
+          "title": "Mole concentration of dissolved molecular oxygen in sea water [mmol/m^3]",
           "scaleType": "continuous",
           "tickFormat": ".0f",
           "rangeProperty": "cmap",

@@ -20,7 +20,6 @@
         "data"
       ],
       "wmts:dimensions": {
-        "elevation": 0,
         "style": "cmap:dense"
       },
       "eodash:rasterform": {
@@ -204,7 +203,7 @@
           ]
         },
         "legend": {
-          "title": "mol m-3",
+          "title": "Mole concentration of dissolved inorganic carbon in sea water [mol/m^3]",
           "scaleType": "continuous",
           "tickFormat": ".2f",
           "rangeProperty": "cmap",

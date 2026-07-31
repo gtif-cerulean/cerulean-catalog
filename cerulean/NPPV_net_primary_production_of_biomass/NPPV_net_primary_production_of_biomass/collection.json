@@ -20,7 +20,6 @@
         "data"
       ],
       "wmts:dimensions": {
-        "elevation": 0,
         "style": "cmap:matter"
       },
       "eodash:rasterform": {
@@ -204,7 +203,7 @@
           ]
         },
         "legend": {
-          "title": "mg m-3 day-1",
+          "title": "Net primary production of biomass expressed as carbon per unit volume in sea water [mg/m^3/day]",
           "scaleType": "continuous",
           "tickFormat": ".0f",
           "rangeProperty": "cmap",

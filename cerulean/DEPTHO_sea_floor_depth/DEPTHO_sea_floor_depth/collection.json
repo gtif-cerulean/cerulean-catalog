@@ -20,7 +20,6 @@
         "data"
       ],
       "wmts:dimensions": {
-        "elevation": 0,
         "style": "cmap:dense"
       },
       "eodash:rasterform": {
@@ -92,7 +91,7 @@
           ]
         },
         "legend": {
-          "title": "m",
+          "title": "Sea floor depth below geoid [m]",
           "scaleType": "continuous",
           "tickFormat": ".0f",
           "rangeProperty": "cmap",

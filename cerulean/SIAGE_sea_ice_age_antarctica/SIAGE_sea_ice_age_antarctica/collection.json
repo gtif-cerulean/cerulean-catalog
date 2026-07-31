@@ -92,7 +92,7 @@
           ]
         },
         "legend": {
-          "title": "years",
+          "title": "Age of sea ice [years]",
           "scaleType": "continuous",
           "tickFormat": ".2f",
           "rangeProperty": "cmap",
