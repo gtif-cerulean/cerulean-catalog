@@ -9,30 +9,17 @@
   ],
   "CollectionGroup": "C. Sea Ice",
   "DataSource": {
-    "Spaceborne": {"Sensor": "Numerical model"},
+    "Spaceborne": {
+      "Sensor": "Numerical model"
+    },
     "Other": [
-      "Spatial Resolution: 0.083° x 0.083°",
+      "Spatial Resolution: 0.083\u00b0 x 0.083\u00b0",
       "Frequency: Daily"
     ]
   },
   "Agency": [
     "Mercator Ocean International"
   ],
-  "Colorlegend": {
-    "title": "Sea ice area fraction",
-    "range": [
-      "rgb(3, 5, 18)",
-      "rgb(48, 46, 95)",
-      "rgb(62, 93, 168)",
-      "rgb(82, 149, 192)",
-      "rgb(140, 203, 213)",
-      "rgb(234, 252, 253)"
-    ],
-    "domain": [
-      0,
-      1
-    ]
-  },
   "Citation": {
     "DOI": "10.48670/moi-00016"
   },
@@ -51,10 +38,11 @@
         "style": "cmap:ice"
       },
       "Variable": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406/siconc",
-      "CollectionId": "Test"
+      "CollectionId": "Test",
+      "Unit": "Sea ice area fraction"
     }
   ],
-      "Process": {
+  "Process": {
     "Name": "process_cmems",
     "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
     "VegaDefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/siconc.json",

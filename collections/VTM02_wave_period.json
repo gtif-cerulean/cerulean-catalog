@@ -1,7 +1,7 @@
 {
   "Name": "VTM02_wave_period",
   "Title": "Sea surface wave mean period from variance spectral density second frequency moment",
-  "Description": "The product is based on the MFWAM model, a third generation wave model that calculates the wave spectrum. i.e. the distribution of sea state energy in frequency and direction on a 1/5° irregular grid. Average wave quantities derived from this wave spectrum  are delivered on a regular 1/5° grid.  The product takes into account oceanic currents from the GLORYS12 physical ocean reanalysis and assimilates SWH observed from historical altimetry missions and directional wave spectra from Sentinel 1 SAR from 2017 onwards.",
+  "Description": "The product is based on the MFWAM model, a third generation wave model that calculates the wave spectrum. i.e. the distribution of sea state energy in frequency and direction on a 1/5\u00b0 irregular grid. Average wave quantities derived from this wave spectrum  are delivered on a regular 1/5\u00b0 grid.  The product takes into account oceanic currents from the GLORYS12 physical ocean reanalysis and assimilates SWH observed from historical altimetry missions and directional wave spectra from Sentinel 1 SAR from 2017 onwards.",
   "Themes": [
     "Aquaculture",
     "Shipping",
@@ -9,30 +9,17 @@
   ],
   "CollectionGroup": "H. Waves",
   "DataSource": {
-    "Spaceborne": {"Sensor": "Numerical models"},
+    "Spaceborne": {
+      "Sensor": "Numerical models"
+    },
     "Other": [
-      "Spatial Resolution: 0.2° × 0.2°",
+      "Spatial Resolution: 0.2\u00b0 \u00d7 0.2\u00b0",
       "Frequency: Monthly"
     ]
   },
   "Agency": [
     "Mercator Ocean International"
   ],
-  "Colorlegend": {
-    "title": "Sea surface wave mean period from variance spectral density second frequency moment [s]",
-    "range": [
-      "rgb(254, 245, 244)",
-      "rgb(181, 202, 175)",
-      "rgb(93, 167, 134)",
-      "rgb(16, 125, 121)",
-      "rgb(28, 77, 96)",
-      "rgb(20, 29, 67)"
-    ],
-    "domain": [
-      3.29,
-      7.94
-    ]
-  },
   "Citation": {
     "DOI": "10.48670/moi-00022"
   },
@@ -47,9 +34,9 @@
         "End": "2030-01-01T00:00:00Z"
       },
       "Dimensions": {
-        "elevation": 0,
         "style": "cmap:tempo"
-      }
+      },
+      "Unit": "Sea surface wave mean period from variance spectral density second frequency moment [s]"
     }
   ],
   "Process": {

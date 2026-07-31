@@ -6,30 +6,18 @@
     "Aquaculture"
   ],
   "CollectionGroup": "F. Water Biology",
-     "DataSource": {
-    "Spaceborne": {"Sensor": "Satellite observations"},
+  "DataSource": {
+    "Spaceborne": {
+      "Sensor": "Satellite observations"
+    },
     "Other": [
-      "Spatial Resolution: 4 × 4 km",
+      "Spatial Resolution: 4 \u00d7 4 km",
       "Frequency: Monthly"
     ]
-  },"Agency": [
+  },
+  "Agency": [
     "ACRI "
   ],
-  "Colorlegend": {
-    "title": "Mass concentration of prochlorophytes expressed as chlorophyll in sea water [mg/m^3]",
-    "range": [
-    "rgb(68, 1, 84)",
-    "rgb(64, 67, 135)",
-    "rgb(41, 120, 142)",
-    "rgb(34, 167, 132)",
-    "rgb(121, 209, 81)",
-    "rgb(253, 231, 36)"
-    ],
-    "domain": [
-      0.0405,
-      0.7041
-    ]
-  },
   "Citation": {
     "DOI": "10.48670/moi-00279"
   },
@@ -44,9 +32,9 @@
         "End": "2030-01-01T00:00:00Z"
       },
       "Dimensions": {
-        "elevation": 0,
         "style": "cmap:viridis"
-      }
+      },
+      "Unit": "Mass concentration of prochlorophytes expressed as chlorophyll in sea water [mg/m^3]"
     }
   ],
   "Process": {

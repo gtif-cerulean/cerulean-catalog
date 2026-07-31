@@ -9,31 +9,17 @@
   ],
   "CollectionGroup": "I. Wind",
   "DataSource": {
-    "Spaceborne": {"Sensor": "Satellite Observations"},
+    "Spaceborne": {
+      "Sensor": "Satellite Observations"
+    },
     "Other": [
-      "Spatial Resolution: 0.25° × 0.25°",
+      "Spatial Resolution: 0.25\u00b0 \u00d7 0.25\u00b0",
       "Frequency: Monthly"
     ]
   },
   "Agency": [
     "Mercator Ocean International"
   ],
-  "Colorlegend": {
-    "title": "Wind speed standard deviation of differences [m/s]",
-    "range": [
-      "rgb(68, 1, 84)",
-      "rgb(64, 67, 135)",
-      "rgb(41, 120, 142)",
-      "rgb(34, 167, 132)",
-      "rgb(121, 209, 81)",
-      "rgb(253, 231, 36)"
-
-    ],
-    "domain": [
-      0.48,
-      1.62
-    ]
-  },
   "Citation": {
     "DOI": "10.48670/moi-00181"
   },
@@ -48,9 +34,9 @@
         "End": "2030-01-01T00:00:00Z"
       },
       "Dimensions": {
-        "elevation": 0,
         "style": "cmap:viridis"
-      }
+      },
+      "Unit": "Wind speed standard deviation of differences [m/s]"
     }
   ],
   "Process": {
