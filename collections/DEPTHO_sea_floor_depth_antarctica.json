@@ -37,7 +37,6 @@
         "2017"
       ],
       "Dimensions": {
-        "elevation": 0,
         "style": "cmap:dense"
       },
       "DataProjection": 3857,
