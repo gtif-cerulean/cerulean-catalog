@@ -21,8 +21,7 @@
       "role": [
         "data"
       ],
-      "wms:version": "1.3.0",
-      "key": "5c54c395-3d10-4d56-8da3-c43302abb8eb"
+      "wms:version": "1.3.0"
     },
     {
       "rel": "parent",

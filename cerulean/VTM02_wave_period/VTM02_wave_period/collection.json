@@ -23,7 +23,85 @@
         "elevation": 0,
         "style": "cmap:tempo"
       },
-      "key": "9505ceb5-96bf-4450-ac3d-8a83d7ba3f06"
+      "eodash:rasterform": {
+        "jsonform": {
+          "type": "object",
+          "properties": {
+            "cmap": {
+              "type": "string",
+              "title": "Colormap",
+              "enum": [
+                "algae",
+                "amp",
+                "balance",
+                "cividis",
+                "cyclic",
+                "delta",
+                "dense",
+                "gray",
+                "haline",
+                "ice",
+                "inferno",
+                "magma",
+                "matter",
+                "phase",
+                "plasma",
+                "rainbow",
+                "solar",
+                "speed",
+                "tempo",
+                "thermal",
+                "viridis"
+              ],
+              "default": "tempo"
+            },
+            "vminmax": {
+              "type": "object",
+              "title": "Value Range",
+              "properties": {
+                "vmin": {
+                  "type": "number",
+                  "default": 3.29,
+                  "format": "range",
+                  "minimum": 0
+                },
+                "vmax": {
+                  "type": "number",
+                  "default": 7.94,
+                  "format": "range",
+                  "maximum": 11.91
+                }
+              },
+              "format": "minmax"
+            },
+            "style": {
+              "type": "string",
+              "template": "cmap:{{cmap}},range:{{vminmax.vmin}}/{{vminmax.vmax}}",
+              "watch": {
+                "cmap": "cmap",
+                "vminmax": "vminmax"
+              },
+              "options": {
+                "hidden": true
+              }
+            }
+          },
+          "required": [
+            "vminmax",
+            "cmap"
+          ]
+        },
+        "legend": {
+          "title": "s",
+          "scaleType": "continuous",
+          "tickFormat": ".1f",
+          "rangeProperty": "cmap",
+          "domainProperties": [
+            "vmin",
+            "vmax"
+          ]
+        }
+      }
     },
     {
       "rel": "parent",
@@ -47,21 +125,6 @@
     "Spatial Resolution: 0.2° × 0.2°",
     "Frequency: Monthly"
   ],
-  "eox:colorlegend": {
-    "title": "Sea surface wave mean period from variance spectral density second frequency moment [s]",
-    "range": [
-      "rgb(254, 245, 244)",
-      "rgb(181, 202, 175)",
-      "rgb(93, 167, 134)",
-      "rgb(16, 125, 121)",
-      "rgb(28, 77, 96)",
-      "rgb(20, 29, 67)"
-    ],
-    "domain": [
-      3.29,
-      7.94
-    ]
-  },
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Sea surface wave mean period from variance spectral density second frequency moment",
   "extent": {

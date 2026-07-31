@@ -153,21 +153,6 @@
     "Spatial Resolution: 0.083° × 0.083°",
     "Frequency: Static"
   ],
-  "eox:colorlegend": {
-    "title": "Sea floor depth below geoid [m]",
-    "range": [
-      "rgb(230, 240, 240)",
-      "rgb(149, 197, 226)",
-      "rgb(115, 144, 227)",
-      "rgb(120, 84, 186)",
-      "rgb(103, 35, 112)",
-      "rgb(54, 14, 36)"
-    ],
-    "domain": [
-      0,
-      5727
-    ]
-  },
   "eodash:merge_assets": false,
   "title": "Sea floor depth below geoid",
   "extent": {
@@ -199,8 +184,8 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Energy",
-      "Aquaculture"
+      "Aquaculture",
+      "Energy"
     ]
   },
   "assets": {

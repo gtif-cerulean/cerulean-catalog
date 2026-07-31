@@ -23,7 +23,85 @@
         "elevation": 0,
         "style": "cmap:matter"
       },
-      "key": "85a36a43-a935-494d-a593-5a528d803ea6"
+      "eodash:rasterform": {
+        "jsonform": {
+          "type": "object",
+          "properties": {
+            "cmap": {
+              "type": "string",
+              "title": "Colormap",
+              "enum": [
+                "algae",
+                "amp",
+                "balance",
+                "cividis",
+                "cyclic",
+                "delta",
+                "dense",
+                "gray",
+                "haline",
+                "ice",
+                "inferno",
+                "magma",
+                "matter",
+                "phase",
+                "plasma",
+                "rainbow",
+                "solar",
+                "speed",
+                "tempo",
+                "thermal",
+                "viridis"
+              ],
+              "default": "matter"
+            },
+            "vminmax": {
+              "type": "object",
+              "title": "Value Range",
+              "properties": {
+                "vmin": {
+                  "type": "number",
+                  "default": 27.827,
+                  "format": "range",
+                  "minimum": 0
+                },
+                "vmax": {
+                  "type": "number",
+                  "default": 49.554,
+                  "format": "range",
+                  "maximum": 74.331
+                }
+              },
+              "format": "minmax"
+            },
+            "style": {
+              "type": "string",
+              "template": "cmap:{{cmap}},range:{{vminmax.vmin}}/{{vminmax.vmax}}",
+              "watch": {
+                "cmap": "cmap",
+                "vminmax": "vminmax"
+              },
+              "options": {
+                "hidden": true
+              }
+            }
+          },
+          "required": [
+            "vminmax",
+            "cmap"
+          ]
+        },
+        "legend": {
+          "title": "Pa",
+          "scaleType": "continuous",
+          "tickFormat": ".0f",
+          "rangeProperty": "cmap",
+          "domainProperties": [
+            "vmin",
+            "vmax"
+          ]
+        }
+      }
     },
     {
       "rel": "parent",
@@ -45,21 +123,6 @@
     "Spatial Resolution: 0.25° × 0.25°",
     "Frequency: Daily"
   ],
-  "eox:colorlegend": {
-    "title": "Surface CO2 [Pa]",
-    "range": [
-      "rgb(253, 237, 176)",
-      "rgb(245, 166, 114)",
-      "rgb(226, 97, 82)",
-      "rgb(179, 46, 94)",
-      "rgb(114, 25, 95)",
-      "rgb(47, 15, 61)"
-    ],
-    "domain": [
-      28,
-      50
-    ]
-  },
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Surface partial pressure of carbon dioxide in sea water",
   "extent": {
@@ -77,7 +140,7 @@
       "interval": [
         [
           "2021-11-01T00:00:00Z",
-          "2026-08-08T00:00:00Z"
+          "2026-08-09T00:00:00Z"
         ]
       ]
     }

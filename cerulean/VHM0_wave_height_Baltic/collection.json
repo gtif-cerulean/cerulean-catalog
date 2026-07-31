@@ -160,21 +160,6 @@
     "Spatial Resolution: 2 × 2 km",
     "Frequency: Monthly"
   ],
-  "eox:colorlegend": {
-    "title": "Sea surface wave significant height [m]",
-    "range": [
-      "rgb(241, 236, 236)",
-      "rgb(219, 177, 163)",
-      "rgb(201, 119, 91)",
-      "rgb(179, 55, 38)",
-      "rgb(126, 13, 41)",
-      "rgb(60, 9, 17)"
-    ],
-    "domain": [
-      0.54,
-      4.53
-    ]
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/VHM0.json",
   "eodash:merge_assets": false,

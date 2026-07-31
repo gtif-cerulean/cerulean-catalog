@@ -164,21 +164,6 @@
     "Spatial Resolution: 0.25° × 0.25°",
     "Frequency: Monthly"
   ],
-  "eox:colorlegend": {
-    "title": "Wind speed standard deviation of differences [m/s]",
-    "range": [
-      "rgb(68, 1, 84)",
-      "rgb(64, 67, 135)",
-      "rgb(41, 120, 142)",
-      "rgb(34, 167, 132)",
-      "rgb(121, 209, 81)",
-      "rgb(253, 231, 36)"
-    ],
-    "domain": [
-      0.48,
-      1.62
-    ]
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/wind_speed_sdd.json",
   "eodash:merge_assets": false,
@@ -212,9 +197,9 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Energy",
+      "Shipping",
       "Aquaculture",
-      "Shipping"
+      "Energy"
     ],
     "sensor": [
       "Satellite Observations"

@@ -164,21 +164,6 @@
     "Spatial Resolution: 10 km x 10 km",
     "Frequency: Daily"
   ],
-  "eox:colorlegend": {
-    "title": "Number of icebergs per unit area (S1 IW) [#/100 km^2]",
-    "range": [
-      "rgb(3, 5, 18)",
-      "rgb(48, 46, 95)",
-      "rgb(62, 93, 168)",
-      "rgb(82, 149, 192)",
-      "rgb(140, 203, 213)",
-      "rgb(234, 252, 253)"
-    ],
-    "domain": [
-      0,
-      1
-    ]
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/ibc.json",
   "eodash:merge_assets": false,
@@ -204,7 +189,7 @@
       "interval": [
         [
           "2023-11-25T10:01:00Z",
-          "2026-07-29T08:39:59Z"
+          "2026-07-30T10:07:00Z"
         ]
       ]
     }
@@ -212,9 +197,9 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Energy",
+      "Shipping",
       "Aquaculture",
-      "Shipping"
+      "Energy"
     ],
     "sensor": [
       "Satellite S1 IW"

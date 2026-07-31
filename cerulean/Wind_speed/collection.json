@@ -164,21 +164,6 @@
     "Spatial Resolution: 0.25° × 0.25°",
     "Frequency: Monthly"
   ],
-  "eox:colorlegend": {
-    "title": "Wind speed [m/s]",
-    "range": [
-      "rgb(254, 252, 205)",
-      "rgb(216, 196, 95)",
-      "rgb(141, 161, 11)",
-      "rgb(50, 128, 30)",
-      "rgb(15, 83, 44)",
-      "rgb(23, 35, 18)"
-    ],
-    "domain": [
-      0,
-      24
-    ]
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/wind_speed.json",
   "eodash:merge_assets": false,
@@ -212,9 +197,9 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Energy",
+      "Shipping",
       "Aquaculture",
-      "Shipping"
+      "Energy"
     ],
     "sensor": [
       "Satellite Observations"

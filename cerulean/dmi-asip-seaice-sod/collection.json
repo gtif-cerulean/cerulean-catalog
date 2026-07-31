@@ -151,25 +151,6 @@
     "CMEMS"
   ],
   "collection_group": "C. Sea Ice",
-  "eox:colorlegend": {
-    "title": "AI: Sea Ice Stage of Development",
-    "range": [
-      "rgb(240,210,250)",
-      "rgb(155,210,0)",
-      "rgb(0,120,0)",
-      "rgb(200,0,0)",
-      "rgb(150,150,150)"
-    ],
-    "domain": [
-      "New and Young Ice (<30 cm)",
-      "Thin First Year Ice (30 cm - 70 cm)",
-      "Thick First Year Ice (>70 cm)",
-      "Multi-Year Ice",
-      "Glacier Ice"
-    ],
-    "scaleType": "categorical",
-    "markType": "circle"
-  },
   "eodash:merge_assets": false,
   "title": "AI: Sea Ice Stage of Development",
   "extent": {
@@ -193,7 +174,7 @@
       "interval": [
         [
           "2026-01-03T00:00:00Z",
-          "2026-07-29T00:00:00Z"
+          "2026-07-30T00:00:00Z"
         ]
       ]
     }
@@ -217,9 +198,9 @@
   ],
   "summaries": {
     "themes": [
-      "Energy",
+      "Shipping",
       "Aquaculture",
-      "Shipping"
+      "Energy"
     ]
   },
   "assets": {

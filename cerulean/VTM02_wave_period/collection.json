@@ -164,21 +164,6 @@
     "Spatial Resolution: 0.2° × 0.2°",
     "Frequency: Monthly"
   ],
-  "eox:colorlegend": {
-    "title": "Sea surface wave mean period from variance spectral density second frequency moment [s]",
-    "range": [
-      "rgb(254, 245, 244)",
-      "rgb(181, 202, 175)",
-      "rgb(93, 167, 134)",
-      "rgb(16, 125, 121)",
-      "rgb(28, 77, 96)",
-      "rgb(20, 29, 67)"
-    ],
-    "domain": [
-      3.29,
-      7.94
-    ]
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/VTM02.json",
   "eodash:merge_assets": false,
@@ -212,9 +197,9 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Energy",
+      "Shipping",
       "Aquaculture",
-      "Shipping"
+      "Energy"
     ],
     "sensor": [
       "Numerical models"

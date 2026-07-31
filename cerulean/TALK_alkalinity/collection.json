@@ -160,21 +160,6 @@
     "Spatial Resolution: 0.25° × 0.25°",
     "Frequency: Daily"
   ],
-  "eox:colorlegend": {
-    "title": "Sea water alkalinity expressed as mole equivalent [mol/m^3]",
-    "range": [
-      "rgb(68, 1, 84)",
-      "rgb(64, 67, 135)",
-      "rgb(41, 120, 142)",
-      "rgb(34, 167, 132)",
-      "rgb(121, 209, 81)",
-      "rgb(253, 231, 36)"
-    ],
-    "domain": [
-      2.216,
-      2.487
-    ]
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/talk.json",
   "eodash:merge_assets": false,
@@ -200,7 +185,7 @@
       "interval": [
         [
           "2021-11-01T00:00:00Z",
-          "2026-08-08T00:00:00Z"
+          "2026-08-09T00:00:00Z"
         ]
       ]
     }

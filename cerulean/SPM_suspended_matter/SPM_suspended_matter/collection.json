@@ -23,7 +23,85 @@
         "elevation": 0,
         "style": "cmap:dense"
       },
-      "key": "8d5caa43-2f65-4ad5-b08f-681bffe9ad3c"
+      "eodash:rasterform": {
+        "jsonform": {
+          "type": "object",
+          "properties": {
+            "cmap": {
+              "type": "string",
+              "title": "Colormap",
+              "enum": [
+                "algae",
+                "amp",
+                "balance",
+                "cividis",
+                "cyclic",
+                "delta",
+                "dense",
+                "gray",
+                "haline",
+                "ice",
+                "inferno",
+                "magma",
+                "matter",
+                "phase",
+                "plasma",
+                "rainbow",
+                "solar",
+                "speed",
+                "tempo",
+                "thermal",
+                "viridis"
+              ],
+              "default": "dense"
+            },
+            "vminmax": {
+              "type": "object",
+              "title": "Value Range",
+              "properties": {
+                "vmin": {
+                  "type": "number",
+                  "default": 0.258,
+                  "format": "range",
+                  "minimum": 0
+                },
+                "vmax": {
+                  "type": "number",
+                  "default": 5.073,
+                  "format": "range",
+                  "maximum": 7.61
+                }
+              },
+              "format": "minmax"
+            },
+            "style": {
+              "type": "string",
+              "template": "cmap:{{cmap}},range:{{vminmax.vmin}}/{{vminmax.vmax}}",
+              "watch": {
+                "cmap": "cmap",
+                "vminmax": "vminmax"
+              },
+              "options": {
+                "hidden": true
+              }
+            }
+          },
+          "required": [
+            "vminmax",
+            "cmap"
+          ]
+        },
+        "legend": {
+          "title": "g/m3",
+          "scaleType": "continuous",
+          "tickFormat": ".1f",
+          "rangeProperty": "cmap",
+          "domainProperties": [
+            "vmin",
+            "vmax"
+          ]
+        }
+      }
     },
     {
       "rel": "parent",
@@ -45,21 +123,6 @@
     "Spatial Resolution: 4 × 4 km",
     "Frequency: Monthly"
   ],
-  "eox:colorlegend": {
-    "title": "Mass concentration of suspended matter in sea water [g/m^3]",
-    "range": [
-      "rgb(230, 240, 240)",
-      "rgb(149, 197, 226)",
-      "rgb(115, 144, 227)",
-      "rgb(120, 84, 186)",
-      "rgb(103, 35, 112)",
-      "rgb(54, 14, 36)"
-    ],
-    "domain": [
-      0.027,
-      1.812
-    ]
-  },
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Mass concentration of suspended matter in sea water",
   "extent": {

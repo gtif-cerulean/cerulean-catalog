@@ -163,21 +163,6 @@
     "Spatial Resolution: 0.25° × 0.25°",
     "Frequency: Daily"
   ],
-  "eox:colorlegend": {
-    "title": "Mass concentration of chlorophyll a in sea water - Chemistry [mg/m^3]",
-    "range": [
-      "rgb(214, 249, 207)",
-      "rgb(149, 205, 137)",
-      "rgb(67, 168, 85)",
-      "rgb(9, 125, 74)",
-      "rgb(25, 80, 52)",
-      "rgb(17, 36, 20)"
-    ],
-    "domain": [
-      0.00283,
-      0.77506
-    ]
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/chl.json",
   "eodash:merge_assets": false,
@@ -203,7 +188,7 @@
       "interval": [
         [
           "2021-11-01T00:00:00Z",
-          "2026-08-08T00:00:00Z"
+          "2026-08-09T00:00:00Z"
         ]
       ]
     }

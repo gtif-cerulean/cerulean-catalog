@@ -23,7 +23,85 @@
         "elevation": 0,
         "style": "cmap:dense"
       },
-      "key": "694f46ac-8c01-4bc9-b2c4-866dd268ea71"
+      "eodash:rasterform": {
+        "jsonform": {
+          "type": "object",
+          "properties": {
+            "cmap": {
+              "type": "string",
+              "title": "Colormap",
+              "enum": [
+                "algae",
+                "amp",
+                "balance",
+                "cividis",
+                "cyclic",
+                "delta",
+                "dense",
+                "gray",
+                "haline",
+                "ice",
+                "inferno",
+                "magma",
+                "matter",
+                "phase",
+                "plasma",
+                "rainbow",
+                "solar",
+                "speed",
+                "tempo",
+                "thermal",
+                "viridis"
+              ],
+              "default": "dense"
+            },
+            "vminmax": {
+              "type": "object",
+              "title": "Value Range",
+              "properties": {
+                "vmin": {
+                  "type": "number",
+                  "default": 25.211,
+                  "format": "range",
+                  "minimum": 0
+                },
+                "vmax": {
+                  "type": "number",
+                  "default": 5727.917,
+                  "format": "range",
+                  "maximum": 8591.876
+                }
+              },
+              "format": "minmax"
+            },
+            "style": {
+              "type": "string",
+              "template": "cmap:{{cmap}},range:{{vminmax.vmin}}/{{vminmax.vmax}}",
+              "watch": {
+                "cmap": "cmap",
+                "vminmax": "vminmax"
+              },
+              "options": {
+                "hidden": true
+              }
+            }
+          },
+          "required": [
+            "vminmax",
+            "cmap"
+          ]
+        },
+        "legend": {
+          "title": "m",
+          "scaleType": "continuous",
+          "tickFormat": ".0f",
+          "rangeProperty": "cmap",
+          "domainProperties": [
+            "vmin",
+            "vmax"
+          ]
+        }
+      }
     },
     {
       "rel": "parent",
@@ -52,21 +130,6 @@
       -1405880.72,
       5371213.76,
       5405880.72
-    ]
-  },
-  "eox:colorlegend": {
-    "title": "Sea floor depth below geoid [m]",
-    "range": [
-      "rgb(230, 240, 240)",
-      "rgb(149, 197, 226)",
-      "rgb(115, 144, 227)",
-      "rgb(120, 84, 186)",
-      "rgb(103, 35, 112)",
-      "rgb(54, 14, 36)"
-    ],
-    "domain": [
-      0,
-      5727
     ]
   },
   "proj:epsg": 3857,

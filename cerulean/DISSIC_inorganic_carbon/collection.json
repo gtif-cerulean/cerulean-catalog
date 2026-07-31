@@ -163,21 +163,6 @@
     "Spatial Resolution: 0.25° × 0.25°",
     "Frequency: Daily"
   ],
-  "eox:colorlegend": {
-    "title": "Mole concentration of dissolved inorganic carbon in sea water [mol/m^3]",
-    "range": [
-      "rgb(230, 240, 240)",
-      "rgb(149, 197, 226)",
-      "rgb(115, 144, 227)",
-      "rgb(120, 84, 186)",
-      "rgb(103, 35, 112)",
-      "rgb(54, 14, 36)"
-    ],
-    "domain": [
-      1.9845,
-      2.4108
-    ]
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/dissic.json",
   "eodash:merge_assets": false,
@@ -203,7 +188,7 @@
       "interval": [
         [
           "2021-11-01T00:00:00Z",
-          "2026-08-08T00:00:00Z"
+          "2026-08-09T00:00:00Z"
         ]
       ]
     }

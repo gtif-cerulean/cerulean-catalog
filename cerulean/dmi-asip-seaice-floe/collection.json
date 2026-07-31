@@ -151,23 +151,6 @@
     "CMEMS"
   ],
   "collection_group": "C. Sea Ice",
-  "eox:colorlegend": {
-    "title": "AI: Sea Ice Floe Size (width)",
-    "range": [
-      "rgb(160,232,91)",
-      "rgb(145,89,222)",
-      "rgb(91,131,19)",
-      "rgb(255,125,7)"
-    ],
-    "domain": [
-      "Small (<100m)",
-      "Medium (100m-500m)",
-      "Big (500m-2km)",
-      "Giant (>2 km)"
-    ],
-    "scaleType": "categorical",
-    "markType": "circle"
-  },
   "eodash:merge_assets": false,
   "title": "AI: Sea Ice Floe Size",
   "extent": {
@@ -191,7 +174,7 @@
       "interval": [
         [
           "2026-01-03T00:00:00Z",
-          "2026-07-29T00:00:00Z"
+          "2026-07-30T00:00:00Z"
         ]
       ]
     }
@@ -215,9 +198,9 @@
   ],
   "summaries": {
     "themes": [
-      "Energy",
+      "Shipping",
       "Aquaculture",
-      "Shipping"
+      "Energy"
     ]
   },
   "assets": {

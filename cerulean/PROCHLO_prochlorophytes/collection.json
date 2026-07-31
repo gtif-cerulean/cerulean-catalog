@@ -160,21 +160,6 @@
     "Spatial Resolution: 4 × 4 km",
     "Frequency: Monthly"
   ],
-  "eox:colorlegend": {
-    "title": "Mass concentration of prochlorophytes expressed as chlorophyll in sea water [mg/m^3]",
-    "range": [
-      "rgb(68, 1, 84)",
-      "rgb(64, 67, 135)",
-      "rgb(41, 120, 142)",
-      "rgb(34, 167, 132)",
-      "rgb(121, 209, 81)",
-      "rgb(253, 231, 36)"
-    ],
-    "domain": [
-      0.0405,
-      0.7041
-    ]
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/PROCHLO.json",
   "eodash:merge_assets": false,

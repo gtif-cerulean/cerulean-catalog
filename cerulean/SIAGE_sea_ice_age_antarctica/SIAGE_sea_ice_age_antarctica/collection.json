@@ -23,7 +23,85 @@
         "elevation": 0,
         "style": "cmap:viridis"
       },
-      "key": "eecec694-c07f-484b-a7a7-868bd9f7d574"
+      "eodash:rasterform": {
+        "jsonform": {
+          "type": "object",
+          "properties": {
+            "cmap": {
+              "type": "string",
+              "title": "Colormap",
+              "enum": [
+                "algae",
+                "amp",
+                "balance",
+                "cividis",
+                "cyclic",
+                "delta",
+                "dense",
+                "gray",
+                "haline",
+                "ice",
+                "inferno",
+                "magma",
+                "matter",
+                "phase",
+                "plasma",
+                "rainbow",
+                "solar",
+                "speed",
+                "tempo",
+                "thermal",
+                "viridis"
+              ],
+              "default": "viridis"
+            },
+            "vminmax": {
+              "type": "object",
+              "title": "Value Range",
+              "properties": {
+                "vmin": {
+                  "type": "number",
+                  "default": 0.0,
+                  "format": "range",
+                  "minimum": 0
+                },
+                "vmax": {
+                  "type": "number",
+                  "default": 0.517,
+                  "format": "range",
+                  "maximum": 0.776
+                }
+              },
+              "format": "minmax"
+            },
+            "style": {
+              "type": "string",
+              "template": "cmap:{{cmap}},range:{{vminmax.vmin}}/{{vminmax.vmax}}",
+              "watch": {
+                "cmap": "cmap",
+                "vminmax": "vminmax"
+              },
+              "options": {
+                "hidden": true
+              }
+            }
+          },
+          "required": [
+            "vminmax",
+            "cmap"
+          ]
+        },
+        "legend": {
+          "title": "years",
+          "scaleType": "continuous",
+          "tickFormat": ".2f",
+          "rangeProperty": "cmap",
+          "domainProperties": [
+            "vmin",
+            "vmax"
+          ]
+        }
+      }
     },
     {
       "rel": "parent",
@@ -55,21 +133,6 @@
       5405880.72
     ]
   },
-  "eox:colorlegend": {
-    "title": "Age of sea ice [years]",
-    "range": [
-      "rgb(253, 231, 36)",
-      "rgb(121, 209, 81)",
-      "rgb(34, 167, 132)",
-      "rgb(41, 120, 142)",
-      "rgb(64, 67, 135)",
-      "rgb(68, 1, 84)"
-    ],
-    "domain": [
-      0,
-      0.52
-    ]
-  },
   "proj:epsg": 3857,
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Age of sea ice - Antarctica",
@@ -88,7 +151,7 @@
       "interval": [
         [
           "2022-06-01T00:00:00Z",
-          "2026-08-08T00:00:00Z"
+          "2026-08-09T00:00:00Z"
         ]
       ]
     }

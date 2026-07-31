@@ -23,7 +23,85 @@
         "elevation": 0,
         "style": "cmap:algae"
       },
-      "key": "7b295b76-48ac-4be7-abc1-a8f52f285476"
+      "eodash:rasterform": {
+        "jsonform": {
+          "type": "object",
+          "properties": {
+            "cmap": {
+              "type": "string",
+              "title": "Colormap",
+              "enum": [
+                "algae",
+                "amp",
+                "balance",
+                "cividis",
+                "cyclic",
+                "delta",
+                "dense",
+                "gray",
+                "haline",
+                "ice",
+                "inferno",
+                "magma",
+                "matter",
+                "phase",
+                "plasma",
+                "rainbow",
+                "solar",
+                "speed",
+                "tempo",
+                "thermal",
+                "viridis"
+              ],
+              "default": "algae"
+            },
+            "vminmax": {
+              "type": "object",
+              "title": "Value Range",
+              "properties": {
+                "vmin": {
+                  "type": "number",
+                  "default": 0.011,
+                  "format": "range",
+                  "minimum": 0
+                },
+                "vmax": {
+                  "type": "number",
+                  "default": 0.282,
+                  "format": "range",
+                  "maximum": 0.423
+                }
+              },
+              "format": "minmax"
+            },
+            "style": {
+              "type": "string",
+              "template": "cmap:{{cmap}},range:{{vminmax.vmin}}/{{vminmax.vmax}}",
+              "watch": {
+                "cmap": "cmap",
+                "vminmax": "vminmax"
+              },
+              "options": {
+                "hidden": true
+              }
+            }
+          },
+          "required": [
+            "vminmax",
+            "cmap"
+          ]
+        },
+        "legend": {
+          "title": "milligram m^-3",
+          "scaleType": "continuous",
+          "tickFormat": ".2f",
+          "rangeProperty": "cmap",
+          "domainProperties": [
+            "vmin",
+            "vmax"
+          ]
+        }
+      }
     },
     {
       "rel": "parent",
@@ -45,21 +123,6 @@
     "Spatial Resolution: 4 × 4 km",
     "Frequency: Monthly"
   ],
-  "eox:colorlegend": {
-    "title": "Mass concentration of haptophytes expressed as chlorophyll in sea water [mg/m^3]",
-    "range": [
-      "rgb(214, 249, 207)",
-      "rgb(149, 205, 137)",
-      "rgb(67, 168, 85)",
-      "rgb(9, 125, 74)",
-      "rgb(25, 80, 52)",
-      "rgb(17, 36, 20)"
-    ],
-    "domain": [
-      0.0108044,
-      0.2823557
-    ]
-  },
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Mass concentration of haptophytes expressed as chlorophyll in sea water",
   "extent": {
