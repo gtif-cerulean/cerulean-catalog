@@ -49,14 +49,14 @@
     },
     {
       "rel": "xyz",
-      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
-      "title": "EOxCloudless 2023",
+      "title": "EOxCloudless 2025",
       "roles": [
         "baselayer",
         "invisible"
       ],
-      "id": "cloudless-2023"
+      "id": "cloudless-2025"
     },
     {
       "rel": "xyz",
@@ -179,7 +179,7 @@
       "interval": [
         [
           "2022-06-01T00:00:00Z",
-          "2026-08-14T00:00:00Z"
+          "2026-08-15T00:00:00Z"
         ]
       ]
     }
