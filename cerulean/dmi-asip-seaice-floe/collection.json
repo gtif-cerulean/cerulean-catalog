@@ -174,7 +174,7 @@
       "interval": [
         [
           "2026-01-03T00:00:00Z",
-          "2026-08-14T00:00:00Z"
+          "2026-08-15T00:00:00Z"
         ]
       ]
     }
@@ -198,8 +198,8 @@
   ],
   "summaries": {
     "themes": [
-      "Energy",
       "Aquaculture",
+      "Energy",
       "Shipping"
     ]
   },
