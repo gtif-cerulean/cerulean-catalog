@@ -22,6 +22,7 @@
       "wmts:dimensions": {
         "style": "cmap:dense"
       },
+      "proj:epsg": 3857,
       "eodash:rasterform": {
         "jsonform": {
           "type": "object",
@@ -62,13 +63,15 @@
                   "type": "number",
                   "default": 25.211,
                   "format": "range",
-                  "minimum": 0
+                  "minimum": 25.211,
+                  "step": 1
                 },
                 "vmax": {
                   "type": "number",
                   "default": 5727.917,
                   "format": "range",
-                  "maximum": 8591.876
+                  "maximum": 8591.876,
+                  "step": 1
                 }
               },
               "format": "minmax"

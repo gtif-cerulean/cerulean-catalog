@@ -62,13 +62,15 @@
                   "type": "number",
                   "default": 0.005,
                   "format": "range",
-                  "minimum": 0
+                  "minimum": 0.005,
+                  "step": 0.01
                 },
                 "vmax": {
                   "type": "number",
                   "default": 0.557,
                   "format": "range",
-                  "maximum": 0.836
+                  "maximum": 0.836,
+                  "step": 0.01
                 }
               },
               "format": "minmax"

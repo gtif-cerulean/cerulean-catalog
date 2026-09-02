@@ -27,13 +27,15 @@
                   "type": "number",
                   "default": 0,
                   "format": "range",
-                  "minimum": 0
+                  "minimum": 0,
+                  "step": 1
                 },
                 "vmax": {
                   "type": "number",
                   "default": 20,
                   "format": "range",
-                  "maximum": 30.0
+                  "maximum": 30.0,
+                  "step": 1
                 }
               },
               "format": "minmax"
@@ -237,6 +239,21 @@
           ],
           "rangeProperty": "colormap_name"
         }
+      },
+      "eox:colorlegend": {
+        "title": "HH sigma0/HV sigma0",
+        "range": [
+          "#0B0724",
+          "#2C115F",
+          "#61136E",
+          "#A11A5B",
+          "#E7523C",
+          "#FCF189"
+        ],
+        "domain": [
+          0,
+          20
+        ]
       }
     },
     {
