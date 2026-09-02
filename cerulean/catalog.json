@@ -1622,23 +1622,45 @@
     },
     {
       "rel": "child",
-      "href": "./CAN_HRDEM/collection.json",
+      "href": "./Fast_Ice_NGI_BarrowPoint_EOAPI/collection.json",
       "type": "application/json",
-      "title": "High Resolution Digital Elevation Model (HRDEM) Mosaic",
-      "id": "CAN_HRDEM",
+      "title": "Landfast Sea Ice Motion Barrow Point",
+      "id": "Fast_Ice_NGI_BarrowPoint_EOAPI",
       "themes": [
-        "Energy",
-        "Aquaculture",
-        "Shipping"
+        "Landfast Sea Ice"
       ],
-      "sensor": "Airborne LiDAR",
       "agency": [
-        "Natural Resources Canada"
+        "Norwegian Geotechnical Institute (NGI)"
       ],
-      "collection_group": "J. Bathymetry",
-      "otherSources": [
-        "Frequency: Static"
-      ]
+      "collection_group": "C. Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./Fast_Ice_NGI_CaspianSea_EOAPI/collection.json",
+      "type": "application/json",
+      "title": "Landfast Sea Ice Motion Caspian Sea",
+      "id": "Fast_Ice_NGI_CaspianSea_EOAPI",
+      "themes": [
+        "Landfast Sea Ice"
+      ],
+      "agency": [
+        "Norwegian Geotechnical Institute (NGI)"
+      ],
+      "collection_group": "C. Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./Fast_Ice_NGI_GulfOfBothnia_EOAPI/collection.json",
+      "type": "application/json",
+      "title": "Landfast Sea Ice Motion Gulf of Bothnia",
+      "id": "Fast_Ice_NGI_GulfOfBothnia_EOAPI",
+      "themes": [
+        "Landfast Sea Ice"
+      ],
+      "agency": [
+        "Norwegian Geotechnical Institute (NGI)"
+      ],
+      "collection_group": "C. Sea Ice"
     },
     {
       "rel": "self",

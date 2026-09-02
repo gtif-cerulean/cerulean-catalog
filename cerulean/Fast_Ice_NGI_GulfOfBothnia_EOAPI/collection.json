@@ -1,0 +1,274 @@
+{
+  "type": "Collection",
+  "id": "Fast_Ice_NGI_GulfOfBothnia_EOAPI",
+  "stac_version": "1.1.0",
+  "description": "**Motivation**\r\n\r\nSeasonal landfast sea ice is an integral part many Arctic coastal marine ecosystems. The ice serves as a climate regulator, habitat for marine mammals and a platform for transportation.\r\n\r\nSynthetic Aperture Radar (SAR) enables mapping of coastal sea ice over large areas, and the use of SAR Interferometry (InSAR) can be used to discriminate landfast and temporarily stationary drifting ice.\r\n\r\nInSAR can also map the dynamic nature of the ice and its changes on seasonal to decadal timescales.\r\n\r\n**Deriving strain from InSAR**\r\n\r\nInSAR processing detects phase changes between SAR images, revealing relative ice motion along the line of sight. This 1D motion field helps estimate minimum possible strain over a 12-day interval.\r\n\r\nActual strain may be higher if ice motion occurs outside the line of sight or if elastic rebound occurs between acquisitions. Still, InSAR provides valuable insight into spatial variability in stability and can help identify grounded or bottom-fast ice.\r\n\r\nLimitations include low coherence and data loss during temperature fluctuations or melt onset. In such cases complementary methods are recommended to maintain data continuity.\r\n\r\n**Funding**\r\n\r\nThe algorithm development has been funded by four organizations:\r\n\r\n- ESA Arctic Phi-lab\r\n- Svalbard Integrated Arctic Observing System\r\n- Svalbard Environmental Protection Fund\r\n- Norwegian Research Council",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./Fast_Ice_NGI_GulfOfBothnia_Amplitude/collection.json",
+      "type": "application/json",
+      "title": "Fast Ice NGI Gulf Of Bothnia Amplitude",
+      "endpointtype": "VEDA_tiles",
+      "id": "Fast_Ice_NGI_GulfOfBothnia_Amplitude",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "roles": [
+        "disable"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "B. Satellite Data"
+    },
+    {
+      "rel": "child",
+      "href": "./Fast_Ice_NGI_GulfOfBothnia_Coherence/collection.json",
+      "type": "application/json",
+      "title": "Fast Ice NGI Gulf Of Bothnia Coherence",
+      "endpointtype": "VEDA_tiles",
+      "id": "Fast_Ice_NGI_GulfOfBothnia_Coherence",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "roles": [
+        "disable"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "B. Satellite Data"
+    },
+    {
+      "rel": "child",
+      "href": "./Fast_Ice_NGI_GulfOfBothnia_Strainrate/collection.json",
+      "type": "application/json",
+      "title": "Fast Ice NGI Gulf Of Bothnia Strainrate",
+      "endpointtype": "VEDA_tiles",
+      "id": "Fast_Ice_NGI_GulfOfBothnia_Strainrate",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "B. Satellite Data"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2024",
+      "attribution": "{ EOxCloudless 2024: <a href=\"https://s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"https://eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
+    },
+    {
+      "rel": "wms",
+      "href": "https://sxcat-demo.eox.at/sxcat_maps/wms",
+      "type": "image/png",
+      "title": "Terrain Light Stereographic North",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "sx-cat_ortho680500",
+      "wms:layers": "sx-cat_ortho680500",
+      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
+      "eodash:proj4_def": {
+        "name": "ORTHO:680500",
+        "def": "+proj=ortho +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+        "extent": [
+          -6422528,
+          -6422528,
+          6422528,
+          6422528
+        ]
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light",
+      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "eox-osm",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/styles/wind_energy_polygon.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "Wind_Energy_Areas"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/styles/wind_energy_polygon.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "Hudson_Strait"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/styles/wind_energy_polygon.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "Resolute_and_Grise_Fiord"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/styles/wind_energy_polygon.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "Weddell_Sea"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Cerulean GTIF project catalog"
+    }
+  ],
+  "sci:doi": "10.5194/tc-13-557-2019",
+  "themes": [
+    "Landfast Sea Ice"
+  ],
+  "agency": [
+    "Norwegian Geotechnical Institute (NGI)"
+  ],
+  "collection_group": "C. Sea Ice",
+  "eodash:merge_assets": false,
+  "title": "Landfast Sea Ice Motion Gulf of Bothnia",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          17.036835767839225,
+          62.42374612920945,
+          26.459873281585548,
+          66.17757274511419
+        ],
+        [
+          17.036835767839225,
+          62.42374612920945,
+          26.459873281585548,
+          66.17757274511419
+        ],
+        [
+          17.036835767839225,
+          62.42374612920945,
+          26.459873281585548,
+          66.17757274511419
+        ],
+        [
+          17.036835767839225,
+          62.42374612920945,
+          26.459873281585548,
+          66.17757274511419
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-11-01T00:00:00Z",
+          "2026-05-20T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "summaries": {
+    "themes": [
+      "Shipping",
+      "Energy",
+      "Aquaculture"
+    ]
+  },
+  "assets": {
+    "Wind_Energy_Areas": {
+      "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/wind_energy.geojson",
+      "type": "application/geo+json",
+      "title": "Wind Energy Areas",
+      "roles": [
+        "overlay",
+        "invisible"
+      ]
+    },
+    "Hudson_Strait": {
+      "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/RCM_AOI_1_Hudson_Strait.geojson",
+      "type": "application/geo+json",
+      "title": "Hudson Strait",
+      "roles": [
+        "overlay",
+        "invisible"
+      ]
+    },
+    "Resolute_and_Grise_Fiord": {
+      "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/RCM_AOI_2_Resolute_and_Grise_Fiord.geojson",
+      "type": "application/geo+json",
+      "title": "Resolute and Grise Fiord",
+      "roles": [
+        "overlay",
+        "invisible"
+      ]
+    },
+    "Weddell_Sea": {
+      "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/RCM_AOI_3_Peninsula_Weddell_Sea.geojson",
+      "type": "application/geo+json",
+      "title": "Weddell Sea",
+      "roles": [
+        "overlay",
+        "invisible"
+      ]
+    }
+  }
+}

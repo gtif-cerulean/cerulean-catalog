@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "CAN_HRDEM",
+  "id": "Fast_Ice_NGI_CaspianSea_EOAPI",
   "stac_version": "1.1.0",
-  "description": "Natural Resources Canada OGC Web Map Service (WMS) for the High Resolution Digital Elevation Model (HRDEM) Mosaic. The HRDEM Mosaic is a continuous elevation product covering the Canadian landmass. It is derived from the High Resolution Digital Elevation Model (HRDEM) data which is produced from airborne LiDAR data.",
+  "description": "**Motivation**\r\n\r\nSeasonal landfast sea ice is an integral part many Arctic coastal marine ecosystems. The ice serves as a climate regulator, habitat for marine mammals and a platform for transportation.\r\n\r\nSynthetic Aperture Radar (SAR) enables mapping of coastal sea ice over large areas, and the use of SAR Interferometry (InSAR) can be used to discriminate landfast and temporarily stationary drifting ice.\r\n\r\nInSAR can also map the dynamic nature of the ice and its changes on seasonal to decadal timescales.\r\n\r\n**Deriving strain from InSAR**\r\n\r\nInSAR processing detects phase changes between SAR images, revealing relative ice motion along the line of sight. This 1D motion field helps estimate minimum possible strain over a 12-day interval.\r\n\r\nActual strain may be higher if ice motion occurs outside the line of sight or if elastic rebound occurs between acquisitions. Still, InSAR provides valuable insight into spatial variability in stability and can help identify grounded or bottom-fast ice.\r\n\r\nLimitations include low coherence and data loss during temperature fluctuations or melt onset. In such cases complementary methods are recommended to maintain data continuity.\r\n\r\n**Funding**\r\n\r\nThe algorithm development has been funded by four organizations:\r\n\r\n- ESA Arctic Phi-lab\r\n- Svalbard Integrated Arctic Observing System\r\n- Svalbard Environmental Protection Fund\r\n- Norwegian Research Council",
   "links": [
     {
       "rel": "root",
@@ -12,36 +12,72 @@
     },
     {
       "rel": "child",
-      "href": "./CAN_HRDEM/collection.json",
+      "href": "./Fast_Ice_NGI_CaspianSea_Amplitude/collection.json",
       "type": "application/json",
-      "title": "High Resolution Digital Elevation Model (HRDEM) Mosaic",
-      "endpointtype": "WMS",
-      "id": "CAN_HRDEM",
+      "title": "Fast Ice NGI Caspian Sea Amplitude",
+      "endpointtype": "VEDA_tiles",
+      "id": "Fast_Ice_NGI_CaspianSea_Amplitude",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "roles": [
+        "disable"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "B. Satellite Data"
+    },
+    {
+      "rel": "child",
+      "href": "./Fast_Ice_NGI_CaspianSea_Coherence/collection.json",
+      "type": "application/json",
+      "title": "Fast Ice NGI Caspian Sea Coherence",
+      "endpointtype": "VEDA_tiles",
+      "id": "Fast_Ice_NGI_CaspianSea_Coherence",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "roles": [
+        "disable"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "B. Satellite Data"
+    },
+    {
+      "rel": "child",
+      "href": "./Fast_Ice_NGI_CaspianSea_Strainrate/collection.json",
+      "type": "application/json",
+      "title": "Fast Ice NGI Caspian Sea Strainrate",
+      "endpointtype": "VEDA_tiles",
+      "id": "Fast_Ice_NGI_CaspianSea_Strainrate",
       "themes": [
         "Energy",
         "Aquaculture",
         "Shipping"
       ],
       "agency": [
-        "Natural Resources Canada"
+        "ESA"
       ],
-      "collection_group": "J. Bathymetry",
-      "sensor": "Airborne LiDAR",
-      "otherSources": [
-        "Frequency: Static"
-      ]
+      "collection_group": "B. Satellite Data"
     },
     {
       "rel": "xyz",
-      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
-      "title": "EOxCloudless 2025",
+      "title": "EOxCloudless 2024",
       "roles": [
         "baselayer",
-        "visible"
+        "invisible"
       ],
-      "id": "cloudless-2025",
-      "attribution": "{ EOxCloudless 2025: <a href=\"https://s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"https://eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2025) }"
+      "id": "cloudless-2024",
+      "attribution": "{ EOxCloudless 2024: <a href=\"https://s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"https://eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
     },
     {
       "rel": "wms",
@@ -73,7 +109,7 @@
       "title": "Terrain light",
       "roles": [
         "baselayer",
-        "invisible"
+        "visible"
       ],
       "id": "terrain-light",
       "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
@@ -141,37 +177,50 @@
       "title": "Cerulean GTIF project catalog"
     }
   ],
+  "sci:doi": "10.5194/tc-13-557-2019",
   "themes": [
-    "Energy",
-    "Aquaculture",
-    "Shipping"
+    "Landfast Sea Ice"
   ],
   "agency": [
-    "Natural Resources Canada"
+    "Norwegian Geotechnical Institute (NGI)"
   ],
-  "collection_group": "J. Bathymetry",
-  "sensor": "Airborne LiDAR",
-  "otherSources": [
-    "Frequency: Static"
-  ],
+  "collection_group": "C. Sea Ice",
   "eodash:merge_assets": false,
-  "title": "High Resolution Digital Elevation Model (HRDEM) Mosaic",
+  "title": "Landfast Sea Ice Motion Caspian Sea",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -157.7323,
-          33.6654,
-          -26.6969,
-          76.4949
+          49.558295316951714,
+          45.06024705518212,
+          53.369110325503286,
+          47.19886242687869
+        ],
+        [
+          49.558295316951714,
+          45.06024705518212,
+          53.369110325503286,
+          47.19886242687869
+        ],
+        [
+          49.558295316951714,
+          45.06024705518212,
+          53.369110325503286,
+          47.19886242687869
+        ],
+        [
+          49.558295316951714,
+          45.06024705518212,
+          53.369110325503286,
+          47.19886242687869
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-01-01T00:00:00Z",
-          "2025-01-01T00:00:00Z"
+          "2025-11-01T00:00:00Z",
+          "2026-05-15T00:00:00Z"
         ]
       ]
     }
@@ -179,12 +228,9 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Aquaculture",
       "Shipping",
-      "Energy"
-    ],
-    "sensor": [
-      "Airborne LiDAR"
+      "Energy",
+      "Aquaculture"
     ]
   },
   "assets": {
