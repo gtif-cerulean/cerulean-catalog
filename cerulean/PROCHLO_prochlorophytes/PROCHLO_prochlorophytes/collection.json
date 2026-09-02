@@ -21,87 +21,6 @@
       ],
       "wmts:dimensions": {
         "style": "cmap:viridis"
-      },
-      "eodash:rasterform": {
-        "jsonform": {
-          "type": "object",
-          "properties": {
-            "cmap": {
-              "type": "string",
-              "title": "Colormap",
-              "enum": [
-                "algae",
-                "amp",
-                "balance",
-                "cividis",
-                "cyclic",
-                "delta",
-                "dense",
-                "gray",
-                "haline",
-                "ice",
-                "inferno",
-                "magma",
-                "matter",
-                "phase",
-                "plasma",
-                "rainbow",
-                "solar",
-                "speed",
-                "tempo",
-                "thermal",
-                "viridis"
-              ],
-              "default": "viridis"
-            },
-            "vminmax": {
-              "type": "object",
-              "title": "Value Range",
-              "properties": {
-                "vmin": {
-                  "type": "number",
-                  "default": 0.003,
-                  "format": "range",
-                  "minimum": 0.003,
-                  "step": 0.01
-                },
-                "vmax": {
-                  "type": "number",
-                  "default": 0.262,
-                  "format": "range",
-                  "maximum": 0.393,
-                  "step": 0.01
-                }
-              },
-              "format": "minmax"
-            },
-            "style": {
-              "type": "string",
-              "template": "cmap:{{cmap}},range:{{vminmax.vmin}}/{{vminmax.vmax}}",
-              "watch": {
-                "cmap": "cmap",
-                "vminmax": "vminmax"
-              },
-              "options": {
-                "hidden": true
-              }
-            }
-          },
-          "required": [
-            "vminmax",
-            "cmap"
-          ]
-        },
-        "legend": {
-          "title": "Mass concentration of prochlorophytes expressed as chlorophyll in sea water [mg/m^3]",
-          "scaleType": "continuous",
-          "tickFormat": ".2f",
-          "rangeProperty": "cmap",
-          "domainProperties": [
-            "vmin",
-            "vmax"
-          ]
-        }
       }
     },
     {
@@ -111,6 +30,87 @@
       "title": "Mass concentration of prochlorophytes expressed as chlorophyll in sea water"
     }
   ],
+  "eodash:rasterform": {
+    "jsonform": {
+      "type": "object",
+      "properties": {
+        "cmap": {
+          "type": "string",
+          "title": "Colormap",
+          "enum": [
+            "algae",
+            "amp",
+            "balance",
+            "cividis",
+            "cyclic",
+            "delta",
+            "dense",
+            "gray",
+            "haline",
+            "ice",
+            "inferno",
+            "magma",
+            "matter",
+            "phase",
+            "plasma",
+            "rainbow",
+            "solar",
+            "speed",
+            "tempo",
+            "thermal",
+            "viridis"
+          ],
+          "default": "viridis"
+        },
+        "vminmax": {
+          "type": "object",
+          "title": "Value Range",
+          "properties": {
+            "vmin": {
+              "type": "number",
+              "default": 0.003,
+              "format": "range",
+              "minimum": 0.003,
+              "step": 0.01
+            },
+            "vmax": {
+              "type": "number",
+              "default": 0.262,
+              "format": "range",
+              "maximum": 0.393,
+              "step": 0.01
+            }
+          },
+          "format": "minmax"
+        },
+        "style": {
+          "type": "string",
+          "template": "cmap:{{cmap}},range:{{vminmax.vmin}}/{{vminmax.vmax}}",
+          "watch": {
+            "cmap": "cmap",
+            "vminmax": "vminmax"
+          },
+          "options": {
+            "hidden": true
+          }
+        }
+      },
+      "required": [
+        "vminmax",
+        "cmap"
+      ]
+    },
+    "legend": {
+      "title": "Mass concentration of prochlorophytes expressed as chlorophyll in sea water [mg/m^3]",
+      "scaleType": "continuous",
+      "tickFormat": ".2f",
+      "rangeProperty": "cmap",
+      "domainProperties": [
+        "vmin",
+        "vmax"
+      ]
+    }
+  },
   "sci:doi": "10.48670/moi-00279",
   "themes": [
     "Aquaculture"

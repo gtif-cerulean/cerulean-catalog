@@ -21,87 +21,6 @@
       ],
       "wmts:dimensions": {
         "style": "cmap:algae"
-      },
-      "eodash:rasterform": {
-        "jsonform": {
-          "type": "object",
-          "properties": {
-            "cmap": {
-              "type": "string",
-              "title": "Colormap",
-              "enum": [
-                "algae",
-                "amp",
-                "balance",
-                "cividis",
-                "cyclic",
-                "delta",
-                "dense",
-                "gray",
-                "haline",
-                "ice",
-                "inferno",
-                "magma",
-                "matter",
-                "phase",
-                "plasma",
-                "rainbow",
-                "solar",
-                "speed",
-                "tempo",
-                "thermal",
-                "viridis"
-              ],
-              "default": "algae"
-            },
-            "vminmax": {
-              "type": "object",
-              "title": "Value Range",
-              "properties": {
-                "vmin": {
-                  "type": "number",
-                  "default": 0.027,
-                  "format": "range",
-                  "minimum": 0.027,
-                  "step": 0.1
-                },
-                "vmax": {
-                  "type": "number",
-                  "default": 1.813,
-                  "format": "range",
-                  "maximum": 2.72,
-                  "step": 0.1
-                }
-              },
-              "format": "minmax"
-            },
-            "style": {
-              "type": "string",
-              "template": "cmap:{{cmap}},range:{{vminmax.vmin}}/{{vminmax.vmax}}",
-              "watch": {
-                "cmap": "cmap",
-                "vminmax": "vminmax"
-              },
-              "options": {
-                "hidden": true
-              }
-            }
-          },
-          "required": [
-            "vminmax",
-            "cmap"
-          ]
-        },
-        "legend": {
-          "title": "Mass concentration of chlorophyll a in sea water - Biology [mg/m^3]",
-          "scaleType": "continuous",
-          "tickFormat": ".1f",
-          "rangeProperty": "cmap",
-          "domainProperties": [
-            "vmin",
-            "vmax"
-          ]
-        }
       }
     },
     {
@@ -111,6 +30,87 @@
       "title": "Mass concentration of chlorophyll a in sea water - Biology"
     }
   ],
+  "eodash:rasterform": {
+    "jsonform": {
+      "type": "object",
+      "properties": {
+        "cmap": {
+          "type": "string",
+          "title": "Colormap",
+          "enum": [
+            "algae",
+            "amp",
+            "balance",
+            "cividis",
+            "cyclic",
+            "delta",
+            "dense",
+            "gray",
+            "haline",
+            "ice",
+            "inferno",
+            "magma",
+            "matter",
+            "phase",
+            "plasma",
+            "rainbow",
+            "solar",
+            "speed",
+            "tempo",
+            "thermal",
+            "viridis"
+          ],
+          "default": "algae"
+        },
+        "vminmax": {
+          "type": "object",
+          "title": "Value Range",
+          "properties": {
+            "vmin": {
+              "type": "number",
+              "default": 0.027,
+              "format": "range",
+              "minimum": 0.027,
+              "step": 0.1
+            },
+            "vmax": {
+              "type": "number",
+              "default": 1.813,
+              "format": "range",
+              "maximum": 2.72,
+              "step": 0.1
+            }
+          },
+          "format": "minmax"
+        },
+        "style": {
+          "type": "string",
+          "template": "cmap:{{cmap}},range:{{vminmax.vmin}}/{{vminmax.vmax}}",
+          "watch": {
+            "cmap": "cmap",
+            "vminmax": "vminmax"
+          },
+          "options": {
+            "hidden": true
+          }
+        }
+      },
+      "required": [
+        "vminmax",
+        "cmap"
+      ]
+    },
+    "legend": {
+      "title": "Mass concentration of chlorophyll a in sea water - Biology [mg/m^3]",
+      "scaleType": "continuous",
+      "tickFormat": ".1f",
+      "rangeProperty": "cmap",
+      "domainProperties": [
+        "vmin",
+        "vmax"
+      ]
+    }
+  },
   "sci:doi": "10.48670/moi-00279",
   "themes": [
     "Aquaculture"

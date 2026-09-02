@@ -155,6 +155,31 @@
       "title": "Cerulean GTIF project catalog"
     }
   ],
+  "eox:colorlegend": {
+    "domain": [
+      -50,
+      50
+    ],
+    "range": [
+      "#840000",
+      "#f30000",
+      "#ff7600",
+      "#ffc800",
+      "#fff500",
+      "#cdff31",
+      "#85ff78",
+      "#31ffcc",
+      "#00f3ff",
+      "#00c3ff",
+      "#006cff",
+      "#0043ff",
+      "#0008ff",
+      "#000083"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "Displacement (mm)"
+  },
   "themes": [
     "Energy"
   ],

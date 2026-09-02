@@ -21,87 +21,6 @@
       ],
       "wmts:dimensions": {
         "style": "cmap:tempo"
-      },
-      "eodash:rasterform": {
-        "jsonform": {
-          "type": "object",
-          "properties": {
-            "cmap": {
-              "type": "string",
-              "title": "Colormap",
-              "enum": [
-                "algae",
-                "amp",
-                "balance",
-                "cividis",
-                "cyclic",
-                "delta",
-                "dense",
-                "gray",
-                "haline",
-                "ice",
-                "inferno",
-                "magma",
-                "matter",
-                "phase",
-                "plasma",
-                "rainbow",
-                "solar",
-                "speed",
-                "tempo",
-                "thermal",
-                "viridis"
-              ],
-              "default": "tempo"
-            },
-            "vminmax": {
-              "type": "object",
-              "title": "Value Range",
-              "properties": {
-                "vmin": {
-                  "type": "number",
-                  "default": 3.29,
-                  "format": "range",
-                  "minimum": 3.29,
-                  "step": 0.1
-                },
-                "vmax": {
-                  "type": "number",
-                  "default": 7.94,
-                  "format": "range",
-                  "maximum": 11.91,
-                  "step": 0.1
-                }
-              },
-              "format": "minmax"
-            },
-            "style": {
-              "type": "string",
-              "template": "cmap:{{cmap}},range:{{vminmax.vmin}}/{{vminmax.vmax}}",
-              "watch": {
-                "cmap": "cmap",
-                "vminmax": "vminmax"
-              },
-              "options": {
-                "hidden": true
-              }
-            }
-          },
-          "required": [
-            "vminmax",
-            "cmap"
-          ]
-        },
-        "legend": {
-          "title": "Sea surface wave mean period from variance spectral density second frequency moment [s]",
-          "scaleType": "continuous",
-          "tickFormat": ".1f",
-          "rangeProperty": "cmap",
-          "domainProperties": [
-            "vmin",
-            "vmax"
-          ]
-        }
       }
     },
     {
@@ -111,6 +30,87 @@
       "title": "Sea surface wave mean period from variance spectral density second frequency moment"
     }
   ],
+  "eodash:rasterform": {
+    "jsonform": {
+      "type": "object",
+      "properties": {
+        "cmap": {
+          "type": "string",
+          "title": "Colormap",
+          "enum": [
+            "algae",
+            "amp",
+            "balance",
+            "cividis",
+            "cyclic",
+            "delta",
+            "dense",
+            "gray",
+            "haline",
+            "ice",
+            "inferno",
+            "magma",
+            "matter",
+            "phase",
+            "plasma",
+            "rainbow",
+            "solar",
+            "speed",
+            "tempo",
+            "thermal",
+            "viridis"
+          ],
+          "default": "tempo"
+        },
+        "vminmax": {
+          "type": "object",
+          "title": "Value Range",
+          "properties": {
+            "vmin": {
+              "type": "number",
+              "default": 3.29,
+              "format": "range",
+              "minimum": 3.29,
+              "step": 0.1
+            },
+            "vmax": {
+              "type": "number",
+              "default": 7.94,
+              "format": "range",
+              "maximum": 11.91,
+              "step": 0.1
+            }
+          },
+          "format": "minmax"
+        },
+        "style": {
+          "type": "string",
+          "template": "cmap:{{cmap}},range:{{vminmax.vmin}}/{{vminmax.vmax}}",
+          "watch": {
+            "cmap": "cmap",
+            "vminmax": "vminmax"
+          },
+          "options": {
+            "hidden": true
+          }
+        }
+      },
+      "required": [
+        "vminmax",
+        "cmap"
+      ]
+    },
+    "legend": {
+      "title": "Sea surface wave mean period from variance spectral density second frequency moment [s]",
+      "scaleType": "continuous",
+      "tickFormat": ".1f",
+      "rangeProperty": "cmap",
+      "domainProperties": [
+        "vmin",
+        "vmax"
+      ]
+    }
+  },
   "sci:doi": "10.48670/moi-00022",
   "themes": [
     "Aquaculture",

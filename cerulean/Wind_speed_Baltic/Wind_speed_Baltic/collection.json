@@ -21,99 +21,6 @@
       ],
       "wmts:dimensions": {
         "style": "cmap:speed,vectorStyle:solidAndVector,range:0/35"
-      },
-      "eodash:rasterform": {
-        "jsonform": {
-          "type": "object",
-          "properties": {
-            "cmap": {
-              "type": "string",
-              "title": "Colormap",
-              "enum": [
-                "algae",
-                "amp",
-                "balance",
-                "cividis",
-                "cyclic",
-                "delta",
-                "dense",
-                "gray",
-                "haline",
-                "ice",
-                "inferno",
-                "magma",
-                "matter",
-                "phase",
-                "plasma",
-                "rainbow",
-                "solar",
-                "speed",
-                "tempo",
-                "thermal",
-                "viridis"
-              ],
-              "default": "speed"
-            },
-            "vminmax": {
-              "type": "object",
-              "title": "Value Range",
-              "properties": {
-                "vmin": {
-                  "type": "number",
-                  "default": 0.0,
-                  "format": "range",
-                  "minimum": 0.0,
-                  "step": 1
-                },
-                "vmax": {
-                  "type": "number",
-                  "default": 35.0,
-                  "format": "range",
-                  "maximum": 52.5,
-                  "step": 1
-                }
-              },
-              "format": "minmax"
-            },
-            "vectorStyle": {
-              "type": "string",
-              "title": "Vector Style",
-              "enum": [
-                "solid",
-                "solidAndVector",
-                "vector"
-              ],
-              "default": "solidAndVector"
-            },
-            "style": {
-              "type": "string",
-              "template": "cmap:{{cmap}},range:{{vminmax.vmin}}/{{vminmax.vmax}},vectorStyle:{{vectorStyle}}",
-              "watch": {
-                "cmap": "cmap",
-                "vminmax": "vminmax",
-                "vectorStyle": "vectorStyle"
-              },
-              "options": {
-                "hidden": true
-              }
-            }
-          },
-          "required": [
-            "vminmax",
-            "cmap",
-            "vectorStyle"
-          ]
-        },
-        "legend": {
-          "title": "Wind speed [m/s]",
-          "scaleType": "continuous",
-          "tickFormat": ".0f",
-          "rangeProperty": "cmap",
-          "domainProperties": [
-            "vmin",
-            "vmax"
-          ]
-        }
       }
     },
     {
@@ -123,6 +30,99 @@
       "title": "Wind speed - Baltic Sea"
     }
   ],
+  "eodash:rasterform": {
+    "jsonform": {
+      "type": "object",
+      "properties": {
+        "cmap": {
+          "type": "string",
+          "title": "Colormap",
+          "enum": [
+            "algae",
+            "amp",
+            "balance",
+            "cividis",
+            "cyclic",
+            "delta",
+            "dense",
+            "gray",
+            "haline",
+            "ice",
+            "inferno",
+            "magma",
+            "matter",
+            "phase",
+            "plasma",
+            "rainbow",
+            "solar",
+            "speed",
+            "tempo",
+            "thermal",
+            "viridis"
+          ],
+          "default": "speed"
+        },
+        "vminmax": {
+          "type": "object",
+          "title": "Value Range",
+          "properties": {
+            "vmin": {
+              "type": "number",
+              "default": 0.0,
+              "format": "range",
+              "minimum": 0.0,
+              "step": 1
+            },
+            "vmax": {
+              "type": "number",
+              "default": 35.0,
+              "format": "range",
+              "maximum": 52.5,
+              "step": 1
+            }
+          },
+          "format": "minmax"
+        },
+        "vectorStyle": {
+          "type": "string",
+          "title": "Vector Style",
+          "enum": [
+            "solid",
+            "solidAndVector",
+            "vector"
+          ],
+          "default": "solidAndVector"
+        },
+        "style": {
+          "type": "string",
+          "template": "cmap:{{cmap}},range:{{vminmax.vmin}}/{{vminmax.vmax}},vectorStyle:{{vectorStyle}}",
+          "watch": {
+            "cmap": "cmap",
+            "vminmax": "vminmax",
+            "vectorStyle": "vectorStyle"
+          },
+          "options": {
+            "hidden": true
+          }
+        }
+      },
+      "required": [
+        "vminmax",
+        "cmap",
+        "vectorStyle"
+      ]
+    },
+    "legend": {
+      "title": "Wind speed [m/s]",
+      "scaleType": "continuous",
+      "tickFormat": ".0f",
+      "rangeProperty": "cmap",
+      "domainProperties": [
+        "vmin",
+        "vmax"
+      ]
+    }
+  },
   "sci:doi": "10.48670/mds-00332",
   "themes": [
     "Baltic Sea"
