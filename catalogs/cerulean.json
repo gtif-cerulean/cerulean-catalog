@@ -94,6 +94,8 @@
     "*coastal_change_nrc",
     "fast_ice_ngi_eoapi",
     "fast_ice_ngi_barrowpoint_eoapi",
+    "fast_ice_ngi_caspiansea_eoapi",
+    "fast_ice_ngi_gulfofbothnia_eoapi",
     "CAN_HRDEM"
   ]
 }

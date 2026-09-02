@@ -1,0 +1,42 @@
+{
+    "Name": "Fast_Ice_NGI_GulfOfBothnia_Amplitude",
+    "Title": "Fast Ice NGI Gulf Of Bothnia Amplitude",
+    "CollectionGroup": "B. Satellite Data",
+    "Themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+    ],
+    "Description": "Fast Ice NGI Gulf of Bothnia",
+    "Resources": [
+        {
+            "EndPoint": "https://eoapi.workspace.polartep-iceview.hub-otc-sc.eox.at/stac/",
+            "Name": "VEDA",
+            "Type": "tiles",
+            "CollectionId": "Fast_Ice_GulfOfBothnia",
+            "ColormapName": "gray",
+            "Assets": [
+                "Amplitude"
+            ],
+            "Rescale": [
+                0,
+                80
+            ],
+            "NoData": "NaN"
+        }
+    ],
+    "Agency": [
+        "ESA"
+    ],
+    "Colorlegend": {
+        "title": "Amplitude",
+        "range": [
+      "#000000",
+      "#ffffff"
+        ],
+        "domain": [
+            0,
+            100
+        ]
+    }
+}
