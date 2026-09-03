@@ -856,6 +856,22 @@
     },
     {
       "rel": "child",
+      "href": "./shipping_indicator/collection.json",
+      "type": "application/json",
+      "title": "Shipping indicator",
+      "id": "shipping_indicator",
+      "themes": [
+        "Shipping"
+      ],
+      "sensor": [
+        "Satellite RCM",
+        "Satellite S1 IW",
+        "Numerical model"
+      ],
+      "collection_group": "Capabilities"
+    },
+    {
+      "rel": "child",
       "href": "./Sentinel1-EW-HH/collection.json",
       "type": "application/json",
       "title": "Sentinel 1 EW HH",
