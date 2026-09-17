@@ -180,8 +180,8 @@
     "temporal": {
       "interval": [
         [
-          "2026-09-16T13:44:56.120920Z",
-          "2026-09-16T13:44:56.120920Z"
+          "2026-09-17T13:49:13.343241Z",
+          "2026-09-17T13:49:13.343241Z"
         ]
       ]
     }
@@ -189,8 +189,8 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Energy",
-      "Shipping"
+      "Shipping",
+      "Energy"
     ],
     "satellite": [
       "multiple"
