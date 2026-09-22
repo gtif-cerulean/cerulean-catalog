@@ -358,7 +358,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2026-09-30T00:00:00Z"
+          "2026-10-01T00:00:00Z"
         ]
       ]
     }
@@ -366,14 +366,14 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Energy",
       "Aquaculture",
+      "Energy",
       "Shipping"
     ],
     "sensor": [
-      "Satellite S1 IW",
+      "Numerical model",
       "Satellite RCM",
-      "Numerical model"
+      "Satellite S1 IW"
     ]
   },
   "assets": {

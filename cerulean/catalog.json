@@ -864,9 +864,9 @@
         "Shipping"
       ],
       "sensor": [
-        "Satellite S1 IW",
+        "Numerical model",
         "Satellite RCM",
-        "Numerical model"
+        "Satellite S1 IW"
       ],
       "collection_group": "Capabilities"
     },
