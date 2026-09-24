@@ -358,7 +358,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2026-10-02T00:00:00Z"
+          "2026-10-03T00:00:00Z"
         ]
       ]
     }
@@ -371,9 +371,9 @@
       "Aquaculture"
     ],
     "sensor": [
-      "Numerical model",
       "Satellite S1 IW",
-      "Satellite RCM"
+      "Satellite RCM",
+      "Numerical model"
     ]
   },
   "assets": {
