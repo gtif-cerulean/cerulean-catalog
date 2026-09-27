@@ -358,7 +358,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2026-10-05T00:00:00Z"
+          "2026-10-06T00:00:00Z"
         ]
       ]
     }
@@ -371,9 +371,9 @@
       "Shipping"
     ],
     "sensor": [
+      "Satellite S1 IW",
       "Satellite RCM",
-      "Numerical model",
-      "Satellite S1 IW"
+      "Numerical model"
     ]
   },
   "assets": {
