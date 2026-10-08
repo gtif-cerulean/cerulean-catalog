@@ -189,7 +189,7 @@
       "interval": [
         [
           "2021-01-01T00:00:00Z",
-          "2026-05-01T00:00:00Z"
+          "2026-06-01T00:00:00Z"
         ]
       ]
     }
@@ -197,9 +197,9 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Aquaculture",
+      "Energy",
       "Shipping",
-      "Energy"
+      "Aquaculture"
     ],
     "sensor": [
       "Satellite Observations"
