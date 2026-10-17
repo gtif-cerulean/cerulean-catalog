@@ -865,8 +865,8 @@
       ],
       "sensor": [
         "Satellite RCM",
-        "Satellite S1 IW",
-        "Numerical model"
+        "Numerical model",
+        "Satellite S1 IW"
       ],
       "collection_group": "Capabilities"
     },
