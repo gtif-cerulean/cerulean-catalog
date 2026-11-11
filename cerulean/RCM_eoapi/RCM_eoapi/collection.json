@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "RCM_eoapi_HV",
+  "id": "RCM_eoapi",
   "stac_version": "1.1.0",
   "description": "RCM Data collection",
   "links": [
@@ -20,18 +20,6 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
-  "eox:colorlegend": {
-    "title": "HV sigma0",
-    "range": [
-      "#000000",
-      "#ffffff"
-    ],
-    "tickFormat": ".3f",
-    "domain": [
-      0,
-      0.005
-    ]
-  },
   "themes": [
     "Energy",
     "Aquaculture",
@@ -41,8 +29,12 @@
     "ESA"
   ],
   "collection_group": "B. Satellite Data",
+  "eodash:mapProjection": {
+    "name": "EPSG:3413",
+    "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+  },
   "endpointtype": "VEDA_tiles",
-  "title": "RCM scenes HV",
+  "title": "RCM scenes",
   "extent": {
     "spatial": {
       "bbox": [
@@ -69,7 +61,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
-      "file:size": 4619456,
+      "file:size": 4619447,
       "roles": [
         "collection-mirror"
       ]
