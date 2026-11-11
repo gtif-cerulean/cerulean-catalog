@@ -11,106 +11,15 @@
       "title": "Cerulean GTIF project catalog"
     },
     {
-      "rel": "wmts",
-      "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406",
-      "type": "image/png",
-      "title": "Sea ice area fraction - Antarctica",
-      "wmts:layer": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406/siconc",
-      "role": [
-        "data"
-      ],
-      "wmts:dimensions": {
-        "style": "cmap:ice"
-      }
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
       "title": "Sea ice area fraction - Antarctica"
     }
   ],
-  "eodash:rasterform": {
-    "jsonform": {
-      "type": "object",
-      "properties": {
-        "cmap": {
-          "type": "string",
-          "title": "Colormap",
-          "enum": [
-            "algae",
-            "amp",
-            "balance",
-            "cividis",
-            "cyclic",
-            "delta",
-            "dense",
-            "gray",
-            "haline",
-            "ice",
-            "inferno",
-            "magma",
-            "matter",
-            "phase",
-            "plasma",
-            "rainbow",
-            "solar",
-            "speed",
-            "tempo",
-            "thermal",
-            "viridis"
-          ],
-          "default": "ice"
-        },
-        "vminmax": {
-          "type": "object",
-          "title": "Value Range",
-          "properties": {
-            "vmin": {
-              "type": "number",
-              "default": 0.0,
-              "format": "range",
-              "minimum": 0.0,
-              "step": 0.01
-            },
-            "vmax": {
-              "type": "number",
-              "default": 0.996,
-              "format": "range",
-              "maximum": 1.494,
-              "step": 0.01
-            }
-          },
-          "format": "minmax"
-        },
-        "style": {
-          "type": "string",
-          "template": "cmap:{{cmap}},range:{{vminmax.vmin}}/{{vminmax.vmax}}",
-          "watch": {
-            "cmap": "cmap",
-            "vminmax": "vminmax"
-          },
-          "options": {
-            "hidden": true
-          }
-        }
-      },
-      "required": [
-        "vminmax",
-        "cmap"
-      ]
-    },
-    "legend": {
-      "title": "Sea ice area fraction",
-      "scaleType": "continuous",
-      "tickFormat": ".2f",
-      "rangeProperty": "cmap",
-      "domainProperties": [
-        "vmin",
-        "vmax"
-      ]
-    }
-  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "sci:doi": "10.48670/moi-00016",
   "themes": [
     "Antarctica"
@@ -141,7 +50,7 @@
       "interval": [
         [
           "2022-06-01T00:00:00Z",
-          "2026-11-19T00:00:00Z"
+          "2026-11-20T00:00:00Z"
         ]
       ]
     }
@@ -152,6 +61,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 47112,
       "roles": [
         "collection-mirror"
       ]

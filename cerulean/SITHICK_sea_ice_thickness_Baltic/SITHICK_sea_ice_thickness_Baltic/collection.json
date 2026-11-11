@@ -11,103 +11,15 @@
       "title": "Cerulean GTIF project catalog"
     },
     {
-      "rel": "wmts",
-      "href": "https://wmts.marine.copernicus.eu/teroWmts/BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411",
-      "type": "image/png",
-      "title": "Sea ice thickness - Baltic Sea",
-      "wmts:layer": "BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411/sithick",
-      "role": [
-        "data"
-      ]
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
       "title": "Sea ice thickness - Baltic Sea"
     }
   ],
-  "eodash:rasterform": {
-    "jsonform": {
-      "type": "object",
-      "properties": {
-        "cmap": {
-          "type": "string",
-          "title": "Colormap",
-          "enum": [
-            "algae",
-            "amp",
-            "balance",
-            "cividis",
-            "cyclic",
-            "delta",
-            "dense",
-            "gray",
-            "haline",
-            "ice",
-            "inferno",
-            "magma",
-            "matter",
-            "phase",
-            "plasma",
-            "rainbow",
-            "solar",
-            "speed",
-            "tempo",
-            "thermal",
-            "viridis"
-          ],
-          "default": "ice"
-        },
-        "vminmax": {
-          "type": "object",
-          "title": "Value Range",
-          "properties": {
-            "vmin": {
-              "type": "number",
-              "default": 0.0,
-              "format": "range",
-              "minimum": 0.0,
-              "step": 0.01
-            },
-            "vmax": {
-              "type": "number",
-              "default": 0.01,
-              "format": "range",
-              "maximum": 0.015,
-              "step": 0.01
-            }
-          },
-          "format": "minmax"
-        },
-        "style": {
-          "type": "string",
-          "template": "cmap:{{cmap}},range:{{vminmax.vmin}}/{{vminmax.vmax}}",
-          "watch": {
-            "cmap": "cmap",
-            "vminmax": "vminmax"
-          },
-          "options": {
-            "hidden": true
-          }
-        }
-      },
-      "required": [
-        "vminmax",
-        "cmap"
-      ]
-    },
-    "legend": {
-      "title": "Sea ice thickness [m]",
-      "scaleType": "continuous",
-      "tickFormat": ".2f",
-      "rangeProperty": "cmap",
-      "domainProperties": [
-        "vmin",
-        "vmax"
-      ]
-    }
-  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "sci:doi": "10.48670/moi-00010",
   "themes": [
     "Baltic Sea"
@@ -138,7 +50,7 @@
       "interval": [
         [
           "2022-12-02T00:00:00Z",
-          "2026-11-18T00:00:00Z"
+          "2026-11-19T00:00:00Z"
         ]
       ]
     }
@@ -149,6 +61,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 43162,
       "roles": [
         "collection-mirror"
       ]

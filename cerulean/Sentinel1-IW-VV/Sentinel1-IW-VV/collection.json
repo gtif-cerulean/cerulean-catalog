@@ -11,24 +11,14 @@
       "title": "Cerulean GTIF project catalog"
     },
     {
-      "rel": "wms",
-      "href": "https://sh.dataspace.copernicus.eu/ogc/wms/ce48ad62-7968-43f2-9008-848c7660f831",
-      "type": "image/png",
-      "title": "Sentinel 1 IW VV",
-      "wms:layers": [
-        "IW_VV_DB"
-      ],
-      "role": [
-        "data"
-      ],
-      "wms:tilesize": 1024
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
       "title": "Sentinel 1 IW VV"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "themes": [
     "Energy",
@@ -56,7 +46,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2026-11-10T00:00:00Z"
+          "2026-11-11T00:00:00Z"
         ]
       ]
     }
@@ -67,6 +57,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 57818,
       "roles": [
         "collection-mirror"
       ]

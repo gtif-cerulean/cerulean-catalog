@@ -17,6 +17,9 @@
       "title": "NIC Ice charts Arctic"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "themes": [
     "Aquaculture",
     "Energy",
@@ -68,6 +71,7 @@
       "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/nic-ice-charts-arctic/geojsons/daily_items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 16750,
       "roles": [
         "collection-mirror"
       ]

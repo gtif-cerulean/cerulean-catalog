@@ -11,34 +11,14 @@
       "title": "Cerulean GTIF project catalog"
     },
     {
-      "rel": "wms",
-      "href": "https://sh.dataspace.copernicus.eu/ogc/wms/ce48ad62-7968-43f2-9008-848c7660f831",
-      "type": "image/png",
-      "title": "Sentinel 1 IW VV Antarctica",
-      "wms:layers": [
-        "IW_VV_DB"
-      ],
-      "role": [
-        "data"
-      ],
-      "wms:tilesize": 1024,
-      "eodash:proj4_def": {
-        "name": "EPSG:3031",
-        "def": "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
-        "extent": [
-          -3299207.53,
-          -3333134.03,
-          3299207.53,
-          3333134.03
-        ]
-      }
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
       "title": "Sentinel 1 IW VV Antarctica"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "themes": [
     "Antarctica"
@@ -84,7 +64,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2026-11-10T00:00:00Z"
+          "2026-11-11T00:00:00Z"
         ]
       ]
     }
@@ -95,6 +75,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 61598,
       "roles": [
         "collection-mirror"
       ]

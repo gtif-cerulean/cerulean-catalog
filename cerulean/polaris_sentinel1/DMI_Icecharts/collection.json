@@ -17,6 +17,9 @@
       "title": "Sea Ice Concentration Comparison"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "themes": [
     "Shipping"
   ],
@@ -41,7 +44,7 @@
       "interval": [
         [
           "2025-01-01T00:00:00Z",
-          "2026-11-09T00:00:00Z"
+          "2026-11-10T00:00:00Z"
         ]
       ]
     }
@@ -52,6 +55,7 @@
       "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/dmi-ice-charts/flatgeobuf/daily_items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 71695,
       "roles": [
         "collection-mirror"
       ]

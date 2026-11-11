@@ -176,12 +176,6 @@
           -89.80000305175781,
           179.8000030517578,
           89.80000305175781
-        ],
-        [
-          -180.0,
-          -89.80000305175781,
-          179.8000030517578,
-          89.80000305175781
         ]
       ]
     },
@@ -197,9 +191,9 @@
   "license": "other",
   "summaries": {
     "themes": [
+      "Shipping",
       "Aquaculture",
-      "Energy",
-      "Shipping"
+      "Energy"
     ],
     "sensor": [
       "Numerical models"

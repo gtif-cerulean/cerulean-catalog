@@ -176,12 +176,6 @@
           30.0,
           179.8999999999795,
           89.93999999999991
-        ],
-        [
-          -180.0,
-          30.0,
-          179.8999999999795,
-          89.93999999999991
         ]
       ]
     },
@@ -197,9 +191,9 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Energy",
+      "Shipping",
       "Aquaculture",
-      "Shipping"
+      "Energy"
     ],
     "sensor": [
       "Satellite S1 IW"

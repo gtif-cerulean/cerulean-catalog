@@ -17,6 +17,9 @@
       "title": "CIS Ice charts"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "themes": [
     "Shipping"
   ],
@@ -58,6 +61,7 @@
       "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/cis-ice-charts/geojsons/daily_items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 20083,
       "roles": [
         "collection-mirror"
       ]
