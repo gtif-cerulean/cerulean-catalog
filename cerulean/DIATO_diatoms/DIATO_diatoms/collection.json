@@ -11,6 +11,19 @@
       "title": "Cerulean GTIF project catalog"
     },
     {
+      "rel": "wmts",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-multi-4km_P1M_202411",
+      "type": "image/png",
+      "title": "Mass concentration of diatoms expressed as chlorophyll in sea water",
+      "wmts:layer": "OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-multi-4km_P1M_202411/DIATO",
+      "role": [
+        "data"
+      ],
+      "wmts:dimensions": {
+        "style": "cmap:algae"
+      }
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -20,6 +33,87 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
+  "eodash:rasterform": {
+    "jsonform": {
+      "type": "object",
+      "properties": {
+        "cmap": {
+          "type": "string",
+          "title": "Colormap",
+          "enum": [
+            "algae",
+            "amp",
+            "balance",
+            "cividis",
+            "cyclic",
+            "delta",
+            "dense",
+            "gray",
+            "haline",
+            "ice",
+            "inferno",
+            "magma",
+            "matter",
+            "phase",
+            "plasma",
+            "rainbow",
+            "solar",
+            "speed",
+            "tempo",
+            "thermal",
+            "viridis"
+          ],
+          "default": "algae"
+        },
+        "vminmax": {
+          "type": "object",
+          "title": "Value Range",
+          "properties": {
+            "vmin": {
+              "type": "number",
+              "default": 0.003,
+              "format": "range",
+              "minimum": 0.003,
+              "step": 0.01
+            },
+            "vmax": {
+              "type": "number",
+              "default": 0.424,
+              "format": "range",
+              "maximum": 0.636,
+              "step": 0.01
+            }
+          },
+          "format": "minmax"
+        },
+        "style": {
+          "type": "string",
+          "template": "cmap:{{cmap}},range:{{vminmax.vmin}}/{{vminmax.vmax}}",
+          "watch": {
+            "cmap": "cmap",
+            "vminmax": "vminmax"
+          },
+          "options": {
+            "hidden": true
+          }
+        }
+      },
+      "required": [
+        "vminmax",
+        "cmap"
+      ]
+    },
+    "legend": {
+      "title": "Mass concentration of diatoms expressed as chlorophyll in sea water [mg/m^3]",
+      "scaleType": "continuous",
+      "tickFormat": ".2f",
+      "rangeProperty": "cmap",
+      "domainProperties": [
+        "vmin",
+        "vmax"
+      ]
+    }
+  },
   "sci:doi": "10.48670/moi-00279",
   "themes": [
     "Aquaculture"

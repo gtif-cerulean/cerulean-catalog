@@ -11,6 +11,19 @@
       "title": "Cerulean GTIF project catalog"
     },
     {
+      "rel": "wms",
+      "href": "https://sh.dataspace.copernicus.eu/ogc/wms/ce48ad62-7968-43f2-9008-848c7660f831",
+      "type": "image/png",
+      "title": "Sentinel 2 L2A",
+      "wms:layers": [
+        "S2_L2A"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:tilesize": 1024
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
