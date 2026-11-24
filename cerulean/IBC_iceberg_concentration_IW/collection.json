@@ -183,7 +183,7 @@
       "interval": [
         [
           "2023-11-25T10:01:00Z",
-          "2026-11-23T09:55:00Z"
+          "2026-11-24T09:48:00Z"
         ]
       ]
     }
@@ -191,9 +191,9 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Shipping",
+      "Aquaculture",
       "Energy",
-      "Aquaculture"
+      "Shipping"
     ],
     "sensor": [
       "Satellite S1 IW"
