@@ -358,7 +358,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2026-12-03T00:00:00Z"
+          "2026-12-04T00:00:00Z"
         ]
       ]
     }
@@ -367,13 +367,13 @@
   "summaries": {
     "themes": [
       "Aquaculture",
-      "Energy",
-      "Shipping"
+      "Shipping",
+      "Energy"
     ],
     "sensor": [
       "Numerical model",
-      "Satellite S1 IW",
-      "Satellite RCM"
+      "Satellite RCM",
+      "Satellite S1 IW"
     ]
   },
   "assets": {

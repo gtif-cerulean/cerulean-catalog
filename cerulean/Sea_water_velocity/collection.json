@@ -164,7 +164,7 @@
       "interval": [
         [
           "2025-01-01T00:00:00Z",
-          "2026-12-03T00:00:00Z"
+          "2026-12-04T00:00:00Z"
         ]
       ]
     }
@@ -172,9 +172,9 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Aquaculture",
       "Energy",
-      "Shipping"
+      "Shipping",
+      "Aquaculture"
     ]
   },
   "assets": {

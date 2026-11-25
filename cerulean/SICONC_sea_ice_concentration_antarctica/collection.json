@@ -28,7 +28,17 @@
       "otherSources": [
         "Spatial Resolution: 0.083° × 0.083°",
         "Frequency: Daily"
-      ]
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
     },
     {
       "rel": "service",
@@ -44,45 +54,9 @@
       "title": "EOxCloudless 2025",
       "roles": [
         "baselayer",
-        "visible"
-      ],
-      "id": "cloudless-2025",
-      "attribution": "{ EOxCloudless 2025: <a href=\"https://s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"https://eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2025) }"
-    },
-    {
-      "rel": "wms",
-      "href": "https://sxcat-demo.eox.at/sxcat_maps/wms",
-      "type": "image/png",
-      "title": "Terrain Light Stereographic North",
-      "roles": [
-        "baselayer",
         "invisible"
       ],
-      "id": "sx-cat_ortho680500",
-      "wms:layers": "sx-cat_ortho680500",
-      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
-      "eodash:proj4_def": {
-        "name": "ORTHO:680500",
-        "def": "+proj=ortho +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
-        "extent": [
-          -6422528,
-          -6422528,
-          6422528,
-          6422528
-        ]
-      }
-    },
-    {
-      "rel": "xyz",
-      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "image/jpeg",
-      "title": "Terrain light",
-      "roles": [
-        "baselayer",
-        "invisible"
-      ],
-      "id": "terrain-light",
-      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+      "id": "cloudless-2025"
     },
     {
       "rel": "xyz",
@@ -93,8 +67,24 @@
         "baselayer",
         "invisible"
       ],
-      "id": "eox-osm",
-      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+      "id": "OSM"
+    },
+    {
+      "rel": "wms",
+      "href": "https://sxcat-demo.eox.at/sxcat_maps/wms",
+      "type": "image/png",
+      "title": "Terrain Light Stereographic South",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "sx-cat_ortho320500",
+      "wms:layers": "sx-cat_ortho320500",
+      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
+      "eodash:proj4_def": {
+        "name": "ORTHO:320500",
+        "def": "+proj=ortho +lat_0=-90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs"
+      }
     },
     {
       "rel": "xyz",
@@ -160,6 +150,16 @@
     "Spatial Resolution: 0.083° × 0.083°",
     "Frequency: Daily"
   ],
+  "eodash:mapProjection": {
+    "name": "EPSG:32761",
+    "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+    "extent": [
+      -1371213.76,
+      -1405880.72,
+      5371213.76,
+      5405880.72
+    ]
+  },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/siconc.json",
   "eodash:merge_assets": false,
@@ -179,7 +179,7 @@
       "interval": [
         [
           "2022-06-01T00:00:00Z",
-          "2026-12-03T00:00:00Z"
+          "2026-12-04T00:00:00Z"
         ]
       ]
     }

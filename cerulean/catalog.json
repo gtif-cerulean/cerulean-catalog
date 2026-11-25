@@ -869,8 +869,8 @@
       ],
       "sensor": [
         "Numerical model",
-        "Satellite S1 IW",
-        "Satellite RCM"
+        "Satellite RCM",
+        "Satellite S1 IW"
       ],
       "collection_group": "Capabilities"
     },
@@ -1075,7 +1075,17 @@
       "otherSources": [
         "Spatial Resolution: 0.083° × 0.083°",
         "Frequency: Daily"
-      ]
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
     },
     {
       "rel": "child",
