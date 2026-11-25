@@ -367,13 +367,13 @@
   "summaries": {
     "themes": [
       "Aquaculture",
-      "Shipping",
-      "Energy"
+      "Energy",
+      "Shipping"
     ],
     "sensor": [
-      "Numerical model",
+      "Satellite S1 IW",
       "Satellite RCM",
-      "Satellite S1 IW"
+      "Numerical model"
     ]
   },
   "assets": {
